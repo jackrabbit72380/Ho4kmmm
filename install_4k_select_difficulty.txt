@@ -1,0 +1,79 @@
+edittag ui\halox\campaign\campaign_select_difficulty
+
+SetField groupwidgets[0].bitmapwidgets[0].data.flags 9
+SetField groupwidgets[0].bitmapwidgets[0].data.name background
+SetField groupwidgets[0].bitmapwidgets[0].data.Layer -9
+SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenYOffset -610
+SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenXOffset -1475
+SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenYUnknown 1080
+SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenXUnknown 2620
+SetField groupwidgets[0].bitmapwidgets[0].data.StandardYOffset 0
+SetField groupwidgets[0].bitmapwidgets[0].data.StandardXOffset 0
+SetField groupwidgets[0].bitmapwidgets[0].data.StandardYUnknown 0
+SetField groupwidgets[0].bitmapwidgets[0].data.StandardXUnknown 0
+SetField groupwidgets[0].bitmapwidgets[0].data.Animation ui\halox\global_animations\animation_collections\basic_fade.wacd
+SetField groupwidgets[0].bitmapwidgets[0].Bitmap ui\halox\common_bitmaps\selection_bkd.bitmap
+SetField groupwidgets[0].bitmapwidgets[0].BlendMethod Alpha
+SaveTagChanges
+exitto tags
+Exit
+
+edittag ui\halox\campaign\campaign_select_difficulty
+
+SetField groupwidgets[0].bitmapwidgets[1].data.flags 9
+SetField groupwidgets[0].bitmapwidgets[1].data.name difficulty_image
+SetField groupwidgets[0].bitmapwidgets[1].data.Layer 5
+SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenYOffset -376
+SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenXOffset 720
+SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenYUnknown 280
+SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenXUnknown 2364
+SetField groupwidgets[0].bitmapwidgets[1].data.StandardYOffset 254
+SetField groupwidgets[0].bitmapwidgets[1].data.StandardXOffset 55
+SetField groupwidgets[0].bitmapwidgets[1].data.StandardYUnknown 404
+SetField groupwidgets[0].bitmapwidgets[1].data.StandardXUnknown 518
+SetField groupwidgets[0].bitmapwidgets[1].data.Animation ui\halox\main_menu\animations\mainmenu_fade.wacd
+SetField groupwidgets[0].bitmapwidgets[1].Bitmap ui\halox\campaign\difficulty_ui.bitmap
+SetField groupwidgets[0].bitmapwidgets[1].BlendMethod Alpha
+SaveTagChanges
+exitto tags
+Exit
+
+edittag ui\halox\campaign\campaign_select_difficulty
+
+SetField groupwidgets[0].bitmapwidgets[2].data.flags 9
+SetField groupwidgets[0].bitmapwidgets[2].data.name background_blur
+SetField groupwidgets[0].bitmapwidgets[2].data.Layer -11
+SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenYOffset -610
+SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenXOffset -1475
+SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenYUnknown 1080
+SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenXUnknown 2620
+SetField groupwidgets[0].bitmapwidgets[2].data.StandardYOffset 0
+SetField groupwidgets[0].bitmapwidgets[2].data.StandardXOffset 0
+SetField groupwidgets[0].bitmapwidgets[2].data.StandardYUnknown 0
+SetField groupwidgets[0].bitmapwidgets[2].data.StandardXUnknown 0
+SetField groupwidgets[0].bitmapwidgets[2].data.Animation ui\halox\global_animations\animation_collections\basic_fade.wacd
+SetField groupwidgets[0].bitmapwidgets[2].Bitmap ui\halox\common\common_bitmaps\black_25.bitmap
+SetField groupwidgets[0].bitmapwidgets[2].BlendMethod Alpha
+SaveTagChanges
+exitto tags
+Exit
+
+edittag ui\halox\campaign\campaign_select_difficulty
+
+SetField groupwidgets[0].bitmapwidgets[3].data.flags 9
+SetField groupwidgets[0].bitmapwidgets[3].data.name background_darkening
+SetField groupwidgets[0].bitmapwidgets[3].data.Layer -10
+SetField groupwidgets[0].bitmapwidgets[3].data.WidescreenYOffset -610
+SetField groupwidgets[0].bitmapwidgets[3].data.WidescreenXOffset -1475
+SetField groupwidgets[0].bitmapwidgets[3].data.WidescreenYUnknown 1080
+SetField groupwidgets[0].bitmapwidgets[3].data.WidescreenXUnknown 2620
+SetField groupwidgets[0].bitmapwidgets[3].data.StandardYOffset 0
+SetField groupwidgets[0].bitmapwidgets[3].data.StandardXOffset 0
+SetField groupwidgets[0].bitmapwidgets[3].data.StandardYUnknown 0
+SetField groupwidgets[0].bitmapwidgets[3].data.StandardXUnknown 0
+SetField groupwidgets[0].bitmapwidgets[3].data.Animation ui\halox\global_animations\animation_collections\basic_fade.wacd
+SetField groupwidgets[0].bitmapwidgets[3].Bitmap ui\halox\common\common_bitmaps\black_25.bitmap
+SetField groupwidgets[0].bitmapwidgets[3].BlendMethod Alpha
+SaveTagChanges
+exitto tags
+Exit
