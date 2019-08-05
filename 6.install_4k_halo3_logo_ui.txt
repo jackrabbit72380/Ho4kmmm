@@ -1,4 +1,0 @@
-edittag 0x05B9
-importbitmap 0 mods\maps\mainmenu\bitmaps\halo3_logo_ui_4k.dds
-savetagchanges
-exit
