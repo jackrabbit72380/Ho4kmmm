@@ -1,25 +1,3 @@
-
-Echo refrence 4k bungie logo in campaign select level
- 
-edittag ui\halox\campaign\campaign_select_level.scn3
-SetField groupwidgets[0].bitmapwidgets[8].data.flags 10
-SetField groupwidgets[0].bitmapwidgets[8].data.name title
-SetField groupwidgets[0].bitmapwidgets[8].data.Layer -1
-SetField groupwidgets[0].bitmapwidgets[8].data.WidescreenYOffset 700
-SetField groupwidgets[0].bitmapwidgets[8].data.WidescreenXOffset 1350
-SetField groupwidgets[0].bitmapwidgets[8].data.WidescreenYUnknown -204
-SetField groupwidgets[0].bitmapwidgets[8].data.WidescreenXUnknown 860
-SetField groupwidgets[0].bitmapwidgets[8].data.StandardYOffset 1710
-SetField groupwidgets[0].bitmapwidgets[8].data.StandardXOffset 0
-SetField groupwidgets[0].bitmapwidgets[8].data.StandardYUnknown 0
-SetField groupwidgets[0].bitmapwidgets[8].data.StandardXUnknown 0
-SetField groupwidgets[0].bitmapwidgets[8].data.Animation ui\halox\animations\mainmenu_fade.wacd
-SetField groupwidgets[0].bitmapwidgets[8].Bitmap ui\halox\main_menu\4k_bungielogo.bitmap
-SetField groupwidgets[0].bitmapwidgets[8].BlendMethod Alpha
-SaveTagChanges
-exitto tags
-Exit
-
 Echo refrence campaign select mission bitmap
 
 edittag ui\halox\campaign\campaign_select_level.scn3
