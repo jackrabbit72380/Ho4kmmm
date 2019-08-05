@@ -19,3 +19,7 @@ Please bare with me as I develop this mod.
 Instalation: Port the Halo 3 campaign useing noshotz script then install the mod useing the gardians tagtool.
 
 "00.install_campaign_&_theater_options.txt" is only for unported Halo Online Eldeweto Version 0.6.1.0.
+
+I just uploaded tutorial legend so you can fix anything it list all the 4k mod settings just not in script format
+
+it's what im useing to create the script.
