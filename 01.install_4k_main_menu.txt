@@ -74,14 +74,13 @@ exit
 echo move the ([Home]>Settings) (Y)Frends button's
 
 edittag ui\halox\main_menu\main_menu_offline.bkey
-SetField textwidgets[0].data.WidescreenYOffset 1080
-SetField textwidgets[0].data.WidescreenXOffset -669
-SetField textwidgets[0].data.WidescreenYUnknown 1135
-SetField textwidgets[0].data.WidescreenXUnknown 810
-SetField textwidgets[0].data.StandardYOffset 0
-SetField textwidgets[0].data.StandardXOffset 0
-SetField textwidgets[0].data.StandardYUnknown 0
-SetField textwidgets[0].data.StandardXUnknown 1
+SetField TextWidgets[0].WidescreenYBoundsMin 1080
+SetField TextWidgets[0].WidescreenXBoundsMin -669
+SetField TextWidgets[0].WidescreenYBoundsMax 1135
+SetField TextWidgets[0].WidescreenXBoundsMax 810
+SetField TextWidgets[0].StandardYBoundsMin 0
+SetField TextWidgets[0].StandardXBoundsMin 0
+SetField TextWidgets[0].StandardYBoundsMax 0
+SetField TextWidgets[0].StandardXBoundsMax 1
 SaveTagChanges
 exitto tags
-exit
