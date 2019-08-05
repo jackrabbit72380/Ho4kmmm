@@ -14,4 +14,4 @@ Please Make sure your dewrito_prefs.cfg Has UI Scaling Turned off Graphics.UISca
 
 Things are alittle messy rightnow and some flags are off. You have been warned.
 
-Please bare with me as I conteue to develop this mod.
+Please bare with me as I develop this mod.
