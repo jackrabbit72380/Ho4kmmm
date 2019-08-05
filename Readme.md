@@ -2,7 +2,7 @@
 
 Halo Online 4K Main Menu/UI Mod.
 
-This Mod is for Halo Online Eldeweto Version 0.6.1.0.
+This Mod is curently only for A (Halo 3 Capmaign) ported version Halo Online Eldeweto Version 0.6.1.0.
 
 FYI This script is made to work with Tag Tool [1.5.7136.891].
 
@@ -15,3 +15,5 @@ Please Make sure your dewrito_prefs.cfg Has UI Scaling Turned off Graphics.UISca
 Things are alittle messy rightnow and some flags are off. You have been warned.
 
 Please bare with me as I develop this mod.
+
+Instalation: Port the Halo 3 campaign useing noshotz script then install the mod useing the gardians tagtool.
