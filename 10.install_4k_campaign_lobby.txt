@@ -1,2 +1,12 @@
 edittag pregame_lobby_campaign.scn3
-
+SetField groupwidgets[2].bitmapwidgets[0].data.flags 9
+SetField groupwidgets[2].bitmapwidgets[0].data.name channel
+SetField groupwidgets[2].bitmapwidgets[0].data.Layer -10
+SetField groupwidgets[2].bitmapwidgets[0].data.WidescreenYOffset 610
+SetField groupwidgets[2].bitmapwidgets[0].data.WidescreenXOffset -1195
+SetField groupwidgets[2].bitmapwidgets[0].data.WidescreenYUnknown 1250
+SetField groupwidgets[2].bitmapwidgets[0].data.WidescreenXUnknown -290
+SetField groupwidgets[2].bitmapwidgets[0].data.StandardYOffset 285
+SetField groupwidgets[2].bitmapwidgets[0].data.StandardXOffset 40
+SetField groupwidgets[2].bitmapwidgets[0].data.StandardYUnknown 450
+SetField groupwidgets[2].bitmapwidgets[0].data.StandardXUnknown 216
