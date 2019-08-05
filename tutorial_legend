@@ -1,0 +1,1603 @@
+ __  __              ___                                           __
+/\ \ \ \            /\_ \              ______     ____     ___    /\_\
+\ \ \_\ \      __   \//\ \    ______  /\  __ \  /\' __`/\  \_  \  \/_/_
+ \ \  __`\   /'__`\   \ \ \  /\  __ \ \ \ \ \ \ \ \ \ \  \  \/\ \   /\ \    ______      ____
+  \ \ \ \ \ /\ \_\.\_  L_\ \_\ \ \_\ \ \ \ \_\ \ \ \ \ \  \  \ \ \  \ \ \  /\  /\'`\   /  __`\
+   \ \ \ \_\\ \__/.\_\ /\____\\ \_____\ \ \____ \ \ \ \ \  \  L_\ \_ \ \ \ \ \ \ \  \ /\  ___/
+    \ \ \\/_/\/__/\/_/ \/____/ \/_____/  \/_____/  \/_/ /__/ /\_____\ \ \_\ \ \ \ \  \\ \____\
+     \/_/                                                    \/____ /  \/_/  \/_/  \_/ \/____/
+-Index -
+(1.) How to remove build number 0.6.0.0.
+(2.) How to edit the blue tint in Halo Online's Main Menu.
+(3.) How to edit the main menu background widget.
+(4.) How to remove the main menu background bottom black bar widget.
+(5.) How to move your list widget items.
+(6.) How to change or remove halo online & bungie logo.
+(7.) How to move your list widget items in Pregame lobby.
+(8.) How to edit pregame lobby background bitmaps.
+(9.) How to edit/move ([Home]>settings).
+(10.) How to edit/move the blue background widget for the pregame lobby for multiplayer & forge.
+(11.) How to edit ([Home](>)Settings(a)Select(b)Leave).
+(12.) Where to change player name location.
+(13.) How to move map preview picture.
+(14.) How to adjust size on map preview picture.
+(15.) How to move font for pregame lobby list.
+(16.) How to size the Orange selection bar for main menu,pregame lobby & map selection submenu.
+(17.) Where to change the font placement for select game type in gametype sub menu (map selection) screen.
+(18.) Where to change font color & size for pregame lobby list (map selection) screen.
+(19.) Where to change map preview image size & location for pregame lobby list (map selection) screen.
+(20.) Where to edit garnet background in map selection list under map description.
+(21.) Where to change blue bar shadow under Built In in map select sub menu.
+(22.) Where to edit map name in map select sub menu on top of built in.
+(23.) Where to edit selected map preview image & description in map slection screen submenu.
+(24.) Where to edit “MULTIPLAYER” text.
+(25.) Where to edit "SELECT MAP" Text on map selection screen.
+(26.) Where to edit "OPTIONS" text on options screen.
+(27.) Where to edit options list left side on options screen.
+(28.) Where to edit text in game options menu.
+(29.) How to edit local games screen.
+(30.) Where to edit “SELECT DIFFICULTY” text on select difficulty screen.
+(31.) Where to edit description text on select difficulty screen
+(32.) Where to edit "easy, normal, heroic, legendary" text on campaign select difficulty screen screen.
+(33.) How to space out the words  "easy, normal, heroic, legendary" text on campaign select difficulty screen.
+(34.) Where to edit select difficulty screen background.
+(35.) How to edit difficulty select background.
+(36.) How to add map preview picture to the campaign lobby.
+(37.) How to add map preview picture to the campaign mission select.
+(38.) How to edit campaign lobby mission select background.
+(39.) Where to edit campaign select level menu.
+(40.) How to move map names in mission select menu.
+(41.)how to change the font & font color in mission select menu
+-index end-
+¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦
+¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦
+¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦
+(1.) How to remove build number 0.6.0.0
+
+Open The main_menu.map in Assembly
+Click tags
+find "scn3 - gui_screen_widget_definition" And expand it.
+find ui\halox\main_menu\main_menu
+scroll down to "text Widgets" & in the top right select index "1 -1 (2)"
+remove the Text String "start_new_campaign"
+Save.
+¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦
+(2.) How to change or remove the blue tint in Halo Online's Main Menu.
+open main menu in assembly
+find "sefc - area_screen_effect" And expand it.
+find 0x0000572B
+also named levels\ui\mainmenu\sky\ui
+change Tint from #FF111A44 to R: 255 G:255 B:255 A:0
+change color muting from 1 to 0
+save.
+
+tip's
+Make night time map.
+This works great on Valhalla.
+#F0010C18
+color muting 0
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+(3.) How to remove the main menu background widget.
+
+ Open mainmenu.map in Assembly
+find "scn3 - gui_screen_widget_definition" And expand it.
+find ui\halox\main_menu\main_menu
+Scroll down to bitmap widgets and in the top left select 0-3(4)
+under Bitmap "bitm" you will see 0x0000078C
+or named ui\halox\main_menu\mainmenu_bkd
+
+ This is the main menu background widget!
+you can null it or change it! or move it! it's up to you.
+save
+ or if you want to move it...You can reference this chart for most of this tutorial.
+Is on the left and top while + in on the right and bottom
+#############################################################         
+Widescreen Y bounds min - moves the top up & down                      
+Widescreen X bounds min - moves the left side left & right             
+Widescreen Y bounds max - moves the bottom up & down
+Widescreen X bounds max - moves the right side left & right
+#############################################################
+ Then save
+ Tip's
+ My Settings
+ 0-3(4)
+
+                         |default |small   |large     |4kmod
+widescreen y bounds min -|346     |895     |600       |610
+widescreen x bounds min -|78      |-1125   |-1185     |-1195
+widescreen y bounds max -|595     |1130    |1250      |1250
+widescreen x bounds max -|385     |-810    |-100      |-290
+Standard Y Bounds min - |285     |unchanged|unchanged
+Standard X Bounds min - |40      |unchanged|unchanged
+Standard Y Bounds max - |450     |unchanged|unchanged
+Standard X Bounds max - |216     |unchanged|unchanged
+
+ if you set it to "ui\halox\start_menu\panels\common\start_menu_emblems_ui" You can then change the sprite index to show different emblems.
+if you leave it on "bitm" & point to "ui\halox\sandbox_ui\window_bkd_ui" & change blend method to Alpha you can get a nice new background.
+ Example's
+Has nice green tint. "Ui\halox\common\common_bitmaps\base_background_ui"
+
+Is the eldowrito logo "0x00005ADE"
+Adds a contrasty tint to your background. "Ui\halox\pregame_lobby\config_top_ui"
+ 1-3(4)
+1250
+-1195
+1400
+-290
+450
+40
+480
+216
+ 2-3(4)
+610
+-1195
+1250
+-290
+285
+40
+480
+216
+2-3(4)
+-9000
+-9000
+9000
+9000
+0
+0
+0
+0
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+(4.) How to remove the main menu background bottom black bar widget.
+find "scn3 - gui_screen_widget_definition" And expand it.
+ui\halox\main_menu\main_menu
+bitmap widgets 
+select 1-3 (4)
+File Offset 0x0000078d is the bottom black bar widget
+or named ui\halox\main_menu\bottom_gradient_ui
+null the bitmap or move it
+
+save
+
+Tip's
+
+my settings
+                          |small bottom left|big bottom left|4kmod
+Widescreen Y bounds min - |895              |1250           |1250
+Widescreen X bounds min - |-1125            |-1185          |-1195
+Widescreen Y bounds max - |1130             |1400           |1400
+Widescreen X bounds max - |-810             |-100           |-290
+
+set to 3-3(4)
+bitmap ui\halox\sandbox_ui\window_bkd_ui ;;for nice green tint full screen;;
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+(5.) How to move your list widget items.
+
+find "scn3 - gui_screen_widget_definition" Expand it.
+find ui\halox\main_menu\main_menu
+File Offset 0x47B150
+
+
+Find list widget items.
+Now for the tricky part. Everything you see is going to be pretty much blank except for a -32 on widescreen Y offset.
+so we need to name these list widget items.
+There are only 6, Change which line you want to edit.
+select List Widget Items & click the "0-5 (6)" there are 6 items to choose from.
+
+0-5 (6)Name it. "server_browser"
+1-5 (6)Name it. "multiplayer"
+2-5 (6)Name it. "mapeditor"
+3-5 (6)Name it. "game_browser"
+4-5 (6)Name it. "settings"
+5-5 (6)Name it. "exit"
+
+Now we can edit the placement on screen!
+widescreen X offset "-" value moves the item left example -900 would move "server browser" more to the left.
+if you want to move it to the right instead just remove the "-"
+for widescreen Y offset "-" value makes it move up. Remove the "-" to make it go down.
+Now to move the placement we only need to edit the first 2 offsets X & Y. keep in mind that the offset flips in the middle of the screen.
+My settings for moving the menu to the bottom right are explained here.
+the text is separated by multiples of around 20 we are basically counting pixels here. like 500,520,540
+if you want to make them appear more separated skipping lines like I have, you can increase the separation buy 20 and go 500,540,580 etc.
+example...
+
+0-5 (6)                     |4kmod 
+widescreen Y offset 500     |230
+widescreen X offset -1200   |-1276
+
+1-5 (6)        
+widescreen Y offset 540     |320   
+widescreen X offset -1200   |-1276
+
+2-5 (6)
+widescreen Y offset 580     |410
+widescreen X offset -1200   |-1276
+
+3-5 (6)
+widescreen Y offset 620     |500
+widescreen X offset -1200   |-1276
+
+4-5 (6)
+widescreen Y offset 660     |590
+widescreen X offset -1200   |-1276
+
+5-5 (6)
+widescreen Y offset 700     |680
+widescreen X offset -1200   |-1276
+-----------------------------------
+Don’t pay any attention to this.
+it’s for if you want extra.
+
+widescreen Y offset --------|770
+widescreen X offset --------|-1276
+widescreen Y offset --------|860
+widescreen X offset --------|-1276
+
+ Tip's
+If you want them centered just remove the - keep in mind this does not increase the size.
+/////////////////////////////////////////////////////////////////////////////////////////////////////(6.) How to change or remove halo online & bungie logo's
+
+find "scn3 - gui_screen_widget_definition" Expand it.
+find ui\halox\main_menu\main_menu
+File Offset 0x47B150
+
+Set "Group widgets" to "1-1 (2)"
+
+go to Bitmap widgets & change to 0-1 (2)
+
+Then next to bitmap you will find 0x0000572C.
+or named "halo3_logo_ui" you can null,change or remove it!
+my setting                    |4kmod
+widescreen Y bounds min - 500 |500
+widescreen X bounds min - 700 |500
+widescreen Y bounds max - 0   |1200
+widescreen X bounds max - 0   |2450
+Standard Y Bounds min - 311   |0
+Standard X Bounds min - 257   |0
+Standard Y Bounds max - 0     |0
+Standard X Bounds max - 0     |0
+
+go to "Bitmap widgets" to "1-1 (2)"
+
+Then next to Bitmap you will find 0x0000792
+This is the bungie logo! you can null,change or remove it!
+my setting...
+                               |4kmod
+widescreen Y bounds min - 1240 |1180
+widescreen X bounds min - 1940 |1810
+widescreen Y bounds max - 0    |1370
+widescreen X bounds max - 0    |2300
+Standard Y Bounds min - 0
+Standard X Bounds min - 0
+Standard Y Bounds max - 0
+Standard X Bounds max - 0
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+(7.) How to move your list widget items in pre game lobby's.
+
+find "scn3 - gui_screen_widget_definition"
+ui\halox\pregame_lobby\pregame_lobby_ "menu name you want to change"
+find list widgets
+
+widescreen y offset and widescreen x offset moves the text.
+
+ui\halox\pregame_lobby\pregame_lobby_multiplayer
+Name:Lobby_list
+85-----------------------------------------------------|85
+86-----------------------------------------------------|-1186
+0------------------------------------------------------|0
+0------------------------------------------------------|-100
+0
+0
+0
+0
+---------------------------------------------------------------------------------
+ui\halox\pregame_lobby\pregame_lobby_multiplayer "pregame_lobby_multiplayer.scn3"
+List Widget Items
+
+MyMod Settings
+
+0 - 5(6)
+switch_lobby
+widescreen Y Offset |-490
+
+1 - 5(6)
+host_custom_game
+widescreen Y Offset |-431
+
+2 - 5(6)
+game_type
+widescreen Y Offset |-372
+
+3 - 5(6)
+map
+widescreen Y Offset |-313
+
+4 - 5(6)
+start_game
+widescreen Y Offset |-173
+
+5 - 5(6)
+game_options
+widescreen Y Offset |-80
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+(8.) How to edit pregame lobby background bitmaps.
+
+------blue background with black bars on the top & bottom
+ui\halox\pregame_lobby\selection\pregame_selection (map selection screen)
+bitmap widgets
+
+0x00000738
+
+---------------default settings-------/-------my 4k mod settings---------------------------
+0 - 3 (4)
+
+y min 0-------------------------------/-850
+x min 0-------------------------------/-1475
+y max 462-----------------------------/1310
+x max 1152----------------------------/2625
+
+------not sure what background this is?
+1 - 3 (4)
+
+y min -89-----------------------------/
+x min 0-------------------------------/
+y max 640-----------------------------/
+x max 1152----------------------------/
+------dark background
+2 - 3 (4)
+
+y min -9000---------------------------/
+x min -9000---------------------------/
+y max 9000----------------------------/
+x max 9000----------------------------/
+------garnet map surrounding map preview picture
+3 - 3 (4)
+Name:background
+y min 51------------------------------/
+x min 719-----------------------------/
+y max 456-----------------------------/
+x max 972-----------------------------/
+Bitmap: ui\halox\common\common_bitmaps\third_column
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+(9.) How to move that annoying ([Home] > settings) Thingy out of the middle of your screen
+go to "bkey - gui_button_key_definition"
+and expand the first entry 0x00000001 
+named "ui\halox\main_menu\main_menu_offline"
+go down to text widgets
+
+this ones a little tricky. it does not move like the widgets do.
+default settings are...
+
+                            |default |4kmod my settings for bottom left.
+Widescreen Y bounds min -   |565     |1080
+Widescreen X bounds min -   |85      |-669
+Widescreen Y bounds max -   |600     |1135
+Widescreen X bounds max -   |700     |810
+Standard Y bounds min -     |428     |0
+Standard X bounds min -     |48      |0
+Standard Y bounds max -     |459     |0
+Standard X bounds max -     |462     |1
+
+Your Y - X Will move it around & Text Font Will change the font
+it references the maps/fonts/font_package.bin
+if you want to open or edit the font_package.bin you can use FontPackager v1.4 buy lord zedd. you can get it from git hub.
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+(10.) How to move the blue background widget for the pregame lobby for multiplayer & forge.
+
+find "grup - gui_group_widget_definition"
+7th one down is...
+0x000009C9 scroll down to "Bitmap Widgets"
+ui\halox\pregame_lobby\pregame_lobby_template
+
+	Text widgets
+
+ (MULTIPLAYER LOBBY)
+0 -5 (6)
+
+Name:tite
+41
+88
+111
+544
+0
+0
+0
+0
+
+ (1 player 2 max)
+1 - 5 (5)
+Name:players_in_gamne
+0
+0
+                        |4kmod
+36                      |-610
+846                     |1546                  
+73                      |73
+1093                    |2000
+23                      |23
+444                     |444
+53                      |44
+640                     |640
+
+2 - 5 (6)
+Name:change_teams
+577
+450
+612
+1018
+421
+0
+451
+58
+
+3 - 5 (6)
+Name:postgame_stats
+
+551
+88
+579
+538
+0
+0
+0
+0
+
+4 - 5 (6)
+Name: advanced_options
+227
+88
+377
+537
+0
+0
+0
+0
+
+5 - 5 (6)
+name:not_squad_leader
+195
+88
+225
+537
+0
+0
+0
+0
+
+
+---------------------------
+Bitmap Widgets
+
+0 - 3 (4)
+Name:channel (blue background widget for the pregame lobby for multiplayer & forge.)
+--------------------------|default-|4kmod
+-----------------------------------------------
+Layer - 50
+Widescreen Y bounds min - |79------|-750
+Widescreen X bounds min - |640-----|-1185
+Widescreen Y bounds max - |542-----|1370
+Widescreen X bounds max - |-100----|448
+Standard Y bounds min - |285-------|
+Standard X bounds min - |40--------|
+Standard Y bounds max - |450-------|
+Standard X bounds max - |216-------|
+Bitmap: 0x000009da
+
+1 - 3 (4)
+Name:fade
+-1
+-1
+641
+1300
+0
+0
+0
+0
+Bitmap:blackness_ui
+
+2 - 3 (4)
+Name:channel (this layer appears on top of the other layer)
+--------------------------|default----------|4kmod
+-----------------------------------------------
+Widescreen Y bounds min -  |79-----|-400
+Widescreen X bounds min -  |640---|-1185
+Widescreen Y bounds max - |542---|1050
+Widescreen X bounds max - |-100---|448
+Standard Y bounds min -      |285---|
+Standard X bounds min -      |40----|
+Standard Y bounds max -      |450--|
+Standard X bounds max -      |216---|
+
+Bitmap:0x000009da
+
+3 - 3 (4)
+
+-9000
+-9000
+9000
+9000
+black_fade_ui
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+?.How to move your list widget items in pre game lobby's 
+find "scn3 - gui_screen_widget_definition"
+ui\halox\pregame_lobby\pregame_lobby_ "menu name you want to change"
+find list widgets
+
+widescreen y offset and widescreen x offset moves the text.
+
+ui\halox\pregame_lobby\pregame_lobby_multiplayer
+Name:Lobby_list
+default------------------------------------------------4kmod
+85-----------------------------------------------------|85
+86-----------------------------------------------------|-1186
+0------------------------------------------------------|0
+0------------------------------------------------------|-100
+0
+0
+0
+0
+=======================================================================================
+ui\halox\pregame_lobby\pregame_lobby_multiplayer "pregame_lobby_multiplayer.scn3"
+List Widget Items
+
+My new 4k settings...
+
+0 - 5(6)
+switch_lobby
+widescreen Y Offset |-267
+
+1 - 5(6)
+host_custom_game
+widescreen Y Offset |-211
+
+2 - 5(6)
+game_type
+widescreen Y Offset |-152
+
+3 - 5(6)
+map
+widescreen Y Offset |-98
+
+4 - 5(6)
+start_game
+widescreen Y Offset |-26
+
+5 - 5(6)
+game_options
+widescreen Y Offset |42 
+===============================================================================================
+
+------blue background with black bars on the top & bottom
+ui\halox\pregame_lobby\selection\pregame_selection (map selection screen)
+bitmap widgets
+
+0x00000738
+
+default settings-------/-------my 4k mod settings
+0 - 3 (4)
+
+y min 0-------------------------------/-850
+x min 0-------------------------------/-1475
+y max 462-----------------------------/1310
+x max 1152----------------------------/2625
+
+------not sure what background this is?
+1 - 3 (4)
+
+y min -89-----------------------------/
+x min 0-------------------------------/
+y max 640-----------------------------/
+x max 1152----------------------------/
+------dark background
+2 - 3 (4)
+
+y min -9000---------------------------/
+x min -9000---------------------------/
+y max 9000----------------------------/
+x max 9000----------------------------/
+------garnet map surrounding map preview picture
+3 - 3 (4)
+Name:background
+y min 51------------------------------/
+x min 719-----------------------------/
+y max 456-----------------------------/
+x max 972-----------------------------/
+Bitmap: ui\halox\common\common_bitmaps\third_column
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+(10.) How to move the blue background widget for the pregame lobby for multiplayer & forge.
+
+find "grup - gui_group_widget_definition"
+7th one down is...
+0x000009C9 scroll down to "Bitmap Widgets"
+ui\halox\pregame_lobby\pregame_lobby_template
+
+	Text widgets
+
+ (MULTIPLAYER LOBBY)
+0 -5 (6)
+
+Name:tite
+41
+88
+111
+544
+0
+0
+0
+0
+
+ (1 player 2 max)
+1 - 5 (5)
+Name:players_in_gamne
+36
+846
+73
+1093
+23
+444
+53
+640
+
+2 - 5 (6)
+Name:change_teams
+577
+450
+612
+1018
+421
+0
+451
+58
+
+3 - 5 (6)
+Name:postgame_stats
+
+551
+88
+579
+538
+0
+0
+0
+0
+
+4 - 5 (6)
+Name: advanced_options
+227
+88
+377
+537
+0
+0
+0
+0
+
+5 - 5 (6)
+name:not_squad_leader
+195
+88
+225
+537
+0
+0
+0
+0
+
+
+---------------------------
+Bitmap Widgets
+
+0 - 3 (4)
+Name:channel (blue background widget for the pregame lobby for multiplayer & forge.)
+--------------------------|default-|my settings
+-----------------------------------------------
+Layer - 50
+Widescreen Y bounds min - |0------|-750
+Widescreen X bounds min - |79-----|-1185
+Widescreen Y bounds max - |640-----|1370
+Widescreen X bounds max - |542----|448
+Standard Y bounds min - |285-------|
+Standard X bounds min - |40--------|
+Standard Y bounds max - |450-------|
+Standard X bounds max - |216-------|
+Bitmap: 0x000009da
+
+1 - 3 (4)
+Name:fade
+-1
+-1
+641
+1300
+0
+0
+0
+0
+Bitmap:blackness_ui
+
+2 - 3 (4)
+Name:channel (this layer appears on top of the other layer)
+--------------------------|default-|4kmod
+-----------------------------------------------
+Widescreen Y bounds min - |79------|-400
+Widescreen X bounds min - |640-----|-1185
+Widescreen Y bounds max - |542-----|1050
+Widescreen X bounds max - |-100----|448
+Standard Y bounds min - |285-------|
+Standard X bounds min - |40--------|
+Standard Y bounds max - |450-------|
+Standard X bounds max - |216-------|
+
+Bitmap:0x000009da
+
+3 - 3 (4)
+
+-9000
+-9000
+9000
+9000
+black_fade_ui
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+11.How to move that annoying ([Home](>)Settings(a)Select(b)Leave)
+ Thingy out of the middle of your screen in pregame lobby
+
+go to "bkey - gui_button_key_definition"
+
+& expand the first entry 0x00000a22 
+named "ui\halox\pregame_lobby\pregame_lobby_offline"
+name:pregame_lobby_offline
+y 547
+x-1185
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+12.where to change player name location 
+
+find "scn3 - gui_screen_widget_definition"
+ui\halox\pregame_lobby\pregame_lobby_multiplayer
+Group widgets
+1-3 (4)
+Name:roster
+W Y OFFSET 0| (INPUT NUMBER HERE)
+W Y OFFSET 0| (INPUT NUMBER HERE)
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+How to move map preview picture...
+find "scn3 - gui_screen_widget_definition"
+find "ui\halox\pregame_lobby\pregame_lobby_multiplayer"
+go to "group widgets"
+select 2 - 3 (4)
+
+my settings to move it left & down are...
+35
+widescreen y offset|-1265 <--up and down
+0<--left and right
+-100
+0
+0
+0
+0
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+13.How to adjust size on map preview picture....
+first you need to get a new map preview picture the size you want it to be mine is 1600x500 and replace bitmap with tag tool
+but just doing that won’t change the size in game it will just become cleaner looking.
+in order to update the size you need to...
+find "scn3 - gui_screen_widget_definition"
+go to "ui\halox\pregame_lobby\pregame_lobby_multiplayer"
+go to "Group Widgets 2 - 3 (4)"
+Go to Bitmap Widgets & Click The "+"
+
+Flags: 9 or "bit 0" & "bit 3" 
+Name: unknown_film_image
+Layer: -30
+
+WYBMin 346
+WXBMin 79
+WYBMax 498--|698
+WXBMax 542--|1165
+SYBMin 254
+SXBMin 55
+SYBMax 405
+SXBMax 518
+
+ui\halox\pregame_lobby\button_key.gui_widget_animation_collection_definition
+
+Blend Method:  Alpha
+
+min will always be lower than max unless you want it backwards
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+(14.) How to adjust size on map preview picture.... 
+first you need to get a new map preview picture the size you want it to be. mine is 1600x500 & then replace the bitmap with tag tool.
+But just doing that won’t change the size in game. It will just become cleaner looking.
+In order to update the size you need to…
+find "scn3 - gui_screen_widget_definition"
+then go to "ui\halox\pregame_lobby\pregame_lobby_multiplayer"
+then go to "Group Widgets 2 - 3 (4)"
+then Go to Bitmap Widgets & Click The "+" Flags: 9 or "bit 0" & "bit 3" 
+Name: unknown_film_image
+Layer: -30
+WYBMin 346 
+WXBMin 79 
+WYBMax 498--|698 
+WXBMax 542--|1165 
+SYBMin 254 
+SXBMin 55 
+SYBMax 405 
+SXBMax 518
+ ui\halox\pregame_lobby\button_key.gui_widget_animation_collection_definition Blend Method: Alpha
+
+min will always be lower than max unless you want it backwards
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+15.How to change font for pregame lobby list
+
+skn3 - gui_skin_definition
+ui\halox\pregame_lobby\list
+
+Text Widgets
+Change "Text font #" 
+=============================================
+how to size the orange selection bar
+
+skn3 - gui_skin_definition
+ui\halox\pregame_lobby\list
+MAKE SURE SCALE TO BOUNDS IS (x)
+bitmap widgets
+y 0
+x -7
+y 25------30----------- this one 50 would double the size up and down
+x 456      1614
+y 0
+x 0
+y 0
+x 0
+==================================================
+where to change the font for select game type in gametype sub menu
+scn3 
+ui\halox\selection\pregame_selection
+
+Text Widgets
+Text font #
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+(16.) How to size the orange selection bar
+
+bitmap 0x00000798 is  the orange selection bar
+you will need to change it in different places.
+always MAKE SURE SCALE TO BOUNDS IS (x)
+
+ (for pregame lobby)
+skn3 - gui_skin_definition
+ui\halox\pregame_lobby\list
+bitmap widgets
+
+Default---|4kMod----|Description
+y 0-------|-15------|separation from the top of the text up & down
+x -7------|2--------|displacement left
+y 25------|65-------|this one 50 would double the size up & down
+x 456-----|1614 ----|this will stretch the widget right
+y 0
+x 0
+y 0
+x 0
+
+(for main menu)
+skn3 - gui_skin_definition
+ui\halox\main_menu\main_menu_list
+bitmap widgets
+
+Layer 20
+Default---|MyMod----|Description
+y 0-------|-15------|separation from the top of the text up & down
+x -7------|0--------|displacement left
+y 25------|65-------|this one 50 would double the size up & down
+x 300-----|900 -----|this will stretch the widget right
+y 0
+x -7
+y 18
+x 168
+
+
+(for map selection submenu)
+
+¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦
+¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦continue=to=orange_selection_bar_edit=part=2**¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦
+
+(17.) where to change the font placement for select game type in gametype sub menu (map selection) screen.
+ scn3 ui\halox\selection\pregame_selection
+LIST WIDGET ITEMS MOD
+ 
+DIAMONDBACK
+ 0 - 12 (13)
+widescreen Y Offset|-226 
+widescreen X Offset|-820 
+
+EDGE
+ 1 - 12 (13)
+widescreen Y Offset|-164 
+widescreen X Offset|-820
+ 
+GUARDIAN
+ 2 - 12 (13)
+ widescreen Y Offset|-102
+ widescreen X Offset|-820
+
+ HIGHGROUND
+ 3 - 12 (13)
+ widescreen Y Offset|-40
+ widescreen X Offset|-820
+
+ ICEBOX
+ 4 - 12 (13)
+ widescreen Y Offset|22
+ widescreen X Offset|-820
+
+ LASTRESORT
+ 5 - 12 (13)
+ widescreen Y Offset|84
+ widescreen X Offset|-820
+
+ NARROWS
+ 6 - 12 (13)
+ widescreen Y Offset|146
+ widescreen X Offset|-820
+ REACTOR
+ 7 - 12 (13)
+ widescreen Y Offset|208
+ widescreen X Offset|-820
+
+ SANDTRAP
+ 8 - 12 (13)
+ widescreen Y Offset|270
+ widescreen X Offset|-820
+
+ STANDOFF
+ 9 - 12 (13)
+ widescreen Y Offset|332 
+widescreen X Offset|-820
+ 
+THEPIT
+ 10 - 12 (13)
+ widescreen Y Offset|394 
+widescreen X Offset|-820
+
+ VALHALLA
+ 11 - 12 (13)
+ widescreen Y Offset|456 
+widescreen X Offset|-820
+
+ ?
+ 12 - 12 (13)
+ widescreen Y Offset|518 
+widescreen X Offset|-820
+
+ Text Widgets Text font # 
+/////////////////////////////////////////////////////////////////////////////////////////////////////(18.) Where to change font color & size for pregame lobby list (map selection) screen.
+skn3 - gui_skin_definition
+ui\halox\pregame_lobby\selection\category
+text widgets
+
+default--------|mod
+layer 2
+2
+-3
+32-------------|36
+274
+0
+0
+0
+0
+under bitmaps you will find the
+orange selection bar
+white line in background
+and arrow
+==================================================================================================
+/////////////////////////////////////////////////////////////////////////////////////////////////////(19.)where to change map preview image size & location for pregame lobby list (map selection) screen.
+
+ui\halox\selection\pregame_selection
+
+group widgets  9 - 12 (13)
+name:map image
+
+then go down to bitmap widgets
+name map_image_type
+default |mod
+59      |-369
+727     |727
+137     |137
+964     |2365
+44      |
+510     |
+122     |
+745     |
+
+now to change description go to
+text widgets
+name:description
+
+===================================================================================================
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+(20.) where to edit garnet background in map selection list under map description.
+
+ui\halox\selection\pregame_selection
+group widgets 0 - 12 (13)
+
+go to bitmap widgets
+3 - 3 (4)
+0x0000007d8 is the garnet backgrouund
+
+name:background
+layer -9
+
+default|mod
+51     |-373
+719    |719
+456    |756
+972    |2375
+0
+0
+0
+0
+===================================================================================================
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+(21.) where to change blue bar shadow under BUILT IN in map select sub menu
+ scn3 ui\halox\selection\pregame_selection group widgets 2 - 12 (13) name: subitem_edit here you can adjust the placement of the built in widget bitmap widgets 0 - 0 (1) here you can select size of the blue bar shadow under BUILT IN /////////////////////////////////////////////////////////////////////////////////////////////////////
+(22.) where to edit map name in map select sub menu on top of built in.
+ skn3 - gui_skin_definition ui\halox\pregame_lobby\selection\subitem subitem.skn3 text widgets ****************************************************************************************************
+
+ //////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\/////////////////////////////////////////////////////////////////////Orange_Selection_Bar_Edit=Part=3/////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\///////////////////////////////////////
+where to edit orange selection bar (for map selection submenu)
+ skn3 - gui_skin_definition ui\halox\pregame_lobby\selection\subitem
+ bitmap widgets 0 - 4 (5) this is it.
+ 0x00000798 (orange selection bar for map name in sub menu on top of built in) (for map selection submenu)
+ layer 5
+ default|mod 
+?------|-15
+ ?------|-410
+ ?------|65
+ ?------|185
+ ?------|
+ ?------|
+ ?------|
+ ?------| 
+1 - 4 (5) is the circle arrow 
+2 - 4 (5) name:white_residdual_hilight 
+0
+ -19
+ 26
+ 238
+ /////////////////////////////////////////////////////////////////////////////////////////////////////
+(23.) where to edit selected map preview image & description in map slection screen submenu.
+
+ui\halox\selection\pregame_selection
+group widgets
+10 - 12 (13)
+name:map_variant_image
+bitmap widgets
+name:map_image_type
+default |mod
+59      |-369
+727     |727
+137     |137
+964     |2365
+44      |
+510     |
+122     |
+745     |
+
+go down to text widgets 0 - 6 (7)
+name: description
+layer 0
+default |mod
+157     |
+727     |
+397     |
+963     |2365
+0      
+0     
+0     
+0     
+
+in this section you want to edit the autor_field as well
+it’s going to be in bitmap widgets everything but the "map_image_type" 0 -3 (4)
+so...
+1 - 3 (4)
+name:autor_field_lame_hack_dont_break
+ (this is the dark blue shadow behind author bungie)
+
+2 -3 (4)
+name:autor_field_overline
+(is the white line on top)
+
+3 - 3 (4)
+name:autor_field_underline
+(is the white line on bottom)
+===============================
+to edit the authr text go to
+ text widgets
+1 - 6 (7)
+name:metadata_line_1_label (this is the "Author:" text)
+
+2 - 6 (7)
+name:metadata_line_1 (this is the"PROFILE NAME TEXT LIKE "bungie" text)
+15 CHARACTER MAXIMUM
+
+3 - 6 (7)
+NAME:metadata_line_2_label
+DATE text
+
+4 - 6 (7)
+name:metadata_line_2
+the date text "xx/xx/xx"
+
+5 - 6 (7)
+naME:METADATA_LINE_3_LABEL
+SIZE TEXT
+
+6 - 6 (7)
+NAME:METADATA_LINE_3
+THE SIZE OF THE MAP "XX.XX"
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+(24.) where to edit "MULTIPLAYER" text. 
+scn3 ui\halox\start_menu\panes\game_multiplayer\start_menu_game_multiplayer text widgets text font # /////////////////////////////////////////////////////////////////////////////////////////////////////
+(25.) where to edit "SELECT MAP" Text on map selection screen. "scn3 - gui_screen_widget_definition" ui\halox\pregame_lobby\selection\pregame_selection Text Widgets Name:Title /////////////////////////////////////////////////////////////////////////////////////////////////////
+(26.) where to edit "OPTIONS" text on options screen. 
+
+"scn3 - gui_screen_widget_definition" ui\halox\game_options\game_options_screen text widgets 0 - 1 (2) /////////////////////////////////////////////////////////////////////////////////////////////////////
+(27.) where to edit options list left side on options screen. 
+skn3 - gui_skin_definiton ui\halox\game_options\game_options text widgets 0 - 1 (2) right side 1 - 1 (2) where to edit the selected text. with ui\halox\game_options\spinner /////////////////////////////////////////////////////////////////////////////////////////////////////
+(28.) where to edit text in game options menu.
+
+skn3 - gui_skin_definition
+ui\halox\game_options\game_options
+
+where to edit the background's in game options menu
+
+scn3 - gui_screen_widgets_definition
+ui\halox\game_options\game_options_screen
+bitmap widgets
+
+ =========================================
+how to access local games background image
+scn3 - gui_screen_widgets_definition
+ui\halox\game_browser\game_browser
+Bitmap Widgets 0 - 3 (4)
+default|4kmod
+0------|-610
+0------|-1475
+462----|1080
+1152---|2620 
+
+
+3 - 3  (4)
+42
+186|-1475
+460
+965|2620 
+/////////////////////////////////////////////////////////////////////////////////////////////////////(29.) how to edit local games screen
+scn3 ui\halox\game_browser\game_browser
+ text widgets 0 - 5 (6)
+ name:browser_title (AVAILABLE GAMES) text.
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+(30.) Where to edit “SELECT DIFFICULTY” text on select difficulty screen
+Scn3 - ui\halox\campaign\campaign_select_difficulty
+Text widgets
+0 - 1 (2)
+default
+Title
+Layer 0
+1
+185
+41
+972
+0
+0
+0
+0
+
+4kMod
+Layer 0
+-550
+-620
+40
+1080
+0
+0
+0
+0
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+(31.) Where to edit description text on select difficulty screen
+Scn3 - ui\halox\campaign\campaign_select_difficulty
+Text widgets
+1 - 1 (2)
+default
+Description
+Layer 0
+262
+497
+428
+965
+0
+0
+0
+0
+
+4kmod
+Layer 0
+320
+720
+420
+2400
+0
+0
+0
+0
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+(32.) Where to edit "easy, normal, heroic, legendary" text on campaign select difficulty screen screen.
+Skn3 - campaign_select_difficulty.skn3 Text widgets
+Name select_difficulty
+Default
+Layer 1
+2
+0 
+32
+391
+4kMod
+Layer 1
+-500
+-800
+32
+391
+0
+0
+0
+0
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+(33.) How to space out the words  "easy, normal, heroic, legendary" text on campaign select difficulty screen screen.
+Skn3 - campaign_select_difficulty.skn3 List_Widget_Items
+4kmod
+0-3 (4)
+Layer0
+0
+
+1 - 3 (4)
+Layer 0
+50
+
+2-3(4)
+Layer 0
+100
+
+3-3(4)
+Layer 0 
+150
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+(34.)Where to edit select difficulty screen background
+Skn3 - campaign_select_difficulty.skn3 Bitmap widgets
+?
+/////////////////////////////////////////////////////////////////////////////////////////////////////(35.) How to edit difficulty select background
+Scn3 - campaign_select_difficulty
+Bitmap widgets
+0 - 3 (4)
+4kmod
+Background
+Layer -9
+-610
+-1475
+1080
+2620
+0
+0
+0
+0
+Default
+??????????
+
+1-3 (4)
+Bit 0
+Bit 3
+
+difficulty _image
+Layer 5
+-376
+720
+280
+2364
+254
+55
+404
+518
+Default
+???????
+
+2 - 3 (5)
+4kmod
+Background blur
+Layer -11
+-610
+-1475
+1080
+2620
+3 - 3 (4)
+Background_darkening
+4kmod
+Layer -10
+-610
+-1475
+1080
+2620
+Default
+?????
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////Orange_Selection_Bar_Edit=Part=4////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ 
+Skn3 campaign_select_difficulty.skn3
+Bitmap_widgets 0-0(1)
+Default
+Layer 0
+0
+-7
+27
+297
+0
+0
+0
+0
+4kmod
+Layer 0
+-510
+-800
+-460
+391
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+(36.) How to add map preview picture to the campaign lobby
+Open scn3 pregame_lobby_campaign.scn3 0x00000733
+Go to group widgets 2-3(4)
+Go to bitmap widgets 0-1(2)
+Change the text from “map_image” to “unknown_film_image” 
+Save
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+(37.) How to add map preview picture to the campaign mission select
+Open campaign_select_level.scn3 0x00000731
+Go to bitmap widgets 1-6 (7)
+Change level_image to unknown_film_image
+Save
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+(38.) How to edit campaign lobby mission select background
+Campaign_select_level.scn3
+
+Default
+Bitmap widgets 0 - 6 (7)
+default
+Background
+-10
+0
+0
+462
+1152
+0
+0
+0
+0
+4kmod
+Bitmap widgets 0 - 6 (7)
+-19
+-610
+-1475
+1080
+2620
+0
+0
+0
+0
+---------------------------------------------------------------------------
+Default
+Bitmap widgets
+ 1 - 6 (7)
+Unknown_film_image 
+5
+66
+673
+172
+957
+44
+473
+134
+753
+
+4kmod
+Bitmap widgets
+ 1 - 6 (7)
+Unknown_film_image
+-380
+730
+140
+2370
+44
+473
+134
+753
+--------------------------------------
+default
+Bitmap widgets 2-6(7)
+level_locked
+5
+66
+653
+0
+0
+0
+0
+0
+0
+
+4kmod
+Bitmap widgets 2-6(7)
+level_locked
+5
+-500
+720
+1300
+2300
+0
+0
+0
+0
+---------------------------
+3-6 (7)
+Background_blur
+4kmod
+-21
+-610
+-1475
+1080
+2620
+Default
+-21
+-120
+0
+640
+1152
+0
+0
+0
+0
+----------------------------
+4-6 (7)
+4kmod
+Background_darkening
+-20
+-610
+1475
+1080
+2620
+Default
+Background_darkening
+-20
+-120
+640
+1152
+---------------------------------------
+5-6 (7)
+4kmod
+Level_image_background
+-15
+-390
+720
+760
+2380
+Default
+Level_image_background
+-15
+54
+665
+460
+965
+---------------------------------------
+6-6(7)
+default
+Solo_slots
+-12
+255
+673
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+(39.) Where to edit campaign select level menu
+skn3 - ui\halox\campaign\campaign_select_difficulty
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+(40.) How to move map names in mission select menu
+Go to scn3- ui\halox\campaign\campaign_select_level
+Go to list widget items
+default 
+0-14 (15)
+WYO|0
+1-14 (15)
+WYO|26
+2-14 (15)
+WYO|52
+3-14 (15)
+WYO|78
+4-14 (15)
+WYO|104
+5-14 (15)
+WYO|130
+6-14 (15)
+WYO|156
+7-14 (15)
+WYO|182
+8-14 (15)
+WYO|208
+9-14 (15)
+WYO|234
+10-14 (15)
+WYO|260
+11-14 (15)
+WYO|286
+12-14 (15)
+WYO|312
+13-14 (15)
+WYO|338
+14-14 (15)
+WYO|364
+
+
+
+
+4kmod
+Go to list widget items 
+0-14 (15)
+WYO|-500
+WXO|-800
+1-14 (15)
+WYO|-450
+WXO|-800
+2-14 (15)
+WYO|-400
+WXO|-800
+3-14 (15)
+WYO|-350
+WXO|-800
+4-14 (15)
+WYO|-300
+WXO|-800
+5-14 (15)
+WYO|-250
+WXO|-800
+6-14 (15)
+WYO|-200
+WXO|-800
+7-14 (15)
+WYO|-150
+WXO|-800
+8-14 (15)
+WYO|-100
+WXO|-800
+9-14 (15)
+WYO|-50
+WXO|-800
+10-14 (15)
+WYO|0
+WXO|-800
+11-14 (15)
+WYO|50
+WXO|-800
+12-14 (15)
+WYO|100
+WXO|-800
+13-14 (15)
+WYO|150
+WXO|-800
+14-14 (15)
+WYO|200
+WXO|-800
+//////////////////////////////////////////////////////////////////////////////////////////////////
+(41.)how to change the font & font color in mission select menu
+campaign_select_level.skn3
+text widgets
+
+(42.)Where to edit mission select text
+Campaign_select_level.scn3
+Text widgets
+
+Tutorial end
