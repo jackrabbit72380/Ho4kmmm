@@ -1,0 +1,117 @@
+textures 0 -12 (13)
+
+filename placeholder
+bitmap 0x00005732
+filename 340
+bitmap 0x00005733 riverworld.dds
+filename 31
+bitmap 0x00005734 s3d_turf.dds
+filename 410
+bitmap 0x00005735 bunkerworld.dds
+filename 400
+bitmap 0x00005736 shrine.dds
+filename 390
+bitmap 0x00005737 cyberdyne.dds
+filename 700
+bitmap 0x00005738 s3d_reactor.dds
+filename 380
+bitmap 0x00005739 chill.dds
+filename 30
+bitmap 0x0000573A zanzibar.dds
+filename 703
+bitmap 0x0000573B s3d_edge.dds
+filename 310
+bitmap 0x0000573C deadlock.dds
+filename 320
+bitmap 0x0000573D guardian.dds
+filename 705
+bitmap 0x0000573E s3d_avalanche.dds
+------------------------------- this needs to be double checkked
+New gfxt - gfx_textures_list
+FileName 300
+Bitmap 0x0000D96C m_construct.dds
+FileName 330
+Bitmap 0x0000D96D m_isolation.dds
+FileName 350
+Bitmap 0x0000D96E m_salvation.dds
+FileName 360
+Bitmap 0x0000D96F m_snowbound.dds
+FileName 440
+Bitmap 0x0000D970 dlc_docks.dds
+FileName 470
+Bitmap 0x0000D971 dlc_sidewinder.dds
+FileName 480
+Bitmap 0x0000D972 dlc_warehouse.dds
+FileName 490
+Bitmap 0x0000D973 dlc_descent.dds
+FileName 500
+Bitmap 0x0000D974 dlc_spacecamp.dds
+FileName 520
+Bitmap 0x0000D975 dlc_lockout.dds
+FileName 580
+Bitmap 0x0000D976 dlc_armory.dds
+FileName 590
+Bitmap 0x0000D977 dlc_ghosttown.dds
+FileName 600
+Bitmap 0x0000D978 dlc_chillout.dds
+FileName 720
+Bitmap 0x0000D979 dlc_midship.dds
+FileName 730
+Bitmap 0x0000D97A dlc_sandbox.dds
+FileName 740
+Bitmap 0x0000D97B dlc_fortress.dds
+New Campaign - gfx_textures_list
+FileName 3005
+Bitmap 0x0000D97C c_005.dds
+FileName 3010
+Bitmap 0x0000D97D c_010.dds
+FileName 3020
+Bitmap 0x0000D97D c_020.dds
+FileName 3030
+Bitmap 0x0000D97F c_030.dds
+FileName 3040
+Bitmap 0x0000D970 c_040.dds
+FileName 3050
+Bitmap 0x0000D981 c_050.dds
+FileName 3070
+Bitmap 0x0000D982 c_070.dds
+FileName 3100
+Bitmap 0x0000D983 c_100.dds
+FileName 3110
+Bitmap 0x0000D984 c_110.dds
+FileName 3120
+Bitmap 0x0000D985 c_120.dds
+FileName 3130
+Bitmap c_c100.dds????????????????????
+FileName 4100
+Bitmap 0x0000D986 c_c200.dds
+FileName 4200
+Bitmap 0x0000D987 c_h100.dds
+FileName 5000
+Bitmap 0x0000D988 c_L200.dds
+FileName 5200
+Bitmap 0x0000D989 c_L300.dds
+FileName 5300
+Bitmap 0x0000D98A c_sc100.dds
+FileName 6100
+Bitmap 0x0000D988 c_sc110.dds
+FileName 6110
+Bitmap 0x0000D98C c_sc120.dds
+FileName 6120
+Bitmap 0x0000D98D c_sc130.dds
+FileName 6130
+Bitmap 0x0000D98D c_sc140.dds
+FileName 6140
+Bitmap 0x0000D98F c_sc150.dds
+FileName 6150
+Bitmap 0x0000D990 mp_ai_playground.dds
+FileName 9764
+Bitmap 0x0000D991 ?????????????????????
+filename 8187
+roundabout
+FlieName 5436
+shadow_bridge
+FlieName 9764
+mp_ai_playground.dds
+FlieName 117
+jungle_dam 
