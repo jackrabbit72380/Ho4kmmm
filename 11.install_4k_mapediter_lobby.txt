@@ -126,3 +126,8 @@ SetField groupwidgets[2].TextWidgets[0].data.StandardYBoundsMin 0
 SetField groupwidgets[2].TextWidgets[0].data.StandardXBoundsMin 0
 SetField groupwidgets[2].TextWidgets[0].data.StandardYBoundsMax 0
 SetField groupwidgets[2].TextWidgets[0].data.StandardXBoundsMax 0
+SetField groupwidgets[2].textwidgets[0].data source name null
+SetField groupwidgets[2].textwidgets[0].text string mapediter_map_name
+SetField groupwidgets[2].textwidgets[0].text color ice
+SetField groupwidgets[2].textwidgets[0].text font 4
+
