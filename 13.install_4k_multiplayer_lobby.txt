@@ -160,19 +160,37 @@ SaveTagChanges
 exitto tags
 /////////////////////////////////////////////////////////////////////////////////////////////////////text?
 EditTag ui\halox\pregame_lobby\pregame_lobby_multiplayer.scn3
-SetField groupwidgets[2]TextWidgets[0].data.name lobby_status
-SetField groupwidgets[2]TextWidgets[0].data.Layer 0
-SetField groupwidgets[2]TextWidgets[0].WidescreenYBoundsMin 166
-SetField groupwidgets[2]TextWidgets[0].WidescreenXBoundsMin 89
-SetField groupwidgets[2]TextWidgets[0].WidescreenYBoundsMax 367
-SetField groupwidgets[2]TextWidgets[0].WidescreenXBoundsMax 1637
-SetField groupwidgets[2]TextWidgets[0].StandardYBoundsMin 0
-SetField groupwidgets[2]TextWidgets[0].StandardXBoundsMin 0
-SetField groupwidgets[2]TextWidgets[0].StandardYBoundsMax 0
-SetField groupwidgets[2]TextWidgets[0].StandardXBoundsMax 0
-SetField groupwidgets[2]TextWidgets[0].text stringnull
-SetField groupwidgets[2]TextWidgets[0].text color ice
-SetField groupwidgets[2]TextWidgets[0].text font 4
+SetField groupwidgets[2]TextWidgets[1].data.name lobby_status
+SetField groupwidgets[2]TextWidgets[1].data.Layer 0
+SetField groupwidgets[2]TextWidgets[1].WidescreenYBoundsMin 166
+SetField groupwidgets[2]TextWidgets[1].WidescreenXBoundsMin 89
+SetField groupwidgets[2]TextWidgets[1].WidescreenYBoundsMax 367
+SetField groupwidgets[2]TextWidgets[1].WidescreenXBoundsMax 1637
+SetField groupwidgets[2]TextWidgets[1].StandardYBoundsMin 0
+SetField groupwidgets[2]TextWidgets[1].StandardXBoundsMin 0
+SetField groupwidgets[2]TextWidgets[1].StandardYBoundsMax 0
+SetField groupwidgets[2]TextWidgets[1].StandardXBoundsMax 0
+SetField groupwidgets[2]TextWidgets[1].text stringnull
+SetField groupwidgets[2]TextWidgets[1].text color ice
+SetField groupwidgets[2]TextWidgets[1].text font 4
 SaveTagChanges
 exitto tags
 
+EditTag ui\halox\pregame_lobby\pregame_lobby_multiplayer.scn3
+SetField groupwidgets[2].bitmapwidgets[0].data.flags 9
+SetField groupwidgets[2].bitmapwidgets[0].data.name unknown_film_image
+SetField groupwidgets[2].bitmapwidgets[0].data.Layer -30
+SetField groupwidgets[2].bitmapwidgets[0].data.WidescreenYOffset 376
+SetField groupwidgets[2].bitmapwidgets[0].data.WidescreenXOffset 79
+SetField groupwidgets[2].bitmapwidgets[0].data.WidescreenYUnknown 880
+SetField groupwidgets[2].bitmapwidgets[0].data.WidescreenXUnknown 1714
+SetField groupwidgets[2].bitmapwidgets[0].data.StandardYOffset 254
+SetField groupwidgets[2].bitmapwidgets[0].data.StandardXOffset 55
+SetField groupwidgets[2].bitmapwidgets[0].data.StandardYUnknown 405
+SetField groupwidgets[2].bitmapwidgets[0].data.StandardXUnknown 518
+SetField groupwidgets[2].bitmapwidgets[0].data.Animation ui\halox\main_menu\animations\lobby_slide.wacd
+SetField groupwidgets[2].bitmapwidgets[0].Bitmap null
+SetField groupwidgets[2].bitmapwidgets[0].BlendMethod Alpha
+SaveTagChanges
+exitto tags
+Exit
