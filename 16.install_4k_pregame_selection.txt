@@ -10,3 +10,213 @@ SetField StandardXBoundsMax 330
 SaveTagChanges
 exitto tags
 exit
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection
+SetField groupwidgets[0].data.flags 0
+SetField groupwidgets[0].data.name base
+SetField groupwidgets[0].data.Layer 0
+SetField groupwidgets[0].data.WidescreenYOffset 0
+SetField groupwidgets[0].data.WidescreenXOffset 0
+SetField groupwidgets[0].data.WidescreenYUnknown 0
+SetField groupwidgets[0].data.WidescreenXUnknown 0
+SetField groupwidgets[0].data.StandardYOffset 0
+SetField groupwidgets[0].data.StandardXOffset 0
+SetField groupwidgets[0].data.StandardYUnknown 0
+SetField groupwidgets[0].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+Exit
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection
+SetField groupwidgets[1].data.flags 0
+SetField groupwidgets[1].data.name subitem
+SetField groupwidgets[1].data.Layer 0
+SetField groupwidgets[1].data.WidescreenYOffset 0
+SetField groupwidgets[1].data.WidescreenXOffset 0
+SetField groupwidgets[1].data.WidescreenYUnknown 0
+SetField groupwidgets[1].data.WidescreenXUnknown 0
+SetField groupwidgets[1].data.StandardYOffset 0
+SetField groupwidgets[1].data.StandardXOffset 0
+SetField groupwidgets[1].data.StandardYUnknown 0
+SetField groupwidgets[1].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+Exit
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection
+SetField groupwidgets[2].data.flags 0
+SetField groupwidgets[2].data.name subitem_edit
+SetField groupwidgets[2].data.Layer 0
+SetField groupwidgets[2].data.WidescreenYOffset -159
+SetField groupwidgets[2].data.WidescreenXOffset 85
+SetField groupwidgets[2].data.WidescreenYUnknown 0
+SetField groupwidgets[2].data.WidescreenXUnknown 0
+SetField groupwidgets[2].data.StandardYOffset 0
+SetField groupwidgets[2].data.StandardXOffset 0
+SetField groupwidgets[2].data.StandardYUnknown 0
+SetField groupwidgets[2].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+Exit
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection
+SetField groupwidgets[3].data.flags 9
+SetField groupwidgets[3].data.name film_category_image
+SetField groupwidgets[3].data.Layer 0
+SetField groupwidgets[3].data.WidescreenYOffset 0
+SetField groupwidgets[3].data.WidescreenXOffset 0
+SetField groupwidgets[3].data.WidescreenYUnknown 0
+SetField groupwidgets[3].data.WidescreenXUnknown 0
+SetField groupwidgets[3].data.StandardYOffset 0
+SetField groupwidgets[3].data.StandardXOffset 0
+SetField groupwidgets[3].data.StandardYUnknown 0
+SetField groupwidgets[3].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+Exit
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection
+SetField groupwidgets[4].data.flags 9
+SetField groupwidgets[4].data.name film_image
+SetField groupwidgets[4].data.Layer 0
+SetField groupwidgets[4].data.WidescreenYOffset 0
+SetField groupwidgets[4].data.WidescreenXOffset 0
+SetField groupwidgets[4].data.WidescreenYUnknown 0
+SetField groupwidgets[4].data.WidescreenXUnknown 0
+SetField groupwidgets[4].data.StandardYOffset 0
+SetField groupwidgets[4].data.StandardXOffset 0
+SetField groupwidgets[4].data.StandardYUnknown 0
+SetField groupwidgets[4].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+Exit
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection
+SetField groupwidgets[5].data.flags 9
+SetField groupwidgets[5].data.name network_mode
+SetField groupwidgets[5].data.Layer 0
+SetField groupwidgets[5].data.WidescreenYOffset 0
+SetField groupwidgets[5].data.WidescreenXOffset 0
+SetField groupwidgets[5].data.WidescreenYUnknown 0
+SetField groupwidgets[5].data.WidescreenXUnknown 0
+SetField groupwidgets[5].data.StandardYOffset 0
+SetField groupwidgets[5].data.StandardXOffset 0
+SetField groupwidgets[5].data.StandardYUnknown 0
+SetField groupwidgets[5].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+Exit
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection
+SetField groupwidgets[6].data.flags 9
+SetField groupwidgets[6].data.name advertisementy_mode_image
+SetField groupwidgets[6].data.Layer 0
+SetField groupwidgets[6].data.WidescreenYOffset 0
+SetField groupwidgets[6].data.WidescreenXOffset 0
+SetField groupwidgets[6].data.WidescreenYUnknown 0
+SetField groupwidgets[6].data.WidescreenXUnknown 0
+SetField groupwidgets[6].data.StandardYOffset 0
+SetField groupwidgets[6].data.StandardXOffset 0
+SetField groupwidgets[6].data.StandardYUnknown 0
+SetField groupwidgets[6].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+Exit
+
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection
+SetField groupwidgets[7].data.flags 9
+SetField groupwidgets[7].data.name gametype_image
+SetField groupwidgets[7].data.Layer 0
+SetField groupwidgets[7].data.WidescreenYOffset 0
+SetField groupwidgets[7].data.WidescreenXOffset 0
+SetField groupwidgets[7].data.WidescreenYUnknown 0
+SetField groupwidgets[7].data.WidescreenXUnknown 0
+SetField groupwidgets[7].data.StandardYOffset 0
+SetField groupwidgets[7].data.StandardXOffset 0
+SetField groupwidgets[7].data.StandardYUnknown 0
+SetField groupwidgets[7].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+Exit
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection
+SetField groupwidgets[8].data.flags 9
+SetField groupwidgets[8].data.name gametype_variant_image
+SetField groupwidgets[8].data.Layer 0
+SetField groupwidgets[8].data.WidescreenYOffset 0
+SetField groupwidgets[8].data.WidescreenXOffset 0
+SetField groupwidgets[8].data.WidescreenYUnknown 0
+SetField groupwidgets[8].data.WidescreenXUnknown 0
+SetField groupwidgets[8].data.StandardYOffset 0
+SetField groupwidgets[8].data.StandardXOffset 0
+SetField groupwidgets[8].data.StandardYUnknown 0
+SetField groupwidgets[8].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+Exit
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection
+SetField groupwidgets[9].data.flags 9
+SetField groupwidgets[9].data.name map_image
+SetField groupwidgets[9].data.Layer 0
+SetField groupwidgets[9].data.WidescreenYOffset 0
+SetField groupwidgets[9].data.WidescreenXOffset 0
+SetField groupwidgets[9].data.WidescreenYUnknown 0
+SetField groupwidgets[9].data.WidescreenXUnknown 0
+SetField groupwidgets[9].data.StandardYOffset 0
+SetField groupwidgets[9].data.StandardXOffset 0
+SetField groupwidgets[9].data.StandardYUnknown 0
+SetField groupwidgets[9].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+Exit
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection
+SetField groupwidgets[10].data.flags.9
+SetField groupwidgets[10].data.name map_variant_image
+SetField groupwidgets[10].data.Layer 0
+SetField groupwidgets[10].data.WidescreenYOffset 0
+SetField groupwidgets[10].data.WidescreenXOffset 0
+SetField groupwidgets[10].data.WidescreenYUnknown 0
+SetField groupwidgets[10].data.WidescreenXUnknown 0
+SetField groupwidgets[10].data.StandardYOffset 0
+SetField groupwidgets[10].data.StandardXOffset 0
+SetField groupwidgets[10].data.StandardYUnknown 0
+SetField groupwidgets[10].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+Exit
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection
+SetField groupwidgets[11].data.flags.9
+SetField groupwidgets[11].data.name hopper_category_image
+SetField groupwidgets[11].data.Layer 0
+SetField groupwidgets[11].data.WidescreenYOffset 0
+SetField groupwidgets[11].data.WidescreenXOffset 0
+SetField groupwidgets[11].data.WidescreenYUnknown 0
+SetField groupwidgets[11].data.WidescreenXUnknown 0
+SetField groupwidgets[11].data.StandardYOffset 0
+SetField groupwidgets[11].data.StandardXOffset 0
+SetField groupwidgets[11].data.StandardYUnknown 0
+SetField groupwidgets[11].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+Exit
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection
+SetField groupwidgets[12].data.flags.9
+SetField groupwidgets[12].data.name hopper_image
+SetField groupwidgets[12].data.Layer 0
+SetField groupwidgets[12].data.WidescreenYOffset 0
+SetField groupwidgets[12].data.WidescreenXOffset 0
+SetField groupwidgets[12].data.WidescreenYUnknown 0
+SetField groupwidgets[12].data.WidescreenXUnknown 0
+SetField groupwidgets[12].data.StandardYOffset 0
+SetField groupwidgets[12].data.StandardXOffset 0
+SetField groupwidgets[12].data.StandardYUnknown 0
+SetField groupwidgets[12].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+Exit
+
