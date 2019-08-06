@@ -1,1 +1,12 @@
-
+edittag ui\halox\pregame_lobby\selection\pregame_selection
+SetField WidescreenYBoundsMin -231
+SetField WidescreenXBoundsMin -576
+SetField WidescreenYBoundsMax 231
+SetField WidescreenXBoundsMax 576
+SetField StandardYBoundsMin -232
+SetField StandardXBoundsMin -330
+SetField StandardYBoundsMax 240
+SetField StandardXBoundsMax 330
+SaveTagChanges
+exitto tags
+exit
