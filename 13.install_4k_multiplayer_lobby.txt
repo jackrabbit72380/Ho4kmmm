@@ -194,3 +194,22 @@ SetField groupwidgets[2].bitmapwidgets[0].BlendMethod Alpha
 SaveTagChanges
 exitto tags
 Exit
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_multiplayer.scn3
+SetField groupwidgets[2].bitmapwidgets[1].data.flags 9
+SetField groupwidgets[2].bitmapwidgets[1].data.name gametype_image
+SetField groupwidgets[2].bitmapwidgets[1].data.Layer 0
+SetField groupwidgets[2].bitmapwidgets[1].data.WidescreenYOffset 466
+SetField groupwidgets[2].bitmapwidgets[1].data.WidescreenXOffset 166
+SetField groupwidgets[2].bitmapwidgets[1].data.WidescreenYUnknown 766
+SetField groupwidgets[2].bitmapwidgets[1].data.WidescreenXUnknown 466
+SetField groupwidgets[2].bitmapwidgets[1].data.StandardYOffset 0
+SetField groupwidgets[2].bitmapwidgets[1].data.StandardXOffset 0
+SetField groupwidgets[2].bitmapwidgets[1].data.StandardYUnknown 0
+SetField groupwidgets[2].bitmapwidgets[1].data.StandardXUnknown 0
+SetField groupwidgets[2].bitmapwidgets[1].data.Animation ui\halox\main_menu\animations\lobby_slide.wacd
+SetField groupwidgets[2].bitmapwidgets[1].Bitmap ui\halox\pregame_lobby\gametypes_large_ui.bitmap
+SetField groupwidgets[2].bitmapwidgets[1].BlendMethod Alpha
+SaveTagChanges
+exitto tags
+Exit
