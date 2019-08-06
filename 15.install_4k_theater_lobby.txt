@@ -96,3 +96,19 @@ SetField groupwidgets[1].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
 Exit
+
+edittag ui\halox\pregame_lobby\pregame_lobby_theater
+SetField groupwidgets[2].data.flags 0
+SetField groupwidgets[2].data.name null
+SetField groupwidgets[2].data.Layer 0
+SetField groupwidgets[2].data.WidescreenYOffset -40
+SetField groupwidgets[2].data.WidescreenXOffset -1265
+SetField groupwidgets[2].data.WidescreenYUnknown 0
+SetField groupwidgets[2].data.WidescreenXUnknown -100
+SetField groupwidgets[2].data.StandardYOffset 0
+SetField groupwidgets[2].data.StandardXOffset 0
+SetField groupwidgets[2].data.StandardYUnknown 0
+SetField groupwidgets[2].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+Exit
