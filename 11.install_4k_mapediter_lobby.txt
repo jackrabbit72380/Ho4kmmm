@@ -117,12 +117,12 @@ SetField groupwidgets[2].data.StandardYUnknown 0
 SetField groupwidgets[2].data.StandardXUnknown 0
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_mapediter.scn3
-SetField groupwidgets[2].data.name null
-SetField groupwidgets[2].data.WidescreenYOffset -40
-SetField groupwidgets[2].data.WidescreenXOffset -1265
-SetField groupwidgets[2].data.WidescreenYUnknown 0
-SetField groupwidgets[2].data.WidescreenXUnknown -100
-SetField groupwidgets[2].data.StandardYOffset 0
-SetField groupwidgets[2].data.StandardXOffset 0
-SetField groupwidgets[2].data.StandardYUnknown 0
-SetField groupwidgets[2].data.StandardXUnknown 0
+SetField groupwidgets[2].data.name mapediter_map_name
+SetField groupwidgets[2].TextWidgets[0].data.WidescreenYBoundsMin 910
+SetField groupwidgets[2].TextWidgets[0].data.WidescreenXBoundsMin 89
+SetField groupwidgets[2].TextWidgets[0].data.WidescreenYBoundsMax 998
+SetField groupwidgets[2].TextWidgets[0].data..WidescreenXBoundsMax 537
+SetField groupwidgets[2].TextWidgets[0].data.StandardYBoundsMin 0
+SetField groupwidgets[2].TextWidgets[0].data.StandardXBoundsMin 0
+SetField groupwidgets[2].TextWidgets[0].data.StandardYBoundsMax 0
+SetField groupwidgets[2].TextWidgets[0].data.StandardXBoundsMax 0
