@@ -1,5 +1,4 @@
 edittag ui\halox\pregame_lobby\pregame_lobby_template.scn3
-
 SetField WidescreenYBoundsMin -320
 SetField WidescreenXBoundsMin -582
 SetField WidescreenYBoundsMax 320
