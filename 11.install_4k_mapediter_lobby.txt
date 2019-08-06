@@ -131,3 +131,40 @@ SetField groupwidgets[2].textwidgets[0].text string mapediter_map_name
 SetField groupwidgets[2].textwidgets[0].text color ice
 SetField groupwidgets[2].textwidgets[0].text font 4
 
+EditTag ui\halox\pregame_lobby\pregame_lobby_mapediter.scn3
+SetField groupwidgets[2].bitmapwidgets[0].data.flags 9
+SetField groupwidgets[2].bitmapwidgets[0].data.name unknown_film_image
+SetField groupwidgets[2].bitmapwidgets[0].data.Layer -30
+SetField groupwidgets[2].bitmapwidgets[0].data.WidescreenYOffset 376
+SetField groupwidgets[2].bitmapwidgets[0].data.WidescreenXOffset 79
+SetField groupwidgets[2].bitmapwidgets[0].data.WidescreenYUnknown 880
+SetField groupwidgets[2].bitmapwidgets[0].data.WidescreenXUnknown 1714
+SetField groupwidgets[2].bitmapwidgets[0].data.StandardYOffset 254
+SetField groupwidgets[2].bitmapwidgets[0].data.StandardXOffset 55
+SetField groupwidgets[2].bitmapwidgets[0].data.StandardYUnknown 405
+SetField groupwidgets[2].bitmapwidgets[0].data.StandardXUnknown 518
+SetField groupwidgets[2].bitmapwidgets[0].data.Animation ui\halox\main_menu\animations\lobby_slide.wacd
+SetField groupwidgets[2].bitmapwidgets[0].Bitmap null
+SetField groupwidgets[2].bitmapwidgets[0].BlendMethod Alpha
+SaveTagChanges
+exitto tags
+Exit
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_mapediter.scn3
+SetField groupwidgets[2].bitmapwidgets[1].data.flags 9
+SetField groupwidgets[2].bitmapwidgets[1].data.name gametype_image
+SetField groupwidgets[2].bitmapwidgets[1].data.Layer 0
+SetField groupwidgets[2].bitmapwidgets[1].data.WidescreenYOffset 466
+SetField groupwidgets[2].bitmapwidgets[1].data.WidescreenXOffset 166
+SetField groupwidgets[2].bitmapwidgets[1].data.WidescreenYUnknown 766
+SetField groupwidgets[2].bitmapwidgets[1].data.WidescreenXUnknown 466
+SetField groupwidgets[2].bitmapwidgets[1].data.StandardYOffset 0
+SetField groupwidgets[2].bitmapwidgets[1].data.StandardXOffset 0
+SetField groupwidgets[2].bitmapwidgets[1].data.StandardYUnknown 0
+SetField groupwidgets[2].bitmapwidgets[1].data.StandardXUnknown 0
+SetField groupwidgets[2].bitmapwidgets[1].data.Animation ui\halox\main_menu\animations\lobby_slide.wacd
+SetField groupwidgets[2].bitmapwidgets[1].Bitmap ui\halox\pregame_lobby\gametypes_large_ui.bitmap
+SetField groupwidgets[2].bitmapwidgets[1].BlendMethod Alpha
+SaveTagChanges
+exitto tags
+Exit
