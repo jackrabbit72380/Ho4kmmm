@@ -24,5 +24,5 @@ Instalation: Port the Halo 3 campaign useing NoShotz script then install the mod
 
 I just uploaded tutorial legend so you can fix anything. It list all the 4k mod settings just not in script format.
 
-It's what im useing to create the script.
+It's what im useing to create the script. ho4kmmm is work in progress & curently in testing!
 __________________________________________________________________________________________________________________________
