@@ -1,2 +1,0 @@
-edittag ui\halox\pregame_lobby\pregame_lobby_template.scn3
-
