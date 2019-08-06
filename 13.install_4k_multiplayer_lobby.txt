@@ -170,7 +170,7 @@ SetField groupwidgets[2]TextWidgets[1].StandardYBoundsMin 0
 SetField groupwidgets[2]TextWidgets[1].StandardXBoundsMin 0
 SetField groupwidgets[2]TextWidgets[1].StandardYBoundsMax 0
 SetField groupwidgets[2]TextWidgets[1].StandardXBoundsMax 0
-SetField groupwidgets[2]TextWidgets[1].text stringnull
+SetField groupwidgets[2]TextWidgets[1].text string null
 SetField groupwidgets[2]TextWidgets[1].text color ice
 SetField groupwidgets[2]TextWidgets[1].text font 4
 SaveTagChanges
