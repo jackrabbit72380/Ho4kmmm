@@ -112,3 +112,88 @@ SetField groupwidgets[2].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
 Exit
+
+edittag ui\halox\pregame_lobby\pregame_lobby_theater
+//////////////////////////////////////////////////////////////////////////warning double check text fields -&-flags left alignment only 
+SetField groupwidgets[2].textwidgets[0].data.flags 9
+SetField groupwidgets[2].textwidgets[0].data.name film_name_verifying
+SetField groupwidgets[2].textwidgets[0].data.Layer 0
+SetField groupwidgets[2].textwidgets[0].data.WidescreenYOffset 500
+SetField groupwidgets[2].textwidgets[0].data.WidescreenXOffset 89
+SetField groupwidgets[2].textwidgets[0].data.WidescreenYUnknown 530
+SetField groupwidgets[2].textwidgets[0].data.WidescreenXUnknown 537
+SetField groupwidgets[2].textwidgets[0].data.StandardYOffset 0
+SetField groupwidgets[2].textwidgets[0].data.StandardXOffset 0
+SetField groupwidgets[2].textwidgets[0].data.StandardYUnknown 0
+SetField groupwidgets[2].textwidgets[0].data.StandardXUnknown 0
+SetField groupwidgets[2].textwidgets[0].data.Animation ui\halox\pregame_lobby\button_key.wacd
+SetField groupwidgets[2].textwidgets[0].data source name null
+SetField groupwidgets[2].textwidgets[0].text string theater_game_name
+SetField groupwidgets[2].textwidgets[0].text color ice
+SetField groupwidgets[2].textwidgets[0].text font 4
+SaveTagChanges
+exitto tags
+Exit
+
+edittag ui\halox\pregame_lobby\pregame_lobby_theater
+SetField groupwidgets[2].textwidgets[1].data.flags 9
+SetField groupwidgets[2].textwidgets[1].data.name lobby_status
+SetField groupwidgets[2].textwidgets[1].data.Layer 0
+SetField groupwidgets[2].textwidgets[1].data.WidescreenYOffset 166
+SetField groupwidgets[2].textwidgets[1].data.WidescreenXOffset 89
+SetField groupwidgets[2].textwidgets[1].data.WidescreenYUnknown 367
+SetField groupwidgets[2].textwidgets[1].data.WidescreenXUnknown 1637
+SetField groupwidgets[2].textwidgets[1].data.StandardYOffset 0
+SetField groupwidgets[2].textwidgets[1].data.StandardXOffset 0
+SetField groupwidgets[2].textwidgets[1].data.StandardYUnknown 0
+SetField groupwidgets[2].textwidgets[1].data.StandardXUnknown 0
+SetField groupwidgets[2].textwidgets[1].data.Animation ui\halox\global_animation_collections\lobby_slide_with_alt_flash.wacd
+SetField groupwidgets[2].textwidgets[1].data source name null
+SetField groupwidgets[2].textwidgets[1].text string null
+SetField groupwidgets[2].textwidgets[1].text color ice
+SetField groupwidgets[2].textwidgets[1].text font 4
+SaveTagChanges
+exitto tags
+Exit
+
+edittag ui\halox\pregame_lobby\pregame_lobby_theater
+SetField groupwidgets[2].textwidgets[2].data.flags 9
+SetField groupwidgets[2].textwidgets[2].data.name theater_no_film
+SetField groupwidgets[2].textwidgets[2].data.Layer 0
+SetField groupwidgets[2].textwidgets[2].data.WidescreenYOffset 900
+SetField groupwidgets[2].textwidgets[2].data.WidescreenXOffset 89
+SetField groupwidgets[2].textwidgets[2].data.WidescreenYUnknown 967
+SetField groupwidgets[2].textwidgets[2].data.WidescreenXUnknown 1637
+SetField groupwidgets[2].textwidgets[2].data.StandardYOffset 0
+SetField groupwidgets[2].textwidgets[2].data.StandardXOffset 0
+SetField groupwidgets[2].textwidgets[2].data.StandardYUnknown 0
+SetField groupwidgets[2].textwidgets[2].data.StandardXUnknown 0
+SetField groupwidgets[2].textwidgets[2].data.Animation ui\halox\pregame_lobby\button_key.wacd
+SetField groupwidgets[2].textwidgets[2].data source name null
+SetField groupwidgets[2].textwidgets[2].text string theater_no_film_description
+SetField groupwidgets[2].textwidgets[2].text color ice
+SetField groupwidgets[2].textwidgets[2].text font 4
+SaveTagChanges
+exitto tags
+Exit
+
+edittag ui\halox\pregame_lobby\pregame_lobby_theater
+SetField groupwidgets[2].textwidgets[3].data.flags 9-----------------------left alignment only
+SetField groupwidgets[2].textwidgets[3].data.name theater_ivalid_film
+SetField groupwidgets[2].textwidgets[3].data.Layer 0
+SetField groupwidgets[2].textwidgets[3].data.WidescreenYOffset 500
+SetField groupwidgets[2].textwidgets[3].data.WidescreenXOffset 89
+SetField groupwidgets[2].textwidgets[3].data.WidescreenYUnknown 530
+SetField groupwidgets[2].textwidgets[3].data.WidescreenXUnknown 537
+SetField groupwidgets[2].textwidgets[3].data.StandardYOffset 0
+SetField groupwidgets[2].textwidgets[3].data.StandardXOffset 0
+SetField groupwidgets[2].textwidgets[3].data.StandardYUnknown 0
+SetField groupwidgets[2].textwidgets[3].data.StandardXUnknown 0
+SetField groupwidgets[2].textwidgets[3].data.Animation ui\halox\pregame_lobby\button_key.wacd
+SetField groupwidgets[2].textwidgets[3].data source name null
+SetField groupwidgets[2].textwidgets[3].text string theater_ivalid_film_description
+SetField groupwidgets[2].textwidgets[3].text color ice
+SetField groupwidgets[2].textwidgets[3].text font 4
+SaveTagChanges
+exitto tags
+Exit
