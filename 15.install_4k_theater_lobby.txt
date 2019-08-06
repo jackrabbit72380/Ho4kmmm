@@ -17,3 +17,67 @@ exitto tags
 Exit
 
 
+edittag ui\halox\pregame_lobby\pregame_lobby_theater
+SetField groupwidgets[0].listwidgetitems[0].data.flags 0
+SetField groupwidgets[0].listwidgetitems[0].data.name switch_lobby
+SetField groupwidgets[0].listwidgetitems[0].data.Layer 0
+SetField groupwidgets[0].listwidgetitems[0].data.WidescreenYOffset -490
+SetField groupwidgets[0].listwidgetitems[0].data.WidescreenXOffset 0
+SetField groupwidgets[0].listwidgetitems[0].data.WidescreenYUnknown 0
+SetField groupwidgets[0].listwidgetitems[0].data.WidescreenXUnknown 0
+SetField groupwidgets[0].listwidgetitems[0].data.StandardYOffset 0
+SetField groupwidgets[0].listwidgetitems[0].data.StandardXOffset 0
+SetField groupwidgets[0].listwidgetitems[0].data.StandardYUnknown 0
+SetField groupwidgets[0].listwidgetitems[0].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+Exit
+
+edittag ui\halox\pregame_lobby\pregame_lobby_theater
+SetField groupwidgets[0].listwidgetitems[1].data.flags 0
+SetField groupwidgets[0].listwidgetitems[1].data.name host_custom_game
+SetField groupwidgets[0].listwidgetitems[1].data.Layer 0
+SetField groupwidgets[0].listwidgetitems[1].data.WidescreenYOffset -431
+SetField groupwidgets[0].listwidgetitems[1].data.WidescreenXOffset 0
+SetField groupwidgets[0].listwidgetitems[1].data.WidescreenYUnknown 0
+SetField groupwidgets[0].listwidgetitems[1].data.WidescreenXUnknown 0
+SetField groupwidgets[0].listwidgetitems[1].data.StandardYOffset 0
+SetField groupwidgets[0].listwidgetitems[1].data.StandardXOffset 0
+SetField groupwidgets[0].listwidgetitems[1].data.StandardYUnknown 0
+SetField groupwidgets[0].listwidgetitems[1].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+Exit
+
+edittag ui\halox\pregame_lobby\pregame_lobby_theater
+SetField groupwidgets[0].listwidgetitems[2].data.flags 0
+SetField groupwidgets[0].listwidgetitems[2].data.name film
+SetField groupwidgets[0].listwidgetitems[2].data.Layer 0
+SetField groupwidgets[0].listwidgetitems[2].data.WidescreenYOffset -173
+SetField groupwidgets[0].listwidgetitems[2].data.WidescreenXOffset 0
+SetField groupwidgets[0].listwidgetitems[2].data.WidescreenYUnknown 0
+SetField groupwidgets[0].listwidgetitems[2].data.WidescreenXUnknown 0
+SetField groupwidgets[0].listwidgetitems[2].data.StandardYOffset 0
+SetField groupwidgets[0].listwidgetitems[2].data.StandardXOffset 0
+SetField groupwidgets[0].listwidgetitems[2].data.StandardYUnknown 0
+SetField groupwidgets[0].listwidgetitems[2].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+Exit
+
+edittag ui\halox\pregame_lobby\pregame_lobby_theater
+SetField groupwidgets[0].listwidgetitems[3].data.flags 0
+SetField groupwidgets[0].listwidgetitems[3].data.name start_theater
+SetField groupwidgets[0].listwidgetitems[3].data.Layer 0
+SetField groupwidgets[0].listwidgetitems[3].data.WidescreenYOffset -80
+SetField groupwidgets[0].listwidgetitems[3].data.WidescreenXOffset 0
+SetField groupwidgets[0].listwidgetitems[3].data.WidescreenYUnknown 0
+SetField groupwidgets[0].listwidgetitems[3].data.WidescreenXUnknown 0
+SetField groupwidgets[0].listwidgetitems[3].data.StandardYOffset 0
+SetField groupwidgets[0].listwidgetitems[3].data.StandardXOffset 0
+SetField groupwidgets[0].listwidgetitems[3].data.StandardYUnknown 0
+SetField groupwidgets[0].listwidgetitems[3].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+Exit
+
