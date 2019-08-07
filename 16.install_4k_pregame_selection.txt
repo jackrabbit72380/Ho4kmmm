@@ -220,3 +220,18 @@ SaveTagChanges
 exitto tags
 Exit
 
+edittag ui\halox\pregame_lobby\selection\pregame_selection
+SetField groupwidgets[0].listwidgets[0].data.flags. bit 0 looping bit6????????????????????????????needs number
+SetField groupwidgets[0].listwidgets[0].name category
+SetField groupwidgets[0].listwidgets[0].Layer 0
+SetField groupwidgets[0].listwidgets[0].data.WidescreenYOffset 56
+SetField groupwidgets[0].listwidgets[0].data.WidescreenXOffset 206
+SetField groupwidgets[0].listwidgets[0].data.WidescreenYUnknown 0
+SetField groupwidgets[0].listwidgets[0].data.WidescreenXUnknown 0
+SetField groupwidgets[0].listwidgets[0].data.StanderdYOffset 0
+SetField groupwidgets[0].listwidgets[0].data.StanderdXOffset 0
+SetField groupwidgets[0].listwidgets[0].data.StanderdYUnknown 0
+SetField groupwidgets[0].listwidgets[0].data.StanderdXUnknown 0
+SaveTagChanges
+exitto tags
+exit
