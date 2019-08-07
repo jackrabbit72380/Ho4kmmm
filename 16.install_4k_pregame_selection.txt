@@ -282,7 +282,6 @@ Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_multiplayer.scn3
 SetField groupwidgets[0].textwidgets[0].name title
-SetField groupwidgets[0].listwidgets[0].Layer 0
 SetField groupwidgets[0].textwidgets[0].data.WidescreenYBoundsMin -550
 SetField groupwidgets[0].textwidgets[0].data.WidescreenXBoundsMin -620
 SetField groupwidgets[0].textwidgets[0].data.WidescreenYBoundsMax 40
@@ -291,4 +290,86 @@ SetField groupwidgets[0].textwidgets[0].data.StanderdYBoundsMin 0
 SetField groupwidgets[0].textwidgets[0].data.StanderdXBoundsMin 0
 SetField groupwidgets[0].textwidgets[0].data.StanderdYBoundsMax 0
 SetField groupwidgets[0].textwidgets[0].data.StanderdXBoundsMax 0
+SetField groupwidgets[0].textwidgets[0].data source name null
+SetField groupwidgets[0].textwidgets[0].text string null
+SetField groupwidgets[0].textwidgets[0].text color hilite
+SetField groupwidgets[0].textwidgets[0].text font 4
+SaveTagChanges
+exitto tags
+Exit
+
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_multiplayer.scn3
+SetField groupwidgets[0].textwidgets[1].name list_empty
+SetField groupwidgets[0].textwidgets[1].data.WidescreenYBoundsMin 60
+SetField groupwidgets[0].textwidgets[1].data.WidescreenXBoundsMin 472
+SetField groupwidgets[0].textwidgets[1].data.WidescreenYBoundsMax 224
+SetField groupwidgets[0].textwidgets[1].data.WidescreenXBoundsMax 723
+SetField groupwidgets[0].textwidgets[1].data.StanderdYBoundsMin 0
+SetField groupwidgets[0].textwidgets[1].data.StanderdXBoundsMin 0
+SetField groupwidgets[0].textwidgets[1].data.StanderdYBoundsMax 0
+SetField groupwidgets[0].textwidgets[1].data.StanderdXBoundsMax 0
+SetField groupwidgets[0].textwidgets[1].data source name null
+SetField groupwidgets[0].textwidgets[1].text string null
+SetField groupwidgets[0].textwidgets[1].text color hilite
+SetField groupwidgets[0].textwidgets[1].text font 4
+SaveTagChanges
+exitto tags
+Exit
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_multiplayer.scn3
+SetField groupwidgets[0].bitmapwidgets[0].name background
+SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenYBoundsMin -610
+SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenXBoundsMin -1475
+SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenYBoundsMax 1080
+SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenXBoundsMax 2620
+SetField groupwidgets[0].bitmapwidgets[0].data.StanderdYBoundsMin 0
+SetField groupwidgets[0].bitmapwidgets[0].data.StanderdXBoundsMin 0
+SetField groupwidgets[0].bitmapwidgets[0].data.StanderdYBoundsMax 0
+SetField groupwidgets[0].bitmapwidgets[0].data.StanderdXBoundsMax 0
+SaveTagChanges
+exitto tags
+Exit
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_multiplayer.scn3
+SetField groupwidgets[0].bitmapwidgets[1].name background
+SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenYBoundsMin -610
+SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenXBoundsMin -1475
+SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenYBoundsMax 1080
+SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenXBoundsMax 2620
+SetField groupwidgets[0].bitmapwidgets[1].data.StanderdYBoundsMin 0
+SetField groupwidgets[0].bitmapwidgets[1].data.StanderdXBoundsMin 0
+SetField groupwidgets[0].bitmapwidgets[1].data.StanderdYBoundsMax 0
+SetField groupwidgets[0].bitmapwidgets[1].data.StanderdXBoundsMax 0
+SaveTagChanges
+exitto tags
+Exit
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_multiplayer.scn3
+SetField groupwidgets[0].bitmapwidgets[2].name dark_background
+SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenYBoundsMin -610
+SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenXBoundsMin -1475
+SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenYBoundsMax 1080
+SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenXBoundsMax 2620
+SetField groupwidgets[0].bitmapwidgets[2].data.StanderdYBoundsMin 0
+SetField groupwidgets[0].bitmapwidgets[2].data.StanderdXBoundsMin 0
+SetField groupwidgets[0].bitmapwidgets[2].data.StanderdYBoundsMax 0
+SetField groupwidgets[0].bitmapwidgets[2].data.StanderdXBoundsMax 0
+SaveTagChanges
+exitto tags
+Exit
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_multiplayer.scn3
+SetField groupwidgets[0].bitmapwidgets[3].name background
+SetField groupwidgets[0].bitmapwidgets[3].data.WidescreenYBoundsMin -375
+SetField groupwidgets[0].bitmapwidgets[3].data.WidescreenXBoundsMin 719
+SetField groupwidgets[0].bitmapwidgets[3].data.WidescreenYBoundsMax 756
+SetField groupwidgets[0].bitmapwidgets[3].data.WidescreenXBoundsMax 2375
+SetField groupwidgets[0].bitmapwidgets[3].data.StanderdYBoundsMin 0
+SetField groupwidgets[0].bitmapwidgets[3].data.StanderdXBoundsMin 0
+SetField groupwidgets[0].bitmapwidgets[3].data.StanderdYBoundsMax 0
+SetField groupwidgets[0].bitmapwidgets[3].data.StanderdXBoundsMax 0
+SaveTagChanges
+exitto tags
+Exit
 
