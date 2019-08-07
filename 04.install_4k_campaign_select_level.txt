@@ -1,3 +1,16 @@
+edittag ui\halox\campaign\campaign_select_level.scn3
+SetField WidescreenYBoundsMin -234
+SetField WidescreenXBoundsMin -576
+SetField WidescreenYBoundsMax 234
+SetField WidescreenXBoundsMax 576
+SetField StandardYBoundsMin 0
+SetField StandardXBoundsMin 0
+SetField StandardYBoundsMax 0
+SetField StandardXBoundsMax 0
+SaveTagChanges
+exitto tags
+exit
+
 Echo refrence campaign select mission bitmap
 
 edittag ui\halox\campaign\campaign_select_level.scn3
