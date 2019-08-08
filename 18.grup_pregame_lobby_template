@@ -1,1 +1,104 @@
+EditTag ui\halox\pregame_lobby\pregame_lobby_template.grup
+SetField groupwidgets[0].textwidgets[0].name title
+SetField groupwidgets[0].textwidgets[0].data.WidescreenYBoundsMin -470
+SetField groupwidgets[0].textwidgets[0].data.WidescreenXBoundsMin -1175
+SetField groupwidgets[0].textwidgets[0].data.WidescreenYBoundsMax 1259
+SetField groupwidgets[0].textwidgets[0].data.WidescreenXBoundsMax -100
+SetField groupwidgets[0].textwidgets[0].data.StanderdYBoundsMin 285
+SetField groupwidgets[0].textwidgets[0].data.StanderdXBoundsMin 40
+SetField groupwidgets[0].textwidgets[0].data.StanderdYBoundsMax 405
+SetField groupwidgets[0].textwidgets[0].data.StanderdXBoundsMax 216
+SetField groupwidgets[0].textwidgets[0].data source name null
+SetField groupwidgets[0].textwidgets[0].text string null
+SetField groupwidgets[0].textwidgets[0].text color clear
+SetField groupwidgets[0].textwidgets[0].text font 4
+SaveTagChanges
+exitto tags
+Exit
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_template.grup
+SetField groupwidgets[0].textwidgets[1].name players_in_game
+SetField groupwidgets[0].textwidgets[1].data.WidescreenYBoundsMin -610
+SetField groupwidgets[0].textwidgets[1].data.WidescreenXBoundsMin -1546
+SetField groupwidgets[0].textwidgets[1].data.WidescreenYBoundsMax 73
+SetField groupwidgets[0].textwidgets[1].data.WidescreenXBoundsMax 2000
+SetField groupwidgets[0].textwidgets[1].data.StanderdYBoundsMin 23
+SetField groupwidgets[0].textwidgets[1].data.StanderdXBoundsMin 444
+SetField groupwidgets[0].textwidgets[1].data.StanderdYBoundsMax 53
+SetField groupwidgets[0].textwidgets[1].data.StanderdXBoundsMax 640
+SetField groupwidgets[0].textwidgets[1].data source name null
+SetField groupwidgets[0].textwidgets[1].text string null
+SetField groupwidgets[0].textwidgets[1].text font 4
+SaveTagChanges
+exitto tags
+Exit
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_template.grup
+SetField groupwidgets[0].textwidgets[2].name change_teams
+SetField groupwidgets[0].textwidgets[2].data.WidescreenYBoundsMin 1000
+SetField groupwidgets[0].textwidgets[2].data.WidescreenXBoundsMin -1185
+SetField groupwidgets[0].textwidgets[2].data.WidescreenYBoundsMax 1042
+SetField groupwidgets[0].textwidgets[2].data.WidescreenXBoundsMax 420
+SetField groupwidgets[0].textwidgets[2].data.StanderdYBoundsMin 421
+SetField groupwidgets[0].textwidgets[2].data.StanderdXBoundsMin 0
+SetField groupwidgets[0].textwidgets[2].data.StanderdYBoundsMax 451
+SetField groupwidgets[0].textwidgets[2].data.StanderdXBoundsMax 580
+SetField groupwidgets[0].textwidgets[2].data source name null
+SetField groupwidgets[0].textwidgets[2].text string change_teams
+SetField groupwidgets[0].textwidgets[2].text font 4
+SaveTagChanges
+exitto tags
+Exit
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_template.grup
+SetField groupwidgets[0].textwidgets[3].name postgame_stats
+SetField groupwidgets[0].textwidgets[3].data.WidescreenYBoundsMin 551
+SetField groupwidgets[0].textwidgets[3].data.WidescreenXBoundsMin 88
+SetField groupwidgets[0].textwidgets[3].data.WidescreenYBoundsMax 579
+SetField groupwidgets[0].textwidgets[3].data.WidescreenXBoundsMax 537
+SetField groupwidgets[0].textwidgets[3].data.StanderdYBoundsMin 0
+SetField groupwidgets[0].textwidgets[3].data.StanderdXBoundsMin 0
+SetField groupwidgets[0].textwidgets[3].data.StanderdYBoundsMax 0
+SetField groupwidgets[0].textwidgets[3].data.StanderdXBoundsMax 0
+SetField groupwidgets[0].textwidgets[3].data source name null
+SetField groupwidgets[0].textwidgets[3].text string postgame_stats
+SetField groupwidgets[0].textwidgets[3].text font 4
+SaveTagChanges
+exitto tags
+Exit
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_template.grup
+SetField groupwidgets[0].textwidgets[4].name advanced_options
+SetField groupwidgets[0].textwidgets[4].data.WidescreenYBoundsMin 227
+SetField groupwidgets[0].textwidgets[4].data.WidescreenXBoundsMin 88
+SetField groupwidgets[0].textwidgets[4].data.WidescreenYBoundsMax 377
+SetField groupwidgets[0].textwidgets[4].data.WidescreenXBoundsMax 537
+SetField groupwidgets[0].textwidgets[4].data.StanderdYBoundsMin 0
+SetField groupwidgets[0].textwidgets[4].data.StanderdXBoundsMin 0
+SetField groupwidgets[0].textwidgets[4].data.StanderdYBoundsMax 0
+SetField groupwidgets[0].textwidgets[4].data.StanderdXBoundsMax 0
+SetField groupwidgets[0].textwidgets[4].data source name null
+SetField groupwidgets[0].textwidgets[4].text string postgame_stats
+SetField groupwidgets[0].textwidgets[4].text font 4
+SaveTagChanges
+exitto tags
+Exit
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_template.grup
+SetField groupwidgets[0].textwidgets[5].name not_squad_leader
+SetField groupwidgets[0].textwidgets[5].data.WidescreenYBoundsMin 195
+SetField groupwidgets[0].textwidgets[5].data.WidescreenXBoundsMin 88
+SetField groupwidgets[0].textwidgets[5].data.WidescreenYBoundsMax 225
+SetField groupwidgets[0].textwidgets[5].data.WidescreenXBoundsMax 537
+SetField groupwidgets[0].textwidgets[5].data.StanderdYBoundsMin 0
+SetField groupwidgets[0].textwidgets[5].data.StanderdXBoundsMin 0
+SetField groupwidgets[0].textwidgets[5].data.StanderdYBoundsMax 0
+SetField groupwidgets[0].textwidgets[5].data.StanderdXBoundsMax 0
+SetField groupwidgets[0].textwidgets[5].data source name null
+SetField groupwidgets[0].textwidgets[5].text string not_squad_leader
+SetField groupwidgets[0].textwidgets[5].text color orange
+SetField groupwidgets[0].textwidgets[5].text font 4
+SaveTagChanges
+exitto tags
+Exit
 
