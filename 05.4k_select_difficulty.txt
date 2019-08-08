@@ -1,4 +1,4 @@
-edittag ui\halox\campaign\campaign_select_difficulty
+edittag ui\halox\campaign\campaign_select_difficulty.scn3
 
 SetField groupwidgets[0].bitmapwidgets[0].data.flags 9
 SetField groupwidgets[0].bitmapwidgets[0].data.name background
@@ -18,7 +18,7 @@ SaveTagChanges
 exitto tags
 Exit
 
-edittag ui\halox\campaign\campaign_select_difficulty
+edittag ui\halox\campaign\campaign_select_difficulty.scn3
 
 SetField groupwidgets[0].bitmapwidgets[1].data.flags 9
 SetField groupwidgets[0].bitmapwidgets[1].data.name difficulty_image
@@ -38,7 +38,7 @@ SaveTagChanges
 exitto tags
 Exit
 
-edittag ui\halox\campaign\campaign_select_difficulty
+edittag ui\halox\campaign\campaign_select_difficulty.scn3
 
 SetField groupwidgets[0].bitmapwidgets[2].data.flags 9
 SetField groupwidgets[0].bitmapwidgets[2].data.name background_blur
@@ -58,7 +58,7 @@ SaveTagChanges
 exitto tags
 Exit
 
-edittag ui\halox\campaign\campaign_select_difficulty
+edittag ui\halox\campaign\campaign_select_difficulty.scn3
 
 SetField groupwidgets[0].bitmapwidgets[3].data.flags 9
 SetField groupwidgets[0].bitmapwidgets[3].data.name background_darkening
