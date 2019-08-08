@@ -12,9 +12,9 @@ SetField groupwidgets[0].listwidgets[0].data.StandardYUnknown 0
 SetField groupwidgets[0].listwidgets[0].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
-Exit
 
-EditTag ui\halox\pregame_lobby\pregame_lobby_mapediter.scn3
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_mapeditor.scn3
 SetField groupwidgets[0].listwidgetitems[0].data.flags 0
 SetField groupwidgets[0].listwidgetitems[0].data.name switch_lobby
 SetField groupwidgets[0].listwidgetitems[0].data.Layer 0
@@ -28,9 +28,9 @@ SetField groupwidgets[0].listwidgetitems[0].data.StandardYUnknown 0
 SetField groupwidgets[0].listwidgetitems[0].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
-Exit
 
-EditTag ui\halox\pregame_lobby\pregame_lobby_mapediter.scn3
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_mapeditor.scn3
 SetField groupwidgets[0].listwidgetitems[1].data.flags 0
 SetField groupwidgets[0].listwidgetitems[1].data.name settings
 SetField groupwidgets[0].listwidgetitems[1].data.Layer 0
@@ -44,9 +44,9 @@ SetField groupwidgets[0].listwidgetitems[1].data.StandardYUnknown 0
 SetField groupwidgets[0].listwidgetitems[1].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
-Exit
 
-EditTag ui\halox\pregame_lobby\pregame_lobby_mapediter.scn3
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_mapeditor.scn3
 SetField groupwidgets[0].listwidgetitems[2].data.flags 0
 SetField groupwidgets[0].listwidgetitems[2].data.name map
 SetField groupwidgets[0].listwidgetitems[2].data.Layer 0
@@ -60,9 +60,9 @@ SetField groupwidgets[0].listwidgetitems[2].data.StandardYUnknown 0
 SetField groupwidgets[0].listwidgetitems[2].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
-Exit
 
-EditTag ui\halox\pregame_lobby\pregame_lobby_mapediter.scn3
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_mapeditor.scn3
 SetField groupwidgets[0].listwidgetitems[3].data.flags 0
 SetField groupwidgets[0].listwidgetitems[3].data.name start_game
 SetField groupwidgets[0].listwidgetitems[3].data.Layer 0
@@ -76,9 +76,9 @@ SetField groupwidgets[0].listwidgetitems[3].data.StandardYUnknown 0
 SetField groupwidgets[0].listwidgetitems[3].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
-Exit
 
-EditTag ui\halox\pregame_lobby\pregame_lobby_mapediter.scn3
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_mapeditor.scn3
 SetField groupwidgets[0].listwidgetitems[4].data.flags 0
 SetField groupwidgets[0].listwidgetitems[4].data.name game_options
 SetField groupwidgets[0].listwidgetitems[4].data.Layer 0
@@ -92,9 +92,9 @@ SetField groupwidgets[0].listwidgetitems[4].data.StandardYUnknown 0
 SetField groupwidgets[0].listwidgetitems[4].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
-Exit
 
-EditTag ui\halox\pregame_lobby\pregame_lobby_mapediter.scn3
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_mapeditor.scn3
 SetField groupwidgets[1].data.name roster
 SetField groupwidgets[1].data.WidescreenYOffset 64
 SetField groupwidgets[1].data.WidescreenXOffset 843
@@ -104,8 +104,10 @@ SetField groupwidgets[1].data.StandardYOffset 45
 SetField groupwidgets[1].data.StandardXOffset 442
 SetField groupwidgets[1].data.StandardYUnknown 0
 SetField groupwidgets[1].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
 
-EditTag ui\halox\pregame_lobby\pregame_lobby_mapediter.scn3
+EditTag ui\halox\pregame_lobby\pregame_lobby_mapeditor.scn3
 SetField groupwidgets[2].data.name null
 SetField groupwidgets[2].data.WidescreenYOffset -40
 SetField groupwidgets[2].data.WidescreenXOffset -1265
@@ -115,8 +117,10 @@ SetField groupwidgets[2].data.StandardYOffset 0
 SetField groupwidgets[2].data.StandardXOffset 0
 SetField groupwidgets[2].data.StandardYUnknown 0
 SetField groupwidgets[2].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
 
-EditTag ui\halox\pregame_lobby\pregame_lobby_mapediter.scn3
+EditTag ui\halox\pregame_lobby\pregame_lobby_mapeditor.scn3
 SetField groupwidgets[2].data.name mapediter_map_name
 SetField groupwidgets[2].TextWidgets[0].data.WidescreenYBoundsMin 910
 SetField groupwidgets[2].TextWidgets[0].data.WidescreenXBoundsMin 89
@@ -130,8 +134,10 @@ SetField groupwidgets[2].textwidgets[0].data source name null
 SetField groupwidgets[2].textwidgets[0].text string mapediter_map_name
 SetField groupwidgets[2].textwidgets[0].text color ice
 SetField groupwidgets[2].textwidgets[0].text font 4
+SaveTagChanges
+exitto tags
 
-EditTag ui\halox\pregame_lobby\pregame_lobby_mapediter.scn3
+EditTag ui\halox\pregame_lobby\pregame_lobby_mapeditor.scn3
 SetField groupwidgets[2].bitmapwidgets[0].data.flags 9
 SetField groupwidgets[2].bitmapwidgets[0].data.name unknown_film_image
 SetField groupwidgets[2].bitmapwidgets[0].data.Layer -30
@@ -148,9 +154,9 @@ SetField groupwidgets[2].bitmapwidgets[0].Bitmap null
 SetField groupwidgets[2].bitmapwidgets[0].BlendMethod Alpha
 SaveTagChanges
 exitto tags
-Exit
 
-EditTag ui\halox\pregame_lobby\pregame_lobby_mapediter.scn3
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_mapeditor.scn3
 SetField groupwidgets[2].bitmapwidgets[1].data.flags 9
 SetField groupwidgets[2].bitmapwidgets[1].data.name gametype_image
 SetField groupwidgets[2].bitmapwidgets[1].data.Layer 0
