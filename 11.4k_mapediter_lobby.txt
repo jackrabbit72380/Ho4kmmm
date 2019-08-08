@@ -13,7 +13,6 @@ SetField groupwidgets[0].listwidgets[0].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
 
-
 EditTag ui\halox\pregame_lobby\pregame_lobby_mapeditor.scn3
 SetField groupwidgets[0].listwidgetitems[0].data.flags 0
 SetField groupwidgets[0].listwidgetitems[0].data.name switch_lobby
@@ -28,7 +27,6 @@ SetField groupwidgets[0].listwidgetitems[0].data.StandardYUnknown 0
 SetField groupwidgets[0].listwidgetitems[0].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
-
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_mapeditor.scn3
 SetField groupwidgets[0].listwidgetitems[1].data.flags 0
@@ -45,7 +43,6 @@ SetField groupwidgets[0].listwidgetitems[1].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
 
-
 EditTag ui\halox\pregame_lobby\pregame_lobby_mapeditor.scn3
 SetField groupwidgets[0].listwidgetitems[2].data.flags 0
 SetField groupwidgets[0].listwidgetitems[2].data.name map
@@ -60,7 +57,6 @@ SetField groupwidgets[0].listwidgetitems[2].data.StandardYUnknown 0
 SetField groupwidgets[0].listwidgetitems[2].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
-
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_mapeditor.scn3
 SetField groupwidgets[0].listwidgetitems[3].data.flags 0
@@ -77,7 +73,6 @@ SetField groupwidgets[0].listwidgetitems[3].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
 
-
 EditTag ui\halox\pregame_lobby\pregame_lobby_mapeditor.scn3
 SetField groupwidgets[0].listwidgetitems[4].data.flags 0
 SetField groupwidgets[0].listwidgetitems[4].data.name game_options
@@ -92,7 +87,6 @@ SetField groupwidgets[0].listwidgetitems[4].data.StandardYUnknown 0
 SetField groupwidgets[0].listwidgetitems[4].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
-
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_mapeditor.scn3
 SetField groupwidgets[1].data.name roster
@@ -154,7 +148,6 @@ SetField groupwidgets[2].bitmapwidgets[0].Bitmap null
 SetField groupwidgets[2].bitmapwidgets[0].BlendMethod Alpha
 SaveTagChanges
 exitto tags
-
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_mapeditor.scn3
 SetField groupwidgets[2].bitmapwidgets[1].data.flags 9
