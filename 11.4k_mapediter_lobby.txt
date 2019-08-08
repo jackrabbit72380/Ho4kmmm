@@ -1,4 +1,4 @@
-EditTag ui\halox\pregame_lobby\pregame_lobby_mapediter.scn3
+EditTag ui\halox\pregame_lobby\pregame_lobby_mapeditor.scn3
 SetField groupwidgets[0].listwidgets[0].data.flags 1
 SetField groupwidgets[0].listwidgets[0].data.name lobby_list
 SetField groupwidgets[0].listwidgets[0].data.Layer 0
