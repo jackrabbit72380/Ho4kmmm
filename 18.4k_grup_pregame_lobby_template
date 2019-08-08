@@ -28,7 +28,7 @@ SetField textwidgets[1].data.StanderdYBoundsMax 53
 SetField textwidgets[1].data.StanderdXBoundsMax 640
 SetField textwidgets[1].data source name null
 SetField textwidgets[1].text string null
-SetField textwidgets[1].text font 4
+SetField textwidgets[1].text font 1
 SaveTagChanges
 exitto tags
 Exit
@@ -45,7 +45,7 @@ SetField textwidgets[2].data.StanderdYBoundsMax 451
 SetField textwidgets[2].data.StanderdXBoundsMax 580
 SetField textwidgets[2].data source name null
 SetField textwidgets[2].text string change_teams
-SetField textwidgets[2].text font 4
+SetField textwidgets[2].text font 1
 SaveTagChanges
 exitto tags
 Exit
@@ -62,7 +62,7 @@ SetField textwidgets[3].data.StanderdYBoundsMax 0
 SetField textwidgets[3].data.StanderdXBoundsMax 0
 SetField textwidgets[3].data source name null
 SetField textwidgets[3].text string postgame_stats
-SetField textwidgets[3].text font 4
+SetField textwidgets[3].text font 1
 SaveTagChanges
 exitto tags
 Exit
@@ -79,7 +79,7 @@ SetField textwidgets[4].data.StanderdYBoundsMax 0
 SetField textwidgets[4].data.StanderdXBoundsMax 0
 SetField textwidgets[4].data source name null
 SetField textwidgets[4].text string postgame_stats
-SetField textwidgets[4].text font 4
+SetField textwidgets[4].text font 1
 SaveTagChanges
 exitto tags
 Exit
@@ -97,7 +97,7 @@ SetField textwidgets[5].data.StanderdXBoundsMax 0
 SetField textwidgets[5].data source name null
 SetField textwidgets[5].text string not_squad_leader
 SetField textwidgets[5].text color orange
-SetField textwidgets[5].text font 4
+SetField textwidgets[5].text font 1
 SaveTagChanges
 exitto tags
 Exit
