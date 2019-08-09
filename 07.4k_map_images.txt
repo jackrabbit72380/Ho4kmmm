@@ -3,38 +3,47 @@ edittag levels\solo\005_intro\bitmaps\gfxt.bitmap
 importbitmap 0 mods\maps\mainmenu\bitmaps\gfxt_4kmod_dds\c_005.dds
 savetagchanges
 exitto tags
+
 edittag levels\solo\010_jungle\bitmaps\gfxt.bitmap
 importbitmap 0 mods\maps\mainmenu\bitmaps\gfxt_4kmod_dds\c_010.dds
 savetagchanges
 exitto tags
+
 edittag levels\solo\020_base\bitmaps\gfxt.bitmap
 importbitmap 0 mods\maps\mainmenu\bitmaps\gfxt_4kmod_dds\c_020.dds
 savetagchanges
 exitto tags
+
 edittag levels\solo\030_outskirts\bitmaps\gfxt.bitmap
 importbitmap 0 mods\maps\mainmenu\bitmaps\gfxt_4kmod_dds\c_030.dds
 savetagchanges
 exitto tags
+
 edittag levels\solo\040_voi\bitmaps\gfxt.bitmap
 importbitmap 0 mods\maps\mainmenu\bitmaps\gfxt_4kmod_dds\c_040.dds
 savetagchanges
 exitto tags
+
 edittag levels\solo\050_floodvoi\bitmaps\gfxt.bitmap
 importbitmap 0 mods\maps\mainmenu\bitmaps\gfxt_4kmod_dds\c_050.dds
 savetagchanges
 exitto tags
+
 edittag levels\solo\070_waste\bitmaps\gfxt.bitmap
 importbitmap 0 mods\maps\mainmenu\bitmaps\gfxt_4kmod_dds\c_070.dds
 savetagchanges
 exitto tags
+
 edittag levels\solo\100_citadel\bitmaps\gfxt.bitmap
 importbitmap 0 mods\maps\mainmenu\bitmaps\gfxt_4kmod_dds\c_100.dds
 savetagchanges
 exitto tags
+
 edittag levels\solo\110_hc\bitmaps\gfxt.bitmap
 importbitmap 0 mods\maps\mainmenu\bitmaps\gfxt_4kmod_dds\c_110.dds
 savetagchanges
 exitto tags
+
 edittag levels\solo\120_halo\bitmaps\gfxt.bitmap
 importbitmap 0 mods\maps\mainmenu\bitmaps\gfxt_4kmod_dds\c_120.dds
 savetagchanges
@@ -43,72 +52,72 @@ exitto tags
 edittag 0x0A28
 importbitmap 0 mods\maps\mainmenu\bitmaps\gfxt_4kmod_dds\matchmaking.dds
 savetagchanges
-exit
+exitto tags
 
 edittag 0x05732
 importbitmap 0 mods\maps\mainmenu\bitmaps\gfxt_4kmod_dds\placeholder.dds
 savetagchanges
-exit
+exitto tags
 
 edittag 0x05733
 importbitmap 0 mods\maps\mainmenu\bitmaps\gfxt_4kmod_dds\riverworld.dds
 savetagchanges
-exit
+exitto tags
 
 edittag 0x05734
 importbitmap 0 mods\maps\mainmenu\bitmaps\gfxt_4kmod_dds\s3d_turf.dds
 savetagchanges
-exit
+exitto tags
 
 edittag 0x05735
 importbitmap 0 mods\maps\mainmenu\bitmaps\gfxt_4kmod_dds\bunkerworld.dds
 savetagchanges
-exit
+exitto tags
 
 edittag 0x05736
 importbitmap 0 mods\maps\mainmenu\bitmaps\gfxt_4kmod_dds\shrine.dds
 savetagchanges
-exit
+exitto tags
 
 edittag 0x05737
 importbitmap 0 mods\maps\mainmenu\bitmaps\gfxt_4kmod_dds\cyberdyne.dds
 savetagchanges
-exit
+exitto tags
 
 edittag 0x05738
 importbitmap 0 mods\maps\mainmenu\bitmaps\gfxt_4kmod_dds\s3d_reactor.dds
 savetagchanges
-exit
+exitto tags
 
 edittag 0x05739
 importbitmap 0 mods\maps\mainmenu\bitmaps\gfxt_4kmod_dds\chill.dds
 savetagchanges
-exit
+exitto tags
 
 edittag 0x0573A
 importbitmap 0 mods\maps\mainmenu\bitmaps\gfxt_4kmod_dds\zanzibar.dds
 savetagchanges
-exit
+exitto tags
 
 edittag 0x0573B
 importbitmap 0 mods\maps\mainmenu\bitmaps\gfxt_4kmod_dds\s3d_edge.dds
 savetagchanges
-exit
+exitto tags
 
 edittag 0x0573C
 importbitmap 0 mods\maps\mainmenu\bitmaps\gfxt_4kmod_dds\deadlock.dds
 savetagchanges
-exit
+exitto tags
 
 edittag 0x0573D
 importbitmap 0 mods\maps\mainmenu\bitmaps\gfxt_4kmod_dds\guardian.dds
 savetagchanges
-exit
+exitto tags
 
 edittag 0x0573E
 importbitmap 0 mods\maps\mainmenu\bitmaps\gfxt_4kmod_dds\s3d_avalanche.dds
 savetagchanges
-exit
+exitto tags
 
 nametag 0x00005731 gfxt
 createtag bitm
@@ -421,7 +430,102 @@ setfield Textures[49].FileName 6140
 setfield Textures[50].FileName 6150
 setfield Textures[51].FileName 9764
 savetagchanges
+savetagnames
 exitto tags
 
-savetagnames
-dumplog mapimages.log
+
+echo Bitmap 0x0000D96C Mapname:Construct
+edittag levels\multi\construct\bitmaps\gfxt.bitmap
+importbitmap 0 mods\maps\mainmenu\bitmaps\gfxt_4kmod_dds\m_construct.dds
+savetagchanges
+exitto tags
+
+echo Bitmap 0x0000D96D Mapname:Isolation
+edittag levels\multi\isolation\bitmaps\gfxt.bitmap
+importbitmap 0 mods\maps\mainmenu\bitmaps\gfxt_4kmod_dds\m_isolation.dds
+savetagchanges
+exitto tags
+
+echo Bitmap 0x0000D96E Mapname:Epitaph
+edittag levels\multi\salvation\bitmaps\gfxt.bitmap
+importbitmap 0 mods\maps\mainmenu\bitmaps\gfxt_4kmod_dds\m_salvation.dds
+savetagchanges
+exitto tags
+
+echo Bitmap 0x0000D96F Mapname:Snowbound
+edittag levels\multi\snowbound\bitmaps\gfxt.bitmap
+importbitmap 0 mods\maps\mainmenu\bitmaps\gfxt_4kmod_dds\m_snowbound.dds
+savetagchanges
+exitto tags
+
+echo Bitmap 0x0000D970 Mapname:Longshore
+edittag levels\dlc\docks\bitmaps\gfxt.bitmap
+importbitmap 0 mods\maps\mainmenu\bitmaps\gfxt_4kmod_dds\dlc_docks.dds
+savetagchanges
+exitto tags
+
+echo Bitmap 0x0000D971 Mapname:Avalanche
+edittag levels\dlc\sidewinder\bitmaps\gfxt.bitmap
+importbitmap 0 mods\maps\mainmenu\bitmaps\gfxt_4kmod_dds\dlc_sidewinder.dds
+savetagchanges
+exitto tags
+
+echo Bitmap 0x0000D972 Mapname:Foundry
+edittag levels\dlc\warehouse\bitmaps\gfxt.bitmap
+importbitmap 0 mods\maps\mainmenu\bitmaps\gfxt_4kmod_dds\dlc_warehouse.dds
+savetagchanges
+exitto tags
+
+echo Bitmap 0x0000D973 Mapname:Assembly
+edittag levels\dlc\descent\bitmaps\gfxt.bitmap
+importbitmap 0 mods\maps\mainmenu\bitmaps\gfxt_4kmod_dds\dlc_descent.dds
+savetagchanges
+exitto tags
+
+echo Bitmap 0x0000D974 Mapname:Orbital
+edittag levels\dlc\spacecamp\bitmaps\gfxt.bitmap
+importbitmap 0 mods\maps\mainmenu\bitmaps\gfxt_4kmod_dds\dlc_space_camp.dds
+savetagchanges
+exitto tags
+
+echo Bitmap 0x0000D975 Mapname:Blackout
+edittag levels\dlc\lockout\bitmaps\gfxt.bitmap
+importbitmap 0 mods\maps\mainmenu\bitmaps\gfxt_4kmod_dds\dlc_lockout.dds
+savetagchanges
+exitto tags
+
+echo Bitmap 0x0000D976 Mapname:Rat's Nest
+edittag levels\dlc\armory\bitmaps\gfxt.bitmap
+importbitmap 0 mods\maps\mainmenu\bitmaps\gfxt_4kmod_dds\dlc_armory.dds
+savetagchanges
+exitto tags
+
+echo Bitmap 0x0000D977 Mapname:Ghosttown
+edittag levels\dlc\ghosttown\bitmaps\gfxt.bitmap
+importbitmap 0 mods\maps\mainmenu\bitmaps\gfxt_4kmod_dds\dlc_ghost_town.dds
+savetagchanges
+exitto tags
+
+echo Bitmap 0x0000D978 Mapname:Coldstorage
+edittag levels\dlc\chillout\bitmaps\gfxt.bitmap
+importbitmap 0 mods\maps\mainmenu\bitmaps\gfxt_4kmod_dds\dlc_chillout.dds
+savetagchanges
+exitto tags
+
+echo Bitmap 0x0000D979 Mapname:Heretic
+edittag levels\dlc\midship\bitmaps\gfxt.bitmap
+importbitmap 0 mods\maps\mainmenu\bitmaps\gfxt_4kmod_dds\dlc_midship.dds
+savetagchanges
+exitto tags
+
+echo Bitmap 0x0000D97A Mapname:Sandbox
+edittag levels\dlc\sandbox\bitmaps\gfxt.bitmap
+importbitmap 0 mods\maps\mainmenu\bitmaps\gfxt_4kmod_dds\dlc_sandbox.dds
+savetagchanges
+exitto tags
+
+echo Bitmap 0x0000D97B Mapname:Citadel
+edittag levels\dlc\fortress\bitmaps\gfxt.bitmap
+importbitmap 0 mods\maps\mainmenu\bitmaps\gfxt_4kmod_dds\dlc_citadel.dds
+savetagchanges
+exit
