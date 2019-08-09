@@ -298,53 +298,53 @@ exitto tags
 
 edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
 SetField groupwidgets[0].bitmapwidgets[0].data.name background
-SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenYBoundsMin -610
-SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenXBoundsMin -1475
-SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenYBoundsMax 1080
-SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenXBoundsMax 2620
-SetField groupwidgets[0].bitmapwidgets[0].data.StanderdYBoundsMin 0
-SetField groupwidgets[0].bitmapwidgets[0].data.StanderdXBoundsMin 0
-SetField groupwidgets[0].bitmapwidgets[0].data.StanderdYBoundsMax 0
-SetField groupwidgets[0].bitmapwidgets[0].data.StanderdXBoundsMax 0
+SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenYOffset -610
+SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenXOffset -1475
+SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenYUnknown 1080
+SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenXUnknown 2620
+SetField groupwidgets[0].bitmapwidgets[0].data.StanderdYOffset 0
+SetField groupwidgets[0].bitmapwidgets[0].data.StanderdXOffset 0
+SetField groupwidgets[0].bitmapwidgets[0].data.StanderdYUnknown 0
+SetField groupwidgets[0].bitmapwidgets[0].data.StanderdXUnknown 0
 SaveTagChanges
 exitto tags
 
 edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
 SetField groupwidgets[0].bitmapwidgets[1].data.name background
-SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenYBoundsMin -610
-SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenXBoundsMin -1475
-SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenYBoundsMax 1080
-SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenXBoundsMax 2620
-SetField groupwidgets[0].bitmapwidgets[1].data.StanderdYBoundsMin 0
-SetField groupwidgets[0].bitmapwidgets[1].data.StanderdXBoundsMin 0
-SetField groupwidgets[0].bitmapwidgets[1].data.StanderdYBoundsMax 0
-SetField groupwidgets[0].bitmapwidgets[1].data.StanderdXBoundsMax 0
+SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenYOffset -610
+SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenXOffset -1475
+SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenYUnknown 1080
+SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenXUnknown 2620
+SetField groupwidgets[0].bitmapwidgets[1].data.StanderdYOffset 0
+SetField groupwidgets[0].bitmapwidgets[1].data.StanderdXOffset 0
+SetField groupwidgets[0].bitmapwidgets[1].data.StanderdYUnknown 0
+SetField groupwidgets[0].bitmapwidgets[1].data.StanderdXUnknown 0
 SaveTagChanges
 exitto tags
 
 edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
 SetField groupwidgets[0].bitmapwidgets[2].data.name dark_background
-SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenYBoundsMin -610
-SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenXBoundsMin -1475
-SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenYBoundsMax 1080
-SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenXBoundsMax 2620
-SetField groupwidgets[0].bitmapwidgets[2].data.StanderdYBoundsMin 0
-SetField groupwidgets[0].bitmapwidgets[2].data.StanderdXBoundsMin 0
-SetField groupwidgets[0].bitmapwidgets[2].data.StanderdYBoundsMax 0
-SetField groupwidgets[0].bitmapwidgets[2].data.StanderdXBoundsMax 0
+SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenYOffset -610
+SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenXOffset -1475
+SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenYUnknown 1080
+SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenXUnknown 2620
+SetField groupwidgets[0].bitmapwidgets[2].data.StanderdYOffset 0
+SetField groupwidgets[0].bitmapwidgets[2].data.StanderdXOffset 0
+SetField groupwidgets[0].bitmapwidgets[2].data.StanderdYUnknown 0
+SetField groupwidgets[0].bitmapwidgets[2].data.StanderdXUnknown 0
 SaveTagChanges
 exitto tags
 
 edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
 SetField groupwidgets[0].bitmapwidgets[3].data.name background
-SetField groupwidgets[0].bitmapwidgets[3].data.WidescreenYBoundsMin -375
-SetField groupwidgets[0].bitmapwidgets[3].data.WidescreenXBoundsMin 719
-SetField groupwidgets[0].bitmapwidgets[3].data.WidescreenYBoundsMax 756
-SetField groupwidgets[0].bitmapwidgets[3].data.WidescreenXBoundsMax 2375
-SetField groupwidgets[0].bitmapwidgets[3].data.StanderdYBoundsMin 0
-SetField groupwidgets[0].bitmapwidgets[3].data.StanderdXBoundsMin 0
-SetField groupwidgets[0].bitmapwidgets[3].data.StanderdYBoundsMax 0
-SetField groupwidgets[0].bitmapwidgets[3].data.StanderdXBoundsMax 0
+SetField groupwidgets[0].bitmapwidgets[3].data.WidescreenYOffset -375
+SetField groupwidgets[0].bitmapwidgets[3].data.WidescreenXOffset 719
+SetField groupwidgets[0].bitmapwidgets[3].data.WidescreenYUnknown 756
+SetField groupwidgets[0].bitmapwidgets[3].data.WidescreenXUnknown 2375
+SetField groupwidgets[0].bitmapwidgets[3].data.StanderdYOffset 0
+SetField groupwidgets[0].bitmapwidgets[3].data.StanderdXOffset 0
+SetField groupwidgets[0].bitmapwidgets[3].data.StanderdYUnknown 0
+SetField groupwidgets[0].bitmapwidgets[3].data.StanderdXUnknown 0
 SaveTagChanges
 exitto tags
 Exit
