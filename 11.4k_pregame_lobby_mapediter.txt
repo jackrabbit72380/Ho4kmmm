@@ -116,14 +116,14 @@ exitto tags
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_mapeditor.scn3
 SetField groupwidgets[2].data.name mapediter_map_name
-SetField groupwidgets[2].TextWidgets[0].data.WidescreenYBoundsMin 910
-SetField groupwidgets[2].TextWidgets[0].data.WidescreenXBoundsMin 89
-SetField groupwidgets[2].TextWidgets[0].data.WidescreenYBoundsMax 998
-SetField groupwidgets[2].TextWidgets[0].data.WidescreenXBoundsMax 537
-SetField groupwidgets[2].TextWidgets[0].data.StandardYBoundsMin 0
-SetField groupwidgets[2].TextWidgets[0].data.StandardXBoundsMin 0
-SetField groupwidgets[2].TextWidgets[0].data.StandardYBoundsMax 0
-SetField groupwidgets[2].TextWidgets[0].data.StandardXBoundsMax 0
+SetField groupwidgets[2].TextWidgets[0].data.WidescreenYOffset 910
+SetField groupwidgets[2].TextWidgets[0].data.WidescreenXOffset 89
+SetField groupwidgets[2].TextWidgets[0].data.WidescreenYUnknown 998
+SetField groupwidgets[2].TextWidgets[0].data.WidescreenXUnknown 537
+SetField groupwidgets[2].TextWidgets[0].data.SStandardYOffset 0
+SetField groupwidgets[2].TextWidgets[0].data.StandardXOffset 0
+SetField groupwidgets[2].TextWidgets[0].data.StandardYUnknown 0
+SetField groupwidgets[2].TextWidgets[0].data.StandardXUnknown 0
 SetField groupwidgets[2].textwidgets[0].datasourcename null
 SetField groupwidgets[2].textwidgets[0].textstring mapediter_map_name
 SetField groupwidgets[2].textwidgets[0].textcolor ice
