@@ -61,7 +61,7 @@ exitto tags
 EditTag ui\halox\pregame_lobby\pregame_lobby_mapeditor.scn3
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.flags 0
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.name start_game
-SetField groupwidgets[0].listwidgetitems[3].data.Layer 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.Layer 0
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.WidescreenYOffset -173
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.WidescreenXOffset 0
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.WidescreenYUnknown 0
