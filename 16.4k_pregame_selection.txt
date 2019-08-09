@@ -219,7 +219,7 @@ SetField groupwidgets[0].listwidgets[0].data.StanderdXUnknown 0
 SaveTagChanges
 exitto tags
 
-EditTag ui\halox\pregame_lobby\pregame_lobby_multiplayer.scn3
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
 SetField groupwidgets[0].listwidgetitems[0].data.WidescreenYOffset -226
 SetField groupwidgets[0].listwidgetitems[0].data.WidescreenXOffset -820
 
@@ -262,7 +262,7 @@ SetField groupwidgets[0].listwidgetitems[12].data.WidescreenXOffset -820
 SaveTagChanges
 exitto tags
 
-EditTag ui\halox\pregame_lobby\pregame_lobby_multiplayer.scn3
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
 SetField groupwidgets[0].textwidgets[0].name title
 SetField groupwidgets[0].textwidgets[0].data.WidescreenYBoundsMin -550
 SetField groupwidgets[0].textwidgets[0].data.WidescreenXBoundsMin -620
@@ -279,7 +279,7 @@ SetField groupwidgets[0].textwidgets[0].textfont 4
 SaveTagChanges
 exitto tags
 
-EditTag ui\halox\pregame_lobby\pregame_lobby_multiplayer.scn3
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
 SetField groupwidgets[0].textwidgets[1].name list_empty
 SetField groupwidgets[0].textwidgets[1].data.WidescreenYBoundsMin 60
 SetField groupwidgets[0].textwidgets[1].data.WidescreenXBoundsMin 472
@@ -296,7 +296,7 @@ SetField groupwidgets[0].textwidgets[1].textfont 4
 SaveTagChanges
 exitto tags
 
-EditTag ui\halox\pregame_lobby\pregame_lobby_multiplayer.scn3
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
 SetField groupwidgets[0].bitmapwidgets[0].name background
 SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenYBoundsMin -610
 SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenXBoundsMin -1475
@@ -309,7 +309,7 @@ SetField groupwidgets[0].bitmapwidgets[0].data.StanderdXBoundsMax 0
 SaveTagChanges
 exitto tags
 
-EditTag ui\halox\pregame_lobby\pregame_lobby_multiplayer.scn3
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
 SetField groupwidgets[0].bitmapwidgets[1].name background
 SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenYBoundsMin -610
 SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenXBoundsMin -1475
@@ -322,7 +322,7 @@ SetField groupwidgets[0].bitmapwidgets[1].data.StanderdXBoundsMax 0
 SaveTagChanges
 exitto tags
 
-EditTag ui\halox\pregame_lobby\pregame_lobby_multiplayer.scn3
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
 SetField groupwidgets[0].bitmapwidgets[2].name dark_background
 SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenYBoundsMin -610
 SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenXBoundsMin -1475
@@ -335,7 +335,7 @@ SetField groupwidgets[0].bitmapwidgets[2].data.StanderdXBoundsMax 0
 SaveTagChanges
 exitto tags
 
-EditTag ui\halox\pregame_lobby\pregame_lobby_multiplayer.scn3
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
 SetField groupwidgets[0].bitmapwidgets[3].name background
 SetField groupwidgets[0].bitmapwidgets[3].data.WidescreenYBoundsMin -375
 SetField groupwidgets[0].bitmapwidgets[3].data.WidescreenXBoundsMin 719
