@@ -14,7 +14,6 @@ SetField textwidgets[0].textcolor clear
 SetField textwidgets[0].textfont 4
 SaveTagChanges
 exitto tags
-Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_template.grup
 SetField textwidgets[1].name players_in_game
@@ -31,7 +30,6 @@ SetField textwidgets[1].textstring null
 SetField textwidgets[1].textfont 1
 SaveTagChanges
 exitto tags
-Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_template.grup
 SetField textwidgets[2].name change_teams
@@ -65,7 +63,6 @@ SetField textwidgets[3].textstring postgame_stats
 SetField textwidgets[3].textfont 1
 SaveTagChanges
 exitto tags
-Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_template.grup
 SetField textwidgets[4].name advanced_options
@@ -100,7 +97,6 @@ SetField textwidgets[5].textcolor orange
 SetField textwidgets[5].textfont 1
 SaveTagChanges
 exitto tags
-Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_template.grup
 SetField bitmapwidgets[0].data.name channel
@@ -118,7 +114,6 @@ SetField bitmapwidgets[0].Bitmap ui\halox\pregame_lobby\channel_ui.bitmap
 SetField bitmapwidgets[0].BlendMethod Alpha
 SaveTagChanges
 exitto tags
-Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_template.grup
 SetField bitmapwidgets[0].data.name fade
@@ -136,7 +131,6 @@ SetField bitmapwidgets[0].Bitmap ui\halox\common\blackness_ui.bitmap
 SetField bitmapwidgets[0].BlendMethod Alpha
 SaveTagChanges
 exitto tags
-Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_template.grup
 SetField bitmapwidgets[2].data.name channel
@@ -153,7 +147,6 @@ SetField bitmapwidgets[2].data.Animation ui\halox\main_menu\animations\lobby_sli
 SetField bitmapwidgets[2].Bitmap ui\halox\pregame_lobby\channel_ui.bitmap
 SaveTagChanges
 exitto tags
-Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_template.grup
 SetField bitmapwidgets[3].data.name full_black_fade_in
