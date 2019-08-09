@@ -49,7 +49,7 @@ SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.name game_type
 SetField groupwidgets[0].listwidgets[0]listwidgetitems[2].data.Layer 0
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.WidescreenYOffset -372
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.WidescreenXOffset 0
-SetField groupwidgets[0].listwidgetitems[2].data.WidescreenYUnknown 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.WidescreenYUnknown 0
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.WidescreenXUnknown 0
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.StandardYOffset 0
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.StandardXOffset 0
