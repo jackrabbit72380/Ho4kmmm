@@ -8,7 +8,7 @@ SetField textwidgets[0].data.StanderdYBoundsMin 285
 SetField textwidgets[0].data.StanderdXBoundsMin 40
 SetField textwidgets[0].data.StanderdYBoundsMax 405
 SetField textwidgets[0].data.StanderdXBoundsMax 216
-SetField textwidgets[0].data source name null
+SetField textwidgets[0].datasourcename null
 SetField textwidgets[0].textstring null
 SetField textwidgets[0].textcolor clear
 SetField textwidgets[0].textfont 4
@@ -60,7 +60,7 @@ SetField textwidgets[3].data.StanderdYBoundsMin 0
 SetField textwidgets[3].data.StanderdXBoundsMin 0
 SetField textwidgets[3].data.StanderdYBoundsMax 0
 SetField textwidgets[3].data.StanderdXBoundsMax 0
-SetField textwidgets[3].datasource name null
+SetField textwidgets[3].datasourcename null
 SetField textwidgets[3].textstring postgame_stats
 SetField textwidgets[3].textfont 1
 SaveTagChanges
@@ -77,7 +77,7 @@ SetField textwidgets[4].data.StanderdYBoundsMin 0
 SetField textwidgets[4].data.StanderdXBoundsMin 0
 SetField textwidgets[4].data.StanderdYBoundsMax 0
 SetField textwidgets[4].data.StanderdXBoundsMax 0
-SetField textwidgets[4].datasource name null
+SetField textwidgets[4].datasourcename null
 SetField textwidgets[4].textstring postgame_stats
 SetField textwidgets[4].textfont 1
 SaveTagChanges
