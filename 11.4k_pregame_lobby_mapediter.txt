@@ -115,7 +115,7 @@ SaveTagChanges
 exitto tags
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_mapeditor.scn3
-SetField groupwidgets[2].data.name mapediter_map_name
+SetField groupwidgets[2].TextWidgets[0].data.name mapediter_map_name
 SetField groupwidgets[2].TextWidgets[0].data.WidescreenYOffset 910
 SetField groupwidgets[2].TextWidgets[0].data.WidescreenXOffset 89
 SetField groupwidgets[2].TextWidgets[0].data.WidescreenYUnknown 998
