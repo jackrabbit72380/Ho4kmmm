@@ -9,7 +9,6 @@ SetField StandardYBoundsMax 0
 SetField StandardXBoundsMax 0
 SaveTagChanges
 exitto tags
-exit
 
 Echo refrence campaign select mission bitmap
 
@@ -30,8 +29,6 @@ SetField groupwidgets[0].bitmapwidgets[7].Bitmap ui\halox\main_menu\4k_select_mi
 SetField groupwidgets[0].bitmapwidgets[7].BlendMethod Alpha
 SaveTagChanges
 exitto tags
-Exit
-
 
 edittag ui\halox\campaign\campaign_select_level.scn3
 SetField groupwidgets[0].bitmapwidgets[6].data.flags 9
@@ -50,7 +47,6 @@ SetField groupwidgets[0].bitmapwidgets[6].Bitmap ui\halox\campaign\difficulty_sl
 SetField groupwidgets[0].bitmapwidgets[6].BlendMethod Alpha
 SaveTagChanges
 exitto tags
-Exit
 
 edittag ui\halox\campaign\campaign_select_level.scn3
 SetField groupwidgets[0].bitmapwidgets[5].data.flags 9
@@ -69,7 +65,6 @@ SetField groupwidgets[0].bitmapwidgets[5].Bitmap ui\halox\common_bitmaps\third_c
 SetField groupwidgets[0].bitmapwidgets[5].BlendMethod Alpha
 SaveTagChanges
 exitto tags
-Exit
 
 edittag ui\halox\campaign\campaign_select_level.scn3
 SetField groupwidgets[0].bitmapwidgets[4].data.flags 9
@@ -88,7 +83,6 @@ SetField groupwidgets[0].bitmapwidgets[4].Bitmap ui\halox\common_bitmaps\third_c
 SetField groupwidgets[0].bitmapwidgets[4].BlendMethod Alpha
 SaveTagChanges
 exitto tags
-Exit
 
 edittag ui\halox\campaign\campaign_select_level.scn3
 SetField groupwidgets[0].bitmapwidgets[3].data.flags 9
@@ -107,7 +101,6 @@ SetField groupwidgets[0].bitmapwidgets[3].Bitmap ui\halox\common_bitmaps\black_5
 SetField groupwidgets[0].bitmapwidgets[3].BlendMethod Alpha
 SaveTagChanges
 exitto tags
-Exit
 
 edittag ui\halox\campaign\campaign_select_level.scn3
 SetField groupwidgets[0].bitmapwidgets[2].data.flags 11
@@ -126,7 +119,6 @@ SetField groupwidgets[0].bitmapwidgets[2].Bitmap null
 SetField groupwidgets[0].bitmapwidgets[2].BlendMethod Alpha
 SaveTagChanges
 exitto tags
-Exit
 
 edittag ui\halox\campaign\campaign_select_level.scn3
 SetField groupwidgets[0].bitmapwidgets[1].data.flags 9
@@ -145,7 +137,6 @@ SetField groupwidgets[0].bitmapwidgets[1].Bitmap null
 SetField groupwidgets[0].bitmapwidgets[1].BlendMethod Alpha
 SaveTagChanges
 exitto tags
-Exit
 
 edittag ui\halox\campaign\campaign_select_level.scn3
 SetField groupwidgets[0].bitmapwidgets[0].data.flags 9
@@ -164,4 +155,4 @@ SetField groupwidgets[0].bitmapwidgets[0].Bitmap ui\halox\common\common_bitmaps\
 SetField groupwidgets[0].bitmapwidgets[0].BlendMethod Alpha
 SaveTagChanges
 exitto tags
-Exit
+exit
