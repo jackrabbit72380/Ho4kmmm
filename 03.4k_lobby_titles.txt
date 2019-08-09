@@ -232,9 +232,7 @@ echo 4k_postgame_lobby
 echo 4k_select_difficulty
 echo 4k_selecttt_film
 echo 4k_select_gametype
-echo 4k_select_map
 echo 4k_theater
-echo 4k_bungielogo
 echo \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 
