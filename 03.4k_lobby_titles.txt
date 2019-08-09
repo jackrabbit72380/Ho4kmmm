@@ -247,7 +247,7 @@ SetField groupwidgets[0].bitmapwidgets[4].data.Layer -1
 SetField groupwidgets[0].bitmapwidgets[4].data.WidescreenYOffset -780
 SetField groupwidgets[0].bitmapwidgets[4].data.WidescreenXOffset -730
 SetField groupwidgets[0].bitmapwidgets[4].data.WidescreenYUnknown -284
-SetField groupwidgets[0].bitmapwidgets[4].data.WidescreenXUnknown -790
+SetField groupwidgets[0].bitmapwidgets[4].data.WidescreenXUnknown 790
 SetField groupwidgets[0].bitmapwidgets[4].data.StandardYOffset 254
 SetField groupwidgets[0].bitmapwidgets[4].data.StandardXOffset 55
 SetField groupwidgets[0].bitmapwidgets[4].data.StandardYUnknown 405
