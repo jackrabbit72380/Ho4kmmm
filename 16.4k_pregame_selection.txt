@@ -1,4 +1,4 @@
-edittag ui\halox\pregame_lobby\selection\pregame_selection
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
 SetField WidescreenYBoundsMin -231
 SetField WidescreenXBoundsMin -576
 SetField WidescreenYBoundsMax 231
@@ -9,9 +9,8 @@ SetField StandardYBoundsMax 240
 SetField StandardXBoundsMax 330
 SaveTagChanges
 exitto tags
-exit
 
-edittag ui\halox\pregame_lobby\selection\pregame_selection
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
 SetField groupwidgets[0].data.flags 0
 SetField groupwidgets[0].data.name base
 SetField groupwidgets[0].data.Layer 0
@@ -25,9 +24,8 @@ SetField groupwidgets[0].data.StandardYUnknown 0
 SetField groupwidgets[0].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
-Exit
 
-edittag ui\halox\pregame_lobby\selection\pregame_selection
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
 SetField groupwidgets[1].data.flags 0
 SetField groupwidgets[1].data.name subitem
 SetField groupwidgets[1].data.Layer 0
@@ -41,9 +39,8 @@ SetField groupwidgets[1].data.StandardYUnknown 0
 SetField groupwidgets[1].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
-Exit
 
-edittag ui\halox\pregame_lobby\selection\pregame_selection
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
 SetField groupwidgets[2].data.flags 0
 SetField groupwidgets[2].data.name subitem_edit
 SetField groupwidgets[2].data.Layer 0
@@ -57,9 +54,8 @@ SetField groupwidgets[2].data.StandardYUnknown 0
 SetField groupwidgets[2].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
-Exit
 
-edittag ui\halox\pregame_lobby\selection\pregame_selection
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
 SetField groupwidgets[3].data.flags 9
 SetField groupwidgets[3].data.name film_category_image
 SetField groupwidgets[3].data.Layer 0
@@ -73,9 +69,8 @@ SetField groupwidgets[3].data.StandardYUnknown 0
 SetField groupwidgets[3].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
-Exit
 
-edittag ui\halox\pregame_lobby\selection\pregame_selection
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
 SetField groupwidgets[4].data.flags 9
 SetField groupwidgets[4].data.name film_image
 SetField groupwidgets[4].data.Layer 0
@@ -89,9 +84,8 @@ SetField groupwidgets[4].data.StandardYUnknown 0
 SetField groupwidgets[4].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
-Exit
 
-edittag ui\halox\pregame_lobby\selection\pregame_selection
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
 SetField groupwidgets[5].data.flags 9
 SetField groupwidgets[5].data.name network_mode
 SetField groupwidgets[5].data.Layer 0
@@ -105,9 +99,8 @@ SetField groupwidgets[5].data.StandardYUnknown 0
 SetField groupwidgets[5].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
-Exit
 
-edittag ui\halox\pregame_lobby\selection\pregame_selection
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
 SetField groupwidgets[6].data.flags 9
 SetField groupwidgets[6].data.name advertisementy_mode_image
 SetField groupwidgets[6].data.Layer 0
@@ -121,10 +114,8 @@ SetField groupwidgets[6].data.StandardYUnknown 0
 SetField groupwidgets[6].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
-Exit
 
-
-edittag ui\halox\pregame_lobby\selection\pregame_selection
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
 SetField groupwidgets[7].data.flags 9
 SetField groupwidgets[7].data.name gametype_image
 SetField groupwidgets[7].data.Layer 0
@@ -138,9 +129,8 @@ SetField groupwidgets[7].data.StandardYUnknown 0
 SetField groupwidgets[7].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
-Exit
 
-edittag ui\halox\pregame_lobby\selection\pregame_selection
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
 SetField groupwidgets[8].data.flags 9
 SetField groupwidgets[8].data.name gametype_variant_image
 SetField groupwidgets[8].data.Layer 0
@@ -154,9 +144,8 @@ SetField groupwidgets[8].data.StandardYUnknown 0
 SetField groupwidgets[8].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
-Exit
 
-edittag ui\halox\pregame_lobby\selection\pregame_selection
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
 SetField groupwidgets[9].data.flags 9
 SetField groupwidgets[9].data.name map_image
 SetField groupwidgets[9].data.Layer 0
@@ -170,9 +159,8 @@ SetField groupwidgets[9].data.StandardYUnknown 0
 SetField groupwidgets[9].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
-Exit
 
-edittag ui\halox\pregame_lobby\selection\pregame_selection
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
 SetField groupwidgets[10].data.flags.9
 SetField groupwidgets[10].data.name map_variant_image
 SetField groupwidgets[10].data.Layer 0
@@ -186,9 +174,8 @@ SetField groupwidgets[10].data.StandardYUnknown 0
 SetField groupwidgets[10].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
-Exit
 
-edittag ui\halox\pregame_lobby\selection\pregame_selection
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
 SetField groupwidgets[11].data.flags.9
 SetField groupwidgets[11].data.name hopper_category_image
 SetField groupwidgets[11].data.Layer 0
@@ -202,9 +189,8 @@ SetField groupwidgets[11].data.StandardYUnknown 0
 SetField groupwidgets[11].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
-Exit
 
-edittag ui\halox\pregame_lobby\selection\pregame_selection
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
 SetField groupwidgets[12].data.flags.9
 SetField groupwidgets[12].data.name hopper_image
 SetField groupwidgets[12].data.Layer 0
@@ -218,9 +204,8 @@ SetField groupwidgets[12].data.StandardYUnknown 0
 SetField groupwidgets[12].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
-Exit
 
-edittag ui\halox\pregame_lobby\selection\pregame_selection
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
 SetField groupwidgets[0].listwidgets[0].data.flags. bit 0 looping bit6????????????????????????????needs number
 SetField groupwidgets[0].listwidgets[0].name category
 SetField groupwidgets[0].listwidgets[0].Layer 0
@@ -234,7 +219,6 @@ SetField groupwidgets[0].listwidgets[0].data.StanderdYUnknown 0
 SetField groupwidgets[0].listwidgets[0].data.StanderdXUnknown 0
 SaveTagChanges
 exitto tags
-exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_multiplayer.scn3
 SetField groupwidgets[0].listwidgetitems[0].data.WidescreenYOffset -226
@@ -278,7 +262,6 @@ SetField groupwidgets[0].listwidgetitems[12].data.WidescreenXOffset -820
 
 SaveTagChanges
 exitto tags
-Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_multiplayer.scn3
 SetField groupwidgets[0].textwidgets[0].name title
@@ -290,14 +273,12 @@ SetField groupwidgets[0].textwidgets[0].data.StanderdYBoundsMin 0
 SetField groupwidgets[0].textwidgets[0].data.StanderdXBoundsMin 0
 SetField groupwidgets[0].textwidgets[0].data.StanderdYBoundsMax 0
 SetField groupwidgets[0].textwidgets[0].data.StanderdXBoundsMax 0
-SetField groupwidgets[0].textwidgets[0].data source name null
-SetField groupwidgets[0].textwidgets[0].text string null
-SetField groupwidgets[0].textwidgets[0].text color hilite
-SetField groupwidgets[0].textwidgets[0].text font 4
+SetField groupwidgets[0].textwidgets[0].datasourcename null
+SetField groupwidgets[0].textwidgets[0].textstring null
+SetField groupwidgets[0].textwidgets[0].textcolor hilite
+SetField groupwidgets[0].textwidgets[0].textfont 4
 SaveTagChanges
 exitto tags
-Exit
-
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_multiplayer.scn3
 SetField groupwidgets[0].textwidgets[1].name list_empty
@@ -309,13 +290,12 @@ SetField groupwidgets[0].textwidgets[1].data.StanderdYBoundsMin 0
 SetField groupwidgets[0].textwidgets[1].data.StanderdXBoundsMin 0
 SetField groupwidgets[0].textwidgets[1].data.StanderdYBoundsMax 0
 SetField groupwidgets[0].textwidgets[1].data.StanderdXBoundsMax 0
-SetField groupwidgets[0].textwidgets[1].data source name null
-SetField groupwidgets[0].textwidgets[1].text string null
-SetField groupwidgets[0].textwidgets[1].text color hilite
-SetField groupwidgets[0].textwidgets[1].text font 4
+SetField groupwidgets[0].textwidgets[1].datasourcename null
+SetField groupwidgets[0].textwidgets[1].textstring null
+SetField groupwidgets[0].textwidgets[1].textcolor hilite
+SetField groupwidgets[0].textwidgets[1].textfont 4
 SaveTagChanges
 exitto tags
-Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_multiplayer.scn3
 SetField groupwidgets[0].bitmapwidgets[0].name background
@@ -329,7 +309,6 @@ SetField groupwidgets[0].bitmapwidgets[0].data.StanderdYBoundsMax 0
 SetField groupwidgets[0].bitmapwidgets[0].data.StanderdXBoundsMax 0
 SaveTagChanges
 exitto tags
-Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_multiplayer.scn3
 SetField groupwidgets[0].bitmapwidgets[1].name background
@@ -343,7 +322,6 @@ SetField groupwidgets[0].bitmapwidgets[1].data.StanderdYBoundsMax 0
 SetField groupwidgets[0].bitmapwidgets[1].data.StanderdXBoundsMax 0
 SaveTagChanges
 exitto tags
-Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_multiplayer.scn3
 SetField groupwidgets[0].bitmapwidgets[2].name dark_background
@@ -357,7 +335,6 @@ SetField groupwidgets[0].bitmapwidgets[2].data.StanderdYBoundsMax 0
 SetField groupwidgets[0].bitmapwidgets[2].data.StanderdXBoundsMax 0
 SaveTagChanges
 exitto tags
-Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_multiplayer.scn3
 SetField groupwidgets[0].bitmapwidgets[3].name background
