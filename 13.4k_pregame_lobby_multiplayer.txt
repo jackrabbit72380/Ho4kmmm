@@ -84,7 +84,7 @@ SetField groupwidgets[0].listwidgets[0].listwidgetitems[4].data.WidescreenXUnkno
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[4].data.StandardYOffset 0
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[4].data.StandardXOffset 0
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[4].data.StandardYUnknown 0
-SetField groupwidgets[0]..listwidgets[0]listwidgetitems[4].data.StandardXUnknown 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[4].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
 
