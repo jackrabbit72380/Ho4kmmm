@@ -46,7 +46,6 @@ SetField textwidgets[2].textstring change_teams
 SetField textwidgets[2].textfont 1
 SaveTagChanges
 exitto tags
-Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_template.grup
 SetField textwidgets[3].name postgame_stats
