@@ -132,7 +132,7 @@ SetField groupwidgets[2].data.StandardYUnknown 0
 SetField groupwidgets[2].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
-/////////////////////////////////////////////////////////////////////////////////////////////////////text?
+
 EditTag ui\halox\pregame_lobby\pregame_lobby_multiplayer.scn3
 SetField groupwidgets[2].TextWidgets[0].data.name multiplayer_game_name
 SetField groupwidgets[2].TextWidgets[0].data.Layer 1
@@ -149,7 +149,7 @@ SetField groupwidgets[2].TextWidgets[0].textcolor ice
 SetField groupwidgets[2].TextWidgets[0].textfont 4
 SaveTagChanges
 exitto tags
-/////////////////////////////////////////////////////////////////////////////////////////////////////text?
+
 EditTag ui\halox\pregame_lobby\pregame_lobby_multiplayer.scn3
 SetField groupwidgets[2].TextWidgets[1].data.name lobby_status
 SetField groupwidgets[2].TextWidgets[1].data.Layer 0
