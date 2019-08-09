@@ -219,6 +219,8 @@ SetField groupwidgets[0].listwidgets[0].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
 
+echo maps list placement
+
 edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.name assembly_name
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.WidescreenYOffset -226
@@ -287,7 +289,7 @@ SetField groupwidgets[0].textwidgets[0].data.StanderdYBoundsMax 0
 SetField groupwidgets[0].textwidgets[0].data.StanderdXBoundsMax 0
 SetField groupwidgets[0].textwidgets[0].datasourcename null
 SetField groupwidgets[0].textwidgets[0].textstring null
-SetField groupwidgets[0].textwidgets[0].textcolor hilite
+SetField groupwidgets[0].textwidgets[0].textcolor clear
 SetField groupwidgets[0].textwidgets[0].textfont 4
 SaveTagChanges
 exitto tags
