@@ -206,7 +206,6 @@ SaveTagChanges
 exitto tags
 
 edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
-SetField groupwidgets[0].listwidgets[0].data.flags. bit 0 looping bit6????????????????????????????needs number
 SetField groupwidgets[0].listwidgets[0].name category
 SetField groupwidgets[0].listwidgets[0].Layer 0
 SetField groupwidgets[0].listwidgets[0].data.WidescreenYOffset 56
