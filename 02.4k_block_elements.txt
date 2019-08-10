@@ -29,57 +29,57 @@ echo add missing menus to switch lobbys/////////////////////////////////////////
 Edittag ui\halox\pregame_lobby\switch_lobby\lobbies.dsrc
 addblockelements data 1
 savetagchanges
-exit
+exitto tags
 
 Edittag ui\halox\pregame_lobby\switch_lobby\lobbies.dsrc
 addblockelements data 1
 savetagchanges
-exit
+exitto tags
 
 Edittag ui\halox\pregame_lobby\switch_lobby\lobbies.dsrc
 addblockelements data 1
 savetagchanges
-exit
+exitto tags
 
 Edittag ui\halox\pregame_lobby\switch_lobby\lobbies.dsrc
 addblockelements data 1
 savetagchanges
-exit
+exitto tags
 
 Edittag ui\halox\pregame_lobby\switch_lobby\lobbies.dsrc
 addblockelements data 1
 savetagchanges
-exit
+exitto tags
 
 Edittag ui\halox\pregame_lobby\switch_lobby\lobbies.dsrc
 editblock data[2]
 addblockelements stringidvalues 2
 savetagchanges
-exit
+exitto tags
 
 Edittag ui\halox\pregame_lobby\switch_lobby\lobbies.dsrc
 editblock data[3]
 addblockelements stringidvalues 2
 savetagchanges
-exit
+exitto tags
 
 Edittag ui\halox\pregame_lobby\switch_lobby\lobbies.dsrc
 editblock data[4]
 addblockelements stringidvalues 2
 savetagchanges
-exit
+exitto tags
 
 Edittag ui\halox\pregame_lobby\switch_lobby\lobbies.dsrc
 editblock data[5]
 addblockelements stringidvalues 2
 savetagchanges
-exit
+exitto tags
 
 Edittag ui\halox\pregame_lobby\switch_lobby\lobbies.dsrc
 editblock data[6]
 addblockelements stringidvalues 2
 savetagchanges
-exit
+exitto tags
 echo ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 echo then add to ui\halox\pregame_lobby\switch_lobby\lobbies.dsrc
 edittag ui\halox\pregame_lobby\switch_lobby\lobbies.dsrc
