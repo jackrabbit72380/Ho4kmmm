@@ -82,6 +82,7 @@ savetagchanges
 exit
 
 echo then add to ui\halox\pregame_lobby\switch_lobby\lobbies.dsrc
+edittag ui\halox\pregame_lobby\switch_lobby\lobbies.dsrc
 0
 name
 campaign
