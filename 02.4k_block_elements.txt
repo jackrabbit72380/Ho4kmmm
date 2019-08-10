@@ -113,6 +113,8 @@ setfield data[5].stringidvalues[0].datatype name
 setfield data[5].stringidvalues[0].value theater
 setfield data[5].stringidvalues[1].datatype discription
 setfield data[5].stringidvalues[1].value film_help
+savetagchanges
+exitto tags
 
 echo----------------------edittag 0x073A-----------------------------
 edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
