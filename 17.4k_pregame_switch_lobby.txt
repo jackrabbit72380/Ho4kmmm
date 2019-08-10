@@ -11,7 +11,7 @@ SaveTagChanges
 exitto tags
 
 edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
-SetField groupwidgets[0].listwidgets[0].data.flags looping????????????????????????????????????????
+SetField groupwidgets[0].listwidgets[0].data.flags 32
 SetField groupwidgets[0].listwidgets[0].data.name switch_lobby
 SetField groupwidgets[0].listwidgets[0].data.Layer 10
 SetField groupwidgets[0].listwidgets[0].data.WidescreenYOffset 82
@@ -136,7 +136,7 @@ SaveTagChanges
 exitto tags
 
 edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
-SetField groupwidgets[0].bitmapwidgets[0].data.flags bit3 & replace with blur???????????
+SetField groupwidgets[0].bitmapwidgets[0].data.flags 24
 SetField groupwidgets[0].bitmapwidgets[0].data.name null
 SetField groupwidgets[0].bitmapwidgets[0].data.Layer 0
 SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenYOffset -10
@@ -154,7 +154,7 @@ SaveTagChanges
 exitto tags
 
 edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
-SetField groupwidgets[0].bitmapwidgets[1].data.flags bit3 ??????????????????????
+SetField groupwidgets[0].bitmapwidgets[1].data.flags 8
 SetField groupwidgets[0].bitmapwidgets[1].data.name null
 SetField groupwidgets[0].bitmapwidgets[1].data.Layer 1
 SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenYOffset 107
@@ -172,7 +172,7 @@ SaveTagChanges
 exitto tags
 
 edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
-SetField groupwidgets[0].bitmapwidgets[2].data.flags bit3 ??????????????????????
+SetField groupwidgets[0].bitmapwidgets[2].data.flags 8
 SetField groupwidgets[0].bitmapwidgets[2].data.name null
 SetField groupwidgets[0].bitmapwidgets[2].data.Layer 1
 SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenYOffset 82
@@ -190,7 +190,7 @@ SaveTagChanges
 exitto tags
 
 edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
-SetField groupwidgets[0].bitmapwidgets[3].data.flags bit 0 & bit3 ??????????????????????
+SetField groupwidgets[0].bitmapwidgets[3].data.flags 9
 SetField groupwidgets[0].bitmapwidgets[3].data.name dark_background
 SetField groupwidgets[0].bitmapwidgets[3].data.Layer -20
 SetField groupwidgets[0].bitmapwidgets[3].data.WidescreenYOffset -9000
