@@ -205,4 +205,4 @@ SetField groupwidgets[0].bitmapwidgets[3].data.Animation ui\halox\pregame_lobby\
 SetField groupwidgets[0].bitmapwidgets[3].Bitmap ui\halox\common\common_bitmaps\black_25.bitmap
 SetField groupwidgets[0].bitmapwidgets[3].BlendMethod Alpha
 SaveTagChanges
-exitto tags
+exit
