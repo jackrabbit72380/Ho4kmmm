@@ -24,4 +24,124 @@ AddBlockElements GroupWidgets[0].BitmapWidgets 1
 savetagchanges
 exitto tags
 
-Exit
+echo add missing menus to switch lobbys///////////////////////////////////////////////////////////////////////
+
+Edittag ui\halox\pregame_lobby\switch_lobby\lobbies.dsrc
+addblockelements data 1
+savetagchanges
+exit
+
+Edittag ui\halox\pregame_lobby\switch_lobby\lobbies.dsrc
+addblockelements data 1
+savetagchanges
+exit
+
+Edittag ui\halox\pregame_lobby\switch_lobby\lobbies.dsrc
+addblockelements data 1
+savetagchanges
+exit
+
+Edittag ui\halox\pregame_lobby\switch_lobby\lobbies.dsrc
+addblockelements data 1
+savetagchanges
+exit
+
+Edittag ui\halox\pregame_lobby\switch_lobby\lobbies.dsrc
+addblockelements data 1
+savetagchanges
+exit
+
+Edittag ui\halox\pregame_lobby\switch_lobby\lobbies.dsrc
+editblock data[2]
+addblockelements stringidvalues 2
+savetagchanges
+exit
+
+Edittag ui\halox\pregame_lobby\switch_lobby\lobbies.dsrc
+editblock data[3]
+addblockelements stringidvalues 2
+savetagchanges
+exit
+
+Edittag ui\halox\pregame_lobby\switch_lobby\lobbies.dsrc
+editblock data[4]
+addblockelements stringidvalues 2
+savetagchanges
+exit
+
+Edittag ui\halox\pregame_lobby\switch_lobby\lobbies.dsrc
+editblock data[5]
+addblockelements stringidvalues 2
+savetagchanges
+exit
+
+Edittag ui\halox\pregame_lobby\switch_lobby\lobbies.dsrc
+editblock data[6]
+addblockelements stringidvalues 2
+savetagchanges
+exit
+
+echo then add to ui\halox\pregame_lobby\switch_lobby\lobbies.dsrc
+0
+name
+campaign
+1
+description
+campaign_help
+
+echo==================
+
+0
+name
+matchmaking
+1
+description
+matchmaking_help
+
+echo===================
+
+0
+name
+multiplayer
+1
+description
+custom_games_help
+
+echo===================
+
+0
+name
+mapeditor
+1
+description
+editor_help
+
+echo==================
+
+0
+name
+theater
+1
+description
+theater_help
+
+echo====================
+
+0
+name
+game_browser
+1
+description
+custom_games_help
+
+echo=====================
+echo----------------------edittag 0x073A-----------------------------
+edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
+addblockelements groupwidgets[0]1.listwidgets[0]1.listwidgetitems 1
+savetagchanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
+addblockelements groupwidgets[0]1.listwidgets[0]1.listwidgetitems 1
+savetagchanges
+exit
