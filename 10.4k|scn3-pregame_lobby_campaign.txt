@@ -165,7 +165,7 @@ exitto tags
 Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
-//////////////////////////////////////////////////////////////////////////warning double check text fields
+
 SetField groupwidgets[2].textwidgets[0].data.flags 9
 SetField groupwidgets[2].textwidgets[0].data.name difficulty
 SetField groupwidgets[2].textwidgets[0].data.Layer 0
@@ -178,10 +178,10 @@ SetField groupwidgets[2].textwidgets[0].data.StandardXBoundsMin 0
 SetField groupwidgets[2].textwidgets[0].data.StandardYBoundsMax 0
 SetField groupwidgets[2].textwidgets[0].data.StandardXBoundsMax 0
 SetField groupwidgets[2].textwidgets[0].data.Animation ui\halox\pregame_lobby\button_key.wacd
-SetField groupwidgets[2].textwidgets[0].data source name null
-SetField groupwidgets[2].textwidgets[0].text string campaign_difficulty
-SetField groupwidgets[2].textwidgets[0].text color ice
-SetField groupwidgets[2].textwidgets[0].text font 4
+SetField groupwidgets[2].textwidgets[0].datasourcename null
+SetField groupwidgets[2].textwidgets[0].textstring campaign_difficulty
+SetField groupwidgets[2].textwidgets[0].textcolor ice
+SetField groupwidgets[2].textwidgets[0].textfont 4
 SaveTagChanges
 exitto tags
 Exit
@@ -199,10 +199,10 @@ SetField groupwidgets[2].textwidgets[1].data.StandardXBoundsMin 0
 SetField groupwidgets[2].textwidgets[1].data.StandardYBoundsMax 0
 SetField groupwidgets[2].textwidgets[1].data.StandardXBoundsMax 0
 SetField groupwidgets[2].textwidgets[1].data.Animation ui\halox\pregame_lobby\button_key.wacd
-SetField groupwidgets[2].textwidgets[1].data source name null
-SetField groupwidgets[2].textwidgets[1].text string campaign_insertion_point
-SetField groupwidgets[2].textwidgets[1].text color ice
-SetField groupwidgets[2].textwidgets[1].text font 4
+SetField groupwidgets[2].textwidgets[1].datasourcename null
+SetField groupwidgets[2].textwidgets[1].textstring campaign_insertion_point
+SetField groupwidgets[2].textwidgets[1].textcolor ice
+SetField groupwidgets[2].textwidgets[1].textfont 4
 SaveTagChanges
 exitto tags
 Exit
@@ -220,10 +220,10 @@ SetField groupwidgets[2].textwidgets[2].data.StandardXBoundsMin 0
 SetField groupwidgets[2].textwidgets[2].data.StandardYBoundsMax 0
 SetField groupwidgets[2].textwidgets[2].data.StandardXBoundsMax 0
 SetField groupwidgets[2].textwidgets[2].data.Animation ui\halox\global_animations\animation_collections\lobby_slide_with_alt_flash.wacd
-SetField groupwidgets[2].textwidgets[2].data source name null
-SetField groupwidgets[2].textwidgets[2].text string null
-SetField groupwidgets[2].textwidgets[2].text color ice
-SetField groupwidgets[2].textwidgets[2].text font 4
+SetField groupwidgets[2].textwidgets[2].datasourcename null
+SetField groupwidgets[2].textwidgets[2].textstring null
+SetField groupwidgets[2].textwidgets[2].textcolor ice
+SetField groupwidgets[2].textwidgets[2].textfont 4
 SaveTagChanges
 exitto tags
 Exit
