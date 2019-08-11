@@ -1,1 +1,12 @@
 edittag ui\halox\pregame_lobby\switch_lobby\switch_lobbies
+
+SetField TextWidgets[0].WidescreenYBoundsMin 2
+SetField TextWidgets[0].WidescreenXBoundsMin 0
+SetField TextWidgets[0].WidescreenYBoundsMax 52
+SetField TextWidgets[0].WidescreenXBoundsMax 300
+SetField TextWidgets[0].StandardYBoundsMin 0
+SetField TextWidgets[0].StandardXBoundsMin 0
+SetField TextWidgets[0].StandardYBoundsMax 0
+SetField TextWidgets[0].StandardXBoundsMax 0
+SaveTagChanges
+exitto tags
