@@ -44,7 +44,7 @@ edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[1].data.flags 0
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[1].data.name null
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[1].data.Layer 0
-SetField groupwidgets[0].listwidgets[0].listwidgetitems[1].data.WidescreenYOffset 25
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[1].data.WidescreenYOffset 60
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[1].data.WidescreenXOffset 0
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[1].data.WidescreenYUnknown 0
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[1].data.WidescreenXUnknown 0
@@ -59,7 +59,7 @@ edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.flags 0
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.name null
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.Layer 0
-SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.WidescreenYOffset 50
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.WidescreenYOffset 110
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.WidescreenXOffset 0
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.WidescreenYUnknown 0
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.WidescreenXUnknown 0
@@ -74,7 +74,7 @@ edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.flags 0
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.name null
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.Layer 0
-SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.WidescreenYOffset 75
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.WidescreenYOffset 160
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.WidescreenXOffset 0
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.WidescreenYUnknown 0
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.WidescreenXUnknown 0
@@ -89,7 +89,7 @@ edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[4].data.flags 0
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[4].data.name null
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[4].data.Layer 0
-SetField groupwidgets[0].listwidgets[0].listwidgetitems[4].data.WidescreenYOffset 100
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[4].data.WidescreenYOffset 210
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[4].data.WidescreenXOffset 0
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[4].data.WidescreenYUnknown 0
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[4].data.WidescreenXUnknown 0
@@ -103,16 +103,17 @@ exitto tags
 edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
 SetField groupwidgets[0].TextWidgets[0].data.name title
 SetField groupwidgets[0].TextWidgets[0].data.Layer 11
-SetField groupwidgets[0].TextWidgets[0].data.WidescreenYOffset 84
-SetField groupwidgets[0].TextWidgets[0].data.WidescreenXOffset 81
+SetField groupwidgets[0].TextWidgets[0].data.WidescreenYOffset -404
+SetField groupwidgets[0].TextWidgets[0].data.WidescreenXOffset -1183
 SetField groupwidgets[0].TextWidgets[0].data.WidescreenYUnknown 138
 SetField groupwidgets[0].TextWidgets[0].data.WidescreenXUnknown 350
 SetField groupwidgets[0].TextWidgets[0].data.StandardYOffset 0
 SetField groupwidgets[0].TextWidgets[0].data.StandardXOffset 0
 SetField groupwidgets[0].TextWidgets[0].data.StandardYUnknown 0
 SetField groupwidgets[0].TextWidgets[0].data.StandardXUnknown 0
+SetField groupwidgets[0].TextWidgets[0].datasorcename null
 SetField groupwidgets[0].TextWidgets[0].textstring title
-SetField groupwidgets[0].TextWidgets[0].textcolor
+SetField groupwidgets[0].TextWidgets[0].textcolor hilite
 SetField groupwidgets[0].TextWidgets[0].textfont 4
 SaveTagChanges
 exitto tags
@@ -120,16 +121,17 @@ exitto tags
 edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
 SetField groupwidgets[0].TextWidgets[1].data.name description
 SetField groupwidgets[0].TextWidgets[1].data.Layer 11
-SetField groupwidgets[0].TextWidgets[1].data.WidescreenYOffset 84
+SetField groupwidgets[0].TextWidgets[1].data.WidescreenYOffset -404
 SetField groupwidgets[0].TextWidgets[1].data.WidescreenXOffset 550
-SetField groupwidgets[0].TextWidgets[1].data.WidescreenYUnknown 292
-SetField groupwidgets[0].TextWidgets[1].data.WidescreenXUnknown 850
+SetField groupwidgets[0].TextWidgets[1].data.WidescreenYUnknown 1292
+SetField groupwidgets[0].TextWidgets[1].data.WidescreenXUnknown 1250
 SetField groupwidgets[0].TextWidgets[1].data.StandardYOffset 0
 SetField groupwidgets[0].TextWidgets[1].data.StandardXOffset 0
 SetField groupwidgets[0].TextWidgets[1].data.StandardYUnknown 0
 SetField groupwidgets[0].TextWidgets[1].data.StandardXUnknown 0
+SetField groupwidgets[0].TextWidgets[1].datasorcename switch_lobby
 SetField groupwidgets[0].TextWidgets[1].textstring description
-SetField groupwidgets[0].TextWidgets[1].textcolor ice
+SetField groupwidgets[0].TextWidgets[1].textcolor hilite
 SetField groupwidgets[0].TextWidgets[1].textfont 4
 SaveTagChanges
 exitto tags
@@ -138,10 +140,10 @@ edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
 SetField groupwidgets[0].bitmapwidgets[0].data.flags 24
 SetField groupwidgets[0].bitmapwidgets[0].data.name null
 SetField groupwidgets[0].bitmapwidgets[0].data.Layer 0
-SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenYOffset -10
-SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenXOffset -10
-SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenYUnknown 640
-SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenXUnknown 1152
+SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenYOffset -432
+SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenXOffset -352
+SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenYUnknown -115
+SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenXUnknown 438
 SetField groupwidgets[0].bitmapwidgets[0].data.StandardYOffset 0
 SetField groupwidgets[0].bitmapwidgets[0].data.StandardXOffset 0
 SetField groupwidgets[0].bitmapwidgets[0].data.StandardYUnknown 0
@@ -156,10 +158,10 @@ edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
 SetField groupwidgets[0].bitmapwidgets[1].data.flags 8
 SetField groupwidgets[0].bitmapwidgets[1].data.name null
 SetField groupwidgets[0].bitmapwidgets[1].data.Layer 1
-SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenYOffset 107
-SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenXOffset 295
-SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenYUnknown 207
-SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenXUnknown 533
+SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenYOffset -432
+SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenXOffset -352
+SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenYUnknown -115
+SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenXUnknown 436
 SetField groupwidgets[0].bitmapwidgets[1].data.StandardYOffset 0
 SetField groupwidgets[0].bitmapwidgets[1].data.StandardXOffset 0
 SetField groupwidgets[0].bitmapwidgets[1].data.StandardYUnknown 0
@@ -173,11 +175,11 @@ exitto tags
 edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
 SetField groupwidgets[0].bitmapwidgets[2].data.flags 8
 SetField groupwidgets[0].bitmapwidgets[2].data.name null
-SetField groupwidgets[0].bitmapwidgets[2].data.Layer 1
-SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenYOffset 82
-SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenXOffset 70
-SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenYUnknown 107
-SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenXUnknown 533
+SetField groupwidgets[0].bitmapwidgets[2].data.Layer 2
+SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenYOffset -432
+SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenXOffset -1194
+SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenYUnknown -345
+SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenXUnknown -352
 SetField groupwidgets[0].bitmapwidgets[2].data.StandardYOffset 0
 SetField groupwidgets[0].bitmapwidgets[2].data.StandardXOffset 0
 SetField groupwidgets[0].bitmapwidgets[2].data.StandardYUnknown 0
