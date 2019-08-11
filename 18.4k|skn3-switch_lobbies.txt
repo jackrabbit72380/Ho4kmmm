@@ -1,5 +1,4 @@
 edittag ui\halox\pregame_lobby\switch_lobby\switch_lobbies
-
 SetField TextWidgets[0].WidescreenYBoundsMin 2
 SetField TextWidgets[0].WidescreenXBoundsMin 0
 SetField TextWidgets[0].WidescreenYBoundsMax 52
@@ -14,3 +13,16 @@ SetField TextWidgets[0].textwidgets[0].textcolor null
 SetField TextWidgets[0].textwidgets[0].textfont 1
 SaveTagChanges
 exitto tags
+
+edittag ui\halox\pregame_lobby\switch_lobby\switch_lobbies
+SetField BitmapWidgets[0].WidescreenYBoundsMin 0
+SetField BitmapWidgets[0].WidescreenXBoundsMin -24
+SetField BitmapWidgets[0].WidescreenYBoundsMax 25
+SetField BitmapWidgets[0].WidescreenXBoundsMax 214
+SetField BitmapWidgets[0].StandardYBoundsMin 0
+SetField BitmapWidgets[0].StandardXBoundsMin 0
+SetField BitmapWidgets[0].StandardYBoundsMax 0
+SetField BitmapWidgets[0].StandardXBoundsMax 0
+SaveTagChanges
+exitto tags
+exit
