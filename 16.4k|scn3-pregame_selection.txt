@@ -393,3 +393,251 @@ SetField groupwidgets[2].bitmapwidgets[0].data.StanderdYBoundsMax 0
 SetField groupwidgets[2].bitmapwidgets[0].data.StanderdXBoundsMax 0
 SaveTagChanges
 exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].textwidgets[0].data.name name
+SetField groupwidgets[4].textwidgets[0].data.WidescreenYBoundsMin 185
+SetField groupwidgets[4].textwidgets[0].data.WidescreenXBoundsMin 727
+SetField groupwidgets[4].textwidgets[0].data.WidescreenYBoundsMax 215
+SetField groupwidgets[4].textwidgets[0].data.WidescreenXBoundsMax 966
+SetField groupwidgets[4].textwidgets[0].data.StanderdYBoundsMin 0
+SetField groupwidgets[4].textwidgets[0].data.StanderdXBoundsMin 0
+SetField groupwidgets[4].textwidgets[0].data.StanderdYBoundsMax 0
+SetField groupwidgets[4].textwidgets[0].data.StanderdXBoundsMax 0
+SetField groupwidgets[4].textwidgets[0].datasourcename subitem
+SetField groupwidgets[4].textwidgets[0].textstring name
+SetField groupwidgets[4].textwidgets[0].textcolor null
+SetField groupwidgets[4].textwidgets[0].textfont 4
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].textwidgets[1].data.name description
+SetField groupwidgets[4].textwidgets[1].data.WidescreenYBoundsMin 210
+SetField groupwidgets[4].textwidgets[1].data.WidescreenXBoundsMin 727
+SetField groupwidgets[4].textwidgets[1].data.WidescreenYBoundsMax 320
+SetField groupwidgets[4].textwidgets[1].data.WidescreenXBoundsMax 966
+SetField groupwidgets[4].textwidgets[1].data.StanderdYBoundsMin 0
+SetField groupwidgets[4].textwidgets[1].data.StanderdXBoundsMin 0
+SetField groupwidgets[4].textwidgets[1].data.StanderdYBoundsMax 0
+SetField groupwidgets[4].textwidgets[1].data.StanderdXBoundsMax 0
+SetField groupwidgets[4].textwidgets[1].datasourcename subitem
+SetField groupwidgets[4].textwidgets[1].textstring description
+SetField groupwidgets[4].textwidgets[1].textcolor ice
+SetField groupwidgets[4].textwidgets[1].textfont 4
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].textwidgets[2].data.name metadata_line_1_label
+SetField groupwidgets[4].textwidgets[2].data.WidescreenYBoundsMin 325
+SetField groupwidgets[4].textwidgets[2].data.WidescreenXBoundsMin 727
+SetField groupwidgets[4].textwidgets[2].data.WidescreenYBoundsMax 355
+SetField groupwidgets[4].textwidgets[2].data.WidescreenXBoundsMax 838
+SetField groupwidgets[4].textwidgets[2].data.StanderdYBoundsMin 0
+SetField groupwidgets[4].textwidgets[2].data.StanderdXBoundsMin 0
+SetField groupwidgets[4].textwidgets[2].data.StanderdYBoundsMax 0
+SetField groupwidgets[4].textwidgets[2].data.StanderdXBoundsMax 0
+SetField groupwidgets[4].textwidgets[2].datasourcename subitem
+SetField groupwidgets[4].textwidgets[2].textstring metadata_line_1_label
+SetField groupwidgets[4].textwidgets[2].textcolor ice
+SetField groupwidgets[4].textwidgets[2].textfont 4
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].textwidgets[3].data.name metadata_line_1
+SetField groupwidgets[4].textwidgets[3].data.WidescreenYBoundsMin 325
+SetField groupwidgets[4].textwidgets[3].data.WidescreenXBoundsMin 798
+SetField groupwidgets[4].textwidgets[3].data.WidescreenYBoundsMax 355
+SetField groupwidgets[4].textwidgets[3].data.WidescreenXBoundsMax 966
+SetField groupwidgets[4].textwidgets[3].data.StanderdYBoundsMin 0
+SetField groupwidgets[4].textwidgets[3].data.StanderdXBoundsMin 0
+SetField groupwidgets[4].textwidgets[3].data.StanderdYBoundsMax 0
+SetField groupwidgets[4].textwidgets[3].data.StanderdXBoundsMax 0
+SetField groupwidgets[4].textwidgets[3].datasourcename subitem
+SetField groupwidgets[4].textwidgets[3].textstring metadata_line_1
+SetField groupwidgets[4].textwidgets[3].textcolor null
+SetField groupwidgets[4].textwidgets[3].textfont 4
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].textwidgets[4].data.name metadata_line_2_label
+SetField groupwidgets[4].textwidgets[4].data.WidescreenYBoundsMin 354
+SetField groupwidgets[4].textwidgets[4].data.WidescreenXBoundsMin 727
+SetField groupwidgets[4].textwidgets[4].data.WidescreenYBoundsMax 384
+SetField groupwidgets[4].textwidgets[4].data.WidescreenXBoundsMax 838
+SetField groupwidgets[4].textwidgets[4].data.StanderdYBoundsMin 0
+SetField groupwidgets[4].textwidgets[4].data.StanderdXBoundsMin 0
+SetField groupwidgets[4].textwidgets[4].data.StanderdYBoundsMax 0
+SetField groupwidgets[4].textwidgets[4].data.StanderdXBoundsMax 0
+SetField groupwidgets[4].textwidgets[4].datasourcename subitem
+SetField groupwidgets[4].textwidgets[4].textstring metadata_line_2_label
+SetField groupwidgets[4].textwidgets[4].textcolor ice
+SetField groupwidgets[4].textwidgets[4].textfont 4
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].textwidgets[5].data.name metadata_line_2
+SetField groupwidgets[4].textwidgets[5].data.WidescreenYBoundsMin 354
+SetField groupwidgets[4].textwidgets[5].data.WidescreenXBoundsMin 838
+SetField groupwidgets[4].textwidgets[5].data.WidescreenYBoundsMax 384
+SetField groupwidgets[4].textwidgets[5].data.WidescreenXBoundsMax 966
+SetField groupwidgets[4].textwidgets[5].data.StanderdYBoundsMin 0
+SetField groupwidgets[4].textwidgets[5].data.StanderdXBoundsMin 0
+SetField groupwidgets[4].textwidgets[5].data.StanderdYBoundsMax 0
+SetField groupwidgets[4].textwidgets[5].data.StanderdXBoundsMax 0
+SetField groupwidgets[4].textwidgets[5].datasourcename subitem
+SetField groupwidgets[4].textwidgets[5].textstring metadata_line_2
+SetField groupwidgets[4].textwidgets[5].textcolor null
+SetField groupwidgets[4].textwidgets[5].textfont 4
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].textwidgets[6].data.name metadata_line_3_label
+SetField groupwidgets[4].textwidgets[6].data.WidescreenYBoundsMin 377
+SetField groupwidgets[4].textwidgets[6].data.WidescreenXBoundsMin 727
+SetField groupwidgets[4].textwidgets[6].data.WidescreenYBoundsMax 407
+SetField groupwidgets[4].textwidgets[6].data.WidescreenXBoundsMax 838
+SetField groupwidgets[4].textwidgets[6].data.StanderdYBoundsMin 0
+SetField groupwidgets[4].textwidgets[6].data.StanderdXBoundsMin 0
+SetField groupwidgets[4].textwidgets[6].data.StanderdYBoundsMax 0
+SetField groupwidgets[4].textwidgets[6].data.StanderdXBoundsMax 0
+SetField groupwidgets[4].textwidgets[6].datasourcename subitem
+SetField groupwidgets[4].textwidgets[6].textstring metadata_line_3_label
+SetField groupwidgets[4].textwidgets[6].textcolor ice
+SetField groupwidgets[4].textwidgets[6].textfont 4
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].textwidgets[7].data.name metadata_line_3
+SetField groupwidgets[4].textwidgets[7].data.WidescreenYBoundsMin 377
+SetField groupwidgets[4].textwidgets[7].data.WidescreenXBoundsMin 838
+SetField groupwidgets[4].textwidgets[7].data.WidescreenYBoundsMax 407
+SetField groupwidgets[4].textwidgets[7].data.WidescreenXBoundsMax 966
+SetField groupwidgets[4].textwidgets[7].data.StanderdYBoundsMin 0
+SetField groupwidgets[4].textwidgets[7].data.StanderdXBoundsMin 0
+SetField groupwidgets[4].textwidgets[7].data.StanderdYBoundsMax 0
+SetField groupwidgets[4].textwidgets[7].data.StanderdXBoundsMax 0
+SetField groupwidgets[4].textwidgets[7].datasourcename subitem
+SetField groupwidgets[4].textwidgets[7].textstring metadata_line_3
+SetField groupwidgets[4].textwidgets[7].textcolor null
+SetField groupwidgets[4].textwidgets[7].textfont 4
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].textwidgets[8].data.name metadata_line_4_label
+SetField groupwidgets[4].textwidgets[8].data.WidescreenYBoundsMin 400
+SetField groupwidgets[4].textwidgets[8].data.WidescreenXBoundsMin 727
+SetField groupwidgets[4].textwidgets[8].data.WidescreenYBoundsMax 430
+SetField groupwidgets[4].textwidgets[8].data.WidescreenXBoundsMax 838
+SetField groupwidgets[4].textwidgets[8].data.StanderdYBoundsMin 0
+SetField groupwidgets[4].textwidgets[8].data.StanderdXBoundsMin 0
+SetField groupwidgets[4].textwidgets[8].data.StanderdYBoundsMax 0
+SetField groupwidgets[4].textwidgets[8].data.StanderdXBoundsMax 0
+SetField groupwidgets[4].textwidgets[8].datasourcename subitem
+SetField groupwidgets[4].textwidgets[8].textstring metadata_line_4_label
+SetField groupwidgets[4].textwidgets[8].textcolor ice
+SetField groupwidgets[4].textwidgets[8].textfont 4
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].textwidgets[9].data.name metadata_line_4
+SetField groupwidgets[4].textwidgets[9].data.WidescreenYBoundsMin 400
+SetField groupwidgets[4].textwidgets[9].data.WidescreenXBoundsMin 838
+SetField groupwidgets[4].textwidgets[9].data.WidescreenYBoundsMax 430
+SetField groupwidgets[4].textwidgets[9].data.WidescreenXBoundsMax 966
+SetField groupwidgets[4].textwidgets[9].data.StanderdYBoundsMin 0
+SetField groupwidgets[4].textwidgets[9].data.StanderdXBoundsMin 0
+SetField groupwidgets[4].textwidgets[9].data.StanderdYBoundsMax 0
+SetField groupwidgets[4].textwidgets[9].data.StanderdXBoundsMax 0
+SetField groupwidgets[4].textwidgets[9].datasourcename subitem
+SetField groupwidgets[4].textwidgets[9].textstring metadata_line_4
+SetField groupwidgets[4].textwidgets[9].textcolor null
+SetField groupwidgets[4].textwidgets[9].textfont 4
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].bitmapwidgets[0].data.name type
+SetField groupwidgets[4].bitmapwidgets[0].data.WidescreenYBoundsMin 52
+SetField groupwidgets[4].bitmapwidgets[0].data.WidescreenXBoundsMin 727
+SetField groupwidgets[4].bitmapwidgets[0].data.WidescreenYBoundsMax 182
+SetField groupwidgets[4].bitmapwidgets[0].data.WidescreenXBoundsMax 963
+SetField groupwidgets[4].bitmapwidgets[0].data.StanderdYBoundsMin 0
+SetField groupwidgets[4].bitmapwidgets[0].data.StanderdXBoundsMin 0
+SetField groupwidgets[4].bitmapwidgets[0].data.StanderdYBoundsMax 0
+SetField groupwidgets[4].bitmapwidgets[0].data.StanderdXBoundsMax 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].bitmapwidgets[1].data.name game_engine
+SetField groupwidgets[4].bitmapwidgets[1].data.WidescreenYBoundsMin 52
+SetField groupwidgets[4].bitmapwidgets[1].data.WidescreenXBoundsMin 727
+SetField groupwidgets[4].bitmapwidgets[1].data.WidescreenYBoundsMax 182
+SetField groupwidgets[4].bitmapwidgets[1].data.WidescreenXBoundsMax 963
+SetField groupwidgets[4].bitmapwidgets[1].data.StanderdYBoundsMin 0
+SetField groupwidgets[4].bitmapwidgets[1].data.StanderdXBoundsMin 0
+SetField groupwidgets[4].bitmapwidgets[1].data.StanderdYBoundsMax 0
+SetField groupwidgets[4].bitmapwidgets[1].data.StanderdXBoundsMax 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].bitmapwidgets[2].data.name map_image
+SetField groupwidgets[4].bitmapwidgets[2].data.WidescreenYBoundsMin 52
+SetField groupwidgets[4].bitmapwidgets[2].data.WidescreenXBoundsMin 727
+SetField groupwidgets[4].bitmapwidgets[2].data.WidescreenYBoundsMax 182
+SetField groupwidgets[4].bitmapwidgets[2].data.WidescreenXBoundsMax 963
+SetField groupwidgets[4].bitmapwidgets[2].data.StanderdYBoundsMin 35
+SetField groupwidgets[4].bitmapwidgets[2].data.StanderdXBoundsMin 510
+SetField groupwidgets[4].bitmapwidgets[2].data.StanderdYBoundsMax 170
+SetField groupwidgets[4].bitmapwidgets[2].data.StanderdXBoundsMax 744
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].bitmapwidgets[3].data.name autor_field_lame_hack_don't_break
+SetField groupwidgets[4].bitmapwidgets[3].data.WidescreenYBoundsMin 322
+SetField groupwidgets[4].bitmapwidgets[3].data.WidescreenXBoundsMin 719
+SetField groupwidgets[4].bitmapwidgets[3].data.WidescreenYBoundsMax 349
+SetField groupwidgets[4].bitmapwidgets[3].data.WidescreenXBoundsMax 972
+SetField groupwidgets[4].bitmapwidgets[3].data.StanderdYBoundsMin 0
+SetField groupwidgets[4].bitmapwidgets[3].data.StanderdXBoundsMin 0
+SetField groupwidgets[4].bitmapwidgets[3].data.StanderdYBoundsMax 0
+SetField groupwidgets[4].bitmapwidgets[3].data.StanderdXBoundsMax 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].bitmapwidgets[4].data.name autor_field_overline
+SetField groupwidgets[4].bitmapwidgets[4].data.WidescreenYBoundsMin 321
+SetField groupwidgets[4].bitmapwidgets[4].data.WidescreenXBoundsMin 719
+SetField groupwidgets[4].bitmapwidgets[4].data.WidescreenYBoundsMax 322
+SetField groupwidgets[4].bitmapwidgets[4].data.WidescreenXBoundsMax 972
+SetField groupwidgets[4].bitmapwidgets[4].data.StanderdYBoundsMin 0
+SetField groupwidgets[4].bitmapwidgets[4].data.StanderdXBoundsMin 0
+SetField groupwidgets[4].bitmapwidgets[4].data.StanderdYBoundsMax 0
+SetField groupwidgets[4].bitmapwidgets[4].data.StanderdXBoundsMax 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].bitmapwidgets[5].data.name autor_field_underline
+SetField groupwidgets[4].bitmapwidgets[5].data.WidescreenYBoundsMin 349
+SetField groupwidgets[4].bitmapwidgets[5].data.WidescreenXBoundsMin 719
+SetField groupwidgets[4].bitmapwidgets[5].data.WidescreenYBoundsMax 350
+SetField groupwidgets[4].bitmapwidgets[5].data.WidescreenXBoundsMax 972
+SetField groupwidgets[4].bitmapwidgets[5].data.StanderdYBoundsMin 0
+SetField groupwidgets[4].bitmapwidgets[5].data.StanderdXBoundsMin 0
+SetField groupwidgets[4].bitmapwidgets[5].data.StanderdYBoundsMax 0
+SetField groupwidgets[4].bitmapwidgets[5].data.StanderdXBoundsMax 0
+SaveTagChanges
+exitto tags
