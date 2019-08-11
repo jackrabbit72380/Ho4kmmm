@@ -109,7 +109,7 @@ SetField groupwidgets[2].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
 Exit
-/////////////////////////////////////////////////////////////////////////////////////////////////////text?
+
 EditTag ui\halox\pregame_lobby\pregame_lobby_matchmaking.scn3
 SetField groupwidgets[2].TextWidgets[0].data.name hopper_name
 SetField groupwidgets[2].TextWidgets[0].data.Layer 1
@@ -121,12 +121,12 @@ SetField groupwidgets[2].TextWidgets[0].StandardYBoundsMin 0
 SetField groupwidgets[2].TextWidgets[0].StandardXBoundsMin 0
 SetField groupwidgets[2].TextWidgets[0].StandardYBoundsMax 0
 SetField groupwidgets[2].TextWidgets[0].StandardXBoundsMax 0
-SetField groupwidgets[2].TextWidgets[0].text matchmaking_hopper_population
-SetField groupwidgets[2].TextWidgets[0].text color ice
-SetField groupwidgets[2].TextWidgets[0].text font 4
+SetField groupwidgets[2].TextWidgets[0].textstring matchmaking_hopper_population
+SetField groupwidgets[2].TextWidgets[0].textcolor ice
+SetField groupwidgets[2].TextWidgets[0].textfont 4
 SaveTagChanges
 exitto tags
-/////////////////////////////////////////////////////////////////////////////////////////////////////text?
+
 EditTag ui\halox\pregame_lobby\pregame_lobby_matchmaking.scn3
 SetField groupwidgets[2].TextWidgets[1].data.name total_population
 SetField groupwidgets[2].TextWidgets[1].data.Layer 0
@@ -138,9 +138,9 @@ SetField groupwidgets[2].TextWidgets[1].StandardYBoundsMin 0
 SetField groupwidgets[2].TextWidgets[1].StandardXBoundsMin 0
 SetField groupwidgets[2].TextWidgets[1].StandardYBoundsMax 0
 SetField groupwidgets[2].TextWidgets[1].StandardXBoundsMax 0
-SetField groupwidgets[2].TextWidgets[1].text string matchmaking total_population
-SetField groupwidgets[2].TextWidgets[1].text color ice
-SetField groupwidgets[2].TextWidgets[1].text font 4
+SetField groupwidgets[2].TextWidgets[1].textstring matchmaking total_population
+SetField groupwidgets[2].TextWidgets[1].textcolor ice
+SetField groupwidgets[2].TextWidgets[1].textfont 4
 SaveTagChanges
 exitto tags
 
@@ -155,9 +155,9 @@ SetField groupwidgets[2].TextWidgets[2].StandardYBoundsMin 0
 SetField groupwidgets[2].TextWidgets[2].StandardXBoundsMin 0
 SetField groupwidgets[2].TextWidgets[2].StandardYBoundsMax 0
 SetField groupwidgets[2].TextWidgets[2].StandardXBoundsMax 0
-SetField groupwidgets[2].TextWidgets[2].text string null
-SetField groupwidgets[2].TextWidgets[2].text color ice
-SetField groupwidgets[2].TextWidgets[2].text font 4
+SetField groupwidgets[2].TextWidgets[2].textstring null
+SetField groupwidgets[2].TextWidgets[2].textcolor ice
+SetField groupwidgets[2].TextWidgets[2].textfont 4
 SaveTagChanges
 exitto tags
 
