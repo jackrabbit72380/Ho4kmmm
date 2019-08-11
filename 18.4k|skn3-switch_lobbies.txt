@@ -8,5 +8,9 @@ SetField TextWidgets[0].StandardYBoundsMin 0
 SetField TextWidgets[0].StandardXBoundsMin 0
 SetField TextWidgets[0].StandardYBoundsMax 0
 SetField TextWidgets[0].StandardXBoundsMax 0
+SetField TextWidgets[0].textwidgets[0].datasourcename null
+SetField TextWidgets[0].textwidgets[0].textstring name
+SetField TextWidgets[0].textwidgets[0].textcolor null
+SetField TextWidgets[0].textwidgets[0].textfont 1
 SaveTagChanges
 exitto tags
