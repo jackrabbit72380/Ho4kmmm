@@ -114,7 +114,7 @@ SetField groupwidgets[0].TextWidgets[0].data.StandardYUnknown 0
 SetField groupwidgets[0].TextWidgets[0].data.StandardXUnknown 0
 SetField groupwidgets[0].TextWidgets[0].textstring title
 SetField groupwidgets[0].TextWidgets[0].textcolor
-SetField groupwidgets[0].TextWidgets[0].textfont 1
+SetField groupwidgets[0].TextWidgets[0].textfont 4
 SaveTagChanges
 exitto tags
 
@@ -131,7 +131,7 @@ SetField groupwidgets[0].TextWidgets[1].data.StandardYUnknown 0
 SetField groupwidgets[0].TextWidgets[1].data.StandardXUnknown 0
 SetField groupwidgets[0].TextWidgets[1].textstring description
 SetField groupwidgets[0].TextWidgets[1].textcolor ice
-SetField groupwidgets[0].TextWidgets[1].textfont 1
+SetField groupwidgets[0].TextWidgets[1].textfont 4
 SaveTagChanges
 exitto tags
 
