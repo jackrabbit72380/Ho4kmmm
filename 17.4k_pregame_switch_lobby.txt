@@ -25,7 +25,6 @@ SetField groupwidgets[0].listwidgets[0].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
 
-
 edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.flags 0
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.name null
