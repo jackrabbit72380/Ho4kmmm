@@ -362,7 +362,6 @@ SetField groupwidgets[0].bitmapwidgets[3].data.StandardYUnknown 0
 SetField groupwidgets[0].bitmapwidgets[3].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
-Exit
 
 echo subitem_edit////////////////////////////////////////////////////////
 
