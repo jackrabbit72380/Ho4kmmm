@@ -1169,15 +1169,15 @@ exitto tags
 echo hopper_image////////////////////////////////////////////////////
 
 edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
-SetField groupwidgets[12].textwidgets[0].data.name description
-SetField groupwidgets[12].textwidgets[0].data.WidescreenYBoundsMin 239
-SetField groupwidgets[12].textwidgets[0].data.WidescreenXBoundsMin 731
-SetField groupwidgets[12].textwidgets[0].data.WidescreenYBoundsMax 397
-SetField groupwidgets[12].textwidgets[0].data.WidescreenXBoundsMax 963
-SetField groupwidgets[12].textwidgets[0].data.StanderdYBoundsMin 0
-SetField groupwidgets[12].textwidgets[0].data.StanderdXBoundsMin 0
-SetField groupwidgets[12].textwidgets[0].data.StanderdYBoundsMax 0
-SetField groupwidgets[12].textwidgets[0].data.StanderdXBoundsMax 0
+SetField groupwidgets[12].textwidgets[0].name description
+SetField groupwidgets[12].textwidgets[0].WidescreenYBoundsMin 239
+SetField groupwidgets[12].textwidgets[0].WidescreenXBoundsMin 731
+SetField groupwidgets[12].textwidgets[0].WidescreenYBoundsMax 397
+SetField groupwidgets[12].textwidgets[0].WidescreenXBoundsMax 963
+SetField groupwidgets[12].textwidgets[0].StanderdYBoundsMin 0
+SetField groupwidgets[12].textwidgets[0].StanderdXBoundsMin 0
+SetField groupwidgets[12].textwidgets[0].StanderdYBoundsMax 0
+SetField groupwidgets[12].textwidgets[0].StanderdXBoundsMax 0
 SetField groupwidgets[12].textwidgets[0].datasourcename subitem
 SetField groupwidgets[12].textwidgets[0].textstring description
 SetField groupwidgets[12].textwidgets[0].textcolor ice
@@ -1186,14 +1186,14 @@ SaveTagChanges
 exitto tags
 
 edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
-SetField groupwidgets[12].bitmapwidgets[0].data.name flavor_image
-SetField groupwidgets[12].bitmapwidgets[0].data.WidescreenYBoundsMin 59
-SetField groupwidgets[12].bitmapwidgets[0].data.WidescreenXBoundsMin 767
-SetField groupwidgets[12].bitmapwidgets[0].data.WidescreenYBoundsMax 0
-SetField groupwidgets[12].bitmapwidgets[0].data.WidescreenXBoundsMax 0
-SetField groupwidgets[12].bitmapwidgets[0].data.StanderdYBoundsMin 0
-SetField groupwidgets[12].bitmapwidgets[0].data.StanderdXBoundsMin 0
-SetField groupwidgets[12].bitmapwidgets[0].data.StanderdYBoundsMax 0
-SetField groupwidgets[12].bitmapwidgets[0].data.StanderdXBoundsMax 0
+SetField groupwidgets[12].bitmapwidgets[0].name flavor_image
+SetField groupwidgets[12].bitmapwidgets[0].WidescreenYBoundsMin 59
+SetField groupwidgets[12].bitmapwidgets[0].WidescreenXBoundsMin 767
+SetField groupwidgets[12].bitmapwidgets[0].WidescreenYBoundsMax 0
+SetField groupwidgets[12].bitmapwidgets[0].WidescreenXBoundsMax 0
+SetField groupwidgets[12].bitmapwidgets[0].StanderdYBoundsMin 0
+SetField groupwidgets[12].bitmapwidgets[0].StanderdXBoundsMin 0
+SetField groupwidgets[12].bitmapwidgets[0].StanderdYBoundsMax 0
+SetField groupwidgets[12].bitmapwidgets[0].StanderdXBoundsMax 0
 SaveTagChanges
 exit
