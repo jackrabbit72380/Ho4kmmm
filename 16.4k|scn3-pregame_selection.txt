@@ -1,3 +1,10 @@
+echo move a select & b back buttons
+edittag ui\halox\pregame_lobby\selection\button_key_a_select_b_cancel.bkey
+SetField WidescreenYBoundsMin 629
+SetField WidescreenXBoundsMin -620
+SaveTagChanges
+exitto tags
+echo //////////////////////////////////////////////////////////////////////////////start
 edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
 SetField WidescreenYBoundsMin -231
 SetField WidescreenXBoundsMin -576
