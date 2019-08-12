@@ -922,7 +922,7 @@ SaveTagChanges
 exitto tags
 
 edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
-SetField groupwidgets[9].bitmapwidgets[0].data.name map_image_type
+SetField groupwidgets[9].bitmapwidgets[0].data.name unknown_film_image
 SetField groupwidgets[9].bitmapwidgets[0].data.WidescreenYOffset -369
 SetField groupwidgets[9].bitmapwidgets[0].data.WidescreenXOffset 727
 SetField groupwidgets[9].bitmapwidgets[0].data.WidescreenYUnknown 137
@@ -1069,7 +1069,7 @@ SaveTagChanges
 exitto tags
 
 edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
-SetField groupwidgets[10].bitmapwidgets[0].data.name map_image_type
+SetField groupwidgets[10].bitmapwidgets[0].data.name unknown_film_image
 SetField groupwidgets[10].bitmapwidgets[0].data.WidescreenYOffset -369
 SetField groupwidgets[10].bitmapwidgets[0].data.WidescreenXOffset 727
 SetField groupwidgets[10].bitmapwidgets[0].data.WidescreenYUnknown 137
