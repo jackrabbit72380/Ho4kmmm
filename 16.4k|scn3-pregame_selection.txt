@@ -1197,4 +1197,4 @@ SetField groupwidgets[12].bitmapwidgets[0].data.StandardYUnknown 0
 SetField groupwidgets[12].bitmapwidgets[0].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
-dumplog
+dumplog.txt
