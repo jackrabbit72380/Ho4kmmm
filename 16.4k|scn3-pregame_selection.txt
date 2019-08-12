@@ -1166,7 +1166,7 @@ SetField groupwidgets[11].bitmapwidgets[0].data.StanderdXBoundsMax 0
 SaveTagChanges
 exitto tags
 
-echo hopper_image////////////////////////////////////////////////////
+echo hopper_image////////////////////////////////////////////////////   DONE
 
 edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
 SetField groupwidgets[12].textwidgets[0].data.name description
@@ -1186,14 +1186,14 @@ SaveTagChanges
 exitto tags
 
 edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
-SetField groupwidgets[12].bitmapwidgets[0].name flavor_image
-SetField groupwidgets[12].bitmapwidgets[0].WidescreenYBoundsMin 59
-SetField groupwidgets[12].bitmapwidgets[0].WidescreenXBoundsMin 767
-SetField groupwidgets[12].bitmapwidgets[0].WidescreenYBoundsMax 0
-SetField groupwidgets[12].bitmapwidgets[0].WidescreenXBoundsMax 0
-SetField groupwidgets[12].bitmapwidgets[0].StanderdYBoundsMin 0
-SetField groupwidgets[12].bitmapwidgets[0].StanderdXBoundsMin 0
-SetField groupwidgets[12].bitmapwidgets[0].StanderdYBoundsMax 0
-SetField groupwidgets[12].bitmapwidgets[0].StanderdXBoundsMax 0
+SetField groupwidgets[12].bitmapwidgets[0].data.name flavor_image
+SetField groupwidgets[12].bitmapwidgets[0].data.WidescreenYOffset 59
+SetField groupwidgets[12].bitmapwidgets[0].data.WidescreenXOffset 767
+SetField groupwidgets[12].bitmapwidgets[0].data.WidescreenYUnknown 0
+SetField groupwidgets[12].bitmapwidgets[0].data.WidescreenXUnknown 0
+SetField groupwidgets[12].bitmapwidgets[0].data.StandardYOffset 0
+SetField groupwidgets[12].bitmapwidgets[0].data.StandardXOffset 0
+SetField groupwidgets[12].bitmapwidgets[0].data.StandardYUnknown 0
+SetField groupwidgets[12].bitmapwidgets[0].data.StandardXUnknown 0
 SaveTagChanges
 exit
