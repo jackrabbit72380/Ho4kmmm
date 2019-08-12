@@ -1171,7 +1171,7 @@ echo hopper_image////////////////////////////////////////////////////   DONE
 edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
 SetField groupwidgets[12].textwidgets[0].data.name description
 SetField groupwidgets[12].textwidgets[0].data.WidescreenYOffset 239
-SetField groupwidgets[12].textwidgets[0].data.WidescreenXOffset  731
+SetField groupwidgets[12].textwidgets[0].data.WidescreenXOffset 731
 SetField groupwidgets[12].textwidgets[0].data.WidescreenYUnknown 397
 SetField groupwidgets[12].textwidgets[0].data.WidescreenXUnknown 963
 SetField groupwidgets[12].textwidgets[0].data.StandardYOffset 0
