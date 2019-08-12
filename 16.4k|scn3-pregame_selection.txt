@@ -1169,15 +1169,15 @@ exitto tags
 echo hopper_image////////////////////////////////////////////////////
 
 edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
-SetField groupwidgets[12].textwidgets[0].name description
-SetField groupwidgets[12].textwidgets[0].WidescreenYBoundsMin 239
-SetField groupwidgets[12].textwidgets[0].WidescreenXBoundsMin 731
-SetField groupwidgets[12].textwidgets[0].WidescreenYBoundsMax 397
-SetField groupwidgets[12].textwidgets[0].WidescreenXBoundsMax 963
-SetField groupwidgets[12].textwidgets[0].StanderdYBoundsMin 0
-SetField groupwidgets[12].textwidgets[0].StanderdXBoundsMin 0
-SetField groupwidgets[12].textwidgets[0].StanderdYBoundsMax 0
-SetField groupwidgets[12].textwidgets[0].StanderdXBoundsMax 0
+SetField groupwidgets[12].textwidgets[0].data.name description
+SetField groupwidgets[12].textwidgets[0].data.WidescreenYOffset 239
+SetField groupwidgets[12].textwidgets[0].data.WidescreenXOffset  731
+SetField groupwidgets[12].textwidgets[0].data.WidescreenYUnknown 397
+SetField groupwidgets[12].textwidgets[0].data.WidescreenXUnknown 963
+SetField groupwidgets[12].textwidgets[0].data.StanderdYBoundsMin 0
+SetField groupwidgets[12].textwidgets[0].data.StanderdXBoundsMin 0
+SetField groupwidgets[12].textwidgets[0].data.StanderdYBoundsMax 0
+SetField groupwidgets[12].textwidgets[0].data.StanderdXBoundsMax 0
 SetField groupwidgets[12].textwidgets[0].datasourcename subitem
 SetField groupwidgets[12].textwidgets[0].textstring description
 SetField groupwidgets[12].textwidgets[0].textcolor ice
