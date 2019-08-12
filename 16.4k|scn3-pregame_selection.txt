@@ -1196,4 +1196,4 @@ SetField groupwidgets[12].bitmapwidgets[0].data.StandardXOffset 0
 SetField groupwidgets[12].bitmapwidgets[0].data.StandardYUnknown 0
 SetField groupwidgets[12].bitmapwidgets[0].data.StandardXUnknown 0
 SaveTagChanges
-exit
+exitto tags
