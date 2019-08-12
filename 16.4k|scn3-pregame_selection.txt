@@ -471,7 +471,7 @@ SetField groupwidgets[4].textwidgets[4].data.name metadata_line_2_label
 SetField groupwidgets[4].textwidgets[4].data.WidescreenYOffset 354
 SetField groupwidgets[4].textwidgets[4].data.WidescreenXOffset 727
 SetField groupwidgets[4].textwidgets[4].data.WidescreenYUnknown 384
-SetField groupwidgets[4].textwidgets[4].data.WidescreenStandardYOffsetXUnknown 838
+SetField groupwidgets[4].textwidgets[4].data.WidescreenXUnknown 838
 SetField groupwidgets[4].textwidgets[4].data.StandardYOffset 0
 SetField groupwidgets[4].textwidgets[4].data.StandardXOffset 0
 SetField groupwidgets[4].textwidgets[4].data.StandardYUnknown 0
@@ -1080,7 +1080,7 @@ SetField groupwidgets[10].textwidgets[6].textcolor ice
 SetField groupwidgets[10].textwidgets[6].textfont 4
 SaveTagChanges
 exitto tags
-///////////////////////////////////////////////////////////////////////////////////////////DONE
+
 edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
 SetField groupwidgets[10].bitmapwidgets[0].data.name map_image_type
 SetField groupwidgets[10].bitmapwidgets[0].data.WidescreenYOffset -369
@@ -1134,7 +1134,7 @@ SetField groupwidgets[10].bitmapwidgets[3].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
 
-echo hopper_category_image////////////////////////////////////////////////////DONE
+echo hopper_category_image////////////////////////////////////////////////////
 
 edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
 SetField groupwidgets[11].textwidgets[0].data.name description
@@ -1166,7 +1166,7 @@ SetField groupwidgets[11].bitmapwidgets[0].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
 
-echo hopper_image////////////////////////////////////////////////////   DONE
+echo hopper_image////////////////////////////////////////////////////
 
 edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
 SetField groupwidgets[12].textwidgets[0].data.name description
