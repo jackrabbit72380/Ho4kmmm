@@ -239,7 +239,7 @@ SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.WidescreenYOffse
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.WidescreenXOffset -820
 
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[4].data.name map_name
-SetField groupwidgets[0].listwidgets[0].listwidgetitems[4].data.WidescreenYOffset -22
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[4].data.WidescreenYOffset 22
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[4].data.WidescreenXOffset -820
 
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[5].data.name map_name
