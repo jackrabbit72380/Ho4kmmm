@@ -877,7 +877,7 @@ SaveTagChanges
 exitto tags
 
 edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
-SetField groupwidgets[8].bitmapwidgets[1].data.name autor_field_lame_hack_dont_break
+SetField groupwidgets[8].bitmapwidgets[1].data.name autor_field_lame_hack_don't_break
 SetField groupwidgets[8].bitmapwidgets[1].data.WidescreenYOffset 335
 SetField groupwidgets[8].bitmapwidgets[1].data.WidescreenXOffset 719
 SetField groupwidgets[8].bitmapwidgets[1].data.WidescreenYUnknown 362
