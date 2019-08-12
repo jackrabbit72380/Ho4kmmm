@@ -1174,10 +1174,10 @@ SetField groupwidgets[12].textwidgets[0].data.WidescreenYOffset 239
 SetField groupwidgets[12].textwidgets[0].data.WidescreenXOffset  731
 SetField groupwidgets[12].textwidgets[0].data.WidescreenYUnknown 397
 SetField groupwidgets[12].textwidgets[0].data.WidescreenXUnknown 963
-SetField groupwidgets[12].textwidgets[0].data.StanderdYBoundsMin 0
-SetField groupwidgets[12].textwidgets[0].data.StanderdXBoundsMin 0
-SetField groupwidgets[12].textwidgets[0].data.StanderdYBoundsMax 0
-SetField groupwidgets[12].textwidgets[0].data.StanderdXBoundsMax 0
+SetField groupwidgets[12].textwidgets[0].data.StandardYOffset 0
+SetField groupwidgets[12].textwidgets[0].data.StandardXOffset 0
+SetField groupwidgets[12].textwidgets[0].data.StandardYUnknown 0
+SetField groupwidgets[12].textwidgets[0].data.StandardXUnknown 0
 SetField groupwidgets[12].textwidgets[0].datasourcename subitem
 SetField groupwidgets[12].textwidgets[0].textstring description
 SetField groupwidgets[12].textwidgets[0].textcolor ice
