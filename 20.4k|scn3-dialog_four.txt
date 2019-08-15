@@ -64,7 +64,6 @@ exitto tags
 
 echo dialog.skn3
 
-
 EditTag ui\halox\dialog\dialog_four.scn3
 SetField groupwidgets[0].bitmapwidgets[0].data.flags 9
 SetField groupwidgets[0].bitmapwidgets[0].data.name background
