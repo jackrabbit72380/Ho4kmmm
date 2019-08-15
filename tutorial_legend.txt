@@ -49,6 +49,8 @@ ________________________________________________________________________________
 (39.) Where to edit campaign select level menu.
 (40.) How to move map names in mission select menu.
 (41.)how to change the font & font color in mission select menu
+(42.)Where to edit mission select text
+(43.) how to edit the "are you sure?" screen in campaign mission select
 -index end-
 __________________________________________________________________________________________________________________________
 ##########################################################################################################################
@@ -1608,6 +1610,9 @@ text widgets
 (42.)Where to edit mission select text
 Campaign_select_level.scn3
 Text widgets
+##########################################################################################################################
+(43.) how to edit the "are you sure?" screen in campaign mission select
+ui\halox\dialog\dialog_four.scn3
 ##########################################################################################################################
 Tutorial end
 ##########################################################################################################################
