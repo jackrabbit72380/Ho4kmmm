@@ -156,6 +156,14 @@ importbitmap 0 mods\maps\mainmenu\bitmaps\4k_lobby_titles\4k_theater.dds
 savetagchanges
 exitto tags
 
+createtag bitm
+nametag * ui\halox\main_menu\4k_are_you_sure
+savetagnames
+edittag ui\halox\main_menu\4k_are_you_sure.bitmap
+importbitmap 0 mods\maps\mainmenu\bitmaps\4k_lobby_titles\4k_are_you_sure.dds
+savetagchanges
+exitto tags
+
 Echo ///install 4k_lobby_titles End///
 Echo ///refrence 4k_lobby_titles bitmaps///
 
