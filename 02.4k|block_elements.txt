@@ -23,4 +23,10 @@ edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
 AddBlockElements GroupWidgets[0].BitmapWidgets 1
 savetagchanges
 exitto tags
+
+echo AddBlockElements
+edittag ui\halox\dialog\dialog_four.scn3
+AddBlockElements GroupWidgets[0].BitmapWidgets 1
+savetagchanges
+exitto tags
 exit
