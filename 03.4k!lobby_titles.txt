@@ -227,7 +227,7 @@ exitto tags
 edittag ui\halox\pregame_lobby\pregame_lobby_mapeditor.scn3
 SetField groupwidgets[2].bitmapwidgets[2].flags 9
 SetField groupwidgets[2].bitmapwidgets[2].name title
-SetField groupwidgets[2].bitmapwidgets[2].Layer -1
+SetField groupwidgets[2].bitmapwidgets[2].data.Layer -1
 SetField groupwidgets[2].bitmapwidgets[2].data.WidescreenYOffset -700
 SetField groupwidgets[2].bitmapwidgets[2].data.WidescreenXOffset 79
 SetField groupwidgets[2].bitmapwidgets[2].data.WidescreenYUnknown -204
