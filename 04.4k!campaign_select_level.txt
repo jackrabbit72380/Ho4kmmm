@@ -1,3 +1,46 @@
+echo edit skn3 campaign_select_level skin & font
+
+edittag ui\halox\campaign\campaign_select_level.skn3
+SetField textwidgets[0].data.WidescreenYOffset 0
+SetField textwidgets[0].data.WidescreenXOffset 0
+SetField textwidgets[0].data.WidescreenYUnknown 32
+SetField textwidgets[0].data.WidescreenXUnknown 245
+SetField textwidgets[0].data.StandardYOffset 0
+SetField textwidgets[0].data.StandardXOffset 0
+SetField textwidgets[0].data.StandardYUnknown 0
+SetField textwidgets[0].data.StandardXUnknown 0
+SetField textwidgets[0].textfont 4
+savetagchanges
+exitto tags
+
+echo edit yes no skin orange selection bar bitmap
+edittag ui\halox\campaign\campaign_select_level.skn3
+SetField bitmapwidgets[0].data.WidescreenYOffset -10
+SetField bitmapwidgets[0].data.WidescreenXOffset 0
+SetField bitmapwidgets[0].data.WidescreenYUnknown 50
+SetField bitmapwidgets[0].data.WidescreenXUnknown 392
+SetField bitmapwidgets[0].data.StandardYOffset 0
+SetField bitmapwidgets[0].data.StandardXOffset 0
+SetField bitmapwidgets[0].data.StandardYUnknown 0
+SetField bitmapwidgets[0].data.StandardXUnknown 0
+savetagchanges
+exitto tags
+
+echo edit white_residual_hilite bitmap
+edittag ui\halox\campaign\campaign_select_level.skn3
+SetField bitmapwidgets[1].data.WidescreenYOffset -10
+SetField bitmapwidgets[1].data.WidescreenXOffset 0
+SetField bitmapwidgets[1].data.WidescreenYUnknown 50
+SetField bitmapwidgets[1].data.WidescreenXUnknown 392
+SetField bitmapwidgets[1].data.StandardYOffset 0
+SetField bitmapwidgets[1].data.StandardXOffset 0
+SetField bitmapwidgets[1].data.StandardYUnknown 0
+SetField bitmapwidgets[1].data.StandardXUnknown 0
+savetagchanges
+exitto tags
+
+echo #################################################################################### start scn3
+
 edittag ui\halox\campaign\campaign_select_level.scn3
 SetField WidescreenYBoundsMin -234
 SetField WidescreenXBoundsMin -576
