@@ -7,14 +7,14 @@ exitto tags
 
 echo edit yes no skin orange selection bar bitmap
 edittag ui\halox\dialog\dialog.skn3
-SetField bitmapwidgets[0].data.WidescreenYOffset -10
-SetField bitmapwidgets[0].data.WidescreenXOffset 0
-SetField bitmapwidgets[0].data.WidescreenYUnknown 50
-SetField bitmapwidgets[0].data.WidescreenXUnknown 392
-SetField bitmapwidgets[0].data.StandardYOffset 0
-SetField bitmapwidgets[0].data.StandardXOffset 0
-SetField bitmapwidgets[0].data.StandardYUnknown 0
-SetField bitmapwidgets[0].data.StandardXUnknown 0
+SetField bitmapwidgets[0].data.WidescreenYBoundsmin -10
+SetField bitmapwidgets[0].data.WidescreenXBoundsmin 0
+SetField bitmapwidgets[0].data.WidescreenYBoundsMax 50
+SetField bitmapwidgets[0].data.WidescreenXBoundsMax 392
+SetField bitmapwidgets[0].data.StandardYBoundsmin 0
+SetField bitmapwidgets[0].data.StandardXBoundsmin 0
+SetField bitmapwidgets[0].data.StandardYBoundsMax 0
+SetField bitmapwidgets[0].data.StandardXBoundsMax 0
 savetagchanges
 exitto tags
 
