@@ -259,7 +259,6 @@ echo 4k_select_gametype
 echo 4k_theater
 echo \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
-
 Echo refrence pregame_selection select map lobby title bitmap
 
 EditTag ui\halox\pregame_lobby\selection\pregame_selection.scn3
