@@ -223,26 +223,25 @@ SetField groupwidgets[0].bitmapwidgets[4].Bitmap ui\halox\main_menu\4k_select_di
 SetField groupwidgets[0].bitmapwidgets[4].BlendMethod Alpha
 SaveTagChanges
 exitto tags
-Exit
-??????????????????????????????????????????????????????????????????????????????????????????????????????
-edittag ui\halox\campaign\campaign_select_level.scn3
-SetField groupwidgets[0].bitmapwidgets[8].flags 9
-SetField groupwidgets[0].bitmapwidgets[8].name bungie                  multiplayer settings?
-SetField groupwidgets[0].bitmapwidgets[8].Layer 150
-SetField groupwidgets[0].bitmapwidgets[8].WidescreenYBoundsMin 0
-SetField groupwidgets[0].bitmapwidgets[8].WidescreenXBoundsMin 1990
-SetField groupwidgets[0].bitmapwidgets[8].WidescreenYBoundsMax 180
-SetField groupwidgets[0].bitmapwidgets[8].WidescreenXBoundsMax 2390
-SetField groupwidgets[0].bitmapwidgets[8].StandardYBoundsMin 0
-SetField groupwidgets[0].bitmapwidgets[8].StandardXBoundsMin 0
-SetField groupwidgets[0].bitmapwidgets[8].StandardYBoundsMax 0
-SetField groupwidgets[0].bitmapwidgets[8].StandardXBoundsMax 0
+
+edittag ui\halox\pregame_lobby\pregame_lobby_mapeditor.scn3
+SetField groupwidgets[0].bitmapwidgets[2].flags 9
+SetField groupwidgets[0].bitmapwidgets[2].name title
+SetField groupwidgets[0].bitmapwidgets[2].Layer -1
+SetField groupwidgets[0].bitmapwidgets[2].WidescreenYBoundsMin -700
+SetField groupwidgets[0].bitmapwidgets[2].WidescreenXBoundsMin 79
+SetField groupwidgets[0].bitmapwidgets[2].WidescreenYBoundsMax -204
+SetField groupwidgets[0].bitmapwidgets[2].WidescreenXBoundsMax 1714
+SetField groupwidgets[0].bitmapwidgets[2].StandardYBoundsMin 0
+SetField groupwidgets[0].bitmapwidgets[2].StandardXBoundsMin 0
+SetField groupwidgets[0].bitmapwidgets[2].StandardYBoundsMax 0
+SetField groupwidgets[0].bitmapwidgets[2].StandardXBoundsMax 0
 SetField groupwidgets[2].bitmapwidgets[2].Animation ui\halox\animations\mainmenu_fade.wacd
-SetField groupwidgets[2].bitmapwidgets[2].Bitmap ui\halox\main_menu\4k_select_map.bitmap
+SetField groupwidgets[2].bitmapwidgets[2].Bitmap ui\halox\main_menu\4k_forge_lobby.bitmap
 SetField groupwidgets[2].bitmapwidgets[2].BlendMethod Alpha
 SaveTagChanges
 Exit
-?????????????????????????????????????????????????????????????????????????????????????????????????????
+
 echo \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 echo 4k_available_games
 echo 4k_carnage_report
