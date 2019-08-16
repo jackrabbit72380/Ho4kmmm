@@ -164,6 +164,22 @@ importbitmap 0 mods\maps\mainmenu\bitmaps\4k_lobby_titles\4k_are_you_sure.dds
 savetagchanges
 exitto tags
 
+createtag bitm
+nametag * ui\halox\main_menu\4k_end_forge
+savetagnames
+edittag ui\halox\main_menu\4k_end_forge.bitmap
+importbitmap 0 mods\maps\mainmenu\bitmaps\4k_lobby_titles\4k_end_forge.dds
+savetagchanges
+exitto tags
+
+createtag bitm
+nametag * ui\halox\main_menu\4k_end_game
+savetagnames
+edittag ui\halox\main_menu\4k_end_game.bitmap
+importbitmap 0 mods\maps\mainmenu\bitmaps\4k_lobby_titles\4k_end_game.dds
+savetagchanges
+exitto tags
+
 Echo ///install 4k_lobby_titles End///
 Echo ///refrence 4k_lobby_titles bitmaps///
 
