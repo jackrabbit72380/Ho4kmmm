@@ -228,35 +228,18 @@ edittag ui\halox\pregame_lobby\pregame_lobby_mapeditor.scn3
 SetField groupwidgets[0].bitmapwidgets[2].flags 9
 SetField groupwidgets[0].bitmapwidgets[2].name title
 SetField groupwidgets[0].bitmapwidgets[2].Layer -1
-SetField groupwidgets[0].bitmapwidgets[2].WidescreenYBoundsMin -700
-SetField groupwidgets[0].bitmapwidgets[2].WidescreenXBoundsMin 79
-SetField groupwidgets[0].bitmapwidgets[2].WidescreenYBoundsMax -204
-SetField groupwidgets[0].bitmapwidgets[2].WidescreenXBoundsMax 1714
-SetField groupwidgets[0].bitmapwidgets[2].StandardYBoundsMin 0
-SetField groupwidgets[0].bitmapwidgets[2].StandardXBoundsMin 0
-SetField groupwidgets[0].bitmapwidgets[2].StandardYBoundsMax 0
-SetField groupwidgets[0].bitmapwidgets[2].StandardXBoundsMax 0
-SetField groupwidgets[2].bitmapwidgets[2].Animation ui\halox\animations\mainmenu_fade.wacd
+SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenYOffset -700
+SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenXOffset 79
+SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenYUnknown -204
+SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenXUnknown 1714
+SetField groupwidgets[0].bitmapwidgets[2].data.StandardYOffset 0
+SetField groupwidgets[0].bitmapwidgets[2].data.StandardXOffset 0
+SetField groupwidgets[0].bitmapwidgets[2].data.StandardYUnknown 0
+SetField groupwidgets[0].bitmapwidgets[2].data.StandardXUnknown 0
+SetField groupwidgets[2].bitmapwidgets[2].data.Animation ui\halox\animations\mainmenu_fade.wacd
 SetField groupwidgets[2].bitmapwidgets[2].Bitmap ui\halox\main_menu\4k_forge_lobby.bitmap
 SetField groupwidgets[2].bitmapwidgets[2].BlendMethod Alpha
 SaveTagChanges
-Exit
-
-echo \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-echo 4k_available_games
-echo 4k_carnage_report
-echo 4k_forge_lobby
-echo 4k_matchmaking_lobby
-echo 4k_match_found
-echo 4k_multiplayer_lobby
-echo 4k_options
-echo 4k_players_found
-echo 4k_postgame_lobby
-echo 4k_select_difficulty
-echo 4k_selecttt_film
-echo 4k_select_gametype
-echo 4k_theater
-echo \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 Echo refrence pregame_selection select map lobby title bitmap
 
@@ -278,3 +261,17 @@ SetField groupwidgets[0].bitmapwidgets[4].BlendMethod Alpha
 SaveTagChanges
 exitto tags
 Exit
+
+echo \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+echo 4k_available_games
+echo 4k_carnage_report
+echo 4k_matchmaking_lobby
+echo 4k_match_found
+echo 4k_multiplayer_lobby
+echo 4k_options
+echo 4k_players_found
+echo 4k_postgame_lobby
+echo 4k_selectt_film
+echo 4k_select_gametype
+echo 4k_theater
+echo \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
