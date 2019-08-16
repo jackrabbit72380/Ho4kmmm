@@ -1,3 +1,8 @@
+echo edit a select b back bkey
+edittag ui\halox\campaign\button_key_a_select_b_back.bkey
+setfield WidescreenYBoundsMin 985
+setfield WidescreenYBoundsMin -656
+
 echo edit skn3 campaign_select_level skin & font
 
 edittag ui\halox\campaign\campaign_select_level.skn3
