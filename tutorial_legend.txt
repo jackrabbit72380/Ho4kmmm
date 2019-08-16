@@ -28,29 +28,29 @@ ________________________________________________________________________________
 (18.) Where to change font color & size for pregame lobby list (map selection) screen.
 (19.) Where to change map preview image size & location for pregame lobby list (map selection) screen.
 (20.) Where to edit garnet background in map selection list under map description.
-(21.) Where to change blue bar shadow under Built In in map select sub menu.
-(22.) Where to edit map name in map select sub menu on top of built in.
-(23.) Where to edit selected map preview image & description in map slection screen submenu.
-(24.) Where to edit “MULTIPLAYER” text.
-(25.) Where to edit "SELECT MAP" Text on map selection screen.
-(26.) Where to edit "OPTIONS" text on options screen.
-(27.) Where to edit options list left side on options screen.
-(28.) Where to edit text in game options menu.
-(29.) How to edit local games screen.
-(30.) Where to edit “SELECT DIFFICULTY” text on select difficulty screen.
-(31.) Where to edit description text on select difficulty screen
-(32.) Where to edit "easy, normal, heroic, legendary" text on campaign select difficulty screen screen.
-(33.) How to space out the words  "easy, normal, heroic, legendary" text on campaign select difficulty screen.
-(34.) Where to edit select difficulty screen background.
-(35.) How to edit difficulty select background.
-(36.) How to add map preview picture to the campaign lobby.
-(37.) How to add map preview picture to the campaign mission select.
-(38.) How to edit campaign lobby mission select background.
-(39.) Where to edit campaign select level menu.
-(40.) How to move map names in mission select menu.
-(41.)how to change the font & font color in mission select menu
-(42.)Where to edit mission select text
-(43.) how to edit the "are you sure?" screen in campaign mission select
+(21.) where to change blue bar shadow under BUILT IN in map select sub menu
+(22.) where to edit map name in map select sub menu on top of built in.
+(23.)where to edit orange selection bar (for map selection submenu)
+(24.) where to edit selected map preview image & description in map slection screen submenu.
+(25.) where to edit "MULTIPLAYER" text. 
+(26.) where to edit "SELECT MAP" Text on map selection screen. "scn3 - gui_screen_widget_definition" 
+(27.) where to edit "OPTIONS" text on options screen. 
+(28.) where to edit options list left side on options screen.
+(29.) where to edit text in game options menu.
+(30.) how to edit local games screen
+(31.) Where to edit “SELECT DIFFICULTY” text on select difficulty screen
+(32.) Where to edit description text on select difficulty screen
+(33.) Where to edit "easy, normal, heroic, legendary" text on campaign select difficulty screen screen.
+(34.) How to space out the words  "easy, normal, heroic, legendary" text on campaign select difficulty screen screen.
+(35.) Where to edit select difficulty screen background
+(36.) How to edit difficulty select background
+(37.) How to add map preview picture to the campaign lobby
+(38.) How to add map preview picture to the campaign mission select
+(39.) How to edit campaign lobby mission select background
+(40.) Where to edit campaign select level menu
+(41.) How to move map names in mission select menu
+(42.) How to change the font & font color in mission select menu
+(43.) Where to edit mission select text
 -index end-
 __________________________________________________________________________________________________________________________
 ##########################################################################################################################
@@ -1051,7 +1051,7 @@ default|mod
  skn3 - gui_skin_definition ui\halox\pregame_lobby\selection\subitem subitem.skn3 text widgets ****************************************************************************************************
 
  //////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\/////////////////////////////////////////////////////////////////////Orange_Selection_Bar_Edit=Part=3/////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\///////////////////////////////////////
-where to edit orange selection bar (for map selection submenu)
+(23.)where to edit orange selection bar (for map selection submenu)
  skn3 - gui_skin_definition ui\halox\pregame_lobby\selection\subitem
  bitmap widgets 0 - 4 (5) this is it.
  0x00000798 (orange selection bar for map name in sub menu on top of built in) (for map selection submenu)
@@ -1072,7 +1072,7 @@ where to edit orange selection bar (for map selection submenu)
  26
  238
 ##########################################################################################################################
-(23.) where to edit selected map preview image & description in map slection screen submenu.
+(24.) where to edit selected map preview image & description in map slection screen submenu.
 
 ui\halox\selection\pregame_selection
 group widgets
@@ -1144,16 +1144,16 @@ NAME:METADATA_LINE_3
 THE SIZE OF THE MAP "XX.XX"
 
 ##########################################################################################################################
-(24.) where to edit "MULTIPLAYER" text. 
+(25.) where to edit "MULTIPLAYER" text. 
 scn3 ui\halox\start_menu\panes\game_multiplayer\start_menu_game_multiplayer text widgets text font # ##########################################################################################################################
-(25.) where to edit "SELECT MAP" Text on map selection screen. "scn3 - gui_screen_widget_definition" ui\halox\pregame_lobby\selection\pregame_selection Text Widgets Name:Title ##########################################################################################################################
-(26.) where to edit "OPTIONS" text on options screen. 
+(26.) where to edit "SELECT MAP" Text on map selection screen. "scn3 - gui_screen_widget_definition" ui\halox\pregame_lobby\selection\pregame_selection Text Widgets Name:Title ##########################################################################################################################
+(27.) where to edit "OPTIONS" text on options screen. 
 
 "scn3 - gui_screen_widget_definition" ui\halox\game_options\game_options_screen text widgets 0 - 1 (2) ##########################################################################################################################
-(27.) where to edit options list left side on options screen. 
+(28.) where to edit options list left side on options screen. 
 skn3 - gui_skin_definiton ui\halox\game_options\game_options text widgets 0 - 1 (2) right side 1 - 1 (2) where to edit the selected text. with ui\halox\game_options\spinner
 ##########################################################################################################################
-(28.) where to edit text in game options menu.
+(29.) where to edit text in game options menu.
 
 skn3 - gui_skin_definition
 ui\halox\game_options\game_options
@@ -1182,12 +1182,12 @@ default|4kmod
 460
 965|2620 
 ##########################################################################################################################
-(29.) how to edit local games screen
+(30.) how to edit local games screen
 scn3 ui\halox\game_browser\game_browser
  text widgets 0 - 5 (6)
  name:browser_title (AVAILABLE GAMES) text.
 ##########################################################################################################################
-(30.) Where to edit “SELECT DIFFICULTY” text on select difficulty screen
+(31.) Where to edit “SELECT DIFFICULTY” text on select difficulty screen
 Scn3 - ui\halox\campaign\campaign_select_difficulty
 Text widgets
 0 - 1 (2)
@@ -1214,7 +1214,7 @@ Layer 0
 0
 0
 ##########################################################################################################################
-(31.) Where to edit description text on select difficulty screen
+(32.) Where to edit description text on select difficulty screen
 Scn3 - ui\halox\campaign\campaign_select_difficulty
 Text widgets
 1 - 1 (2)
@@ -1242,7 +1242,7 @@ Layer 0
 0
 
 ##########################################################################################################################
-(32.) Where to edit "easy, normal, heroic, legendary" text on campaign select difficulty screen screen.
+(33.) Where to edit "easy, normal, heroic, legendary" text on campaign select difficulty screen screen.
 Skn3 - campaign_select_difficulty.skn3 Text widgets
 Name select_difficulty
 Default
@@ -1263,7 +1263,7 @@ Layer 1
 0
 
 ##########################################################################################################################
-(33.) How to space out the words  "easy, normal, heroic, legendary" text on campaign select difficulty screen screen.
+(34.) How to space out the words  "easy, normal, heroic, legendary" text on campaign select difficulty screen screen.
 Skn3 - campaign_select_difficulty.skn3 List_Widget_Items
 4kmod
 0-3 (4)
@@ -1283,11 +1283,11 @@ Layer 0
 150
 
 ##########################################################################################################################
-(34.)Where to edit select difficulty screen background
+(35.)Where to edit select difficulty screen background
 Skn3 - campaign_select_difficulty.skn3 Bitmap widgets
 ?
 ##########################################################################################################################
-(35.) How to edit difficulty select background
+(36.) How to edit difficulty select background
 Scn3 - campaign_select_difficulty
 Bitmap widgets
 0 - 3 (4)
@@ -1362,7 +1362,7 @@ Layer 0
 -460
 391
 ##########################################################################################################################
-(36.) How to add map preview picture to the campaign lobby
+(37.) How to add map preview picture to the campaign lobby
 Open scn3 pregame_lobby_campaign.scn3 0x00000733
 Go to group widgets 2-3(4)
 Go to bitmap widgets 0-1(2)
@@ -1370,13 +1370,13 @@ Change the text from “map_image” to “unknown_film_image”
 Save
 
 ##########################################################################################################################
-(37.) How to add map preview picture to the campaign mission select
+(38.) How to add map preview picture to the campaign mission select
 Open campaign_select_level.scn3 0x00000731
 Go to bitmap widgets 1-6 (7)
 Change level_image to unknown_film_image
 Save
 ##########################################################################################################################
-(38.) How to edit campaign lobby mission select background
+(39.) How to edit campaign lobby mission select background
 Campaign_select_level.scn3
 
 Default
@@ -1514,10 +1514,10 @@ Solo_slots
 255
 673
 ##########################################################################################################################
-(39.) Where to edit campaign select level menu
+(40.) Where to edit campaign select level menu
 skn3 - ui\halox\campaign\campaign_select_difficulty
 ##########################################################################################################################
-(40.) How to move map names in mission select menu
+(41.) How to move map names in mission select menu
 Go to scn3- ui\halox\campaign\campaign_select_level
 Go to list widget items
 default 
@@ -1603,15 +1603,15 @@ WXO|-800
 WYO|200
 WXO|-800
 ##########################################################################################################################
-(41.)how to change the font & font color in mission select menu
+(42.)how to change the font & font color in mission select menu
 campaign_select_level.skn3
 text widgets
 ##########################################################################################################################
-(42.)Where to edit mission select text
+(43.)Where to edit mission select text
 Campaign_select_level.scn3
 Text widgets
 ##########################################################################################################################
-(43.) how to edit the "are you sure?" screen in campaign mission select
+(44.) how to edit the "are you sure?" screen in campaign mission select
 ui\halox\dialog\dialog_four.scn3
 ##########################################################################################################################
 Tutorial end
