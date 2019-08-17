@@ -144,7 +144,7 @@ SaveTagChanges
 exitto tags
 
 edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
-SetField groupwidgets[2].textwidgets[2].data.flags 9
+SetField groupwidgets[2].textwidgets[2].data.flags 65544
 SetField groupwidgets[2].textwidgets[2].data.name theater_no_film
 SetField groupwidgets[2].textwidgets[2].data.Layer 0
 SetField groupwidgets[2].textwidgets[2].data.WidescreenYOffset 900
@@ -184,10 +184,10 @@ SaveTagChanges
 exitto tags
 
 edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
-SetField groupwidgets[2].bitmapwidgets[0].data.flags 0
+SetField groupwidgets[2].bitmapwidgets[0].data.flags 1
 SetField groupwidgets[2].bitmapwidgets[0].data.name map_image
 SetField groupwidgets[2].bitmapwidgets[0].data.Layer -30
-SetField groupwidgets[2].bitmapwidgets[0].data.WidescreenYOffset 326
+SetField groupwidgets[2].bitmapwidgets[0].data.WidescreenYOffset 376
 SetField groupwidgets[2].bitmapwidgets[0].data.WidescreenXOffset 79
 SetField groupwidgets[2].bitmapwidgets[0].data.WidescreenYUnknown 880
 SetField groupwidgets[2].bitmapwidgets[0].data.WidescreenXUnknown 1714
