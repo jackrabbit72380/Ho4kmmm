@@ -1,5 +1,4 @@
 edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
-
 SetField groupwidgets[0].listwidgets[0].data.flags 1
 SetField groupwidgets[0].listwidgets[0].data.name lobby_list
 SetField groupwidgets[0].listwidgets[0].data.Layer 0
@@ -14,7 +13,6 @@ SetField groupwidgets[0].listwidgets[0].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
 Exit
-
 
 edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
 SetField groupwidgets[0].listwidgetitems[0].data.flags 0
@@ -78,7 +76,6 @@ SetField groupwidgets[0].listwidgetitems[3].data.StandardYUnknown 0
 SetField groupwidgets[0].listwidgetitems[3].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
-Exit
 
 edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
 SetField groupwidgets[1].data.flags 0
@@ -94,7 +91,6 @@ SetField groupwidgets[1].data.StandardYUnknown 0
 SetField groupwidgets[1].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
-Exit
 
 edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
 SetField groupwidgets[2].data.flags 0
@@ -110,7 +106,6 @@ SetField groupwidgets[2].data.StandardYUnknown 0
 SetField groupwidgets[2].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
-Exit
 
 edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
 //////////////////////////////////////////////////////////////////////////warning double check text fields -&-flags left alignment only 
@@ -132,7 +127,6 @@ SetField groupwidgets[2].textwidgets[0].textcolor ice
 SetField groupwidgets[2].textwidgets[0].textfont 4
 SaveTagChanges
 exitto tags
-Exit
 
 edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
 SetField groupwidgets[2].textwidgets[1].data.flags 9
@@ -153,7 +147,6 @@ SetField groupwidgets[2].textwidgets[1].textcolor ice
 SetField groupwidgets[2].textwidgets[1].textfont 4
 SaveTagChanges
 exitto tags
-Exit
 
 edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
 SetField groupwidgets[2].textwidgets[2].data.flags 9
@@ -174,7 +167,6 @@ SetField groupwidgets[2].textwidgets[2].textcolor ice
 SetField groupwidgets[2].textwidgets[2].textfont 4
 SaveTagChanges
 exitto tags
-Exit
 
 edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
 SetField groupwidgets[2].textwidgets[3].data.flags 9-----------------------left alignment only
@@ -195,7 +187,6 @@ SetField groupwidgets[2].textwidgets[3].textcolor ice
 SetField groupwidgets[2].textwidgets[3].textfont 4
 SaveTagChanges
 exitto tags
-Exit
 
 edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
 SetField groupwidgets[2].bitmapwidgets[0].data.flags 0
@@ -214,7 +205,6 @@ SetField groupwidgets[2].bitmapwidgets[0].Bitmap null
 SetField groupwidgets[2].bitmapwidgets[0].BlendMethod Alpha
 SaveTagChanges
 exitto tags
-Exit
 
 edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
 SetField groupwidgets[2].bitmapwidgets[1].data.flags 9
@@ -233,7 +223,6 @@ SetField groupwidgets[2].bitmapwidgets[1].Bitmap ui\halox\pregame_lobby\gametype
 SetField groupwidgets[2].bitmapwidgets[1].BlendMethod Alpha
 SaveTagChanges
 exitto tags
-Exit
 
 edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
 SetField groupwidgets[2].bitmapwidgets[2].data.flags 9
@@ -252,8 +241,6 @@ SetField groupwidgets[2].bitmapwidgets[2].Bitmap ui\halox\pregame_lobby\difficul
 SetField groupwidgets[2].bitmapwidgets[2].BlendMethod Alpha
 SaveTagChanges
 exitto tags
-Exit
-
 
 edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
 SetField groupwidgets[2].bitmapwidgets[3].data.flags 9
