@@ -29,13 +29,13 @@ edittag ui\halox\dialog\dialog_four.scn3
 AddBlockElements GroupWidgets[0].BitmapWidgets 1
 savetagchanges
 exitto tags
-exitto tags
+
 
 echo AddBlockElements
 edittag ui\halox\pregame_lobby\pregame_lobby_mapeditor.scn3
 AddBlockElements GroupWidgets[2].BitmapWidgets 1
 savetagchanges
-exit
+exitto tags
 
 echo AddBlockElements
 edittag ui\halox\pregame_lobby\pregame_lobby_multiplayer.scn3
