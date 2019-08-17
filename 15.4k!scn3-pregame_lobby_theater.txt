@@ -223,10 +223,10 @@ edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
 SetField groupwidgets[2].bitmapwidgets[2].data.flags 9
 SetField groupwidgets[2].bitmapwidgets[2].data.name difficulty_image
 SetField groupwidgets[2].bitmapwidgets[2].data.Layer 0
-SetField groupwidgets[2].bitmapwidgets[2].data.WidescreenYOffset 356
-SetField groupwidgets[2].bitmapwidgets[2].data.WidescreenXOffset 90
-SetField groupwidgets[2].bitmapwidgets[2].data.WidescreenYUnknown 486
-SetField groupwidgets[2].bitmapwidgets[2].data.WidescreenXUnknown 220
+SetField groupwidgets[2].bitmapwidgets[2].data.WidescreenYOffset 416
+SetField groupwidgets[2].bitmapwidgets[2].data.WidescreenXOffset 166
+SetField groupwidgets[2].bitmapwidgets[2].data.WidescreenYUnknown 716
+SetField groupwidgets[2].bitmapwidgets[2].data.WidescreenXUnknown 466
 SetField groupwidgets[2].bitmapwidgets[2].data.StandardYOffset 0
 SetField groupwidgets[2].bitmapwidgets[2].data.StandardXOffset 0
 SetField groupwidgets[2].bitmapwidgets[2].data.StandardYUnknown 0
