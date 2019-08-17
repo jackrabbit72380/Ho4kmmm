@@ -180,6 +180,14 @@ importbitmap 0 mods\maps\mainmenu\bitmaps\4k_lobby_titles\4k_end_game.dds
 savetagchanges
 exitto tags
 
+createtag bitm
+nametag * ui\halox\main_menu\4k_custom_games_lobby
+savetagnames
+edittag ui\halox\main_menu\4k_custom_games_lobby.bitmap
+importbitmap 0 mods\maps\mainmenu\bitmaps\4k_lobby_titles\4k_custom_games_lobby.dds
+savetagchanges
+exitto tags
+
 Echo ///install 4k_lobby_titles End///
 Echo ///refrence 4k_lobby_titles bitmaps///
 
