@@ -77,8 +77,8 @@ edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
 SetField groupwidgets[1].flags 0
 SetField groupwidgets[1].name roster
 SetField groupwidgets[1].Layer 0
-SetField groupwidgets[1].WidescreenYOffset 64
-SetField groupwidgets[1].WidescreenXOffset 843
+SetField groupwidgets[1].WidescreenYOffset -544
+SetField groupwidgets[1].WidescreenXOffset 1366
 SetField groupwidgets[1].WidescreenYUnknown 0
 SetField groupwidgets[1].WidescreenXUnknown 0
 SetField groupwidgets[1].StandardYOffset 45
