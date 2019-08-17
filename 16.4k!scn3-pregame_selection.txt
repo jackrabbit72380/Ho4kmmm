@@ -274,14 +274,14 @@ exitto tags
 
 edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
 SetField groupwidgets[0].textwidgets[0].data.name title
-SetField groupwidgets[0].textwidgets[0].data.WidescreenYBoundsMin -550
-SetField groupwidgets[0].textwidgets[0].data.WidescreenXBoundsMin -620
-SetField groupwidgets[0].textwidgets[0].data.WidescreenYBoundsMax 40
-SetField groupwidgets[0].textwidgets[0].data.WidescreenXBoundsMax 1080
-SetField groupwidgets[0].textwidgets[0].data.StanderdYBoundsMin 0
-SetField groupwidgets[0].textwidgets[0].data.StanderdXBoundsMin 0
-SetField groupwidgets[0].textwidgets[0].data.StanderdYBoundsMax 0
-SetField groupwidgets[0].textwidgets[0].data.StanderdXBoundsMax 0
+SetField groupwidgets[0].textwidgets[0].data.WidescreenYOffset -550
+SetField groupwidgets[0].textwidgets[0].data.WidescreenXOffset -620
+SetField groupwidgets[0].textwidgets[0].data.WidescreenYUnknown 40
+SetField groupwidgets[0].textwidgets[0].data.WidescreenXUnknown 1080
+SetField groupwidgets[0].textwidgets[0].data.StandardYOffset 0
+SetField groupwidgets[0].textwidgets[0].data.StandardXOffset 0
+SetField groupwidgets[0].textwidgets[0].data.StandardYUnknown 0
+SetField groupwidgets[0].textwidgets[0].data.StandardXUnknown 0
 SetField groupwidgets[0].textwidgets[0].datasourcename null
 SetField groupwidgets[0].textwidgets[0].textstring null
 SetField groupwidgets[0].textwidgets[0].textcolor clear
@@ -291,14 +291,14 @@ exitto tags
 
 edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
 SetField groupwidgets[0].textwidgets[1].data.name list_empty
-SetField groupwidgets[0].textwidgets[1].data.WidescreenYBoundsMin 60
-SetField groupwidgets[0].textwidgets[1].data.WidescreenXBoundsMin 472
-SetField groupwidgets[0].textwidgets[1].data.WidescreenYBoundsMax 224
-SetField groupwidgets[0].textwidgets[1].data.WidescreenXBoundsMax 723
-SetField groupwidgets[0].textwidgets[1].data.StanderdYBoundsMin 0
-SetField groupwidgets[0].textwidgets[1].data.StanderdXBoundsMin 0
-SetField groupwidgets[0].textwidgets[1].data.StanderdYBoundsMax 0
-SetField groupwidgets[0].textwidgets[1].data.StanderdXBoundsMax 0
+SetField groupwidgets[0].textwidgets[1].data.WidescreenYOffset 60
+SetField groupwidgets[0].textwidgets[1].data.WidescreenXOffset 472
+SetField groupwidgets[0].textwidgets[1].data.WidescreenYUnknown 224
+SetField groupwidgets[0].textwidgets[1].data.WidescreenXUnknown 723
+SetField groupwidgets[0].textwidgets[1].data.StandardYOffset 0
+SetField groupwidgets[0].textwidgets[1].data.StandardXOffset 0
+SetField groupwidgets[0].textwidgets[1].data.StandardYUnknown 0
+SetField groupwidgets[0].textwidgets[1].data.StandardXUnknown 0
 SetField groupwidgets[0].textwidgets[1].datasourcename null
 SetField groupwidgets[0].textwidgets[1].textstring null
 SetField groupwidgets[0].textwidgets[1].textcolor hilite
