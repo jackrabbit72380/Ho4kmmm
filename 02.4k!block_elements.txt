@@ -36,3 +36,9 @@ edittag ui\halox\pregame_lobby\pregame_lobby_mapeditor.scn3
 AddBlockElements GroupWidgets[2].BitmapWidgets 1
 savetagchanges
 exit
+
+echo AddBlockElements
+edittag ui\halox\pregame_lobby\pregame_lobby_multiplayer.scn3
+AddBlockElements GroupWidgets[2].BitmapWidgets 1
+savetagchanges
+exit
