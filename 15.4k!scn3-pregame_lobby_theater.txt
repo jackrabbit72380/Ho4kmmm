@@ -127,10 +127,10 @@ SetField groupwidgets[2].textwidgets[0].data.StandardXOffset 0
 SetField groupwidgets[2].textwidgets[0].data.StandardYUnknown 0
 SetField groupwidgets[2].textwidgets[0].data.StandardXUnknown 0
 SetField groupwidgets[2].textwidgets[0].data.Animation ui\halox\pregame_lobby\button_key.wacd
-SetField groupwidgets[2].textwidgets[0].data source name null
-SetField groupwidgets[2].textwidgets[0].text string theater_game_name
-SetField groupwidgets[2].textwidgets[0].text color ice
-SetField groupwidgets[2].textwidgets[0].text font 4
+SetField groupwidgets[2].textwidgets[0].datasourcename null
+SetField groupwidgets[2].textwidgets[0].textstring theater_game_name
+SetField groupwidgets[2].textwidgets[0].textcolor ice
+SetField groupwidgets[2].textwidgets[0].textfont 4
 SaveTagChanges
 exitto tags
 Exit
@@ -148,10 +148,10 @@ SetField groupwidgets[2].textwidgets[1].data.StandardXOffset 0
 SetField groupwidgets[2].textwidgets[1].data.StandardYUnknown 0
 SetField groupwidgets[2].textwidgets[1].data.StandardXUnknown 0
 SetField groupwidgets[2].textwidgets[1].data.Animation ui\halox\global_animation_collections\lobby_slide_with_alt_flash.wacd
-SetField groupwidgets[2].textwidgets[1].data source name null
-SetField groupwidgets[2].textwidgets[1].text string null
-SetField groupwidgets[2].textwidgets[1].text color ice
-SetField groupwidgets[2].textwidgets[1].text font 4
+SetField groupwidgets[2].textwidgets[1].datasourcename null
+SetField groupwidgets[2].textwidgets[1].textstring null
+SetField groupwidgets[2].textwidgets[1].textcolor ice
+SetField groupwidgets[2].textwidgets[1].textfont 4
 SaveTagChanges
 exitto tags
 Exit
@@ -169,10 +169,10 @@ SetField groupwidgets[2].textwidgets[2].data.StandardXOffset 0
 SetField groupwidgets[2].textwidgets[2].data.StandardYUnknown 0
 SetField groupwidgets[2].textwidgets[2].data.StandardXUnknown 0
 SetField groupwidgets[2].textwidgets[2].data.Animation ui\halox\pregame_lobby\button_key.wacd
-SetField groupwidgets[2].textwidgets[2].data source name null
-SetField groupwidgets[2].textwidgets[2].text string theater_no_film_description
-SetField groupwidgets[2].textwidgets[2].text color ice
-SetField groupwidgets[2].textwidgets[2].text font 4
+SetField groupwidgets[2].textwidgets[2].datasourcename null
+SetField groupwidgets[2].textwidgets[2].textstring theater_no_film_description
+SetField groupwidgets[2].textwidgets[2].textcolor ice
+SetField groupwidgets[2].textwidgets[2].textfont 4
 SaveTagChanges
 exitto tags
 Exit
@@ -190,10 +190,10 @@ SetField groupwidgets[2].textwidgets[3].data.StandardXOffset 0
 SetField groupwidgets[2].textwidgets[3].data.StandardYUnknown 0
 SetField groupwidgets[2].textwidgets[3].data.StandardXUnknown 0
 SetField groupwidgets[2].textwidgets[3].data.Animation ui\halox\pregame_lobby\button_key.wacd
-SetField groupwidgets[2].textwidgets[3].data source name null
-SetField groupwidgets[2].textwidgets[3].text string theater_ivalid_film_description
-SetField groupwidgets[2].textwidgets[3].text color ice
-SetField groupwidgets[2].textwidgets[3].text font 4
+SetField groupwidgets[2].textwidgets[3].datasourcename null
+SetField groupwidgets[2].textwidgets[3].textstring theater_ivalid_film_description
+SetField groupwidgets[2].textwidgets[3].textcolor ice
+SetField groupwidgets[2].textwidgets[3].textfont 4
 SaveTagChanges
 exitto tags
 Exit
