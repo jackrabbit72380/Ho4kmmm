@@ -1,5 +1,5 @@
 edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
-SetField groupwidgets[0].listwidgets[0].data.flags 1
+SetField groupwidgets[0].listwidgets[0].data.flags 33
 SetField groupwidgets[0].listwidgets[0].data.name lobby_list
 SetField groupwidgets[0].listwidgets[0].data.Layer 0
 SetField groupwidgets[0].listwidgets[0].data.WidescreenYOffset 85
