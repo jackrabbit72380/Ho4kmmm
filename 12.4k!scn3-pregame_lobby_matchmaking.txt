@@ -82,8 +82,8 @@ EditTag ui\halox\pregame_lobby\pregame_lobby_matchmaking.scn3
 SetField groupwidgets[1].data.flags 0
 SetField groupwidgets[1].data.name roster
 SetField groupwidgets[1].data.Layer 0
-SetField groupwidgets[1].data.WidescreenYOffset 64
-SetField groupwidgets[1].data.WidescreenXOffset 843
+SetField groupwidgets[1].data.WidescreenYOffset -544
+SetField groupwidgets[1].data.WidescreenXOffset 1366
 SetField groupwidgets[1].data.WidescreenYUnknown 0
 SetField groupwidgets[1].data.WidescreenXUnknown 0
 SetField groupwidgets[1].data.StandardYOffset 45
