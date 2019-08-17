@@ -12,7 +12,6 @@ SetField groupwidgets[0].listwidgets[0].data.StandardYUnknown 0
 SetField groupwidgets[0].listwidgets[0].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
-Exit
 
 edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.flags 0
@@ -28,7 +27,6 @@ SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.StandardYUnknown
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
-Exit
 
 edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[1].data.flags 0
@@ -44,7 +42,6 @@ SetField groupwidgets[0].listwidgets[0].listwidgetitems[1].data.StandardYUnknown
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[1].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
-Exit
 
 edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.flags 0
@@ -60,7 +57,6 @@ SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.StandardYUnknown
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
-Exit
 
 edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.flags 0
