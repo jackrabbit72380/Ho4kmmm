@@ -124,7 +124,7 @@ SaveTagChanges
 exitto tags
 
 edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
-SetField groupwidgets[2].textwidgets[1].data.flags 9
+SetField groupwidgets[2].textwidgets[1].data.flags 73737
 SetField groupwidgets[2].textwidgets[1].data.name lobby_status
 SetField groupwidgets[2].textwidgets[1].data.Layer 0
 SetField groupwidgets[2].textwidgets[1].data.WidescreenYOffset 166
