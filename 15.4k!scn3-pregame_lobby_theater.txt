@@ -241,9 +241,9 @@ edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
 SetField groupwidgets[2].bitmapwidgets[3].data.flags 9
 SetField groupwidgets[2].bitmapwidgets[3].data.name unknown_film_image
 SetField groupwidgets[2].bitmapwidgets[3].data.Layer -30
-SetField groupwidgets[2].bitmapwidgets[3].data.WidescreenYOffset 376
+SetField groupwidgets[2].bitmapwidgets[3].data.WidescreenYOffset 326
 SetField groupwidgets[2].bitmapwidgets[3].data.WidescreenXOffset 79
-SetField groupwidgets[2].bitmapwidgets[3].data.WidescreenYUnknown 880
+SetField groupwidgets[2].bitmapwidgets[3].data.WidescreenYUnknown 830
 SetField groupwidgets[2].bitmapwidgets[3].data.WidescreenXUnknown 1714
 SetField groupwidgets[2].bitmapwidgets[3].data.StandardYOffset 254
 SetField groupwidgets[2].bitmapwidgets[3].data.StandardXOffset 55
