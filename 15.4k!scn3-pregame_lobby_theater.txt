@@ -15,17 +15,17 @@ exitto tags
 Exit
 
 edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
-SetField groupwidgets[0].listwidgetitems[0].data.flags 0
-SetField groupwidgets[0].listwidgetitems[0].data.name switch_lobby
-SetField groupwidgets[0].listwidgetitems[0].data.Layer 0
-SetField groupwidgets[0].listwidgetitems[0].data.WidescreenYOffset -490
-SetField groupwidgets[0].listwidgetitems[0].data.WidescreenXOffset 0
-SetField groupwidgets[0].listwidgetitems[0].data.WidescreenYUnknown 0
-SetField groupwidgets[0].listwidgetitems[0].data.WidescreenXUnknown 0
-SetField groupwidgets[0].listwidgetitems[0].data.StandardYOffset 0
-SetField groupwidgets[0].listwidgetitems[0].data.StandardXOffset 0
-SetField groupwidgets[0].listwidgetitems[0].data.StandardYUnknown 0
-SetField groupwidgets[0].listwidgetitems[0].data.StandardXUnknown 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.flags 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.name switch_lobby
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.Layer 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.WidescreenYOffset -490
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.WidescreenXOffset 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.WidescreenYUnknown 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.WidescreenXUnknown 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.StandardYOffset 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.StandardXOffset 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.StandardYUnknown 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
 Exit
