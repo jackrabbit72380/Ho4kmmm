@@ -302,7 +302,7 @@ SetField groupwidgets[0].textwidgets[1].data.StanderdXBoundsMax 0
 SetField groupwidgets[0].textwidgets[1].datasourcename null
 SetField groupwidgets[0].textwidgets[1].textstring null
 SetField groupwidgets[0].textwidgets[1].textcolor hilite
-SetField groupwidgets[0].textwidgets[1].textfont 4
+SetField groupwidgets[0].textwidgets[1].textfont 1
 SaveTagChanges
 exitto tags
 
@@ -373,7 +373,7 @@ SetField groupwidgets[2].textwidgets[0].data.StandardXUnknown 0
 SetField groupwidgets[2].textwidgets[0].datasourcename null
 SetField groupwidgets[2].textwidgets[0].textstring null
 SetField groupwidgets[2].textwidgets[0].textcolor ice
-SetField groupwidgets[2].textwidgets[0].textfont 4
+SetField groupwidgets[2].textwidgets[0].textfont 1
 SaveTagChanges
 exitto tags
 
@@ -439,7 +439,7 @@ SetField groupwidgets[4].textwidgets[2].data.StandardXUnknown 0
 SetField groupwidgets[4].textwidgets[2].datasourcename subitem
 SetField groupwidgets[4].textwidgets[2].textstring metadata_line_1_label
 SetField groupwidgets[4].textwidgets[2].textcolor ice
-SetField groupwidgets[4].textwidgets[2].textfont 4
+SetField groupwidgets[4].textwidgets[2].textfont 1
 SaveTagChanges
 exitto tags
 
@@ -456,7 +456,7 @@ SetField groupwidgets[4].textwidgets[3].data.StandardXUnknown 0
 SetField groupwidgets[4].textwidgets[3].datasourcename subitem
 SetField groupwidgets[4].textwidgets[3].textstring metadata_line_1
 SetField groupwidgets[4].textwidgets[3].textcolor null
-SetField groupwidgets[4].textwidgets[3].textfont 4
+SetField groupwidgets[4].textwidgets[3].textfont 1
 SaveTagChanges
 exitto tags
 
@@ -473,7 +473,7 @@ SetField groupwidgets[4].textwidgets[4].data.StandardXUnknown 0
 SetField groupwidgets[4].textwidgets[4].datasourcename subitem
 SetField groupwidgets[4].textwidgets[4].textstring metadata_line_2_label
 SetField groupwidgets[4].textwidgets[4].textcolor ice
-SetField groupwidgets[4].textwidgets[4].textfont 4
+SetField groupwidgets[4].textwidgets[4].textfont 1
 SaveTagChanges
 exitto tags
 
@@ -490,7 +490,7 @@ SetField groupwidgets[4].textwidgets[5].data.StandardXUnknown 0
 SetField groupwidgets[4].textwidgets[5].datasourcename subitem
 SetField groupwidgets[4].textwidgets[5].textstring metadata_line_2
 SetField groupwidgets[4].textwidgets[5].textcolor null
-SetField groupwidgets[4].textwidgets[5].textfont 4
+SetField groupwidgets[4].textwidgets[5].textfont 1
 SaveTagChanges
 exitto tags
 
@@ -507,7 +507,7 @@ SetField groupwidgets[4].textwidgets[6].data.StandardXUnknown 0
 SetField groupwidgets[4].textwidgets[6].datasourcename subitem
 SetField groupwidgets[4].textwidgets[6].textstring metadata_line_3_label
 SetField groupwidgets[4].textwidgets[6].textcolor ice
-SetField groupwidgets[4].textwidgets[6].textfont 4
+SetField groupwidgets[4].textwidgets[6].textfont 1
 SaveTagChanges
 exitto tags
 
@@ -524,7 +524,7 @@ SetField groupwidgets[4].textwidgets[7].data.StandardXUnknown 0
 SetField groupwidgets[4].textwidgets[7].datasourcename subitem
 SetField groupwidgets[4].textwidgets[7].textstring metadata_line_3
 SetField groupwidgets[4].textwidgets[7].textcolor null
-SetField groupwidgets[4].textwidgets[7].textfont 4
+SetField groupwidgets[4].textwidgets[7].textfont 1
 SaveTagChanges
 exitto tags
 
@@ -541,7 +541,7 @@ SetField groupwidgets[4].textwidgets[8].data.StandardXUnknown 0
 SetField groupwidgets[4].textwidgets[8].datasourcename subitem
 SetField groupwidgets[4].textwidgets[8].textstring metadata_line_4_label
 SetField groupwidgets[4].textwidgets[8].textcolor ice
-SetField groupwidgets[4].textwidgets[8].textfont 4
+SetField groupwidgets[4].textwidgets[8].textfont 1
 SaveTagChanges
 exitto tags
 
@@ -558,7 +558,7 @@ SetField groupwidgets[4].textwidgets[9].data.StandardXUnknown 0
 SetField groupwidgets[4].textwidgets[9].datasourcename subitem
 SetField groupwidgets[4].textwidgets[9].textstring metadata_line_4
 SetField groupwidgets[4].textwidgets[9].textcolor null
-SetField groupwidgets[4].textwidgets[9].textfont 4
+SetField groupwidgets[4].textwidgets[9].textfont 1
 SaveTagChanges
 exitto tags
 
@@ -768,7 +768,7 @@ SetField groupwidgets[8].textwidgets[1].data.StandardXUnknown 0
 SetField groupwidgets[8].textwidgets[1].datasourcename subitem
 SetField groupwidgets[8].textwidgets[1].textstring meta_line_2_label
 SetField groupwidgets[8].textwidgets[1].textcolor ice
-SetField groupwidgets[8].textwidgets[1].textfont 4
+SetField groupwidgets[8].textwidgets[1].textfont 1
 SaveTagChanges
 exitto tags
 
@@ -785,7 +785,7 @@ SetField groupwidgets[8].textwidgets[2].data.StandardXUnknown 0
 SetField groupwidgets[8].textwidgets[2].datasourcename subitem
 SetField groupwidgets[8].textwidgets[2].textstring meta_line_1
 SetField groupwidgets[8].textwidgets[2].textcolor null
-SetField groupwidgets[8].textwidgets[2].textfont 4
+SetField groupwidgets[8].textwidgets[2].textfont 1
 SaveTagChanges
 exitto tags
 
@@ -802,7 +802,7 @@ SetField groupwidgets[8].textwidgets[3].data.StandardXUnknown 0
 SetField groupwidgets[8].textwidgets[3].datasourcename subitem
 SetField groupwidgets[8].textwidgets[3].textstring meta_line_2_label
 SetField groupwidgets[8].textwidgets[3].textcolor ice
-SetField groupwidgets[8].textwidgets[3].textfont 4
+SetField groupwidgets[8].textwidgets[3].textfont 1
 SaveTagChanges
 exitto tags
 
@@ -819,7 +819,7 @@ SetField groupwidgets[8].textwidgets[4].data.StandardXUnknown 0
 SetField groupwidgets[8].textwidgets[4].datasourcename subitem
 SetField groupwidgets[8].textwidgets[4].textstring meta_line_2
 SetField groupwidgets[8].textwidgets[4].textcolor ice
-SetField groupwidgets[8].textwidgets[4].textfont 4
+SetField groupwidgets[8].textwidgets[4].textfont 1
 SaveTagChanges
 exitto tags
 
@@ -836,7 +836,7 @@ SetField groupwidgets[8].textwidgets[5].data.StandardXUnknown 0
 SetField groupwidgets[8].textwidgets[5].datasourcename subitem
 SetField groupwidgets[8].textwidgets[5].textstring meta_line_3_label
 SetField groupwidgets[8].textwidgets[5].textcolor ice
-SetField groupwidgets[8].textwidgets[5].textfont 4
+SetField groupwidgets[8].textwidgets[5].textfont 1
 SaveTagChanges
 exitto tags
 
@@ -853,7 +853,7 @@ SetField groupwidgets[8].textwidgets[6].data.StandardXUnknown 0
 SetField groupwidgets[8].textwidgets[6].datasourcename subitem
 SetField groupwidgets[8].textwidgets[6].textstring meta_line_3
 SetField groupwidgets[8].textwidgets[6].textcolor ice
-SetField groupwidgets[8].textwidgets[6].textfont 4
+SetField groupwidgets[8].textwidgets[6].textfont 1
 SaveTagChanges
 exitto tags
 
@@ -986,7 +986,7 @@ SetField groupwidgets[10].textwidgets[1].data.StandardXUnknown 0
 SetField groupwidgets[10].textwidgets[1].datasourcename subitem
 SetField groupwidgets[10].textwidgets[1].textstring metadata_line_1_label
 SetField groupwidgets[10].textwidgets[1].textcolor ice
-SetField groupwidgets[10].textwidgets[1].textfont 4
+SetField groupwidgets[10].textwidgets[1].textfont 1
 SaveTagChanges
 exitto tags
 
@@ -1003,7 +1003,7 @@ SetField groupwidgets[10].textwidgets[2].data.StandardXUnknown 0
 SetField groupwidgets[10].textwidgets[2].datasourcename subitem
 SetField groupwidgets[10].textwidgets[2].textstring metadata_line_1
 SetField groupwidgets[10].textwidgets[2].textcolor null
-SetField groupwidgets[10].textwidgets[2].textfont 4
+SetField groupwidgets[10].textwidgets[2].textfont 1
 SaveTagChanges
 exitto tags
 
@@ -1020,7 +1020,7 @@ SetField groupwidgets[10].textwidgets[3].data.StandardXUnknown 0
 SetField groupwidgets[10].textwidgets[3].datasourcename subitem
 SetField groupwidgets[10].textwidgets[3].textstring metadata_line_2_label
 SetField groupwidgets[10].textwidgets[3].textcolor ice
-SetField groupwidgets[10].textwidgets[3].textfont 4
+SetField groupwidgets[10].textwidgets[3].textfont 1
 SaveTagChanges
 exitto tags
 
@@ -1037,7 +1037,7 @@ SetField groupwidgets[10].textwidgets[4].data.StandardXUnknown 0
 SetField groupwidgets[10].textwidgets[4].datasourcename subitem
 SetField groupwidgets[10].textwidgets[4].textstring metadata_line_2
 SetField groupwidgets[10].textwidgets[4].textcolor null
-SetField groupwidgets[10].textwidgets[4].textfont 4
+SetField groupwidgets[10].textwidgets[4].textfont 1
 SaveTagChanges
 exitto tags
 
@@ -1054,7 +1054,7 @@ SetField groupwidgets[10].textwidgets[5].data.StandardXUnknown 0
 SetField groupwidgets[10].textwidgets[5].datasourcename subitem
 SetField groupwidgets[10].textwidgets[5].textstring metadata_line_3_label
 SetField groupwidgets[10].textwidgets[5].textcolor ice
-SetField groupwidgets[10].textwidgets[5].textfont 4
+SetField groupwidgets[10].textwidgets[5].textfont 1
 SaveTagChanges
 exitto tags
 
@@ -1071,7 +1071,7 @@ SetField groupwidgets[10].textwidgets[6].data.StandardXUnknown 0
 SetField groupwidgets[10].textwidgets[6].datasourcename subitem
 SetField groupwidgets[10].textwidgets[6].textstring metadata_line_3
 SetField groupwidgets[10].textwidgets[6].textcolor ice
-SetField groupwidgets[10].textwidgets[6].textfont 4
+SetField groupwidgets[10].textwidgets[6].textfont 1
 SaveTagChanges
 exitto tags
 
