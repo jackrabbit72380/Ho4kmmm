@@ -232,6 +232,8 @@ SetField groupwidgets[0].bitmapwidgets[4].BlendMethod Alpha
 SaveTagChanges
 exitto tags
 
+Echo refrence forge_lobby title bitmap
+
 edittag ui\halox\pregame_lobby\pregame_lobby_mapeditor.scn3
 SetField groupwidgets[2].bitmapwidgets[2].data.flags 9
 SetField groupwidgets[2].bitmapwidgets[2].data.name title
