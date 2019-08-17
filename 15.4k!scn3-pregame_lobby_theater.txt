@@ -135,7 +135,7 @@ SetField groupwidgets[2].textwidgets[1].data.StandardYOffset 0
 SetField groupwidgets[2].textwidgets[1].data.StandardXOffset 0
 SetField groupwidgets[2].textwidgets[1].data.StandardYUnknown 0
 SetField groupwidgets[2].textwidgets[1].data.StandardXUnknown 0
-SetField groupwidgets[2].textwidgets[1].data.Animation ui\halox\global_animation_collections\lobby_slide_with_alt_flash.wacd
+SetField groupwidgets[2].textwidgets[1].data.Animation ui\halox\global_animations\animation_collections\lobby_slide_with_alt_flash.wacd
 SetField groupwidgets[2].textwidgets[1].datasourcename null
 SetField groupwidgets[2].textwidgets[1].textstring null
 SetField groupwidgets[2].textwidgets[1].textcolor ice
