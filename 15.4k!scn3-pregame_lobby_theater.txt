@@ -107,9 +107,8 @@ SetField groupwidgets[2].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
 
-edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
-//////////////////////////////////////////////////////////////////////////warning double check text fields -&-flags left alignment only 
-SetField groupwidgets[2].textwidgets[0].data.flags 9
+edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3 
+SetField groupwidgets[2].textwidgets[0].data.flags 65544
 SetField groupwidgets[2].textwidgets[0].data.name film_name_verifying
 SetField groupwidgets[2].textwidgets[0].data.Layer 0
 SetField groupwidgets[2].textwidgets[0].data.WidescreenYOffset 500
@@ -169,7 +168,7 @@ SaveTagChanges
 exitto tags
 
 edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
-SetField groupwidgets[2].textwidgets[3].data.flags 9-----------------------left alignment only
+SetField groupwidgets[2].textwidgets[3].data.flags 73736
 SetField groupwidgets[2].textwidgets[3].data.name theater_ivalid_film
 SetField groupwidgets[2].textwidgets[3].data.Layer 0
 SetField groupwidgets[2].textwidgets[3].data.WidescreenYOffset 500
