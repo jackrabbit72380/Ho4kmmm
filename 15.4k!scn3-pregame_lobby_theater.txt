@@ -14,7 +14,7 @@ SaveTagChanges
 exitto tags
 
 edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
-SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.flags 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.flags 1
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.name switch_lobby
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.Layer 0
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.WidescreenYOffset -490
@@ -29,7 +29,7 @@ SaveTagChanges
 exitto tags
 
 edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
-SetField groupwidgets[0].listwidgets[0].listwidgetitems[1].data.flags 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[1].data.flags 1
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[1].data.name host_custom_game
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[1].data.Layer 0
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[1].data.WidescreenYOffset -431
@@ -44,7 +44,7 @@ SaveTagChanges
 exitto tags
 
 edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
-SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.flags 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.flags 1
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.name film
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.Layer 0
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.WidescreenYOffset -173
@@ -59,7 +59,7 @@ SaveTagChanges
 exitto tags
 
 edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
-SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.flags 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.flags 1
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.name start_theater
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.Layer 0
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.WidescreenYOffset -80
