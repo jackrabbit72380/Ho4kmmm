@@ -89,17 +89,17 @@ SaveTagChanges
 exitto tags
 
 edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
-SetField groupwidgets[2].data.flags 0
-SetField groupwidgets[2].data.name null
-SetField groupwidgets[2].data.Layer 0
-SetField groupwidgets[2].data.WidescreenYOffset -40
-SetField groupwidgets[2].data.WidescreenXOffset -1265
-SetField groupwidgets[2].data.WidescreenYUnknown 0
-SetField groupwidgets[2].data.WidescreenXUnknown -100
-SetField groupwidgets[2].data.StandardYOffset 0
-SetField groupwidgets[2].data.StandardXOffset 0
-SetField groupwidgets[2].data.StandardYUnknown 0
-SetField groupwidgets[2].data.StandardXUnknown 0
+SetField groupwidgets[2].flags 0
+SetField groupwidgets[2].name null
+SetField groupwidgets[2].Layer 0
+SetField groupwidgets[2].WidescreenYOffset -40
+SetField groupwidgets[2].WidescreenXOffset -1265
+SetField groupwidgets[2].WidescreenYUnknown 0
+SetField groupwidgets[2].WidescreenXUnknown -100
+SetField groupwidgets[2].StandardYOffset 0
+SetField groupwidgets[2].StandardXOffset 0
+SetField groupwidgets[2].StandardYUnknown 0
+SetField groupwidgets[2].StandardXUnknown 0
 SaveTagChanges
 exitto tags
 
