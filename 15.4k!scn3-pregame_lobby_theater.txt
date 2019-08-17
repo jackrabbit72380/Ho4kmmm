@@ -1,5 +1,4 @@
-edittag ui\halox\pregame_lobby\pregame_lobby_theater
-
+edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
 
 SetField groupwidgets[0].listwidgets[0].data.flags 1
 SetField groupwidgets[0].listwidgets[0].data.name lobby_list
@@ -17,7 +16,7 @@ exitto tags
 Exit
 
 
-edittag ui\halox\pregame_lobby\pregame_lobby_theater
+edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
 SetField groupwidgets[0].listwidgetitems[0].data.flags 0
 SetField groupwidgets[0].listwidgetitems[0].data.name switch_lobby
 SetField groupwidgets[0].listwidgetitems[0].data.Layer 0
@@ -33,7 +32,7 @@ SaveTagChanges
 exitto tags
 Exit
 
-edittag ui\halox\pregame_lobby\pregame_lobby_theater
+edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
 SetField groupwidgets[0].listwidgetitems[1].data.flags 0
 SetField groupwidgets[0].listwidgetitems[1].data.name host_custom_game
 SetField groupwidgets[0].listwidgetitems[1].data.Layer 0
@@ -49,7 +48,7 @@ SaveTagChanges
 exitto tags
 Exit
 
-edittag ui\halox\pregame_lobby\pregame_lobby_theater
+edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
 SetField groupwidgets[0].listwidgetitems[2].data.flags 0
 SetField groupwidgets[0].listwidgetitems[2].data.name film
 SetField groupwidgets[0].listwidgetitems[2].data.Layer 0
@@ -65,7 +64,7 @@ SaveTagChanges
 exitto tags
 Exit
 
-edittag ui\halox\pregame_lobby\pregame_lobby_theater
+edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
 SetField groupwidgets[0].listwidgetitems[3].data.flags 0
 SetField groupwidgets[0].listwidgetitems[3].data.name start_theater
 SetField groupwidgets[0].listwidgetitems[3].data.Layer 0
@@ -81,7 +80,7 @@ SaveTagChanges
 exitto tags
 Exit
 
-edittag ui\halox\pregame_lobby\pregame_lobby_theater
+edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
 SetField groupwidgets[1].data.flags 0
 SetField groupwidgets[1].data.name roster
 SetField groupwidgets[1].data.Layer 0
@@ -97,7 +96,7 @@ SaveTagChanges
 exitto tags
 Exit
 
-edittag ui\halox\pregame_lobby\pregame_lobby_theater
+edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
 SetField groupwidgets[2].data.flags 0
 SetField groupwidgets[2].data.name null
 SetField groupwidgets[2].data.Layer 0
@@ -113,7 +112,7 @@ SaveTagChanges
 exitto tags
 Exit
 
-edittag ui\halox\pregame_lobby\pregame_lobby_theater
+edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
 //////////////////////////////////////////////////////////////////////////warning double check text fields -&-flags left alignment only 
 SetField groupwidgets[2].textwidgets[0].data.flags 9
 SetField groupwidgets[2].textwidgets[0].data.name film_name_verifying
@@ -135,7 +134,7 @@ SaveTagChanges
 exitto tags
 Exit
 
-edittag ui\halox\pregame_lobby\pregame_lobby_theater
+edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
 SetField groupwidgets[2].textwidgets[1].data.flags 9
 SetField groupwidgets[2].textwidgets[1].data.name lobby_status
 SetField groupwidgets[2].textwidgets[1].data.Layer 0
@@ -156,7 +155,7 @@ SaveTagChanges
 exitto tags
 Exit
 
-edittag ui\halox\pregame_lobby\pregame_lobby_theater
+edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
 SetField groupwidgets[2].textwidgets[2].data.flags 9
 SetField groupwidgets[2].textwidgets[2].data.name theater_no_film
 SetField groupwidgets[2].textwidgets[2].data.Layer 0
@@ -177,7 +176,7 @@ SaveTagChanges
 exitto tags
 Exit
 
-edittag ui\halox\pregame_lobby\pregame_lobby_theater
+edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
 SetField groupwidgets[2].textwidgets[3].data.flags 9-----------------------left alignment only
 SetField groupwidgets[2].textwidgets[3].data.name theater_ivalid_film
 SetField groupwidgets[2].textwidgets[3].data.Layer 0
@@ -198,7 +197,7 @@ SaveTagChanges
 exitto tags
 Exit
 
-edittag ui\halox\pregame_lobby\pregame_lobby_theater
+edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
 SetField groupwidgets[2].bitmapwidgets[0].data.flags 0
 SetField groupwidgets[2].bitmapwidgets[0].data.name map_image
 SetField groupwidgets[2].bitmapwidgets[0].data.Layer -30
@@ -217,7 +216,7 @@ SaveTagChanges
 exitto tags
 Exit
 
-edittag ui\halox\pregame_lobby\pregame_lobby_theater
+edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
 SetField groupwidgets[2].bitmapwidgets[1].data.flags 9
 SetField groupwidgets[2].bitmapwidgets[1].data.name gametype_image
 SetField groupwidgets[2].bitmapwidgets[1].data.Layer 0
@@ -236,7 +235,7 @@ SaveTagChanges
 exitto tags
 Exit
 
-edittag ui\halox\pregame_lobby\pregame_lobby_theater
+edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
 SetField groupwidgets[2].bitmapwidgets[2].data.flags 9
 SetField groupwidgets[2].bitmapwidgets[2].data.name difficlty_image
 SetField groupwidgets[2].bitmapwidgets[2].data.Layer 0
@@ -256,7 +255,7 @@ exitto tags
 Exit
 
 
-edittag ui\halox\pregame_lobby\pregame_lobby_theater
+edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
 SetField groupwidgets[2].bitmapwidgets[3].data.flags 9
 SetField groupwidgets[2].bitmapwidgets[3].data.name unknown_film_image
 SetField groupwidgets[2].bitmapwidgets[3].data.Layer -30
