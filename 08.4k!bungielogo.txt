@@ -16,9 +16,9 @@ EditTag ui\halox\main_menu\main_menu.scn3
 SetField groupwidgets[1].bitmapwidgets[1].data.flags 9
 SetField groupwidgets[1].bitmapwidgets[1].data.name 4k_bungielogo
 SetField groupwidgets[1].bitmapwidgets[1].data.Layer 0
-SetField groupwidgets[1].bitmapwidgets[1].data.WidescreenYOffset 1180
-SetField groupwidgets[1].bitmapwidgets[1].data.WidescreenXOffset 1810
-SetField groupwidgets[1].bitmapwidgets[1].data.WidescreenYUnknown 1370
+SetField groupwidgets[1].bitmapwidgets[1].data.WidescreenYOffset 1050
+SetField groupwidgets[1].bitmapwidgets[1].data.WidescreenXOffset 1780
+SetField groupwidgets[1].bitmapwidgets[1].data.WidescreenYUnknown 1290
 SetField groupwidgets[1].bitmapwidgets[1].data.WidescreenXUnknown 2300
 SetField groupwidgets[1].bitmapwidgets[1].data.StandardYOffset 0
 SetField groupwidgets[1].bitmapwidgets[1].data.StandardXOffset 0
