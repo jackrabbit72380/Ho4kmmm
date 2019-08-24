@@ -12,7 +12,6 @@ SetField groupwidgets[0].listwidgets[0].data.StandardYUnknown 0
 SetField groupwidgets[0].listwidgets[0].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
-Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_matchmaking.scn3
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.flags 0
@@ -28,7 +27,6 @@ SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.StandardYUnknown
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
-Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_matchmaking.scn3
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[1].data.flags 0
@@ -44,7 +42,6 @@ SetField groupwidgets[0].listwidgets[0].listwidgetitems[1].data.StandardYUnknown
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[1].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
-Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_matchmaking.scn3
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.flags 0
@@ -60,7 +57,6 @@ SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.StandardYUnknown
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
-Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_matchmaking.scn3
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.flags 0
@@ -76,7 +72,6 @@ SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.StandardYUnknown
 SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
-Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_matchmaking.scn3
 SetField groupwidgets[1].data.flags 0
@@ -92,7 +87,6 @@ SetField groupwidgets[1].data.StandardYUnknown 0
 SetField groupwidgets[1].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
-Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_matchmaking.scn3
 SetField groupwidgets[2].data.flags 0
@@ -108,7 +102,6 @@ SetField groupwidgets[2].data.StandardYUnknown 0
 SetField groupwidgets[2].data.StandardXUnknown 0
 SaveTagChanges
 exitto tags
-Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_matchmaking.scn3
 SetField groupwidgets[2].TextWidgets[0].data.name hopper_name
@@ -178,7 +171,6 @@ SetField groupwidgets[2].bitmapwidgets[0].Bitmap ui\halox\pregame_lobby\nightmap
 SetField groupwidgets[2].bitmapwidgets[0].BlendMethod Alpha
 SaveTagChanges
 exitto tags
-Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_matchmaking.scn3
 SetField groupwidgets[2].bitmapwidgets[1].data.flags 9
