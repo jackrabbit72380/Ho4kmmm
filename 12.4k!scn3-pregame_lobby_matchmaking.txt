@@ -74,38 +74,38 @@ SaveTagChanges
 exitto tags
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_matchmaking.scn3
-SetField groupwidgets[1].data.flags 0
-SetField groupwidgets[1].data.name roster
-SetField groupwidgets[1].data.Layer 0
-SetField groupwidgets[1].data.WidescreenYOffset -544
-SetField groupwidgets[1].data.WidescreenXOffset 1366
-SetField groupwidgets[1].data.WidescreenYUnknown 0
-SetField groupwidgets[1].data.WidescreenXUnknown 0
-SetField groupwidgets[1].data.StandardYOffset 45
-SetField groupwidgets[1].data.StandardXOffset 442
-SetField groupwidgets[1].data.StandardYUnknown 0
-SetField groupwidgets[1].data.StandardXUnknown 0
+SetField groupwidgets[1].flags 0
+SetField groupwidgets[1].name roster
+SetField groupwidgets[1].Layer 0
+SetField groupwidgets[1].WidescreenYOffset -544
+SetField groupwidgets[1].WidescreenXOffset 1366
+SetField groupwidgets[1].WidescreenYUnknown 0
+SetField groupwidgets[1].WidescreenXUnknown 0
+SetField groupwidgets[1].StandardYOffset 45
+SetField groupwidgets[1].StandardXOffset 442
+SetField groupwidgets[1].StandardYUnknown 0
+SetField groupwidgets[1].StandardXUnknown 0
 SaveTagChanges
 exitto tags
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_matchmaking.scn3
-SetField groupwidgets[2].data.flags 0
-SetField groupwidgets[2].data.name null
-SetField groupwidgets[2].data.Layer 0
-SetField groupwidgets[2].data.WidescreenYOffset -40
-SetField groupwidgets[2].data.WidescreenXOffset -1265
-SetField groupwidgets[2].data.WidescreenYUnknown 0
-SetField groupwidgets[2].data.WidescreenXUnknown -100
-SetField groupwidgets[2].data.StandardYOffset 0
-SetField groupwidgets[2].data.StandardXOffset 0
-SetField groupwidgets[2].data.StandardYUnknown 0
-SetField groupwidgets[2].data.StandardXUnknown 0
+SetField groupwidgets[2].flags 0
+SetField groupwidgets[2].name null
+SetField groupwidgets[2].Layer 0
+SetField groupwidgets[2].WidescreenYOffset -40
+SetField groupwidgets[2].WidescreenXOffset -1265
+SetField groupwidgets[2].WidescreenYUnknown 0
+SetField groupwidgets[2].WidescreenXUnknown -100
+SetField groupwidgets[2].StandardYOffset 0
+SetField groupwidgets[2].StandardXOffset 0
+SetField groupwidgets[2].StandardYUnknown 0
+SetField groupwidgets[2].StandardXUnknown 0
 SaveTagChanges
 exitto tags
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_matchmaking.scn3
-SetField groupwidgets[2].TextWidgets[0].data.name hopper_name
-SetField groupwidgets[2].TextWidgets[0].data.Layer 1
+SetField groupwidgets[2].TextWidgets[0].name hopper_name
+SetField groupwidgets[2].TextWidgets[0].Layer 1
 SetField groupwidgets[2].TextWidgets[0].WidescreenYBoundsMin 910
 SetField groupwidgets[2].TextWidgets[0].WidescreenXBoundsMin 89
 SetField groupwidgets[2].TextWidgets[0].WidescreenYBoundsMax 998
@@ -121,8 +121,8 @@ SaveTagChanges
 exitto tags
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_matchmaking.scn3
-SetField groupwidgets[2].TextWidgets[1].data.name total_population
-SetField groupwidgets[2].TextWidgets[1].data.Layer 0
+SetField groupwidgets[2].TextWidgets[1].name total_population
+SetField groupwidgets[2].TextWidgets[1].Layer 0
 SetField groupwidgets[2].TextWidgets[1].WidescreenYBoundsMin 523
 SetField groupwidgets[2].TextWidgets[1].WidescreenXBoundsMin 89
 SetField groupwidgets[2].TextWidgets[1].WidescreenYBoundsMax 553
@@ -138,8 +138,8 @@ SaveTagChanges
 exitto tags
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_matchmaking.scn3
-SetField groupwidgets[2].TextWidgets[2].data.name lobby_status
-SetField groupwidgets[2].TextWidgets[2].data.Layer 0
+SetField groupwidgets[2].TextWidgets[2].name lobby_status
+SetField groupwidgets[2].TextWidgets[2].Layer 0
 SetField groupwidgets[2].TextWidgets[2].WidescreenYBoundsMin 166
 SetField groupwidgets[2].TextWidgets[2].WidescreenXBoundsMin 89
 SetField groupwidgets[2].TextWidgets[2].WidescreenYBoundsMax 367
