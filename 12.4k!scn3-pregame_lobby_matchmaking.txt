@@ -108,14 +108,14 @@ echo============================================================================
 EditTag ui\halox\pregame_lobby\pregame_lobby_matchmaking.scn3
 SetField groupwidgets[2].TextWidgets[0].data.name hopper_name
 SetField groupwidgets[2].TextWidgets[0].data.Layer 1
-SetField groupwidgets[2].TextWidgets[0].data.WidescreenYBoundsMin 910
-SetField groupwidgets[2].TextWidgets[0].data.WidescreenXBoundsMin 89
-SetField groupwidgets[2].TextWidgets[0].data.WidescreenYBoundsMax 998
-SetField groupwidgets[2].TextWidgets[0].data.WidescreenXBoundsMax 537
-SetField groupwidgets[2].TextWidgets[0].data.StandardYBoundsMin 0
-SetField groupwidgets[2].TextWidgets[0].data.StandardXBoundsMin 0
-SetField groupwidgets[2].TextWidgets[0].data.StandardYBoundsMax 0
-SetField groupwidgets[2].TextWidgets[0].data.StandardXBoundsMax 0
+SetField groupwidgets[2].TextWidgets[0].data.WidescreenYOffset 910
+SetField groupwidgets[2].TextWidgets[0].data.WidescreenXOffset 89
+SetField groupwidgets[2].TextWidgets[0].data.WidescreenYUnknown 998
+SetField groupwidgets[2].TextWidgets[0].data.WidescreenXUnknown 537
+SetField groupwidgets[2].TextWidgets[0].data.StandardYOffset 0
+SetField groupwidgets[2].TextWidgets[0].data.StandardXOffset 0
+SetField groupwidgets[2].TextWidgets[0].data.StandardYUnknown 0
+SetField groupwidgets[2].TextWidgets[0].data.StandardXUnknown 0
 SetField groupwidgets[2].TextWidgets[0].textstring matchmaking_hopper_population
 SetField groupwidgets[2].TextWidgets[0].textcolor ice
 SetField groupwidgets[2].TextWidgets[0].textfont 4
