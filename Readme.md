@@ -2,7 +2,7 @@
 
 ## Screenshot
 
-![Screenshot](https://github.com/jackrabbit72380/XeniaFlow/blob/main/Screenshot2.jpg)
+![Screenshot](https://github.com/jackrabbit72380/ho4kmmm/blob/master/Preview.jpg)
 
 https://docs.google.com/document/d/1fDMAOcfzuo8C7GfEGQmM5GDoIzphlFB8xoyE8HF1C8E/edit?usp=sharing
 
