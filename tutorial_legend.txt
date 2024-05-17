@@ -197,6 +197,7 @@ Widescreen X bounds max - |-810             |-100           |-290
 set to 3-3(4)
 bitmap ui\halox\sandbox_ui\window_bkd_ui ;;for nice green tint full screen;;
 _______________________________________________________________________________________________________________________________
+
 |||||
 ||
 ||||||
