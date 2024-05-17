@@ -52,12 +52,13 @@ ________________________________________________________________________________
 (42.) How to change the font & font color in mission select menu
 (43.) Where to edit mission select text
 -index end-
-__________________________________________________________________________________________________________________________
-##########################################################################################################################
-¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+####################################################################################################################################
 
-(1.) How to remove build number 0.6.0.0. or 0.6.1.0
+||||
+  ||
+  ||
+  ||
+|||||||  (1.) How to remove build number 0.6.0.0. or 0.6.1.0
 
 Open The main_menu.map in Assembly
 Click tags
@@ -66,8 +67,14 @@ find ui\halox\main_menu\main_menu
 scroll down to "text Widgets" & in the top right select index "1 -1 (2)"
 remove the Text String "start_new_campaign"
 Save.
-##########################################################################################################################
-(2.) How to change or remove the blue tint in Halo Online's Main Menu.
+___________________________________________________________________________________________________________________________
+
+  ||||
+||    ||
+    ||
+  ||
+|||||||| (2.) How to change or remove the blue tint in Halo Online's Main Menu.
+
 open main menu in assembly
 find "sefc - area_screen_effect" And expand it.
 find 0x0000572B
@@ -81,12 +88,17 @@ Make night time map.
 This works great on Valhalla.
 #F0010C18
 color muting 0
-______________________________
-Epsilon Version_____________________________________________________________________________________________________________________________________
+\\\
+Epsilon Version
 If your using Epsilon just open "area_screen_effect" then "levels\ui\mainmenu\sky\ui" change color filter to all 0.255 and Desaturation from 1 to 0
 if you want no fog your good however if you want fog to apper like it does ingame on vahalla use a cornflower blue color like R:0.541176 G:0.584314 B:0.964706
-##########################################################################################################################
-(3.) How to remove the main menu background widget.
+____________________________________________________________________________________________________________________________
+
+||||||
+      |||
+||||||   
+      |||
+||||||    (3.) How to remove the main menu background widget.
 
  Open mainmenu.map in Assembly
 find "scn3 - gui_screen_widget_definition" And expand it.
@@ -155,9 +167,14 @@ Adds a contrasty tint to your background. "Ui\halox\pregame_lobby\config_top_ui"
 0
 0
 0
+____________________________________________________________________________________________________________________________
 
-##########################################################################################################################
-(4.) How to remove the main menu background bottom black bar widget.
+||     ||
+||     ||
+|||||||||
+       ||
+       || (4.) How to remove the main menu background bottom black bar widget.
+
 find "scn3 - gui_screen_widget_definition" And expand it.
 ui\halox\main_menu\main_menu
 bitmap widgets 
@@ -179,8 +196,12 @@ Widescreen X bounds max - |-810             |-100           |-290
 
 set to 3-3(4)
 bitmap ui\halox\sandbox_ui\window_bkd_ui ;;for nice green tint full screen;;
-##########################################################################################################################
-(5.) How to move your list widget items.
+_______________________________________________________________________________________________________________________________
+|||||
+||
+||||||
+    ||
+|||||| (5.) How to move your list widget items.
 
 find "scn3 - gui_screen_widget_definition" Expand it.
 find ui\halox\main_menu\main_menu
@@ -244,8 +265,13 @@ widescreen X offset --------|-1276
 
  Tip's
 If you want them centered just remove the - keep in mind this does not increase the size.
-##########################################################################################################################
-(6.) How to change or remove halo online & bungie logo's
+_______________________________________________________________________________________________________________________
+
+||||||
+||
+||||||
+||  ||
+|||||| (6.) How to change or remove halo online & bungie logo's
 
 find "scn3 - gui_screen_widget_definition" Expand it.
 find ui\halox\main_menu\main_menu
@@ -282,8 +308,13 @@ Standard X Bounds min - 0
 Standard Y Bounds max - 0
 Standard X Bounds max - 0
 
-##########################################################################################################################
-(7.) How to move your list widget items in pre game lobby's.
+________________________________________________________________________________________________________________________
+
+||||||
+    ||
+   ||
+  ||
+ ||    (7.) How to move your list widget items in pre game lobby's.
 
 find "scn3 - gui_screen_widget_definition"
 ui\halox\pregame_lobby\pregame_lobby_ "menu name you want to change"
@@ -330,8 +361,13 @@ widescreen Y Offset |-173
 5 - 5(6)
 game_options
 widescreen Y Offset |-80
-##########################################################################################################################
-(8.) How to edit pregame lobby background bitmaps.
+________________________________________________________________________________________________________________________
+
+||||||
+||  ||
+||||||
+||  ||
+|||||| (8.) How to edit pregame lobby background bitmaps.
 
 ------blue background with black bars on the top & bottom
 ui\halox\pregame_lobby\selection\pregame_selection (map selection screen)
