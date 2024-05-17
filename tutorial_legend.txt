@@ -84,7 +84,7 @@ color muting 0
 ______________________________
 Epsilon Version_____________________________________________________________________________________________________________________________________
 If your using Epsilon just open "area_screen_effect" then "levels\ui\mainmenu\sky\ui" change color filter to all 0.255 and Desaturation from 1 to 0
-
+if you want no fog your good however if you want fog to apper like it does ingame on vahalla use a cornflower blue color like R:0.541176 G:0.584314 B:0.964706
 ##########################################################################################################################
 (3.) How to remove the main menu background widget.
 
