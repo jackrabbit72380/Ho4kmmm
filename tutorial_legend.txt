@@ -81,6 +81,10 @@ Make night time map.
 This works great on Valhalla.
 #F0010C18
 color muting 0
+______________________________
+Epsilon Version_____________________________________________________________________________________________________________________________________
+If your using Epsilon just open "area_screen_effect" then "levels\ui\mainmenu\sky\ui" change color filter to all 0.255 and Desaturation from 1 to 0
+
 ##########################################################################################################################
 (3.) How to remove the main menu background widget.
 
