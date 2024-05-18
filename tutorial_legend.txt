@@ -406,8 +406,14 @@ x min 719-----------------------------/
 y max 456-----------------------------/
 x max 972-----------------------------/
 Bitmap: ui\halox\common\common_bitmaps\third_column
-##########################################################################################################################
-(9.) How to move that annoying ([Home] > settings) Thingy out of the middle of your screen
+________________________________________________________________________________________________________________________
+
+||||||
+||  ||
+||||||
+    ||
+    || (9.) How to move that annoying ([Home] > settings) Thingy out of the middle of your screen
+
 go to "bkey - gui_button_key_definition"
 and expand the first entry 0x00000001 
 named "ui\halox\main_menu\main_menu_offline"
@@ -429,8 +435,13 @@ Standard X bounds max -     |462     |1
 Your Y - X Will move it around & Text Font Will change the font
 it references the maps/fonts/font_package.bin
 if you want to open or edit the font_package.bin you can use FontPackager v1.4 buy lord zedd. you can get it from git hub.
-##########################################################################################################################
-(10.) How to move the blue background widget for the pregame lobby for multiplayer & forge.
+________________________________________________________________________________________________________________________
+
+||||    ||||||
+  ||    ||  ||
+  ||    ||  ||
+  ||    ||  ||
+||||||| |||||| (10.) How to move the blue background widget for the pregame lobby for multiplayer & forge.
 
 find "grup - gui_group_widget_definition"
 7th one down is...
@@ -873,8 +884,13 @@ SXBMax 518
  ui\halox\pregame_lobby\button_key.gui_widget_animation_collection_definition Blend Method: Alpha
 
 min will always be lower than max unless you want it backwards
-##########################################################################################################################
-15.How to change font for pregame lobby list
+________________________________________________________________________________________________________________________
+
+||||    ||||||
+  ||    ||
+  ||    |||||||
+  ||         ||
+||||||| ||||||| (15.) How to change font for pregame lobby list
 
 skn3 - gui_skin_definition
 ui\halox\pregame_lobby\list
@@ -903,8 +919,13 @@ ui\halox\selection\pregame_selection
 
 Text Widgets
 Text font #
-##########################################################################################################################
-(16.) How to size the orange selection bar
+________________________________________________________________________________________________________________________
+
+||||    ||||||
+  ||    ||
+  ||    |||||||
+  ||    ||   ||
+||||||| ||||||| (16.) How to size the orange selection bar
 
 bitmap 0x00000798 is  the orange selection bar
 you will need to change it in different places.
@@ -946,8 +967,14 @@ x 168
 
 ¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦
 ¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦continue=to=orange_selection_bar_edit=part=2**¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦
+________________________________________________________________________________________________________________________
 
-(17.) where to change the font placement for select game type in gametype sub menu (map selection) screen.
+||||    ||||||
+  ||       ||
+  ||      ||
+  ||     ||
+|||||||  || (17.) where to change the font placement for select game type in gametype sub menu (map selection) screen.
+
  scn3 ui\halox\selection\pregame_selection
 LIST WIDGET ITEMS MOD
  
@@ -1016,8 +1043,13 @@ widescreen X Offset|-820
 widescreen X Offset|-820
 
  Text Widgets Text font # 
-##########################################################################################################################
-(18.) Where to change font color & size for pregame lobby list (map selection) screen.
+___________________________________________________________________________________________________________________
+
+||||    ||||||
+  ||    ||  ||
+  ||    ||||||
+  ||    ||  ||
+||||||| |||||| (18.) Where to change font color & size for pregame lobby list (map selection) screen.
 skn3 - gui_skin_definition
 ui\halox\pregame_lobby\selection\category
 text widgets
@@ -1036,9 +1068,13 @@ under bitmaps you will find the
 orange selection bar
 white line in background
 and arrow
-==================================================================================================
-##########################################################################################################################
-(19.)where to change map preview image size & location for pregame lobby list (map selection) screen.
+__________________________________________________________________________________________________________________
+
+||||    ||||||
+  ||    ||  ||
+  ||    ||||||
+  ||        ||
+|||||||     || (19.)where to change map preview image size & location for pregame lobby list (map selection) screen.
 
 ui\halox\selection\pregame_selection
 
@@ -1060,10 +1096,13 @@ default |mod
 now to change description go to
 text widgets
 name:description
+___________________________________________________________________________________________________________
 
-===================================================================================================
-##########################################################################################################################
-(20.) where to edit garnet background in map selection list under map description.
+  ||||    ||||||
+||    ||  ||  ||
+    ||    ||  ||
+  ||      ||  ||
+||||||||  |||||| (20.) where to edit garnet background in map selection list under map description.
 
 ui\halox\selection\pregame_selection
 group widgets 0 - 12 (13)
@@ -1084,11 +1123,22 @@ default|mod
 0
 0
 0
-===================================================================================================
-##########################################################################################################################
-(21.) where to change blue bar shadow under BUILT IN in map select sub menu
- scn3 ui\halox\selection\pregame_selection group widgets 2 - 12 (13) name: subitem_edit here you can adjust the placement of the built in widget bitmap widgets 0 - 0 (1) here you can select size of the blue bar shadow under BUILT IN ##########################################################################################################################
-(22.) where to edit map name in map select sub menu on top of built in.
+________________________________________________________________________________________________________________________________
+
+  ||||    ||||
+||    ||    ||
+    ||      ||
+  ||        ||
+||||||||  |||||| (21.) where to change blue bar shadow under BUILT IN in map select sub menu
+
+ scn3 ui\halox\selection\pregame_selection group widgets 2 - 12 (13) name: subitem_edit here you can adjust the placement of the built in widget bitmap widgets 0 - 0 (1) here you can select size of the blue bar shadow under BUILT IN 
+_______________________________________________________________________________________________________________________________
+  ||||      ||||
+||    ||  ||    ||
+    ||        ||
+  ||        ||
+||||||||  |||||||| (22.) where to edit map name in map select sub menu on top of built in.
+
  skn3 - gui_skin_definition ui\halox\pregame_lobby\selection\subitem subitem.skn3 text widgets ****************************************************************************************************
 
  //////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\/////////////////////////////////////////////////////////////////////Orange_Selection_Bar_Edit=Part=3/////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\///////////////////////////////////////
