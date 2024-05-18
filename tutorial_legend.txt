@@ -10,16 +10,16 @@ ________________________________________________________________________________
 
 Main Menu Mod Tutorial
 Requirements!
-1.Assembly
+1.Assembly or Epsilon
 2.Frontpackager
 3.Fresh copy of halo online up to date.
 For this Tutorial I have UI scaling completely turned off
 _____________________________________________________________________________________________________________________________
 -Index -
 (1.) How to remove build number 0.6.0.0. or 0.6.1.0
-(2.) How to edit the blue tint in Halo Online's Main Menu. (Updated for Epsilon)
-(3.) How to edit the main menu background widget.
-(4.) How to remove the main menu background bottom black bar widget.
+(2.) How to edit the blue tint in Halo Online's Main Menu. ____________________________________________(Updated for Epsilon)
+(3.) How to edit the main menu background widget. _____________________________________________________(Updated for Epsilon)
+(4.) How to remove the main menu background bottom black bar widget. __________________________________(Updated for Epsilon)
 (5.) How to move your list widget items.
 (6.) How to change or remove halo online & bungie logo.
 (7.) How to move your list widget items in Pregame lobby.
