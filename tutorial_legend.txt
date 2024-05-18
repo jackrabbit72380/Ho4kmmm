@@ -170,7 +170,7 @@ Adds a contrasty tint to your background. "Ui\halox\pregame_lobby\config_top_ui"
 \\\\\\\\\\\\\\\\\
 epsilon version
 search for "main_menu" open the gui_screen_widget_defenition folder then click on "ui\halox\main_menu\main_menu
-next go to group widgets then bitmaps widgets Where you see Bitmap Widgets you will need to change the number to 3-(4) then go down to gui render block and under bitmap select "bitm" then you should see ui\halox\main_menu\bottom_gradient_ui click null the zero with the slash. ___________________________________________________________________________________________________________________________
+next go to group widgets then bitmaps widgets Where you see Bitmap Widgets you will need to change the number to 0-(4) then go down to gui render block and under bitmap select "bitm" then you should see ui\halox\main_menu\mainmenu_bkd click null the zero with the slash. ___________________________________________________________________________________________________________________________
 
 ||     ||
 ||     ||
@@ -198,7 +198,12 @@ Widescreen Y bounds max - |1130             |1400           |1400
 Widescreen X bounds max - |-810             |-100           |-290
 
 set to 3-3(4)
-bitmap ui\halox\sandbox_ui\window_bkd_ui ;;for nice green tint full screen;;
+bitmap ui\halox\sandbox_ui\window_bkd_ui ;;for nice green tint full screen
+
+###############
+epsilon version
+search for "main_menu" open the gui_screen_widget_defenition folder then click on "ui\halox\main_menu\main_menu
+next go to group widgets then bitmaps widgets Where you see Bitmap Widgets you will need to change the number to 3-(4) then go down to gui render block and under bitmap select "bitm" then you should see ui\halox\main_menu\bottom_gradient_ui click null the zero with the slash. 
 _______________________________________________________________________________________________________________________________
 
 |||||
