@@ -88,7 +88,7 @@ Make night time map.
 This works great on Valhalla.
 #F0010C18
 color muting 0
-\\\
+###############
 Epsilon Version
 If your using Epsilon just open "area_screen_effect" then "levels\ui\mainmenu\sky\ui" change color filter to all 0.255 and Desaturation from 1 to 0
 if you want no fog your good however if you want fog to apper like it does ingame on vahalla use a cornflower blue color like R:0.541176 G:0.584314 B:0.964706
@@ -167,7 +167,7 @@ Adds a contrasty tint to your background. "Ui\halox\pregame_lobby\config_top_ui"
 0
 0
 0
-\\\\\\\\\\\\\\\\\
+###############
 epsilon version
 search for "main_menu" open the gui_screen_widget_defenition folder then click on "ui\halox\main_menu\main_menu
 next go to group widgets then bitmaps widgets Where you see Bitmap Widgets you will need to change the number to 0-(4) then go down to gui render block and under bitmap select "bitm" then you should see ui\halox\main_menu\mainmenu_bkd click null the zero with the slash. 
