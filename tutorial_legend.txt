@@ -7,6 +7,14 @@
     \ \ \\/_/\/__/\/_/ \/____/ \/_____/  \/_____/  \/_/ /__/ /\_____\ \ \_\ \ \ \ \  \\ \____\
      \/_/                                                    \/____ /  \/_/  \/_/  \_/ \/____/
 __________________________________________________________________________________________________________________________
+
+Main Menu Mod Tutorial
+Requirements!
+1.Assembly
+2.Frontpackager
+3.Fresh copy of halo online up to date.
+For this Tutorial I have UI scaling completely turned off
+_____________________________________________________________________________________________________________________________
 -Index -
 (1.) How to remove build number 0.6.0.0. or 0.6.1.0
 (2.) How to edit the blue tint in Halo Online's Main Menu. (Updated for Epsilon)
@@ -88,10 +96,12 @@ Make night time map.
 This works great on Valhalla.
 #F0010C18
 color muting 0
+
 ###############
 Epsilon Version
 If your using Epsilon just open "area_screen_effect" then "levels\ui\mainmenu\sky\ui" change color filter to all 0.255 and Desaturation from 1 to 0
-if you want no fog your good however if you want fog to apper like it does ingame on vahalla use a cornflower blue color like R:0.541176 G:0.584314 B:0.964706
+if you want no fog your good however if you want fog to appear like it does in game on valhalla use a cornflower blue color like R:0.541176 G:0.584314 B:0.964706
+
 ____________________________________________________________________________________________________________________________
 
 ||||||
