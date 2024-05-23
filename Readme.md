@@ -17,6 +17,7 @@ Please make sure your dewrito_prefs.cfg has UI Scaling turned off "Graphics.UISc
 4k 4096x2160 or 3840x2160 only!
 Things are a little messy right now and some flags are off. You have been warned.
 Please bear with me as I develop this mod.
+
 Installation: Port the Halo 3 campaign using NoShotz's script, then install the mod using The Guardians Tagtool.
 "00.install_campaign_&_theater_options.txt" is only for unported Halo Online Eldewrito Version 0.6.1.0.
 I just uploaded a tutorial legend so you can fix anything. It lists all the 4k mod settings, just not in script format. It's what I'm using to create the script. ho4kmmm is a work in progress & currently in testing!
