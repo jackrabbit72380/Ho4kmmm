@@ -11,7 +11,7 @@ ________________________________________________________________________________
 # (Ho4kmmm) Halo Online 4k Main Menu Mod
 
 This Mod is curently only for A (Halo 3 Capmaign) ported version Halo Online Eldeweto Version 0.6.1.0. The Mod is still in development
-as I ONLY HAVE SO MUCH FREE TILE TO DEDICATE TO THIS PROJECT. I will be working to complete the project and bring it up to date for the latest version of halo online.
+as I ONLY HAVE SO MUCH FREE TIME TO DEDICATE TO THIS PROJECT. I will be working to complete the project and bring it up to date for the latest version of halo online.
 untill then you can folow the step buy step tutorial to do individule modifications to your main menu. but your results may verry.
 as the game has evolved and been uppdated sence the project began.
 around the time of the 0.5 relese.
