@@ -1,4 +1,4 @@
-# Ho4kmmm Halo Online 4k Main Menu Mod
+# (Ho4kmmm) Halo Online 4k Main Menu Mod
 
 ## Screenshot
 
@@ -8,7 +8,7 @@
 
 _________________________________________________________________________________________________________________________
 
-Halo Online 4K Main Menu/UI Mod.
+# (Ho4kmmm) Halo Online 4k Main Menu Mod
 
 This Mod is curently only for A (Halo 3 Capmaign) ported version Halo Online Eldeweto Version 0.6.1.0.
 
