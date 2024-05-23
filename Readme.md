@@ -8,21 +8,15 @@
 
 _________________________________________________________________________________________________________________________
 
-# (Ho4kmmm) Halo Online 4k Main Menu Mod
-
-This Mod is curently only for A (Halo 3 Capmaign) ported version Halo Online Eldeweto Version 0.6.1.0. The Mod is still in development
-as I ONLY HAVE SO MUCH FREE TIME TO DEDICATE TO THIS PROJECT. I will be working to complete the project and bring it up to date for the latest version of halo online.
-untill then you can folow the step buy step tutorial to do individule modifications to your main menu. but your results may verry.
-as the game has evolved and been uppdated sence the project began.
-around the time of the 0.5 relese.
-FYI This script is made to work with Tag Tool [1.5.7136.891].
-For adding block elements you will have to use older Tag Tool.
-Please Make sure your dewrito_prefs.cfg Has UI Scaling Turned off Graphics.UIScaling "0" to use this mod.
+(Ho4kmmm) Halo Online 4k Main Menu Mod
+This mod is currently only for the Halo 3 Campaign ported version of Halo Online Eldewrito Version 0.6.1.0. The mod is still in development as I only have so much free time to dedicate to this project. I will be working to complete the project and bring it up to date for the latest version of Halo Online.
+Until then, you can follow the step-by-step tutorial to do individual modifications to your main menu, but your results may vary as the game has evolved and been updated since the project began around the time of the 0.5 release.
+FYI This script is made to work with Tag Tool [1.5.7136.891]. For adding block elements, you will have to use an older Tag Tool.
+Please make sure your dewrito_prefs.cfg has UI Scaling turned off "Graphics.UIScaling 0" to use this mod.
 4k 4096x2160 or 3840x2160 only!
-Things are alittle messy rightnow and some flags are off. You have been warned.
-Please bare with me as I develop this mod.
-Instalation: Port the Halo 3 campaign useing NoShotz script then install the mod useing The Gardians Tagtool.
-"00.install_campaign_&_theater_options.txt" is only for unported Halo Online Eldeweto Version 0.6.1.0.
-I just uploaded tutorial legend so you can fix anything. It list all the 4k mod settings just not in script format.
-It's what im useing to create the script. ho4kmmm is work in progress & curently in testing!
+Things are a little messy right now and some flags are off. You have been warned.
+Please bear with me as I develop this mod.
+Installation: Port the Halo 3 campaign using NoShotz's script, then install the mod using The Guardians Tagtool.
+"00.install_campaign_&_theater_options.txt" is only for unported Halo Online Eldewrito Version 0.6.1.0.
+I just uploaded a tutorial legend so you can fix anything. It lists all the 4k mod settings, just not in script format. It's what I'm using to create the script. ho4kmmm is a work in progress & currently in testing!
 __________________________________________________________________________________________________________________________
