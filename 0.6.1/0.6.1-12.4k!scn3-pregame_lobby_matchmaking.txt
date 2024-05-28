@@ -1,0 +1,192 @@
+EditTag ui\halox\pregame_lobby\pregame_lobby_matchmaking.scn3
+SetField groupwidgets[0].listwidgets[0].data.flags 1
+SetField groupwidgets[0].listwidgets[0].data.name lobby_list
+SetField groupwidgets[0].listwidgets[0].data.Layer 0
+SetField groupwidgets[0].listwidgets[0].data.WidescreenYOffset 85
+SetField groupwidgets[0].listwidgets[0].data.WidescreenXOffset -1186
+SetField groupwidgets[0].listwidgets[0].data.WidescreenYUnknown 0
+SetField groupwidgets[0].listwidgets[0].data.WidescreenXUnknown -100
+SetField groupwidgets[0].listwidgets[0].data.StandardYOffset 0
+SetField groupwidgets[0].listwidgets[0].data.StandardXOffset 0
+SetField groupwidgets[0].listwidgets[0].data.StandardYUnknown 0
+SetField groupwidgets[0].listwidgets[0].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_matchmaking.scn3
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.flags 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.name switch_lobby
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.Layer 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.WidescreenYOffset -490
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.WidescreenXOffset 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.WidescreenYUnknown 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.WidescreenXUnknown 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.StandardYOffset 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.StandardXOffset 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.StandardYUnknown 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_matchmaking.scn3
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[1].data.flags 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[1].data.name host_custom_game
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[1].data.Layer 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[1].data.WidescreenYOffset -431
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[1].data.WidescreenXOffset 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[1].data.WidescreenYUnknown 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[1].data.WidescreenXUnknown 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[1].data.StandardYOffset 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[1].data.StandardXOffset 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[1].data.StandardYUnknown 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[1].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_matchmaking.scn3
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.flags 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.name playlist
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.Layer 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.WidescreenYOffset -372
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.WidescreenXOffset 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.WidescreenYUnknown 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.WidescreenXUnknown 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.StandardYOffset 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.StandardXOffset 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.StandardYUnknown 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_matchmaking.scn3
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.flags 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.start_game
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.Layer 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.WidescreenYOffset -173
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.WidescreenXOffset 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.WidescreenYUnknown 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.WidescreenXUnknown 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.StandardYOffset 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.StandardXOffset 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.StandardYUnknown 0
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_matchmaking.scn3
+SetField groupwidgets[1].flags 0
+SetField groupwidgets[1].name roster
+SetField groupwidgets[1].Layer 0
+SetField groupwidgets[1].WidescreenYOffset -544
+SetField groupwidgets[1].WidescreenXOffset 1366
+SetField groupwidgets[1].WidescreenYUnknown 0
+SetField groupwidgets[1].WidescreenXUnknown 0
+SetField groupwidgets[1].StandardYOffset 45
+SetField groupwidgets[1].StandardXOffset 442
+SetField groupwidgets[1].StandardYUnknown 0
+SetField groupwidgets[1].StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_matchmaking.scn3
+SetField groupwidgets[2].flags 0
+SetField groupwidgets[2].name null
+SetField groupwidgets[2].Layer 0
+SetField groupwidgets[2].WidescreenYOffset -40
+SetField groupwidgets[2].WidescreenXOffset -1265
+SetField groupwidgets[2].WidescreenYUnknown 0
+SetField groupwidgets[2].WidescreenXUnknown -100
+SetField groupwidgets[2].StandardYOffset 0
+SetField groupwidgets[2].StandardXOffset 0
+SetField groupwidgets[2].StandardYUnknown 0
+SetField groupwidgets[2].StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_matchmaking.scn3
+SetField groupwidgets[2].TextWidgets[0].data.name hopper_name
+SetField groupwidgets[2].TextWidgets[0].data.Layer 1
+SetField groupwidgets[2].TextWidgets[0].data.WidescreenYOffset 910
+SetField groupwidgets[2].TextWidgets[0].data.WidescreenXOffset 89
+SetField groupwidgets[2].TextWidgets[0].data.WidescreenYUnknown 998
+SetField groupwidgets[2].TextWidgets[0].data.WidescreenXUnknown 537
+SetField groupwidgets[2].TextWidgets[0].data.StandardYOffset 0
+SetField groupwidgets[2].TextWidgets[0].data.StandardXOffset 0
+SetField groupwidgets[2].TextWidgets[0].data.StandardYUnknown 0
+SetField groupwidgets[2].TextWidgets[0].data.StandardXUnknown 0
+SetField groupwidgets[2].TextWidgets[0].textstring matchmaking_hopper_population
+SetField groupwidgets[2].TextWidgets[0].textcolor ice
+SetField groupwidgets[2].TextWidgets[0].textfont 4
+SaveTagChanges
+exitto tags
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_matchmaking.scn3
+SetField groupwidgets[2].TextWidgets[1].data.name total_population
+SetField groupwidgets[2].TextWidgets[1].data.Layer 0
+SetField groupwidgets[2].TextWidgets[1].data.WidescreenYOffset 523
+SetField groupwidgets[2].TextWidgets[1].data.WidescreenXOffset 89
+SetField groupwidgets[2].TextWidgets[1].data.WidescreenYUnknown 553
+SetField groupwidgets[2].TextWidgets[1].data.WidescreenXUnknown 537
+SetField groupwidgets[2].TextWidgets[1].data.StandardYOffset 0
+SetField groupwidgets[2].TextWidgets[1].data.StandardXOffset 0
+SetField groupwidgets[2].TextWidgets[1].data.StandardYUnknown 0
+SetField groupwidgets[2].TextWidgets[1].data.StandardXUnknown 0
+SetField groupwidgets[2].TextWidgets[1].textstring matchmaking total_population
+SetField groupwidgets[2].TextWidgets[1].textcolor ice
+SetField groupwidgets[2].TextWidgets[1].textfont 4
+SaveTagChanges
+exitto tags
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_matchmaking.scn3
+SetField groupwidgets[2].TextWidgets[2].data.name lobby_status
+SetField groupwidgets[2].TextWidgets[2].data.Layer 0
+SetField groupwidgets[2].TextWidgets[2].data.WidescreenYOffset 166
+SetField groupwidgets[2].TextWidgets[2].data.WidescreenXOffset 89
+SetField groupwidgets[2].TextWidgets[2].data.WidescreenYUnknown 367
+SetField groupwidgets[2].TextWidgets[2].data.WidescreenXUnknown 1637
+SetField groupwidgets[2].TextWidgets[2].data.StandardYOffset 0
+SetField groupwidgets[2].TextWidgets[2].data.StandardXOffset 0
+SetField groupwidgets[2].TextWidgets[2].data.StandardYUnknown 0
+SetField groupwidgets[2].TextWidgets[2].data.StandardXUnknown 0
+SetField groupwidgets[2].TextWidgets[2].textstring null
+SetField groupwidgets[2].TextWidgets[2].textcolor ice
+SetField groupwidgets[2].TextWidgets[2].textfont 4
+SaveTagChanges
+exitto tags
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_matchmaking.scn3
+SetField groupwidgets[2].bitmapwidgets[0].data.flags 9
+SetField groupwidgets[2].bitmapwidgets[0].data.name nightmap_background
+SetField groupwidgets[2].bitmapwidgets[0].data.Layer -30
+SetField groupwidgets[2].bitmapwidgets[0].data.WidescreenYOffset 346
+SetField groupwidgets[2].bitmapwidgets[0].data.WidescreenXOffset 79
+SetField groupwidgets[2].bitmapwidgets[0].data.WidescreenYUnknown 880
+SetField groupwidgets[2].bitmapwidgets[0].data.WidescreenXUnknown 1714
+SetField groupwidgets[2].bitmapwidgets[0].data.StandardYOffset 254
+SetField groupwidgets[2].bitmapwidgets[0].data.StandardXOffset 55
+SetField groupwidgets[2].bitmapwidgets[0].data.StandardYUnknown 405
+SetField groupwidgets[2].bitmapwidgets[0].data.StandardXUnknown 518
+SetField groupwidgets[2].bitmapwidgets[0].data.Animation ui\halox\main_menu\animations\lobby_slide.wacd
+SetField groupwidgets[2].bitmapwidgets[0].Bitmap ui\halox\pregame_lobby\nightmap_background_ui.bitmap
+SetField groupwidgets[2].bitmapwidgets[0].BlendMethod Alpha
+SaveTagChanges
+exitto tags
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_matchmaking.scn3
+SetField groupwidgets[2].bitmapwidgets[1].data.flags 9
+SetField groupwidgets[2].bitmapwidgets[1].data.name nightmap
+SetField groupwidgets[2].bitmapwidgets[1].data.Layer -30
+SetField groupwidgets[2].bitmapwidgets[1].data.WidescreenYOffset 376
+SetField groupwidgets[2].bitmapwidgets[1].data.WidescreenXOffset 79
+SetField groupwidgets[2].bitmapwidgets[1].data.WidescreenYUnknown 880
+SetField groupwidgets[2].bitmapwidgets[1].data.WidescreenXUnknown 1714
+SetField groupwidgets[2].bitmapwidgets[1].data.StandardYOffset 254
+SetField groupwidgets[2].bitmapwidgets[1].data.StandardXOffset 55
+SetField groupwidgets[2].bitmapwidgets[1].data.StandardYUnknown 405
+SetField groupwidgets[2].bitmapwidgets[1].data.StandardXUnknown 518
+SetField groupwidgets[2].bitmapwidgets[1].data.Animation ui\halox\main_menu\animations\lobby_slide.wacd
+SetField groupwidgets[2].bitmapwidgets[1].Bitmap null
+SetField groupwidgets[2].bitmapwidgets[1].BlendMethod Alpha
+SaveTagChanges
+exitto tags
+Exit
