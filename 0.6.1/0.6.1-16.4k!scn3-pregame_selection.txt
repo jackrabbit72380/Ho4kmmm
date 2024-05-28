@@ -1,0 +1,1195 @@
+echo move a select & b back buttons
+edittag ui\halox\pregame_lobby\selection\button_key_a_select_b_cancel.bkey
+SetField WidescreenYBoundsMin 989
+SetField WidescreenXBoundsMin -620
+SaveTagChanges
+exitto tags
+echo //////////////////////////////////////////////////////////////////////////////start
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField WidescreenYBoundsMin -231
+SetField WidescreenXBoundsMin -576
+SetField WidescreenYBoundsMax 231
+SetField WidescreenXBoundsMax 576
+SetField StandardYBoundsMin -232
+SetField StandardXBoundsMin -330
+SetField StandardYBoundsMax 240
+SetField StandardXBoundsMax 330
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[0].flags 0
+SetField groupwidgets[0].name base
+SetField groupwidgets[0].Layer 0
+SetField groupwidgets[0].WidescreenYOffset 0
+SetField groupwidgets[0].WidescreenXOffset 0
+SetField groupwidgets[0].WidescreenYUnknown 0
+SetField groupwidgets[0].WidescreenXUnknown 0
+SetField groupwidgets[0].StandardYOffset 0
+SetField groupwidgets[0].StandardXOffset 0
+SetField groupwidgets[0].StandardYUnknown 0
+SetField groupwidgets[0].StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[1].flags 0
+SetField groupwidgets[1].name subitem
+SetField groupwidgets[1].Layer 0
+SetField groupwidgets[1].WidescreenYOffset 0
+SetField groupwidgets[1].WidescreenXOffset 0
+SetField groupwidgets[1].WidescreenYUnknown 0
+SetField groupwidgets[1].WidescreenXUnknown 0
+SetField groupwidgets[1].StandardYOffset 0
+SetField groupwidgets[1].StandardXOffset 0
+SetField groupwidgets[1].StandardYUnknown 0
+SetField groupwidgets[1].StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[2].flags 0
+SetField groupwidgets[2].name subitem_edit
+SetField groupwidgets[2].Layer 0
+SetField groupwidgets[2].WidescreenYOffset -159
+SetField groupwidgets[2].WidescreenXOffset 85
+SetField groupwidgets[2].WidescreenYUnknown 0
+SetField groupwidgets[2].WidescreenXUnknown 0
+SetField groupwidgets[2].StandardYOffset 0
+SetField groupwidgets[2].StandardXOffset 0
+SetField groupwidgets[2].StandardYUnknown 0
+SetField groupwidgets[2].StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[3].flags 9
+SetField groupwidgets[3].name film_category_image
+SetField groupwidgets[3].Layer 0
+SetField groupwidgets[3].WidescreenYOffset 0
+SetField groupwidgets[3].WidescreenXOffset 0
+SetField groupwidgets[3].WidescreenYUnknown 0
+SetField groupwidgets[3].WidescreenXUnknown 0
+SetField groupwidgets[3].StandardYOffset 0
+SetField groupwidgets[3].StandardXOffset 0
+SetField groupwidgets[3].StandardYUnknown 0
+SetField groupwidgets[3].StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].flags 9
+SetField groupwidgets[4].name film_image
+SetField groupwidgets[4].Layer 0
+SetField groupwidgets[4].WidescreenYOffset 0
+SetField groupwidgets[4].WidescreenXOffset 0
+SetField groupwidgets[4].WidescreenYUnknown 0
+SetField groupwidgets[4].WidescreenXUnknown 0
+SetField groupwidgets[4].StandardYOffset 0
+SetField groupwidgets[4].StandardXOffset 0
+SetField groupwidgets[4].StandardYUnknown 0
+SetField groupwidgets[4].StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[5].flags 9
+SetField groupwidgets[5].name network_mode
+SetField groupwidgets[5].Layer 0
+SetField groupwidgets[5].WidescreenYOffset 0
+SetField groupwidgets[5].WidescreenXOffset 0
+SetField groupwidgets[5].WidescreenYUnknown 0
+SetField groupwidgets[5].WidescreenXUnknown 0
+SetField groupwidgets[5].StandardYOffset 0
+SetField groupwidgets[5].StandardXOffset 0
+SetField groupwidgets[5].StandardYUnknown 0
+SetField groupwidgets[5].StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[6].flags 9
+SetField groupwidgets[6].name advertisementy_mode_image
+SetField groupwidgets[6].Layer 0
+SetField groupwidgets[6].WidescreenYOffset 0
+SetField groupwidgets[6].WidescreenXOffset 0
+SetField groupwidgets[6].WidescreenYUnknown 0
+SetField groupwidgets[6].WidescreenXUnknown 0
+SetField groupwidgets[6].StandardYOffset 0
+SetField groupwidgets[6].StandardXOffset 0
+SetField groupwidgets[6].StandardYUnknown 0
+SetField groupwidgets[6].StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[7].flags 9
+SetField groupwidgets[7].name gametype_image
+SetField groupwidgets[7].Layer 0
+SetField groupwidgets[7].WidescreenYOffset 0
+SetField groupwidgets[7].WidescreenXOffset 0
+SetField groupwidgets[7].WidescreenYUnknown 0
+SetField groupwidgets[7].WidescreenXUnknown 0
+SetField groupwidgets[7].StandardYOffset 0
+SetField groupwidgets[7].StandardXOffset 0
+SetField groupwidgets[7].StandardYUnknown 0
+SetField groupwidgets[7].StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[8].flags 9
+SetField groupwidgets[8].name gametype_variant_image
+SetField groupwidgets[8].Layer 0
+SetField groupwidgets[8].WidescreenYOffset 0
+SetField groupwidgets[8].WidescreenXOffset 0
+SetField groupwidgets[8].WidescreenYUnknown 0
+SetField groupwidgets[8].WidescreenXUnknown 0
+SetField groupwidgets[8].StandardYOffset 0
+SetField groupwidgets[8].StandardXOffset 0
+SetField groupwidgets[8].StandardYUnknown 0
+SetField groupwidgets[8].StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[9].flags 9
+SetField groupwidgets[9].name map_image
+SetField groupwidgets[9].Layer 0
+SetField groupwidgets[9].WidescreenYOffset 0
+SetField groupwidgets[9].WidescreenXOffset 0
+SetField groupwidgets[9].WidescreenYUnknown 0
+SetField groupwidgets[9].WidescreenXUnknown 0
+SetField groupwidgets[9].StandardYOffset 0
+SetField groupwidgets[9].StandardXOffset 0
+SetField groupwidgets[9].StandardYUnknown 0
+SetField groupwidgets[9].StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[10].flags.9
+SetField groupwidgets[10].name map_variant_image
+SetField groupwidgets[10].Layer 0
+SetField groupwidgets[10].WidescreenYOffset 0
+SetField groupwidgets[10].WidescreenXOffset 0
+SetField groupwidgets[10].WidescreenYUnknown 0
+SetField groupwidgets[10].WidescreenXUnknown 0
+SetField groupwidgets[10].StandardYOffset 0
+SetField groupwidgets[10].StandardXOffset 0
+SetField groupwidgets[10].StandardYUnknown 0
+SetField groupwidgets[10].StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[11].flags.9
+SetField groupwidgets[11].name hopper_category_image
+SetField groupwidgets[11].Layer 0
+SetField groupwidgets[11].WidescreenYOffset 0
+SetField groupwidgets[11].WidescreenXOffset 0
+SetField groupwidgets[11].WidescreenYUnknown 0
+SetField groupwidgets[11].WidescreenXUnknown 0
+SetField groupwidgets[11].StandardYOffset 0
+SetField groupwidgets[11].StandardXOffset 0
+SetField groupwidgets[11].StandardYUnknown 0
+SetField groupwidgets[11].StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[12].flags.9
+SetField groupwidgets[12].name hopper_image
+SetField groupwidgets[12].Layer 0
+SetField groupwidgets[12].WidescreenYOffset 0
+SetField groupwidgets[12].WidescreenXOffset 0
+SetField groupwidgets[12].WidescreenYUnknown 0
+SetField groupwidgets[12].WidescreenXUnknown 0
+SetField groupwidgets[12].StandardYOffset 0
+SetField groupwidgets[12].StandardXOffset 0
+SetField groupwidgets[12].StandardYUnknown 0
+SetField groupwidgets[12].StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[0].listwidgets[0].data.name category
+SetField groupwidgets[0].listwidgets[0].data.Layer 0
+SetField groupwidgets[0].listwidgets[0].data.WidescreenYOffset 56
+SetField groupwidgets[0].listwidgets[0].data.WidescreenXOffset 206
+SetField groupwidgets[0].listwidgets[0].data.WidescreenYUnknown 0
+SetField groupwidgets[0].listwidgets[0].data.WidescreenXUnknown 0
+SetField groupwidgets[0].listwidgets[0].data.StandardYOffset 0
+SetField groupwidgets[0].listwidgets[0].data.StandardXOffset 0
+SetField groupwidgets[0].listwidgets[0].data.StandardYUnknown 0
+SetField groupwidgets[0].listwidgets[0].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+echo maps list placement
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.WidescreenYOffset -226
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.WidescreenXOffset -820
+
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[1].data.WidescreenYOffset -164
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[1].data.WidescreenXOffset -820
+
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.WidescreenYOffset -102
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.WidescreenXOffset -820
+
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.WidescreenYOffset -40
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.WidescreenXOffset -820
+
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[4].data.WidescreenYOffset 22
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[4].data.WidescreenXOffset -820
+
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[5].data.WidescreenYOffset 84
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[5].data.WidescreenXOffset -820
+
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[6].data.WidescreenYOffset 146
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[6].data.WidescreenXOffset -820
+
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[7].data.WidescreenYOffset 208
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[7].data.WidescreenXOffset -820
+
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[8].data.WidescreenYOffset 270
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[8].data.WidescreenXOffset -820
+
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[9].data.WidescreenYOffset 332
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[9].data.WidescreenXOffset -820
+
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[10].data.WidescreenYOffset 394
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[10].data.WidescreenXOffset -820
+
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[11].data.WidescreenYOffset 456
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[11].data.WidescreenXOffset -820
+
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[12].data.WidescreenYOffset 518
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[12].data.WidescreenXOffset -820
+
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[0].textwidgets[0].data.name title
+SetField groupwidgets[0].textwidgets[0].data.WidescreenYOffset -550
+SetField groupwidgets[0].textwidgets[0].data.WidescreenXOffset -620
+SetField groupwidgets[0].textwidgets[0].data.WidescreenYUnknown 40
+SetField groupwidgets[0].textwidgets[0].data.WidescreenXUnknown 1080
+SetField groupwidgets[0].textwidgets[0].data.StandardYOffset 0
+SetField groupwidgets[0].textwidgets[0].data.StandardXOffset 0
+SetField groupwidgets[0].textwidgets[0].data.StandardYUnknown 0
+SetField groupwidgets[0].textwidgets[0].data.StandardXUnknown 0
+SetField groupwidgets[0].textwidgets[0].datasourcename null
+SetField groupwidgets[0].textwidgets[0].textstring null
+SetField groupwidgets[0].textwidgets[0].textcolor clear
+SetField groupwidgets[0].textwidgets[0].textfont 4
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[0].textwidgets[1].data.name list_empty
+SetField groupwidgets[0].textwidgets[1].data.WidescreenYOffset 60
+SetField groupwidgets[0].textwidgets[1].data.WidescreenXOffset 472
+SetField groupwidgets[0].textwidgets[1].data.WidescreenYUnknown 224
+SetField groupwidgets[0].textwidgets[1].data.WidescreenXUnknown 723
+SetField groupwidgets[0].textwidgets[1].data.StandardYOffset 0
+SetField groupwidgets[0].textwidgets[1].data.StandardXOffset 0
+SetField groupwidgets[0].textwidgets[1].data.StandardYUnknown 0
+SetField groupwidgets[0].textwidgets[1].data.StandardXUnknown 0
+SetField groupwidgets[0].textwidgets[1].datasourcename null
+SetField groupwidgets[0].textwidgets[1].textstring null
+SetField groupwidgets[0].textwidgets[1].textcolor hilite
+SetField groupwidgets[0].textwidgets[1].textfont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[0].bitmapwidgets[0].data.name background
+SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenYOffset -610
+SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenXOffset -1475
+SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenYUnknown 1080
+SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenXUnknown 2620
+SetField groupwidgets[0].bitmapwidgets[0].data.StandardYOffset 0
+SetField groupwidgets[0].bitmapwidgets[0].data.StandardXOffset 0
+SetField groupwidgets[0].bitmapwidgets[0].data.StandardYUnknown 0
+SetField groupwidgets[0].bitmapwidgets[0].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[0].bitmapwidgets[1].data.name background
+SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenYOffset -610
+SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenXOffset -1475
+SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenYUnknown 1080
+SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenXUnknown 2620
+SetField groupwidgets[0].bitmapwidgets[1].data.StandardYOffset 0
+SetField groupwidgets[0].bitmapwidgets[1].data.StandardXOffset 0
+SetField groupwidgets[0].bitmapwidgets[1].data.StandardYUnknown 0
+SetField groupwidgets[0].bitmapwidgets[1].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[0].bitmapwidgets[2].data.name dark_background
+SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenYOffset -610
+SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenXOffset -1475
+SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenYUnknown 1080
+SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenXUnknown 2620
+SetField groupwidgets[0].bitmapwidgets[2].data.StandardYOffset 0
+SetField groupwidgets[0].bitmapwidgets[2].data.StandardXOffset 0
+SetField groupwidgets[0].bitmapwidgets[2].data.StandardYUnknown 0
+SetField groupwidgets[0].bitmapwidgets[2].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[0].bitmapwidgets[3].data.name background
+SetField groupwidgets[0].bitmapwidgets[3].data.WidescreenYOffset -375
+SetField groupwidgets[0].bitmapwidgets[3].data.WidescreenXOffset 719
+SetField groupwidgets[0].bitmapwidgets[3].data.WidescreenYUnknown 756
+SetField groupwidgets[0].bitmapwidgets[3].data.WidescreenXUnknown 2375
+SetField groupwidgets[0].bitmapwidgets[3].data.StandardYOffset 0
+SetField groupwidgets[0].bitmapwidgets[3].data.StandardXOffset 0
+SetField groupwidgets[0].bitmapwidgets[3].data.StandardYUnknown 0
+SetField groupwidgets[0].bitmapwidgets[3].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+echo subitem_edit////////////////////////////////////////////////////////
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[2].textwidgets[0].data.name item_options
+SetField groupwidgets[2].textwidgets[0].data.WidescreenYOffset -4
+SetField groupwidgets[2].textwidgets[0].data.WidescreenXOffset -12
+SetField groupwidgets[2].textwidgets[0].data.WidescreenYUnknown 32
+SetField groupwidgets[2].textwidgets[0].data.WidescreenXUnknown 230
+SetField groupwidgets[2].textwidgets[0].data.StandardYOffset 0
+SetField groupwidgets[2].textwidgets[0].data.StandardXOffset 0
+SetField groupwidgets[2].textwidgets[0].data.StandardYUnknown 0
+SetField groupwidgets[2].textwidgets[0].data.StandardXUnknown 0
+SetField groupwidgets[2].textwidgets[0].datasourcename null
+SetField groupwidgets[2].textwidgets[0].textstring null
+SetField groupwidgets[2].textwidgets[0].textcolor ice
+SetField groupwidgets[2].textwidgets[0].textfont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[2].bitmapwidgets[0].data.name null
+SetField groupwidgets[2].bitmapwidgets[0].data.WidescreenYOffset -5
+SetField groupwidgets[2].bitmapwidgets[0].data.WidescreenXOffset -70
+SetField groupwidgets[2].bitmapwidgets[0].data.WidescreenYUnknown 34
+SetField groupwidgets[2].bitmapwidgets[0].data.WidescreenXUnknown 580
+SetField groupwidgets[2].bitmapwidgets[0].data.StandardYOffset 0
+SetField groupwidgets[2].bitmapwidgets[0].data.StandardXOffset 0
+SetField groupwidgets[2].bitmapwidgets[0].data.StandardYUnknown 0
+SetField groupwidgets[2].bitmapwidgets[0].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+echo film_image//////////////////////////////////////////////////////////
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].textwidgets[0].data.name name
+SetField groupwidgets[4].textwidgets[0].data.WidescreenYOffset 185
+SetField groupwidgets[4].textwidgets[0].data.WidescreenXOffset 727
+SetField groupwidgets[4].textwidgets[0].data.WidescreenYUnknown 215
+SetField groupwidgets[4].textwidgets[0].data.WidescreenXUnknown 966
+SetField groupwidgets[4].textwidgets[0].data.StandardYOffset 0
+SetField groupwidgets[4].textwidgets[0].data.StandardXOffset 0
+SetField groupwidgets[4].textwidgets[0].data.StandardYUnknown 0
+SetField groupwidgets[4].textwidgets[0].data.StandardXUnknown 0
+SetField groupwidgets[4].textwidgets[0].datasourcename subitem
+SetField groupwidgets[4].textwidgets[0].textstring name
+SetField groupwidgets[4].textwidgets[0].textcolor null
+SetField groupwidgets[4].textwidgets[0].textfont 4
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].textwidgets[1].data.name description
+SetField groupwidgets[4].textwidgets[1].data.WidescreenYOffset 210
+SetField groupwidgets[4].textwidgets[1].data.WidescreenXOffset 727
+SetField groupwidgets[4].textwidgets[1].data.WidescreenYUnknown 320
+SetField groupwidgets[4].textwidgets[1].data.WidescreenXUnknown 966
+SetField groupwidgets[4].textwidgets[1].data.StandardYOffset 0
+SetField groupwidgets[4].textwidgets[1].data.StandardXOffset 0
+SetField groupwidgets[4].textwidgets[1].data.StandardYUnknown 0
+SetField groupwidgets[4].textwidgets[1].data.StandardXUnknown 0
+SetField groupwidgets[4].textwidgets[1].datasourcename subitem
+SetField groupwidgets[4].textwidgets[1].textstring description
+SetField groupwidgets[4].textwidgets[1].textcolor ice
+SetField groupwidgets[4].textwidgets[1].textfont 4
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].textwidgets[2].data.name metadata_line_1_label
+SetField groupwidgets[4].textwidgets[2].data.WidescreenYOffset 325
+SetField groupwidgets[4].textwidgets[2].data.WidescreenXOffset 727
+SetField groupwidgets[4].textwidgets[2].data.WWidescreenYUnknown 355
+SetField groupwidgets[4].textwidgets[2].data.WidescreenXUnknown 838
+SetField groupwidgets[4].textwidgets[2].data.StandardYOffset 0
+SetField groupwidgets[4].textwidgets[2].data.StandardXOffset 0
+SetField groupwidgets[4].textwidgets[2].data.StandardYUnknown 0
+SetField groupwidgets[4].textwidgets[2].data.StandardXUnknown 0
+SetField groupwidgets[4].textwidgets[2].datasourcename subitem
+SetField groupwidgets[4].textwidgets[2].textstring metadata_line_1_label
+SetField groupwidgets[4].textwidgets[2].textcolor ice
+SetField groupwidgets[4].textwidgets[2].textfont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].textwidgets[3].data.name metadata_line_1
+SetField groupwidgets[4].textwidgets[3].data.WidescreenYOffset 325
+SetField groupwidgets[4].textwidgets[3].data.WidescreenXOffset 798
+SetField groupwidgets[4].textwidgets[3].data.WidescreenYUnknown 355
+SetField groupwidgets[4].textwidgets[3].data.WidescreenXUnknown 966
+SetField groupwidgets[4].textwidgets[3].data.StandardYOffset 0
+SetField groupwidgets[4].textwidgets[3].data.StandardXOffset 0
+SetField groupwidgets[4].textwidgets[3].data.StandardYUnknown 0
+SetField groupwidgets[4].textwidgets[3].data.StandardXUnknown 0
+SetField groupwidgets[4].textwidgets[3].datasourcename subitem
+SetField groupwidgets[4].textwidgets[3].textstring metadata_line_1
+SetField groupwidgets[4].textwidgets[3].textcolor null
+SetField groupwidgets[4].textwidgets[3].textfont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].textwidgets[4].data.name metadata_line_2_label
+SetField groupwidgets[4].textwidgets[4].data.WidescreenYOffset 354
+SetField groupwidgets[4].textwidgets[4].data.WidescreenXOffset 727
+SetField groupwidgets[4].textwidgets[4].data.WidescreenYUnknown 384
+SetField groupwidgets[4].textwidgets[4].data.WidescreenXUnknown 838
+SetField groupwidgets[4].textwidgets[4].data.StandardYOffset 0
+SetField groupwidgets[4].textwidgets[4].data.StandardXOffset 0
+SetField groupwidgets[4].textwidgets[4].data.StandardYUnknown 0
+SetField groupwidgets[4].textwidgets[4].data.StandardXUnknown 0
+SetField groupwidgets[4].textwidgets[4].datasourcename subitem
+SetField groupwidgets[4].textwidgets[4].textstring metadata_line_2_label
+SetField groupwidgets[4].textwidgets[4].textcolor ice
+SetField groupwidgets[4].textwidgets[4].textfont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].textwidgets[5].data.name metadata_line_2
+SetField groupwidgets[4].textwidgets[5].data.WidescreenYOffset 354
+SetField groupwidgets[4].textwidgets[5].data.WidescreenXOffset 838
+SetField groupwidgets[4].textwidgets[5].data.WidescreenYUnknown 384
+SetField groupwidgets[4].textwidgets[5].data.WidescreenXUnknown 966
+SetField groupwidgets[4].textwidgets[5].data.StandardYOffset 0
+SetField groupwidgets[4].textwidgets[5].data.StandardXOffset 0
+SetField groupwidgets[4].textwidgets[5].data.StandardYUnknown 0
+SetField groupwidgets[4].textwidgets[5].data.StandardXUnknown 0
+SetField groupwidgets[4].textwidgets[5].datasourcename subitem
+SetField groupwidgets[4].textwidgets[5].textstring metadata_line_2
+SetField groupwidgets[4].textwidgets[5].textcolor null
+SetField groupwidgets[4].textwidgets[5].textfont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].textwidgets[6].data.name metadata_line_3_label
+SetField groupwidgets[4].textwidgets[6].data.WidescreenYOffset 377
+SetField groupwidgets[4].textwidgets[6].data.WidescreenXOffset 727
+SetField groupwidgets[4].textwidgets[6].data.WidescreenYUnknown 407
+SetField groupwidgets[4].textwidgets[6].data.WidescreenXUnknown 838
+SetField groupwidgets[4].textwidgets[6].data.StandardYOffset 0
+SetField groupwidgets[4].textwidgets[6].data.StandardXOffset 0
+SetField groupwidgets[4].textwidgets[6].data.StandardYUnknown 0
+SetField groupwidgets[4].textwidgets[6].data.StandardXUnknown 0
+SetField groupwidgets[4].textwidgets[6].datasourcename subitem
+SetField groupwidgets[4].textwidgets[6].textstring metadata_line_3_label
+SetField groupwidgets[4].textwidgets[6].textcolor ice
+SetField groupwidgets[4].textwidgets[6].textfont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].textwidgets[7].data.name metadata_line_3
+SetField groupwidgets[4].textwidgets[7].data.WidescreenYOffset 377
+SetField groupwidgets[4].textwidgets[7].data.WidescreenXOffset 838
+SetField groupwidgets[4].textwidgets[7].data.WidescreenYUnknown 407
+SetField groupwidgets[4].textwidgets[7].data.WidescreenXUnknown 966
+SetField groupwidgets[4].textwidgets[7].data.StandardYOffset 0
+SetField groupwidgets[4].textwidgets[7].data.StandardXOffset 0
+SetField groupwidgets[4].textwidgets[7].data.StandardYUnknown 0
+SetField groupwidgets[4].textwidgets[7].data.StandardXUnknown 0
+SetField groupwidgets[4].textwidgets[7].datasourcename subitem
+SetField groupwidgets[4].textwidgets[7].textstring metadata_line_3
+SetField groupwidgets[4].textwidgets[7].textcolor null
+SetField groupwidgets[4].textwidgets[7].textfont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].textwidgets[8].data.name metadata_line_4_label
+SetField groupwidgets[4].textwidgets[8].data.WidescreenYOffset 400
+SetField groupwidgets[4].textwidgets[8].data.WidescreenXOffset 727
+SetField groupwidgets[4].textwidgets[8].data.WidescreenYUnknown 430
+SetField groupwidgets[4].textwidgets[8].data.WidescreenXUnknown 838
+SetField groupwidgets[4].textwidgets[8].data.StandardYOffset 0
+SetField groupwidgets[4].textwidgets[8].data.StandardXOffset 0
+SetField groupwidgets[4].textwidgets[8].data.StandardYUnknown 0
+SetField groupwidgets[4].textwidgets[8].data.StandardXUnknown 0
+SetField groupwidgets[4].textwidgets[8].datasourcename subitem
+SetField groupwidgets[4].textwidgets[8].textstring metadata_line_4_label
+SetField groupwidgets[4].textwidgets[8].textcolor ice
+SetField groupwidgets[4].textwidgets[8].textfont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].textwidgets[9].data.name metadata_line_4
+SetField groupwidgets[4].textwidgets[9].data.WidescreenYOffset 400
+SetField groupwidgets[4].textwidgets[9].data.WidescreenXOffset 838
+SetField groupwidgets[4].textwidgets[9].data.WidescreenYUnknown 430
+SetField groupwidgets[4].textwidgets[9].data.WidescreenXUnknown 966
+SetField groupwidgets[4].textwidgets[9].data.StandardYOffset 0
+SetField groupwidgets[4].textwidgets[9].data.StandardXOffset 0
+SetField groupwidgets[4].textwidgets[9].data.StandardYUnknown 0
+SetField groupwidgets[4].textwidgets[9].data.StandardXUnknown 0
+SetField groupwidgets[4].textwidgets[9].datasourcename subitem
+SetField groupwidgets[4].textwidgets[9].textstring metadata_line_4
+SetField groupwidgets[4].textwidgets[9].textcolor null
+SetField groupwidgets[4].textwidgets[9].textfont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].bitmapwidgets[0].data.name type
+SetField groupwidgets[4].bitmapwidgets[0].data.WidescreenYOffset 52
+SetField groupwidgets[4].bitmapwidgets[0].data.WidescreenXOffset 727
+SetField groupwidgets[4].bitmapwidgets[0].data.WidescreenYUnknown 182
+SetField groupwidgets[4].bitmapwidgets[0].data.WidescreenXUnknown 963
+SetField groupwidgets[4].bitmapwidgets[0].data.StandardYOffset 0
+SetField groupwidgets[4].bitmapwidgets[0].data.StandardXOffset 0
+SetField groupwidgets[4].bitmapwidgets[0].data.StandardYUnknown 0
+SetField groupwidgets[4].bitmapwidgets[0].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].bitmapwidgets[1].data.name game_engine
+SetField groupwidgets[4].bitmapwidgets[1].data.WidescreenYOffset 52
+SetField groupwidgets[4].bitmapwidgets[1].data.WidescreenXOffset 727
+SetField groupwidgets[4].bitmapwidgets[1].data.WidescreenYUnknown 182
+SetField groupwidgets[4].bitmapwidgets[1].data.WidescreenXUnknown 963
+SetField groupwidgets[4].bitmapwidgets[1].data.StandardYOffset 0
+SetField groupwidgets[4].bitmapwidgets[1].data.StandardXOffset 0
+SetField groupwidgets[4].bitmapwidgets[1].data.StandardYUnknown 0
+SetField groupwidgets[4].bitmapwidgets[1].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].bitmapwidgets[2].data.name map_image
+SetField groupwidgets[4].bitmapwidgets[2].data.WidescreenYOffset 52
+SetField groupwidgets[4].bitmapwidgets[2].data.WidescreenXOffset 727
+SetField groupwidgets[4].bitmapwidgets[2].data.WidescreenYUnknown 182
+SetField groupwidgets[4].bitmapwidgets[2].data.WidescreenXUnknown 963
+SetField groupwidgets[4].bitmapwidgets[2].data.StandardYOffset 35
+SetField groupwidgets[4].bitmapwidgets[2].data.StandardXOffset 510
+SetField groupwidgets[4].bitmapwidgets[2].data.StandardYUnknown 170
+SetField groupwidgets[4].bitmapwidgets[2].data.StandardXUnknown 744
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].bitmapwidgets[3].data.name autor_field_lame_hack_don't_break
+SetField groupwidgets[4].bitmapwidgets[3].data.WidescreenYOffset 322
+SetField groupwidgets[4].bitmapwidgets[3].data.WidescreenXOffset 719
+SetField groupwidgets[4].bitmapwidgets[3].data.WidescreenYUnknown 349
+SetField groupwidgets[4].bitmapwidgets[3].data.WidescreenXUnknown 972
+SetField groupwidgets[4].bitmapwidgets[3].data.StandardYOffset 0
+SetField groupwidgets[4].bitmapwidgets[3].data.StandardXOffset 0
+SetField groupwidgets[4].bitmapwidgets[3].data.StandardYUnknown 0
+SetField groupwidgets[4].bitmapwidgets[3].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].bitmapwidgets[4].data.name autor_field_overline
+SetField groupwidgets[4].bitmapwidgets[4].data.WidescreenYOffset 321
+SetField groupwidgets[4].bitmapwidgets[4].data.WidescreenXOffset 719
+SetField groupwidgets[4].bitmapwidgets[4].data.WidescreenYUnknown 322
+SetField groupwidgets[4].bitmapwidgets[4].data.WidescreenXUnknown 972
+SetField groupwidgets[4].bitmapwidgets[4].data.StandardYOffset 0
+SetField groupwidgets[4].bitmapwidgets[4].data.StandardXOffset 0
+SetField groupwidgets[4].bitmapwidgets[4].data.StandardYUnknown 0
+SetField groupwidgets[4].bitmapwidgets[4].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].bitmapwidgets[5].data.name autor_field_underline
+SetField groupwidgets[4].bitmapwidgets[5].data.WidescreenYOffset 349
+SetField groupwidgets[4].bitmapwidgets[5].data.WidescreenXOffset 719
+SetField groupwidgets[4].bitmapwidgets[5].data.WidescreenYUnknown 350
+SetField groupwidgets[4].bitmapwidgets[5].data.WidescreenXUnknown 972
+SetField groupwidgets[4].bitmapwidgets[5].data.StandardYOffset 0
+SetField groupwidgets[4].bitmapwidgets[5].data.StandardXOffset 0
+SetField groupwidgets[4].bitmapwidgets[5].data.StandardYUnknown 0
+SetField groupwidgets[4].bitmapwidgets[5].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+echo network_mode//////////////////////////////////
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[5].textwidgets[0].data.name description
+SetField groupwidgets[5].textwidgets[0].data.WidescreenYOffset 59
+SetField groupwidgets[5].textwidgets[0].data.WidescreenXOffset 731
+SetField groupwidgets[5].textwidgets[0].data.WidescreenYUnknown 397
+SetField groupwidgets[5].textwidgets[0].data.WidescreenXUnknown 963
+SetField groupwidgets[5].textwidgets[0].data.StandardYOffset 0
+SetField groupwidgets[5].textwidgets[0].data.StandardXOffset 0
+SetField groupwidgets[5].textwidgets[0].data.StandardYUnknown 0
+SetField groupwidgets[5].textwidgets[0].data.StandardXUnknown 0
+SetField groupwidgets[5].textwidgets[0].datasourcename category
+SetField groupwidgets[5].textwidgets[0].textstring description
+SetField groupwidgets[5].textwidgets[0].textcolor ice
+SetField groupwidgets[5].textwidgets[0].textfont 4
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[5].bitmapwidgets[0].data.name flavor_image
+SetField groupwidgets[5].bitmapwidgets[0].data.WidescreenYOffset 59
+SetField groupwidgets[5].bitmapwidgets[0].data.WidescreenXOffset 727
+SetField groupwidgets[5].bitmapwidgets[0].data.WidescreenYUnknown 0
+SetField groupwidgets[5].bitmapwidgets[0].data.WidescreenXUnknown 0
+SetField groupwidgets[5].bitmapwidgets[0].data.StandardYOffset 0
+SetField groupwidgets[5].bitmapwidgets[0].data.StandardXOffset 0
+SetField groupwidgets[5].bitmapwidgets[0].data.StandardYUnknown 0
+SetField groupwidgets[5].bitmapwidgets[0].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+echo advertisement_mode_image///////////////////////////////////
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[6].textwidgets[0].data.name description
+SetField groupwidgets[6].textwidgets[0].data.WidescreenYOffset 59
+SetField groupwidgets[6].textwidgets[0].data.WidescreenXOffset 731
+SetField groupwidgets[6].textwidgets[0].data.WidescreenYUnknown 397
+SetField groupwidgets[6].textwidgets[0].data.WidescreenXUnknown 963
+SetField groupwidgets[6].textwidgets[0].data.StandardYOffset 0
+SetField groupwidgets[6].textwidgets[0].data.StandardXOffset 0
+SetField groupwidgets[6].textwidgets[0].data.StandardYUnknown 0
+SetField groupwidgets[6].textwidgets[0].data.StandardXUnknown 0
+SetField groupwidgets[6].textwidgets[0].datasourcename subitem
+SetField groupwidgets[6].textwidgets[0].textstring description
+SetField groupwidgets[6].textwidgets[0].textcolor ice
+SetField groupwidgets[6].textwidgets[0].textfont 4
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[6].bitmapwidgets[0].data.name flavor_image
+SetField groupwidgets[6].bitmapwidgets[0].data.WidescreenYOffset 59
+SetField groupwidgets[6].bitmapwidgets[0].data.WidescreenXOffset 727
+SetField groupwidgets[6].bitmapwidgets[0].data.WidescreenYUnknown 0
+SetField groupwidgets[6].bitmapwidgets[0].data.WidescreenXUnknown 0
+SetField groupwidgets[6].bitmapwidgets[0].data.StandardYOffset 0
+SetField groupwidgets[6].bitmapwidgets[0].data.StandardXOffset 0
+SetField groupwidgets[6].bitmapwidgets[0].data.StandardYUnknown 0
+SetField groupwidgets[6].bitmapwidgets[0].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+echo gametype image////////////////////////////////////////////////////
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[7].textwidgets[0].data.name description
+SetField groupwidgets[7].textwidgets[0].data.WidescreenYOffset 59
+SetField groupwidgets[7].textwidgets[0].data.WidescreenXOffset 731
+SetField groupwidgets[7].textwidgets[0].data.WidescreenYUnknown 397
+SetField groupwidgets[7].textwidgets[0].data.WidescreenXUnknown 963
+SetField groupwidgets[7].textwidgets[0].data.StandardYOffset 0
+SetField groupwidgets[7].textwidgets[0].data.StandardXOffset 0
+SetField groupwidgets[7].textwidgets[0].data.StandardYUnknown 0
+SetField groupwidgets[7].textwidgets[0].data.StandardXUnknown 0
+SetField groupwidgets[7].textwidgets[0].datasourcename category
+SetField groupwidgets[7].textwidgets[0].textstring description
+SetField groupwidgets[7].textwidgets[0].textcolor ice
+SetField groupwidgets[7].textwidgets[0].textfont 4
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[7].bitmapwidgets[0].data.name flavor_image
+SetField groupwidgets[7].bitmapwidgets[0].data.WidescreenYOffset 59
+SetField groupwidgets[7].bitmapwidgets[0].data.WidescreenXOffset 727
+SetField groupwidgets[7].bitmapwidgets[0].data.WidescreenYUnknown 200
+SetField groupwidgets[7].bitmapwidgets[0].data.WidescreenXUnknown 930
+SetField groupwidgets[7].bitmapwidgets[0].data.StandardYOffset 0
+SetField groupwidgets[7].bitmapwidgets[0].data.StandardXOffset 0
+SetField groupwidgets[7].bitmapwidgets[0].data.StandardYUnknown 0
+SetField groupwidgets[7].bitmapwidgets[0].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+echo game_variant_image////////////////////////////////////////////////////
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[8].textwidgets[0].data.name description
+SetField groupwidgets[8].textwidgets[0].data.WidescreenYOffset 239
+SetField groupwidgets[8].textwidgets[0].data.WidescreenXOffset 727
+SetField groupwidgets[8].textwidgets[0].data.WidescreenYUnknown 337
+SetField groupwidgets[8].textwidgets[0].data.WidescreenXUnknown 963
+SetField groupwidgets[8].textwidgets[0].data.StandardYOffset 0
+SetField groupwidgets[8].textwidgets[0].data.StandardXOffset 0
+SetField groupwidgets[8].textwidgets[0].data.StandardYUnknown 0
+SetField groupwidgets[8].textwidgets[0].data.StandardXUnknown 0
+SetField groupwidgets[8].textwidgets[0].datasourcename subitem
+SetField groupwidgets[8].textwidgets[0].textstring description
+SetField groupwidgets[8].textwidgets[0].textcolor ice
+SetField groupwidgets[8].textwidgets[0].textfont 4
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[8].textwidgets[1].data.name meta_line_2_label
+SetField groupwidgets[8].textwidgets[1].data.WidescreenYOffset 337
+SetField groupwidgets[8].textwidgets[1].data.WidescreenXOffset 727
+SetField groupwidgets[8].textwidgets[1].data.WidescreenYUnknown 367
+SetField groupwidgets[8].textwidgets[1].data.WidescreenXUnknown 838
+SetField groupwidgets[8].textwidgets[1].data.StandardYOffset 0
+SetField groupwidgets[8].textwidgets[1].data.StandardXOffset 0
+SetField groupwidgets[8].textwidgets[1].data.StandardYUnknown 0
+SetField groupwidgets[8].textwidgets[1].data.StandardXUnknown 0
+SetField groupwidgets[8].textwidgets[1].datasourcename subitem
+SetField groupwidgets[8].textwidgets[1].textstring meta_line_2_label
+SetField groupwidgets[8].textwidgets[1].textcolor ice
+SetField groupwidgets[8].textwidgets[1].textfont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[8].textwidgets[2].data.name meta_line_2
+SetField groupwidgets[8].textwidgets[2].data.WidescreenYOffset 337
+SetField groupwidgets[8].textwidgets[2].data.WidescreenXOffset 798
+SetField groupwidgets[8].textwidgets[2].data.WidescreenYUnknown 367
+SetField groupwidgets[8].textwidgets[2].data.WidescreenXUnknown 966
+SetField groupwidgets[8].textwidgets[2].data.StandardYOffset 0
+SetField groupwidgets[8].textwidgets[2].data.StandardXOffset 0
+SetField groupwidgets[8].textwidgets[2].data.StandardYUnknown 0
+SetField groupwidgets[8].textwidgets[2].data.StandardXUnknown 0
+SetField groupwidgets[8].textwidgets[2].datasourcename subitem
+SetField groupwidgets[8].textwidgets[2].textstring meta_line_1
+SetField groupwidgets[8].textwidgets[2].textcolor null
+SetField groupwidgets[8].textwidgets[2].textfont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[8].textwidgets[3].data.name meta_line_3_label
+SetField groupwidgets[8].textwidgets[3].data.WidescreenYOffset 366
+SetField groupwidgets[8].textwidgets[3].data.WidescreenXOffset 727
+SetField groupwidgets[8].textwidgets[3].data.WidescreenYUnknown 396
+SetField groupwidgets[8].textwidgets[3].data.WidescreenXUnknown 838
+SetField groupwidgets[8].textwidgets[3].data.StandardYOffset 0
+SetField groupwidgets[8].textwidgets[3].data.StandardXOffset 0
+SetField groupwidgets[8].textwidgets[3].data.StandardYUnknown 0
+SetField groupwidgets[8].textwidgets[3].data.StandardXUnknown 0
+SetField groupwidgets[8].textwidgets[3].datasourcename subitem
+SetField groupwidgets[8].textwidgets[3].textstring meta_line_2_label
+SetField groupwidgets[8].textwidgets[3].textcolor ice
+SetField groupwidgets[8].textwidgets[3].textfont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[8].textwidgets[4].data.name meta_line_3
+SetField groupwidgets[8].textwidgets[4].data.WidescreenYOffset 366
+SetField groupwidgets[8].textwidgets[4].data.WidescreenXOffset 838
+SetField groupwidgets[8].textwidgets[4].data.WidescreenYUnknown 396
+SetField groupwidgets[8].textwidgets[4].data.WidescreenXUnknown 966
+SetField groupwidgets[8].textwidgets[4].data.StandardYOffset 0
+SetField groupwidgets[8].textwidgets[4].data.StandardXOffset 0
+SetField groupwidgets[8].textwidgets[4].data.StandardYUnknown 0
+SetField groupwidgets[8].textwidgets[4].data.StandardXUnknown 0
+SetField groupwidgets[8].textwidgets[4].datasourcename subitem
+SetField groupwidgets[8].textwidgets[4].textstring meta_line_2
+SetField groupwidgets[8].textwidgets[4].textcolor ice
+SetField groupwidgets[8].textwidgets[4].textfont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[8].textwidgets[5].data.name meta_line_4_label
+SetField groupwidgets[8].textwidgets[5].data.WidescreenYOffset 391
+SetField groupwidgets[8].textwidgets[5].data.WidescreenXOffset 727
+SetField groupwidgets[8].textwidgets[5].data.WidescreenYUnknown 421
+SetField groupwidgets[8].textwidgets[5].data.WidescreenXUnknown 838
+SetField groupwidgets[8].textwidgets[5].data.StandardYOffset 0
+SetField groupwidgets[8].textwidgets[5].data.StandardXOffset 0
+SetField groupwidgets[8].textwidgets[5].data.StandardYUnknown 0
+SetField groupwidgets[8].textwidgets[5].data.StandardXUnknown 0
+SetField groupwidgets[8].textwidgets[5].datasourcename subitem
+SetField groupwidgets[8].textwidgets[5].textstring meta_line_3_label
+SetField groupwidgets[8].textwidgets[5].textcolor ice
+SetField groupwidgets[8].textwidgets[5].textfont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[8].textwidgets[6].data.name meta_line_4
+SetField groupwidgets[8].textwidgets[6].data.WidescreenYOffset 391
+SetField groupwidgets[8].textwidgets[6].data.WidescreenXOffset 838
+SetField groupwidgets[8].textwidgets[6].data.WidescreenYUnknown 421
+SetField groupwidgets[8].textwidgets[6].data.WidescreenXUnknown 966
+SetField groupwidgets[8].textwidgets[6].data.StandardYOffset 0
+SetField groupwidgets[8].textwidgets[6].data.StandardXOffset 0
+SetField groupwidgets[8].textwidgets[6].data.StandardYUnknown 0
+SetField groupwidgets[8].textwidgets[6].data.StandardXUnknown 0
+SetField groupwidgets[8].textwidgets[6].datasourcename subitem
+SetField groupwidgets[8].textwidgets[6].textstring meta_line_3
+SetField groupwidgets[8].textwidgets[6].textcolor ice
+SetField groupwidgets[8].textwidgets[6].textfont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[8].bitmapwidgets[0].data.name flavor_image
+SetField groupwidgets[8].bitmapwidgets[0].data.WidescreenYOffset 59
+SetField groupwidgets[8].bitmapwidgets[0].data.WidescreenXOffset 760
+SetField groupwidgets[8].bitmapwidgets[0].data.WidescreenYUnknown 200
+SetField groupwidgets[8].bitmapwidgets[0].data.WidescreenXUnknown 930
+SetField groupwidgets[8].bitmapwidgets[0].data.StandardYOffset 0
+SetField groupwidgets[8].bitmapwidgets[0].data.StandardYUnknown 0
+SetField groupwidgets[8].bitmapwidgets[0].data.StandardYUnknown 0
+SetField groupwidgets[8].bitmapwidgets[0].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[8].bitmapwidgets[1].data.name autor_field_lame_hack_don't_break
+SetField groupwidgets[8].bitmapwidgets[1].data.WidescreenYOffset 335
+SetField groupwidgets[8].bitmapwidgets[1].data.WidescreenXOffset 719
+SetField groupwidgets[8].bitmapwidgets[1].data.WidescreenYUnknown 362
+SetField groupwidgets[8].bitmapwidgets[1].data.WidescreenXUnknown 972
+SetField groupwidgets[8].bitmapwidgets[1].data.StandardYOffset 0
+SetField groupwidgets[8].bitmapwidgets[1].data.StandardXOffset 0
+SetField groupwidgets[8].bitmapwidgets[1].data.StandardYUnknown 0
+SetField groupwidgets[8].bitmapwidgets[1].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[8].bitmapwidgets[2].data.name autor_field_overline
+SetField groupwidgets[8].bitmapwidgets[2].data.WidescreenYOffset 334
+SetField groupwidgets[8].bitmapwidgets[2].data.WidescreenXOffset 719
+SetField groupwidgets[8].bitmapwidgets[2].data.WidescreenYUnknown 335
+SetField groupwidgets[8].bitmapwidgets[2].data.WidescreenXUnknown 972
+SetField groupwidgets[8].bitmapwidgets[2].data.StandardYOffset 0
+SetField groupwidgets[8].bitmapwidgets[2].data.StandardXOffset 0
+SetField groupwidgets[8].bitmapwidgets[2].data.StandardYUnknown 0
+SetField groupwidgets[8].bitmapwidgets[2].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[8].bitmapwidgets[3].data.name autor_field_underline
+SetField groupwidgets[8].bitmapwidgets[3].data.WidescreenYOffset 362
+SetField groupwidgets[8].bitmapwidgets[3].data.WidescreenXOffset 719
+SetField groupwidgets[8].bitmapwidgets[3].data.WidescreenYUnknown 363
+SetField groupwidgets[8].bitmapwidgets[3].data.WidescreenXUnknown 972
+SetField groupwidgets[8].bitmapwidgets[3].data.StandardYOffset 0
+SetField groupwidgets[8].bitmapwidgets[3].data.StandardXOffset 0
+SetField groupwidgets[8].bitmapwidgets[3].data.StandardYUnknown 0
+SetField groupwidgets[8].bitmapwidgets[3].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+echo map_image////////////////////////////////////////////////////
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[9].textwidgets[0].data.name description
+SetField groupwidgets[9].textwidgets[0].data.WidescreenYOffset 157
+SetField groupwidgets[9].textwidgets[0].data.WidescreenXOffset 727
+SetField groupwidgets[9].textwidgets[0].data.WidescreenYUnknown 397
+SetField groupwidgets[9].textwidgets[0].data.WidescreenXUnknown 2365
+SetField groupwidgets[9].textwidgets[0].data.StandardYOffset 0
+SetField groupwidgets[9].textwidgets[0].data.StandardXOffset 0
+SetField groupwidgets[9].textwidgets[0].data.StandardYUnknown 0
+SetField groupwidgets[9].textwidgets[0].data.StandardXUnknown 0
+SetField groupwidgets[9].textwidgets[0].datasourcename category
+SetField groupwidgets[9].textwidgets[0].textstring description
+SetField groupwidgets[9].textwidgets[0].textcolor ice
+SetField groupwidgets[9].textwidgets[0].textfont 4
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[9].bitmapwidgets[0].data.name unknown_film_image
+SetField groupwidgets[9].bitmapwidgets[0].data.WidescreenYOffset -369
+SetField groupwidgets[9].bitmapwidgets[0].data.WidescreenXOffset 727
+SetField groupwidgets[9].bitmapwidgets[0].data.WidescreenYUnknown 137
+SetField groupwidgets[9].bitmapwidgets[0].data.WidescreenXUnknown 2365
+SetField groupwidgets[9].bitmapwidgets[0].data.StandardYOffset 44
+SetField groupwidgets[9].bitmapwidgets[0].data.StandardXOffset 510
+SetField groupwidgets[9].bitmapwidgets[0].data.StandardYUnknown 122
+SetField groupwidgets[9].bitmapwidgets[0].data.StandardXUnknown 745
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[9].bitmapwidgets[1].data.name category_image
+SetField groupwidgets[9].bitmapwidgets[1].data.WidescreenYOffset 59
+SetField groupwidgets[9].bitmapwidgets[1].data.WidescreenXOffset 750
+SetField groupwidgets[9].bitmapwidgets[1].data.WidescreenYUnknown 155
+SetField groupwidgets[9].bitmapwidgets[1].data.WidescreenXUnknown 899
+SetField groupwidgets[9].bitmapwidgets[1].data.StandardYOffset 0
+SetField groupwidgets[9].bitmapwidgets[1].data.StandardXOffset 0
+SetField groupwidgets[9].bitmapwidgets[1].data.StandardYUnknown 0
+SetField groupwidgets[9].bitmapwidgets[1].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+echo map_variant_image////////////////////////////////////////////////////
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[10].textwidgets[0].data.name description
+SetField groupwidgets[10].textwidgets[0].data.WidescreenYOffset 157
+SetField groupwidgets[10].textwidgets[0].data.WidescreenXOffset 727
+SetField groupwidgets[10].textwidgets[0].data.WidescreenYUnknown 397
+SetField groupwidgets[10].textwidgets[0].data.WidescreenXUnknown 2365
+SetField groupwidgets[10].textwidgets[0].data.StandardYOffset 0
+SetField groupwidgets[10].textwidgets[0].data.StandardXOffset 0
+SetField groupwidgets[10].textwidgets[0].data.StandardYUnknown 0
+SetField groupwidgets[10].textwidgets[0].data.StandardXUnknown 0
+SetField groupwidgets[10].textwidgets[0].datasourcename subitem
+SetField groupwidgets[10].textwidgets[0].textstring description
+SetField groupwidgets[10].textwidgets[0].textcolor ice
+SetField groupwidgets[10].textwidgets[0].textfont 4
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[10].textwidgets[1].data.name metadata_line_1_label
+SetField groupwidgets[10].textwidgets[1].data.WidescreenYOffset 337
+SetField groupwidgets[10].textwidgets[1].data.WidescreenXOffset 727
+SetField groupwidgets[10].textwidgets[1].data.WidescreenYUnknown 337
+SetField groupwidgets[10].textwidgets[1].data.WidescreenXUnknown 898
+SetField groupwidgets[10].textwidgets[1].data.StandardYOffset 0
+SetField groupwidgets[10].textwidgets[1].data.StandardXOffset 0
+SetField groupwidgets[10].textwidgets[1].data.StandardYUnknown 0
+SetField groupwidgets[10].textwidgets[1].data.StandardXUnknown 0
+SetField groupwidgets[10].textwidgets[1].datasourcename subitem
+SetField groupwidgets[10].textwidgets[1].textstring metadata_line_1_label
+SetField groupwidgets[10].textwidgets[1].textcolor ice
+SetField groupwidgets[10].textwidgets[1].textfont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[10].textwidgets[2].data.name metadata_line_1
+SetField groupwidgets[10].textwidgets[2].data.WidescreenYOffset 337
+SetField groupwidgets[10].textwidgets[2].data.WidescreenXOffset 868
+SetField groupwidgets[10].textwidgets[2].data.WidescreenYUnknown 400
+SetField groupwidgets[10].textwidgets[2].data.WidescreenXUnknown 1220
+SetField groupwidgets[10].textwidgets[2].data.StandardYOffset 0
+SetField groupwidgets[10].textwidgets[2].data.StandardXOffset 0
+SetField groupwidgets[10].textwidgets[2].data.StandardYUnknown 0
+SetField groupwidgets[10].textwidgets[2].data.StandardXUnknown 0
+SetField groupwidgets[10].textwidgets[2].datasourcename subitem
+SetField groupwidgets[10].textwidgets[2].textstring metadata_line_1
+SetField groupwidgets[10].textwidgets[2].textcolor null
+SetField groupwidgets[10].textwidgets[2].textfont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[10].textwidgets[3].data.name metadata_line_2_label
+SetField groupwidgets[10].textwidgets[3].data.WidescreenYOffset 399
+SetField groupwidgets[10].textwidgets[3].data.WidescreenXOffset 727
+SetField groupwidgets[10].textwidgets[3].data.WidescreenYUnknown 458
+SetField groupwidgets[10].textwidgets[3].data.WidescreenXUnknown 848
+SetField groupwidgets[10].textwidgets[3].data.StandardYOffset 0
+SetField groupwidgets[10].textwidgets[3].data.StandardXOffset 0
+SetField groupwidgets[10].textwidgets[3].data.StandardYUnknown 0
+SetField groupwidgets[10].textwidgets[3].data.StandardXUnknown 0
+SetField groupwidgets[10].textwidgets[3].datasourcename subitem
+SetField groupwidgets[10].textwidgets[3].textstring metadata_line_2_label
+SetField groupwidgets[10].textwidgets[3].textcolor ice
+SetField groupwidgets[10].textwidgets[3].textfont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[10].textwidgets[4].data.name metadata_line_2
+SetField groupwidgets[10].textwidgets[4].data.WidescreenYOffset 399
+SetField groupwidgets[10].textwidgets[4].data.WidescreenXOffset 822
+SetField groupwidgets[10].textwidgets[4].data.WidescreenYUnknown 459
+SetField groupwidgets[10].textwidgets[4].data.WidescreenXUnknown 1050
+SetField groupwidgets[10].textwidgets[4].data.StandardYOffset 0
+SetField groupwidgets[10].textwidgets[4].data.StandardXOffset 0
+SetField groupwidgets[10].textwidgets[4].data.StandardYUnknown 0
+SetField groupwidgets[10].textwidgets[4].data.StandardXUnknown 0
+SetField groupwidgets[10].textwidgets[4].datasourcename subitem
+SetField groupwidgets[10].textwidgets[4].textstring metadata_line_2
+SetField groupwidgets[10].textwidgets[4].textcolor null
+SetField groupwidgets[10].textwidgets[4].textfont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[10].textwidgets[5].data.name metadata_line_3_label
+SetField groupwidgets[10].textwidgets[5].data.WidescreenYOffset 461
+SetField groupwidgets[10].textwidgets[5].data.WidescreenXOffset 727
+SetField groupwidgets[10].textwidgets[5].data.WidescreenYUnknown 520
+SetField groupwidgets[10].textwidgets[5].data.WidescreenXUnknown 838
+SetField groupwidgets[10].textwidgets[5].data.StandardYOffset 0
+SetField groupwidgets[10].textwidgets[5].data.StandardXOffset 0
+SetField groupwidgets[10].textwidgets[5].data.StandardYUnknown 0
+SetField groupwidgets[10].textwidgets[5].data.StandardXUnknown 0
+SetField groupwidgets[10].textwidgets[5].datasourcename subitem
+SetField groupwidgets[10].textwidgets[5].textstring metadata_line_3_label
+SetField groupwidgets[10].textwidgets[5].textcolor ice
+SetField groupwidgets[10].textwidgets[5].textfont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[10].textwidgets[6].data.name metadata_line_3
+SetField groupwidgets[10].textwidgets[6].data.WidescreenYOffset 461
+SetField groupwidgets[10].textwidgets[6].data.WidescreenXOffset 822
+SetField groupwidgets[10].textwidgets[6].data.WidescreenYUnknown 521
+SetField groupwidgets[10].textwidgets[6].data.WidescreenXUnknown 1050
+SetField groupwidgets[10].textwidgets[6].data.StandardYOffset 0
+SetField groupwidgets[10].textwidgets[6].data.StandardXOffset 0
+SetField groupwidgets[10].textwidgets[6].data.StandardYUnknown 0
+SetField groupwidgets[10].textwidgets[6].data.StandardXUnknown 0
+SetField groupwidgets[10].textwidgets[6].datasourcename subitem
+SetField groupwidgets[10].textwidgets[6].textstring metadata_line_3
+SetField groupwidgets[10].textwidgets[6].textcolor ice
+SetField groupwidgets[10].textwidgets[6].textfont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[10].bitmapwidgets[0].data.name unknown_film_image
+SetField groupwidgets[10].bitmapwidgets[0].data.WidescreenYOffset -369
+SetField groupwidgets[10].bitmapwidgets[0].data.WidescreenXOffset 727
+SetField groupwidgets[10].bitmapwidgets[0].data.WidescreenYUnknown 137
+SetField groupwidgets[10].bitmapwidgets[0].data.WidescreenXUnknown 2365
+SetField groupwidgets[10].bitmapwidgets[0].data.StandardYOffset 44
+SetField groupwidgets[10].bitmapwidgets[0].data.StandardXOffset 510
+SetField groupwidgets[10].bitmapwidgets[0].data.StandardYUnknown 122
+SetField groupwidgets[10].bitmapwidgets[0].data.StandardXUnknown 745
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[10].bitmapwidgets[1].data.name autor_field_lame_hack_dont_break
+SetField groupwidgets[10].bitmapwidgets[1].data.WidescreenYOffset 335
+SetField groupwidgets[10].bitmapwidgets[1].data.WidescreenXOffset 720
+SetField groupwidgets[10].bitmapwidgets[1].data.WidescreenYUnknown 510
+SetField groupwidgets[10].bitmapwidgets[1].data.WidescreenXUnknown 1220
+SetField groupwidgets[10].bitmapwidgets[1].data.StandardYOffset 0
+SetField groupwidgets[10].bitmapwidgets[1].data.StandardXOffset 0
+SetField groupwidgets[10].bitmapwidgets[1].data.StandardYUnknown 0
+SetField groupwidgets[10].bitmapwidgets[1].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[10].bitmapwidgets[2].data.name autor_field_overline
+SetField groupwidgets[10].bitmapwidgets[2].data.WidescreenYOffset 334
+SetField groupwidgets[10].bitmapwidgets[2].data.WidescreenXOffset 720
+SetField groupwidgets[10].bitmapwidgets[2].data.WidescreenYUnknown 335
+SetField groupwidgets[10].bitmapwidgets[2].data.WidescreenXUnknown 1220
+SetField groupwidgets[10].bitmapwidgets[2].data.StandardYOffset 0
+SetField groupwidgets[10].bitmapwidgets[2].data.StandardXOffset 0
+SetField groupwidgets[10].bitmapwidgets[2].data.StandardYUnknown 0
+SetField groupwidgets[10].bitmapwidgets[2].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[10].bitmapwidgets[3].data.name autor_field_underline
+SetField groupwidgets[10].bitmapwidgets[3].data.WidescreenYOffset 509
+SetField groupwidgets[10].bitmapwidgets[3].data.WidescreenXOffset 720
+SetField groupwidgets[10].bitmapwidgets[3].data.WidescreenYUnknown 510
+SetField groupwidgets[10].bitmapwidgets[3].data.WidescreenXUnknown 1220
+SetField groupwidgets[10].bitmapwidgets[3].data.StandardYOffset 0
+SetField groupwidgets[10].bitmapwidgets[3].data.StandardXOffset 0
+SetField groupwidgets[10].bitmapwidgets[3].data.StandardYUnknown 0
+SetField groupwidgets[10].bitmapwidgets[3].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+echo hopper_category_image////////////////////////////////////////////////////
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[11].textwidgets[0].data.name description
+SetField groupwidgets[11].textwidgets[0].data.WidescreenYOffset 239
+SetField groupwidgets[11].textwidgets[0].data.WidescreenXOffset 731
+SetField groupwidgets[11].textwidgets[0].data.WidescreenYUnknown 397
+SetField groupwidgets[11].textwidgets[0].data.WidescreenXUnknown 963
+SetField groupwidgets[11].textwidgets[0].data.StandardYOffset 0
+SetField groupwidgets[11].textwidgets[0].data.StandardXOffset 0
+SetField groupwidgets[11].textwidgets[0].data.StandardYUnknown 0
+SetField groupwidgets[11].textwidgets[0].data.StandardXUnknown 0
+SetField groupwidgets[11].textwidgets[0].datasourcename category
+SetField groupwidgets[11].textwidgets[0].textstring description
+SetField groupwidgets[11].textwidgets[0].textcolor ice
+SetField groupwidgets[11].textwidgets[0].textfont 4
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[11].bitmapwidgets[0].data.name flavor_image
+SetField groupwidgets[11].bitmapwidgets[0].data.WidescreenYOffset 59
+SetField groupwidgets[11].bitmapwidgets[0].data.WidescreenXOffset 767
+SetField groupwidgets[11].bitmapwidgets[0].data.WidescreenYUnknown 0
+SetField groupwidgets[11].bitmapwidgets[0].data.WidescreenXUnknown 0
+SetField groupwidgets[11].bitmapwidgets[0].data.StandardYOffset 0
+SetField groupwidgets[11].bitmapwidgets[0].data.StandardXOffset 0
+SetField groupwidgets[11].bitmapwidgets[0].data.StandardYUnknown 0
+SetField groupwidgets[11].bitmapwidgets[0].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+
+echo hopper_image////////////////////////////////////////////////////
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[12].textwidgets[0].data.name description
+SetField groupwidgets[12].textwidgets[0].data.WidescreenYOffset 239
+SetField groupwidgets[12].textwidgets[0].data.WidescreenXOffset 731
+SetField groupwidgets[12].textwidgets[0].data.WidescreenYUnknown 397
+SetField groupwidgets[12].textwidgets[0].data.WidescreenXUnknown 963
+SetField groupwidgets[12].textwidgets[0].data.StandardYOffset 0
+SetField groupwidgets[12].textwidgets[0].data.StandardXOffset 0
+SetField groupwidgets[12].textwidgets[0].data.StandardYUnknown 0
+SetField groupwidgets[12].textwidgets[0].data.StandardXUnknown 0
+SetField groupwidgets[12].textwidgets[0].datasourcename subitem
+SetField groupwidgets[12].textwidgets[0].textstring description
+SetField groupwidgets[12].textwidgets[0].textcolor ice
+SetField groupwidgets[12].textwidgets[0].textfont 4
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[12].bitmapwidgets[0].data.name flavor_image
+SetField groupwidgets[12].bitmapwidgets[0].data.WidescreenYOffset 59
+SetField groupwidgets[12].bitmapwidgets[0].data.WidescreenXOffset 767
+SetField groupwidgets[12].bitmapwidgets[0].data.WidescreenYUnknown 0
+SetField groupwidgets[12].bitmapwidgets[0].data.WidescreenXUnknown 0
+SetField groupwidgets[12].bitmapwidgets[0].data.StandardYOffset 0
+SetField groupwidgets[12].bitmapwidgets[0].data.StandardXOffset 0
+SetField groupwidgets[12].bitmapwidgets[0].data.StandardYUnknown 0
+SetField groupwidgets[12].bitmapwidgets[0].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+dumplog
+exit
