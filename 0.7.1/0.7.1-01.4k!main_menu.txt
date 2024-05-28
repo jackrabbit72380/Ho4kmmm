@@ -1,0 +1,48 @@
+echo move the main menu.
+
+Edittag ui\halox\main_menu\main_menu.scn3
+SetField GroupWidgets[0].Definition.BitmapWidgets[0].Definition.Flags 9
+SetField GroupWidgets[0].Definition.BitmapWidgets[0].Definition.GuiRenderBlock.Name channel
+SetField GroupWidgets[0].Definition.BitmapWidgets[0].Definition.GuiRenderBlock.RenderDepthBias -10
+SetField GroupWidgets[0].Definition.BitmapWidgets[0].Definition.GuiRenderBlock.Bounds720p 610 -1195 1250 -290
+SetField GroupWidgets[0].Definition.BitmapWidgets[0].Definition.GuiRenderBlock.Bounds480i 285 40 450 216
+
+SetField GroupWidgets[0].Definition.BitmapWidgets[1].Definition.Flags 9
+SetField GroupWidgets[0].Definition.BitmapWidgets[1].Definition.GuiRenderBlock.Name channel
+SetField GroupWidgets[0].Definition.BitmapWidgets[1].Definition.GuiRenderBlock.RenderDepthBias -10
+SetField GroupWidgets[0].Definition.BitmapWidgets[1].Definition.GuiRenderBlock.Bounds720p 1250 -1195 1400 -290
+SetField GroupWidgets[0].Definition.BitmapWidgets[0].Definition.GuiRenderBlock.Bounds480i 450 40 480 216
+
+SetField GroupWidgets[0].Definition.BitmapWidgets[2].Definition.Flags 9
+SetField GroupWidgets[0].Definition.BitmapWidgets[2].Definition.GuiRenderBlock.Name channel_blur
+SetField GroupWidgets[0].Definition.BitmapWidgets[2].Definition.GuiRenderBlock.RenderDepthBias -12
+SetField GroupWidgets[0].Definition.BitmapWidgets[1].Definition.GuiRenderBlock.Bounds720p 610 -1195 1250 -290
+SetField GroupWidgets[0].Definition.BitmapWidgets[0].Definition.GuiRenderBlock.Bounds480i 285 40 480 216
+
+SetField GroupWidgets[0].Definition.BitmapWidgets[3].Definition.Flags 9
+SetField GroupWidgets[0].Definition.BitmapWidgets[3].Definition.GuiRenderBlock.Name full_black_fade_in
+SetField GroupWidgets[0].Definition.BitmapWidgets[3].Definition.GuiRenderBlock.RenderDepthBias 150
+SetField GroupWidgets[0].Definition.BitmapWidgets[1].Definition.GuiRenderBlock.Bounds720p -9000 -9000 9000 9000
+SetField GroupWidgets[0].Definition.BitmapWidgets[0].Definition.GuiRenderBlock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+echo move the list widget items.
+
+Edittag ui\halox\main_menu\main_menu.scn3
+SetField GroupWidgets[0].Definition.ListWidgets[0].Definition.Items[0].GuiRenderBlock.Bounds720p 230 -1276 0 0
+SetField GroupWidgets[0].Definition.ListWidgets[0].Definition.Items[1].GuiRenderBlock.Bounds720p 320 -1276 0 0
+SetField GroupWidgets[0].Definition.ListWidgets[0].Definition.Items[2].GuiRenderBlock.Bounds720p 410 -1276 0 0
+SetField GroupWidgets[0].Definition.ListWidgets[0].Definition.Items[3].GuiRenderBlock.Bounds720p 500 -1276 0 0
+SetField GroupWidgets[0].Definition.ListWidgets[0].Definition.Items[4].GuiRenderBlock.Bounds720p 590 -1276 0 0
+SetField GroupWidgets[0].Definition.ListWidgets[0].Definition.Items[5].GuiRenderBlock.Bounds720p 680 -1276 0 0
+SaveTagChanges
+exitto tags
+
+echo move the ([Home]>Settings) (Y)Frends button's
+
+edittag ui\halox\main_menu\main_menu_offline.bkey
+SetField TextWidgets[0].Definition.GuiRenderBlock.Bounds720p 1080 -669 1135 810
+SetField TextWidgets[0].Definition.GuiRenderBlock.Bounds480i 0 0 0 1
+SaveTagChanges
+exitto tags
