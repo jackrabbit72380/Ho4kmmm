@@ -1,0 +1,32 @@
+Echo refrence campaign lobby 4k_bungielogo
+
+createtag bitm
+nametag * ui\halox\main_menu\4k_bungielogo
+savetagnames
+edittag ui\halox\main_menu\4k_bungielogo.bitmap
+importbitmap 0 mods\maps\mainmenu\bitmaps\logos\4k_bungielogo.dds
+savetagchanges
+exitto tags
+
+echo ///WARNING!///animation tags name change IN ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
+echo halo online 0.1.6.0 (use this one )SetField groupwidgets[2].bitmapwidgets[3].data.Animation ui\halox\pregame_lobby\button_key.wacd
+echo (ported halo from xbox use this one)SetField groupwidgets[2].bitmapwidgets[3].data.Animation ui\halox\main_menu\animations\lobby_slide.wacd
+
+EditTag ui\halox\main_menu\main_menu.scn3
+SetField groupwidgets[1].bitmapwidgets[1].data.flags 9
+SetField groupwidgets[1].bitmapwidgets[1].data.name 4k_bungielogo
+SetField groupwidgets[1].bitmapwidgets[1].data.Layer 0
+SetField groupwidgets[1].bitmapwidgets[1].data.WidescreenYOffset 1050
+SetField groupwidgets[1].bitmapwidgets[1].data.WidescreenXOffset 1780
+SetField groupwidgets[1].bitmapwidgets[1].data.WidescreenYUnknown 1290
+SetField groupwidgets[1].bitmapwidgets[1].data.WidescreenXUnknown 2300
+SetField groupwidgets[1].bitmapwidgets[1].data.StandardYOffset 0
+SetField groupwidgets[1].bitmapwidgets[1].data.StandardXOffset 0
+SetField groupwidgets[1].bitmapwidgets[1].data.StandardYUnknown 0
+SetField groupwidgets[1].bitmapwidgets[1].data.StandardXUnknown 0
+SetField groupwidgets[1].bitmapwidgets[1].data.Animation ui\halox\main_menu\animations\500_fade.wacd
+SetField groupwidgets[1].bitmapwidgets[1].Bitmap ui\halox\main_menu\4k_bungielogo.bitmap
+SetField groupwidgets[1].bitmapwidgets[1].BlendMethod Alpha
+SaveTagChanges
+exitto tags
+Exit
