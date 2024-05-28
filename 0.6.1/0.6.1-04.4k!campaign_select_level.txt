@@ -1,0 +1,261 @@
+echo edit a select b back bkey
+
+edittag ui\halox\campaign\button_key_a_select_b_back.bkey
+setfield WidescreenYBoundsMin 985
+setfield WidescreenxBoundsMin -656
+savetagchanges
+exitto tags
+
+echo edit skn3 campaign_select_level skin & font
+
+edittag ui\halox\campaign\campaign_select_level.skn3
+SetField textwidgets[0].data.WidescreenYOffset 0
+SetField textwidgets[0].data.WidescreenXOffset 0
+SetField textwidgets[0].data.WidescreenYUnknown 32
+SetField textwidgets[0].data.WidescreenXUnknown 245
+SetField textwidgets[0].data.StandardYOffset 0
+SetField textwidgets[0].data.StandardXOffset 0
+SetField textwidgets[0].data.StandardYUnknown 0
+SetField textwidgets[0].data.StandardXUnknown 0
+SetField textwidgets[0].textfont 4
+savetagchanges
+exitto tags
+
+echo edit yes no skin orange selection bar bitmap
+edittag ui\halox\campaign\campaign_select_level.skn3
+SetField bitmapwidgets[0].data.WidescreenYOffset -10
+SetField bitmapwidgets[0].data.WidescreenXOffset 0
+SetField bitmapwidgets[0].data.WidescreenYUnknown 50
+SetField bitmapwidgets[0].data.WidescreenXUnknown 392
+SetField bitmapwidgets[0].data.StandardYOffset 0
+SetField bitmapwidgets[0].data.StandardXOffset 0
+SetField bitmapwidgets[0].data.StandardYUnknown 0
+SetField bitmapwidgets[0].data.StandardXUnknown 0
+savetagchanges
+exitto tags
+
+echo edit white_residual_hilite bitmap
+edittag ui\halox\campaign\campaign_select_level.skn3
+SetField bitmapwidgets[1].data.WidescreenYOffset -10
+SetField bitmapwidgets[1].data.WidescreenXOffset 0
+SetField bitmapwidgets[1].data.WidescreenYUnknown 50
+SetField bitmapwidgets[1].data.WidescreenXUnknown 392
+SetField bitmapwidgets[1].data.StandardYOffset 0
+SetField bitmapwidgets[1].data.StandardXOffset 0
+SetField bitmapwidgets[1].data.StandardYUnknown 0
+SetField bitmapwidgets[1].data.StandardXUnknown 0
+savetagchanges
+exitto tags
+
+echo #################################################################################### start scn3
+
+edittag ui\halox\campaign\campaign_select_level.scn3
+SetField WidescreenYBoundsMin -234
+SetField WidescreenXBoundsMin -576
+SetField WidescreenYBoundsMax 234
+SetField WidescreenXBoundsMax 576
+SetField StandardYBoundsMin 0
+SetField StandardXBoundsMin 0
+SetField StandardYBoundsMax 0
+SetField StandardXBoundsMax 0
+SaveTagChanges
+exitto tags
+
+Echo refrence campaign select mission bitmap
+
+edittag ui\halox\campaign\campaign_select_level.scn3
+SetField groupwidgets[0].bitmapwidgets[7].data.flags 9
+SetField groupwidgets[0].bitmapwidgets[7].data.name title
+SetField groupwidgets[0].bitmapwidgets[7].data.Layer -1
+SetField groupwidgets[0].bitmapwidgets[7].data.WidescreenYBoundsMin -780
+SetField groupwidgets[0].bitmapwidgets[7].data.WidescreenXBoundsMin -730
+SetField groupwidgets[0].bitmapwidgets[7].data.WidescreenYBoundsMax -284
+SetField groupwidgets[0].bitmapwidgets[7].data.WidescreenXBoundsMax 790
+SetField groupwidgets[0].bitmapwidgets[7].data.StandardYBoundsMin 254
+SetField groupwidgets[0].bitmapwidgets[7].data.StandardXBoundsMin 55
+SetField groupwidgets[0].bitmapwidgets[7].data.StandardYBoundsMax 405
+SetField groupwidgets[0].bitmapwidgets[7].data.StandardXBoundsMax 518
+SetField groupwidgets[0].bitmapwidgets[7].data.Animation ui\halox\animations\mainmenu_fade.wacd
+SetField groupwidgets[0].bitmapwidgets[7].Bitmap ui\halox\main_menu\4k_select_mission.bitmap
+SetField groupwidgets[0].bitmapwidgets[7].BlendMethod Alpha
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\campaign\campaign_select_level.scn3
+SetField groupwidgets[0].bitmapwidgets[6].data.flags 9
+SetField groupwidgets[0].bitmapwidgets[6].data.name solo_slots
+SetField groupwidgets[0].bitmapwidgets[6].data.Layer -12
+SetField groupwidgets[0].bitmapwidgets[6].data.WidescreenYBoundsMin -400
+SetField groupwidgets[0].bitmapwidgets[6].data.WidescreenXBoundsMin 970
+SetField groupwidgets[0].bitmapwidgets[6].data.WidescreenYBoundsMax -200
+SetField groupwidgets[0].bitmapwidgets[6].data.WidescreenXBoundsMax -660
+SetField groupwidgets[0].bitmapwidgets[6].data.StandardYBoundsMin 0
+SetField groupwidgets[0].bitmapwidgets[6].data.StandardXBoundsMin 0
+SetField groupwidgets[0].bitmapwidgets[6].data.StandardYBoundsMax 0
+SetField groupwidgets[0].bitmapwidgets[6].data.StandardXBoundsMax 0
+SetField groupwidgets[0].bitmapwidgets[6].data.Animation ui\halox\animations\mainmenu_fade.wacd
+SetField groupwidgets[0].bitmapwidgets[6].Bitmap ui\halox\campaign\difficulty_slots_ui.bitmap
+SetField groupwidgets[0].bitmapwidgets[6].BlendMethod Alpha
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\campaign\campaign_select_level.scn3
+SetField groupwidgets[0].bitmapwidgets[5].data.flags 9
+SetField groupwidgets[0].bitmapwidgets[5].data.name level_image_background
+SetField groupwidgets[0].bitmapwidgets[5].data.Layer -15
+SetField groupwidgets[0].bitmapwidgets[5].data.WidescreenYBoundsMin -390
+SetField groupwidgets[0].bitmapwidgets[5].data.WidescreenXBoundsMin 720
+SetField groupwidgets[0].bitmapwidgets[5].data.WidescreenYBoundsMax -760
+SetField groupwidgets[0].bitmapwidgets[5].data.WidescreenXBoundsMax -2380
+SetField groupwidgets[0].bitmapwidgets[5].data.StandardYBoundsMin 0
+SetField groupwidgets[0].bitmapwidgets[5].data.StandardXBoundsMin 0
+SetField groupwidgets[0].bitmapwidgets[5].data.StandardYBoundsMax 0
+SetField groupwidgets[0].bitmapwidgets[5].data.StandardXBoundsMax 0
+SetField groupwidgets[0].bitmapwidgets[5].data.Animation ui\halox\animations\mainmenu_fade.wacd
+SetField groupwidgets[0].bitmapwidgets[5].Bitmap ui\halox\common_bitmaps\third_column.bitmap
+SetField groupwidgets[0].bitmapwidgets[5].BlendMethod Alpha
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\campaign\campaign_select_level.scn3
+SetField groupwidgets[0].bitmapwidgets[4].data.flags 9
+SetField groupwidgets[0].bitmapwidgets[4].data.name background_darkening
+SetField groupwidgets[0].bitmapwidgets[4].data.Layer -20
+SetField groupwidgets[0].bitmapwidgets[4].data.WidescreenYBoundsMin -610
+SetField groupwidgets[0].bitmapwidgets[4].data.WidescreenXBoundsMin -1475
+SetField groupwidgets[0].bitmapwidgets[4].data.WidescreenYBoundsMax 1080
+SetField groupwidgets[0].bitmapwidgets[4].data.WidescreenXBoundsMax -2620
+SetField groupwidgets[0].bitmapwidgets[4].data.StandardYBoundsMin 0
+SetField groupwidgets[0].bitmapwidgets[4].data.StandardXBoundsMin 0
+SetField groupwidgets[0].bitmapwidgets[4].data.StandardYBoundsMax 0
+SetField groupwidgets[0].bitmapwidgets[4].data.StandardXBoundsMax 0
+SetField groupwidgets[0].bitmapwidgets[4].data.Animation ui\halox\animations\mainmenu_fade.wacd
+SetField groupwidgets[0].bitmapwidgets[4].Bitmap ui\halox\common_bitmaps\third_column.bitmap
+SetField groupwidgets[0].bitmapwidgets[4].BlendMethod Alpha
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\campaign\campaign_select_level.scn3
+SetField groupwidgets[0].bitmapwidgets[3].data.flags 9
+SetField groupwidgets[0].bitmapwidgets[3].data.name background_blur
+SetField groupwidgets[0].bitmapwidgets[3].data.Layer -21
+SetField groupwidgets[0].bitmapwidgets[3].data.WidescreenYBoundsMin -610
+SetField groupwidgets[0].bitmapwidgets[3].data.WidescreenXBoundsMin -1475
+SetField groupwidgets[0].bitmapwidgets[3].data.WidescreenYBoundsMax 1080
+SetField groupwidgets[0].bitmapwidgets[3].data.WidescreenXBoundsMax -2620
+SetField groupwidgets[0].bitmapwidgets[3].data.StandardYBoundsMin 0
+SetField groupwidgets[0].bitmapwidgets[3].data.StandardXBoundsMin 0
+SetField groupwidgets[0].bitmapwidgets[3].data.StandardYBoundsMax 0
+SetField groupwidgets[0].bitmapwidgets[3].data.StandardXBoundsMax 0
+SetField groupwidgets[0].bitmapwidgets[3].data.Animation ui\halox\animations\mainmenu_fade.wacd
+SetField groupwidgets[0].bitmapwidgets[3].Bitmap ui\halox\common_bitmaps\black_50.bitmap
+SetField groupwidgets[0].bitmapwidgets[3].BlendMethod Alpha
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\campaign\campaign_select_level.scn3
+SetField groupwidgets[0].bitmapwidgets[2].data.flags 11
+SetField groupwidgets[0].bitmapwidgets[2].data.name level_locked
+SetField groupwidgets[0].bitmapwidgets[2].data.Layer 5
+SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenYBoundsMin -380
+SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenXBoundsMin 730
+SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenYBoundsMax 140
+SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenXBoundsMax 2370
+SetField groupwidgets[0].bitmapwidgets[2].data.StandardYBoundsMin  44
+SetField groupwidgets[0].bitmapwidgets[2].data.StandardXBoundsMin 473
+SetField groupwidgets[0].bitmapwidgets[2].data.StandardYBoundsMax 134
+SetField groupwidgets[0].bitmapwidgets[2].data.StandardXBoundsMax 753
+SetField groupwidgets[0].bitmapwidgets[2].data.Animation ui\halox\animations\mainmenu_fade.wacd
+SetField groupwidgets[0].bitmapwidgets[2].Bitmap null
+SetField groupwidgets[0].bitmapwidgets[2].BlendMethod Alpha
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\campaign\campaign_select_level.scn3
+SetField groupwidgets[0].bitmapwidgets[1].data.flags 9
+SetField groupwidgets[0].bitmapwidgets[1].data.name unknown_film_image
+SetField groupwidgets[0].bitmapwidgets[1].data.Layer 5
+SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenYBoundsMin -380
+SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenXBoundsMin 730
+SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenYBoundsMax 140
+SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenXBoundsMax 2370
+SetField groupwidgets[0].bitmapwidgets[1].data.StandardYBoundsMin  44
+SetField groupwidgets[0].bitmapwidgets[1].data.StandardXBoundsMin 473
+SetField groupwidgets[0].bitmapwidgets[1].data.StandardYBoundsMax 134
+SetField groupwidgets[0].bitmapwidgets[1].data.StandardXBoundsMax 753
+SetField groupwidgets[0].bitmapwidgets[1].data.Animation ui\halox\animations\mainmenu_fade.wacd
+SetField groupwidgets[0].bitmapwidgets[1].Bitmap null
+SetField groupwidgets[0].bitmapwidgets[1].BlendMethod Alpha
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\campaign\campaign_select_level.scn3
+SetField groupwidgets[0].bitmapwidgets[0].data.flags 9
+SetField groupwidgets[0].bitmapwidgets[0].data.name background
+SetField groupwidgets[0].bitmapwidgets[0].data.Layer -19
+SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenYBoundsMin -610
+SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenXBoundsMin -1475
+SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenYBoundsMax 1080
+SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenXBoundsMax 2620
+SetField groupwidgets[0].bitmapwidgets[0].data.StandardYBoundsMin 0
+SetField groupwidgets[0].bitmapwidgets[0].data.StandardXBoundsMin 0
+SetField groupwidgets[0].bitmapwidgets[0].data.StandardYBoundsMax 0
+SetField groupwidgets[0].bitmapwidgets[0].data.StandardXBoundsMax 0
+SetField groupwidgets[0].bitmapwidgets[0].data.Animation ui\halox\animations\mainmenu_fade.wacd
+SetField groupwidgets[0].bitmapwidgets[0].Bitmap ui\halox\common\common_bitmaps\selection_bkd
+SetField groupwidgets[0].bitmapwidgets[0].BlendMethod Alpha
+SaveTagChanges
+exitto tags
+
+echo #################################################################################### maps list placement
+
+edittag ui\halox\campaign\campaign_select_level.scn3
+
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.WidescreenYOffset -226
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.WidescreenXOffset -820
+
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[1].data.WidescreenYOffset -164
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[1].data.WidescreenXOffset -820
+
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.WidescreenYOffset -102
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.WidescreenXOffset -820
+
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.WidescreenYOffset -40
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.WidescreenXOffset -820
+
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[4].data.WidescreenYOffset 22
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[4].data.WidescreenXOffset -820
+
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[5].data.WidescreenYOffset 84
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[5].data.WidescreenXOffset -820
+
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[6].data.WidescreenYOffset 146
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[6].data.WidescreenXOffset -820
+
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[7].data.WidescreenYOffset 208
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[7].data.WidescreenXOffset -820
+
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[8].data.WidescreenYOffset 270
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[8].data.WidescreenXOffset -820
+
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[9].data.WidescreenYOffset 332
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[9].data.WidescreenXOffset -820
+
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[10].data.WidescreenYOffset 394
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[10].data.WidescreenXOffset -820
+
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[11].data.WidescreenYOffset 456
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[11].data.WidescreenXOffset -820
+
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[12].data.WidescreenYOffset 518
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[12].data.WidescreenXOffset -820
+
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[13].data.WidescreenYOffset 580
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[13].data.WidescreenXOffset -820
+
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[14].data.WidescreenYOffset 642
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[14].data.WidescreenXOffset -820
+
+SaveTagChanges
+exitto tags
+exit
