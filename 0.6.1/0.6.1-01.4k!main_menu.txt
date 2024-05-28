@@ -1,0 +1,86 @@
+echo move the main menu.
+
+Edittag ui\halox\main_menu\main_menu.scn3
+SetField groupwidgets[0].bitmapwidgets[0].data.flags 9
+SetField groupwidgets[0].bitmapwidgets[0].data.name channel
+SetField groupwidgets[0].bitmapwidgets[0].data.Layer -10
+SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenYOffset 610
+SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenXOffset -1195
+SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenYUnknown 1250
+SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenXUnknown -290
+SetField groupwidgets[0].bitmapwidgets[0].data.StandardYOffset 285
+SetField groupwidgets[0].bitmapwidgets[0].data.StandardXOffset 40
+SetField groupwidgets[0].bitmapwidgets[0].data.StandardYUnknown 450
+SetField groupwidgets[0].bitmapwidgets[0].data.StandardXUnknown 216
+
+SetField groupwidgets[0].bitmapwidgets[1].data.flags 9
+SetField groupwidgets[0].bitmapwidgets[1].data.name channel
+SetField groupwidgets[0].bitmapwidgets[1].data.Layer -10
+SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenYOffset 1250
+SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenXOffset -1195
+SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenYUnknown 1400
+SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenXUnknown -290
+SetField groupwidgets[0].bitmapwidgets[1].data.StandardYOffset 450
+SetField groupwidgets[0].bitmapwidgets[1].data.StandardXOffset 40
+SetField groupwidgets[0].bitmapwidgets[1].data.StandardYUnknown 480
+SetField groupwidgets[0].bitmapwidgets[1].data.StandardXUnknown 216
+
+SetField groupwidgets[0].bitmapwidgets[2].data.flags 9
+SetField groupwidgets[0].bitmapwidgets[2].data.name channel_blur
+SetField groupwidgets[0].bitmapwidgets[2].data.Layer -12
+SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenYOffset 610
+SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenXOffset -1195
+SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenYUnknown 1250
+SetField groupwidgets[0].bitmapwidgets[2].data.WidescreenXUnknown -290
+SetField groupwidgets[0].bitmapwidgets[2].data.StandardYOffset 285
+SetField groupwidgets[0].bitmapwidgets[2].data.StandardXOffset 40
+SetField groupwidgets[0].bitmapwidgets[2].data.StandardYUnknown 480
+SetField groupwidgets[0].bitmapwidgets[2].data.StandardXUnknown 216
+
+SetField groupwidgets[0].bitmapwidgets[3].data.flags 9
+SetField groupwidgets[0].bitmapwidgets[3].data.name full_black_fade_in
+SetField groupwidgets[0].bitmapwidgets[3].data.Layer 150
+SetField groupwidgets[0].bitmapwidgets[3].data.WidescreenYOffset -9000
+SetField groupwidgets[0].bitmapwidgets[3].data.WidescreenXOffset -9000
+SetField groupwidgets[0].bitmapwidgets[3].data.WidescreenYUnknown 9000
+SetField groupwidgets[0].bitmapwidgets[3].data.WidescreenXUnknown 9000
+SetField groupwidgets[0].bitmapwidgets[3].data.StandardYOffset 0
+SetField groupwidgets[0].bitmapwidgets[3].data.StandardXOffset 0
+SetField groupwidgets[0].bitmapwidgets[3].data.StandardYUnknown 0
+SetField groupwidgets[0].bitmapwidgets[3].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+exit
+
+echo move the list widget items.
+
+Edittag ui\halox\main_menu\main_menu.scn3
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.WidescreenYOffset 230
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[0].data.WidescreenXOffset -1276
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[1].data.WidescreenYOffset 320
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[1].data.WidescreenXOffset -1276
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.WidescreenYOffset 410
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[2].data.WidescreenXOffset -1276
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.WidescreenYOffset 500
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[3].data.WidescreenXOffset -1276
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[4].data.WidescreenYOffset 590
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[4].data.WidescreenXOffset -1276
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[5].data.WidescreenYOffset 680
+SetField groupwidgets[0].listwidgets[0].listwidgetitems[5].data.WidescreenXOffset -1276
+SaveTagChanges
+exitto tags
+exit
+
+echo move the ([Home]>Settings) (Y)Frends button's
+
+edittag ui\halox\main_menu\main_menu_offline.bkey
+SetField TextWidgets[0].WidescreenYBoundsMin 1080
+SetField TextWidgets[0].WidescreenXBoundsMin -669
+SetField TextWidgets[0].WidescreenYBoundsMax 1135
+SetField TextWidgets[0].WidescreenXBoundsMax 810
+SetField TextWidgets[0].StandardYBoundsMin 0
+SetField TextWidgets[0].StandardXBoundsMin 0
+SetField TextWidgets[0].StandardYBoundsMax 0
+SetField TextWidgets[0].StandardXBoundsMax 1
+SaveTagChanges
+exitto tags
