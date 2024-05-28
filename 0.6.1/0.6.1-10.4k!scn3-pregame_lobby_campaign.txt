@@ -1,0 +1,231 @@
+EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
+SetField groupwidgets[0].listwidgets[0].data.flags 1
+SetField groupwidgets[0].listwidgets[0].data.name lobby_list
+SetField groupwidgets[0].listwidgets[0].data.Layer 0
+SetField groupwidgets[0].listwidgets[0].data.WidescreenYOffset 85
+SetField groupwidgets[0].listwidgets[0].data.WidescreenXOffset -1186
+SetField groupwidgets[0].listwidgets[0].data.WidescreenYUnknown 0
+SetField groupwidgets[0].listwidgets[0].data.WidescreenXUnknown -100
+SetField groupwidgets[0].listwidgets[0].data.StandardYOffset 45
+SetField groupwidgets[0].listwidgets[0].data.StandardXOffset 442
+SetField groupwidgets[0].listwidgets[0].data.StandardYUnknown 0
+SetField groupwidgets[0].listwidgets[0].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+Exit
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
+SetField groupwidgets[0].listwidgetitems[0].data.flags 0
+SetField groupwidgets[0].listwidgetitems[0].data.name switch_lobby
+SetField groupwidgets[0].listwidgetitems[0].data.Layer 0
+SetField groupwidgets[0].listwidgetitems[0].data.WidescreenYOffset -490
+SetField groupwidgets[0].listwidgetitems[0].data.WidescreenXOffset 0
+SetField groupwidgets[0].listwidgetitems[0].data.WidescreenYUnknown 0
+SetField groupwidgets[0].listwidgetitems[0].data.WidescreenXUnknown 0
+SetField groupwidgets[0].listwidgetitems[0].data.StandardYOffset 0
+SetField groupwidgets[0].listwidgetitems[0].data.StandardXOffset 0
+SetField groupwidgets[0].listwidgetitems[0].data.StandardYUnknown 0
+SetField groupwidgets[0].listwidgetitems[0].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+Exit
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
+SetField groupwidgets[0].listwidgetitems[1].data.flags 0
+SetField groupwidgets[0].listwidgetitems[1].data.name host_custom_game
+SetField groupwidgets[0].listwidgetitems[1].data.Layer 0
+SetField groupwidgets[0].listwidgetitems[1].data.WidescreenYOffset -431
+SetField groupwidgets[0].listwidgetitems[1].data.WidescreenXOffset 0
+SetField groupwidgets[0].listwidgetitems[1].data.WidescreenYUnknown 0
+SetField groupwidgets[0].listwidgetitems[1].data.WidescreenXUnknown 0
+SetField groupwidgets[0].listwidgetitems[1].data.StandardYOffset 0
+SetField groupwidgets[0].listwidgetitems[1].data.StandardXOffset 0
+SetField groupwidgets[0].listwidgetitems[1].data.StandardYUnknown 0
+SetField groupwidgets[0].listwidgetitems[1].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+Exit
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
+SetField groupwidgets[0].listwidgetitems[2].data.flags 0
+SetField groupwidgets[0].listwidgetitems[2].data.name mission_info
+SetField groupwidgets[0].listwidgetitems[2].data.Layer 0
+SetField groupwidgets[0].listwidgetitems[2].data.WidescreenYOffset -372
+SetField groupwidgets[0].listwidgetitems[2].data.WidescreenXOffset 0
+SetField groupwidgets[0].listwidgetitems[2].data.WidescreenYUnknown 0
+SetField groupwidgets[0].listwidgetitems[2].data.WidescreenXUnknown 0
+SetField groupwidgets[0].listwidgetitems[2].data.StandardYOffset 0
+SetField groupwidgets[0].listwidgetitems[2].data.StandardXOffset 0
+SetField groupwidgets[0].listwidgetitems[2].data.StandardYUnknown 0
+SetField groupwidgets[0].listwidgetitems[2].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+Exit
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
+SetField groupwidgets[0].listwidgetitems[3].data.flags 0
+SetField groupwidgets[0].listwidgetitems[3].data.name difficulty
+SetField groupwidgets[0].listwidgetitems[3].data.Layer 0
+SetField groupwidgets[0].listwidgetitems[3].data.WidescreenYOffset -313
+SetField groupwidgets[0].listwidgetitems[3].data.WidescreenXOffset 0
+SetField groupwidgets[0].listwidgetitems[3].data.WidescreenYUnknown 0
+SetField groupwidgets[0].listwidgetitems[3].data.WidescreenXUnknown 0
+SetField groupwidgets[0].listwidgetitems[3].data.StandardYOffset 0
+SetField groupwidgets[0].listwidgetitems[3].data.StandardXOffset 0
+SetField groupwidgets[0].listwidgetitems[3].data.StandardYUnknown 0
+SetField groupwidgets[0].listwidgetitems[3].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+Exit
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
+SetField groupwidgets[0].listwidgetitems[4].data.flags 0
+SetField groupwidgets[0].listwidgetitems[4].data.name difficulty
+SetField groupwidgets[0].listwidgetitems[4].data.Layer 0
+SetField groupwidgets[0].listwidgetitems[4].data.WidescreenYOffset -173
+SetField groupwidgets[0].listwidgetitems[4].data.WidescreenXOffset 0
+SetField groupwidgets[0].listwidgetitems[4].data.WidescreenYUnknown 0
+SetField groupwidgets[0].listwidgetitems[4].data.WidescreenXUnknown 0
+SetField groupwidgets[0].listwidgetitems[4].data.StandardYOffset 0
+SetField groupwidgets[0].listwidgetitems[4].data.StandardXOffset 0
+SetField groupwidgets[0].listwidgetitems[4].data.StandardYUnknown 0
+SetField groupwidgets[0].listwidgetitems[4].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+Exit
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
+SetField groupwidgets[1].data.flags 0
+SetField groupwidgets[1].data.name roster
+SetField groupwidgets[1].data.Layer 0
+SetField groupwidgets[1].data.WidescreenYOffset -544
+SetField groupwidgets[1].data.WidescreenXOffset 1366
+SetField groupwidgets[1].data.WidescreenYUnknown 0
+SetField groupwidgets[1].data.WidescreenXUnknown 0
+SetField groupwidgets[1].data.StandardYOffset 45
+SetField groupwidgets[1].data.StandardXOffset 442
+SetField groupwidgets[1].data.StandardYUnknown 0
+SetField groupwidgets[1].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+Exit
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
+SetField groupwidgets[2].data.flags 0
+SetField groupwidgets[2].data.name images
+SetField groupwidgets[2].data.Layer 0
+SetField groupwidgets[2].data.WidescreenYOffset -40
+SetField groupwidgets[2].data.WidescreenXOffset -1265
+SetField groupwidgets[2].data.WidescreenYUnknown 0
+SetField groupwidgets[2].data.WidescreenXUnknown -100
+SetField groupwidgets[2].data.StandardYOffset 0
+SetField groupwidgets[2].data.StandardXOffset 0
+SetField groupwidgets[2].data.StandardYUnknown 0
+SetField groupwidgets[2].data.StandardXUnknown 0
+SaveTagChanges
+exitto tags
+Exit
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
+SetField groupwidgets[2].bitmapwidgets[0].data.flags 9
+SetField groupwidgets[2].bitmapwidgets[0].data.name unknown_film_image
+SetField groupwidgets[2].bitmapwidgets[0].data.Layer -30
+SetField groupwidgets[2].bitmapwidgets[0].data.WidescreenYBoundsMin 326
+SetField groupwidgets[2].bitmapwidgets[0].data.WidescreenXBoundsMin 79
+SetField groupwidgets[2].bitmapwidgets[0].data.WidescreenYBoundsMax 830
+SetField groupwidgets[2].bitmapwidgets[0].data.WidescreenXBoundsMax 1714
+SetField groupwidgets[2].bitmapwidgets[0].data.StandardYBoundsMin 254
+SetField groupwidgets[2].bitmapwidgets[0].data.StandardXBoundsMin 55
+SetField groupwidgets[2].bitmapwidgets[0].data.StandardYBoundsMax405
+SetField groupwidgets[2].bitmapwidgets[0].data.StandardXBoundsMax 518
+SetField groupwidgets[2].bitmapwidgets[0].data.Animation ui\halox\main_menu\animations\lobby_slide.wacd
+SetField groupwidgets[2].bitmapwidgets[0].Bitmap null
+SetField groupwidgets[2].bitmapwidgets[0].BlendMethod Alpha
+SaveTagChanges
+exitto tags
+Exit
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
+SetField groupwidgets[2].bitmapwidgets[1].data.flags 9
+SetField groupwidgets[2].bitmapwidgets[1].data.name difficulty_image
+SetField groupwidgets[2].bitmapwidgets[1].data.Layer 0
+SetField groupwidgets[2].bitmapwidgets[1].data.WidescreenYBoundsMin 416
+SetField groupwidgets[2].bitmapwidgets[1].data.WidescreenXBoundsMin 166
+SetField groupwidgets[2].bitmapwidgets[1].data.WidescreenYBoundsMax 716
+SetField groupwidgets[2].bitmapwidgets[1].data.WidescreenXBoundsMax 466
+SetField groupwidgets[2].bitmapwidgets[1].data.StandardYBoundsMin 0
+SetField groupwidgets[2].bitmapwidgets[1].data.StandardXBoundsMin 0
+SetField groupwidgets[2].bitmapwidgets[1].data.StandardYBoundsMax 0
+SetField groupwidgets[2].bitmapwidgets[1].data.StandardXBoundsMax 0
+SetField groupwidgets[2].bitmapwidgets[1].data.Animation ui\halox\main_menu\animations\lobby_slide.wacd
+SetField groupwidgets[2].bitmapwidgets[1].Bitmap ui\halox\pregame_lobby\difficulty_large_ui.bitmap
+SetField groupwidgets[2].bitmapwidgets[1].BlendMethod Alpha
+SaveTagChanges
+exitto tags
+Exit
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
+
+SetField groupwidgets[2].textwidgets[0].data.flags 9
+SetField groupwidgets[2].textwidgets[0].data.name difficulty
+SetField groupwidgets[2].textwidgets[0].data.Layer 0
+SetField groupwidgets[2].textwidgets[0].data.WidescreenYBoundsMin 850
+SetField groupwidgets[2].textwidgets[0].data.WidescreenXBoundsMin 89
+SetField groupwidgets[2].textwidgets[0].data.WidescreenYBoundsMax 998
+SetField groupwidgets[2].textwidgets[0].data.WidescreenXBoundsMax 1637
+SetField groupwidgets[2].textwidgets[0].data.StandardYBoundsMin 0
+SetField groupwidgets[2].textwidgets[0].data.StandardXBoundsMin 0
+SetField groupwidgets[2].textwidgets[0].data.StandardYBoundsMax 0
+SetField groupwidgets[2].textwidgets[0].data.StandardXBoundsMax 0
+SetField groupwidgets[2].textwidgets[0].data.Animation ui\halox\pregame_lobby\button_key.wacd
+SetField groupwidgets[2].textwidgets[0].datasourcename null
+SetField groupwidgets[2].textwidgets[0].textstring campaign_difficulty
+SetField groupwidgets[2].textwidgets[0].textcolor ice
+SetField groupwidgets[2].textwidgets[0].textfont 4
+SaveTagChanges
+exitto tags
+Exit
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
+SetField groupwidgets[2].textwidgets[1].data.flags 9
+SetField groupwidgets[2].textwidgets[1].data.name campaign_insertion_point
+SetField groupwidgets[2].textwidgets[1].data.Layer 0
+SetField groupwidgets[2].textwidgets[1].data.WidescreenYBoundsMin 910
+SetField groupwidgets[2].textwidgets[1].data.WidescreenXBoundsMin 89
+SetField groupwidgets[2].textwidgets[1].data.WidescreenYBoundsMax 1100
+SetField groupwidgets[2].textwidgets[1].data.WidescreenXBoundsMax 667
+SetField groupwidgets[2].textwidgets[1].data.StandardYBoundsMin 0
+SetField groupwidgets[2].textwidgets[1].data.StandardXBoundsMin 0
+SetField groupwidgets[2].textwidgets[1].data.StandardYBoundsMax 0
+SetField groupwidgets[2].textwidgets[1].data.StandardXBoundsMax 0
+SetField groupwidgets[2].textwidgets[1].data.Animation ui\halox\pregame_lobby\button_key.wacd
+SetField groupwidgets[2].textwidgets[1].datasourcename null
+SetField groupwidgets[2].textwidgets[1].textstring campaign_insertion_point
+SetField groupwidgets[2].textwidgets[1].textcolor ice
+SetField groupwidgets[2].textwidgets[1].textfont 4
+SaveTagChanges
+exitto tags
+Exit
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
+SetField groupwidgets[2].textwidgets[2].data.flags 9
+SetField groupwidgets[2].textwidgets[2].data.name lobby_status
+SetField groupwidgets[2].textwidgets[2].data.Layer 0
+SetField groupwidgets[2].textwidgets[2].data.WidescreenYBoundsMin 166
+SetField groupwidgets[2].textwidgets[2].data.WidescreenXBoundsMin 89
+SetField groupwidgets[2].textwidgets[2].data.WidescreenYBoundsMax 367
+SetField groupwidgets[2].textwidgets[2].data.WidescreenXBoundsMax  1637
+SetField groupwidgets[2].textwidgets[2].data.StandardYBoundsMin 0
+SetField groupwidgets[2].textwidgets[2].data.StandardXBoundsMin 0
+SetField groupwidgets[2].textwidgets[2].data.StandardYBoundsMax 0
+SetField groupwidgets[2].textwidgets[2].data.StandardXBoundsMax 0
+SetField groupwidgets[2].textwidgets[2].data.Animation ui\halox\global_animations\animation_collections\lobby_slide_with_alt_flash.wacd
+SetField groupwidgets[2].textwidgets[2].datasourcename null
+SetField groupwidgets[2].textwidgets[2].textstring null
+SetField groupwidgets[2].textwidgets[2].textcolor ice
+SetField groupwidgets[2].textwidgets[2].textfont 4
+SaveTagChanges
+exitto tags
+Exit
+
+
