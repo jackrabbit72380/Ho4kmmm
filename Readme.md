@@ -1,6 +1,6 @@
 # (Ho4kmmm) Halo Online 4k Main Menu Mod
 
-## Screenshot
+## Screenshots
 
 ![Screenshot](https://github.com/jackrabbit72380/ho4kmmm/blob/master/Preview.jpg)
 
