@@ -1,0 +1,269 @@
+                               List Of All Eldewrito Console Commands​
+Execute - Executes a list of command
+Help - Displays this help text
+  WriteConfig - Writes the ElDewrito config file
+Camera.CenteredCrosshairFirst 0 - Controls whether the crosshair should be centered in first person
+Camera.CenteredCrosshairThird 1 - Controls whether the crosshair should be centered in third person
+Camera.FOV 90.000000 - The cameras field of view
+Camera.HideHUD 0 - Toggles the HUD
+Camera.Mode default - Camera mode, valid modes: default, first, third, flying, static
+Camera.Position - The cameras position, Doesn't work when camera mode is set to default
+Camera.ShowCoordinates 0 - The cameras field of view
+Camera.Speed 0.100000 - The camera speed
+Forge.Budget - Displays information about remaining objects
+Forge.Canvas - Delete all objects on the map
+Forge.CloneDepth 1.000000 - Depth at which the object will be cloned
+Forge.CloneMultiplier 1 - Number of consecutive times the object will be cloned
+Forge.DeleteAll - Delete all objects that are the same as the object under the crosshair
+Forge.DeletePrefab - Delete a saved prefab
+Forge.DeselectAll - Deselect all selected objects
+Forge.DeselectAllOf - Deselect all selected objects that are the same as the object under the crosshair
+Forge.DumpPalette - Dumps the forge palette in json
+Forge.DumpPrefabs - Dump a list of saved prefabs in json
+Forge.ExpandSelection - Expand the selection by a given radius
+Forge.GrabDistance 5.000000 - Controls the maximum distance from which objects can be grabbed
+Forge.InvertSelection - Invert the current selection
+Forge.LoadPrefab - Load prefab from a file
+Forge.Magnets 0 - Controls whether magnets are enabled (1) or disabled (0)
+Forge.MagnetsStrength 0.300000 - Controls the minimum distance at which magnets snap
+Forge.MagnetsVisible 1 - Controls whether magnets are shown (1) or hidden (0)
+Forge.MapOptions - Opens map modifier object properties
+Forge.MonitorNoclip 0 - Allows the monitor to pass through bsp and other objects
+Forge.MonitorSpeed 3 - Controls the movement speed of the monitor
+Forge.ResetRuntime - Respawn any abandoned/despawned objects
+Forge.RotationSensitivity 1.000000 - Controls the sensitivity of object rotation
+Forge.RotationSnap 0 - Angle at which object rotation will be snapped
+Forge.SavePrefab - Save prefab to a file
+Forge.SelectAll - Select all objects that are the same as the object under the crosshair
+Forge.SelectAllMaterial - Select all objects with the same material
+Forge.SelectEverything - Select all objects on the map
+Forge.SelectionRenderer 0 - Set the selection renderer to use
+Forge.SetPrematchCamera - Set the position/orientation of the prematch camera
+Forge.ShowInvisibles 0 - When enabled forces invisible materials to be visible
+Forge.SpawnItem - Spawn an item from the forge palette
+Game.CefMedals 0 - Enable/disable cef medals. When disabled fallback to the H3 medal system.
+Game.Discord.AutoAccept 0 - Allow auto accepting join requests
+Game.Discord.Enable 1 - Enable/disable discord integration
+Game.End - Ends the game
+Game.Exit - Ends the game process
+Game.ExpandedScoreboard 0 - Always show full scoreboard, instead of just while locked/postgame
+Game.FPSLimiter 1 - Enable/disable framerate limiter (improves frame timing at the cost of cpu usage)
+Game.FirstRun 1 - Show the first run setup next time the game starts
+Game.ForceLoad - Forces a map to load
+Game.GameType - Loads a gametype
+Game.HideChat 0 - Hide in-game chat screen
+Game.IconSet 360 - The name of the controller button icon set to use
+Game.Info - Displays information about the game
+Game.Language english - The language to use
+Game.Leave - Leaves the game, goes back to menu
+Game.ListMaps - List all available map files
+Game.ListMedalPacks - List all available medal packs
+Game.LogFilter - Allows you to set filters to apply to the debug messages
+Game.LogLevel - Debug log verbosity level
+Game.LogName dorito.log - Filename to store debug log messages
+Game.LogTypes - Chooses which kinds of debug messages to print to the log file
+Game.Map - Loads a map or map variant
+Game.MedalPack default - The name of the medal pack to use
+Game.MenuURL http://scooterpsu.github.io/ - url(string) The URL of the page you want to load inside the menu
+Game.RconPort 11780 - The port to use for rcon in this instance of the game
+Game.Restart - Restart the game process
+Game.ScenarioScript - Executes a scenario script
+Game.ScreenEffectRange - Set the range of the default screen FX in the current scnr
+Game.ScreenshotNoticeDisabled 0 - Disables the screenshot notifications
+Game.ScreenshotsFolder %userprofile%\Pictures\Screenshots\blam - The location where the game will save screenshots
+Game.SetMenuEnabled - Sets whether the server browser is currently open
+Game.ShowScreen - Displays the specified screen
+Game.ShowTickrate - Toggle the on-screen Tickrate
+Game.ShowUI - Attempts to force a UI widget to open
+Game.SkipIntroVideos 0 - Skip the game's intro videos.
+Game.SkipTitleSplash 0 - Skip the ElDewrito splash screen and go straight to the main menu
+Game.Start - Starts or restarts the game
+Game.Stop - Stops the game, goes back to lobby
+Game.SuppressJuggling 0 - Suppress spam caused by flag/bomb juggling
+Game.TagAddress - Gets the address of a tag in memory
+Game.TakeScreenshot - Take a screenshot
+Game.Update - Update the game to the latest version
+Game.Version - Displays the game's version
+Graphics.Bloom 0.000000 - The atmosphere bloom
+Graphics.BlueHue 1.000000 - The blue hue
+Graphics.CustomHUDColorsEnabled 0 - Enables custom heads up display colors.
+Graphics.CustomHUDColorsPrimary #0E6249 - Change the primary custom HUD color.
+Graphics.CustomHUDColorsSecondary #27CB9B - Change the primary custom HUD color.
+Graphics.DepthOfField 0.000000 - The camera's depth of field
+Graphics.GreenHue 1.000000 - The green hue
+Graphics.Letterbox 0 - A cinematic letterbox.
+Graphics.RedHue 1.000000 - The red hue
+Graphics.Saturation 1.000000 - The saturation
+Graphics.SupportedResolutions - List the supported screen resolutions
+Graphics.UIScaling 1 - Enables proper UI scaling to match your monitor's resolution.
+Input.Bind - Binds a command to a key
+Input.ControllerAction - Binds an in-game action to a controller button
+Input.ControllerInvertY 0 - Invert the controller Y look axis
+Input.ControllerPort 0 - The port number of the player's controller.
+Input.ControllerSensitivityX 120.000000 - Horizontal controller look sensitivity
+Input.ControllerSensitivityY 60.000000 - Vertical controller look sensitivity
+Input.ControllerStickLayout 0 - Controller stick layout
+Input.ControllerVibrationIntensity 1.000000 - Controls the controller vibration intensity
+Input.ControllerVibrationTest - Test the controller vibration
+Input.DumpBindingsJson - Dumps the input bindings table in json
+Input.FindBind - Finds the key bound to a command passed
+Input.KeyboardAction - Binds an in-game action to keyboard keys or mouse buttons
+Input.RawInput 1 - Enables raw mouse input with no acceleration applied
+Input.ResetBindings - Restores default bindings
+Input.SpectateSensitivity 1.000000 - Spectator camera sensitivity
+Input.TapScoreboard 1 - Enable/disable double tap to lock scoreboard
+Input.ToggleSprint 0 - Sprint toggle enabled (1) or disabled (0)
+Input.UIButtonPress - Emulates a gamepad button press on UI menus
+Player.AlertCarry - Toggle the alert carry pose
+Player.Armor.Chest - Armor ID for player chest
+Player.Armor.Helmet - Armor ID for player helmet
+Player.Armor.LeftShoulder - Armor ID for player left shoulder
+Player.Armor.RightShoulder - Armor ID for player right shoulder
+Player.Colors.Lights #9685FF - The lights colors hex value
+Player.Colors.Primary #171F0E - The primary colors hex value
+Player.Colors.Secondary #171F0E - The secondary colors hex value
+Player.Colors.Visor #FF7F00 - The visor colors hex value
+Player.Gender male - The players gender
+Player.Name Name - The players ingame name
+Player.PrintUID - Prints the players UID
+Player.PrivKey - The players unique stats private key
+Player.PubKey - The players unique stats public key
+Player.ServiceTag V960 - The players service tag
+Server.AddBan - Adds to the ban list (does NOT kick anyone)
+Server.Announce - Announces this server to the master servers
+Server.AssassinationEnabled 0 - Controls whether assassinations are enabled on the server
+Server.BottomlessClipEnabled 0 - Controls whether bottomless clip is enabled on the server
+Server.CancelVote - Cancels the vote
+Server.ChatCommandEndGameEnabled 1 - Controls whether or not players can vote to end the game.
+Server.ChatCommandKickPlayerEnabled 1 - Controls whether or not players can vote to kick someone.
+Server.ChatCommandShuffleTeamsEnabled 1 - Controls whether or not players can vote to shuffle the teams.
+Server.ChatCommandVoteTime 45 - The number of seconds a chat command vote lasts
+Server.ChatLogEnabled 1 - Controls whether chat logging is enabled
+Server.ChatLogFile chat.log - Sets the name of the file to log chat to
+Server.Connect - Begins establishing a connection to a server
+Server.Countdown 5 - The number of seconds to wait at the start of the game
+Server.CountdownLobby 3 - The number of seconds to wait in the lobby before the game starts
+Server.Dedicated 1 - Used only to let clients know if the server is dedicated or not
+Server.DualWieldEnabled 1 - Controls whether dual wielding is enabled on the server
+Server.FloodFilterEnabled 1 - Controls whether chat flood filtering is enabled
+Server.FloodMessageScoreLong 5 - Sets the flood filter score for long messages
+Server.FloodMessageScoreShort 2 - Sets the flood filter score for short messages
+Server.FloodTimeoutResetSeconds 1800 - Sets the period in seconds before a spammer's next timeout is reset
+Server.FloodTimeoutScore 10 - Sets the flood filter score that triggers a timeout
+Server.FloodTimeoutSeconds 120 - Sets the timeout period in seconds before a spammer can send messages again
+Server.GamePort 11774 - The port number used by Halo Online
+Server.HitMarkersEnabled 0 - Controls whether or not hitmarkers are enabled on this server
+Server.Http.CacheTime 5 - Time in seconds the server should cache the http server response
+Server.KickBanIndex - Kicks and IP bans a player from the game by index (host only)
+Server.KickBanPlayer - Kicks and IP bans a player from the game by name (host only)
+Server.KickBanUid - Kicks and IP bans players from the game by UID (host only)
+Server.KickIndex - Kicks a player from the game by index (host only)
+Server.KickPlayer - Kicks a player from the game by name (host only)
+Server.KickTempBanPlayer - Kicks and temporarily IP bans a player from the game by name (host only)
+Server.KickTempBanUid - Kicks and temporarily IP bans players from the game by UID (host only)
+Server.KickUid - Kicks players from the game by UID (host only)
+Server.ListPlayers - Lists players in the game
+Server.LobbyType - Changes the lobby type for the server. 0 = Campaign; 1 = Matchmaking; 2 = Multiplayer; 3 = Forge; 4 = Theater;
+Server.MapVotingTime 30 - Controls how long the vote lasts for Map Voting.
+Server.MaxPlayers 16 - Maximum number of connected players
+Server.Message - Text to display on the loading screen (limited to 512 chars)
+Server.Mode - Changes the network mode for the server. 0 = Xbox Live (Open Party); 1 = Xbox Live (Friends Only); 2 = Xbox Live (Invite Only); 3 = Online; 4 = Offline;
+server.name Halo Online Server - The name of the server (limited to 128 characters)
+Server.NumberOfRevotesAllowed 3 - Controls how many revotes are allowed in the voting system
+Server.NumberOfTeams 2 - Set the desired number of teams
+Server.NumberOfVetoVotes 1 - Controls how many veto votes are allowed
+Server.NumberOfVotingOptions 3 - Controls how many voting options are displayed
+Server.PM - Sends a pm to a player as the server. First argument is the player name, second is the message in quotes
+Server.Password - The server password
+Server.Ping - Ping a server
+Server.PlayersInfo {"0":{"r":0,"e":"http://new.halostats.click/emblem/emblem.php?s=100&0=0&1=0&2=5&3=2&fi=16&bi=51&fl=0&m=1"}} - Emblem and Rank info for each player
+Server.Port 11777 - The port number the HTTP server runs on, the game uses Server.GamePort
+Server.RconPassword ChangeMe - Password for the remote console
+Server.ReloadVetoJson - Manually Reloads Json
+Server.ReloadVotingJson - Manually Reloads Json
+Server.Say - Sends a chat message as the server
+Server.SendChatToRconClients 1 - Controls whether or not chat should be sent through rcon
+Server.ShouldAnnounce 1 - Controls whether the server will be announced to the master servers
+Server.ShuffleTeams - Evenly distributes players between the red and blue teams
+Server.SignalServerPort 11779 - The port the signaling server will listen on
+Server.SprintEnabled 0 - Controls whether sprint is enabled on the server
+Server.SubmitVote - Sumbits a vote
+Server.TeamShuffleEnabled 1 - Controls whether or not the teams will be automatically shuffled before the game starts.
+Server.TeamSize 1 - Set the minimum number of players each team must have before a new team is assigned
+Server.TempBanDuration 2 - Duration of a temporary ban (in games)
+Server.TimeBetweenVoteEndAndGameStart 4 - Controls how many seconds to wait after a vote passes before calling 'game.start'.
+Server.Unannounce - Notifies the master servers to remove this server
+Server.Unban - Removes from the ban list
+Server.UnlimitedSprint 0 - Controls whether unlimited sprint is enabled on the server
+Server.VetoJsonPath mods/server/veto.json - Veto Json Path
+Server.VetoSystemEnabled 0 - Controls whether the veto system is enabled on this server.
+Server.VetoSystemSelectionType 0 - 0 for random, 1 for ordered
+Server.VetoVotePassPercentage 50 - Percentage of players that need to vote for it to pass
+Server.VetoVoteTime 20 - The time a veto vote takes
+Server.VetoWinningOptionShownTime 10 - The length of time the winning option is show
+Server.VotePassPercentage 50 - Percentage of players required to vote yes for a chat command vote to pass
+Server.VotingDuplicationLevel 1 - Whether duplicate voting options will be allowed.
+Server.VotingEnabled 1 - Controls whether the map voting system is enabled on this server.
+Server.VotingJsonPath mods/server/voting.json - Voting Json Path
+Server.WebsocketInfo - Display the websocket password for the current server
+Settings.Antialiasing 1 - Controls whether antialiasing is enabled (1) or disabled (0)
+Settings.AudioOutputDevice 0 - Sets the audio output device to use (0) being system default
+Settings.AudioOutputDeviceList - List available audio output devices
+Settings.AutoCentering 0 - Controls whether auto-centering is enabled (1) or disabled (0)
+Settings.Brightness 50 - Controls the brightness level (0 - 100)
+Settings.Contrast 50 - Controls the contrast level (0 - 100)
+Settings.DetailsQuality high - Controls whether the details quality level is low, medium or high
+Settings.DisplayHints 0 - Controls whether displaying of hints is enabled (1) or disabled (0)
+Settings.EffectsQuality high - Controls whether the effects Quality level is low, medium or high
+Settings.Fullscreen 1 - Controls whether the game is windowed (0) or fullscreen (1)
+Settings.Gamepad 0 - Controls whether gamepad is enabled (1) or disabled (0)
+Settings.HUDShake 0 - Controls whether hud shake is enabled (1) or disabled (0)
+Settings.InvertLook 0 - Controls whether look-inversion is enabled (1) or disabled (0)
+Settings.InvertMouse 0 - Controls whether mouse-inversion is enabled (1) or disabled (0)
+Settings.LightingQuality high - Controls whether the lighting quality level is low, medium or high
+Settings.LookSensitivity 50 - Controls the controller look sensitivity (0 - 100)
+Settings.MasterVolume 100 - Controls the master volume
+Settings.MotionBlur 1 - Controls whether motion blur is enabled (1) or disabled (0)
+Settings.MouseAcceleration 0 - Controls the level of mouse acceleration (0 - 100)
+Settings.MouseFilter 0 - Controls whether mouse-filtering is enabled (1) or disabled (0)
+Settings.MouseSensitivityHorizontal 25 - Controls the horizontal mouse sensitivity (0 - 100)
+Settings.MouseSensitivityVehicleHorizontal 25 - Controls the horizontal mouse sensitivity for vehicles (0 - 100)
+Settings.MouseSensitivityVehicleVertical 25 - Controls the vertical mouse sensitivity for vehicles (0 - 100)
+Settings.MouseSensitivityVertical 25 - Controls the vertical mouse sensitivity (0 - 100)
+Settings.MusicVolume 100 - Controls the music volume
+Settings.PlayerMarkerColors default - Controls whether the player marker colors are default, ally or armor
+Settings.PostprocessingQuality high - Controls whether the postprocessing quality level is low, medium or high
+Settings.Reset - Restores default settings
+Settings.ScreenResolution default - Controls the screen resolution
+Settings.SfxVolume 100 - Controls the sfx volume
+Settings.ShadowQuality high - Controls whether the shadow quality level is low, medium or high
+Settings.TextureFilteringQuality high - Controls whether the texture-filtering quality level is low, medium or high
+Settings.TextureResolution high - Controls whether the texture resolution level is low, medium or high
+Settings.ToggleCrouch 0 - Controls whether crouch-toggling is enabled (1) or disabled (0)
+Settings.VSync 1 - Controls whether vertical sync is enabled (1) or disabled (0)
+Time.GameSpeed 1.000000 - The game's speed
+Tweaks.AggressiveAudioDiscarding 0 - Discard sounds more aggressively to prevent audio latency. This is a workaround, not a fix.
+Tweaks.DisableHitMarkers 0 - Disables weapon hitmarkers.
+Tweaks.DisableReactorFog 0 - Disable the fog effects around the moving platforms on the Reactor map to increase performance.
+Tweaks.DisableWeaponOutline 0 - Disables the outline effect on weapons and equipment.
+Tweaks.FlatHUD 0 - Removes distortion from the HUD.
+Tweaks.IntelBloomPatch 0 - Fixes excessive bloom when using Intel integrated graphics
+Tweaks.ReachStyleFrags 0 - Adds a Halo: Reach style trail effect to frag grenades.
+UPnP.Enabled 1 - Enables UPnP to automatically port forward when hosting a game.
+VoIP.AGC 1 - Toggle automatic gain control
+VoIP.EchoCancelation 1 - Toggle echo cancellation
+VoIP.Enabled 1 - Toggle voip on or off
+VoIP.MicrophoneID - microphone label to use for voip, blank is default device
+VoIP.NoiseSupress 1 - Toggle noise supression
+VoIP.PTTSoundEnabled 1 - Toggles the sound played when using Push-To-Talk.
+VoIP.PTT_Enabled 1 - Enable PTT(1) or voice activation(0)
+VoIP.SpeakingPlayerOnHUD 0 - Shows the speaking player on the HUD, rather than the web overlay.
+VoIP.StereoVoice 1 - Allow stereo voice chat
+VoIP.Update - Updates the voip screen layer with variable states
+Weapon.Equipped - Gives info on the currently equipped weapon.
+Weapon.JSON.File default - The file weapon changes are saved to.
+Weapon.JSON.Load - This loads weapon offset.
+Weapon.JSON.Save - This saves weapon offset.
+Weapon.List - Lists all weapons available in the mulg tag.
+Weapon.Offset - This changes weapon offset.
+Weapon.Offset.Reset - This resets weapon offset to default.
