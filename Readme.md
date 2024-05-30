@@ -23,9 +23,11 @@ Installation: Port the Halo 3 campaign using NoShotz's script, then install the 
 I just uploaded a tutorial legend so you can fix anything. It lists all the 4k mod settings, just not in script format. It's what I'm using to create the script. ho4kmmm is the result of much time & Reserch. develpment is curently work in progress & currently in testing! any updates or completed status will be posted here,
 
 Stardate Log 5-29-24
+
 Made seprate directorys for halo online 0.6.1 & 0.7.1 fixed orgnized and renamed most map preview pictures for 0.7.1 exept for halo and most odst.
 more soon stay tuned.
 
 Stardate Log 5-30-24
+
 Converted 00 01 01 & 19 from 0.6.1 to 0.7.1 More Testing and Patching will be needed in the future.
 __________________________________________________________________________________________________________________________
