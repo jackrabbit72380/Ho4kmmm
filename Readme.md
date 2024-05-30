@@ -25,6 +25,7 @@ I just uploaded a tutorial legend so you can fix anything. It lists all the 4k m
 Stardate Log 5-29-24
 Made seprate directorys for halo online 0.6.1 & 0.7.1 fixed orgnized and renamed most map preview pictures for 0.7.1 exept for halo and most odst.
 more soon stay tuned.
+
 Stardate Log 5-30-24
 converted 00 01 01 & 19
 __________________________________________________________________________________________________________________________
