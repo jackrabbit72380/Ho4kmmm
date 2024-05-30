@@ -1,0 +1,106 @@
+EditTag ui\halox\pregame_lobby\pregame_lobby_template.grup
+SetField textwidgets[0].Definition.GuiRenderBlock.Name title
+SetField TextWidgets[0].Definition.GuiRenderBlock.Bounds720p -470 -1175 1259 -100
+SetField TextWidgets[0].Definition.GuiRenderBlock.Bounds480i 285 40 405 216
+SetField textwidgets[0].Definition.ValueOverrideList invalid
+SetField textwidgets[0].Definition.ValueIdentifier invalid
+SetField textwidgets[0].Definition.TextColorPreset clear
+SetField textwidgets[0].Definition.CustomFont 4
+SaveTagChanges
+exitto tags
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_template.grup
+SetField textwidgets[1].name players_in_game
+SetField TextWidgets[1].Definition.GuiRenderBlock.Bounds720p -610 -1546 73 2000
+SetField TextWidgets[1].Definition.GuiRenderBlock.Bounds480i 23 444 53 640
+SetField textwidgets[1].Definition.ValueOverrideList invalid
+SetField textwidgets[1].Definition.ValueIdentifier invalid
+SetField textwidgets[1].Definition.CustomFont 1
+SaveTagChanges
+exitto tags
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_template.grup
+SetField textwidgets[2].name change_teams
+SetField TextWidgets[2].Definition.GuiRenderBlock.Bounds720p 1000 -1185 1042 420
+SetField TextWidgets[2].Definition.GuiRenderBlock.Bounds480i 421 0 451 580
+SetField textwidgets[2].Definition.ValueOverrideList invalid
+SetField textwidgets[2].textstring change_teams
+SetField textwidgets[2].Definition.CustomFont 1
+SaveTagChanges
+exitto tags
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_template.grup
+SetField textwidgets[3].name postgame_stats
+SetField TextWidgets[3].Definition.GuiRenderBlock.Bounds720p 551 88 579 537
+SetField TextWidgets[3].Definition.GuiRenderBlock.Bounds480i 0 0 0 0
+SetField textwidgets[3].Definition.ValueOverrideList invalid
+SetField textwidgets[3].textstring postgame_stats
+SetField textwidgets[3].Definition.CustomFont 1
+SaveTagChanges
+exitto tags
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_template.grup
+SetField textwidgets[4].name advanced_options
+SetField TextWidgets[4].Definition.GuiRenderBlock.Bounds720p 227 88 377 537
+SetField TextWidgets[4].Definition.GuiRenderBlock.Bounds480i 0 0 0 0
+SetField textwidgets[4].Definition.ValueOverrideList invalid
+SetField textwidgets[4].textstring postgame_stats
+SetField textwidgets[4].Definition.CustomFont 1
+SaveTagChanges
+exitto tags
+Exit
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_template.grup
+SetField textwidgets[5].name not_squad_leader
+SetField TextWidgets[5].Definition.GuiRenderBlock.Bounds720p 195 88 225 537
+SetField TextWidgets[5].Definition.GuiRenderBlock.Bounds480i 0 0 0 0
+SetField textwidgets[5].Definition.ValueOverrideList invalid
+SetField textwidgets[5].textstring not_squad_leader
+SetField textwidgets[5].Definition.TextColorPreset orange
+SetField textwidgets[5].Definition.CustomFont 1
+SaveTagChanges
+exitto tags
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_template.grup
+SetField Bitmapwidgets[0].Definition.GuiRenderBlock.Name channel
+SetField Bitmapwidgets[0].Definition.GuiRenderBlock.RenderDepthBias -50
+SetField Bitmapwidgets[0].Definition.GuiRenderBlock.Bounds720p -670 -1185 1210 448
+SetField Bitmapwidgets[0].Definition.GuiRenderBlock.Bounds480i 285 40 450 216
+SetField Bitmapwidgets[0].Definition.GuiRenderBlock.AnimationCollection ui\halox\main_menu\animations\lobby_slide.wacd
+SetField Bitmapwidgets[0].Definition.Bitmap ui\halox\pregame_lobby\channel_ui.bitmap
+SetField Bitmapwidgets[0].Definition.BlendMethod AlphaBlend
+SaveTagChanges
+exitto tags
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_template.grup
+SetField Bitmapwidgets[0].Definition.GuiRenderBlock.Name Fade
+SetField Bitmapwidgets[0].Definition.GuiRenderBlock.RenderDepthBias 1000
+SetField Bitmapwidgets[0].Definition.GuiRenderBlock.Bounds720p -1 -1 641 1300
+SetField Bitmapwidgets[0].Definition.GuiRenderBlock.Bounds480i 0 0 0 0
+SetField bitmapwidgets[0].Definition.GuiRenderBlock.AnimationCollection ui\halox\pregame_lobby\animations\fade_to_black.wacd
+SetField bitmapwidgets[0].Definition.Bitmap ui\halox\common\blackness_ui.bitmap
+SetField bitmapwidgets[0].Definition.BlendMethod AlphaBlend
+SaveTagChanges
+exitto tags
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_template.grup
+SetField Bitmapwidgets[2].Definition.GuiRenderBlock.Name channel
+SetField Bitmapwidgets[2].Definition.GuiRenderBlock.RenderDepthBias -51
+SetField Bitmapwidgets[2].Definition.GuiRenderBlock.Bounds720p -670 -1185 1210 448
+SetField Bitmapwidgets[2].Definition.GuiRenderBlock.Bounds480i 285 40 450 216
+SetField bitmapwidgets[2].Definition.GuiRenderBlock.AnimationCollection ui\halox\main_menu\animations\lobby_slide.wacd
+SetField bitmapwidgets[2].Definition.Bitmap ui\halox\pregame_lobby\channel_ui.bitmap
+SaveTagChanges
+exitto tags
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_template.grup
+SetField Bitmapwidgets[3].Definition.GuiRenderBlock.Name full_black_fade_in
+SetField Bitmapwidgets[3].Definition.GuiRenderBlock.RenderDepthBias 150
+SetField Bitmapwidgets[3].Definition.GuiRenderBlock.Bounds720p -9000 -9000 9000 9000
+SetField Bitmapwidgets[3].Definition.GuiRenderBlock.Bounds480i 0 0 0 0
+SetField bitmapwidgets[3].Definition.GuiRenderBlock.AnimationCollection ui\halox\global_animations\animation_collections\black_fade.wacd
+SetField bitmapwidgets[3].Bitmap ui\halox\common\common_bitmaps\black_fade_ui.bitmap
+SetField bitmapwidgets[3].Definition.BlendMethod AlphaBlend
+SaveTagChanges
+exitto tags
+Exit
