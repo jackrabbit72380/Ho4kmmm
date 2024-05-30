@@ -29,5 +29,5 @@ more soon stay tuned.
 
 Stardate Log 5-30-24
 
-Converted 00 01 01 & 19 from 0.6.1 to 0.7.1 More Testing and Patching will be needed in the future.
+Converted 00 01 01 & 19 from 0.6.1 to 0.7.1 More Testing and Patching will be needed in the future. for 0.1.7 to work.
 __________________________________________________________________________________________________________________________
