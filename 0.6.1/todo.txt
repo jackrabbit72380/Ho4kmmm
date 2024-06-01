@@ -1,0 +1,8 @@
+these need fixed and scripted
+
+catagory.skn3
+subitem.skn3
+dialog.scn3
+
+fix pregame lobby github fonts
+options screen
