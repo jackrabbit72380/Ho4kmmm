@@ -4,7 +4,6 @@ _       __          .,         _                ___
 :+//====.:/+    `-/:-..-/+.    -:o`            -{=)}- .+++-`   ||   || ||  || ||  ||     || ||  || || |
 :ª++     /++   /+s:     .+++.  :+ªo+/////.   :::.../+yª+-     ||||||| ||     ||  |||||| || ||     || ||||||
 __________________________________________________________________________________________________________________________
-
 Main Menu Mod Tutorial
 Requirements!
 1.Assembly or Epsilon
@@ -58,7 +57,6 @@ ________________________________________________________________________________
 (43.) Where to edit mission select text
 -index end-
 __________________________________________________________________________________________________________________________
-
 ||||
   ||
   ||
@@ -73,7 +71,6 @@ scroll down to "text Widgets" & in the top right select index "1 -1 (2)"
 remove the Text String "start_new_campaign"
 Save.
 ___________________________________________________________________________________________________________________________
-
   ||||
 ||    ||
     ||
@@ -93,14 +90,11 @@ Make night time map.
 This works great on Valhalla.
 #F0010C18
 color muting 0
-
 ###############
 Epsilon Version
 If your using Epsilon just open "area_screen_effect" then "levels\ui\mainmenu\sky\ui" change color filter to all 0.255 and Desaturation from 1 to 0
 if you want no fog your good however if you want fog to appear like it does in game on valhalla use a cornflower blue color like R:0.541176 G:0.584314 B:0.964706
-
 ____________________________________________________________________________________________________________________________
-
 ||||||
       |||
 ||||||   
@@ -179,7 +173,6 @@ epsilon version
 search for "main_menu" open the gui_screen_widget_defenition folder then click on "ui\halox\main_menu\main_menu
 next go to group widgets then bitmaps widgets Where you see Bitmap Widgets you will need to change the number to 0-(4) then go down to gui render block and under bitmap select "bitm" then you should see ui\halox\main_menu\mainmenu_bkd click null the zero with the slash. 
 ___________________________________________________________________________________________________________________________
-
 ||     ||
 ||     ||
 |||||||||
@@ -213,7 +206,6 @@ epsilon version
 search for "main_menu" open the gui_screen_widget_defenition folder then click on "ui\halox\main_menu\main_menu
 next go to group widgets then bitmaps widgets Where you see Bitmap Widgets you will need to change the number to 3-(4) then go down to gui render block and under bitmap select "bitm" then you should see ui\halox\main_menu\bottom_gradient_ui click null the zero with the slash. 
 _______________________________________________________________________________________________________________________________
-
 |||||
 ||
 ||||||
@@ -283,7 +275,6 @@ widescreen X offset --------|-1276
  Tip's
 If you want them centered just remove the - keep in mind this does not increase the size.
 _______________________________________________________________________________________________________________________
-
 ||||||
 ||
 ||||||
@@ -324,9 +315,7 @@ Standard Y Bounds min - 0
 Standard X Bounds min - 0
 Standard Y Bounds max - 0
 Standard X Bounds max - 0
-
 ________________________________________________________________________________________________________________________
-
 ||||||
     ||
    ||
@@ -379,7 +368,6 @@ widescreen Y Offset |-173
 game_options
 widescreen Y Offset |-80
 ________________________________________________________________________________________________________________________
-
 ||||||
 ||  ||
 ||||||
@@ -423,7 +411,6 @@ y max 456-----------------------------/
 x max 972-----------------------------/
 Bitmap: ui\halox\common\common_bitmaps\third_column
 ________________________________________________________________________________________________________________________
-
 ||||||
 ||  ||
 ||||||
@@ -452,7 +439,6 @@ Your Y - X Will move it around & Text Font Will change the font
 it references the maps/fonts/font_package.bin
 if you want to open or edit the font_package.bin you can use FontPackager v1.4 buy lord zedd. you can get it from git hub.
 ________________________________________________________________________________________________________________________
-
 ||||    ||||||
   ||    ||  ||
   ||    ||  ||
@@ -641,7 +627,6 @@ widescreen Y Offset |-26
 game_options
 widescreen Y Offset |42 
 ===============================================================================================
-
 ------blue background with black bars on the top & bottom
 ui\halox\pregame_lobby\selection\pregame_selection (map selection screen)
 bitmap widgets
@@ -678,9 +663,12 @@ x min 719-----------------------------/
 y max 456-----------------------------/
 x max 972-----------------------------/
 Bitmap: ui\halox\common\common_bitmaps\third_column
-
 ##########################################################################################################################
-(10.) How to move the blue background widget for the pregame lobby for multiplayer & forge.
+||||    ||||||
+  ||    ||  ||
+  ||    ||  ||
+  ||    ||  ||
+||||||| |||||| (10.) How to move the blue background widget for the pregame lobby for multiplayer & forge.
 
 find "grup - gui_group_widget_definition"
 7th one down is...
@@ -813,7 +801,11 @@ Bitmap:0x000009da
 9000
 black_fade_ui
 ##########################################################################################################################
-11.How to move that annoying ([Home](>)Settings(a)Select(b)Leave)
+||||     ||||
+  ||       || 
+  ||       || 
+  ||       || 
+||||||| |||||| 11.How to move that annoying ([Home](>)Settings(a)Select(b)Leave)
  Thingy out of the middle of your screen in pregame lobby
 
 go to "bkey - gui_button_key_definition"
@@ -824,7 +816,11 @@ name:pregame_lobby_offline
 y 547
 x-1185
 ##########################################################################################################################
-12.where to change player name location 
+||||     |||| 
+  ||    ||  ||
+  ||       ||
+  ||     ||   
+||||||| ||||||| 12.where to change player name location 
 
 find "scn3 - gui_screen_widget_definition"
 ui\halox\pregame_lobby\pregame_lobby_multiplayer
@@ -850,7 +846,11 @@ widescreen y offset|-1265 <--up and down
 0
 0
 ##########################################################################################################################
-13.How to adjust size on map preview picture....
+||||    ||||||
+  ||        ||
+  ||    ||||||
+  ||        ||
+||||||| |||||| 13.How to adjust size on map preview picture....
 first you need to get a new map preview picture the size you want it to be mine is 1600x500 and replace bitmap with tag tool
 but just doing that won’t change the size in game it will just become cleaner looking.
 in order to update the size you need to...
@@ -879,7 +879,11 @@ Blend Method:  Alpha
 min will always be lower than max unless you want it backwards
 ##########################################################################################################################
 
-(14.) How to adjust size on map preview picture.... 
+||||   ||  ||
+  ||   ||  ||
+  ||   ||||||
+  ||       ||
+||||||     || (14.) How to adjust size on map preview picture.... 
 first you need to get a new map preview picture the size you want it to be. mine is 1600x500 & then replace the bitmap with tag tool.
 But just doing that won’t change the size in game. It will just become cleaner looking.
 In order to update the size you need to…
@@ -1251,16 +1255,36 @@ NAME:METADATA_LINE_3
 THE SIZE OF THE MAP "XX.XX"
 
 ##########################################################################################################################
-(25.) where to edit "MULTIPLAYER" text. 
+  ||||    |||||||
+||    ||  ||     
+    ||    |||||||
+  ||           ||
+||||||||  ||||||| (25.) where to edit "MULTIPLAYER" text. 
 scn3 ui\halox\start_menu\panes\game_multiplayer\start_menu_game_multiplayer text widgets text font # ##########################################################################################################################
-(26.) where to edit "SELECT MAP" Text on map selection screen. "scn3 - gui_screen_widget_definition" ui\halox\pregame_lobby\selection\pregame_selection Text Widgets Name:Title ##########################################################################################################################
-(27.) where to edit "OPTIONS" text on options screen. 
+  ||||    |||||||
+||    ||  ||     
+    ||    |||||||
+  ||      ||   ||
+||||||||  ||||||| (26.) where to edit "SELECT MAP" Text on map selection screen. "scn3 - gui_screen_widget_definition" ui\halox\pregame_lobby\selection\pregame_selection Text Widgets Name:Title ##########################################################################################################################
+  ||||    |||||||
+||    ||       ||     
+    ||        ||
+  ||        ||
+||||||||  ||     (27.) where to edit "OPTIONS" text on options screen. 
 
 "scn3 - gui_screen_widget_definition" ui\halox\game_options\game_options_screen text widgets 0 - 1 (2) ##########################################################################################################################
-(28.) where to edit options list left side on options screen. 
+  ||||    |||||||
+||    ||  ||   || 
+    ||    |||||||
+  ||      ||   ||
+||||||||  |||||||(28.) where to edit options list left side on options screen. 
 skn3 - gui_skin_definiton ui\halox\game_options\game_options text widgets 0 - 1 (2) right side 1 - 1 (2) where to edit the selected text. with ui\halox\game_options\spinner
 ##########################################################################################################################
-(29.) where to edit text in game options menu.
+  ||||    |||||||
+||    ||  ||   ||  
+    ||    |||||||
+  ||           ||
+||||||||  |||||||(29.) where to edit text in game options menu.
 
 skn3 - gui_skin_definition
 ui\halox\game_options\game_options
