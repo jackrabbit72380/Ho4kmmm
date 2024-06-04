@@ -10,7 +10,7 @@ SaveTagChanges
 exitto tags
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_template.grup
-SetField textwidgets[1].name players_in_game
+SetField textwidgets[1].Definition.GuiRenderblock.name players_in_game
 SetField TextWidgets[1].Definition.GuiRenderBlock.Bounds720p -610 -1546 73 2000
 SetField TextWidgets[1].Definition.GuiRenderBlock.Bounds480i 23 444 53 640
 SetField textwidgets[1].Definition.ValueOverrideList invalid
@@ -20,7 +20,7 @@ SaveTagChanges
 exitto tags
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_template.grup
-SetField textwidgets[2].name change_teams
+SetField textwidgets[2].Definition.GuiRenderblock.name change_teams
 SetField TextWidgets[2].Definition.GuiRenderBlock.Bounds720p 1000 -1185 1042 420
 SetField TextWidgets[2].Definition.GuiRenderBlock.Bounds480i 421 0 451 580
 SetField textwidgets[2].Definition.ValueOverrideList invalid
@@ -30,7 +30,7 @@ SaveTagChanges
 exitto tags
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_template.grup
-SetField textwidgets[3].name postgame_stats
+SetField textwidgets[3].Definition.GuiRenderblock.name postgame_stats
 SetField TextWidgets[3].Definition.GuiRenderBlock.Bounds720p 551 88 579 537
 SetField TextWidgets[3].Definition.GuiRenderBlock.Bounds480i 0 0 0 0
 SetField textwidgets[3].Definition.ValueOverrideList invalid
@@ -40,7 +40,7 @@ SaveTagChanges
 exitto tags
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_template.grup
-SetField textwidgets[4].name advanced_options
+SetField textwidgets[4].Definition.GuiRenderblock.name advanced_options
 SetField TextWidgets[4].Definition.GuiRenderBlock.Bounds720p 227 88 377 537
 SetField TextWidgets[4].Definition.GuiRenderBlock.Bounds480i 0 0 0 0
 SetField textwidgets[4].Definition.ValueOverrideList invalid
@@ -51,7 +51,7 @@ exitto tags
 Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_template.grup
-SetField textwidgets[5].name not_squad_leader
+SetField textwidgets[5].Definition.GuiRenderblock.name not_squad_leader
 SetField TextWidgets[5].Definition.GuiRenderBlock.Bounds720p 195 88 225 537
 SetField TextWidgets[5].Definition.GuiRenderBlock.Bounds480i 0 0 0 0
 SetField textwidgets[5].Definition.ValueOverrideList invalid
