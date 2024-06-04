@@ -24,7 +24,7 @@ SetField textwidgets[2].Definition.GuiRenderblock.name change_teams
 SetField TextWidgets[2].Definition.GuiRenderBlock.Bounds720p 1000 -1185 1042 420
 SetField TextWidgets[2].Definition.GuiRenderBlock.Bounds480i 421 0 451 580
 SetField textwidgets[2].Definition.ValueOverrideList invalid
-SetField textwidgets[2].textstring change_teams
+SetField textwidgets[2].Definition.textstring change_teams
 SetField textwidgets[2].Definition.CustomFont 1
 SaveTagChanges
 exitto tags
@@ -34,7 +34,7 @@ SetField textwidgets[3].Definition.GuiRenderblock.name postgame_stats
 SetField TextWidgets[3].Definition.GuiRenderBlock.Bounds720p 551 88 579 537
 SetField TextWidgets[3].Definition.GuiRenderBlock.Bounds480i 0 0 0 0
 SetField textwidgets[3].Definition.ValueOverrideList invalid
-SetField textwidgets[3].textstring postgame_stats
+SetField textwidgets[3].Definition.textstring postgame_stats
 SetField textwidgets[3].Definition.CustomFont 1
 SaveTagChanges
 exitto tags
@@ -44,7 +44,7 @@ SetField textwidgets[4].Definition.GuiRenderblock.name advanced_options
 SetField TextWidgets[4].Definition.GuiRenderBlock.Bounds720p 227 88 377 537
 SetField TextWidgets[4].Definition.GuiRenderBlock.Bounds480i 0 0 0 0
 SetField textwidgets[4].Definition.ValueOverrideList invalid
-SetField textwidgets[4].textstring postgame_stats
+SetField textwidgets[4].Definition.textstring postgame_stats
 SetField textwidgets[4].Definition.CustomFont 1
 SaveTagChanges
 exitto tags
@@ -55,7 +55,7 @@ SetField textwidgets[5].Definition.GuiRenderblock.name not_squad_leader
 SetField TextWidgets[5].Definition.GuiRenderBlock.Bounds720p 195 88 225 537
 SetField TextWidgets[5].Definition.GuiRenderBlock.Bounds480i 0 0 0 0
 SetField textwidgets[5].Definition.ValueOverrideList invalid
-SetField textwidgets[5].textstring not_squad_leader
+SetField textwidgets[5].Definition.textstring not_squad_leader
 SetField textwidgets[5].Definition.TextColorPreset orange
 SetField textwidgets[5].Definition.CustomFont 1
 SaveTagChanges
@@ -99,7 +99,7 @@ SetField Bitmapwidgets[3].Definition.GuiRenderBlock.RenderDepthBias 150
 SetField Bitmapwidgets[3].Definition.GuiRenderBlock.Bounds720p -9000 -9000 9000 9000
 SetField Bitmapwidgets[3].Definition.GuiRenderBlock.Bounds480i 0 0 0 0
 SetField bitmapwidgets[3].Definition.GuiRenderBlock.AnimationCollection ui\halox\global_animations\animation_collections\black_fade.wacd
-SetField bitmapwidgets[3].Bitmap ui\halox\common\common_bitmaps\black_fade_ui.bitmap
+SetField bitmapwidgets[3].Definition.Bitmap ui\halox\common\common_bitmaps\black_fade_ui.bitmap
 SetField bitmapwidgets[3].Definition.BlendMethod AlphaBlend
 SaveTagChanges
 exitto tags
