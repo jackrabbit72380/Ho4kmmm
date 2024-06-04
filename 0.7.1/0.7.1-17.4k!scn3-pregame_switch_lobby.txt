@@ -1,0 +1,142 @@
+these commands format is wrong and needs fixing.to be compatible with ho 0.7.1
+
+openmodpackage "ho4kmmm.pak"
+edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
+SetField GuiRenderBlock.Bounds720p -320 -582 320 570
+SetField GuiRenderBlock.Bounds480i -232 -330 240 330
+savetagchanges
+exit
+savemodpackage
+exitmodpackage
+
+openmodpackage "ho4kmmm.pak"
+edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
+SetField Groupwidgets[0].Definition.listwidgets[0].Definition.flags 32
+SetField Groupwidgets[0].Definition.listwidgets[0].Definition.GuiRenderblock.name switch_lobby
+SetField Groupwidgets[0].Definition.listwidgets[0].Definition.GuiRenderblock.RenderDepthBias 10
+SetField Groupwidgets[0].Definition.listwidgets[0].Definition.GuiRenderblock.Bounds720p 82 319 0 0
+SetField Groupwidgets[0].Definition.listwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+savetagchanges
+exit
+savemodpackage
+exitmodpackage
+
+openmodpackage "ho4kmmm.pak"
+edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[0].Definition.flags 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[0].Definition.GUIRenderBlock.name null
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[0].Definition.GUIRenderBlock.RenderDepthBias 0
+SetField Groupwidgets[0].Definition.listwidgets[0].Definition.GuiRenderblock.Bounds720p 0 0 0 0
+SetField Groupwidgets[0].Definition.listwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+savetagchanges
+exit
+savemodpackage
+exitmodpackage
+
+edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[1].Definition.flags 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[1].Definition.name null
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[1].Definition.GUIRenderBlock.RenderDepthBias 0
+SetField Groupwidgets[0].Definition.listwidgets[0].Definition.GuiRenderblock.Bounds720p 60 0 0 0
+SetField Groupwidgets[0].Definition.listwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[2].Definition.flags 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[2].Definition.name null
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[2].Definition.GUIRenderBlock.RenderDepthBias 0
+SetField Groupwidgets[0].Definition.listwidgets[0].Definition.items[2].Definition.GuiRenderblock.Bounds720p 110 0 0 0
+SetField Groupwidgets[0].Definition.listwidgets[0].Definition.items[2].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[3].Definition.flags 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[3].Definition.name null
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[3].Definition.GUIRenderBlock.RenderDepthBias 0
+SetField Groupwidgets[0].Definition.listwidgets[0].Definition.items[3].Definition.GuiRenderblock.Bounds720p 160 0 0 0
+SetField Groupwidgets[0].Definition.listwidgets[0].Definition.items[3].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[4].Definition 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[4].Definition.name null
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[4].Definition.GUIRenderBlock.RenderDepthBias 0
+SetField Groupwidgets[0].Definition.listwidgets[0].Definition.items[4].Definition.GuiRenderblock.Bounds720p 210 0 0 0
+SetField Groupwidgets[0].Definition.listwidgets[0].Definition.items[4].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
+SetField groupwidgets[0].Definition.TextWidgets[0].Definition.name title
+SetField groupwidgets[0].Definition.TextWidgets[0].Definition.GUIRenderBlock.RenderDepthBias 11
+SetField Groupwidgets[0].Definition.TextWidgets[0].Definition.GuiRenderblock.Bounds720p -404 -1183 138 350
+SetField Groupwidgets[0].Definition.TextWidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[0].Definition.TextWidgets[0].Definition.DataSourceName.name null
+SetField groupwidgets[0].Definition.TextWidgets[0].Definition.textstring title
+SetField groupwidgets[0].Definition.TextWidgets[0].Definition.TextColorPreset hilite
+SetField groupwidgets[0].Definition.TextWidgets[0].Definition.CustomFont 4
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
+SetField groupwidgets[0].Definition.TextWidgets[1].Definition.name description
+SetField groupwidgets[0].Definition.TextWidgets[1].Definition.GUIRenderBlock.RenderDepthBias 11
+SetField Groupwidgets[0].Definition.TextWidgets[1].Definition.GuiRenderblock.Bounds720p -404 550 1292 1250
+SetField Groupwidgets[0].Definition.TextWidgets[1].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[0].Definition.TextWidgets[1].Definition.GUIRenderBlock.name switch_lobby
+SetField groupwidgets[0].Definition.TextWidgets[1].Definition.textstring description
+SetField groupwidgets[0].Definition.TextWidgets[1].Definition.TextColorPreset hilite
+SetField groupwidgets[0].Definition.TextWidgets[1].Definition.CustomFont 4
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
+SetField groupwidgets[0].Definition.bitmapwidgets[0].Definition.flags 24
+SetField groupwidgets[0].Definition.bitmapwidgets[0].Definition.name null
+SetField groupwidgets[0].Definition.bitmapwidgets[0].Definition.GUIRenderBlock.RenderDepthBias 0
+SetField Groupwidgets[0].Definition.bitmapwidgets[0].Definition.GuiRenderblock.Bounds720p -432 -352 -115 438
+SetField Groupwidgets[0].Definition.bitmapwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[0].Definition.bitmapwidgets[0].Definition.GuiRenderBlock.AnimationCollection ui\halox\pregame_lobby\basic_in_immediate_out.wacd
+SetField groupwidgets[0].Definition.bitmapwidgets[0].Definition.Bitmap ui\halox\common\common_bitmaps\white_95.bitmap
+SetField groupwidgets[0].Definition.bitmapwidgets[0].Definition.BlendMethod Alpha
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
+SetField groupwidgets[0].Definition.bitmapwidgets[1].Definition.flags 8
+SetField groupwidgets[0].Definition.bitmapwidgets[1].Definition.name null
+SetField groupwidgets[0].Definition.bitmapwidgets[1].Definition.GUIRenderBlock.RenderDepthBias 1
+SetField Groupwidgets[0].Definition.bitmapwidgets[1].Definition.GuiRenderblock.Bounds720p -432 -352 -115 436
+SetField Groupwidgets[0].Definition.bitmapwidgets[1].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[0].Definition.bitmapwidgets[1].Definition.GuiRenderBlock.AnimationCollection ui\halox\pregame_lobby\switch_lobby\flyout.wacd
+SetField groupwidgets[0].Definition.bitmapwidgets[1].Definition.Bitmap ui\halox\common\common_bitmaps\white_95.bitmap
+SetField groupwidgets[0].Definition.bitmapwidgets[1].Definition.BlendMethod Alpha
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
+SetField groupwidgets[0].Definition.bitmapwidgets[2].Definition.flags 8
+SetField groupwidgets[0].Definition.bitmapwidgets[2].Definition.name null
+SetField groupwidgets[0].Definition.bitmapwidgets[2].Definition.GUIRenderBlock.RenderDepthBias 2
+SetField Groupwidgets[0].Definition.bitmapwidgets[2].Definition.GuiRenderblock.Bounds720p -432 -1194 -345 -352
+SetField Groupwidgets[0].Definition.bitmapwidgets[2].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[0].Definition.bitmapwidgets[2].Definition.GuiRenderBlock.AnimationCollection ui\halox\pregame_lobby\switch_lobby\title_flyout.wacd
+SetField groupwidgets[0].Definition.bitmapwidgets[2].Definition.Bitmap ui\halox\common\common_bitmaps\white_95.bitmap
+SetField groupwidgets[0].Definition.bitmapwidgets[2].Definition.BlendMethod Alpha
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
+SetField groupwidgets[0].Definition.bitmapwidgets[3].Definition.flags 9
+SetField groupwidgets[0].Definition.bitmapwidgets[3].Definition.name dark_background
+SetField groupwidgets[0].Definition.bitmapwidgets[3].Definition.GUIRenderBlock.RenderDepthBias -20
+SetField Groupwidgets[0].Definition.bitmapwidgets[3].Definition.GuiRenderblock.Bounds720p -9000 -9000 9000 9000
+SetField Groupwidgets[0].Definition.bitmapwidgets[3].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[0].Definition.bitmapwidgets[3].Definition.GuiRenderBlock.AnimationCollection ui\halox\pregame_lobby\switch_lobby\basic_in_immediate_out.wacd
+SetField groupwidgets[0].Definition.bitmapwidgets[3].Definition.Bitmap ui\halox\common\common_bitmaps\black_25.bitmap
+SetField groupwidgets[0].Definition.bitmapwidgets[3].Definition.BlendMethod Alpha
+SaveTagChanges
+exit
