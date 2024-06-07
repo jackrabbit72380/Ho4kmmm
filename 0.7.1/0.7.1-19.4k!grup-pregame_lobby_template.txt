@@ -67,7 +67,18 @@ SetField Bitmapwidgets[0].Definition.GuiRenderBlock.RenderDepthBias -50
 SetField Bitmapwidgets[0].Definition.GuiRenderBlock.Bounds720p -670 -1185 1210 448
 SetField Bitmapwidgets[0].Definition.GuiRenderBlock.Bounds480i 285 40 450 216
 SetField Bitmapwidgets[0].Definition.GuiRenderBlock.AnimationCollection ui\halox\main_menu\animations\lobby_slide.wacd
-SetField Bitmapwidgets[0].Definition.Bitmap ui\halox\pregame_lobby\channel_ui.bitmap
+SetField Bitmapwidgets[0].Definition.Bitmap ui\halox\pregame_lobby\channel_campaign_ui.bitmap
+SetField Bitmapwidgets[0].Definition.BlendMethod AlphaBlend
+SaveTagChanges
+exitto tags
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_template.grup
+SetField Bitmapwidgets[0].Definition.GuiRenderBlock.Name channel
+SetField Bitmapwidgets[0].Definition.GuiRenderBlock.RenderDepthBias -50
+SetField Bitmapwidgets[0].Definition.GuiRenderBlock.Bounds720p -670 -1185 1210 448
+SetField Bitmapwidgets[0].Definition.GuiRenderBlock.Bounds480i 285 40 450 216
+SetField Bitmapwidgets[0].Definition.GuiRenderBlock.AnimationCollection ui\halox\main_menu\animations\lobby_slide.wacd
+SetField Bitmapwidgets[0].Definition.Bitmap ui\halox\pregame_lobby\channel_campaign_ui_custom.bitmap
 SetField Bitmapwidgets[0].Definition.BlendMethod AlphaBlend
 SaveTagChanges
 exitto tags
@@ -89,7 +100,17 @@ SetField Bitmapwidgets[2].Definition.GuiRenderBlock.RenderDepthBias -51
 SetField Bitmapwidgets[2].Definition.GuiRenderBlock.Bounds720p -670 -1185 1210 448
 SetField Bitmapwidgets[2].Definition.GuiRenderBlock.Bounds480i 285 40 450 216
 SetField bitmapwidgets[2].Definition.GuiRenderBlock.AnimationCollection ui\halox\main_menu\animations\lobby_slide.wacd
-SetField bitmapwidgets[2].Definition.Bitmap ui\halox\pregame_lobby\channel_ui.bitmap
+SetField bitmapwidgets[2].Definition.Bitmap ui\halox\pregame_lobby\channel_campaign_ui.bitmap
+SaveTagChanges
+exitto tags
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_template.grup
+SetField Bitmapwidgets[2].Definition.GuiRenderBlock.Name channel
+SetField Bitmapwidgets[2].Definition.GuiRenderBlock.RenderDepthBias -51
+SetField Bitmapwidgets[2].Definition.GuiRenderBlock.Bounds720p -670 -1185 1210 448
+SetField Bitmapwidgets[2].Definition.GuiRenderBlock.Bounds480i 285 40 450 216
+SetField bitmapwidgets[2].Definition.GuiRenderBlock.AnimationCollection ui\halox\main_menu\animations\lobby_slide.wacd
+SetField bitmapwidgets[2].Definition.Bitmap ui\halox\pregame_lobby\channel_campaign_ui_custom.bitmap
 SaveTagChanges
 exitto tags
 
