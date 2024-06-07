@@ -102,6 +102,7 @@ updatemapfiles "F:\Halo\Projects\h3_extracted\maps\info"
 switchtagcache 9
 updatemapfiles "F:\Halo\Projects\h3_extracted\maps\info"
 switchtagcache 10
+exit
 
 next use the GenirateCampainFile command
 GenirateCampainFile "F:\Halo\Projects\h3_extracted\maps\info"
