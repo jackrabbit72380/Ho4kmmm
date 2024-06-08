@@ -75,22 +75,18 @@ SaveTagChanges
 exitto tags
 
 edittag ui\halox\campaign\campaign_select_level.scn3
-SetField groupwidgets[0].bitmapwidgets[4].data.flags 9
-SetField groupwidgets[0].bitmapwidgets[4].data.name background_darkening
-SetField groupwidgets[0].bitmapwidgets[4].data.Layer -20
-SetField groupwidgets[0].bitmapwidgets[4].data.WidescreenYBoundsMin -610
-SetField groupwidgets[0].bitmapwidgets[4].data.WidescreenXBoundsMin -1475
-SetField groupwidgets[0].bitmapwidgets[4].data.WidescreenYBoundsMax 1080
-SetField groupwidgets[0].bitmapwidgets[4].data.WidescreenXBoundsMax -2620
-SetField groupwidgets[0].bitmapwidgets[4].data.StandardYBoundsMin 0
-SetField groupwidgets[0].bitmapwidgets[4].data.StandardXBoundsMin 0
-SetField groupwidgets[0].bitmapwidgets[4].data.StandardYBoundsMax 0
-SetField groupwidgets[0].bitmapwidgets[4].data.StandardXBoundsMax 0
-SetField groupwidgets[0].bitmapwidgets[4].data.Animation ui\halox\animations\mainmenu_fade.wacd
-SetField groupwidgets[0].bitmapwidgets[4].Bitmap ui\halox\common_bitmaps\third_column.bitmap
-SetField groupwidgets[0].bitmapwidgets[4].BlendMethod Alpha
+setfield GroupWidgets[0].Definition.bitmapWidgets[4]flags 9
+SetField groupwidgets[0].Definition.bitmapWidgets[4].Definition.GuiRenderBlock.Name background_darkening
+SetField groupwidgets[0].Definition.bitmapWidgets[4].Definition.GUIRenderBlock.RenderDepthBias -20
+SetField groupwidgets[0].Definition.bitmapwidgets[4].Definition.GuiRenderblock.Bounds720p -610 -1475 1080 -2620
+SetField groupwidgets[0].Definition.bitmapwidgets[4].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[0].Definition.bitmapwidgets[4].Definition.GuiRenderBlock.AnimationCollection ui\halox\animations\mainmenu_fade.wacd
+SetField groupwidgets[0].Definition.bitmapwidgets[4].Definition.Bitmap null
+SetField groupwidgets[0].Definition.bitmapwidgets[4].Definition.BlendMethod AlphaBlend
 SaveTagChanges
 exitto tags
+
+---
 
 edittag ui\halox\campaign\campaign_select_level.scn3
 SetField groupwidgets[0].bitmapwidgets[3].data.flags 9
