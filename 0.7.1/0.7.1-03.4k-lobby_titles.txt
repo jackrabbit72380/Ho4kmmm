@@ -1,9 +1,4 @@
-echo start script
-echo FYI This script is made with Tag Tool [1.5.7136.891]
-
-echo \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 echo hide old titles begin\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-echo \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 echo hide old lobby titles
 edittag ui\halox\pregame_lobby\pregame_lobby_template.grup
@@ -22,9 +17,9 @@ edittag ui\halox\campaign\campaign_select_difficulty.scn3
 SetField groupwidgets[0].textwidgets[0].textcolor clear
 savetagchanges
 exit
-echo \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
 echo hide old titles end\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-echo \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
 
 Echo ///install 4k_lobby_titles begin///
 
