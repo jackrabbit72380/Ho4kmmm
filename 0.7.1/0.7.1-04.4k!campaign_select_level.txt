@@ -121,22 +121,16 @@ SetField groupwidgets[0].bitmapwidgets[1].Definition.Bitmap null
 SetField groupwidgets[0].bitmapwidgets[1].Definition.BlendMethod AlphaBlend
 SaveTagChanges
 exitto tags
----
+
 edittag ui\halox\campaign\campaign_select_level.scn3
-SetField groupwidgets[0].bitmapwidgets[0].data.flags 9
-SetField groupwidgets[0].bitmapwidgets[0].data.name background
-SetField groupwidgets[0].bitmapwidgets[0].data.Layer -19
-SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenYBoundsMin -610
-SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenXBoundsMin -1475
-SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenYBoundsMax 1080
-SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenXBoundsMax 2620
-SetField groupwidgets[0].bitmapwidgets[0].data.StandardYBoundsMin 0
-SetField groupwidgets[0].bitmapwidgets[0].data.StandardXBoundsMin 0
-SetField groupwidgets[0].bitmapwidgets[0].data.StandardYBoundsMax 0
-SetField groupwidgets[0].bitmapwidgets[0].data.StandardXBoundsMax 0
-SetField groupwidgets[0].bitmapwidgets[0].data.Animation ui\halox\animations\mainmenu_fade.wacd
-SetField groupwidgets[0].bitmapwidgets[0].Bitmap ui\halox\common\common_bitmaps\selection_bkd
-SetField groupwidgets[0].bitmapwidgets[0].BlendMethod Alpha
+setfield GroupWidgets[0].Definition.bitmapWidgets[0]flagss 9
+SetField groupwidgets[0].Definition.bitmapWidgets[0].Definition.GuiRenderBlock.Name background
+SetField groupwidgets[0].Definition.bitmapWidgets[0].Definition.GUIRenderBlock.RenderDepthBias -19
+SetField groupwidgets[0].Definition.bitmapwidgets[0].Definition.GuiRenderblock.Bounds720p -610 -1475 1080 2620
+SetField groupwidgets[0].Definition.bitmapwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[0].Definition.bitmapwidgets[0].Definition.GuiRenderBlock.AnimationCollection ui\halox\animations\mainmenu_fade.wacd
+SetField groupwidgets[0].Definition.bitmapwidgets[0].Definition.Bitmap ui\halox\common\common_bitmaps\selection_bkd
+SetField groupwidgets[0].Definition.bitmapwidgets[0].Definition.BlendMethod AlphaBlend
 SaveTagChanges
 exitto tags
 
