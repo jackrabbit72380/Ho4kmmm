@@ -1,11 +1,10 @@
-echo edit a select b back bkey
-
+echo ##################################################################################### edit a select b back bkey
 edittag ui\halox\campaign\button_key_a_select_b_back.bkey
 SetField GuiRenderBlock.Bounds720p 985 -656 0 0
 savetagchanges
 exitto tags
 
-echo edit skn3 campaign_select_level skin & font
+echo ################################################################################### edit skn3 campaign_select_level skin & font
 
 edittag ui\halox\campaign\campaign_select_level.skn3
 SetField textwidgets[0].Definition.GuiRenderblock.Bounds720p 0 0 32 245
@@ -36,7 +35,7 @@ SetField GuiRenderblock.Bounds480i 0 0 0 0
 SaveTagChanges
 exitto tags
 
-Echo refrence campaign select mission bitmap
+Echo ##################################################################################### refrence campaign select mission bitmap
 
 edittag ui\halox\campaign\campaign_select_level.scn3
 setfield GroupWidgets[0].Definition.bitmapWidgets[7].flags 9
@@ -134,7 +133,7 @@ SetField groupwidgets[0].Definition.bitmapwidgets[0].Definition.BlendMethod Alph
 SaveTagChanges
 exitto tags
 
-echo #################################################################################### maps list placement
+echo ########################################################################################################### maps list placement
 
 edittag ui\halox\campaign\campaign_select_level.scn3
 SetField groupwidgets[0].Definition.listwidgets[0].items[0]Definition.GuiRenderblock.Bounds720p -226 -820 0 0
