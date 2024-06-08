@@ -1,17 +1,9 @@
-Echo Add campaign & theater back into the halo online main menu.
+Echo Add theater back into the halo online main menu.
 
 edittag ui\halox\main_menu\main_menu_list.dsrc
 addblockelements data 1
-addblockelements data[6].stringidvalues 1
-setfield data[6].stringidvalues[0].datatype name
-setfield data[6].stringidvalues[0].value campaign
-savetagchanges
-exitto tags
-
-edittag ui\halox\main_menu\main_menu_list.dsrc
-addblockelements data 1
-addblockelements data[7].stringidvalues 1
-setfield data[7].stringidvalues[0].datatype name
-setfield data[7].stringidvalues[0].value theater
+addblockelements data[8].stringidvalues 1
+setfield data[8].stringidvalues[0].datatype name
+setfield data[8].stringidvalues[0].value theater
 savetagchanges
 exitto tags
