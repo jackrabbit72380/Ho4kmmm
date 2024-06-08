@@ -68,11 +68,11 @@ SetField groupwidgets[0].Definition.Bitmapwidgets[5].Definition.GUIRenderBlock.R
 SetField groupwidgets[0].Definition.Bitmapwidgets[5].Definition.GuiRenderblock.Bounds720p -390 720 -760 -2380
 SetField groupwidgets[0].Definition.Bitmapwidgets[5].Definition.GuiRenderblock.Bounds480i 0 0 0 0
 SetField groupwidgets[0].Definition.Bitmapwidgets[5].Definition.GuiRenderBlock.AnimationCollection ui\halox\main_menu\animations\mainmenu_fade.gui_widget_animation_collection_definition
-SetField groupwidgets[0].Definition.Bitmapwidgets[5].Definition.Bitmap ui\halox\common_bitmaps\third_column.bitmap
+SetField groupwidgets[0].Definition.Bitmapwidgets[5].Definition.Bitmap ui\halox\common\common_bitmaps\third_column.bitmap
 SetField groupwidgets[0].Definition.Bitmapwidgets[5].Definition.BlendMethod AlphaBlend
 SaveTagChanges
 exitto tags
-
+-
 edittag ui\halox\campaign\campaign_select_level.scn3
 SetField GroupWidgets[0].Definition.BitmapWidgets[4].Definition.Flags 9
 SetField groupwidgets[0].Definition.BitmapWidgets[4].Definition.GuiRenderBlock.Name background_darkening
