@@ -39,7 +39,6 @@ Echo ###########################################################################
 
 edittag ui\halox\campaign\campaign_select_level.scn3
 SetField GroupWidgets[0].Definition.BitmapWidgets[7].Definition.Flags 9
--
 setfield GroupWidgets[0].Definition.bitmapWidgets[7].Definition.GuiRenderBlock.Name title
 SetField groupwidgets[0].Definition.bitmapWidgets[7].Definition.GUIRenderBlock.RenderDepthBias -1
 SetField groupwidgets[0].Definition.bitmapwidgets[7].Definition.GuiRenderblock.Bounds720p -780 -730 -284 790
