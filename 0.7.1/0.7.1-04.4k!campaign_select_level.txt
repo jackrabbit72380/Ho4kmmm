@@ -137,52 +137,21 @@ exitto tags
 echo #################################################################################### maps list placement
 
 edittag ui\halox\campaign\campaign_select_level.scn3
-
-SetField groupwidgets[0].listwidgets[0].items[0].data.WidescreenYOffset -226
-SetField groupwidgets[0].listwidgets[0].items[0].data.WidescreenXOffset -820
-
-SetField groupwidgets[0].listwidgets[0].items[1].data.WidescreenYOffset -164
-SetField groupwidgets[0].listwidgets[0].items[1].data.WidescreenXOffset -820
-
-SetField groupwidgets[0].listwidgets[0].items[2].data.WidescreenYOffset -102
-SetField groupwidgets[0].listwidgets[0].items[2].data.WidescreenXOffset -820
-
-SetField groupwidgets[0].listwidgets[0].items[3].data.WidescreenYOffset -40
-SetField groupwidgets[0].listwidgets[0].items[3].data.WidescreenXOffset -820
-
-SetField groupwidgets[0].listwidgets[0].items[4].data.WidescreenYOffset 22
-SetField groupwidgets[0].listwidgets[0].items[4].data.WidescreenXOffset -820
-
-SetField groupwidgets[0].listwidgets[0].items[5].data.WidescreenYOffset 84
-SetField groupwidgets[0].listwidgets[0].items[5].data.WidescreenXOffset -820
-
-SetField groupwidgets[0].listwidgets[0].items[6].data.WidescreenYOffset 146
-SetField groupwidgets[0].listwidgets[0].items[6].data.WidescreenXOffset -820
-
-SetField groupwidgets[0].listwidgets[0].items[7].data.WidescreenYOffset 208
-SetField groupwidgets[0].listwidgets[0].items[7].data.WidescreenXOffset -820
-
-SetField groupwidgets[0].listwidgets[0].items[8].data.WidescreenYOffset 270
-SetField groupwidgets[0].listwidgets[0].items[8].data.WidescreenXOffset -820
-
-SetField groupwidgets[0].listwidgets[0].items[9].data.WidescreenYOffset 332
-SetField groupwidgets[0].listwidgets[0].items[9].data.WidescreenXOffset -820
-
-SetField groupwidgets[0].listwidgets[0].items[10].data.WidescreenYOffset 394
-SetField groupwidgets[0].listwidgets[0].items[10].data.WidescreenXOffset -820
-
-SetField groupwidgets[0].listwidgets[0].items[11].data.WidescreenYOffset 456
-SetField groupwidgets[0].listwidgets[0].items[11].data.WidescreenXOffset -820
-
-SetField groupwidgets[0].listwidgets[0].items[12].data.WidescreenYOffset 518
-SetField groupwidgets[0].listwidgets[0].items[12].data.WidescreenXOffset -820
-
-SetField groupwidgets[0].listwidgets[0].items[13].data.WidescreenYOffset 580
-SetField groupwidgets[0].listwidgets[0].items[13].data.WidescreenXOffset -820
-
-SetField groupwidgets[0].listwidgets[0].items[14].data.WidescreenYOffset 642
-SetField groupwidgets[0].listwidgets[0].items[14].data.WidescreenXOffset -820
-
+SetField groupwidgets[0].Definition.listwidgets[0].items[0]Definition.GuiRenderblock.Bounds720p -226 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].items[1]Definition.GuiRenderblock.Bounds720p -164 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].items[2]Definition.GuiRenderblock.Bounds720p -102 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].items[3]Definition.GuiRenderblock.Bounds720p -40 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].items[4]Definition.GuiRenderblock.Bounds720p 22 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].items[5]Definition.GuiRenderblock.Bounds720p 84 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].items[6]Definition.GuiRenderblock.Bounds720p 146 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].items[7]Definition.GuiRenderblock.Bounds720p 208 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].items[8]Definition.GuiRenderblock.Bounds720p 270 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].items[9]Definition.GuiRenderblock.Bounds720p 332 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].items[10]Definition.GuiRenderblock.Bounds720p 394 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].items[11]Definition.GuiRenderblock.Bounds720p 456 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].items[12]Definition.GuiRenderblock.Bounds720p 518 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].items[13]Definition.GuiRenderblock.Bounds720p 580 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].items[14]Definition.GuiRenderblock.Bounds720p 642 -820 0 0
 SaveTagChanges
 exitto tags
 exit
