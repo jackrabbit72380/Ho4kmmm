@@ -16,27 +16,16 @@ exitto tags
 
 echo edit yes no skin orange selection bar bitmap
 edittag ui\halox\campaign\campaign_select_level.skn3
-SetField bitmapwidgets[0].data.WidescreenYOffset -10
-SetField bitmapwidgets[0].data.WidescreenXOffset 0
-SetField bitmapwidgets[0].data.WidescreenYUnknown 50
-SetField bitmapwidgets[0].data.WidescreenXUnknown 392
-SetField bitmapwidgets[0].data.StandardYOffset 0
-SetField bitmapwidgets[0].data.StandardXOffset 0
-SetField bitmapwidgets[0].data.StandardYUnknown 0
-SetField bitmapwidgets[0].data.StandardXUnknown 0
+SetField bitmapwidgets[0].Definition.GuiRenderblock.Bounds720p -10 0 50 392
+SetField bitmapwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+
 savetagchanges
 exitto tags
 
 echo edit white_residual_hilite bitmap
 edittag ui\halox\campaign\campaign_select_level.skn3
-SetField bitmapwidgets[1].data.WidescreenYOffset -10
-SetField bitmapwidgets[1].data.WidescreenXOffset 0
-SetField bitmapwidgets[1].data.WidescreenYUnknown 50
-SetField bitmapwidgets[1].data.WidescreenXUnknown 392
-SetField bitmapwidgets[1].data.StandardYOffset 0
-SetField bitmapwidgets[1].data.StandardXOffset 0
-SetField bitmapwidgets[1].data.StandardYUnknown 0
-SetField bitmapwidgets[1].data.StandardXUnknown 0
+SetField bitmapwidgets[1].Definition.GuiRenderblock.Bounds720p -10 0 50 392
+SetField bitmapwidgets[1].Definition.GuiRenderblock.Bounds480i 0 0 0 0
 savetagchanges
 exitto tags
 
