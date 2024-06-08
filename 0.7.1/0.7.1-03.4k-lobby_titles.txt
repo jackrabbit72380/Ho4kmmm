@@ -26,7 +26,7 @@ createtag bitm
 nametag * ui\halox\main_menu\4k_available_games
 savetagnames
 edittag ui\halox\main_menu\4k_available_games.bitmap
-importbitmap 0 mods\maps\mainmenu\bitmaps\4k_lobby_titles\4k_available_games.dds
+importbitmap 0 tags\bitmaps\mainmenu\bitmaps\4k_lobby_titles\4k_available_games.dds
 savetagchanges
 exitto tags
 
@@ -34,7 +34,7 @@ createtag bitm
 nametag * ui\halox\main_menu\4k_campaign_lobby
 savetagnames
 edittag ui\halox\main_menu\4k_campaign_lobby.bitmap
-importbitmap 0 mods\maps\mainmenu\bitmaps\4k_lobby_titles\4k_campaign_lobby.dds
+importbitmap 0 tags\bitmaps\mainmenu\bitmaps\4k_lobby_titles\4k_campaign_lobby.dds
 savetagchanges
 exitto tags
 
@@ -42,7 +42,7 @@ createtag bitm
 nametag * ui\halox\main_menu\4k_carnage_report
 savetagnames
 edittag ui\halox\main_menu\4k_carnage_report.bitmap
-importbitmap 0 mods\maps\mainmenu\bitmaps\4k_lobby_titles\4k_carnage_report.dds
+importbitmap 0 tags\bitmaps\mainmenu\bitmaps\4k_lobby_titles\4k_carnage_report.dds
 savetagchanges
 exitto tags
 
@@ -50,7 +50,7 @@ createtag bitm
 nametag * ui\halox\main_menu\4k_forge_lobby
 savetagnames
 edittag ui\halox\main_menu\4k_forge_lobby.bitmap
-importbitmap 0 mods\maps\mainmenu\bitmaps\4k_lobby_titles\4k_forge_lobby.dds
+importbitmap 0 tags\bitmaps\mainmenu\bitmaps\4k_lobby_titles\4k_forge_lobby.dds
 savetagchanges
 exitto tags
 
@@ -58,7 +58,7 @@ createtag bitm
 nametag * ui\halox\main_menu\4k_match_found
 savetagnames
 edittag ui\halox\main_menu\4k_match_found.bitmap
-importbitmap 0 mods\maps\mainmenu\bitmaps\4k_lobby_titles\4k_match_found.dds
+importbitmap 0 tags\bitmaps\mainmenu\bitmaps\4k_lobby_titles\4k_match_found.dds
 savetagchanges
 exitto tags
 
@@ -66,7 +66,7 @@ createtag bitm
 nametag * ui\halox\main_menu\4k_matchmaking_lobby
 savetagnames
 edittag ui\halox\main_menu\4k_matchmaking_lobby.bitmap
-importbitmap 0 mods\maps\mainmenu\bitmaps\4k_lobby_titles\4k_matchmaking_lobby.dds
+importbitmap 0 tags\bitmaps\mainmenu\bitmaps\4k_lobby_titles\4k_matchmaking_lobby.dds
 savetagchanges
 exitto tags
 
@@ -74,7 +74,7 @@ createtag bitm
 nametag * ui\halox\main_menu\4k_multiplayer_lobby
 savetagnames
 edittag ui\halox\main_menu\4k_multiplayer_lobby.bitmap
-importbitmap 0 mods\maps\mainmenu\bitmaps\4k_lobby_titles\4k_multiplayer_lobby.dds
+importbitmap 0 tags\bitmaps\mainmenu\bitmaps\4k_lobby_titles\4k_multiplayer_lobby.dds
 savetagchanges
 exitto tags
 
@@ -82,7 +82,7 @@ createtag bitm
 nametag * ui\halox\main_menu\4k_options
 savetagnames
 edittag ui\halox\main_menu\4k_options.bitmap
-importbitmap 0 mods\maps\mainmenu\bitmaps\4k_lobby_titles\4k_options.dds
+importbitmap 0 tags\bitmaps\mainmenu\bitmaps\4k_lobby_titles\4k_options.dds
 savetagchanges
 exitto tags
 
@@ -90,7 +90,7 @@ createtag bitm
 nametag * ui\halox\main_menu\4k_players_found
 savetagnames
 edittag ui\halox\main_menu\4k_players_found.bitmap
-importbitmap 0 mods\maps\mainmenu\bitmaps\4k_lobby_titles\4k_players_found.dds
+importbitmap 0 tags\bitmaps\mainmenu\bitmaps\4k_lobby_titles\4k_players_found.dds
 savetagchanges
 exitto tags
 
@@ -98,7 +98,7 @@ createtag bitm
 nametag * ui\halox\main_menu\4k_postgame_lobby
 savetagnames
 edittag ui\halox\main_menu\4k_postgame_lobby.bitmap
-importbitmap 0 mods\maps\mainmenu\bitmaps\4k_lobby_titles\4k_postgame_lobby.dds
+importbitmap 0 tags\bitmaps\mainmenu\bitmaps\4k_lobby_titles\4k_postgame_lobby.dds
 savetagchanges
 exitto tags
 
@@ -106,7 +106,7 @@ createtag bitm
 nametag * ui\halox\main_menu\4k_select_difficulty
 savetagnames
 edittag ui\halox\main_menu\4k_select_difficulty.bitmap
-importbitmap 0 mods\maps\mainmenu\bitmaps\4k_lobby_titles\4k_select_difficulty.dds
+importbitmap 0 tags\bitmaps\mainmenu\bitmaps\4k_lobby_titles\4k_select_difficulty.dds
 savetagchanges
 exitto tags
 
@@ -122,7 +122,7 @@ createtag bitm
 nametag * ui\halox\main_menu\4k_select_gametype
 savetagnames
 edittag ui\halox\main_menu\4k_select_gametype.bitmap
-importbitmap 0 mods\maps\mainmenu\bitmaps\4k_lobby_titles\4k_select_gametype.dds
+importbitmap 0 tags\bitmaps\mainmenu\bitmaps\4k_lobby_titles\4k_select_gametype.dds
 savetagchanges
 exitto tags
 
@@ -130,7 +130,7 @@ createtag bitm
 nametag * ui\halox\main_menu\4k_select_map
 savetagnames
 edittag ui\halox\main_menu\4k_select_map.bitmap
-importbitmap 0 mods\maps\mainmenu\bitmaps\4k_lobby_titles\4k_select_map.dds
+importbitmap 0 tags\bitmaps\mainmenu\bitmaps\4k_lobby_titles\4k_select_map.dds
 savetagchanges
 exitto tags
 
@@ -138,7 +138,7 @@ createtag bitm
 nametag * ui\halox\main_menu\4k_select_mission
 savetagnames
 edittag ui\halox\main_menu\4k_select_mission.bitmap
-importbitmap 0 mods\maps\mainmenu\bitmaps\4k_lobby_titles\4k_select_mission	
+importbitmap 0 tags\bitmaps\mainmenu\bitmaps\4k_lobby_titles\4k_select_mission	
 savetagchanges
 exitto tags
 
@@ -146,7 +146,7 @@ createtag bitm
 nametag * ui\halox\main_menu\4k_theater
 savetagnames
 edittag ui\halox\main_menu\4k_theater.bitmap
-importbitmap 0 mods\maps\mainmenu\bitmaps\4k_lobby_titles\4k_theater.dds
+importbitmap 0 tags\bitmaps\mainmenu\bitmaps\4k_lobby_titles\4k_theater.dds
 savetagchanges
 exitto tags
 
@@ -154,7 +154,7 @@ createtag bitm
 nametag * ui\halox\main_menu\4k_are_you_sure
 savetagnames
 edittag ui\halox\main_menu\4k_are_you_sure.bitmap
-importbitmap 0 mods\maps\mainmenu\bitmaps\4k_lobby_titles\4k_are_you_sure.dds
+importbitmap 0 tags\bitmaps\mainmenu\bitmaps\4k_lobby_titles\4k_are_you_sure.dds
 savetagchanges
 exitto tags
 
@@ -162,7 +162,7 @@ createtag bitm
 nametag * ui\halox\main_menu\4k_end_forge
 savetagnames
 edittag ui\halox\main_menu\4k_end_forge.bitmap
-importbitmap 0 mods\maps\mainmenu\bitmaps\4k_lobby_titles\4k_end_forge.dds
+importbitmap 0 tags\bitmaps\mainmenu\bitmaps\4k_lobby_titles\4k_end_forge.dds
 savetagchanges
 exitto tags
 
@@ -178,7 +178,7 @@ createtag bitm
 nametag * ui\halox\main_menu\4k_custom_games_lobby
 savetagnames
 edittag ui\halox\main_menu\4k_custom_games_lobby.bitmap
-importbitmap 0 mods\maps\mainmenu\bitmaps\4k_lobby_titles\4k_custom_games_lobby.dds
+importbitmap 0 tags\bitmaps\mainmenu\bitmaps\4k_lobby_titles\4k_custom_games_lobby.dds
 savetagchanges
 exitto tags
 
