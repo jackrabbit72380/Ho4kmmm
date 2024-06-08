@@ -1,7 +1,7 @@
 echo edit a select b back bkey
 
 edittag ui\halox\campaign\button_key_a_select_b_back.bkey
-SetField GuiRenderBlock.Bounds720p 0 0 985 -656
+SetField GuiRenderBlock.Bounds720p 985 -656 0 0
 savetagchanges
 exitto tags
 
@@ -32,14 +32,8 @@ exitto tags
 echo #################################################################################### start scn3
 
 edittag ui\halox\campaign\campaign_select_level.scn3
-SetField WidescreenYBoundsMin -234
-SetField WidescreenXBoundsMin -576
-SetField WidescreenYBoundsMax 234
-SetField WidescreenXBoundsMax 576
-SetField StandardYBoundsMin 0
-SetField StandardXBoundsMin 0
-SetField StandardYBoundsMax 0
-SetField StandardXBoundsMax 0
+SetField bitmapwidgets[1].Definition.GuiRenderblock.Bounds720p -234 -576 234 576
+SetField bitmapwidgets[1].Definition.GuiRenderblock.Bounds480i 0 0 0 0
 SaveTagChanges
 exitto tags
 
