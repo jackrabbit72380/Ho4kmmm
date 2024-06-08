@@ -3,7 +3,7 @@ Echo Add theater back into the halo online main menu.
 edittag ui\halox\main_menu\main_menu_list.dsrc
 addblockelements data 1
 addblockelements data[8].stringidvalues 1
-setfield data[8].stringidvalues[0].datatype name
-setfield data[8].stringidvalues[0].value theater
+setfield Elements[8].StringidValues[0].Name name
+setfield Elements[8].StringidValues[0].Value theater
 savetagchanges
 exitto tags
