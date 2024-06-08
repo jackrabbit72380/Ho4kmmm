@@ -1,5 +1,3 @@
-echo must use old tool
-
 echo AddBlockElements
 edittag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
 AddBlockElements GroupWidgets[2].Definition.BitmapWidgets 1
