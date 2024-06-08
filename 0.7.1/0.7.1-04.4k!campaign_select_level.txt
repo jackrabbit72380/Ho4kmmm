@@ -109,25 +109,19 @@ SetField groupwidgets[0].bitmapwidgets[2].Definition.Bitmap null
 SetField groupwidgets[0].bitmapwidgets[2].Definition.BlendMethod AlphaBlend
 SaveTagChanges
 exitto tags
----
+
 edittag ui\halox\campaign\campaign_select_level.scn3
-SetField groupwidgets[0].bitmapwidgets[1].data.flags 9
-SetField groupwidgets[0].bitmapwidgets[1].data.name unknown_film_image
-SetField groupwidgets[0].bitmapwidgets[1].data.Layer 5
-SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenYBoundsMin -380
-SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenXBoundsMin 730
-SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenYBoundsMax 140
-SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenXBoundsMax 2370
-SetField groupwidgets[0].bitmapwidgets[1].data.StandardYBoundsMin  44
-SetField groupwidgets[0].bitmapwidgets[1].data.StandardXBoundsMin 473
-SetField groupwidgets[0].bitmapwidgets[1].data.StandardYBoundsMax 134
-SetField groupwidgets[0].bitmapwidgets[1].data.StandardXBoundsMax 753
-SetField groupwidgets[0].bitmapwidgets[1].data.Animation ui\halox\animations\mainmenu_fade.wacd
-SetField groupwidgets[0].bitmapwidgets[1].Bitmap null
-SetField groupwidgets[0].bitmapwidgets[1].BlendMethod Alpha
+setfield GroupWidgets[0].Definition.bitmapWidgets[1]flagss 9
+SetField groupwidgets[0].Definition.bitmapWidgets[1].Definition.GuiRenderBlock.Name unknown_film_image
+SetField groupwidgets[0].Definition.bitmapWidgets[1].Definition.GUIRenderBlock.RenderDepthBias 5
+SetField groupwidgets[0].Definition.bitmapwidgets[1].Definition.GuiRenderblock.Bounds720p -380 730 140 2370
+SetField groupwidgets[0].Definition.bitmapwidgets[1].Definition.GuiRenderblock.Bounds480i 44 473 134 753
+SetField groupwidgets[0].bitmapwidgets[1].Definition.GuiRenderBlock.AnimationCollection ui\halox\animations\mainmenu_fade.wacd
+SetField groupwidgets[0].bitmapwidgets[1].Definition.Bitmap null
+SetField groupwidgets[0].bitmapwidgets[1].Definition.BlendMethod AlphaBlend
 SaveTagChanges
 exitto tags
-
+---
 edittag ui\halox\campaign\campaign_select_level.scn3
 SetField groupwidgets[0].bitmapwidgets[0].data.flags 9
 SetField groupwidgets[0].bitmapwidgets[0].data.name background
