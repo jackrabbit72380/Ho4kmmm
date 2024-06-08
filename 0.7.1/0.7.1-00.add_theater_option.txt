@@ -1,5 +1,5 @@
 Echo Add theater back into the halo online main menu.
-
+openmodpackage "Ho4kmmm.pak"
 edittag ui\halox\main_menu\main_menu_list.gui_datasource_definition
 addblockelements Elements 1
 addblockelements Elements[8].stringidvalues 1
