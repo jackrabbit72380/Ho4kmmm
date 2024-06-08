@@ -2,19 +2,19 @@ echo hide old titles begin\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 echo hide old lobby titles
 edittag ui\halox\pregame_lobby\pregame_lobby_template.grup
-SetField textwidgets[0].textcolor clear
+SetField textwidgets[0].Definition.TextColorPreset clear
 savetagchanges
 exit
 
 echo hide org select mission text
 edittag ui\halox\campaign\campaign_select_level.scn3
-SetField groupwidgets[0].textwidgets[0].textcolor clear
+SetField groupwidgets[0].textwidgets[0].Definition.TextColorPreset clear
 savetagchanges
 exit
 
 echo hide org select difficulty text
 edittag ui\halox\campaign\campaign_select_difficulty.scn3
-SetField groupwidgets[0].textwidgets[0].textcolor clear
+SetField groupwidgets[0].textwidgets[0].Definition.TextColorPreset clear
 savetagchanges
 exit
 
