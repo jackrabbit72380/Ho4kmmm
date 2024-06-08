@@ -136,21 +136,21 @@ exitto tags
 echo ########################################################################################################### maps list placement
 
 edittag ui\halox\campaign\campaign_select_level.scn3
-SetField groupwidgets[0].Definition.listwidgets[0].items[0].Definition.GuiRenderblock.Bounds720p -226 -820 0 0
-SetField groupwidgets[0].Definition.listwidgets[0].items[1].Definition.GuiRenderblock.Bounds720p -164 -820 0 0
-SetField groupwidgets[0].Definition.listwidgets[0].items[2].Definition.GuiRenderblock.Bounds720p -102 -820 0 0
-SetField groupwidgets[0].Definition.listwidgets[0].items[3].Definition.GuiRenderblock.Bounds720p -40 -820 0 0
-SetField groupwidgets[0].Definition.listwidgets[0].items[4].Definition.GuiRenderblock.Bounds720p 22 -820 0 0
-SetField groupwidgets[0].Definition.listwidgets[0].items[5].Definition.GuiRenderblock.Bounds720p 84 -820 0 0
-SetField groupwidgets[0].Definition.listwidgets[0].items[6].Definition.GuiRenderblock.Bounds720p 146 -820 0 0
-SetField groupwidgets[0].Definition.listwidgets[0].items[7].Definition.GuiRenderblock.Bounds720p 208 -820 0 0
-SetField groupwidgets[0].Definition.listwidgets[0].items[8].Definition.GuiRenderblock.Bounds720p 270 -820 0 0
-SetField groupwidgets[0].Definition.listwidgets[0].items[9].Definition.GuiRenderblock.Bounds720p 332 -820 0 0
-SetField groupwidgets[0].Definition.listwidgets[0].items[10].Definition.GuiRenderblock.Bounds720p 394 -820 0 0
-SetField groupwidgets[0].Definition.listwidgets[0].items[11].Definition.GuiRenderblock.Bounds720p 456 -820 0 0
-SetField groupwidgets[0].Definition.listwidgets[0].items[12].Definition.GuiRenderblock.Bounds720p 518 -820 0 0
-SetField groupwidgets[0].Definition.listwidgets[0].items[13].Definition.GuiRenderblock.Bounds720p 580 -820 0 0
-SetField groupwidgets[0].Definition.listwidgets[0].items[14].Definition.GuiRenderblock.Bounds720p 642 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].items[0].GuiRenderblock.Bounds720p -226 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].items[1].GuiRenderblock.Bounds720p -164 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].items[2].GuiRenderblock.Bounds720p -102 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].items[3].GuiRenderblock.Bounds720p -40 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].items[4].GuiRenderblock.Bounds720p 22 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].items[5].GuiRenderblock.Bounds720p 84 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].items[6].GuiRenderblock.Bounds720p 146 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].items[7].GuiRenderblock.Bounds720p 208 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].items[8].GuiRenderblock.Bounds720p 270 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].items[9].GuiRenderblock.Bounds720p 332 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].items[10].GuiRenderblock.Bounds720p 394 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].items[11].GuiRenderblock.Bounds720p 456 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].items[12].GuiRenderblock.Bounds720p 518 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].items[13].GuiRenderblock.Bounds720p 580 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].items[14].GuiRenderblock.Bounds720p 642 -820 0 0
 SaveTagChanges
 exitto tags
 exit
