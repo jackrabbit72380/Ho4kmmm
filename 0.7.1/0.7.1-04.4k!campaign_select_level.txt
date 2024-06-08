@@ -32,8 +32,8 @@ exitto tags
 echo #################################################################################### start scn3
 
 edittag ui\halox\campaign\campaign_select_level.scn3
-SetField bitmapwidgets[1].Definition.GuiRenderblock.Bounds720p -234 -576 234 576
-SetField bitmapwidgets[1].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField GuiRenderblock.Bounds720p -234 -576 234 576
+SetField GuiRenderblock.Bounds480i 0 0 0 0
 SaveTagChanges
 exitto tags
 
