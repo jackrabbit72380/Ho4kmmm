@@ -40,20 +40,14 @@ exitto tags
 Echo refrence campaign select mission bitmap
 
 edittag ui\halox\campaign\campaign_select_level.scn3
-SetField groupwidgets[0].bitmapwidgets[7].data.flags 9
-SetField groupwidgets[0].bitmapwidgets[7].data.name title
-SetField groupwidgets[0].bitmapwidgets[7].data.Layer -1
-SetField groupwidgets[0].bitmapwidgets[7].data.WidescreenYBoundsMin -780
-SetField groupwidgets[0].bitmapwidgets[7].data.WidescreenXBoundsMin -730
-SetField groupwidgets[0].bitmapwidgets[7].data.WidescreenYBoundsMax -284
-SetField groupwidgets[0].bitmapwidgets[7].data.WidescreenXBoundsMax 790
-SetField groupwidgets[0].bitmapwidgets[7].data.StandardYBoundsMin 254
-SetField groupwidgets[0].bitmapwidgets[7].data.StandardXBoundsMin 55
-SetField groupwidgets[0].bitmapwidgets[7].data.StandardYBoundsMax 405
-SetField groupwidgets[0].bitmapwidgets[7].data.StandardXBoundsMax 518
-SetField groupwidgets[0].bitmapwidgets[7].data.Animation ui\halox\animations\mainmenu_fade.wacd
-SetField groupwidgets[0].bitmapwidgets[7].Bitmap ui\halox\main_menu\4k_select_mission.bitmap
-SetField groupwidgets[0].bitmapwidgets[7].BlendMethod Alpha
+setfield GroupWidgets[0].Definition.bitmapWidgets[7]flags 9
+setfield GroupWidgets[0].Definition.bitmapWidgets[7].Definition.GuiRenderBlock.Name title
+SetField groupwidgets[0].Definition.bitmapWidgets[7].Definition.GUIRenderBlock.RenderDepthBias -1
+SetField groupwidgets[0].bitmapwidgets[7].Definition.GuiRenderblock.Bounds720p -780 -730 -284 790
+SetField groupwidgets[0].bitmapwidgets[7].Definition.GuiRenderblock.Bounds480i 254 55 405 518
+SetField groupwidgets[0].bitmapwidgets[7].Definition.GuiRenderBlock.AnimationCollection ui\halox\animations\mainmenu_fade.wacd
+SetField groupwidgets[0].bitmapwidgets[7].Definition.Bitmap  ui\halox\main_menu\4k_select_mission.bitmap
+SetField groupwidgets[0].bitmapwidgets[7].Definition.BlendMethod AlphaBlend
 SaveTagChanges
 exitto tags
 
