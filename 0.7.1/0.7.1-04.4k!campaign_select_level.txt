@@ -96,7 +96,7 @@ SetField groupwidgets[0].Definition.Bitmapwidgets[3].Definition.Bitmap ui\halox\
 SetField groupwidgets[0].Definition.Bitmapwidgets[3].Definition.BlendMethod AlphaBlend
 SaveTagChanges
 exitto tags
--
+
 edittag ui\halox\campaign\campaign_select_level.scn3
 SetField GroupWidgets[0].Definition.BitmapWidgets[2].Definition.Flags 11
 SetField groupwidgets[0].Definition.BitmapWidgets[2].Definition.GuiRenderBlock.Name level_locked
