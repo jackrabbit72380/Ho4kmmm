@@ -18,7 +18,6 @@ echo edit yes no skin orange selection bar bitmap
 edittag ui\halox\campaign\campaign_select_level.skn3
 SetField bitmapwidgets[0].Definition.GuiRenderblock.Bounds720p -10 0 50 392
 SetField bitmapwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
-
 savetagchanges
 exitto tags
 
@@ -52,20 +51,14 @@ SaveTagChanges
 exitto tags
 
 edittag ui\halox\campaign\campaign_select_level.scn3
-SetField groupwidgets[0].bitmapwidgets[6].data.flags 9
-SetField groupwidgets[0].bitmapwidgets[6].data.name solo_slots
-SetField groupwidgets[0].bitmapwidgets[6].data.Layer -12
-SetField groupwidgets[0].bitmapwidgets[6].data.WidescreenYBoundsMin -400
-SetField groupwidgets[0].bitmapwidgets[6].data.WidescreenXBoundsMin 970
-SetField groupwidgets[0].bitmapwidgets[6].data.WidescreenYBoundsMax -200
-SetField groupwidgets[0].bitmapwidgets[6].data.WidescreenXBoundsMax -660
-SetField groupwidgets[0].bitmapwidgets[6].data.StandardYBoundsMin 0
-SetField groupwidgets[0].bitmapwidgets[6].data.StandardXBoundsMin 0
-SetField groupwidgets[0].bitmapwidgets[6].data.StandardYBoundsMax 0
-SetField groupwidgets[0].bitmapwidgets[6].data.StandardXBoundsMax 0
-SetField groupwidgets[0].bitmapwidgets[6].data.Animation ui\halox\animations\mainmenu_fade.wacd
-SetField groupwidgets[0].bitmapwidgets[6].Bitmap ui\halox\campaign\difficulty_slots_ui.bitmap
-SetField groupwidgets[0].bitmapwidgets[6].BlendMethod Alpha
+setfield GroupWidgets[0].Definition.bitmapWidgets[6]flags 9
+SetField groupwidgets[0].Definition.bitmapWidgets[6].Definition.GuiRenderBlock.Name solo_slots
+SetField groupwidgets[0].Definition.bitmapwidgets[6].Definition.GUIRenderBlock.RenderDepthBias -12
+SetField groupwidgets[0].Definition.bitmapwidgets[6].Definition.GuiRenderblock.Bounds720p -400 970 -200 -660
+SetField groupwidgets[0].Definition.bitmapwidgets[6].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[0].Definition.bitmapwidgets[6].Definition.GuiRenderBlock.AnimationCollection ui\halox\animations\mainmenu_fade.wacd
+SetField groupwidgets[0].Definition.bitmapwidgets[6].Definition.Bitmap ui\halox\campaign\difficulty_slots_ui.bitmap
+SetField groupwidgets[0].Definition.bitmapwidgets[6].Definition.BlendMethod AlphaBlend
 SaveTagChanges
 exitto tags
 
