@@ -144,7 +144,7 @@ createtag bitm
 nametag * ui\halox\main_menu\4k_select_mission
 savetagnames
 edittag ui\halox\main_menu\4k_select_mission.bitmap
-importbitmap 0 mods\maps\mainmenu\bitmaps\4k_lobby_titles\4k_select_mission	
+importbitmap 0 mods\maps\mainmenu\bitmaps\4k_lobby_titles\4k_select_mission.dds	
 savetagchanges
 exitto tags
 
