@@ -38,7 +38,7 @@ exitto tags
 Echo ##################################################################################### refrence campaign select mission bitmap
 
 edittag ui\halox\campaign\campaign_select_level.scn3
-setfield GroupWidgets[0].Definition.bitmapWidgets[7].flags 9
+SetField GroupWidgets[0].Definition.BitmapWidgets[7].Definition.Flags 9
 setfield GroupWidgets[0].Definition.bitmapWidgets[7].Definition.GuiRenderBlock.Name title
 SetField groupwidgets[0].Definition.bitmapWidgets[7].Definition.GUIRenderBlock.RenderDepthBias -1
 SetField groupwidgets[0].Definition.bitmapwidgets[7].Definition.GuiRenderblock.Bounds720p -780 -730 -284 790
@@ -50,7 +50,7 @@ SaveTagChanges
 exitto tags
 
 edittag ui\halox\campaign\campaign_select_level.scn3
-setfield GroupWidgets[0].Definition.bitmapWidgets[6]flags 9
+SetField GroupWidgets[0].Definition.BitmapWidgets[6].Definition.Flags 9
 SetField groupwidgets[0].Definition.bitmapWidgets[6].Definition.GuiRenderBlock.Name solo_slots
 SetField groupwidgets[0].Definition.bitmapwidgets[6].Definition.GUIRenderBlock.RenderDepthBias -12
 SetField groupwidgets[0].Definition.bitmapwidgets[6].Definition.GuiRenderblock.Bounds720p -400 970 -200 -660
@@ -62,7 +62,7 @@ SaveTagChanges
 exitto tags
 
 edittag ui\halox\campaign\campaign_select_level.scn3
-setfield GroupWidgets[0].Definition.bitmapWidgets[5]flags 9
+SetField GroupWidgets[0].Definition.BitmapWidgets[5].Definition.Flags 9
 SetField groupwidgets[0].Definition.bitmapWidgets[5].Definition.GuiRenderBlock.Name level_image_background
 SetField groupwidgets[0].Definition.bitmapwidgets[5].Definition.GUIRenderBlock.RenderDepthBias -15
 SetField groupwidgets[0].Definition.bitmapwidgets[5].Definition.GuiRenderblock.Bounds720p -390 720 -760 -2380
@@ -74,7 +74,7 @@ SaveTagChanges
 exitto tags
 
 edittag ui\halox\campaign\campaign_select_level.scn3
-setfield GroupWidgets[0].Definition.bitmapWidgets[4]flags 9
+SetField GroupWidgets[0].Definition.BitmapWidgets[4].Definition.Flags 9
 SetField groupwidgets[0].Definition.bitmapWidgets[4].Definition.GuiRenderBlock.Name background_darkening
 SetField groupwidgets[0].Definition.bitmapWidgets[4].Definition.GUIRenderBlock.RenderDepthBias -20
 SetField groupwidgets[0].Definition.bitmapwidgets[4].Definition.GuiRenderblock.Bounds720p -610 -1475 1080 -2620
@@ -86,7 +86,7 @@ SaveTagChanges
 exitto tags
 
 edittag ui\halox\campaign\campaign_select_level.scn3
-setfield GroupWidgets[0].Definition.bitmapWidgets[3]flags 9
+SetField GroupWidgets[0].Definition.BitmapWidgets[3].Definition.Flags 9
 SetField groupwidgets[0].Definition.bitmapWidgets[3].Definition.GuiRenderBlock.Name background_blur
 SetField groupwidgets[0].Definition.bitmapWidgets[3].Definition.GUIRenderBlock.RenderDepthBias -21
 SetField groupwidgets[0].Definition.bitmapwidgets[3].Definition.GuiRenderblock.Bounds720p -610 -1475 1080 -2620
@@ -98,7 +98,7 @@ SaveTagChanges
 exitto tags
 
 edittag ui\halox\campaign\campaign_select_level.scn3
-setfield GroupWidgets[0].Definition.bitmapWidgets[2]flags 11
+SetField GroupWidgets[0].Definition.BitmapWidgets[2].Definition.Flags 11
 SetField groupwidgets[0].Definition.bitmapWidgets[2].Definition.GuiRenderBlock.Name level_locked
 SetField groupwidgets[0].Definition.bitmapWidgets[2].Definition.GUIRenderBlock.RenderDepthBias 5
 SetField groupwidgets[0].Definition.bitmapwidgets[2].Definition.GuiRenderblock.Bounds720p -380 730 140 2370
@@ -110,7 +110,7 @@ SaveTagChanges
 exitto tags
 
 edittag ui\halox\campaign\campaign_select_level.scn3
-setfield GroupWidgets[0].Definition.bitmapWidgets[1]flagss 9
+SetField GroupWidgets[0].Definition.BitmapWidgets[2].Definition.Flags 9
 SetField groupwidgets[0].Definition.bitmapWidgets[1].Definition.GuiRenderBlock.Name unknown_film_image
 SetField groupwidgets[0].Definition.bitmapWidgets[1].Definition.GUIRenderBlock.RenderDepthBias 5
 SetField groupwidgets[0].Definition.bitmapwidgets[1].Definition.GuiRenderblock.Bounds720p -380 730 140 2370
@@ -122,7 +122,7 @@ SaveTagChanges
 exitto tags
 
 edittag ui\halox\campaign\campaign_select_level.scn3
-setfield GroupWidgets[0].Definition.bitmapWidgets[0]flagss 9
+SetField GroupWidgets[0].Definition.BitmapWidgets[0].Definition.Flags 9
 SetField groupwidgets[0].Definition.bitmapWidgets[0].Definition.GuiRenderBlock.Name background
 SetField groupwidgets[0].Definition.bitmapWidgets[0].Definition.GUIRenderBlock.RenderDepthBias -19
 SetField groupwidgets[0].Definition.bitmapwidgets[0].Definition.GuiRenderblock.Bounds720p -610 -1475 1080 2620
