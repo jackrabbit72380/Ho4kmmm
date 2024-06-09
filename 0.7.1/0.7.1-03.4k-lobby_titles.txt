@@ -248,6 +248,7 @@ SetField groupwidgets[0].Definition.bitmapwidgets[4].Definition.Bitmap ui\halox\
 SetField groupwidgets[0].Definition.bitmapwidgets[4].Definition.BlendMethod AlphaBlend
 SaveTagChanges
 exitto tags
+Exit
 
 Echo refrence forge_lobby title bitmap
 
@@ -261,6 +262,8 @@ SetField groupwidgets[2].Definition.bitmapwidgets[2].Definition.GuiRenderBlock.A
 SetField groupwidgets[2].Definition.bitmapwidgets[2].Definition.Bitmap ui\halox\main_menu\4k_forge_lobby.bitmap
 SetField groupwidgets[2].Definition.bitmapwidgets[2].Definition.BlendMethod AlphaBlend
 SaveTagChanges
+exitto tags
+Exit
 
 Echo refrence pregame_selection select map lobby title bitmap
 
@@ -291,6 +294,8 @@ SetField groupwidgets[2].Definition.bitmapwidgets[2].Definition.BlendMethod Alph
 SaveTagChanges
 exitto tags
 Exit
+
+savemodpakage
 
 echo \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 echo 4k_available_games
