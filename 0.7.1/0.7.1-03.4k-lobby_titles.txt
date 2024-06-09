@@ -8,6 +8,21 @@ SetField textwidgets[0].Definition.TextColorPreset clear
 savetagchanges
 exit
 
+edittag ui\halox\pregame_lobby\pregame_lobby_template_campaign.grup
+SetField textwidgets[0].Definition.TextColorPreset clear
+savetagchanges
+exit
+
+edittag ui\halox\pregame_lobby\pregame_lobby_template_mapeditor.grup
+SetField textwidgets[0].Definition.TextColorPreset clear
+savetagchanges
+exit
+
+edittag ui\halox\pregame_lobby\pregame_lobby_template_multiplayer.grup
+SetField textwidgets[0].Definition.TextColorPreset clear
+savetagchanges
+exit
+
 echo hide org campain select mission title text
 edittag ui\halox\campaign\campaign_select_level.scn3
 setfield GroupWidgets[0].Definition.TextWidgets[0].Definition.TextColorPreset clear
@@ -21,7 +36,7 @@ savetagchanges
 exit
 
 echo hide fiefight select mission title text
-edittag ui\halox\pregame_lobby\selection\pregame_survival_level_selection.gui_screen_widget_definition
+edittag ui\halox\pregame_lobby\selection\pregame_survival_level_selection.scn3
 setfield GroupWidgets[0].Definition.TextWidgets[0].Definition.TextColorPreset clear
 savetagchanges
 exit
