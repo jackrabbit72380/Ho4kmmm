@@ -18,6 +18,12 @@ setfield GroupWidgets[0].Definition.TextWidgets[0].Definition.TextColorPreset cl
 savetagchanges
 exit
 
+echo hide fiefight text
+edittag ui\halox\pregame_lobby\selection\pregame_survival_level_selection.gui_screen_widget_definition
+setfield GroupWidgets[0].Definition.TextWidgets[0].Definition.TextColorPreset clear
+savetagchanges
+exit
+
 echo hide old titles end\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 Echo ///install 4k_lobby_titles begin///
