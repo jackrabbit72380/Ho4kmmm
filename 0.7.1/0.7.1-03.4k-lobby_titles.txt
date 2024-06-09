@@ -223,20 +223,14 @@ Echo ///refrence 4k_lobby_titles bitmaps///
 Echo refrence campaign lobby title bitmap
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
-SetField groupwidgets[2].bitmapwidgets[2].data.flags 9
-SetField groupwidgets[2].bitmapwidgets[2].data.name title
-SetField groupwidgets[2].bitmapwidgets[2].data.Layer -1
-SetField groupwidgets[2].bitmapwidgets[2].data.WidescreenYOffset -700
-SetField groupwidgets[2].bitmapwidgets[2].data.WidescreenXOffset 79
-SetField groupwidgets[2].bitmapwidgets[2].data.WidescreenYUnknown -204
-SetField groupwidgets[2].bitmapwidgets[2].data.WidescreenXUnknown 1714
-SetField groupwidgets[2].bitmapwidgets[2].data.StandardYOffset 254
-SetField groupwidgets[2].bitmapwidgets[2].data.StandardXOffset 55
-SetField groupwidgets[2].bitmapwidgets[2].data.StandardYUnknown 405
-SetField groupwidgets[2].bitmapwidgets[2].data.StandardXUnknown 518
-SetField groupwidgets[2].bitmapwidgets[2].data.Animation ui\halox\main_menu\animations\lobby_slide.wacd
-SetField groupwidgets[2].bitmapwidgets[2].Bitmap ui\halox\main_menu\4k_campaign_lobby.bitmap
-SetField groupwidgets[2].bitmapwidgets[2].BlendMethod Alpha
+SetField groupwidgets[2].Definition.bitmapwidgets[2].Definition.flags 9
+SetField groupwidgets[2].Definition.bitmapwidgets[2].Definition.GuiRenderBlock.Name title
+SetField groupwidgets[2].Definition.bitmapwidgets[2].Definition.GUIRenderBlock.RenderDepthBias -1
+SetField Groupwidgets[2].Definition.bitmapwidgets[2].Definition.GuiRenderblock.Bounds720p -700 79 -204 1714
+SetField Groupwidgets[2].Definition.bitmapwidgets[2].Definition.GuiRenderblock.Bounds480i 254 55 405 518
+SetField Groupwidgets[2].Definition.bitmapwidgets[2].Definition.GuiRenderBlock.AnimationCollection ui\halox\main_menu\animations\lobby_slide.wacd
+SetField groupwidgets[2].Definition.bitmapwidgets[2].Definition.Bitmap ui\halox\main_menu\4k_campaign_lobby.bitmap
+SetField groupwidgets[2].Definition.bitmapwidgets[2].Definition.BlendMethod AlphaBlend
 SaveTagChanges
 exitto tags
 Exit
