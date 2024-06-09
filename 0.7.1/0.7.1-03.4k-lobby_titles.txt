@@ -35,8 +35,19 @@ setfield GroupWidgets[0].Definition.TextWidgets[0].Definition.TextColorPreset cl
 savetagchanges
 exit
 
+echo hide org firefight select difficulty title text
+edittag ui\halox\pregame_lobby\selection\survival_select_difficulty.scn3
+setfield GroupWidgets[0].Definition.TextWidgets[0].Definition.TextColorPreset clear
+savetagchanges
+exit
+
 echo hide fiefight select mission title text
 edittag ui\halox\pregame_lobby\selection\pregame_survival_level_selection.scn3
+setfield GroupWidgets[0].Definition.TextWidgets[0].Definition.TextColorPreset clear
+savetagchanges
+exit
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
 setfield GroupWidgets[0].Definition.TextWidgets[0].Definition.TextColorPreset clear
 savetagchanges
 exit
