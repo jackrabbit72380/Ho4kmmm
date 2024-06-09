@@ -109,7 +109,7 @@ createtag bitm
 nametag * ui\halox\main_menu\4k_multiplayer_lobby
 savetagnames
 edittag ui\halox\main_menu\4k_multiplayer_lobby.bitmap
-importbitmap 0 F:\Halo\Eldewrito\tags\bitmaps\mainmenu\bitmaps\4k_lobby_titles\4k_multiplayer_lobby.dds
+importbitmap 0 F:\Halo\Eldewrito\tags\bitmaps\mainmenu\bitmaps\4k_lobby_titles\4k_multiplayer.dds
 savetagchanges
 exitto tags
 
@@ -173,7 +173,7 @@ createtag bitm
 nametag * ui\halox\main_menu\4k_select_mission
 savetagnames
 edittag ui\halox\main_menu\4k_select_mission.bitmap
-importbitmap 0 F:\Halo\Eldewrito\tags\bitmaps\mainmenu\bitmaps\4k_lobby_titles\4k_select_mission	
+importbitmap 0 F:\Halo\Eldewrito\tags\bitmaps\mainmenu\bitmaps\4k_lobby_titles\4k_select_mission.dds	
 savetagchanges
 exitto tags
 
@@ -213,7 +213,7 @@ createtag bitm
 nametag * ui\halox\main_menu\4k_custom_games_lobby
 savetagnames
 edittag ui\halox\main_menu\4k_custom_games_lobby.bitmap
-importbitmap 0 F:\Halo\Eldewrito\tags\bitmaps\mainmenu\bitmaps\4k_lobby_titles\4k_custom_games_lobby.dds
+importbitmap 0 F:\Halo\Eldewrito\tags\bitmaps\mainmenu\bitmaps\4k_lobby_titles\4k_custom_games.dds
 savetagchanges
 exitto tags
 
