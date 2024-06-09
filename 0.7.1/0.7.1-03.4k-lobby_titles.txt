@@ -47,6 +47,7 @@ setfield GroupWidgets[0].Definition.TextWidgets[0].Definition.TextColorPreset cl
 savetagchanges
 exit
 
+echo hide forge & custom games mapselct title text
 edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
 setfield GroupWidgets[0].Definition.TextWidgets[0].Definition.TextColorPreset clear
 savetagchanges
