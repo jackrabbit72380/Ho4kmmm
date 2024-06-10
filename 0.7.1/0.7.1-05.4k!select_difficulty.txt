@@ -42,20 +42,14 @@ Exit
 
 edittag ui\halox\campaign\campaign_select_difficulty.scn3
 
-SetField groupwidgets[0].bitmapwidgets[3].data.flags 9
-SetField groupwidgets[0].bitmapwidgets[3].data.name background_darkening
-SetField groupwidgets[0].bitmapwidgets[3].data.Layer -10
-SetField groupwidgets[0].bitmapwidgets[3].data.WidescreenYOffset -610
-SetField groupwidgets[0].bitmapwidgets[3].data.WidescreenXOffset -1475
-SetField groupwidgets[0].bitmapwidgets[3].data.WidescreenYUnknown 1080
-SetField groupwidgets[0].bitmapwidgets[3].data.WidescreenXUnknown 2620
-SetField groupwidgets[0].bitmapwidgets[3].data.StandardYOffset 0
-SetField groupwidgets[0].bitmapwidgets[3].data.StandardXOffset 0
-SetField groupwidgets[0].bitmapwidgets[3].data.StandardYUnknown 0
-SetField groupwidgets[0].bitmapwidgets[3].data.StandardXUnknown 0
-SetField groupwidgets[0].bitmapwidgets[3].data.Animation ui\halox\global_animations\animation_collections\basic_fade.wacd
-SetField groupwidgets[0].bitmapwidgets[3].Bitmap ui\halox\common\common_bitmaps\black_25.bitmap
-SetField groupwidgets[0].bitmapwidgets[3].BlendMethod Alpha
+SetField GroupWidgets[0].Definition.BitmapWidgets[3].Definition.Flags 9
+setfield GroupWidgets[0].Definition.BitmapWidgets[3].Definition.GuiRenderBlock.Name background_darkening
+SetField groupwidgets[0].Definition.BitmapWidgets[3].Definition.GUIRenderBlock.RenderDepthBias -10
+SetField groupwidgets[0].Definition.Bitmapwidgets[3].Definition.GuiRenderblock.Bounds720p -610 -1475 1080 2620
+SetField groupwidgets[0].Definition.Bitmapwidgets[3].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[0].Definition.Bitmapwidgets[3].Definition.GuiRenderBlock.AnimationCollection ui\halox\global_animations\animation_collections\basic_fade.wacd
+SetField groupwidgets[0].Definition.Bitmapwidgets[3].Definition.Bitmap ui\halox\common\common_bitmaps\black_25.bitmap
+SetField groupwidgets[0].Definition.Bitmapwidgets[3].Definition.BlendMethod AlphaBlend
 SaveTagChanges
 exitto tags
 Exit
