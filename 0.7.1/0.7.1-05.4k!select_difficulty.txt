@@ -3,8 +3,8 @@ edittag ui\halox\campaign\campaign_select_difficulty.scn3
 SetField GroupWidgets[0].Definition.BitmapWidgets[0].Definition.Flags 9
 setfield GroupWidgets[0].Definition.BitmapWidgets[0].Definition.GuiRenderBlock.Name background
 SetField groupwidgets[0].Definition.BitmapWidgets[0].Definition.GUIRenderBlock.RenderDepthBias -9
-SetField groupwidgets[0].Definition.Bitmapwidgets[7].Definition.GuiRenderblock.Bounds720p -610 -1475 1080 2620
-SetField groupwidgets[0].Definition.Bitmapwidgets[7].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[0].Definition.Bitmapwidgets[0].Definition.GuiRenderblock.Bounds720p -610 -1475 1080 2620
+SetField groupwidgets[0].Definition.Bitmapwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
 SetField groupwidgets[0].Definition.Bitmapwidgets[0].Definition.GuiRenderBlock.AnimationCollection ui\halox\global_animations\animation_collections\basic_fade.wacd
 SetField groupwidgets[0].Definition.Bitmapwidgets[0].Definition.Bitmap ui\halox\common_bitmaps\selection_bkd.bitmap
 SetField groupwidgets[0].Definition.Bitmapwidgets[0].Definition.BlendMethod AlphaBlend
@@ -14,20 +14,14 @@ Exit
 
 edittag ui\halox\campaign\campaign_select_difficulty.scn3
 
-SetField groupwidgets[0].bitmapwidgets[1].data.flags 9
-SetField groupwidgets[0].bitmapwidgets[1].data.name difficulty_image
-SetField groupwidgets[0].bitmapwidgets[1].data.Layer 5
-SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenYOffset -376
-SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenXOffset 720
-SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenYUnknown 280
-SetField groupwidgets[0].bitmapwidgets[1].data.WidescreenXUnknown 2364
-SetField groupwidgets[0].bitmapwidgets[1].data.StandardYOffset 254
-SetField groupwidgets[0].bitmapwidgets[1].data.StandardXOffset 55
-SetField groupwidgets[0].bitmapwidgets[1].data.StandardYUnknown 404
-SetField groupwidgets[0].bitmapwidgets[1].data.StandardXUnknown 518
-SetField groupwidgets[0].bitmapwidgets[1].data.Animation ui\halox\main_menu\animations\mainmenu_fade.wacd
-SetField groupwidgets[0].bitmapwidgets[1].Bitmap ui\halox\campaign\difficulty_ui.bitmap
-SetField groupwidgets[0].bitmapwidgets[1].BlendMethod Alpha
+SetField GroupWidgets[0].Definition.BitmapWidgets[1].Definition.Flags 9
+setfield GroupWidgets[0].Definition.BitmapWidgets[1].Definition.GuiRenderBlock.Name difficulty_image
+SetField groupwidgets[0].Definition.BitmapWidgets[1].Definition.GUIRenderBlock.RenderDepthBias 5
+SetField groupwidgets[0].Definition.Bitmapwidgets[1].Definition.GuiRenderblock.Bounds720p -376 720 280 2364
+SetField groupwidgets[0].Definition.Bitmapwidgets[1].Definition.GuiRenderblock.Bounds480i 254 55 404 518
+SetField groupwidgets[0].Definition.Bitmapwidgets[1].Definition.GuiRenderBlock.AnimationCollection ui\halox\main_menu\animations\mainmenu_fade.wacd
+SetField groupwidgets[0].Definition.Bitmapwidgets[1].Definition.Bitmap ui\halox\campaign\difficulty_ui.bitmap
+SetField groupwidgets[0].Definition.Bitmapwidgets[1].Definition.BlendMethod AlphaBlend
 SaveTagChanges
 exitto tags
 Exit
