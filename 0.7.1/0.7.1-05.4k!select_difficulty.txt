@@ -1,19 +1,13 @@
 edittag ui\halox\campaign\campaign_select_difficulty.scn3
 
-SetField groupwidgets[0].bitmapwidgets[0].data.flags 9
-SetField groupwidgets[0].bitmapwidgets[0].data.name background
-SetField groupwidgets[0].bitmapwidgets[0].data.Layer -9
-SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenYOffset -610
-SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenXOffset -1475
-SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenYUnknown 1080
-SetField groupwidgets[0].bitmapwidgets[0].data.WidescreenXUnknown 2620
-SetField groupwidgets[0].bitmapwidgets[0].data.StandardYOffset 0
-SetField groupwidgets[0].bitmapwidgets[0].data.StandardXOffset 0
-SetField groupwidgets[0].bitmapwidgets[0].data.StandardYUnknown 0
-SetField groupwidgets[0].bitmapwidgets[0].data.StandardXUnknown 0
-SetField groupwidgets[0].bitmapwidgets[0].data.Animation ui\halox\global_animations\animation_collections\basic_fade.wacd
-SetField groupwidgets[0].bitmapwidgets[0].Bitmap ui\halox\common_bitmaps\selection_bkd.bitmap
-SetField groupwidgets[0].bitmapwidgets[0].BlendMethod Alpha
+SetField GroupWidgets[0].Definition.BitmapWidgets[0].Definition.Flags 9
+setfield GroupWidgets[0].Definition.BitmapWidgets[0].Definition.GuiRenderBlock.Name background
+SetField groupwidgets[0].Definition.BitmapWidgets[0].Definition.GUIRenderBlock.RenderDepthBias -9
+SetField groupwidgets[0].Definition.Bitmapwidgets[7].Definition.GuiRenderblock.Bounds720p -610 -1475 1080 2620
+SetField groupwidgets[0].Definition.Bitmapwidgets[7].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[0].Definition.Bitmapwidgets[0].Definition.GuiRenderBlock.AnimationCollection ui\halox\global_animations\animation_collections\basic_fade.wacd
+SetField groupwidgets[0].Definition.Bitmapwidgets[0].Definition.Bitmap ui\halox\common_bitmaps\selection_bkd.bitmap
+SetField groupwidgets[0].Definition.Bitmapwidgets[0].Definition.BlendMethod AlphaBlend
 SaveTagChanges
 exitto tags
 Exit
