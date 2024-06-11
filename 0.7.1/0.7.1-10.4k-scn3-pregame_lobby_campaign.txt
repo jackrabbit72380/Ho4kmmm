@@ -19,17 +19,11 @@ exitto tags
 Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
-SetField groupwidgets[0].listwidgetitems[1].data.flags 0
-SetField groupwidgets[0].listwidgetitems[1].data.name host_custom_game
-SetField groupwidgets[0].listwidgetitems[1].data.Layer 0
-SetField groupwidgets[0].listwidgetitems[1].data.WidescreenYOffset -431
-SetField groupwidgets[0].listwidgetitems[1].data.WidescreenXOffset 0
-SetField groupwidgets[0].listwidgetitems[1].data.WidescreenYUnknown 0
-SetField groupwidgets[0].listwidgetitems[1].data.WidescreenXUnknown 0
-SetField groupwidgets[0].listwidgetitems[1].data.StandardYOffset 0
-SetField groupwidgets[0].listwidgetitems[1].data.StandardXOffset 0
-SetField groupwidgets[0].listwidgetitems[1].data.StandardYUnknown 0
-SetField groupwidgets[0].listwidgetitems[1].data.StandardXUnknown 0
+SetField groupwidgets[0].Definition.listwidgets[1].Definition.Flags 0
+SetField groupwidgets[0].Definition.listwidgets[1].Definition.GuiRenderBlock.Name host_custom_game
+SetField groupwidgets[0].Definition.listwidgets[1].Definition.GUIRenderBlock.RenderDepthBias 0
+SetField groupwidgets[0].Definition.listwidgets[1].Definition.GuiRenderblock.Bounds720p -431 0 0 0
+SetField groupwidgets[0].Definition.listwidgets[1].Definition.GuiRenderblock.Bounds480i 0 0 0 0
 SaveTagChanges
 exitto tags
 Exit
