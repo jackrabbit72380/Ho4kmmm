@@ -9,37 +9,31 @@ exitto tags
 Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
-SetField groupwidgets[0].Definition.listwidgets[0].Definition.Flags 0
-SetField groupwidgets[0].Definition.listwidgets[0].Definition.GuiRenderBlock.Name switch_lobby
-SetField groupwidgets[0].Definition.listwidgets[0].Definition.GUIRenderBlock.RenderDepthBias 0
-SetField groupwidgets[0].Definition.listwidgets[0].Definition.GuiRenderblock.Bounds720p -490 0 0 0
-SetField groupwidgets[0].Definition.listwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[0].Definition.items[0].Definition.Flags 0
+SetField groupwidgets[0].Definition.items[0].Definition.GuiRenderBlock.Name switch_lobby
+SetField groupwidgets[0].Definition.items[0].Definition.GUIRenderBlock.RenderDepthBias 0
+SetField groupwidgets[0].Definition.items[0].Definition.GuiRenderblock.Bounds720p -490 0 0 0
+SetField groupwidgets[0].Definition.items[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
 SaveTagChanges
 exitto tags
 Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
-SetField groupwidgets[0].Definition.listwidgets[1].Definition.Flags 0
-SetField groupwidgets[0].Definition.listwidgets[1].Definition.GuiRenderBlock.Name host_custom_game
-SetField groupwidgets[0].Definition.listwidgets[1].Definition.GUIRenderBlock.RenderDepthBias 0
-SetField groupwidgets[0].Definition.listwidgets[1].Definition.GuiRenderblock.Bounds720p -431 0 0 0
-SetField groupwidgets[0].Definition.listwidgets[1].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[0].Definition.items[1].Definition.Flags 0
+SetField groupwidgets[0].Definition.items[1].Definition.GuiRenderBlock.Name host_custom_game
+SetField groupwidgets[0].Definition.items[1].Definition.GUIRenderBlock.RenderDepthBias 0
+SetField groupwidgets[0].Definition.items[1].Definition.GuiRenderblock.Bounds720p -431 0 0 0
+SetField groupwidgets[0].Definition.items[1].Definition.GuiRenderblock.Bounds480i 0 0 0 0
 SaveTagChanges
 exitto tags
 Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
-SetField groupwidgets[0].listwidgetitems[2].data.flags 0
-SetField groupwidgets[0].listwidgetitems[2].data.name mission_info
-SetField groupwidgets[0].listwidgetitems[2].data.Layer 0
-SetField groupwidgets[0].listwidgetitems[2].data.WidescreenYOffset -372
-SetField groupwidgets[0].listwidgetitems[2].data.WidescreenXOffset 0
-SetField groupwidgets[0].listwidgetitems[2].data.WidescreenYUnknown 0
-SetField groupwidgets[0].listwidgetitems[2].data.WidescreenXUnknown 0
-SetField groupwidgets[0].listwidgetitems[2].data.StandardYOffset 0
-SetField groupwidgets[0].listwidgetitems[2].data.StandardXOffset 0
-SetField groupwidgets[0].listwidgetitems[2].data.StandardYUnknown 0
-SetField groupwidgets[0].listwidgetitems[2].data.StandardXUnknown 0
+SetField groupwidgets[0].Definition.items[2].Definition.Flags 0
+SetField groupwidgets[0].Definition.items[2].Definition.GuiRenderBlock.Name mission_info
+SetField groupwidgets[0].Definition.items[2].Definition.GUIRenderBlock.RenderDepthBias 0
+SetField groupwidgets[0].Definition.items[2].Definition.GuiRenderblock.Bounds720p -372 0 0 0
+SetField groupwidgets[0].Definition.items[2].Definition.GuiRenderblock.Bounds480i 0 0 0 0
 SaveTagChanges
 exitto tags
 Exit
