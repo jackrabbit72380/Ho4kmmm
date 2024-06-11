@@ -59,17 +59,11 @@ exitto tags
 Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
-SetField groupwidgets[1].data.flags 0
-SetField groupwidgets[1].data.name roster
-SetField groupwidgets[1].data.Layer 0
-SetField groupwidgets[1].data.WidescreenYOffset -544
-SetField groupwidgets[1].data.WidescreenXOffset 1366
-SetField groupwidgets[1].data.WidescreenYUnknown 0
-SetField groupwidgets[1].data.WidescreenXUnknown 0
-SetField groupwidgets[1].data.StandardYOffset 45
-SetField groupwidgets[1].data.StandardXOffset 442
-SetField groupwidgets[1].data.StandardYUnknown 0
-SetField groupwidgets[1].data.StandardXUnknown 0
+SetField groupwidgets[1].Definition.Flags 0
+SetField groupwidgets[1].Definition.GuiRenderBlock.Name roster
+SetField groupwidgets[1].Definition.GUIRenderBlock.RenderDepthBias 0
+SetField groupwidgets[1].Definition.GuiRenderblock.Bounds720p -544 1366 0 0
+SetField groupwidgets[1].Definition.GuiRenderblock.Bounds480i 45 442 0 0
 SaveTagChanges
 exitto tags
 Exit
