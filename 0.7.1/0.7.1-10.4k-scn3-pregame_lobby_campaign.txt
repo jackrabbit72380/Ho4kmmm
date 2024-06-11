@@ -1,15 +1,9 @@
 EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
-SetField groupwidgets[0].listwidgets[0].data.flags 1
-SetField groupwidgets[0].listwidgets[0].data.name lobby_list
-SetField groupwidgets[0].listwidgets[0].data.Layer 0
-SetField groupwidgets[0].listwidgets[0].data.WidescreenYOffset 85
-SetField groupwidgets[0].listwidgets[0].data.WidescreenXOffset -1186
-SetField groupwidgets[0].listwidgets[0].data.WidescreenYUnknown 0
-SetField groupwidgets[0].listwidgets[0].data.WidescreenXUnknown -100
-SetField groupwidgets[0].listwidgets[0].data.StandardYOffset 45
-SetField groupwidgets[0].listwidgets[0].data.StandardXOffset 442
-SetField groupwidgets[0].listwidgets[0].data.StandardYUnknown 0
-SetField groupwidgets[0].listwidgets[0].data.StandardXUnknown 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.Flags 1
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.GuiRenderBlock.Name lobby_list
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.GUIRenderBlock.RenderDepthBias 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.GuiRenderblock.Bounds720p 85 -1186 0 -100
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.GuiRenderblock.Bounds480i 45 442 0 0
 SaveTagChanges
 exitto tags
 Exit
