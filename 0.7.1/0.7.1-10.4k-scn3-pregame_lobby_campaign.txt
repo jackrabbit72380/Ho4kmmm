@@ -92,20 +92,14 @@ exitto tags
 Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
-SetField groupwidgets[2].bitmapwidgets[1].data.flags 9
-SetField groupwidgets[2].bitmapwidgets[1].data.name difficulty_image
-SetField groupwidgets[2].bitmapwidgets[1].data.Layer 0
-SetField groupwidgets[2].bitmapwidgets[1].data.WidescreenYBoundsMin 416
-SetField groupwidgets[2].bitmapwidgets[1].data.WidescreenXBoundsMin 166
-SetField groupwidgets[2].bitmapwidgets[1].data.WidescreenYBoundsMax 716
-SetField groupwidgets[2].bitmapwidgets[1].data.WidescreenXBoundsMax 466
-SetField groupwidgets[2].bitmapwidgets[1].data.StandardYBoundsMin 0
-SetField groupwidgets[2].bitmapwidgets[1].data.StandardXBoundsMin 0
-SetField groupwidgets[2].bitmapwidgets[1].data.StandardYBoundsMax 0
-SetField groupwidgets[2].bitmapwidgets[1].data.StandardXBoundsMax 0
+SetField GroupWidgets[2].Definition.BitmapWidgets[1].Definition.Flags 9
+setfield GroupWidgets[2].Definition.BitmapWidgets[1].Definition.GuiRenderBlock.Name difficulty_image
+SetField groupwidgets[2].Definition.BitmapWidgets[1].Definition.GUIRenderBlock.RenderDepthBias 0
+SetField groupwidgets[2].Definition.Bitmapwidgets[1].Definition.GuiRenderblock.Bounds720p 416 166 716 466
+SetField groupwidgets[2].Definition.Bitmapwidgets[1].Definition.GuiRenderblock.Bounds480i 0 0 0 0
 SetField groupwidgets[2].bitmapwidgets[1].data.Animation ui\halox\main_menu\animations\lobby_slide.wacd
-SetField groupwidgets[2].bitmapwidgets[1].Bitmap ui\halox\pregame_lobby\difficulty_large_ui.bitmap
-SetField groupwidgets[2].bitmapwidgets[1].BlendMethod Alpha
+SetField groupwidgets[2].Definition.Bitmapwidgets[1].Definition.GuiRenderBlock.AnimationCollection ui\halox\pregame_lobby\difficulty_large_ui.bitmap
+SetField groupwidgets[2].Definition.Bitmapwidgets[1].Definition.BlendMethod AlphaBlend
 SaveTagChanges
 exitto tags
 Exit
