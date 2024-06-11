@@ -79,20 +79,14 @@ exitto tags
 Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
-SetField groupwidgets[2].bitmapwidgets[0].data.flags 9
-SetField groupwidgets[2].bitmapwidgets[0].data.name unknown_film_image
-SetField groupwidgets[2].bitmapwidgets[0].data.Layer -30
-SetField groupwidgets[2].bitmapwidgets[0].data.WidescreenYBoundsMin 326
-SetField groupwidgets[2].bitmapwidgets[0].data.WidescreenXBoundsMin 79
-SetField groupwidgets[2].bitmapwidgets[0].data.WidescreenYBoundsMax 830
-SetField groupwidgets[2].bitmapwidgets[0].data.WidescreenXBoundsMax 1714
-SetField groupwidgets[2].bitmapwidgets[0].data.StandardYBoundsMin 254
-SetField groupwidgets[2].bitmapwidgets[0].data.StandardXBoundsMin 55
-SetField groupwidgets[2].bitmapwidgets[0].data.StandardYBoundsMax405
-SetField groupwidgets[2].bitmapwidgets[0].data.StandardXBoundsMax 518
-SetField groupwidgets[2].bitmapwidgets[0].data.Animation ui\halox\main_menu\animations\lobby_slide.wacd
-SetField groupwidgets[2].bitmapwidgets[0].Bitmap null
-SetField groupwidgets[2].bitmapwidgets[0].BlendMethod Alpha
+SetField GroupWidgets[2].Definition.BitmapWidgets[0].Definition.Flags 9
+setfield GroupWidgets[2].Definition.BitmapWidgets[0].Definition.GuiRenderBlock.Name unknown_film_image
+SetField groupwidgets[2].Definition.BitmapWidgets[0].Definition.GUIRenderBlock.RenderDepthBias -30
+SetField groupwidgets[2].Definition.Bitmapwidgets[0].Definition.GuiRenderblock.Bounds720p 326 79 830 1714
+SetField groupwidgets[2].Definition.Bitmapwidgets[0].Definition.GuiRenderblock.Bounds480i 254 55 405 518
+SetField groupwidgets[2].Definition.Bitmapwidgets[0].Definition.GuiRenderBlock.AnimationCollection ui\halox\main_menu\animations\lobby_slide.wacd
+SetField groupwidgets[2].Definition.Bitmapwidgets[0].Definition.Bitmap null
+SetField groupwidgets[2].Definition.Bitmapwidgets[0].Definition.BlendMethod AlphaBlend
 SaveTagChanges
 exitto tags
 Exit
