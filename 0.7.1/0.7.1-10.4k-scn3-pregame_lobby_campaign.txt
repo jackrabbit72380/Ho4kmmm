@@ -9,17 +9,11 @@ exitto tags
 Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
-SetField groupwidgets[0].listwidgetitems[0].data.flags 0
-SetField groupwidgets[0].listwidgetitems[0].data.name switch_lobby
-SetField groupwidgets[0].listwidgetitems[0].data.Layer 0
-SetField groupwidgets[0].listwidgetitems[0].data.WidescreenYOffset -490
-SetField groupwidgets[0].listwidgetitems[0].data.WidescreenXOffset 0
-SetField groupwidgets[0].listwidgetitems[0].data.WidescreenYUnknown 0
-SetField groupwidgets[0].listwidgetitems[0].data.WidescreenXUnknown 0
-SetField groupwidgets[0].listwidgetitems[0].data.StandardYOffset 0
-SetField groupwidgets[0].listwidgetitems[0].data.StandardXOffset 0
-SetField groupwidgets[0].listwidgetitems[0].data.StandardYUnknown 0
-SetField groupwidgets[0].listwidgetitems[0].data.StandardXUnknown 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.Flags 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.GuiRenderBlock.Name switch_lobby
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.GUIRenderBlock.RenderDepthBias 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.GuiRenderblock.Bounds720p -490 0 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
 SaveTagChanges
 exitto tags
 Exit
