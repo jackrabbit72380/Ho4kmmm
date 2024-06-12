@@ -121,22 +121,16 @@ exitto tags
 Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
-SetField groupwidgets[2].textwidgets[1].data.flags 9
-SetField groupwidgets[2].textwidgets[1].data.name campaign_insertion_point
-SetField groupwidgets[2].textwidgets[1].data.Layer 0
-SetField groupwidgets[2].textwidgets[1].data.WidescreenYBoundsMin 910
-SetField groupwidgets[2].textwidgets[1].data.WidescreenXBoundsMin 89
-SetField groupwidgets[2].textwidgets[1].data.WidescreenYBoundsMax 1100
-SetField groupwidgets[2].textwidgets[1].data.WidescreenXBoundsMax 667
-SetField groupwidgets[2].textwidgets[1].data.StandardYBoundsMin 0
-SetField groupwidgets[2].textwidgets[1].data.StandardXBoundsMin 0
-SetField groupwidgets[2].textwidgets[1].data.StandardYBoundsMax 0
-SetField groupwidgets[2].textwidgets[1].data.StandardXBoundsMax 0
-SetField groupwidgets[2].textwidgets[1].data.Animation ui\halox\pregame_lobby\button_key.wacd
-SetField groupwidgets[2].textwidgets[1].datasourcename null
-SetField groupwidgets[2].textwidgets[1].textstring campaign_insertion_point
-SetField groupwidgets[2].textwidgets[1].textcolor ice
-SetField groupwidgets[2].textwidgets[1].textfont 4
+SetField groupwidgets[2].Definition.textwidgets[1].Definition.Flags 9
+SetField groupwidgets[2].Definition.textwidgets[1].Definition.GuiRenderBlock.Name campaign_insertion_point
+SetField groupwidgets[2].Definition.textwidgets[1].Definition.GUIRenderBlock.RenderDepthBias 0
+SetField groupwidgets[2].Definition.textwidgets[1].Definition.GuiRenderblock.Bounds720p 910 89 1100 667
+SetField groupwidgets[2].Definition.textwidgets[1].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[2].Definition.textwidgets[1].Definition.GuiRenderBlock.AnimationCollection ui\halox\pregame_lobby\button_key.wacd
+SetField groupwidgets[2].Definition.textwidgets[1].Definition.GUIRenderBlock.Name null
+SetField groupwidgets[2].Definition.textwidgets[1].Definition.GuiRenderBlock.Name campaign_insertion_point
+SetField groupwidgets[2].Definition.textwidgets[1].Definition.TextColorPreset ice
+SetField groupwidgets[2].Definition.textwidgets[1].Definition.CustomFont 4
 SaveTagChanges
 exitto tags
 Exit
