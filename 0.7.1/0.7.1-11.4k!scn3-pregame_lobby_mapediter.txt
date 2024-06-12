@@ -91,38 +91,26 @@ SaveTagChanges
 exitto tags
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_mapeditor.scn3
-SetField groupwidgets[2].bitmapwidgets[0].data.flags 9
-SetField groupwidgets[2].bitmapwidgets[0].data.name unknown_film_image
-SetField groupwidgets[2].bitmapwidgets[0].data.Layer -30
-SetField groupwidgets[2].bitmapwidgets[0].data.WidescreenYOffset 376
-SetField groupwidgets[2].bitmapwidgets[0].data.WidescreenXOffset 79
-SetField groupwidgets[2].bitmapwidgets[0].data.WidescreenYUnknown 880
-SetField groupwidgets[2].bitmapwidgets[0].data.WidescreenXUnknown 1714
-SetField groupwidgets[2].bitmapwidgets[0].data.StandardYOffset 254
-SetField groupwidgets[2].bitmapwidgets[0].data.StandardXOffset 55
-SetField groupwidgets[2].bitmapwidgets[0].data.StandardYUnknown 405
-SetField groupwidgets[2].bitmapwidgets[0].data.StandardXUnknown 518
-SetField groupwidgets[2].bitmapwidgets[0].data.Animation ui\halox\main_menu\animations\lobby_slide.wacd
-SetField groupwidgets[2].bitmapwidgets[0].Bitmap null
-SetField groupwidgets[2].bitmapwidgets[0].BlendMethod Alpha
+SetField groupwidgets[2].Definition.bitmapwidgets[0].Definition.Flags 9
+SetField groupwidgets[2].Definition.bitmapwidgets[0].GuiRenderBlock.Name unknown_film_image
+SetField groupwidgets[2].Definition.bitmapwidgets[0].Definition.GUIRenderBlock.RenderDepthBias -30
+SetField groupwidgets[2].Definition.bitmapwidgets[0].Definition.GuiRenderblock.Bounds720p 376 79 880 1714
+SetField groupwidgets[2].Definition.bitmapwidgets[0].Definition.GuiRenderblock.Bounds480i 254 55 405 518
+SetField groupwidgets[2].Definition.bitmapwidgets[0].Definition.GuiRenderBlock.AnimationCollection ui\halox\main_menu\animations\lobby_slide.wacd
+SetField groupwidgets[2].Definition.bitmapwidgets[0].Definition.Bitmap null
+SetField groupwidgets[2].Definition.bitmapwidgets[0].Definition.BlendMethod AlphaBlend
 SaveTagChanges
 exitto tags
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_mapeditor.scn3
-SetField groupwidgets[2].bitmapwidgets[1].data.flags 9
-SetField groupwidgets[2].bitmapwidgets[1].data.name gametype_image
-SetField groupwidgets[2].bitmapwidgets[1].data.Layer 0
-SetField groupwidgets[2].bitmapwidgets[1].data.WidescreenYOffset 466
-SetField groupwidgets[2].bitmapwidgets[1].data.WidescreenXOffset 166
-SetField groupwidgets[2].bitmapwidgets[1].data.WidescreenYUnknown 766
-SetField groupwidgets[2].bitmapwidgets[1].data.WidescreenXUnknown 466
-SetField groupwidgets[2].bitmapwidgets[1].data.StandardYOffset 0
-SetField groupwidgets[2].bitmapwidgets[1].data.StandardXOffset 0
-SetField groupwidgets[2].bitmapwidgets[1].data.StandardYUnknown 0
-SetField groupwidgets[2].bitmapwidgets[1].data.StandardXUnknown 0
-SetField groupwidgets[2].bitmapwidgets[1].data.Animation ui\halox\main_menu\animations\lobby_slide.wacd
-SetField groupwidgets[2].bitmapwidgets[1].Bitmap ui\halox\pregame_lobby\gametypes_large_ui.bitmap
-SetField groupwidgets[2].bitmapwidgets[1].BlendMethod Alpha
+SetField groupwidgets[2].Definition.bitmapwidgets[1].Definition.Flags 9
+SetField groupwidgets[2].Definition.bitmapwidgets[1].GuiRenderBlock.Name gametype_image
+SetField groupwidgets[2].Definition.bitmapwidgets[1].GUIRenderBlock.RenderDepthBias 0
+SetField groupwidgets[2].Definition.bitmapwidgets[1].GuiRenderblock.Bounds720p 466 166 766 466
+SetField groupwidgets[2].Definition.bitmapwidgets[1].GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[2].Definition.bitmapwidgets[1].Definition.GuiRenderBlock.AnimationCollection ui\halox\main_menu\animations\lobby_slide.wacd
+SetField groupwidgets[2].Definition.bitmapwidgets[1].Definition.Bitmap ui\halox\pregame_lobby\gametypes_large_ui.bitmap
+SetField groupwidgets[2].Definition.bitmapwidgets[1].Definition.BlendMethod AlphaBlend
 SaveTagChanges
 exitto tags
 Exit
