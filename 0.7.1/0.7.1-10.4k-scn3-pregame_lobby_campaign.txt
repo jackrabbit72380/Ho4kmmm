@@ -136,22 +136,16 @@ exitto tags
 Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
-SetField groupwidgets[2].textwidgets[2].data.flags 9
-SetField groupwidgets[2].textwidgets[2].data.name lobby_status
-SetField groupwidgets[2].textwidgets[2].data.Layer 0
-SetField groupwidgets[2].textwidgets[2].data.WidescreenYBoundsMin 166
-SetField groupwidgets[2].textwidgets[2].data.WidescreenXBoundsMin 89
-SetField groupwidgets[2].textwidgets[2].data.WidescreenYBoundsMax 367
-SetField groupwidgets[2].textwidgets[2].data.WidescreenXBoundsMax  1637
-SetField groupwidgets[2].textwidgets[2].data.StandardYBoundsMin 0
-SetField groupwidgets[2].textwidgets[2].data.StandardXBoundsMin 0
-SetField groupwidgets[2].textwidgets[2].data.StandardYBoundsMax 0
-SetField groupwidgets[2].textwidgets[2].data.StandardXBoundsMax 0
-SetField groupwidgets[2].textwidgets[2].data.Animation ui\halox\global_animations\animation_collections\lobby_slide_with_alt_flash.wacd
-SetField groupwidgets[2].textwidgets[2].datasourcename null
-SetField groupwidgets[2].textwidgets[2].textstring null
-SetField groupwidgets[2].textwidgets[2].textcolor ice
-SetField groupwidgets[2].textwidgets[2].textfont 4
+SetField groupwidgets[2].Definition.textwidgets[2].Definition.Flags 9
+SetField groupwidgets[2].Definition.textwidgets[2].Definition.GuiRenderBlock.Name lobby_status
+SetField groupwidgets[2].Definition.textwidgets[2].Definition.GUIRenderBlock.RenderDepthBias 0
+SetField groupwidgets[2].Definition.textwidgets[2].Definition.GuiRenderblock.Bounds720p 166 89 367 1637
+SetField groupwidgets[2].Definition.textwidgets[2].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[2].Definition.textwidgets[2].Definition.GuiRenderBlock.AnimationCollection ui\halox\global_animations\animation_collections\lobby_slide_with_alt_flash.wacd
+SetField groupwidgets[2].Definition.textwidgets[2].Definition.GUIRenderBlock.Name null
+SetField groupwidgets[2].Definition.textwidgets[2].Definition.GuiRenderBlock.Name null
+SetField groupwidgets[2].Definition.textwidgets[2].Definition.TextColorPreset ice
+SetField groupwidgets[2].Definition.textwidgets[2].Definition.CustomFont 4
 SaveTagChanges
 exitto tags
 Exit
