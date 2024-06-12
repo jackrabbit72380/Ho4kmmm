@@ -62,15 +62,9 @@ SaveTagChanges
 exitto tags
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_mapeditor.scn3
-SetField groupwidgets[2].name null
-SetField groupwidgets[2].WidescreenYOffset -40
-SetField groupwidgets[2].WidescreenXOffset -1265
-SetField groupwidgets[2].WidescreenYUnknown 0
-SetField groupwidgets[2].WidescreenXUnknown -100
-SetField groupwidgets[2].StandardYOffset 0
-SetField groupwidgets[2].StandardXOffset 0
-SetField groupwidgets[2].StandardYUnknown 0
-SetField groupwidgets[2].StandardXUnknown 0
+SetField groupwidgets[2].Definition.GuiRenderBlock.Name null
+SetField groupwidgets[2].Definition.GuiRenderblock.Bounds720p -40 -1265 0 -100
+SetField groupwidgets[2].Definition.GuiRenderblock.Bounds480i 0 0 0 0
 SaveTagChanges
 exitto tags
 
