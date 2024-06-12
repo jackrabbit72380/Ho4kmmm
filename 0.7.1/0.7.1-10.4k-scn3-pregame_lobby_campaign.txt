@@ -106,22 +106,16 @@ Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
 
-SetField groupwidgets[2].textwidgets[0].data.flags 9
-SetField groupwidgets[2].textwidgets[0].data.name difficulty
-SetField groupwidgets[2].textwidgets[0].data.Layer 0
-SetField groupwidgets[2].textwidgets[0].data.WidescreenYBoundsMin 850
-SetField groupwidgets[2].textwidgets[0].data.WidescreenXBoundsMin 89
-SetField groupwidgets[2].textwidgets[0].data.WidescreenYBoundsMax 998
-SetField groupwidgets[2].textwidgets[0].data.WidescreenXBoundsMax 1637
-SetField groupwidgets[2].textwidgets[0].data.StandardYBoundsMin 0
-SetField groupwidgets[2].textwidgets[0].data.StandardXBoundsMin 0
-SetField groupwidgets[2].textwidgets[0].data.StandardYBoundsMax 0
-SetField groupwidgets[2].textwidgets[0].data.StandardXBoundsMax 0
-SetField groupwidgets[2].textwidgets[0].data.Animation ui\halox\pregame_lobby\button_key.wacd
-SetField groupwidgets[2].textwidgets[0].datasourcename null
-SetField groupwidgets[2].textwidgets[0].textstring campaign_difficulty
-SetField groupwidgets[2].textwidgets[0].textcolor ice
-SetField groupwidgets[2].textwidgets[0].textfont 4
+SetField groupwidgets[2].Definition.textwidgets[0].Definition.Flags 9
+SetField groupwidgets[2].Definition.textwidgets[0].Definition.GuiRenderBlock.Name difficulty
+SetField groupwidgets[2].Definition.textwidgets[0].Definition.GUIRenderBlock.RenderDepthBias 0
+SetField groupwidgets[2].Definition.textwidgets[0].Definition.GuiRenderblock.Bounds720p 850 89 998 1637
+SetField groupwidgets[2].Definition.textwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[2].Definition.textwidgets[0].Definition.GuiRenderBlock.AnimationCollection ui\halox\pregame_lobby\button_key.wacd
+SetField groupwidgets[2].Definition.textwidgets[0].Definition.GUIRenderBlock.Name null
+SetField groupwidgets[2].Definition.textwidgets[0].Definition.GuiRenderBlock.Name campaign_difficulty
+SetField groupwidgets[2].Definition.textwidgets[0].Definition.TextColorPreset ice
+SetField groupwidgets[2].Definition.textwidgets[0].Definition.CustomFont 4
 SaveTagChanges
 exitto tags
 Exit
