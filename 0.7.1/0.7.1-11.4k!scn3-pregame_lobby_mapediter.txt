@@ -55,15 +55,9 @@ SaveTagChanges
 exitto tags
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_mapeditor.scn3
-SetField groupwidgets[1].name roster
-SetField groupwidgets[1].WidescreenYOffset -544
-SetField groupwidgets[1].WidescreenXOffset 1366
-SetField groupwidgets[1].WidescreenYUnknown 0
-SetField groupwidgets[1].WidescreenXUnknown 0
-SetField groupwidgets[1].StandardYOffset 45
-SetField groupwidgets[1].StandardXOffset 442
-SetField groupwidgets[1].StandardYUnknown 0
-SetField groupwidgets[1].StandardXUnknown 0
+SetField groupwidgets[1].Definition.GuiRenderBlock.Name roster
+SetField groupwidgets[1].Definition.GuiRenderblock.Bounds720p -544 1366 0 0
+SetField groupwidgets[1].Definition.GuiRenderblock.Bounds480i 45 442 0 0
 SaveTagChanges
 exitto tags
 
