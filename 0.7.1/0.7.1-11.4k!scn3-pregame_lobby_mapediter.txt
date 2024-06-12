@@ -69,36 +69,25 @@ SaveTagChanges
 exitto tags
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_mapeditor.scn3
-SetField groupwidgets[2].TextWidgets[0].data.name mapediter_map_name
-SetField groupwidgets[2].TextWidgets[0].data.WidescreenYOffset 910
-SetField groupwidgets[2].TextWidgets[0].data.WidescreenXOffset 89
-SetField groupwidgets[2].TextWidgets[0].data.WidescreenYUnknown 998
-SetField groupwidgets[2].TextWidgets[0].data.WidescreenXUnknown 537
-SetField groupwidgets[2].TextWidgets[0].data.StandardYOffset 0
-SetField groupwidgets[2].TextWidgets[0].data.StandardXOffset 0
-SetField groupwidgets[2].TextWidgets[0].data.StandardYUnknown 0
-SetField groupwidgets[2].TextWidgets[0].data.StandardXUnknown 0
-SetField groupwidgets[2].textwidgets[0].datasourcename null
-SetField groupwidgets[2].textwidgets[0].textstring mapediter_map_name
-SetField groupwidgets[2].textwidgets[0].textcolor ice
-SetField groupwidgets[2].textwidgets[0].textfont 4
+SetField groupwidgets[2].Definition.TextWidgets[0].GuiRenderBlock.Name mapediter_map_name
+SetField groupwidgets[2].Definition.TextWidgets[0].Definition.GuiRenderblock.Bounds720p 910 89 998 537
+SetField groupwidgets[2].Definition.TextWidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+
+SetField groupwidgets[2].Definition.textwidgets[0].Definition.GUIRenderBlock.Name null
+SetField groupwidgets[2].Definition.textwidgets[0].Definition.GuiRenderBlock.Name mapediter_map_name
+SetField groupwidgets[2].Definition.textwidgets[0].Definition.TextColorPreset ice
+SetField groupwidgets[2].Definition.textwidgets[0].Definition.CustomFont 4
 SaveTagChanges
 exitto tags
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_mapeditor.scn3
-SetField groupwidgets[2].TextWidgets[1].data.name lobby_status
-SetField groupwidgets[2].TextWidgets[1].data.WidescreenYOffset 910
-SetField groupwidgets[2].TextWidgets[1].data.WidescreenXOffset 89
-SetField groupwidgets[2].TextWidgets[1].data.WidescreenYUnknown 998
-SetField groupwidgets[2].TextWidgets[1].data.WidescreenXUnknown 537
-SetField groupwidgets[2].TextWidgets[1].data.StandardYOffset 0
-SetField groupwidgets[2].TextWidgets[1].data.StandardXOffset 0
-SetField groupwidgets[2].TextWidgets[1].data.StandardYUnknown 0
-SetField groupwidgets[2].TextWidgets[1].data.StandardXUnknown 0
-SetField groupwidgets[2].textwidgets[1].datasourcename null
-SetField groupwidgets[2].textwidgets[1].textstring null
-SetField groupwidgets[2].textwidgets[1].textcolor ice
-SetField groupwidgets[2].textwidgets[1].textfont 4
+SetField groupwidgets[2].TextWidgets[1].GuiRenderBlock.Name lobby_status
+SetField groupwidgets[2].Definition.TextWidgets[1].Definition.GuiRenderblock.Bounds720p 910 89 998 537
+SetField groupwidgets[2].Definition.TextWidgets[1].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[2].textwidgets[1].Definition.GUIRenderBlock.Name null
+SetField groupwidgets[2].textwidgets[1].Definition.GUIRenderBlock.Name null
+SetField groupwidgets[2].textwidgets[1].Definition.TextColorPreset ice
+SetField groupwidgets[2].textwidgets[1].Definition.CustomFont 4
 SaveTagChanges
 exitto tags
 
