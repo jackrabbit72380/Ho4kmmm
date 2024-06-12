@@ -46,17 +46,11 @@ SaveTagChanges
 exitto tags
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_mapeditor.scn3
-SetField groupwidgets[0].listwidgets[0].listwidgetitems[4].data.flags 0
-SetField groupwidgets[0].listwidgets[0].listwidgetitems[4].data.name game_options
-SetField groupwidgets[0].listwidgets[0].listwidgetitems[4].data.Layer 0
-SetField groupwidgets[0].listwidgets[0].listwidgetitems[4].data.WidescreenYOffset -80
-SetField groupwidgets[0].listwidgets[0].listwidgetitems[4].data.WidescreenXOffset 0
-SetField groupwidgets[0].listwidgets[0].listwidgetitems[4].data.WidescreenYUnknown 0
-SetField groupwidgets[0].listwidgets[0].listwidgetitems[4].data.WidescreenXUnknown 0
-SetField groupwidgets[0].listwidgets[0].listwidgetitems[4].data.StandardYOffset 0
-SetField groupwidgets[0].listwidgets[0].listwidgetitems[4].data.StandardXOffset 0
-SetField groupwidgets[0].listwidgets[0].listwidgetitems[4].data.StandardYUnknown 0
-SetField groupwidgets[0].listwidgets[0].listwidgetitems[4].data.StandardXUnknown 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[4].Definition.Flags 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[4].Definition.GuiRenderBlock.Name game_options
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[4].Definition.GUIRenderBlock.RenderDepthBias 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[4].Definition.GuiRenderblock.Bounds720p -80 0 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[4].Definition.GuiRenderblock.Bounds480i 0 0 0 0
 SaveTagChanges
 exitto tags
 
