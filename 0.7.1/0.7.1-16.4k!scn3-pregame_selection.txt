@@ -1,0 +1,729 @@
+openmodpackage "ho4kmmm.pak"
+
+echo move a select & b back buttons
+edittag ui\halox\pregame_lobby\selection\button_key_a_select_b_cancel.bkey
+SetField GuiRenderBlock.Bounds720p 989 -620 0 0
+SaveTagChanges
+exitto tags
+
+echo //////////////////////////////////////////////////////////////////////////////start
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField GuiRenderBlock.Bounds720p -231 -576 231 576
+SetField GuiRenderBlock.Bounds480i -232 -330 240 330
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField GroupWidgets[0].Definition.Flags 9
+setfield GroupWidgets[0].Definition.GuiRenderBlock.Name base
+SetField groupwidgets[0].Definition.GUIRenderBlock.RenderDepthBias 0
+SetField groupwidgets[0].Definition.GuiRenderblock.Bounds720p 0 0 0 0
+SetField groupwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField GroupWidgets[1].Definition.Flags 0
+setfield GroupWidgets[1].Definition.GuiRenderBlock.Name subitem
+SetField groupwidgets[1].Definition.GUIRenderBlock.RenderDepthBias 0
+SetField groupwidgets[1].Definition.GuiRenderblock.Bounds720p 0 0 0 0
+SetField groupwidgets[1].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField GroupWidgets[2].Definition.Flags 0
+setfield GroupWidgets[2].Definition.GuiRenderBlock.Name subitem_edit
+SetField groupwidgets[2].Definition.GUIRenderBlock.RenderDepthBias 0
+SetField groupwidgets[2].Definition.GuiRenderblock.Bounds720p -159 85 0 0
+SetField groupwidgets[2].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField GroupWidgets[3].Definition.Flags 9
+setfield GroupWidgets[3].Definition.GuiRenderBlock.Name film_category_image
+SetField groupwidgets[3].Definition.GUIRenderBlock.RenderDepthBias 0
+SetField groupwidgets[3].Definition.GuiRenderblock.Bounds720p 0 0 0 0
+SetField groupwidgets[3].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField GroupWidgets[4].Definition.Flags 9
+setfield GroupWidgets[4].Definition.GuiRenderBlock.Name film_image
+SetField groupwidgets[4].Definition.GUIRenderBlock.RenderDepthBias 0
+SetField groupwidgets[4].Definition.GuiRenderblock.Bounds720p 0 0 0 0
+SetField groupwidgets[4].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField GroupWidgets[5].Definition.Flags 9
+setfield GroupWidgets[5].Definition.GuiRenderBlock.Name network_mode
+SetField groupwidgets[5].Definition.GUIRenderBlock.RenderDepthBias 0
+SetField groupwidgets[5].Definition.GuiRenderblock.Bounds720p 0 0 0 0
+SetField groupwidgets[5].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField GroupWidgets[6].Definition.Flags 9
+setfield GroupWidgets[6].Definition.GuiRenderBlock.Name advertisementy_mode_image
+SetField groupwidgets[6].Definition.GUIRenderBlock.RenderDepthBias 0
+SetField groupwidgets[6].Definition.GuiRenderblock.Bounds720p 0 0 0 0
+SetField groupwidgets[6].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField GroupWidgets[7].Definition.Flags 9
+setfield GroupWidgets[7].Definition.GuiRenderBlock.Name gametype_image
+SetField groupwidgets[7].Definition.GUIRenderBlock.RenderDepthBias 0
+SetField groupwidgets[7].Definition.GuiRenderblock.Bounds720p 0 0 0 0
+SetField groupwidgets[7].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField GroupWidgets[8].Definition.Flags 9
+setfield GroupWidgets[8].Definition.GuiRenderBlock.Name gametype_variant_image
+SetField groupwidgets[8].Definition.GUIRenderBlock.RenderDepthBias 0
+SetField groupwidgets[8].Definition.GuiRenderblock.Bounds720p 0 0 0 0
+SetField groupwidgets[8].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField GroupWidgets[9].Definition.Flags 9
+setfield GroupWidgets[9].Definition.GuiRenderBlock.Name map_image
+SetField groupwidgets[9].Definition.GUIRenderBlock.RenderDepthBias 0
+SetField groupwidgets[9].Definition.GuiRenderblock.Bounds720p 0 0 0 0
+SetField groupwidgets[9].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField GroupWidgets[10].Definition.Flags 9
+setfield GroupWidgets[10].Definition.GuiRenderBlock.Name map_variant_image
+SetField groupwidgets[10].Definition.GUIRenderBlock.RenderDepthBias 0
+SetField groupwidgets[10].Definition.GuiRenderblock.Bounds720p 0 0 0 0
+SetField groupwidgets[10].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField GroupWidgets[11].Definition.Flags 9
+setfield GroupWidgets[11].Definition.GuiRenderBlock.Name hopper_category_image
+SetField groupwidgets[11].Definition.GUIRenderBlock.RenderDepthBias 0
+SetField groupwidgets[11].Definition.GuiRenderblock.Bounds720p 0 0 0 0
+SetField groupwidgets[11].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField GroupWidgets[12].Definition.Flags 9
+setfield GroupWidgets[12].Definition.GuiRenderBlock.Name hopper_image
+SetField groupwidgets[12].Definition.GUIRenderBlock.RenderDepthBias 0
+SetField groupwidgets[12].Definition.GuiRenderblock.Bounds720p 0 0 0 0
+SetField groupwidgets[12].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.GuiRenderBlock.Name category
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.GUIRenderBlock.RenderDepthBias 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.GuiRenderblock.Bounds720p 56 206 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+echo maps list placement
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[0].GuiRenderblock.Bounds720p -226 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[1].GuiRenderblock.Bounds720p -164 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[2].GuiRenderblock.Bounds720p -102 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[3].GuiRenderblock.Bounds720p -40 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[4].GuiRenderblock.Bounds720p 22 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[5].GuiRenderblock.Bounds720p 84 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[6].GuiRenderblock.Bounds720p 146 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[7].GuiRenderblock.Bounds720p 208 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[8].GuiRenderblock.Bounds720p 270 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[9].GuiRenderblock.Bounds720p 332 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[10].GuiRenderblock.Bounds720p 394 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[11].GuiRenderblock.Bounds720p 456 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[12].GuiRenderblock.Bounds720p 518 -820 0 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[0].Definition.textwidgets[0].Definition.GuiRenderBlock.Name title
+SetField groupwidgets[0].Definition.textwidgets[0].Definition.GuiRenderblock.Bounds720p -550 -620 40 1080
+SetField groupwidgets[0].Definition.textwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[0].Definition.textwidgets[0].Definition.GuiRenderBlock.Name null
+SetField groupwidgets[0].Definition.textwidgets[0].Definition.GuiRenderBlock.Name null
+SetField groupwidgets[0].Definition.textwidgets[0].Definition.TextColorPreset clear
+SetField groupwidgets[0].Definition.textwidgets[0].Definition.CustomFont 4
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[0].Definition.textwidgets[1].Definition.GuiRenderBlock.Name list_empty
+SetField groupwidgets[0].Definition.textwidgets[1].Definition.GuiRenderblock.Bounds720p 60 472 224 723
+SetField groupwidgets[0].Definition.textwidgets[1].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[0].Definition.textwidgets[1].Definition.GuiRenderBlock.Name null
+SetField groupwidgets[0].Definition.textwidgets[1].Definition.GuiRenderBlock.Name null
+SetField groupwidgets[0].Definition.textwidgets[1].Definition.TextColorPreset hilite
+SetField groupwidgets[0].Definition.textwidgets[1].Definition.CustomFont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[0].Definition.bitmapwidgets[0].Definition.GuiRenderBlock.Name background
+SetField groupwidgets[0].Definition.bitmapwidgets[0].Definition.GuiRenderblock.Bounds720p -610 -1475 1080 2620
+SetField groupwidgets[0].Definition.bitmapwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[0].Definition.bitmapwidgets[1].Definition.GuiRenderBlock.Name background 
+SetField groupwidgets[0].Definition.bitmapwidgets[1].Definition.GuiRenderblock.Bounds720p -610 -1475 1080 2620
+SetField groupwidgets[0].Definition.bitmapwidgets[1].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[0].Definition.bitmapwidgets[2].Definition.GuiRenderBlock.Name dark_background
+SetField groupwidgets[0].Definition.bitmapwidgets[2].Definition.GuiRenderblock.Bounds720p -610 -1475 1080 2620
+SetField groupwidgets[0].Definition.bitmapwidgets[2].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[0].Definition.bitmapwidgets[3].Definition.GuiRenderBlock.Name background
+SetField groupwidgets[0].Definition.bitmapwidgets[3].Definition.GuiRenderblock.Bounds720p -375 719 756 2375
+SetField groupwidgets[0].Definition.bitmapwidgets[3].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+echo subitem_edit////////////////////////////////////////////////////////
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[2].Definition.textwidgets[0].Definition.GuiRenderBlock.Name item_options
+SetField groupwidgets[2].Definition.textwidgets[0].Definition.GuiRenderblock.Bounds720p -4 -12 32 230
+SetField groupwidgets[2].Definition.textwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[2].Definition.textwidgets[0].Definition.GuiRenderBlock.Name null
+SetField groupwidgets[2].Definition.textwidgets[0].Definition.GuiRenderBlock.Name null
+SetField groupwidgets[2].Definition.textwidgets[0].Definition.TextColorPreset ice
+SetField groupwidgets[2].Definition.textwidgets[0].Definition.CustomFont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[2].Definition.bitmapwidgets[0].Definition.GuiRenderBlock.Name null
+SetField groupwidgets[2].Definition.bitmapwidgets[0].Definition.GuiRenderblock.Bounds720p -5 -70 34 580
+SetField groupwidgets[2].Definition.bitmapwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+echo film_image//////////////////////////////////////////////////////////
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].Definition.textwidgets[0].Definition.GuiRenderBlock.Name name
+SetField groupwidgets[4].Definition.textwidgets[0].Definition.GuiRenderblock.Bounds720p 185 727 215 966
+SetField groupwidgets[4].Definition.textwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[4].Definition.textwidgets[0].Definition.GuiRenderBlock.Name subitem
+SetField groupwidgets[4].Definition.textwidgets[0].Definition.GuiRenderBlock.Name name
+SetField groupwidgets[4].Definition.textwidgets[0].Definition.TextColorPreset null
+SetField groupwidgets[4].Definition.textwidgets[0].Definition.CustomFont 4
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].Definition.textwidgets[1].Definition.GuiRenderBlock.Name description
+SetField groupwidgets[4].Definition.textwidgets[1].Definition.GuiRenderblock.Bounds720p 210 727 320 966
+SetField groupwidgets[4].Definition.textwidgets[1].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[4].Definition.textwidgets[1].Definition.GuiRenderBlock.Name subitem
+SetField groupwidgets[4].Definition.textwidgets[1].Definition.GuiRenderBlock.Name description
+SetField groupwidgets[4].Definition.textwidgets[1].Definition.TextColorPreset ice
+SetField groupwidgets[4].Definition.textwidgets[1].Definition.CustomFont 4
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].Definition.textwidgets[2].Definition.GuiRenderBlock.Name metadata_line_1_label
+SetField groupwidgets[4].Definition.textwidgets[2].Definition.GuiRenderblock.Bounds720p 325 727 355 838
+SetField groupwidgets[4].Definition.textwidgets[2].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[4].Definition.textwidgets[2].Definition.GuiRenderBlock.Name subitem
+SetField groupwidgets[4].Definition.textwidgets[2].Definition.GuiRenderBlock.Name metadata_line_1_label
+SetField groupwidgets[4].Definition.textwidgets[2].Definition.TextColorPreset ice
+SetField groupwidgets[4].Definition.textwidgets[2].Definition.CustomFont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].Definition.textwidgets[3].Definition.GuiRenderBlock.Name metadata_line_1
+SetField groupwidgets[4].Definition.textwidgets[3].Definition.GuiRenderblock.Bounds720p 325 798 355 966
+SetField groupwidgets[4].Definition.textwidgets[3].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[4].Definition.textwidgets[3].Definition.GuiRenderBlock.Name subitem
+SetField groupwidgets[4].Definition.textwidgets[3].Definition.GuiRenderBlock.Name metadata_line_1
+SetField groupwidgets[4].Definition.textwidgets[3].Definition.TextColorPreset null
+SetField groupwidgets[4].Definition.textwidgets[3].Definition.CustomFont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].Definition.textwidgets[4].Definition.GuiRenderBlock.Name metadata_line_2_label
+SetField groupwidgets[4].Definition.textwidgets[4].Definition.GuiRenderblock.Bounds720p 354 727 384 838
+SetField groupwidgets[4].Definition.textwidgets[4].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[4].Definition.textwidgets[4].Definition.GuiRenderBlock.Name subitem
+SetField groupwidgets[4].Definition.textwidgets[4].Definition.GuiRenderBlock.Name metadata_line_2_label
+SetField groupwidgets[4].Definition.textwidgets[4].Definition.TextColorPreset ice
+SetField groupwidgets[4].Definition.textwidgets[4].Definition.CustomFont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].Definition.textwidgets[5].Definition.GuiRenderBlock.Name metadata_line_2
+SetField groupwidgets[4].Definition.textwidgets[5].Definition.GuiRenderblock.Bounds720p 354 838 384 966
+SetField groupwidgets[4].Definition.textwidgets[5].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[4].Definition.textwidgets[5].Definition.GuiRenderBlock.Name subitem
+SetField groupwidgets[4].Definition.textwidgets[5].Definition.GuiRenderBlock.Name metadata_line_2
+SetField groupwidgets[4].Definition.textwidgets[5].Definition.TextColorPreset null
+SetField groupwidgets[4].Definition.textwidgets[5].Definition.CustomFont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].Definition.textwidgets[6].Definition.GuiRenderBlock.Name metadata_line_3_label
+SetField groupwidgets[4].Definition.textwidgets[6].Definition.GuiRenderblock.Bounds720p 377 727 407 838
+SetField groupwidgets[4].Definition.textwidgets[6].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[4].Definition.textwidgets[6].Definition.GuiRenderBlock.Name subitem
+SetField groupwidgets[4].Definition.textwidgets[6].Definition.GuiRenderBlock.Name metadata_line_3_label
+SetField groupwidgets[4].Definition.textwidgets[6].Definition.TextColorPreset ice
+SetField groupwidgets[4].Definition.textwidgets[6].Definition.CustomFont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].Definition.textwidgets[7].Definition.GuiRenderBlock.Name metadata_line_3
+SetField groupwidgets[4].Definition.textwidgets[7].Definition.GuiRenderblock.Bounds720p 377 838 407 966
+SetField groupwidgets[4].Definition.textwidgets[7].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[4].Definition.textwidgets[7].Definition.GuiRenderBlock.Name subitem
+SetField groupwidgets[4].Definition.textwidgets[7].Definition.GuiRenderBlock.Name metadata_line_3
+SetField groupwidgets[4].Definition.textwidgets[7].Definition.TextColorPreset null
+SetField groupwidgets[4].Definition.textwidgets[7].Definition.CustomFont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].Definition.textwidgets[8].Definition.GuiRenderBlock.Name metadata_line_4_label
+SetField groupwidgets[4].Definition.textwidgets[8].Definition.GuiRenderblock.Bounds720p 400 727 430 838
+SetField groupwidgets[4].Definition.textwidgets[8].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[4].Definition.textwidgets[8].Definition.GuiRenderBlock.Name subitem
+SetField groupwidgets[4].Definition.textwidgets[8].Definition.GuiRenderBlock.Name metadata_line_4_label
+SetField groupwidgets[4].Definition.textwidgets[8].Definition.TextColorPreset ice
+SetField groupwidgets[4].Definition.textwidgets[8].Definition.CustomFont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].Definition.textwidgets[9].Definition.GuiRenderBlock.Name metadata_line_4
+SetField groupwidgets[4].Definition.textwidgets[9].Definition.GuiRenderblock.Bounds720p 400 838 430 966
+SetField groupwidgets[4].Definition.textwidgets[9].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[4].Definition.textwidgets[9].Definition.GuiRenderBlock.Name subitem
+SetField groupwidgets[4].Definition.textwidgets[9].Definition.GuiRenderBlock.Name metadata_line_4
+SetField groupwidgets[4].Definition.textwidgets[9].Definition.TextColorPreset null
+SetField groupwidgets[4].Definition.textwidgets[9].Definition.CustomFont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].Definition.bitmapwidgets[0].Definition.GuiRenderBlock.Name type
+SetField groupwidgets[4].Definition.bitmapwidgets[0].Definition.GuiRenderblock.Bounds720p 52 727 182 963
+SetField groupwidgets[4].Definition.bitmapwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].Definition.bitmapwidgets[1].Definition.GuiRenderBlock.Name game_engine
+SetField groupwidgets[4].Definition.bitmapwidgets[1].Definition.GuiRenderblock.Bounds720p 52 727 182 963
+SetField groupwidgets[4].Definition.bitmapwidgets[1].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].Definition.bitmapwidgets[2].Definition.GuiRenderBlock.Name map_image
+SetField groupwidgets[4].Definition.bitmapwidgets[2].Definition.GuiRenderblock.Bounds720p 52 727 182 963
+SetField groupwidgets[4].Definition.bitmapwidgets[2].Definition.GuiRenderblock.Bounds480i 35 510 170 744
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].Definition.bitmapwidgets[3].Definition.GuiRenderBlock.Name autor_field_lame_hack_don't_break
+SetField groupwidgets[4].Definition.bitmapwidgets[3].Definition.GuiRenderblock.Bounds720p 322 719 349 972
+SetField groupwidgets[4].Definition.bitmapwidgets[3].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].Definition.bitmapwidgets[4].Definition.GuiRenderBlock.Name autor_field_overline
+SetField groupwidgets[4].Definition.bitmapwidgets[4].Definition.GuiRenderblock.Bounds720p 321 719 322 972
+SetField groupwidgets[4].Definition.bitmapwidgets[4].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[4].Definition.bitmapwidgets[5].Definition.GuiRenderBlock.Name autor_field_underline
+SetField groupwidgets[4].Definition.bitmapwidgets[5].Definition.GuiRenderblock.Bounds720p 349 719 350 972
+SetField groupwidgets[4].Definition.bitmapwidgets[5].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+echo network_mode//////////////////////////////////
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[5].Definition.textwidgets[0].Definition.GuiRenderBlock.Name description
+SetField groupwidgets[5].Definition.textwidgets[0].Definition.GuiRenderblock.Bounds720p 59 731 397 963
+SetField groupwidgets[5].Definition.textwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[5].Definition.textwidgets[0].Definition.GuiRenderBlock.Name category
+SetField groupwidgets[5].Definition.textwidgets[0].Definition.GuiRenderBlock.Name description
+SetField groupwidgets[5].Definition.textwidgets[0].Definition.TextColorPreset ice
+SetField groupwidgets[5].Definition.textwidgets[0].Definition.CustomFont 4
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[5].Definition.bitmapwidgets[0].Definition.GuiRenderBlock.Name flavor_image
+SetField groupwidgets[5].Definition.bitmapwidgets[0].Definition.GuiRenderblock.Bounds720p 59 727 0 0 
+SetField groupwidgets[5].Definition.bitmapwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+echo advertisement_mode_image///////////////////////////////////
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[6].Definition.textwidgets[0].Definition.GuiRenderBlock.Name description
+SetField groupwidgets[6].Definition.textwidgets[0].Definition.GuiRenderblock.Bounds720p 59 731 397 963
+SetField groupwidgets[6].Definition.textwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[6].Definition.textwidgets[0].Definition.GuiRenderBlock.Name subitem
+SetField groupwidgets[6].Definition.textwidgets[0].Definition.GuiRenderBlock.Name description
+SetField groupwidgets[6].Definition.textwidgets[0].Definition.TextColorPreset ice
+SetField groupwidgets[6].Definition.textwidgets[0].Definition.CustomFont 4
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[6].Definition.bitmapwidgets[0].Definition.GuiRenderBlock.Name flavor_image
+SetField groupwidgets[6].Definition.bitmapwidgets[0].Definition.GuiRenderblock.Bounds720p 59 727 0 0
+SetField groupwidgets[6].Definition.bitmapwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+echo gametype image////////////////////////////////////////////////////
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[7].Definition.textwidgets[0].Definition.GuiRenderBlock.Name description
+SetField groupwidgets[7].Definition.textwidgets[0].Definition.GuiRenderblock.Bounds720p 59 731 397 963
+SetField groupwidgets[7].Definition.textwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[7].Definition.textwidgets[0].Definition.GuiRenderBlock.Name category
+SetField groupwidgets[7].Definition.textwidgets[0].Definition.GuiRenderBlock.Name description
+SetField groupwidgets[7].Definition.textwidgets[0].Definition.TextColorPreset ice
+SetField groupwidgets[7].Definition.textwidgets[0].Definition.CustomFont 4
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[7].Definition.bitmapwidgets[0].Definition.GuiRenderBlock.Name flavor_image
+SetField groupwidgets[7].Definition.bitmapwidgets[0].Definition.GuiRenderblock.Bounds720p 59 727 200 930
+SetField groupwidgets[7].Definition.bitmapwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+echo game_variant_image////////////////////////////////////////////////////
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[8].Definition.textwidgets[0].Definition.GuiRenderBlock.Name description
+SetField groupwidgets[8].Definition.textwidgets[0].Definition.GuiRenderblock.Bounds720p 239 727 337 963
+SetField groupwidgets[8].Definition.textwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[8].Definition.textwidgets[0].Definition.GuiRenderBlock.Name subitem
+SetField groupwidgets[8].Definition.textwidgets[0].Definition.GuiRenderBlock.Name description
+SetField groupwidgets[8].Definition.textwidgets[0].Definition.TextColorPreset ice
+SetField groupwidgets[8].Definition.textwidgets[0].Definition.CustomFont 4
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[8].Definition.textwidgets[1].Definition.GuiRenderBlock.Name meta_line_2_label
+SetField groupwidgets[8].Definition.textwidgets[1].Definition.GuiRenderblock.Bounds720p 337 727 367 838
+SetField groupwidgets[8].Definition.textwidgets[1].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[8].Definition.textwidgets[1].Definition.GuiRenderBlock.Name subitem
+SetField groupwidgets[8].Definition.textwidgets[1].Definition.GuiRenderBlock.Name meta_line_2_label
+SetField groupwidgets[8].Definition.textwidgets[1].Definition.TextColorPreset ice
+SetField groupwidgets[8].Definition.textwidgets[1].Definition.CustomFont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[8].Definition.textwidgets[2].Definition.GuiRenderBlock.Name meta_line_2
+SetField groupwidgets[8].Definition.textwidgets[2].Definition.GuiRenderblock.Bounds720p 337 798 367 966
+SetField groupwidgets[8].Definition.textwidgets[2].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[8].Definition.textwidgets[2].Definition.GuiRenderBlock.Name subitem
+SetField groupwidgets[8].Definition.textwidgets[2].Definition.GuiRenderBlock.Name meta_line_1
+SetField groupwidgets[8].Definition.textwidgets[2].Definition.TextColorPreset null
+SetField groupwidgets[8].Definition.textwidgets[2].Definition.CustomFont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[8].Definition.textwidgets[3].Definition.GuiRenderBlock.Name meta_line_3_label
+SetField groupwidgets[8].Definition.textwidgets[3].Definition.GuiRenderblock.Bounds720p 366 727 396 838
+SetField groupwidgets[8].Definition.textwidgets[3].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[8].Definition.textwidgets[3].Definition.GuiRenderBlock.Name subitem
+SetField groupwidgets[8].Definition.textwidgets[3].Definition.GuiRenderBlock.Name meta_line_2_label
+SetField groupwidgets[8].Definition.textwidgets[3].Definition.TextColorPreset ice
+SetField groupwidgets[8].Definition.textwidgets[3].Definition.CustomFont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[8].Definition.textwidgets[4].Definition.GuiRenderBlock.Name meta_line_3
+SetField groupwidgets[8].Definition.textwidgets[4].Definition.GuiRenderblock.Bounds720p 366 838 396 966
+SetField groupwidgets[8].Definition.textwidgets[4].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[8].Definition.textwidgets[4].Definition.GuiRenderBlock.Name subitem
+SetField groupwidgets[8].Definition.textwidgets[4].Definition.GuiRenderBlock.Name meta_line_2
+SetField groupwidgets[8].Definition.textwidgets[4].Definition.TextColorPreset ice
+SetField groupwidgets[8].Definition.textwidgets[4].Definition.CustomFont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[8].Definition.textwidgets[5].Definition.GuiRenderBlock.Name meta_line_4_label
+SetField groupwidgets[8].Definition.textwidgets[5].Definition.GuiRenderblock.Bounds720p 391 727 421 838
+SetField groupwidgets[8].Definition.textwidgets[5].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[8].Definition.textwidgets[5].Definition.GuiRenderBlock.Name subitem
+SetField groupwidgets[8].Definition.textwidgets[5].Definition.GuiRenderBlock.Name meta_line_3_label
+SetField groupwidgets[8].Definition.textwidgets[5].Definition.TextColorPreset ice
+SetField groupwidgets[8].Definition.textwidgets[5].Definition.CustomFont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[8].Definition.textwidgets[6].Definition.GuiRenderBlock.Name meta_line_4
+SetField groupwidgets[8].Definition.textwidgets[6].Definition.GuiRenderblock.Bounds720p 391 838 421 966
+SetField groupwidgets[8].Definition.textwidgets[6].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[8].Definition.textwidgets[6].Definition.GuiRenderBlock.Name subitem
+SetField groupwidgets[8].Definition.textwidgets[6].Definition.GuiRenderBlock.Name meta_line_3
+SetField groupwidgets[8].Definition.textwidgets[6].Definition.TextColorPreset ice
+SetField groupwidgets[8].Definition.textwidgets[6].Definition.CustomFont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[8].Definition.bitmapwidgets[0].Definition.GuiRenderBlock.Name flavor_image
+SetField groupwidgets[8].Definition.bitmapwidgets[0].Definition.GuiRenderblock.Bounds720p 59 760 200 930
+SetField groupwidgets[8].Definition.bitmapwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[8].Definition.bitmapwidgets[1].Definition.GuiRenderBlock.Name autor_field_lame_hack_don't_break
+SetField groupwidgets[8].Definition.bitmapwidgets[1].Definition.GuiRenderblock.Bounds720p 335 719 362 972
+SetField groupwidgets[8].Definition.bitmapwidgets[1].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[8].Definition.bitmapwidgets[2].Definition.GuiRenderBlock.Name autor_field_overline
+SetField groupwidgets[8].Definition.bitmapwidgets[2].Definition.GuiRenderblock.Bounds720p 334 719 335 972
+SetField groupwidgets[8].Definition.bitmapwidgets[2].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[8].Definition.bitmapwidgets[3].Definition.GuiRenderBlock.Name autor_field_underline
+SetField groupwidgets[8].Definition.bitmapwidgets[3].Definition.GuiRenderblock.Bounds720p 362 719 363 972
+SetField groupwidgets[8].Definition.bitmapwidgets[3].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+echo map_image////////////////////////////////////////////////////
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[9].Definition.textwidgets[0].Definition.GuiRenderBlock.Name description
+SetField groupwidgets[9].Definition.textwidgets[0].Definition.GuiRenderblock.Bounds720p 157 727 397 2365
+SetField groupwidgets[9].Definition.textwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[9].Definition.textwidgets[0].Definition.GuiRenderBlock.Name category
+SetField groupwidgets[9].Definition.textwidgets[0].Definition.GuiRenderBlock.Name description
+SetField groupwidgets[9].Definition.textwidgets[0].Definition.TextColorPreset ice
+SetField groupwidgets[9].Definition.textwidgets[0].Definition.CustomFont 4
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[9].Definition.bitmapwidgets[0].Definition.GuiRenderBlock.Name unknown_film_image
+SetField groupwidgets[9].Definition.bitmapwidgets[0].Definition.GuiRenderblock.Bounds720p -369 727 137 2365
+SetField groupwidgets[9].Definition.bitmapwidgets[0].Definition.GuiRenderblock.Bounds480i 44 510 122 745
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[9].Definition.bitmapwidgets[1].Definition.GuiRenderBlock.Name category_image
+SetField groupwidgets[9].Definition.bitmapwidgets[1].Definition.GuiRenderblock.Bounds720p 59 750 155 899
+SetField groupwidgets[9].Definition.bitmapwidgets[1].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+echo map_variant_image////////////////////////////////////////////////////
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[10].Definition.textwidgets[0].Definition.GuiRenderBlock.Name description
+SetField groupwidgets[10].Definition.textwidgets[0].Definition.GuiRenderblock.Bounds720p 157 727 397 2365
+SetField groupwidgets[10].Definition.textwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[10].Definition.textwidgets[0].Definition.GuiRenderBlock.Name subitem
+SetField groupwidgets[10].Definition.textwidgets[0].Definition.GuiRenderBlock.Name description
+SetField groupwidgets[10].Definition.textwidgets[0].Definition.TextColorPreset ice
+SetField groupwidgets[10].Definition.textwidgets[0].Definition.CustomFont 4
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[10].Definition.textwidgets[1].Definition.GuiRenderBlock.Name metadata_line_1_label
+SetField groupwidgets[10].Definition.textwidgets[1].Definition.GuiRenderblock.Bounds720p 337 727 337 898
+SetField groupwidgets[10].Definition.textwidgets[1].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[10].Definition.textwidgets[1].Definition.GuiRenderBlock.Name subitem
+SetField groupwidgets[10].Definition.textwidgets[1].Definition.GuiRenderBlock.Name metadata_line_1_label
+SetField groupwidgets[10].Definition.textwidgets[1].Definition.TextColorPreset ice
+SetField groupwidgets[10].Definition.textwidgets[1].Definition.CustomFont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[10].Definition.textwidgets[2].Definition.GuiRenderBlock.Name metadata_line_1
+SetField groupwidgets[10].Definition.textwidgets[2].Definition.GuiRenderblock.Bounds720p 337 868 400 1220
+SetField groupwidgets[10].Definition.textwidgets[2].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[10].Definition.textwidgets[2].Definition.GuiRenderBlock.Name subitem
+SetField groupwidgets[10].Definition.textwidgets[2].Definition.GuiRenderBlock.Name metadata_line_1
+SetField groupwidgets[10].Definition.textwidgets[2].Definition.TextColorPreset null
+SetField groupwidgets[10].Definition.textwidgets[2].Definition.CustomFont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[10].Definition.textwidgets[3].Definition.GuiRenderBlock.Name metadata_line_2_label
+SetField groupwidgets[10].Definition.textwidgets[3].Definition.GuiRenderblock.Bounds720p 399 727 458 848
+SetField groupwidgets[10].Definition.textwidgets[3].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[10].Definition.textwidgets[3].Definition.GuiRenderBlock.Name subitem
+SetField groupwidgets[10].Definition.textwidgets[3].Definition.GuiRenderBlock.Name metadata_line_2_label
+SetField groupwidgets[10].Definition.textwidgets[3].Definition.TextColorPreset ice
+SetField groupwidgets[10].Definition.textwidgets[3].Definition.CustomFont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[10].Definition.textwidgets[4].Definition.GuiRenderBlock.Name metadata_line_2
+SetField groupwidgets[10].Definition.textwidgets[4].Definition.GuiRenderblock.Bounds720p 399 822 459 1050
+SetField groupwidgets[10].Definition.textwidgets[4].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[10].Definition.textwidgets[4].Definition.GuiRenderBlock.Name subitem
+SetField groupwidgets[10].Definition.textwidgets[4].Definition.GuiRenderBlock.Name metadata_line_2
+SetField groupwidgets[10].Definition.textwidgets[4].Definition.TextColorPreset null
+SetField groupwidgets[10].Definition.textwidgets[4].Definition.CustomFont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[10].Definition.textwidgets[5].Definition.GuiRenderBlock.Name metadata_line_3_label
+SetField groupwidgets[10].Definition.textwidgets[5].Definition.GuiRenderblock.Bounds720p 461 727 520 838
+SetField groupwidgets[10].Definition.textwidgets[5].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[10].Definition.textwidgets[5].Definition.GuiRenderBlock.Name subitem
+SetField groupwidgets[10].Definition.textwidgets[5].Definition.GuiRenderBlock.Name metadata_line_3_label
+SetField groupwidgets[10].Definition.textwidgets[5].Definition.TextColorPreset ice
+SetField groupwidgets[10].Definition.textwidgets[5].Definition.CustomFont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[10].Definition.textwidgets[6].Definition.GuiRenderBlock.Name metadata_line_3
+SetField groupwidgets[10].Definition.textwidgets[6].Definition.GuiRenderblock.Bounds720p 461 822 521 1050
+SetField groupwidgets[10].Definition.textwidgets[6].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[10].Definition.textwidgets[6].Definition.GuiRenderBlock.Name subitem
+SetField groupwidgets[10].Definition.textwidgets[6].Definition.GuiRenderBlock.Name metadata_line_3
+SetField groupwidgets[10].Definition.textwidgets[6].Definition.TextColorPreset ice
+SetField groupwidgets[10].Definition.textwidgets[6].Definition.CustomFont 1
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[10].Definition.bitmapwidgets[0].Definition.GuiRenderBlock.Name unknown_film_image
+SetField groupwidgets[10].Definition.bitmapwidgets[0].Definition.GuiRenderblock.Bounds720p -369 727 137 2365
+SetField groupwidgets[10].Definition.bitmapwidgets[0].Definition.GuiRenderblock.Bounds480i 44 510 122 745
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[10].Definition.bitmapwidgets[1].Definition.GuiRenderBlock.Name autor_field_lame_hack_dont_break
+SetField groupwidgets[10].Definition.bitmapwidgets[1].Definition.GuiRenderblock.Bounds720p 335 720 510 1220
+SetField groupwidgets[10].Definition.bitmapwidgets[1].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[10].Definition.bitmapwidgets[2].Definition.GuiRenderBlock.Name autor_field_overline
+SetField groupwidgets[10].Definition.bitmapwidgets[2].Definition.GuiRenderblock.Bounds720p 334 720 335 1220
+SetField groupwidgets[10].Definition.bitmapwidgets[2].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[10].Definition.bitmapwidgets[3].Definition.GuiRenderBlock.Name autor_field_underline
+SetField groupwidgets[10].Definition.bitmapwidgets[3].Definition.GuiRenderblock.Bounds720p 509 720 510 1220
+SetField groupwidgets[10].Definition.bitmapwidgets[3].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+echo hopper_category_image////////////////////////////////////////////////////
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[11].Definition.textwidgets[0].Definition.GuiRenderBlock.Name description
+SetField groupwidgets[11].Definition.textwidgets[0].Definition.GuiRenderblock.Bounds720p 239 731 397 963
+SetField groupwidgets[11].Definition.textwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[11].Definition.textwidgets[0].Definition.GuiRenderBlock.Name category
+SetField groupwidgets[11].Definition.textwidgets[0].Definition.GuiRenderBlock.Name description
+SetField groupwidgets[11].Definition.textwidgets[0].Definition.TextColorPreset ice
+SetField groupwidgets[11].Definition.textwidgets[0].Definition.CustomFont 4
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[11].Definition.bitmapwidgets[0].Definition.GuiRenderBlock.Name flavor_image
+SetField groupwidgets[11].Definition.bitmapwidgets[0].Definition.GuiRenderblock.Bounds720p 59 767 0 0
+SetField groupwidgets[11].Definition.bitmapwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+echo hopper_image////////////////////////////////////////////////////
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[12].Definition.textwidgets[0].Definition.GuiRenderBlock.Name description
+SetField groupwidgets[12].Definition.textwidgets[0].Definition.GuiRenderblock.Bounds720p 239 731 397 963
+SetField groupwidgets[12].Definition.textwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[12].Definition.textwidgets[0].Definition.GuiRenderBlock.Name subitem
+SetField groupwidgets[12].Definition.textwidgets[0].Definition.GuiRenderBlock.Name description
+SetField groupwidgets[12].Definition.textwidgets[0].Definition.TextColorPreset ice
+SetField groupwidgets[12].Definition.textwidgets[0].Definition.CustomFont 4
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[12].Definition.bitmapwidgets[0].Definition.GuiRenderBlock.Name flavor_image
+SetField groupwidgets[12].Definition.bitmapwidgets[0].Definition.GuiRenderblock.Bounds720p 59 767 0 0 
+SetField groupwidgets[12].Definition.bitmapwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+dumplog
+exit
+
+savemodpackage
