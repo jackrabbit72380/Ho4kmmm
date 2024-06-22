@@ -1,8 +1,8 @@
+openmodpackage "H3ho4kmmm.pak"
+
 echo \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ hide old titles begin
-
-openmodpackage "H3Ho4kmmm.pak"
-
 echo hide old lobby titles
+
 edittag ui\halox\pregame_lobby\pregame_lobby_template.grup
 SetField textwidgets[0].Definition.TextColorPreset clear
 savetagchanges
@@ -54,7 +54,6 @@ savetagchanges
 exit
 
 echo \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ hide old titles end
-
 Echo ///install 4k_lobby_titles begin///
 
 createtag bitm
@@ -295,8 +294,6 @@ SaveTagChanges
 exitto tags
 Exit
 
-savemodpakage
-
 echo \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 echo 4k_available_games
 echo 4k_carnage_report
@@ -310,3 +307,5 @@ echo 4k_selectt_film
 echo 4k_select_gametype
 echo 4k_theater
 echo \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+SaveModPackage
