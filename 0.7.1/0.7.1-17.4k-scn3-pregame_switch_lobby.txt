@@ -1,4 +1,3 @@
-
 openmodpackage "H3ho4kmmm.pak"
 edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
 SetField GuiRenderBlock.Bounds720p -320 -582 320 570
