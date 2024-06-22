@@ -12,7 +12,7 @@ SetField groupwidgets[0].Definition.Bitmapwidgets[0].Definition.Bitmap ui\halox\
 SetField groupwidgets[0].Definition.Bitmapwidgets[0].Definition.BlendMethod AlphaBlend
 SaveTagChanges
 exitto tags
-Exit
+
 
 edittag ui\halox\campaign\campaign_select_difficulty.scn3
 
@@ -26,7 +26,7 @@ SetField groupwidgets[0].Definition.Bitmapwidgets[1].Definition.Bitmap ui\halox\
 SetField groupwidgets[0].Definition.Bitmapwidgets[1].Definition.BlendMethod AlphaBlend
 SaveTagChanges
 exitto tags
-Exit
+
 
 edittag ui\halox\campaign\campaign_select_difficulty.scn3
 
@@ -40,7 +40,7 @@ SetField groupwidgets[0].Definition.Bitmapwidgets[2].Definition.Bitmap ui\halox\
 SetField groupwidgets[0].Definition.Bitmapwidgets[2].Definition.BlendMethod AlphaBlend
 SaveTagChanges
 exitto tags
-Exit
+
 
 edittag ui\halox\campaign\campaign_select_difficulty.scn3
 
