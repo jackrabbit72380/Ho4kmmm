@@ -10,7 +10,7 @@ exitto tags
 Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
-SetField groupwidgets[0].Definition.items[0].Definition.Flags 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[0].Definition.Flags 0
 SetField groupwidgets[0].Definition.items[0].Definition.GuiRenderBlock.Name switch_lobby
 SetField groupwidgets[0].Definition.items[0].Definition.GUIRenderBlock.RenderDepthBias 0
 SetField groupwidgets[0].Definition.items[0].Definition.GuiRenderblock.Bounds720p -490 0 0 0
