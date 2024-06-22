@@ -137,5 +137,4 @@ SetField groupwidgets[2].Definition.textwidgets[2].Definition.CustomFont 4
 SaveTagChanges
 exitto tags
 Exit
-
 SaveModPackage
