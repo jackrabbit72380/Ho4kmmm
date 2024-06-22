@@ -1,14 +1,11 @@
 
-openmodpackage "ho4kmmm.pak"
+openmodpackage "H3ho4kmmm.pak"
 edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
 SetField GuiRenderBlock.Bounds720p -320 -582 320 570
 SetField GuiRenderBlock.Bounds480i -232 -330 240 330
 savetagchanges
 exit
-savemodpackage
-exitmodpackage
 
-openmodpackage "ho4kmmm.pak"
 edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
 SetField Groupwidgets[0].Definition.listwidgets[0].Definition.flags 32
 SetField Groupwidgets[0].Definition.listwidgets[0].Definition.GuiRenderblock.name switch_lobby
@@ -17,10 +14,7 @@ SetField Groupwidgets[0].Definition.listwidgets[0].Definition.GuiRenderblock.Bou
 SetField Groupwidgets[0].Definition.listwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
 savetagchanges
 exit
-savemodpackage
-exitmodpackage
 
-openmodpackage "ho4kmmm.pak"
 edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
 SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[0].flags 0
 SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[0].GuiRenderBlock.Name null
@@ -29,10 +23,7 @@ SetField Groupwidgets[0].Definition.listwidgets[0].Definition.GuiRenderblock.Bou
 SetField Groupwidgets[0].Definition.listwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
 savetagchanges
 exit
-savemodpackage
-exitmodpackage
 
-openmodpackage "ho4kmmm.pak"
 edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
 SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[1].flags 0
 SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[1].GuiRenderBlock.Name null
@@ -41,10 +32,7 @@ SetField Groupwidgets[0].Definition.listwidgets[0].Definition.GuiRenderblock.Bou
 SetField Groupwidgets[0].Definition.listwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
 savetagchanges
 exit
-savemodpackage
-exitmodpackage
 
-openmodpackage "ho4kmmm.pak"
 edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
 SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[2].flags 0
 SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[2].GuiRenderBlock.Name null
@@ -53,10 +41,7 @@ SetField Groupwidgets[0].Definition.listwidgets[0].Definition.items[2].GuiRender
 SetField Groupwidgets[0].Definition.listwidgets[0].Definition.items[2].GuiRenderblock.Bounds480i 0 0 0 0
 savetagchanges
 exit
-savemodpackage
-exitmodpackage
 
-openmodpackage "ho4kmmm.pak"
 edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
 SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[3].flags 0
 SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[3].GuiRenderBlock.Name null
@@ -65,10 +50,7 @@ SetField Groupwidgets[0].Definition.listwidgets[0].Definition.items[3].GuiRender
 SetField Groupwidgets[0].Definition.listwidgets[0].Definition.items[3].GuiRenderblock.Bounds480i 0 0 0 0
 savetagchanges
 exit
-savemodpackage
-exitmodpackage
 
-openmodpackage "ho4kmmm.pak"
 edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
 SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[4].flags 0
 SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[4].GuiRenderBlock.Name null
@@ -77,10 +59,7 @@ SetField Groupwidgets[0].Definition.listwidgets[0].Definition.items[4].GuiRender
 SetField Groupwidgets[0].Definition.listwidgets[0].Definition.items[4].GuiRenderblock.Bounds480i 0 0 0 0
 savetagchanges
 exit
-savemodpackage
-exitmodpackage
 
-openmodpackage "ho4kmmm.pak"
 edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
 setfield GroupWidgets[0].Definition.TextWidgets[0].Definition.GuiRenderBlock.Name title
 SetField groupwidgets[0].Definition.TextWidgets[0].Definition.GUIRenderBlock.RenderDepthBias 11
@@ -92,10 +71,7 @@ SetField groupwidgets[0].Definition.TextWidgets[0].Definition.TextColorPreset hi
 SetField groupwidgets[0].Definition.TextWidgets[0].Definition.CustomFont 4
 savetagchanges
 exit
-savemodpackage
-exitmodpackage
 
-openmodpackage "ho4kmmm.pak"
 edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
 SetField groupwidgets[0].Definition.TextWidgets[1].Definition.GuiRenderBlock.Name description
 SetField groupwidgets[0].Definition.TextWidgets[1].Definition.GUIRenderBlock.RenderDepthBias 11
@@ -107,10 +83,7 @@ SetField groupwidgets[0].Definition.TextWidgets[1].Definition.TextColorPreset hi
 SetField groupwidgets[0].Definition.TextWidgets[1].Definition.CustomFont 4
 savetagchanges
 exit
-savemodpackage
-exitmodpackage
 
-openmodpackage "ho4kmmm.pak"
 edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
 SetField groupwidgets[0].Definition.bitmapwidgets[0].Definition.flags 24
 SetField groupwidgets[0].Definition.bitmapwidgets[0].Definition.GuiRenderBlock.Name null
@@ -122,10 +95,7 @@ SetField groupwidgets[0].Definition.bitmapwidgets[0].Definition.Bitmap ui\halox\
 SetField groupwidgets[0].Definition.bitmapwidgets[0].Definition.BlendMethod AlphaBlend
 savetagchanges
 exit
-savemodpackage
-exitmodpackage
 
-openmodpackage "ho4kmmm.pak"
 edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
 SetField groupwidgets[0].Definition.bitmapwidgets[1].Definition.flags 8
 SetField groupwidgets[0].Definition.bitmapwidgets[1].Definition.GuiRenderBlock.Name null
@@ -137,10 +107,7 @@ SetField groupwidgets[0].Definition.bitmapwidgets[1].Definition.Bitmap ui\halox\
 SetField groupwidgets[0].Definition.bitmapwidgets[1].Definition.BlendMethod AlphaBlend
 savetagchanges
 exit
-savemodpackage
-exitmodpackage
 
-openmodpackage "ho4kmmm.pak"
 edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
 SetField groupwidgets[0].Definition.bitmapwidgets[2].Definition.flags 8
 SetField groupwidgets[0].Definition.bitmapwidgets[2].Definition.GuiRenderBlock.Name null
@@ -152,10 +119,7 @@ SetField groupwidgets[0].Definition.bitmapwidgets[2].Definition.Bitmap ui\halox\
 SetField groupwidgets[0].Definition.bitmapwidgets[2].Definition.BlendMethod AlphaBlend
 savetagchanges
 exit
-savemodpackage
-exitmodpackage
 
-openmodpackage "ho4kmmm.pak"
 edittag ui\halox\pregame_lobby\switch_lobby\pregame_switch_lobby.scn3
 SetField groupwidgets[0].Definition.bitmapwidgets[3].Definition.flags 9
 SetField groupwidgets[0].Definition.bitmapwidgets[3].Definition.GuiRenderBlock.Name dark_background
@@ -167,5 +131,5 @@ SetField groupwidgets[0].Definition.bitmapwidgets[3].Definition.Bitmap ui\halox\
 SetField groupwidgets[0].Definition.bitmapwidgets[3].Definition.BlendMethod AlphaBlend
 savetagchanges
 exit
-savemodpackage
-exitmodpackage
+
+SaveModPackage
