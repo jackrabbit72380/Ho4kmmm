@@ -7,7 +7,6 @@ SetField groupwidgets[0].Definition.listwidgets[0].Definition.GuiRenderblock.Bou
 SetField groupwidgets[0].Definition.listwidgets[0].Definition.GuiRenderblock.Bounds480i 45 442 0 0
 SaveTagChanges
 exitto tags
-Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
 SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[0].Flags 0
@@ -17,7 +16,6 @@ SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[0].GuiRender
 SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[0].GuiRenderblock.Bounds480i 0 0 0 0
 SaveTagChanges
 exitto tags
-Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
 SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[1].Flags 0
@@ -28,7 +26,6 @@ SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[1].GuiRender
 SaveTagChanges
 exitto tags
 SaveTagChanges
-Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
 SetField groupwidgets[0].Definition.items[2].Definition.Flags 0
@@ -38,7 +35,6 @@ SetField groupwidgets[0].Definition.items[2].Definition.GuiRenderblock.Bounds720
 SetField groupwidgets[0].Definition.items[2].Definition.GuiRenderblock.Bounds480i 0 0 0 0
 SaveTagChanges
 exitto tags
-Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
 SetField groupwidgets[0].Definition.items[3].Definition.Flags 0
@@ -48,7 +44,6 @@ SetField groupwidgets[0].Definition.items[3].Definition.GuiRenderblock.Bounds720
 SetField groupwidgets[0].Definition.items[3].Definition.GuiRenderblock.Bounds480i 0 0 0 0
 SaveTagChanges
 exitto tags
-Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
 SetField groupwidgets[0].Definition.items[4].Definition.Flags 0
@@ -58,7 +53,6 @@ SetField groupwidgets[0].Definition.items[3].Definition.GuiRenderblock.Bounds720
 SetField groupwidgets[0].Definition.items[3].Definition.GuiRenderblock.Bounds480i 0 0 0 0
 SaveTagChanges
 exitto tags
-Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
 SetField groupwidgets[1].Definition.Flags 0
@@ -68,7 +62,6 @@ SetField groupwidgets[1].Definition.GuiRenderblock.Bounds720p -544 1366 0 0
 SetField groupwidgets[1].Definition.GuiRenderblock.Bounds480i 45 442 0 0
 SaveTagChanges
 exitto tags
-Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
 SetField groupwidgets[2].Definition.Flags 0
@@ -78,7 +71,6 @@ SetField groupwidgets[2].Definition.GuiRenderblock.Bounds720p -40 -1265 0 -100
 SetField groupwidgets[2].Definition.GuiRenderblock.Bounds480i 0 0 0 0
 SaveTagChanges
 exitto tags
-Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
 SetField GroupWidgets[2].Definition.BitmapWidgets[0].Definition.Flags 9
@@ -91,7 +83,6 @@ SetField groupwidgets[2].Definition.Bitmapwidgets[0].Definition.Bitmap null
 SetField groupwidgets[2].Definition.Bitmapwidgets[0].Definition.BlendMethod AlphaBlend
 SaveTagChanges
 exitto tags
-Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
 SetField GroupWidgets[2].Definition.BitmapWidgets[1].Definition.Flags 9
@@ -104,10 +95,8 @@ SetField groupwidgets[2].Definition.Bitmapwidgets[1].Definition.Bitmap ui\halox\
 SetField groupwidgets[2].Definition.Bitmapwidgets[1].Definition.BlendMethod AlphaBlend
 SaveTagChanges
 exitto tags
-Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
-
 SetField groupwidgets[2].Definition.textwidgets[0].Definition.Flags 9
 SetField groupwidgets[2].Definition.textwidgets[0].Definition.GuiRenderBlock.Name difficulty
 SetField groupwidgets[2].Definition.textwidgets[0].Definition.GUIRenderBlock.RenderDepthBias 0
@@ -120,7 +109,6 @@ SetField groupwidgets[2].Definition.textwidgets[0].Definition.TextColorPreset ic
 SetField groupwidgets[2].Definition.textwidgets[0].Definition.CustomFont 4
 SaveTagChanges
 exitto tags
-Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
 SetField groupwidgets[2].Definition.textwidgets[1].Definition.Flags 9
@@ -135,7 +123,6 @@ SetField groupwidgets[2].Definition.textwidgets[1].Definition.TextColorPreset ic
 SetField groupwidgets[2].Definition.textwidgets[1].Definition.CustomFont 4
 SaveTagChanges
 exitto tags
-Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
 SetField groupwidgets[2].Definition.textwidgets[2].Definition.Flags 9
