@@ -1,3 +1,5 @@
+openmodpackage "H3Ho4kmmm.pak"
+
 edittag ui\halox\main_menu\halo3_logo_ui.bitmap
 importbitmap 0 "F:\Halo\Eldewrito\tags\bitmaps\mainmenu\bitmaps\logos\halo3_logo_ui_4k.dds
 savetagchanges
