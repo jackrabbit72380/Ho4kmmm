@@ -20,11 +20,13 @@ exitto tags
 Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
-SetField groupwidgets[0].Definition.items[1].Definition.Flags 0
-SetField groupwidgets[0].Definition.items[1].Definition.GuiRenderBlock.Name host_custom_game
-SetField groupwidgets[0].Definition.items[1].Definition.GUIRenderBlock.RenderDepthBias 0
-SetField groupwidgets[0].Definition.items[1].Definition.GuiRenderblock.Bounds720p -431 0 0 0
-SetField groupwidgets[0].Definition.items[1].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[1].Definition.Flags 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[1].Definition.GuiRenderBlock.Name host_custom_game
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[1].GUIRenderBlock.RenderDepthBias 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[1].GuiRenderblock.Bounds720p -431 0 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[1].GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
 SaveTagChanges
 exitto tags
 Exit
