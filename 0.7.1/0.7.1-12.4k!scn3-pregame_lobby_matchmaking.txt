@@ -1,4 +1,4 @@
-openmodpackage "Ho4kmmm.pak"
+openmodpackage "H3Ho4kmmm.pak"
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_matchmaking.scn3
 SetField groupwidgets[0].Definition.listwidgets[0].Definition.Flags 1
