@@ -1,3 +1,4 @@
+openmodpackage "H3ho4kmmm.pak"
 edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
 SetField groupwidgets[0].Definition.listwidgets[0].Definition.Flags 33
 SetField groupwidgets[0].Definition.listwidgets[0].Definition.GuiRenderBlock.Name lobby_list
@@ -165,3 +166,4 @@ SetField groupwidgets[2].Definition.bitmapwidgets[3].BlendMethod AlphaBlend
 SaveTagChanges
 exitto tags
 Exit
+SaveModPackage
