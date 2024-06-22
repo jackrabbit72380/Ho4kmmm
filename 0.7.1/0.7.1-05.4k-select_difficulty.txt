@@ -1,7 +1,6 @@
 openmodpackage "H3Ho4kmmm.pak"
 
 edittag ui\halox\campaign\campaign_select_difficulty.scn3
-
 SetField GroupWidgets[0].Definition.BitmapWidgets[0].Definition.Flags 9
 setfield GroupWidgets[0].Definition.BitmapWidgets[0].Definition.GuiRenderBlock.Name background
 SetField groupwidgets[0].Definition.BitmapWidgets[0].Definition.GUIRenderBlock.RenderDepthBias -9
@@ -14,7 +13,6 @@ SaveTagChanges
 exitto tags
 
 edittag ui\halox\campaign\campaign_select_difficulty.scn3
-
 SetField GroupWidgets[0].Definition.BitmapWidgets[1].Definition.Flags 9
 setfield GroupWidgets[0].Definition.BitmapWidgets[1].Definition.GuiRenderBlock.Name difficulty_image
 SetField groupwidgets[0].Definition.BitmapWidgets[1].Definition.GUIRenderBlock.RenderDepthBias 5
@@ -27,7 +25,6 @@ SaveTagChanges
 exitto tags
 
 edittag ui\halox\campaign\campaign_select_difficulty.scn3
-
 SetField GroupWidgets[0].Definition.BitmapWidgets[2].Definition.Flags 9
 setfield GroupWidgets[0].Definition.BitmapWidgets[2].Definition.GuiRenderBlock.Name background_blur
 SetField groupwidgets[0].Definition.BitmapWidgets[2].Definition.GUIRenderBlock.RenderDepthBias -11
@@ -40,7 +37,6 @@ SaveTagChanges
 exitto tags
 
 edittag ui\halox\campaign\campaign_select_difficulty.scn3
-
 SetField GroupWidgets[0].Definition.BitmapWidgets[3].Definition.Flags 9
 setfield GroupWidgets[0].Definition.BitmapWidgets[3].Definition.GuiRenderBlock.Name background_darkening
 SetField groupwidgets[0].Definition.BitmapWidgets[3].Definition.GUIRenderBlock.RenderDepthBias -10
@@ -52,4 +48,4 @@ SetField groupwidgets[0].Definition.Bitmapwidgets[3].Definition.BlendMethod Alph
 SaveTagChanges
 exitto tags
 Exit
-savemodpackage
+SaveModPackage
