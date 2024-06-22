@@ -1,3 +1,5 @@
+openmodpackage "H3Ho4kmmm.pak"
+
 echo ##################################################################################### edit a select b back bkey
 edittag ui\halox\campaign\button_key_a_select_b_back.bkey
 SetField GuiRenderBlock.Bounds720p 985 -656 0 0
@@ -154,3 +156,4 @@ SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[14].GuiRende
 SaveTagChanges
 exitto tags
 exit
+SaveModPackage
