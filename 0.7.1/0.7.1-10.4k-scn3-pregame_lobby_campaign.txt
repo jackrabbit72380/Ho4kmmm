@@ -28,7 +28,6 @@ SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[1].GuiRender
 SaveTagChanges
 exitto tags
 SaveTagChanges
-exitto tags
 Exit
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
