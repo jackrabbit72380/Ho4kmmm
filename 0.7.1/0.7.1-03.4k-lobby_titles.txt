@@ -1,6 +1,6 @@
 echo \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ hide old titles begin
 
-openmodpackage "Ho4kmmm.pak"
+openmodpackage "Ho34kmmm.pak"
 
 echo hide old lobby titles
 edittag ui\halox\pregame_lobby\pregame_lobby_template.grup
