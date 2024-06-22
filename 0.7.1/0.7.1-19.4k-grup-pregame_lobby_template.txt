@@ -5,8 +5,8 @@ SetField GuiRenderBlock.Bounds720p -320 -582 320 570
 SetField GuiRenderBlock.Bounds480i -232 -330 240 330
 SaveTagChanges
 exitto tags
-exit
-savemodpackageEditTag ui\halox\pregame_lobby\pregame_lobby_template.grup
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_template.grup
 SetField textwidgets[0].Definition.GuiRenderBlock.Name title
 SetField TextWidgets[0].Definition.GuiRenderBlock.Bounds720p -470 -1175 1259 -100
 SetField TextWidgets[0].Definition.GuiRenderBlock.Bounds480i 285 40 405 216
