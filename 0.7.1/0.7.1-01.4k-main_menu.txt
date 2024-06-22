@@ -1,5 +1,5 @@
-echo move the main menu.
-openmodpackage "H3Ho4kmmm.pak"
+echo /////////move the main menu.
+openmodpackage "H3ho4kmmm.pak"
 
 Edittag ui\halox\main_menu\main_menu.scn3
 SetField GroupWidgets[0].Definition.BitmapWidgets[0].Definition.Flags 9
@@ -28,7 +28,7 @@ SetField GroupWidgets[0].Definition.BitmapWidgets[0].Definition.GuiRenderBlock.B
 SaveTagChanges
 exitto tags
 
-echo move the list widget items.
+echo ////////move the list widget items.
 
 Edittag ui\halox\main_menu\main_menu.scn3
 SetField GroupWidgets[0].Definition.ListWidgets[0].Definition.Items[0].GuiRenderBlock.Bounds720p 230 -1276 0 0
@@ -40,12 +40,11 @@ SetField GroupWidgets[0].Definition.ListWidgets[0].Definition.Items[5].GuiRender
 SaveTagChanges
 exitto tags
 
-echo move the ([Home]>Settings) (Y)Frends button's
+echo /////////move the ([Home]>Settings) (Y)Frends button's
 
 edittag ui\halox\main_menu\main_menu_offline.bkey
 SetField TextWidgets[0].Definition.GuiRenderBlock.Bounds720p 1080 -669 1135 810
 SetField TextWidgets[0].Definition.GuiRenderBlock.Bounds480i 0 0 0 1
 SaveTagChanges
 exitto tags
-exitmodpackage
-savemodpackage
+SaveModPackage
