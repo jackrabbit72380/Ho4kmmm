@@ -1,4 +1,4 @@
-openmodpackage "Ho4kmmm.pak"
+openmodpackage "H3Ho4kmmm.pak"
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_multiplayer.scn3
 SetField groupwidgets[0].Definition.listwidgets[0].Definition.Flags 1
@@ -126,6 +126,7 @@ SetField groupwidgets[2].Definition.bitmapwidgets[1].Definition.Bitmap ui\halox\
 SetField groupwidgets[2].Definition.bitmapwidgets[1].BlendMethod AlphaBlend
 SaveTagChanges
 exitto tags
+SaveModPackage
 Exit
 
 savemodpackage
