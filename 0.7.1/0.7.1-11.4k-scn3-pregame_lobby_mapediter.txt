@@ -116,4 +116,4 @@ SetField groupwidgets[2].Definition.bitmapwidgets[1].Definition.BlendMethod Alph
 SaveTagChanges
 exitto tags
 Exit
-savemodpackage
+SaveModPackage
