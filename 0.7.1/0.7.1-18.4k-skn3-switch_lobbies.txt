@@ -1,3 +1,5 @@
+openmodpackage "H3ho4kmmm.pak"
+
 edittag ui\halox\pregame_lobby\switch_lobby\switch_lobbies.skn3
 SetField TextWidgets[0].Definition.GuiRenderBlock.Bounds720p -485 -660 52 300
 SetField TextWidgets[0].Definition.GuiRenderBlock.Bounds480i 0 0 0 0
@@ -14,3 +16,5 @@ SetField Bitmapwidgets[0].Definition.GuiRenderBlock.Bounds480i 0 0 0 0
 SaveTagChanges
 exitto tags
 exit
+
+SaveModPackage
