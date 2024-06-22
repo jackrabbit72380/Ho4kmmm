@@ -1,5 +1,5 @@
 Echo refrence campaign lobby 4k_bungielogo
-
+openmodpackage "H3Ho4kmmm.pak"
 createtag bitm
 nametag * ui\halox\main_menu\4k_bungielogo
 savetagnames
@@ -24,3 +24,4 @@ SetField groupwidgets[1].Definition.bitmapwidgets[1].Definition.BlendMethod Alph
 SaveTagChanges
 exitto tags
 Exit
+savemodpackage
