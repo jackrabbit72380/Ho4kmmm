@@ -128,5 +128,4 @@ SaveTagChanges
 exitto tags
 SaveModPackage
 Exit
-
-savemodpackage
+SaveModPackage
