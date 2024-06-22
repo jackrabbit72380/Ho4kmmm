@@ -31,7 +31,7 @@ EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
 SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[2].Flags 0
 SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[2].GuiRenderBlock.Name mission_info
 SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[2].GUIRenderBlock.RenderDepthBias 0
-SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[2].Definition.GuiRenderblock.Bounds720p -372 0 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[2].GuiRenderblock.Bounds720p -372 0 0 0
 SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[2].GuiRenderblock.Bounds480i 0 0 0 0
 SaveTagChanges
 exitto tags
