@@ -10,7 +10,7 @@ SetField groupwidgets[1].Definition.BitmapWidgets[0].Definition.GUIRenderBlock.R
 SetField groupwidgets[1].Definition.Bitmapwidgets[0].Definition.GuiRenderblock.Bounds720p 500 500 1200 2450
 SetField groupwidgets[1].Definition.Bitmapwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
 SetField groupwidgets[1].Definition.Bitmapwidgets[0].Definition.GuiRenderBlock.AnimationCollection ui\halox\main_menu\animations\500_fade.wacd
-SetField groupwidgets[1].Definition.Bitmapwidgets[0].Definition.Bitmap ui\halox\main_menu\halo3_logo_ui_4k.bitmap
+SetField groupwidgets[1].Definition.Bitmapwidgets[0].Definition.Bitmap ui\halox\main_menu\halo3_logo_ui.bitmap
 SetField groupwidgets[1].Definition.Bitmapwidgets[0].Definition.BlendMethod AlphaBlend
 SaveTagChanges
 exitto tags
