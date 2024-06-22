@@ -1,4 +1,4 @@
-openmodpackage "H3Ho4kmmm.pak"
+openmodpackage "H3ho4kmmm.pak"
 
 echo AddBlockElements
 edittag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
@@ -42,4 +42,4 @@ edittag ui\halox\pregame_lobby\pregame_lobby_multiplayer.scn3
 AddBlockElements GroupWidgets[2].Definition.BitmapWidgets 1
 savetagchanges
 exit
-savemodpackage
+SaveModPackage
