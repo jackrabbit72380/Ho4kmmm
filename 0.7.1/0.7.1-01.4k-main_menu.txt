@@ -1,5 +1,5 @@
 echo move the main menu.
-openmodpackage "Ho4kmmm.pak"
+openmodpackage "H3Ho4kmmm.pak"
 
 Edittag ui\halox\main_menu\main_menu.scn3
 SetField GroupWidgets[0].Definition.BitmapWidgets[0].Definition.Flags 9
@@ -48,3 +48,4 @@ SetField TextWidgets[0].Definition.GuiRenderBlock.Bounds480i 0 0 0 1
 SaveTagChanges
 exitto tags
 exitmodpackage
+savemodpackage
