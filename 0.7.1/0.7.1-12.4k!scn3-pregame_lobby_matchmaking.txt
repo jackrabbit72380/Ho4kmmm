@@ -124,5 +124,4 @@ SetField groupwidgets[2].Definition.bitmapwidgets[1].BlendMethod AlphaBlend
 SaveTagChanges
 exitto tags
 Exit
-
-savemodpackage
+SaveModPackage
