@@ -37,11 +37,11 @@ SaveTagChanges
 exitto tags
 
 EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
-SetField groupwidgets[0].Definition.items[3].Definition.Flags 0
-SetField groupwidgets[0].Definition.items[3].Definition.GuiRenderBlock.Name difficulty
-SetField groupwidgets[0].Definition.items[3].Definition.GUIRenderBlock.RenderDepthBias 0
-SetField groupwidgets[0].Definition.items[3].Definition.GuiRenderblock.Bounds720p -313 0 0 0
-SetField groupwidgets[0].Definition.items[3].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[3].Flags 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[3].GuiRenderBlock.Name difficulty
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[3].GUIRenderBlock.RenderDepthBias 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[3].GuiRenderblock.Bounds720p -313 0 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[3].GuiRenderblock.Bounds480i 0 0 0 0
 SaveTagChanges
 exitto tags
 
