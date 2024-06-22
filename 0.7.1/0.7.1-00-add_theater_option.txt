@@ -9,4 +9,4 @@ setfield Elements[8].StringidValues[0].Name name
 setfield Elements[8].StringidValues[0].Value theater
 savetagchanges
 exitto tags
-savemodpackage
+SaveModPackage
