@@ -1,4 +1,4 @@
-openmodpackage "ho4kmmm.pak"
+openmodpackage "H3ho4kmmm.pak"
 
 echo move a select & b back buttons
 edittag ui\halox\pregame_lobby\selection\button_key_a_select_b_cancel.bkey
