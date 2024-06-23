@@ -4,7 +4,6 @@ EditTag ui\halox\pregame_lobby\pregame_lobby_matchmaking.scn3
 SetField groupwidgets[0].Definition.listwidgets[0].Definition.Flags 1
 SetField groupwidgets[0].Definition.listwidgets[0].Definition.GuiRenderBlock.Name lobby_list
 SetField groupwidgets[0].Definition.listwidgets[0].Definition.GUIRenderBlock.RenderDepthBias 0
-SetField groupwidgets[0].Definition.listwidgets[0].Definition.GUIRenderBlock.RenderDepthBias 0
 SetField groupwidgets[0].Definition.listwidgets[0].Definition.GuiRenderblock.Bounds720p 85 -1186 0 -100
 SetField groupwidgets[0].Definition.listwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
 SaveTagChanges
