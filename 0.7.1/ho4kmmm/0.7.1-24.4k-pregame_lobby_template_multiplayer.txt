@@ -1,0 +1,3 @@
+edittag ui\halox\pregame_lobby\pregame_lobby_template_multiplayer.gui_group_widget_definition
+setfield TextWidgets[0].Definition.GuiRenderBlock.Bounds720p -470 -1175 1259 -100
+setfield TextWidgets[0].Definition.GuiRenderBlock.Bounds480i 285 40 450 216

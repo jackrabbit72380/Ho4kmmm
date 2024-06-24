@@ -1,0 +1,20 @@
+openmodpackage "H3ho4kmmm.pak"
+
+edittag ui\halox\pregame_lobby\switch_lobby\switch_lobbies.skn3
+SetField TextWidgets[0].Definition.GuiRenderBlock.Bounds720p -485 -660 52 300
+SetField TextWidgets[0].Definition.GuiRenderBlock.Bounds480i 0 0 0 0
+SetField TextWidgets[0].textwidgets[0].datasourcename null
+SetField textwidgets[5].textstring name
+SetField textwidgets[5].Definition.TextColorPreset hilight
+SetField textwidgets[0].Definition.CustomFont 4
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\switch_lobby\switch_lobbies.skn3
+SetField Bitmapwidgets[0].Definition.GuiRenderBlock.Bounds720p -504 -670 -424 120
+SetField Bitmapwidgets[0].Definition.GuiRenderBlock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+exit
+
+SaveModPackage
