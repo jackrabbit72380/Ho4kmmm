@@ -1,0 +1,110 @@
+FYI This tutorial is for porting The Halo3 xbox360 version campaign to Halo online 0.1.7
+
+createmodpackage 11 large 
+
+that will create 11 separate cashed in a PAK one for each campaign map
+you give each cashed a name
+then you port one map as usual
+
+if you want to save time you can just use numbers 0-11 but cashed names for halo 3 would be...
+010_jungle
+005_intro
+020_base
+030_outskirts
+040_voi
+050_floodvoi
+070_waste
+100_citadel
+110_hc
+120_halo
+130_epilogue
+
+Now you need to have your halo3 xbox game extracted to some folder in my case it's "F:\Halo\Projects\h3_extracted\maps\
+yours will be different.
+
+opencachefile "F:\Halo\Projects\h3_extracted\maps\010_jungle.map"
+porttag *.scnr
+exit
+switchtagcache 1
+
+opencachefile "F:\Halo\Projects\h3_extracted\maps\005_intro.map"
+porttag *.scnr
+exit
+switchtagcache 2
+
+opencachefile "F:\Halo\Projects\h3_extracted\maps\020_base.map"
+porttag *.scnr
+exit
+switchtagcache 3
+
+opencachefile "F:\Halo\Projects\h3_extracted\maps\030_outskirts.map"
+porttag *.scnr
+exit
+switchtagcache 4
+
+opencachefile "F:\Halo\Projects\h3_extracted\maps\040_voi.map"
+porttag *.scnr
+exit
+switchtagcache 5
+
+opencachefile "F:\Halo\Projects\h3_extracted\maps\050_floodvoi.map"
+porttag *.scnr
+exit
+switchtagcache 6
+
+opencachefile "F:\Halo\Projects\h3_extracted\maps\070_waste.map"
+porttag *.scnr
+exit
+switchtagcache 7
+
+opencachefile "F:\Halo\Projects\h3_extracted\maps\100_citadel.map"
+porttag *.scnr
+exit
+switchtagcache 8
+
+opencachefile "F:\Halo\Projects\h3_extracted\maps\110_hc.map"
+porttag *.scnr
+exit
+switchtagcache 9
+
+opencachefile "F:\Halo\Projects\h3_extracted\maps\120_halo.map"
+porttag *.scnr
+exit
+switchtagcache 10
+
+opencachefile "F:\Halo\Projects\h3_extracted\maps\130_epilogue.map"
+porttag *.scnr
+exit
+
+now update info files for each cashe file buy useing switchtagcache command followed buy the updatemapfiles command
+do switchtagchache 1,2,3 and so on
+the first cashed is index 0 you do up to 10 as you finish porting maps
+onece all the maps are ported into there own cashes you would do GenirateCampainFile pointing to the same folder as youd point UpdateMapFiles
+
+switchtagcache 0
+updatemapfiles "F:\Halo\Projects\h3_extracted\maps\info"
+switchtagcache 1
+updatemapfiles "F:\Halo\Projects\h3_extracted\maps\info"
+switchtagcache 2
+updatemapfiles "F:\Halo\Projects\h3_extracted\maps\info"
+switchtagcache 3
+updatemapfiles "F:\Halo\Projects\h3_extracted\maps\info"
+switchtagcache 4
+updatemapfiles "F:\Halo\Projects\h3_extracted\maps\info"
+switchtagcache 5
+updatemapfiles "F:\Halo\Projects\h3_extracted\maps\info"
+switchtagcache 6
+updatemapfiles "F:\Halo\Projects\h3_extracted\maps\info"
+switchtagcache 7
+updatemapfiles "F:\Halo\Projects\h3_extracted\maps\info"
+switchtagcache 8
+updatemapfiles "F:\Halo\Projects\h3_extracted\maps\info"
+switchtagcache 9
+updatemapfiles "F:\Halo\Projects\h3_extracted\maps\info"
+switchtagcache 10
+exit
+
+next use the GenirateCampainFile command
+GenirateCampainFile "F:\Halo\Projects\h3_extracted\maps\info"
+
+next savemodpackage
