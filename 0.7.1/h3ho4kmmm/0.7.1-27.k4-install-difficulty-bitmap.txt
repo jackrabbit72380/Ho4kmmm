@@ -1,0 +1,9 @@
+openmodpackage "h3ho4kmmm.pak"
+edittag ui\halox\campaign\difficulty_ui.bitmap
+importbitmap 0 F:\Halo\ElDewrito\tags\bitmaps\difficulty_ui.dds
+setfield Images[0].Width 1080
+setfield Images[0].Height 350
+savetagchanges
+exit
+savemodpackage
+exitmodpackage
