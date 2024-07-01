@@ -1,7 +1,0 @@
-openmodpackage "ho4kmmm.pak"
-edittag ui\halox\main_menu\halo3_logo_ui.bitmap
-importbitmap 0 "F:\Halo\Eldewrito\mods\halo3_logo_ui.dds"
-savetagchanges
-exit
-savemodpackage
-exitmodpackage
