@@ -1,4 +1,0 @@
-the only two SEFC tags that have a blue overlay in the cache are levels\ui\mainmenu\objects\server_browser_earth\server_browser_earth.area_screen_effect 
-and 
-levels\ui\mainmenu\sky\ui.area_screen_effect
-yet when both are changed to white there's no change in gameplay
