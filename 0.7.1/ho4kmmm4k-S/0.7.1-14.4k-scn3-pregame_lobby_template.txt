@@ -1,9 +1,0 @@
-openmodpackage "H3ho4kmmm.pak"
-
-edittag ui\halox\pregame_lobby\pregame_lobby_template.scn3
-SetField GuiRenderBlock.Bounds720p -320 -582 320 570
-SetField GuiRenderBlock.Bounds480i -232 -330 240 330
-SaveTagChanges
-exitto tags
-exit
-savemodpackage

@@ -1,4 +1,0 @@
-openmodpackage "ho4kmmm.pak
-addmodfiles assets"
-savemodpackage
-exitmodpackage
