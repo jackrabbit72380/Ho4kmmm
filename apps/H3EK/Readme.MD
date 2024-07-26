@@ -1,6 +1,6 @@
 ## (Troglodyte) A Halo 3 Editing Kit Mod That Enables Dark mode in H3EK Sapien.
-Version 1 - Troglodyte-8 would be default Font size 8,
-Version 2 - Troglodyte-11 would have 3x font size increase.
+# V1 - Troglodyte-8 would be default Font size 8,
+# V2 - Troglodyte-11 would have 3x font size increase.
 Choose your weapon!
 installation - Place Troglidyte-**.exe in C:\Program Files (x86)\Steam\steamapps\common\H3EK
 Screenshots
