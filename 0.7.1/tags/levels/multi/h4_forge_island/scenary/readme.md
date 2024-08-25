@@ -1,5 +1,5 @@
 H4 Forge Island as H3 Forge Object resizable with collision. did the rocks at the bottom separately to for using as cliffs.
-The normals and spculers are in there if you guys wana tweek the shaders.
+The normal maps and specular maps are in there if you guys want to tweak the shaders
 I'm sure you can make crate tags your self if need be.
 The Island Awaits!
 Screenshots
