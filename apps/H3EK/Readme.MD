@@ -26,4 +26,4 @@ installation - Place Koko-**.exe in C:\Program Files (x86)\Steam\steamapps\commo
 ![Screenshot](https://github.com/jackrabbit72380/ho4kmmm/blob/master/Troglodyte_Preview.jpg)
 
 # Koko Screenshots
-![Screenshot](https://github.com/jackrabbit72380/ho4kmmm/blob/master/koko11_Preview.jpg)
+![Screenshot](https://github.com/jackrabbit72380/ho4kmmm/blob/master/koko11_preview.jpg)
