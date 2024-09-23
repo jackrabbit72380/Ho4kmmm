@@ -10,5 +10,8 @@ Troglidite uses dark grey static in the background so you can have a dark mode w
 this mod also changes the font to convection ui xbox font,
 Be sure to enable HIGH DPI Scaling override \ system enhanced in your propertys tab for best results!
 
+Koko i have compiled 2 new versions of guerilla aka KOKO with only font upgrades the upgrades are 1. Koko-8. Koko-8 use convection ui from xbox so you can see more of your tag information on screen with crip clean clear type font with no real size change! this is huge improvement over the original guerilla. 2.Koko-11  Koko 11 is the same but with a 3x font increase for even better readability. bad news is koko does not contain dark mode to change your theme internaly like Troglidiyte but the good news is that its not even needed now sense we can now control themes through any windows 11 night mode theme. to get a daark mode you will need to use a night theme.
+if your looking for a night theme you can check out my windows 11 theme repository here.
+
 Screenshots
 ![Screenshot](https://github.com/jackrabbit72380/ho4kmmm/blob/master/Troglodyte_Preview.jpg)
