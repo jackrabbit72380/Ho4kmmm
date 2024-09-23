@@ -22,8 +22,8 @@ if your looking for a night theme you can check out my windows 11 theme reposito
 
 installation - Place Koko-**.exe in C:\Program Files (x86)\Steam\steamapps\common\H3EK
 
-# Troglodyte Screenshots
+# Troglodyte Preview
 ![Screenshot](https://github.com/jackrabbit72380/ho4kmmm/blob/master/Troglodyte_Preview.jpg)
 
-# Koko Screenshots
+# Koko Preview
 ![Screenshot](https://github.com/jackrabbit72380/ho4kmmm/blob/master/koko11_preview.jpg)
