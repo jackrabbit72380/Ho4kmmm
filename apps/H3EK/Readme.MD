@@ -1,5 +1,5 @@
 
-# Sapien Alternitive (Troglodyte)
+# (Troglodyte) 
 A Halo 3 Editing Kit Mod That Enables Dark mode in H3EK Sapien.
 V1 - Troglodyte-8 would be default Font size 8,
 V2 - Troglodyte-11 would have 3x font size increase.
@@ -11,7 +11,7 @@ Be sure to enable HIGH DPI Scaling override \ system enhanced in your propertys 
 
 installation - Place Troglidyte-**.exe in C:\Program Files (x86)\Steam\steamapps\common\H3EK
 
-# Guerilla Alternitive (Koko)
+# (Koko)
 A Halo 3 Editing Kit Mod That enables xbox font convection ui in H3EK Guerilla.
 V1 - Koko-8 would be default Font size 8,
 V2 - Koko-11 would have 3x font size increase.
