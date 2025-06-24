@@ -1,0 +1,13 @@
+Hi I made some new Skulls for halo online
+original concept artist was pixel flare.
+first time i saw them i wanted to try and get them in game ever since.
+it's taken a lot of work but finally got around to it...
+these sculls can be used in mods and maps and freely given out with exception . enjoy!
+to just give the original artist pixel flare and the developer my self jackrabbit72380 some credit 
+
+Installation:
+go to Eldewrito\ui\assets\skulls make a backup
+drop them in there over ride originals
+
+Jackrabbit72380
+
