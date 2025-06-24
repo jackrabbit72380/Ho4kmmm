@@ -1,0 +1,426 @@
+openmodpackage "ramp.pak"
+
+Echo ///add block elements start///
+
+echo AddBlockElements
+edittag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
+AddBlockElements GroupWidgets[2].Definition.BitmapWidgets 1
+savetagchanges
+exitto tags
+
+echo AddBlockElements
+edittag ui\halox\campaign\campaign_select_level.scn3
+AddBlockElements GroupWidgets[0].Definition.BitmapWidgets 1
+savetagchanges
+exitto tags
+
+echo AddBlockElements
+edittag ui\halox\campaign\campaign_select_difficulty.scn3
+AddBlockElements GroupWidgets[0].Definition.BitmapWidgets 1
+savetagchanges
+exitto tags
+
+echo AddBlockElements
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+AddBlockElements GroupWidgets[0].Definition.BitmapWidgets 1
+savetagchanges
+exitto tags
+
+echo AddBlockElements
+edittag ui\halox\dialog\dialog_four.scn3
+AddBlockElements GroupWidgets[0].Definition.BitmapWidgets 1
+savetagchanges
+exitto tags
+
+
+echo AddBlockElements
+edittag ui\halox\pregame_lobby\pregame_lobby_mapeditor.scn3
+AddBlockElements GroupWidgets[2].Definition.BitmapWidgets 1
+savetagchanges
+exitto tags
+
+echo AddBlockElements
+edittag ui\halox\pregame_lobby\pregame_lobby_multiplayer.scn3
+AddBlockElements GroupWidgets[2].Definition.BitmapWidgets 1
+savetagchanges
+exit
+
+echo AddBlockElements
+edittag ui\halox\pregame_lobby\pregame_lobby_survival.scn3
+AddBlockElements GroupWidgets[2].Definition.BitmapWidgets 1
+savetagchanges
+exitto tags
+
+echo AddBlockElements
+edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
+AddBlockElements GroupWidgets[2].Definition.BitmapWidgets 1
+savetagchanges
+exitto tags
+
+echo AddBlockElements
+edittag ui\halox\pregame_lobby\pregame_lobby_matchmaking.scn3
+AddBlockElements GroupWidgets[2].Definition.BitmapWidgets 1
+savetagchanges
+exit
+
+echo ///add block elements end///
+
+echo \\\hide old titles begin\\\
+
+edittag ui\halox\pregame_lobby\pregame_lobby_template.grup
+SetField textwidgets[0].Definition.TextColorPreset clear
+savetagchanges
+exit
+
+edittag ui\halox\pregame_lobby\pregame_lobby_template_campaign.grup
+SetField textwidgets[0].Definition.TextColorPreset clear
+savetagchanges
+exit
+
+edittag ui\halox\pregame_lobby\pregame_lobby_template_mapeditor.grup
+SetField textwidgets[0].Definition.TextColorPreset clear
+savetagchanges
+exit
+
+edittag ui\halox\pregame_lobby\pregame_lobby_template_multiplayer.grup
+SetField textwidgets[0].Definition.TextColorPreset clear
+savetagchanges
+exit
+
+echo hide org campain select mission title text
+edittag ui\halox\campaign\campaign_select_level.scn3
+setfield GroupWidgets[0].Definition.TextWidgets[0].Definition.TextColorPreset clear
+savetagchanges
+exit
+
+echo hide org campaign select difficulty title text
+edittag ui\halox\campaign\campaign_select_difficulty.scn3
+setfield GroupWidgets[0].Definition.TextWidgets[0].Definition.TextColorPreset clear
+savetagchanges
+exit
+
+echo hide org firefight select difficulty title text
+edittag ui\halox\pregame_lobby\selection\survival_select_difficulty.scn3
+setfield GroupWidgets[0].Definition.TextWidgets[0].Definition.TextColorPreset clear
+savetagchanges
+exit
+
+echo hide firefight select mission title text
+edittag ui\halox\pregame_lobby\selection\pregame_survival_level_selection.scn3
+setfield GroupWidgets[0].Definition.TextWidgets[0].Definition.TextColorPreset clear
+savetagchanges
+exit
+
+echo hide forge & custom games map select title text
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+setfield GroupWidgets[0].Definition.TextWidgets[0].Definition.TextColorPreset clear
+savetagchanges
+exit
+
+echo ///hide old titles end///
+
+Echo ///install 4k_lobby_titles begin///
+
+createtag bitm
+nametag * ui\halox\main_menu\4k_campaign_lobby
+savetagnames
+edittag ui\halox\main_menu\4k_campaign_lobby.bitmap
+importbitmap 0 F:\Halo\Eldewrito\tags\4k_bitmaps\mainmenu\bitmaps\4k_lobby_titles_reach\4k_campaign_lobby.dds
+savetagchanges
+exitto tags
+
+createtag bitm
+nametag * ui\halox\main_menu\4k_custom_games_lobby
+savetagnames
+edittag ui\halox\main_menu\4k_custom_games_lobby.bitmap
+importbitmap 0 F:\Halo\Eldewrito\tags\4k_bitmaps\mainmenu\bitmaps\4k_lobby_titles_reach\4k_custom_games.dds
+savetagchanges
+exitto tags
+
+createtag bitm
+nametag * ui\halox\main_menu\4k_forge_lobby
+savetagnames
+edittag ui\halox\main_menu\4k_forge_lobby.bitmap
+importbitmap 0 F:\Halo\Eldewrito\tags\4k_bitmaps\mainmenu\bitmaps\4k_lobby_titles_reach\4k_forge_lobby.dds
+savetagchanges
+exitto tags
+
+createtag bitm
+nametag * ui\halox\main_menu\4k_firefight_lobby
+savetagnames
+edittag ui\halox\main_menu\4k_firefight_lobby.bitmap
+importbitmap 0 F:\Halo\Eldewrito\tags\4k_bitmaps\mainmenu\bitmaps\4k_lobby_titles_reach\4k_firefight_lobby.dds
+savetagchanges
+exitto tags
+
+createtag bitm
+nametag * ui\halox\main_menu\4k_available_games
+savetagnames
+edittag ui\halox\main_menu\4k_available_games.bitmap
+importbitmap 0 F:\Halo\Eldewrito\tags\4k_bitmaps\mainmenu\bitmaps\4k_lobby_titles_reach\4k_available_games.dds
+savetagchanges
+exitto tags
+
+createtag bitm
+nametag * ui\halox\main_menu\4k_carnage_report
+savetagnames
+edittag ui\halox\main_menu\4k_carnage_report.bitmap
+importbitmap 0 F:\Halo\Eldewrito\tags\4k_bitmaps\mainmenu\bitmaps\4k_lobby_titles_reach\4k_carnage_report.dds
+savetagchanges
+exitto tags
+
+createtag bitm
+nametag * ui\halox\main_menu\4k_match_found
+savetagnames
+edittag ui\halox\main_menu\4k_match_found.bitmap
+importbitmap 0 F:\Halo\Eldewrito\tags\4k_bitmaps\mainmenu\bitmaps\4k_lobby_titles_reach\4k_match_found.dds
+savetagchanges
+exitto tags
+
+createtag bitm
+nametag * ui\halox\main_menu\4k_matchmaking_lobby
+savetagnames
+edittag ui\halox\main_menu\4k_matchmaking_lobby.bitmap
+importbitmap 0 F:\Halo\Eldewrito\tags\4k_bitmaps\mainmenu\bitmaps\4k_lobby_titles_reach\4k_matchmaking_lobby.dds
+savetagchanges
+exitto tags
+
+createtag bitm
+nametag * ui\halox\main_menu\4k_multiplayer_lobby
+savetagnames
+edittag ui\halox\main_menu\4k_multiplayer_lobby.bitmap
+importbitmap 0 F:\Halo\Eldewrito\tags\4k_bitmaps\mainmenu\bitmaps\4k_lobby_titles_reach\4k_multiplayer.dds
+savetagchanges
+exitto tags
+
+createtag bitm
+nametag * ui\halox\main_menu\4k_options
+savetagnames
+edittag ui\halox\main_menu\4k_options.bitmap
+importbitmap 0 F:\Halo\Eldewrito\tags\4k_bitmaps\mainmenu\bitmaps\4k_lobby_titles_reach\4k_options.dds
+savetagchanges
+exitto tags
+
+createtag bitm
+nametag * ui\halox\main_menu\4k_players_found
+savetagnames
+edittag ui\halox\main_menu\4k_players_found.bitmap
+importbitmap 0 F:\Halo\Eldewrito\tags\4k_bitmaps\mainmenu\bitmaps\4k_lobby_titles_reach\4k_players_found.dds
+savetagchanges
+exitto tags
+
+createtag bitm
+nametag * ui\halox\main_menu\4k_postgame_lobby
+savetagnames
+edittag ui\halox\main_menu\4k_postgame_lobby.bitmap
+importbitmap 0 F:\Halo\Eldewrito\tags\4k_bitmaps\mainmenu\bitmaps\4k_lobby_titles_reach\4k_postgame_lobby.dds
+savetagchanges
+exitto tags
+
+createtag bitm
+nametag * ui\halox\main_menu\4k_select_difficulty
+savetagnames
+edittag ui\halox\main_menu\4k_select_difficulty.bitmap
+importbitmap 0 F:\Halo\Eldewrito\tags\4k_bitmaps\mainmenu\bitmaps\4k_lobby_titles_reach\4k_select_difficulty.dds
+savetagchanges
+exitto tags
+
+createtag bitm
+nametag * ui\halox\main_menu\4k_select_gametype
+savetagnames
+edittag ui\halox\main_menu\4k_select_gametype.bitmap
+importbitmap 0 F:\Halo\Eldewrito\tags\4k_bitmaps\mainmenu\bitmaps\4k_lobby_titles_reach\4k_select_gametype.dds
+savetagchanges
+exitto tags
+
+createtag bitm
+nametag * ui\halox\main_menu\4k_select_map
+savetagnames
+edittag ui\halox\main_menu\4k_select_map.bitmap
+importbitmap 0 F:\Halo\Eldewrito\tags\4k_bitmaps\mainmenu\bitmaps\4k_lobby_titles_reach\4k_select_map.dds
+savetagchanges
+exitto tags
+
+createtag bitm
+nametag * ui\halox\main_menu\4k_select_mission
+savetagnames
+edittag ui\halox\main_menu\4k_select_mission.bitmap
+importbitmap 0 F:\Halo\Eldewrito\tags\4k_bitmaps\mainmenu\bitmaps\4k_lobby_titles_reach\4k_select_mission.dds	
+savetagchanges
+exitto tags
+
+createtag bitm
+nametag * ui\halox\main_menu\4k_are_you_sure
+savetagnames
+edittag ui\halox\main_menu\4k_are_you_sure.bitmap
+importbitmap 0 F:\Halo\Eldewrito\tags\4k_bitmaps\mainmenu\bitmaps\4k_lobby_titles_reach\4k_are_you_sure.dds
+savetagchanges
+exitto tags
+
+createtag bitm
+nametag * ui\halox\main_menu\4k_end_forge
+savetagnames
+edittag ui\halox\main_menu\4k_end_forge.bitmap
+importbitmap 0 F:\Halo\Eldewrito\tags\4k_bitmaps\mainmenu\bitmaps\4k_lobby_titles_reach\4k_end_forge.dds
+savetagchanges
+exitto tags
+
+createtag bitm
+nametag * ui\halox\main_menu\4k_end_game
+savetagnames
+edittag ui\halox\main_menu\4k_end_game.bitmap
+importbitmap 0 F:\Halo\Eldewrito\tags\4k_bitmaps\mainmenu\bitmaps\4k_lobby_titles_reach\4k_end_game.dds
+savetagchanges
+exitto tags
+
+createtag bitm
+nametag * ui\halox\main_menu\4k_select_film
+savetagnames
+edittag ui\halox\main_menu\4k_select_film.bitmap
+importbitmap 0 F:\Halo\Eldewrito\tags\4k_bitmaps\mainmenu\bitmaps\4k_lobby_titles_reach\4k_select_film.dds
+savetagchanges
+exitto tags
+
+createtag bitm
+nametag * ui\halox\main_menu\4k_theater
+savetagnames
+edittag ui\halox\main_menu\4k_theater.bitmap
+importbitmap 0 F:\Halo\Eldewrito\tags\4k_bitmaps\mainmenu\bitmaps\4k_lobby_titles_reach\4k_theater.dds
+savetagchanges
+exitto tags
+
+Echo ///install 4k_lobby_titles End///
+
+Echo ///reference 4k_lobby_titles bitmaps///
+
+Echo reference campaign lobby title bitmap
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
+SetField groupwidgets[2].Definition.bitmapwidgets[17].Definition.flags 9
+SetField groupwidgets[2].Definition.bitmapwidgets[17].Definition.GuiRenderBlock.Name title
+SetField groupwidgets[2].Definition.bitmapwidgets[17].Definition.GUIRenderBlock.RenderDepthBias -1
+SetField Groupwidgets[2].Definition.bitmapwidgets[17].Definition.GuiRenderblock.Bounds720p 205 115 407 714
+SetField Groupwidgets[2].Definition.bitmapwidgets[17].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField Groupwidgets[2].Definition.bitmapwidgets[17].Definition.GuiRenderBlock.AnimationCollection ui\halox\main_menu\animations\lobby_slide.wacd
+SetField groupwidgets[2].Definition.bitmapwidgets[17].Definition.Bitmap ui\halox\main_menu\4k_campaign_lobby.bitmap
+SetField groupwidgets[2].Definition.bitmapwidgets[17].Definition.BlendMethod AlphaBlend
+SaveTagChanges
+exitto tags
+
+Echo reference custom_games_lobby title bitmap
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_multiplayer.scn3
+SetField groupwidgets[2].Definition.bitmapwidgets[2].Definition.flags 9
+SetField groupwidgets[2].Definition.bitmapwidgets[2].Definition.GuiRenderBlock.Name title
+SetField groupwidgets[2].Definition.bitmapwidgets[2].Definition.GUIRenderBlock.RenderDepthBias -1
+SetField Groupwidgets[2].Definition.bitmapwidgets[2].Definition.GuiRenderblock.Bounds720p 205 115 407 714
+SetField Groupwidgets[2].Definition.bitmapwidgets[2].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[2].Definition.bitmapwidgets[2].Definition.GuiRenderBlock.AnimationCollection ui\halox\main_menu\animations\lobby_slide.wacd
+SetField groupwidgets[2].Definition.bitmapwidgets[2].Definition.Bitmap ui\halox\main_menu\4k_custom_games_lobby.bitmap
+SetField groupwidgets[2].Definition.bitmapwidgets[2].Definition.BlendMethod AlphaBlend
+SaveTagChanges
+exitto tags
+
+Echo reference forge_lobby title bitmap
+
+edittag ui\halox\pregame_lobby\pregame_lobby_mapeditor.scn3
+SetField groupwidgets[2].Definition.bitmapwidgets[2].Definition.flags 9
+SetField groupwidgets[2].Definition.bitmapwidgets[2].Definition.GuiRenderBlock.Name title
+SetField groupwidgets[2].Definition.bitmapwidgets[2].Definition.GUIRenderBlock.RenderDepthBias -1
+SetField Groupwidgets[2].Definition.bitmapwidgets[2].Definition.GuiRenderblock.Bounds720p 205 115 407 714
+SetField Groupwidgets[2].Definition.bitmapwidgets[2].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[2].Definition.bitmapwidgets[2].Definition.GuiRenderBlock.AnimationCollection ui\halox\main_menu\animations\lobby_slide.wacd
+SetField groupwidgets[2].Definition.bitmapwidgets[2].Definition.Bitmap ui\halox\main_menu\4k_forge_lobby.bitmap
+SetField groupwidgets[2].Definition.bitmapwidgets[2].Definition.BlendMethod AlphaBlend
+SaveTagChanges
+exitto tags
+
+Echo reference firefight lobby title bitmap
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_survival.scn3
+SetField groupwidgets[2].Definition.bitmapwidgets[17].Definition.flags 9
+SetField groupwidgets[2].Definition.bitmapwidgets[17].Definition.GuiRenderBlock.Name title
+SetField groupwidgets[2].Definition.bitmapwidgets[17].Definition.GUIRenderBlock.RenderDepthBias -1
+SetField Groupwidgets[2].Definition.bitmapwidgets[17].Definition.GuiRenderblock.Bounds720p 205 115 407 714
+SetField Groupwidgets[2].Definition.bitmapwidgets[17].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField Groupwidgets[2].Definition.bitmapwidgets[17].Definition.GuiRenderBlock.AnimationCollection ui\halox\main_menu\animations\lobby_slide.wacd
+SetField groupwidgets[2].Definition.bitmapwidgets[17].Definition.Bitmap ui\halox\main_menu\4k_firefight_lobby.bitmap
+SetField groupwidgets[2].Definition.bitmapwidgets[17].Definition.BlendMethod AlphaBlend
+SaveTagChanges
+exitto tags
+
+Echo reference campaign lobby select_difficulty 4k_select_difficulty bitmap
+
+EditTag ui\halox\campaign\campaign_select_difficulty.scn3
+SetField groupwidgets[0].Definition.bitmapwidgets[4].Definition.flags 9
+SetField groupwidgets[0].Definition.bitmapwidgets[4].Definition.GuiRenderBlock.Name title
+SetField groupwidgets[0].Definition.bitmapwidgets[4].Definition.GUIRenderBlock.RenderDepthBias -1
+SetField Groupwidgets[0].Definition.bitmapwidgets[4].Definition.GuiRenderblock.Bounds720p -700 -1100 -284 790
+SetField Groupwidgets[0].Definition.bitmapwidgets[4].Definition.GuiRenderblock.Bounds480i 254 55 405 518
+SetField groupwidgets[0].Definition.bitmapwidgets[4].Definition.GuiRenderBlock.AnimationCollection ui\halox\main_menu\animations\mainmenu_fade.wacd
+SetField groupwidgets[0].Definition.bitmapwidgets[4].Definition.Bitmap ui\halox\main_menu\4k_select_difficulty.bitmap
+SetField groupwidgets[0].Definition.bitmapwidgets[4].Definition.BlendMethod AlphaBlend
+SaveTagChanges
+exitto tags
+
+Echo reference pregame_selection select map lobby title bitmap
+
+EditTag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+SetField groupwidgets[0].Definition.bitmapwidgets[4].Definition.flags 9
+SetField groupwidgets[0].Definition.bitmapwidgets[4].Definition.GuiRenderBlock.Name title
+SetField groupwidgets[0].Definition.bitmapwidgets[4].Definition.GUIRenderBlock.RenderDepthBias -1
+SetField Groupwidgets[0].Definition.bitmapwidgets[4].Definition.GuiRenderblock.Bounds720p -700 -730 -284 790
+SetField Groupwidgets[0].Definition.bitmapwidgets[4].Definition.GuiRenderblock.Bounds480i 254 55 405 518
+SetField groupwidgets[0].Definition.bitmapwidgets[4].Definition.GuiRenderBlock.AnimationCollection ui\halox\main_menu\animations\lobby_slide.wacd
+SetField groupwidgets[0].Definition.bitmapwidgets[4].Definition.Bitmap ui\halox\main_menu\4k_select_map.bitmap
+SetField groupwidgets[0].Definition.bitmapwidgets[4].Definition.BlendMethod AlphaBlend
+SaveTagChanges
+exitto tags
+
+Echo reference theater lobby title bitmap
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
+SetField groupwidgets[2].Definition.bitmapwidgets[4].Definition.flags 9
+SetField groupwidgets[2].Definition.bitmapwidgets[4].Definition.GuiRenderBlock.Name title
+SetField groupwidgets[2].Definition.bitmapwidgets[4].Definition.GUIRenderBlock.RenderDepthBias -1
+SetField Groupwidgets[2].Definition.bitmapwidgets[4].Definition.GuiRenderblock.Bounds720p 205 115 407 714
+SetField Groupwidgets[2].Definition.bitmapwidgets[4].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField Groupwidgets[2].Definition.bitmapwidgets[4].Definition.GuiRenderBlock.AnimationCollection ui\halox\main_menu\animations\lobby_slide.wacd
+SetField groupwidgets[2].Definition.bitmapwidgets[4].Definition.Bitmap ui\halox\main_menu\4k_theater.bitmap
+SetField groupwidgets[2].Definition.bitmapwidgets[4].Definition.BlendMethod AlphaBlend
+setfield GroupWidgets[2].Definition.Flags DoNotApplyOldContentUpscaling
+SaveTagChanges
+exitto tags
+
+Echo reference matchmaking lobby title bitmap
+
+EditTag ui\halox\pregame_lobby\pregame_lobby_matchmaking.scn3
+SetField groupwidgets[2].Definition.bitmapwidgets[2].Definition.flags 9
+SetField groupwidgets[2].Definition.bitmapwidgets[2].Definition.GuiRenderBlock.Name title
+SetField groupwidgets[2].Definition.bitmapwidgets[2].Definition.GUIRenderBlock.RenderDepthBias -1
+SetField Groupwidgets[2].Definition.bitmapwidgets[2].Definition.GuiRenderblock.Bounds720p 205 115 407 714
+SetField Groupwidgets[2].Definition.bitmapwidgets[2].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField Groupwidgets[2].Definition.bitmapwidgets[2].Definition.GuiRenderBlock.AnimationCollection ui\halox\main_menu\animations\lobby_slide.wacd
+SetField groupwidgets[2].Definition.bitmapwidgets[2].Definition.Bitmap ui\halox\main_menu\4k_matchmaking_lobby.bitmap
+SetField groupwidgets[2].Definition.bitmapwidgets[2].Definition.BlendMethod AlphaBlend
+setfield GroupWidgets[2].Definition.Flags DoNotApplyOldContentUpscaling
+SaveTagChanges
+exitto tags
+
+echo 4k_campaign_lobby
+echo 4k_custom_games_lobby
+echo 4k_forge_lobby
+echo 4k_firefight_lobby
+echo 4k_matchmaking_lobby
+echo 4k_multiplayer_lobby
+echo 4k_available_games
+echo 4k_carnage_report
+echo 4k_match_found
+echo 4k_options
+echo 4k_players_found
+echo 4k_postgame_lobby
+echo 4k_selectt_film
+echo 4k_select_gametype
+echo 4k_theater
+
+SaveModPackage

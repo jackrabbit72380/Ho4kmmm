@@ -1,0 +1,24 @@
+edittag ui\halox\pregame_lobby\pregame_lobby_campaign.gui_screen_widget_definition
+copyblockelements GroupWidgets[2].Definition.BitmapWidgets 2 1
+copyblockelements GroupWidgets[2].Definition.BitmapWidgets 2 1
+pasteblockelements GroupWidgets[2].Definition.BitmapWidgets
+setfield GroupWidgets[2].Definition.BitmapWidgets[17].Definition.Flags DoNotApplyOldContentUpscaling,ScaleToFitBounds
+edittag ui\halox\main_menu\4k_campaign_lobby.bitmap
+savetagchanges
+setfield GroupWidgets[2].Definition.BitmapWidgets[2].Definition.Bitmap ui\halox\pregame_lobby\skull_gradient.bitmap
+savetagchanges
+setfield GroupWidgets[2].Definition.BitmapWidgets[17].Definition.GuiRenderBlock.Bounds720p 55 103 258 711
+savetagchanges
+setfield GroupWidgets[2].Definition.BitmapWidgets[17].Definition.GuiRenderBlock.Bounds480i 333 72 531 679
+savetagchanges
+savetagchanges
+savetagchanges
+savetagchanges
+edittag ui\halox\pregame_lobby\pregame_lobby_campaign.gui_screen_widget_definition
+setfield GroupWidgets[2].Definition.BitmapWidgets[2].Definition.GuiRenderBlock.Name skulls_background
+setfield GroupWidgets[2].Definition.BitmapWidgets[2].Definition.GuiRenderBlock.AnimationCollection ui\halox\main_menu\animations\lobby_slide.gui_widget_animation_collection_definition
+savetagchanges
+setfield GroupWidgets[2].Definition.BitmapWidgets[2].Definition.GuiRenderBlock.Bounds720p 612 103 658 711
+setfield GroupWidgets[2].Definition.BitmapWidgets[2].Definition.GuiRenderBlock.Bounds480i 0 0 0 0
+savetagchanges
+savetagchanges

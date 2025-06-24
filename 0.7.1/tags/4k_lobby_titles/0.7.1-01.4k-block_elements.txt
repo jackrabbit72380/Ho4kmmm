@@ -1,0 +1,64 @@
+openmodpackage "h3-campaign-4km.pak"
+
+echo AddBlockElements
+edittag ui\halox\pregame_lobby\pregame_lobby_campaign.scn3
+AddBlockElements GroupWidgets[2].Definition.BitmapWidgets 1
+savetagchanges
+exitto tags
+
+echo AddBlockElements
+edittag ui\halox\campaign\campaign_select_level.scn3
+AddBlockElements GroupWidgets[0].Definition.BitmapWidgets 1
+savetagchanges
+exitto tags
+
+echo AddBlockElements
+edittag ui\halox\campaign\campaign_select_difficulty.scn3
+AddBlockElements GroupWidgets[0].Definition.BitmapWidgets 1
+savetagchanges
+exitto tags
+
+echo AddBlockElements
+edittag ui\halox\pregame_lobby\selection\pregame_selection.scn3
+AddBlockElements GroupWidgets[0].Definition.BitmapWidgets 1
+savetagchanges
+exitto tags
+
+echo AddBlockElements
+edittag ui\halox\dialog\dialog_four.scn3
+AddBlockElements GroupWidgets[0].Definition.BitmapWidgets 1
+savetagchanges
+exitto tags
+
+
+echo AddBlockElements
+edittag ui\halox\pregame_lobby\pregame_lobby_mapeditor.scn3
+AddBlockElements GroupWidgets[2].Definition.BitmapWidgets 1
+savetagchanges
+exitto tags
+
+echo AddBlockElements
+edittag ui\halox\pregame_lobby\pregame_lobby_multiplayer.scn3
+AddBlockElements GroupWidgets[2].Definition.BitmapWidgets 1
+savetagchanges
+exit
+
+echo AddBlockElements
+edittag ui\halox\pregame_lobby\pregame_lobby_survival.scn3
+AddBlockElements GroupWidgets[2].Definition.BitmapWidgets 1
+savetagchanges
+exitto tags
+
+echo AddBlockElements
+edittag ui\halox\pregame_lobby\pregame_lobby_theater.scn3
+AddBlockElements GroupWidgets[2].Definition.BitmapWidgets 1
+savetagchanges
+exitto tags
+
+echo AddBlockElements
+edittag ui\halox\pregame_lobby\pregame_lobby_matchmaking.scn3
+AddBlockElements GroupWidgets[2].Definition.BitmapWidgets 1
+savetagchanges
+exit
+
+SaveModPackage
