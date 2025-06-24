@@ -1,0 +1,6 @@
+openmodpackage "h3-campaign-4km.pak"
+edittag ui\halox\pregame_lobby\difficulty_large_ui.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\halox\pregame_lobby\difficulty_large_hw2_ui.dds
+savetagchanges
+exitto tags
+savemodpackage
