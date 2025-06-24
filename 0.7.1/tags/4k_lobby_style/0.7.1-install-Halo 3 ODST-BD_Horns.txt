@@ -1,0 +1,14 @@
+
+openmodpackage "odst-firefight-4km.pak"
+
+edittag ui\halox\pregame_lobby\channel_campaign_ui.bitmap
+importbitmap 0 F:\Halo\Eldewrito\tags\4k_bitmaps\ui\halox\pregame_lobby\channel_campaign_ui_horns.dds
+savetagchanges
+exitto tags
+
+edittag ui\halox\pregame_lobby\channel_campaign_ui_custom.bitmap
+importbitmap 0 F:\Halo\Eldewrito\tags\4k_bitmaps\ui\halox\pregame_lobby\channel_campaign_ui_custom_horns.dds
+savetagchanges
+exitto tags
+
+savemodpackage
