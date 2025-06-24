@@ -1,0 +1,129 @@
+echo -logo
+
+edittag ui\cui\main_menu\halo3_logo_ui.bitmap
+importbitmap 0 "F:\Halo\Eldewrito\tags\4k_menu_skins\Halo Reach\halo3_logo_ui.dds"
+savetagchanges
+exitto tags
+
+echo -title
+
+edittag levels\ui\mainmenu\bitmaps\title_background.bitmap
+importbitmap 0 "F:\Halo\Eldewrito\tags\4k_menu_skins\Halo Reach\title_background.dds"
+savetagchanges
+exitto tags
+
+edittag levels\ui\mainmenu\bitmaps\title_back_01.bitmap
+importbitmap 0 "F:\Halo\Eldewrito\tags\4k_menu_skins\Halo Reach\title_back_01.dds"
+savetagchanges
+exitto tags
+
+edittag levels\ui\mainmenu\bitmaps\title_front.bitmap
+importbitmap 0 "F:\Halo\Eldewrito\tags\4k_menu_skins\Halo Reach\title_front.dds"
+savetagchanges
+exitto tags
+
+edittag levels\ui\mainmenu\bitmaps\title_midground.bitmap
+importbitmap 0 "F:\Halo\Eldewrito\tags\4k_menu_skins\Halo Reach\title_midground.dds"
+savetagchanges
+exitto tags
+
+echo -campaign
+
+edittag levels\ui\mainmenu\bitmaps\campaign_act1_front.bitmap
+importbitmap 0 "F:\Halo\Eldewrito\tags\4k_menu_skins\Halo Reach\campaign_act1_front.dds"
+savetagchanges
+exitto tags
+
+edittag levels\ui\mainmenu\bitmaps\campaign_act1_background.bitmap
+importbitmap 0 "F:\Halo\Eldewrito\tags\4k_menu_skins\Halo Reach\campaign_act1_background.dds"
+savetagchanges
+exitto tags
+
+edittag levels\ui\mainmenu\bitmaps\campaign_act1_midground.bitmap
+importbitmap 0 "F:\Halo\Eldewrito\tags\4k_menu_skins\Halo Reach\campaign_act1_midground.dds"
+savetagchanges
+exitto tags
+
+edittag levels\ui\mainmenu\bitmaps\campaign_act1_foreground.bitmap
+importbitmap 0 "F:\Halo\Eldewrito\tags\4k_menu_skins\Halo Reach\campaign_act1_foreground.dds"
+savetagchanges
+exitto tags
+
+echo -customgames
+
+edittag levels\ui\mainmenu\bitmaps\custom_front.bitmap
+importbitmap 0 "F:\Halo\Eldewrito\tags\4k_menu_skins\Halo Reach\custom_front.dds"
+savetagchanges
+exitto tags
+
+edittag levels\ui\mainmenu\bitmaps\custom_background.bitmap
+importbitmap 0 "F:\Halo\Eldewrito\tags\4k_menu_skins\Halo Reach\custom_background.dds"
+savetagchanges
+exitto tags
+
+echo -forge
+
+edittag levels\ui\mainmenu\bitmaps\forge_background.bitmap
+importbitmap 0 "F:\Halo\Eldewrito\tags\4k_menu_skins\Halo Reach\forge_background.dds"
+savetagchanges
+exitto tags
+
+edittag levels\ui\mainmenu\bitmaps\forge_midground.bitmap
+importbitmap 0 "F:\Halo\Eldewrito\tags\4k_menu_skins\Halo Reach\forge_midground.dds"
+savetagchanges
+exitto tags
+
+edittag levels\ui\mainmenu\bitmaps\forge_foreground.bitmap
+importbitmap 0 "F:\Halo\Eldewrito\tags\4k_menu_skins\Halo Reach\forge_foreground.dds"
+savetagchanges
+exitto tags
+
+echo -firefight
+
+edittag levels\ui\mainmenu\bitmaps\firefight_foreground.bitmap
+importbitmap 0 "F:\Halo\Eldewrito\tags\4k_menu_skins\Halo Reach\firefight_foreground.dds"
+savetagchanges
+exitto tags
+
+edittag levels\ui\mainmenu\bitmaps\firefight_midground.bitmap
+importbitmap 0 "F:\Halo\Eldewrito\tags\4k_menu_skins\Halo Reach\firefight_midground.dds"
+savetagchanges
+exitto tags
+
+edittag levels\ui\mainmenu\bitmaps\firefight_background.bitmap
+importbitmap 0 "F:\Halo\Eldewrito\tags\4k_menu_skins\Halo Reach\firefight_background.dds"
+savetagchanges
+exitto tags
+
+echo -serverbrowser
+
+edittag levels\ui\mainmenu\bitmaps\reach_planet.bitmap
+importbitmap 0 "F:\Halo\Eldewrito\tags\4k_menu_skins\Halo Reach\reach_planet.dds"
+savetagchanges
+exitto tags
+
+echo -campaign act 2
+
+edittag levels\ui\mainmenu\bitmaps\campaign_act2_midground.bitmap
+importbitmap 0 "F:\Halo\Eldewrito\tags\4k_menu_skins\Halo Reach\campaign_act2_midground.dds"
+savetagchanges
+exitto tags
+
+edittag levels\ui\mainmenu\bitmaps\campaign_act2_back_01.bitmap
+importbitmap 0 "F:\Halo\Eldewrito\tags\4k_menu_skins\Halo Reach\campaign_act2_back_01.dds"
+savetagchanges
+exitto tags
+
+edittag levels\ui\mainmenu\bitmaps\campaign_act2_back_02.bitmap
+importbitmap 0 "F:\Halo\Eldewrito\tags\4k_menu_skins\Halo Reach\campaign_act2_back_02.dds"
+savetagchanges
+exitto tags
+
+echo -campaign act 3
+
+edittag levels\ui\mainmenu\bitmaps\campaign_act3_midground.bitmap
+importbitmap 0 "F:\Halo\Eldewrito\tags\4k_menu_skins\Halo Reach\campaign_act3_midground.dds"
+savetagchanges
+exitto tags
+
+savemodpackage
