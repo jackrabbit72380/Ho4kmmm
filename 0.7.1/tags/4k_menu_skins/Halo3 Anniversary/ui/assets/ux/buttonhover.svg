@@ -1,0 +1,65 @@
+<svg id="button_hover" data-name="button hover" xmlns="http://www.w3.org/2000/svg"
+	viewBox="0 0 64 64" preserveAspectRatio="none">
+	<defs>
+		<linearGradient id="mask-gradient" y1="32" x2="64" y2="32" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#949494" />
+			<stop offset=".7" stop-color="#858585" />
+			<stop offset="1" stop-color="#5E5E5E" />
+		</linearGradient>
+		<mask id="mask" x="0" y="0" width="64" height="64" maskUnits="userSpaceOnUse">
+			<path class="cls-1" d="M0 0h64v64H0z" />
+		</mask>
+		<linearGradient id="button-gradient-light" y1="32" x2="64" y2="32"
+			gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#EDA468" />
+			<stop offset="0.7" stop-color="#EDA468" />
+			<stop offset="1" stop-color="#E5B48E" />
+		</linearGradient>
+		<linearGradient id="glow-gradient-light" x1="32" y1="64" x2="32"
+			gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#fff" stop-opacity="0.1" />
+			<stop offset=".15" stop-color="#fff" stop-opacity="0" />
+			<stop offset=".85" stop-color="#fff" stop-opacity="0" />
+			<stop offset="1" stop-color="#ff" stop-opacity="0.1" />
+		</linearGradient>
+	</defs>
+	<style>
+		.cls-1{
+			fill:url(#mask-gradient);
+		}
+		.button-container-mask{
+			mask:url(#mask);
+		}
+		.ButtonFill{
+			fill:url(#button-gradient-light);
+		}
+		.ButtonFill2 {
+			/*fill:rgba(0,0,0.1);*/
+		}
+		.ButtonGlow{
+			fill:url(#glow-gradient-light);
+		}
+		.button-container{
+			background:black;
+			-webkit-animation: button-pulse 2s cubic-bezier(0.385, 0, 0.68, 1) infinite;
+			-filter: grayscale(0.25) brightness(1.1);
+		}
+
+		@-webkit-keyframes button-pulse {
+			0% { opacity: 1; }
+			50% { opacity: 0.8; }
+			100% { opacity: 1; }
+		}
+	</style>
+	<g class="button-container">
+		<g>
+			<path class="ButtonFill2" d="M0 0h64v64H0z"/>
+		</g>
+		<g class="button-container-mask">
+			<path class="ButtonFill" d="M0 0h64v64H0z"/>
+		</g>
+		<g class="button-container-mask">
+			<path class="ButtonGlow" d="M0 0h64v64H0z"/>
+		</g>
+	</g>
+</svg>
