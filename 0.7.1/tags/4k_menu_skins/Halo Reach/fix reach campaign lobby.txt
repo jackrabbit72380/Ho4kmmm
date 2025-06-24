@@ -1,0 +1,35 @@
+openmodpackage "ramp"
+
+echo -fix reach campaign lobby
+
+edittag ui\halox\pregame_lobby\pregame_lobby_campaign.gui_screen_widget_definition
+setfield GroupWidgets[2].Definition.BitmapWidgets[0].Definition.GuiRenderBlock.Bounds720p 55 103 258 711
+setfield GroupWidgets[2].Definition.BitmapWidgets[0].Definition.GuiRenderBlock.Bounds480i 333 72 531 679
+setfield GroupWidgets[2].Definition.BitmapWidgets[1].Definition.GuiRenderBlock.Bounds720p 60 100 228 252
+setfield GroupWidgets[0].Definition.ListWidgets[0].Definition.GuiRenderBlock.Bounds720p 435 113 0 0
+setfield GroupWidgets[2].Definition.TextWidgets[2].Definition.GuiRenderBlock.Bounds720p 333 111 666 704
+setfield GroupWidgets[2].Definition.TextWidgets[0].Definition.GuiRenderBlock.Bounds720p 225 116 695 704
+setfield GroupWidgets[2].Definition.TextWidgets[0].Definition.Flags DoNotApplyOldContentUpscaling,LeftJustify,NoDropShadow
+setfield GroupWidgets[2].Definition.TextWidgets[4].Definition.GuiRenderBlock.Bounds720p 225 116 695 704
+setfield GroupWidgets[2].Definition.TextWidgets[4].Definition.Flags DoNotApplyOldContentUpscaling,NoDropShadow
+
+savetagchanges
+exit
+
+edittag ui\halox\pregame_lobby\pregame_lobby_template.gui_group_widget_definition
+setfield TextWidgets[0].Definition.GuiRenderBlock.Bounds720p 265 115 357 714
+savetagchanges
+exit
+edittag ui\halox\pregame_lobby\pregame_lobby_template_campaign.gui_group_widget_definition
+setfield TextWidgets[0].Definition.GuiRenderBlock.Bounds720p 265 115 357 714
+savetagchanges
+exit
+edittag ui\halox\pregame_lobby\pregame_lobby_template_multiplayer.gui_group_widget_definition
+setfield TextWidgets[0].Definition.GuiRenderBlock.Bounds720p 265 115 357 714
+savetagchanges
+exit
+edittag ui\halox\pregame_lobby\pregame_lobby_template_mapeditor.gui_group_widget_definition
+setfield TextWidgets[0].Definition.GuiRenderBlock.Bounds720p 265 115 357 714
+savetagchanges
+exit
+savemodpackage
