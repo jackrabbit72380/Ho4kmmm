@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "Conduit ITC";
+    src: url(dew://lib/Conduit-ITC.woff);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: "Conduit ITC", sans-serif;
+    -webkit-backface-visibility: hidden;
+    
+
+    --color-hilite: #e8edf7;
+    --color-ice: #aac0da;
+}
+
+svg {
+    /* hack to avoid artifacts around edges */
+    overflow: visible;
+}
+
+
+#emote-widget-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.emote-grid {
+    width: 570px;
+    height: 570px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+.emote-cell {
+    background-color: var(--background-color);
+    z-index: 0;
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid var(--border-color);
+}
+
+    .emote-cell.selected {
+        background-color: var(--highlight-color);
+        z-index: 1;
+    }
+
+.emote-wheel {
+    width: 270px;
+    height: 270px;
+    position: absolute;
+}
+
+.emote-wheel-border {
+    stroke: var(--border-color);
+    fill: transparent;
+    stroke-width: 2px;
+}
+
+
+.emote-item {
+    fill: var(--background-color);
+    stroke: var(--border-color);
+    stroke-width: 2px;
+    overflow: visible;
+}
+
+    .emote-item.selected {
+        fill: var(--highlight-color);
+    }
+
+
+.emote-icon {
+    pointer-events: none;
+}
+
+.emote-name {
+    color: var(--text-color);
+}
+
+.scale-up {
+	transform: scale(0);
+	transform-box: fill-box;
+	transform-origin: center;
+	animation: grow .3s ease 0s forwards;
+}
+    
+@keyframes grow {
+	to {
+		transform: scale(1);
+	}
+}
