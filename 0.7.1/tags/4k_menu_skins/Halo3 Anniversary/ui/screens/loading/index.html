@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Loading</title>
+        <link rel="stylesheet" type="text/css" href="loading.css"/>
+        <script type="text/javascript" src="dew://lib/dew.js"></script>
+        <script type="text/javascript" src="dew://lib/jquery-2.2.1.min.js"></script>
+		<script src="dew://lib/pak-aware-context.js"></script>
+        <script type="text/javascript" src="loading.js"></script>
+        <link href="dew://lib/window-resize.css" rel="stylesheet" />
+    </head>
+    <body>
+		<div id="container">
+			<div class="page_content">
+				<div class="container">
+					<!-- Generic Loading Screen -->
+					<div class="genericLoader">
+						<img class="background" data-pak="mainmenu" data-url="assets/haloonline/loading_bg" data-fallback="dew://assets/haloonline/loading_bg.jpg">
+						<img class="eldorito" data-pak="mainmenu" data-url="assets/ed/EldoritoLogoFinalSmall" data-fallback="dew://assets/ed//EldoritoLogoFinalSmall.png">
+						<img class="eldorito loading" data-pak="mainmenu" data-url="assets/ed/EldoritoLogoFinalBlueSmall" data-fallback="dew://assets/ed//EldoritoLogoFinalBlueSmall.png">
+					</div>
+					<!-- Map Loading Screen -->
+					<div id="blackLayer"></div>
+					<div class="mapLoader">
+						<div class="header">
+							<img id="mapImage" data-pak="game" data-url="" data-fallback="dew://assets/maps/large/unknown.jpg">
+							<img id="logo" data-pak="game" data-url="assets/ed/logo" data-fallback="dew://assets/ed/logo.png">
+							<div class="serverName"></div>
+							<img id="gametypeicon">
+							<div id="gametype"></div>
+							<div class="gamerounds">Rounds: <span id="gamerounds"></span></div>
+							<div class="gamescore">Score to Win: <span id="gamescore"></span></div>
+							<div class="timelimit">Time Limit: <span id="timelimit"></span></div>
+							<div id="skulls"></div>
+						</div>
+						<div class="loadingContainer">
+							<div class="serverMessage"></div>
+							<progress id="progressbar" value="0" max="100"></progress>
+						</div>
+						<div class="footer">
+							<img id="difficulty">
+							<div id="map">
+								<div id="title"></div>
+								<div id="point"></div>
+								<div id="author">Map Author: <span id="mapauthor"></span></div>
+								<div class="modname">Mod Name: <span id="modname"></span></div>
+								<div class="modauthor">Mod Author: <span id="modauthor"></span></div>
+							</div>
+							<div id="desc"></div>
+							<div id="pointdesc"></div>
+						</div>
+					</div>
+				</div>
+            </div>
+        </div>
+        <script src="dew://lib/window-resize.js"></script>
+    </body>
+</html>
