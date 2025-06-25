@@ -1,0 +1,49 @@
+
+body {
+    margin:0;
+    overflow:hidden;
+    background: #111
+}
+
+canvas {
+    width: 100vw; 
+    height: 56.25vw;     /* height/width = 9/16 = .5625 */
+    max-height: 100vh;
+    max-width: 177.78vh; /* width/height = 16/9 = 1.778 */
+    margin: auto;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    opacity:0;
+}
+
+.ultrawide {
+    width: 100vw; 
+    height: 42.857vw;     /* height/width = 9/21 = .42857 */
+    max-height: 100vh;
+    max-width: 233.34vh;  /* width/height = 21/9 = 2.3334 */
+}
+
+.megawide {
+    width: 100vw; 
+    height: 28.125vw;     /* height/width = 9/32 = .28125 */
+    max-height: 100vh;
+    max-width: 355.55vh;  /* width/height = 32/9 = 3.55555 */
+}
+
+#loading {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #7fb8d3; 
+    font-family: Sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+#halo_3_logo {
+    width: 200px;
+}
