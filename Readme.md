@@ -33,6 +33,15 @@ Converted 00 01 01 & 19 from 0.6.1 to 0.7.1 More Testing and Patching will be ne
 
 Stardate Log 6-25-25
 
-0.1.7 was halted due to complication at the end of development TBH i only needed a little bit more code to finnish it but i got stuck. and have yet to find a fix. i will still try to finnish it one day. But because the advancments have been made for some time and left unfinnished I have desided that for now i have to relese much of the mods & poring scripts for the project for use with making .pak files. for ther users mods. How to use this you might ask? Download the Tags folder to your ElDewrito Directory. Find a mod you want to apply to your .pak file. Open the script and change the name of the .pak file to your's. make sure the directory for your .dds files is correctly refrencing the .dds image that it's for. then run the scipt. and it will install the mod to your .pak file.
+0.1.7 was halted due to complication at the end of development TBH i only needed a little bit more code to finnish it but i got stuck. and have yet to find a fix. i will still try to finnish it one day. But because the advancments have been made for some time & left unfinnished I have desided that for now i have to relese much of the mods & poring scripts for the project for use with making .pak files. for other users mods.
+
+How to use this you might ask?
+Download the Tags folder to your ElDewrito Directory. Find a mod you want to apply to your .pak file. Open the script and change the name of the .pak file to your's. make sure the directory for your .dds files is correctly refrencing the .dds image that it's for. Then run the scipt. and it will install the mod to your .pak file. Please note that the porting scripts work diffrently they make new .pak files. and requre maps.
+
+also Please note that the 4k_mmm ...main menu mod is still being worked on and improved apon. 
+More mod scripts and bitmaps can be added. This tags directory is being built with my own personal mod projects folder. Once downloded you can start to make your own versions as needed and just use or make new scripts as needed. buy refrenceing mine.
+
+it is verry easy to replace the bitmaps with your own and rerun the mod scripts for adding a truly custom user interface for your own mods.
+Enjoy!
 
 __________________________________________________________________________________________________________________________
