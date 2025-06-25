@@ -1,0 +1,87 @@
+openmodpackage "H3Ho4kmmm.pak"
+
+echo \\\\ org halo online logo size
+edittag ui\halox\main_menu\halo3_logo_ui.bitmap
+setfield Images[0].Width 512
+setfield Images[0].Height 156
+savetagchanges
+exit
+savemodpackage
+exitmodpackage
+
+openmodpackage "H3Ho4kmmm.pak"
+
+echo \\\\ org halo online 0.7.1 logo size
+edittag ui\halox\main_menu\halo3_logo_ui.bitmap
+setfield Images[0].Width 1792
+setfield Images[0].Height 448
+savetagchanges
+exit
+savemodpackage
+exitmodpackage
+
+openmodpackage "H3Ho4kmmm.pak"
+
+echo \\\\MY 4k size halo online logo size 
+edittag ui\halox\main_menu\halo3_logo_ui.bitmap
+setfield Images[0].Width 2816
+setfield Images[0].Height 880
+savetagchanges
+exit
+savemodpackage
+exitmodpackage
+----------------------------------------------------------------------------------------------------------------------------------------------
+echo \\\\ org halo online logo size
+EditTag ui\halox\main_menu\main_menu.scn3
+SetField GroupWidgets[1].Definition.BitmapWidgets[0].Definition.Flags 9
+setfield GroupWidgets[1].Definition.BitmapWidgets[0].Definition.GuiRenderBlock.Name title
+SetField groupwidgets[1].Definition.BitmapWidgets[0].Definition.GUIRenderBlock.RenderDepthBias 0
+SetField groupwidgets[1].Definition.Bitmapwidgets[0].Definition.GuiRenderblock.Bounds720p 395 595 0 0
+SetField groupwidgets[1].Definition.Bitmapwidgets[0].Definition.GuiRenderblock.Bounds480i 311 256 0 0
+SetField groupwidgets[1].Definition.Bitmapwidgets[0].Definition.GuiRenderBlock.AnimationCollection ui\halox\main_menu\animations\500_fade.wacd
+SetField groupwidgets[1].Definition.Bitmapwidgets[0].Definition.Bitmap ui\halox\main_menu\halo3_logo_ui.bitmap
+SetField groupwidgets[1].Definition.Bitmapwidgets[0].Definition.BlendMethod AlphaBlend
+SaveTagChanges
+Exit
+SaveModPackage
+echo \\\\ org bungie logo size
+EditTag ui\halox\main_menu\main_menu.scn3
+SetField GroupWidgets[1].Definition.BitmapWidgets[1].Definition.Flags 9
+setfield GroupWidgets[1].Definition.BitmapWidgets[1].Definition.GuiRenderBlock.Name bungie
+SetField groupwidgets[1].Definition.BitmapWidgets[1].Definition.GUIRenderBlock.RenderDepthBias 0
+SetField groupwidgets[1].Definition.Bitmapwidgets[1].Definition.GuiRenderblock.Bounds720p 700 946 0 0
+SetField groupwidgets[1].Definition.Bitmapwidgets[1].Definition.GuiRenderblock.Bounds480i 420 510 0 0
+SetField groupwidgets[1].Definition.Bitmapwidgets[1].Definition.GuiRenderBlock.AnimationCollection ui\halox\main_menu\animations\500_fade.wacd
+SetField groupwidgets[1].Definition.Bitmapwidgets[1].Definition.Bitmap ui\halox\main_menu\bungielogo.bitmap
+SetField groupwidgets[1].Definition.Bitmapwidgets[1].Definition.BlendMethod AlphaBlend
+SaveTagChanges
+Exit
+SaveModPackage
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+echo \\\\ org halo online 0.7.1 logo size
+EditTag ui\halox\main_menu\main_menu.scn3
+SetField GroupWidgets[1].Definition.BitmapWidgets[0].Definition.Flags 9
+setfield GroupWidgets[1].Definition.BitmapWidgets[0].Definition.GuiRenderBlock.Name title
+SetField groupwidgets[1].Definition.BitmapWidgets[0].Definition.GUIRenderBlock.RenderDepthBias 0
+SetField groupwidgets[1].Definition.Bitmapwidgets[0].Definition.GuiRenderblock.Bounds720p 518 780 685 1450
+SetField groupwidgets[1].Definition.Bitmapwidgets[0].Definition.GuiRenderblock.Bounds480i 408 297 516 810
+SetField groupwidgets[1].Definition.Bitmapwidgets[0].Definition.GuiRenderBlock.AnimationCollection ui\halox\main_menu\animations\500_fade.wacd
+SetField groupwidgets[1].Definition.Bitmapwidgets[0].Definition.Bitmap ui\halox\main_menu\halo3_logo_ui.bitmap
+SetField groupwidgets[1].Definition.Bitmapwidgets[0].Definition.BlendMethod AlphaBlend
+SaveTagChanges
+Exit
+SaveModPackage
+echo \\\\ org 0.7.1 bungie logo size
+EditTag ui\halox\main_menu\main_menu.scn3
+SetField GroupWidgets[1].Definition.BitmapWidgets[1].Definition.Flags 9
+setfield GroupWidgets[1].Definition.BitmapWidgets[1].Definition.GuiRenderBlock.Name bungie
+SetField groupwidgets[1].Definition.BitmapWidgets[1].Definition.GUIRenderBlock.RenderDepthBias 0
+SetField groupwidgets[1].Definition.Bitmapwidgets[1].Definition.GuiRenderblock.Bounds720p 740 1220 780 1445
+SetField groupwidgets[1].Definition.Bitmapwidgets[1].Definition.GuiRenderblock.Bounds480i 551 629 583 810
+SetField groupwidgets[1].Definition.Bitmapwidgets[1].Definition.GuiRenderBlock.AnimationCollection ui\halox\main_menu\animations\500_fade.wacd
+SetField groupwidgets[1].Definition.Bitmapwidgets[1].Definition.Bitmap ui\halox\main_menu\bungielogo.bitmap
+SetField groupwidgets[1].Definition.Bitmapwidgets[1].Definition.BlendMethod AlphaBlend
+SaveTagChanges
+Exit
+SaveModPackage

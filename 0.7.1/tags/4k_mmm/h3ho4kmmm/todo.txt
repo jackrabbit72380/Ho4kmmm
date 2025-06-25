@@ -1,0 +1,13 @@
+these fies for the mod never got made. so they would need fixed and scripted
+
+catagory.skn3
+subitem.skn3
+dialog.scn3
+
+fix pregame lobby github fonts
+options screen
+
+These probably won't get made or scripted since this version of the project is obsolete now
+and not compatible for the new version of eldeweto 071.
+However, I'm just leaving this code here for archival and research purposes. so that the mod could be converted or ported
+just check the new 0.7.1 folder for the latest compatable version.

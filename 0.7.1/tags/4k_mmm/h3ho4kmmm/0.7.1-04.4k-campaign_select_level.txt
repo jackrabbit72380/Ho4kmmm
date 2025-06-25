@@ -1,0 +1,159 @@
+openmodpackage "H3Ho4kmmm.pak"
+
+echo ##################################################################################### edit a select b back bkey
+edittag ui\halox\campaign\button_key_a_select_b_back.bkey
+SetField GuiRenderBlock.Bounds720p 985 -656 0 0
+savetagchanges
+exitto tags
+
+echo ################################################################################### edit skn3 campaign_select_level skin & font
+
+edittag ui\halox\campaign\campaign_select_level.skn3
+SetField textwidgets[0].Definition.GuiRenderblock.Bounds720p 0 0 32 245
+SetField textwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField TextWidgets[0].Definition.CustomFont 4
+savetagchanges
+exitto tags
+
+echo edit yes no skin orange selection bar bitmap
+edittag ui\halox\campaign\campaign_select_level.skn3
+SetField bitmapwidgets[0].Definition.GuiRenderblock.Bounds720p -10 0 50 392
+SetField bitmapwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+savetagchanges
+exitto tags
+
+echo edit white_residual_hilite bitmap
+edittag ui\halox\campaign\campaign_select_level.skn3
+SetField bitmapwidgets[1].Definition.GuiRenderblock.Bounds720p -10 0 50 392
+SetField bitmapwidgets[1].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+savetagchanges
+exitto tags
+
+echo #################################################################################### start scn3
+
+edittag ui\halox\campaign\campaign_select_level.scn3
+SetField GuiRenderblock.Bounds720p -234 -576 234 576
+SetField GuiRenderblock.Bounds480i 0 0 0 0
+SaveTagChanges
+exitto tags
+
+Echo ##################################################################################### refrence campaign select mission bitmap
+
+edittag ui\halox\campaign\campaign_select_level.scn3
+SetField GroupWidgets[0].Definition.BitmapWidgets[7].Definition.Flags 9
+setfield GroupWidgets[0].Definition.BitmapWidgets[7].Definition.GuiRenderBlock.Name title
+SetField groupwidgets[0].Definition.BitmapWidgets[7].Definition.GUIRenderBlock.RenderDepthBias -1
+SetField groupwidgets[0].Definition.Bitmapwidgets[7].Definition.GuiRenderblock.Bounds720p -780 -730 -284 790
+SetField groupwidgets[0].Definition.Bitmapwidgets[7].Definition.GuiRenderblock.Bounds480i 254 55 405 518
+SetField groupwidgets[0].Definition.Bitmapwidgets[7].Definition.GuiRenderBlock.AnimationCollection ui\halox\main_menu\animations\mainmenu_fade.gui_widget_animation_collection_definition
+SetField groupwidgets[0].Definition.Bitmapwidgets[7].Definition.Bitmap ui\halox\main_menu\4k_select_mission.bitmap
+SetField groupwidgets[0].Definition.Bitmapwidgets[7].Definition.BlendMethod AlphaBlend
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\campaign\campaign_select_level.scn3
+SetField GroupWidgets[0].Definition.BitmapWidgets[6].Definition.Flags 9
+SetField groupwidgets[0].Definition.BitmapWidgets[6].Definition.GuiRenderBlock.Name solo_slots
+SetField groupwidgets[0].Definition.Bitmapwidgets[6].Definition.GUIRenderBlock.RenderDepthBias -12
+SetField groupwidgets[0].Definition.Bitmapwidgets[6].Definition.GuiRenderblock.Bounds720p -400 970 -200 -660
+SetField groupwidgets[0].Definition.Bitmapwidgets[6].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[0].Definition.Bitmapwidgets[6].Definition.GuiRenderBlock.AnimationCollection ui\halox\main_menu\animations\mainmenu_fade.gui_widget_animation_collection_definition
+SetField groupwidgets[0].Definition.Bitmapwidgets[6].Definition.Bitmap ui\halox\campaign\difficulty_slots_ui.bitmap
+SetField groupwidgets[0].Definition.Bitmapwidgets[6].Definition.BlendMethod AlphaBlend
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\campaign\campaign_select_level.scn3
+SetField GroupWidgets[0].Definition.BitmapWidgets[5].Definition.Flags 9
+SetField groupwidgets[0].Definition.BitmapWidgets[5].Definition.GuiRenderBlock.Name level_image_background
+SetField groupwidgets[0].Definition.Bitmapwidgets[5].Definition.GUIRenderBlock.RenderDepthBias -15
+SetField groupwidgets[0].Definition.Bitmapwidgets[5].Definition.GuiRenderblock.Bounds720p -390 720 -760 -2380
+SetField groupwidgets[0].Definition.Bitmapwidgets[5].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[0].Definition.Bitmapwidgets[5].Definition.GuiRenderBlock.AnimationCollection ui\halox\main_menu\animations\mainmenu_fade.gui_widget_animation_collection_definition
+SetField groupwidgets[0].Definition.Bitmapwidgets[5].Definition.Bitmap ui\halox\common\common_bitmaps\third_column.bitmap
+SetField groupwidgets[0].Definition.Bitmapwidgets[5].Definition.BlendMethod AlphaBlend
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\campaign\campaign_select_level.scn3
+SetField GroupWidgets[0].Definition.BitmapWidgets[4].Definition.Flags 9
+SetField groupwidgets[0].Definition.BitmapWidgets[4].Definition.GuiRenderBlock.Name background_darkening
+SetField groupwidgets[0].Definition.BitmapWidgets[4].Definition.GUIRenderBlock.RenderDepthBias -20
+SetField groupwidgets[0].Definition.Bitmapwidgets[4].Definition.GuiRenderblock.Bounds720p -610 -1475 1080 -2620
+SetField groupwidgets[0].Definition.Bitmapwidgets[4].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[0].Definition.Bitmapwidgets[4].Definition.GuiRenderBlock.AnimationCollection ui\halox\main_menu\animations\mainmenu_fade.gui_widget_animation_collection_definition
+SetField groupwidgets[0].Definition.Bitmapwidgets[4].Definition.Bitmap null
+SetField groupwidgets[0].Definition.Bitmapwidgets[4].Definition.BlendMethod AlphaBlend
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\campaign\campaign_select_level.scn3
+SetField GroupWidgets[0].Definition.BitmapWidgets[3].Definition.Flags 9
+SetField groupwidgets[0].Definition.BitmapWidgets[3].Definition.GuiRenderBlock.Name background_blur
+SetField groupwidgets[0].Definition.BitmapWidgets[3].Definition.GUIRenderBlock.RenderDepthBias -21
+SetField groupwidgets[0].Definition.Bitmapwidgets[3].Definition.GuiRenderblock.Bounds720p -610 -1475 1080 -2620
+SetField groupwidgets[0].Definition.Bitmapwidgets[3].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[0].Definition.Bitmapwidgets[3].Definition.GuiRenderBlock.AnimationCollection ui\halox\main_menu\animations\mainmenu_fade.gui_widget_animation_collection_definition
+SetField groupwidgets[0].Definition.Bitmapwidgets[3].Definition.Bitmap ui\halox\common\common_bitmaps\black_50.bitmap
+SetField groupwidgets[0].Definition.Bitmapwidgets[3].Definition.BlendMethod AlphaBlend
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\campaign\campaign_select_level.scn3
+SetField GroupWidgets[0].Definition.BitmapWidgets[2].Definition.Flags 11
+SetField groupwidgets[0].Definition.BitmapWidgets[2].Definition.GuiRenderBlock.Name level_locked
+SetField groupwidgets[0].Definition.BitmapWidgets[2].Definition.GUIRenderBlock.RenderDepthBias 5
+SetField groupwidgets[0].Definition.Bitmapwidgets[2].Definition.GuiRenderblock.Bounds720p -380 730 140 2370
+SetField groupwidgets[0].Definition.Bitmapwidgets[2].Definition.GuiRenderblock.Bounds480i 44 473 134 753
+SetField groupwidgets[0].Definition.bitmapwidgets[2].Definition.GuiRenderBlock.AnimationCollection ui\halox\main_menu\animations\mainmenu_fade.gui_widget_animation_collection_definition
+SetField groupwidgets[0].Definition.bitmapwidgets[2].Definition.Bitmap null
+SetField groupwidgets[0].Definition.bitmapwidgets[2].Definition.BlendMethod AlphaBlend
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\campaign\campaign_select_level.scn3
+SetField GroupWidgets[0].Definition.BitmapWidgets[2].Definition.Flags 9
+SetField groupwidgets[0].Definition.BitmapWidgets[1].Definition.GuiRenderBlock.Name unknown_film_image
+SetField groupwidgets[0].Definition.BitmapWidgets[1].Definition.GUIRenderBlock.RenderDepthBias 5
+SetField groupwidgets[0].Definition.Bitmapwidgets[1].Definition.GuiRenderblock.Bounds720p -380 730 140 2370
+SetField groupwidgets[0].Definition.Bitmapwidgets[1].Definition.GuiRenderblock.Bounds480i 44 473 134 753
+SetField groupwidgets[0].Definition.Bitmapwidgets[1].Definition.GuiRenderBlock.AnimationCollection ui\halox\main_menu\animations\mainmenu_fade.gui_widget_animation_collection_definition
+SetField groupwidgets[0].Definition.Bitmapwidgets[1].Definition.Bitmap null
+SetField groupwidgets[0].Definition.Bitmapwidgets[1].Definition.BlendMethod AlphaBlend
+SaveTagChanges
+exitto tags
+
+edittag ui\halox\campaign\campaign_select_level.scn3
+SetField GroupWidgets[0].Definition.BitmapWidgets[0].Definition.Flags 9
+SetField groupwidgets[0].Definition.BitmapWidgets[0].Definition.GuiRenderBlock.Name background
+SetField groupwidgets[0].Definition.BitmapWidgets[0].Definition.GUIRenderBlock.RenderDepthBias -19
+SetField groupwidgets[0].Definition.Bitmapwidgets[0].Definition.GuiRenderblock.Bounds720p -610 -1475 1080 2620
+SetField groupwidgets[0].Definition.Bitmapwidgets[0].Definition.GuiRenderblock.Bounds480i 0 0 0 0
+SetField groupwidgets[0].Definition.Bitmapwidgets[0].Definition.GuiRenderBlock.AnimationCollection ui\halox\main_menu\animations\mainmenu_fade.gui_widget_animation_collection_definition
+SetField groupwidgets[0].Definition.Bitmapwidgets[0].Definition.Bitmap ui\halox\common\common_bitmaps\selection_bkd.bitmap
+SetField groupwidgets[0].Definition.Bitmapwidgets[0].Definition.BlendMethod AlphaBlend
+SaveTagChanges
+exitto tags
+
+echo ########################################################################################################### maps list placement
+
+edittag ui\halox\campaign\campaign_select_level.scn3
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[0].GuiRenderblock.Bounds720p -226 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[1].GuiRenderblock.Bounds720p -164 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[2].GuiRenderblock.Bounds720p -102 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[3].GuiRenderblock.Bounds720p -40 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[4].GuiRenderblock.Bounds720p 22 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[5].GuiRenderblock.Bounds720p 84 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[6].GuiRenderblock.Bounds720p 146 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[7].GuiRenderblock.Bounds720p 208 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[8].GuiRenderblock.Bounds720p 270 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[9].GuiRenderblock.Bounds720p 332 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[10].GuiRenderblock.Bounds720p 394 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[11].GuiRenderblock.Bounds720p 456 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[12].GuiRenderblock.Bounds720p 518 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[13].GuiRenderblock.Bounds720p 580 -820 0 0
+SetField groupwidgets[0].Definition.listwidgets[0].Definition.items[14].GuiRenderblock.Bounds720p 642 -820 0 0
+SaveTagChanges
+exitto tags
+exit
+SaveModPackage
