@@ -1,0 +1,237 @@
+@font-face{font-family:"Conduit ITC";src:url(dew://lib/Conduit-ITC.woff);}
+
+html {
+    position: relative;
+    color: #FFF;
+    font-family: "Conduit ITC", sans-serif;
+    font-weight: 500;
+    
+     --color-hilite: #e8edf7;
+     --color-ice: #aac0da;
+}
+
+#weaponOffsets {
+    width: 430px;
+    position: absolute;
+    top: 2vh;
+    left: 2vw;
+    font-size: 17px;
+    font-weight: 500;
+    line-height:29px;
+    text-transform: uppercase;
+	background-image: -webkit-linear-gradient( -90deg, rgba(27,41,70,0.94902) 0%, rgba(24,39,69,0.9) 20%, rgba(24,39,69,0.90196) 20%, rgba(6,16,37,0.85098) 100%);
+    padding: 11px;
+    padding-bottom: 0px;
+}
+
+.header {
+    font-size: 24px;
+    font-weight: 500;
+    background-color: rgba(0, 0, 0, 0.56);
+    margin: -10px;
+    margin-bottom: 5px;
+    padding: 4px;
+    padding-left: 13px;
+    font-size: 19px;
+}
+
+span{
+    width: 424px;
+    display: table;
+    height:30px;
+    margin-left: -10px;
+    padding: 0px 14px;
+    margin-bottom: 1px;
+}
+
+.setting{
+    width: 223px;
+    margin-top:5px;
+    height:20px;
+    float:right;
+    color: #98b3d3;
+    background-color: rgba(0,0,0,0);
+    border: none;
+}
+
+input[type=range].setting {
+    margin-top:4px;
+}
+
+input[type=text].setting{
+    height: 16px;
+    width: 216px;
+    padding-left: 4px;
+}
+
+.hasTiny{
+    width:225px;
+    float:right;
+    margin-right: 0px;
+    margin-left: 3px;
+}
+
+.tinySetting{
+    float:right;
+    width: 60px;
+    height:14px;
+    z-index:-2;
+    margin-top:4px;
+    margin-bottom: -2px;
+    background-color: rgba(0,0,0,0);
+	height:18px;
+	text-align:left;
+	font-weight:300;
+	color: #98b3d3;
+    border: none;
+    padding-left: 4px;
+}
+
+button {
+	position: relative;
+    height: 35px;
+    line-height: 35px;
+    font-size: 15px;
+	font-weight: 100;
+	color: white;
+	background-color: rgba(0,0,0,0);
+	border: none;
+	z-index: 3;
+	text-align: left;
+	vertical-align: middle;
+	box-sizing: border-box;
+	padding: none;
+}
+
+button:hover{
+	text-decoration: underline;
+}
+
+select option{
+	background-color: rgba(20, 28, 40, 1.0);
+	font-size: 2.3vh;
+	color: #aac0da;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #dddddd22;
+	border-radius: 5%;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #dddddd55;
+}
+
+select::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+}
+
+select::-webkit-scrollbar-thumb:hover {
+  background: darkgrey;
+}
+
+button img{
+	display:none;
+	position:relative;
+	height: 30px;
+	float: left;
+    margin-right: 4px;
+    top: 2px;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    background:none;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+.selectedElement input[type=range].disabled::-webkit-slider-thumb{
+	background-color: hsl(213deg 20% 48%);
+}
+
+.selectedElement input[type=range]::-webkit-slider-thumb{
+	background-color: white;
+}
+
+input[type=range]::-webkit-slider-runnable-track , input[type=range]:focus::-webkit-slider-runnable-track{
+    height: .4vh;
+    border: none;
+    width: 100%;
+    vertical-align: middle;
+    background-color: rgba(152, 179, 211, .35);
+}
+
+input[type=range]::-webkit-slider-thumb {
+    width: .6vh;
+    height: 1.2vh;
+    margin-top: -.4vh;
+    -webkit-appearance: none;
+    border: none;
+    background-color: var(--thumb-color, rgba(152, 179, 211, 1)); /* Default color */
+}
+
+#buttonBar{
+    margin-top: 5px;
+    background-color:black;
+    padding:2px 15px;
+    margin-left:-11px;
+    width: 422px;
+}
+
+#weaponTypeName
+{
+    text-align: center;
+    overflow: hidden;
+}
+
+.disabled
+{
+	color: hsl(213deg 20% 48%);
+	--thumb-color: hsl(213deg 20% 40%);
+}
+
+.disabled:hover
+{
+	text-decoration: none;
+}
+
+.item {
+    position: relative; /* allow the focusbar to fill the element */
+    isolation: isolate; /* prevents -1 z-index from escaping */
+}
+
+.item::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url(dew://assets/ux/buttonhover.svg);
+    transition: opacity 120ms linear;
+    margin-left: -15px;
+    opacity: 0;
+    z-index: -1;
+}
+
+.item.selectedElement::before {
+    opacity: 1;
+    transition: none;
+}
+
+.item.selectedElement {
+    color: var(--color-hilite:);
+}
