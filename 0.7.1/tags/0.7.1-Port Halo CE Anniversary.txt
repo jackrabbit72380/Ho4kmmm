@@ -1,0 +1,110 @@
+FYI This tutorial is for porting The Halo3 xbox360 version campaign to Halo online 0.1.7
+
+createmodpackage 11 large 
+
+that will create 11 separate cashed in a PAK one for each campaign map
+you give each cashed a name
+then you port one map as usual
+
+if you want to save time you can just use numbers 0-11 but cashed names for halo 3 would be...
+a10
+a30
+a50
+b30
+b40
+c10
+c20
+c40
+d20
+d40
+shared
+
+Now you need to have your halo3 xbox game extracted to some folder in my case it's "F:\Halo\Projects\h3_extracted\maps\
+yours will be different.
+
+opencachefile "F:\Halo\Projects\\Halo Combat Evolved Anniversary for Adjutant Extraction\a10.map"
+porttag *.scnr
+exit
+switchtagcache 1
+
+opencachefile "F:\Halo\Projects\Halo Combat Evolved Anniversary for Adjutant Extraction\a30.map"
+porttag *.scnr
+exit
+switchtagcache 2
+
+opencachefile "F:\Halo\Projects\Halo Combat Evolved Anniversary for Adjutant Extraction\a50.map"
+porttag *.scnr
+exit
+switchtagcache 3
+
+opencachefile "F:\Halo\Projects\Halo Combat Evolved Anniversary for Adjutant Extraction\b30.map"
+porttag *.scnr
+exit
+switchtagcache 4
+
+opencachefile "F:\Halo\Projects\Halo Combat Evolved Anniversary for Adjutant Extraction\b40.map"
+porttag *.scnr
+exit
+switchtagcache 5
+
+opencachefile "F:\Halo\Projects\Halo Combat Evolved Anniversary for Adjutant Extraction\c10.map"
+porttag *.scnr
+exit
+switchtagcache 6
+
+opencachefile "F:\Halo\Projects\Halo Combat Evolved Anniversary for Adjutant Extraction\c20.map"
+porttag *.scnr
+exit
+switchtagcache 7
+
+opencachefile "F:\Halo\Projects\Halo Combat Evolved Anniversary for Adjutant Extraction\c40.map"
+porttag *.scnr
+exit
+switchtagcache 8
+
+opencachefile "F:\Halo\Projects\Halo Combat Evolved Anniversary for Adjutant Extraction\d20.map"
+porttag *.scnr
+exit
+switchtagcache 9
+
+opencachefile "F:\Halo\Projects\Halo Combat Evolved Anniversary for Adjutant Extraction\d40.map"
+porttag *.scnr
+exit
+switchtagcache 10
+
+opencachefile "F:\Halo\Projects\Halo Combat Evolved Anniversary for Adjutant Extraction\shared.map"
+porttag *.scnr
+exit
+
+now update info files for each cashe file buy useing switchtagcache command followed buy the updatemapfiles command
+do switchtagchache 1,2,3 and so on
+the first cashed is index 0 you do up to 10 as you finish porting maps
+onece all the maps are ported into there own cashes you would do GenirateCampainFile pointing to the same folder as youd point UpdateMapFiles
+
+switchtagcache 0
+updatemapfiles "F:\Halo\Projects\h3_extracted\maps\info"
+switchtagcache 1
+updatemapfiles "F:\Halo\Projects\h3_extracted\maps\info"
+switchtagcache 2
+updatemapfiles "F:\Halo\Projects\h3_extracted\maps\info"
+switchtagcache 3
+updatemapfiles "F:\Halo\Projects\h3_extracted\maps\info"
+switchtagcache 4
+updatemapfiles "F:\Halo\Projects\h3_extracted\maps\info"
+switchtagcache 5
+updatemapfiles "F:\Halo\Projects\h3_extracted\maps\info"
+switchtagcache 6
+updatemapfiles "F:\Halo\Projects\h3_extracted\maps\info"
+switchtagcache 7
+updatemapfiles "F:\Halo\Projects\h3_extracted\maps\info"
+switchtagcache 8
+updatemapfiles "F:\Halo\Projects\h3_extracted\maps\info"
+switchtagcache 9
+updatemapfiles "F:\Halo\Projects\h3_extracted\maps\info"
+switchtagcache 10
+exit
+
+next use the GenirateCampainFile command
+generatecampaignfile "F:\Halo\Projects\h3_extracted\maps\info"
+
+next savemodpackage

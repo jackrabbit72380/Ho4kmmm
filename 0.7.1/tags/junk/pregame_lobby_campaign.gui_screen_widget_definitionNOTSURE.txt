@@ -1,0 +1,3 @@
+edittag ui\halox\pregame_lobby\pregame_lobby_campaign.gui_screen_widget_definition
+setfield GuiRenderBlock.Bounds720p -320 -582 320 570
+setfield GuiRenderBlock.Bounds480i -232 -330 240 330

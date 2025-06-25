@@ -1,0 +1,143 @@
+echo - This tutorial is for porting The Halo3 odst xbox360 version campaign to Halo online 0.1.7
+
+createmodpackage 11 large
+
+echo - that will create 11 separate cashed in a PAK one for each campaign map you give each cashed a name then you port one map as usual
+
+echo- next enter display name of mod package
+odst4kmmm
+
+echo -next enter description of mod package
+odst4kmmm
+
+echo -next enter author of mod package
+jackrabbit72380
+
+echo- next enter version number
+1.0
+
+echo - next enter type of mod
+campaign firefight
+
+echo - cashed names for halo 3 odst would be...
+
+If you include the epilogue of the game, there are 11 missions in Halo 3: ODST. Here are the Halo 3: ODST missions in order:FYI
+echo - c100 - Prepare To Drop
+echo - h100 - Mombasa Streets
+echo - sc100 - Tayari Plaza
+echo - sc110 - Uplift Reserve
+echo - sc120 - Kizingo Blvd
+echo- sc130 - ONI Alpha Site
+echo - sc140 - NMPD HQ
+echo - sc150 - Kikowani Stn
+echo - l200 - Delta Hive
+echo - l300 - Coastal Highway
+echo - c200 - Coastal Highway (Epilogue)
+
+echo - name cashes
+c100
+h100
+sc100
+sc110
+sc120
+sc130
+sc140
+sc150
+l200
+l300
+c200
+
+echo-you need to have your halo3 odst xbox game extracted to some folder in my case it's "F:\Halo\Projects\h3-odst_sp_extracted\maps\"yours will be different.
+
+opencachefile "F:\Halo\Projects\h3-odst_sp_extracted\maps\c100.map"
+porttag *.scnr
+exit
+switchtagcache 1
+
+opencachefile "F:\Halo\Projects\h3-odst_sp_extracted\maps\h100.map"
+porttag *.scnr
+exit
+switchtagcache 2
+
+opencachefile "F:\Halo\Projects\h3-odst_sp_extracted\maps\sc100.map"
+porttag *.scnr
+exit
+switchtagcache 3
+
+opencachefile "F:\Halo\Projects\h3-odst_sp_extracted\maps\sc110.map"
+porttag *.scnr
+exit
+switchtagcache 4
+
+opencachefile "F:\Halo\Projects\h3-odst_sp_extracted\maps\sc120.map"
+porttag *.scnr
+exit
+switchtagcache 5
+
+opencachefile "F:\Halo\Projects\h3-odst_sp_extracted\maps\sc130.map"
+porttag *.scnr
+exit
+switchtagcache 6
+
+opencachefile "F:\Halo\Projects\h3-odst_sp_extracted\maps\sc140.map"
+porttag *.scnr
+exit
+switchtagcache 7
+
+opencachefile "F:\Halo\Projects\h3-odst_sp_extracted\maps\sc150.map"
+porttag *.scnr
+exit
+switchtagcache 8
+
+opencachefile "F:\Halo\Projects\h3-odst_sp_extracted\maps\l200.map"
+porttag *.scnr
+exit
+switchtagcache 9
+
+opencachefile "F:\Halo\Projects\h3-odst_sp_extracted\maps\l300.map"
+porttag *.scnr
+exit
+switchtagcache 10
+
+opencachefile "F:\Halo\Projects\h3-odst_sp_extracted\maps\c200.map"
+porttag *.scnr
+exit
+
+echo-now update info files for each cashed file buy using switchtagcache command followed buy the updatemapfiles command do switchtagchache 1,2,3 and so on
+echo-the first cashed is index 0 you do up to 10 as you finish porting maps
+echo-once all the maps are ported into there own cashes you would do GenirateCampainFile pointing to the same folder as you'd point UpdateMapFiles
+
+switchtagcache 0
+updatemapfiles "F:\Halo\Projects\h3-odst_sp_extracted\maps\info"
+switchtagcache 1
+updatemapfiles "F:\Halo\Projects\h3-odst_sp_extracted\maps\info"
+switchtagcache 2
+updatemapfiles "F:\Halo\Projects\h3-odst_sp_extracted\maps\info"
+switchtagcache 3
+updatemapfiles "F:\Halo\Projects\h3-odst_sp_extracted\maps\info"
+switchtagcache 4
+updatemapfiles "F:\Halo\Projects\h3-odst_sp_extracted\maps\info"
+switchtagcache 5
+updatemapfiles "F:\Halo\Projects\h3-odst_sp_extracted\maps\info"
+switchtagcache 6
+updatemapfiles "F:\Halo\Projects\h3-odst_sp_extracted\maps\info"
+switchtagcache 7
+updatemapfiles "F:\Halo\Projects\h3-odst_sp_extracted\maps\info"
+switchtagcache 8
+updatemapfiles "F:\Halo\Projects\h3-odst_sp_extracted\maps\info"
+switchtagcache 9
+updatemapfiles "F:\Halo\Projects\h3-odst_sp_extracted\maps\info"
+switchtagcache 10
+updatemapfiles "F:\Halo\Projects\h3-odst_sp_extracted\maps\info"
+
+echo-next use the GenirateCampainFile command
+generatecampaignfile "F:\Halo\Projects\h3-odst_sp_extracted\maps\info"
+
+savemodpackage
+
+echo - useaudiocache <folder path>
+echo - useshadercache <folder path>
+echo - Just use the same folders every time you port and it’ll build up and use what’s there
+echo - Make sure you make them separate folders don’t use the same one
+
+

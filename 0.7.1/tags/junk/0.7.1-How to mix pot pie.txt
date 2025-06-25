@@ -1,0 +1,171 @@
+mix pot pie is my sttempt to combine alot of maps together into one .pak file
+unfortunately some more content will need to be removed to make it work
+this mod is currently not working.
+
+createmodpackage 19 large
+
+halo3+odst+firefight
+halo3+odst+firefight
+jackrabbit72380
+0.1
+
+campaign firefight
+
+010_jungle
+020_base
+030_outskirts
+040_voi
+050_floodvoi
+070_waste
+100_citadel
+110_hc
+120_halo
+c100
+h100
+sc100
+sc110
+sc120
+sc130
+sc140
+sc150
+l200
+l300
+
+switchtagcache 0
+opencachefile "F:\Halo\Projects\h3_extracted\maps\010_jungle.map"
+porttag *.scnr
+exit
+switchtagcache 1
+
+opencachefile "F:\Halo\Projects\h3_extracted\maps\020_base.map"
+porttag *.scnr
+exit
+switchtagcache 2
+
+opencachefile "F:\Halo\Projects\h3_extracted\maps\030_outskirts.map"
+porttag *.scnr
+exit
+switchtagcache 3
+
+opencachefile "F:\Halo\Projects\h3_extracted\maps\040_voi.map"
+porttag *.scnr
+exit
+switchtagcache 4
+
+opencachefile "F:\Halo\Projects\h3_extracted\maps\050_floodvoi.map"
+porttag *.scnr
+exit
+switchtagcache 5
+
+opencachefile "F:\Halo\Projects\h3_extracted\maps\070_waste.map"
+porttag *.scnr
+exit
+switchtagcache 6
+
+opencachefile "F:\Halo\Projects\h3_extracted\maps\100_citadel.map"
+porttag *.scnr
+exit
+switchtagcache 7
+
+opencachefile "F:\Halo\Projects\h3_extracted\maps\110_hc.map"
+porttag *.scnr
+exit
+switchtagcache 8
+
+opencachefile "F:\Halo\Projects\h3_extracted\maps\120_halo.map"
+porttag *.scnr
+exit
+switchtagcache 9
+
+opencachefile "F:\Halo\Projects\h3-odst_sp_extracted\maps\c100.map"
+porttag *.scnr
+exit
+switchtagcache 10
+
+opencachefile "F:\Halo\Projects\h3-odst_sp_extracted\maps\h100.map"
+porttag *.scnr
+exit
+switchtagcache 11
+
+opencachefile "F:\Halo\Projects\h3-odst_sp_extracted\maps\sc100.map"
+porttag *.scnr
+exit
+switchtagcache 12
+
+opencachefile "F:\Halo\Projects\h3-odst_sp_extracted\maps\sc110.map"
+porttag *.scnr
+exit
+switchtagcache 13
+
+opencachefile "F:\Halo\Projects\h3-odst_sp_extracted\maps\sc120.map"
+porttag *.scnr
+exit
+switchtagcache 14
+
+opencachefile "F:\Halo\Projects\h3-odst_sp_extracted\maps\sc130.map"
+porttag *.scnr
+exit
+switchtagcache 15
+
+opencachefile "F:\Halo\Projects\h3-odst_sp_extracted\maps\sc140.map"
+porttag *.scnr
+exit
+switchtagcache 16
+
+opencachefile "F:\Halo\Projects\h3-odst_sp_extracted\maps\sc150.map"
+porttag *.scnr
+exit
+switchtagcache 17
+
+opencachefile "F:\Halo\Projects\h3-odst_sp_extracted\maps\l200.map"
+porttag *.scnr
+exit
+switchtagcache 18
+
+opencachefile "F:\Halo\Projects\h3-odst_sp_extracted\maps\l300.map"
+porttag *.scnr
+exit
+
+switchtagcache 0
+updatemapfiles "F:\Halo\Projects\h3_odst_info_mix\maps\info"
+switchtagcache 1
+updatemapfiles "F:\Halo\Projects\h3_odst_info_mix\maps\info"
+switchtagcache 2
+updatemapfiles "F:\Halo\Projects\h3_odst_info_mix\maps\info"
+switchtagcache 3
+updatemapfiles "F:\Halo\Projects\h3_odst_info_mix\maps\info"
+switchtagcache 4
+updatemapfiles "F:\Halo\Projects\h3_odst_info_mix\maps\info"
+switchtagcache 5
+updatemapfiles "F:\Halo\Projects\h3_odst_info_mix\maps\info"
+switchtagcache 6
+updatemapfiles "F:\Halo\Projects\h3_odst_info_mix\maps\info"
+switchtagcache 7
+updatemapfiles "F:\Halo\Projects\h3_odst_info_mix\maps\info"
+switchtagcache 8
+updatemapfiles "F:\Halo\Projects\h3_odst_info_mix\maps\info"
+switchtagcache 9
+updatemapfiles "F:\Halo\Projects\h3_odst_info_mix\maps\info"
+switchtagcache 10
+updatemapfiles "F:\Halo\Projects\h3_odst_info_mix\maps\info"
+switchtagcache 11
+updatemapfiles "F:\Halo\Projects\h3_odst_info_mix\maps\info"
+switchtagcache 12
+updatemapfiles "F:\Halo\Projects\h3_odst_info_mix\maps\info"
+switchtagcache 13
+updatemapfiles "F:\Halo\Projects\h3_odst_info_mix\maps\info"
+switchtagcache 14
+updatemapfiles "F:\Halo\Projects\h3_odst_info_mix\maps\info"
+switchtagcache 15
+updatemapfiles "F:\Halo\Projects\h3_odst_info_mix\maps\info"
+switchtagcache 16
+updatemapfiles "F:\Halo\Projects\h3_odst_info_mix\maps\info"
+switchtagcache 17
+updatemapfiles "F:\Halo\Projects\h3_odst_info_mix\maps\info"
+switchtagcache 18
+updatemapfiles "F:\Halo\Projects\h3_odst_info_mix\maps\info"
+switchtagcache 0
+
+next use the GenirateCampaignFile command
+generatecampaignfile "F:\Halo\Projects\h3_odst_info_mix\maps\info"
+savemodpackage
