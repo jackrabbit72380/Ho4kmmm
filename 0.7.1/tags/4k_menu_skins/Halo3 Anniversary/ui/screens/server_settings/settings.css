@@ -1,0 +1,462 @@
+@font-face{font-family:"Conduit ITC";src:url(dew://lib/Conduit-ITC.woff);}
+
+html {
+	color: #aac0da;
+	font-weight: 300;
+	/*background-color: rgba(0,0,0,0.5);*/
+	--color-hilite: #e8edf7;
+	--color-ice: #aac0da;
+}
+* {
+	font-family: "Conduit ITC", sans-serif;
+	-webkit-backface-visibility: hidden;
+}
+*:focus {
+    outline: none;
+}
+body{
+    padding: 0;
+    margin: 0;
+    overflow:hidden;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: fixed;
+}
+#settingsWindow {
+	position: relative;
+	margin: 0vh;
+	opacity: 1;
+	/* z-index: -5; */
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	width: 100%;
+	height: 71.48vh;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	margin-top: -2.8vh;
+	box-sizing: border-box;
+	opacity: 0;
+}
+#backgroundFill {
+	position: absolute;
+	margin: 0;
+	z-index: -10;
+	left: 50%;
+	right: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	height: 100%;
+	top: 0vh;
+	box-sizing: display-box;
+	background: linear-gradient(#445e8dbd, hsla(219, 55%, 15%, 0.85));
+}
+div[id^='page'] {
+	display: none;
+	height: 65vh;
+	padding: 0vh;
+	box-sizing: border-box;
+}
+div[id^='page'], .header, .bottomBar{
+	position: absolute;
+	left: calc(50% - 60vh);
+	width: 120vh;
+}
+div[id^='page']:target{
+	z-index: 3;
+	display: inline;
+}
+
+#buttonContainer {
+	overflow-y: auto;
+	overflow-x: hidden;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+}
+.header {
+	height: 6.48vh;
+	font-size: 6vh;
+	line-height: 6.48vh;
+	position: relative;
+	top: 0;
+	color: #D8D8D8;
+	padding-left: none;
+	margin: 0;
+	text-align: left;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+
+	.header:after {
+		content: "";
+		height: 6.48vh;
+		border-top: 1px solid #FFFFFF55;
+		border-bottom: 1px solid #FFFFFF33;
+		box-sizing: border-box;
+		position: absolute;
+		left: 50%;
+		right: 50%;
+		margin-left: -50vw;
+		margin-right: -50vw;
+		z-index: -1;
+		background: rgba(10, 14, 20, 0.8);
+	}
+
+.bottomBar {
+	position: absolute;
+	bottom: -6vh;
+	z-index: 1;
+	height: 6vh;
+}
+
+	.bottomBar:after {
+		content: "";
+		position: absolute;
+		left: 50%;
+		right: 50%;
+		margin-left: -50vw;
+		margin-right: -50vw;
+		z-index: 0;
+	}
+
+	.bottomBar:after {
+		content: "";
+		background-color: rgba(10, 14, 20, 0.8);
+		z-index: 1;
+		height: 6vh;
+		border-top: 1px solid #FFFFFF33;
+		border-bottom: 1px solid #FFFFFF33;
+		box-sizing: border-box;
+	}
+
+.subHeader {
+	font-size: 3vh;
+	margin: 0;
+	padding: 0.7vh 0vh;
+	height: 4vh;
+	text-transform: uppercase;
+	text-align: center;
+	color: #D8D8D8
+}
+
+	.subHeader::after {
+		position: absolute;
+		content: " ";
+		display: block;
+		width: 100%;
+		bottom: 0;
+		background-image: -webkit-linear-gradient( 0deg, rgba(131,158,190,0) 0%, rgba(131,158,190,0.2) 10%, rgba(131,158,190,0.2) 90%, rgba(131,158,190,0) 100%);
+	}
+
+	.subHeader + span {
+		position: absolute;
+		top: 0px;
+	}
+
+#closeButton {
+	top: calc(0vh + 1.1vh);
+	position: absolute;
+	height: 4vh;
+	line-height: 4vh;
+	font-size: 3vh;
+	font-weight: 100;
+	color: #D8D8D8;
+	background-color: rgba(0,0,0,0);
+	border: none;
+	z-index: 3;
+	text-align: left;
+	vertical-align: middle;
+	box-sizing: border-box;
+	padding: none;
+	float: left;
+    left:0%;
+}
+#closeButton img{
+	display:block;
+	position:relative;
+	height: 3.75vh;
+	float: left;
+}
+#closeButton:hover{
+	text-decoration: underline;
+}
+
+span {
+	width: 100%;
+	display: table;
+	margin-bottom: 0.4vh;
+	position: relative;
+	padding-left: 1.8vh;
+	padding-right: 3.96vh;
+	box-sizing: border-box;
+	padding-top: 0.1vh;
+	padding-top: 0.1vh;
+}
+label, .setting{
+	height: 2.5vh;
+	font-size: 2.5vh;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.setting{
+	width: calc(50% - 3.96vh);
+	height: 100%;
+	/*font-size: 1.75vh;
+	margin-top: 0.25vh;
+	margin-bottom: 0.25vh;
+	font-weight: 600;*/
+	text-align-last: left;
+	padding: 0;
+	margin: 0;
+	border: none;
+	color: 98b3d3;
+	float: right;
+	-webkit-appearance: none;
+	background-color: rgba(0,0,0,0);
+	box-sizing: border-box;
+	padding-left: 2vh;
+	padding-right: 2vh;
+}
+textarea.setting{
+    height: 7vh !important;
+    resize: none;
+}
+
+#buttonContainer span {
+    position: relative; /* allow the focusbar to fill the element */
+    isolation: isolate; /* prevents -1 z-index from escaping */
+}
+#buttonContainer span::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url(dew://assets/ux/buttonhover.svg);
+    transition: opacity 120ms linear;
+    opacity: 0;
+    margin-left: -3%;
+    z-index: -1;
+}
+    #buttonContainer .selectedElement::before {
+        opacity: 1;
+        transition: none;
+    }
+    
+    .selectedElement label {
+        color: var(--color-hilite);
+    }
+    
+    .selectedElement .setting, .selectedElement .tinySetting {
+        color: var(--color-hilite);
+    }
+.selectedElement select, .selectedElement .rangeSetting{
+	background-image: url(dew://assets/ux/arrow_right.svg), url(dew://assets/ux/arrow_left.svg);
+	background-position: 100% 50%, 0% 50%;
+	background-repeat: no-repeat, no-repeat;
+	background-size: 1.2vh 1.2vh, 1.2vh 1.2vh;
+	background-color: none;
+}
+
+.setting.textInput{
+	background-color: rgba(0,0,0,0.2);
+	text-transform: initial;
+}
+
+/*Range Slider*/
+.tinySetting{
+	margin-left: -2vh;
+	padding-left: 2vh;
+	background: none;
+	width: 7.5vh;
+	height:100%;
+	z-index:3;
+	font-size: 2.5vh;
+	text-align:left;
+	font-weight:300;
+	border: none;
+	color: #98b3d3;
+}
+
+.hasTiny{
+	background-color: none;
+	right: 2vh;
+	position: absolute;
+	width: calc(100% - 10vh);
+	height: 100%;
+	right: 2vh;
+	z-index:2;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/*Fix for lists with an edit button*/
+.setting.hasTiny.wheelable {
+    position: absolute;
+    width: calc(50% - 14.4vh);
+    height: 100%;
+    right: 10.4vh;
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+button.tinySetting {
+    padding: 0;
+    background: none;
+    float: right;
+    margin-right: 2vh;
+    text-align: right;
+    width: 4.6vh;
+}
+/*------------------------*/
+
+.selectedElement input[type=range]::-webkit-slider-thumb {
+	background-color: #D8D8D8;
+}
+input[type=range]::-webkit-slider-runnable-track , input[type=range]:focus::-webkit-slider-runnable-track{
+  height: .4vh;
+  border: none;
+	width: 100%;
+	vertical-align: middle;
+	background-color: rgba(152, 179, 211, .35);
+}
+input[type=range]::-webkit-slider-thumb {
+	width: .6vh;
+	height: 1.2vh;
+	margin-top: -.4vh;
+  -webkit-appearance: none;
+  border: none;
+	background-color: rgba(152, 179, 211, 1);
+}
+button.tinySetting{
+	margin-top: 0.25vh;
+	padding:0;
+	background: none;
+	float: right;
+}
+span button.tinySetting:hover {
+	color: #D8D8D8;
+}
+
+.rangeSetting{
+	position: relative;
+	width: calc(50% - 3.96vh);
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	border: none;
+	color: 98b3d3;
+	float: right;
+	-webkit-appearance: none;
+	background-color: rgba(0,0,0,0);
+	box-sizing: border-box;
+	padding-left: 2vh;
+	padding-right: 2vh;
+}
+.selectedElement select:hover {
+	color: #D8D8D8;
+	background-image: url(dew://assets/ux/arrow_down.svg);
+	background-position: 98% 50%;
+	background-repeat: no-repeat;
+	background-size: 1.2vh 1.2vh;
+}
+.selectedElement rangeSetting:hover{
+	background-image: none;
+}
+select option{
+	background-color: rgba(20, 28, 40, 1.0);
+	font-size: 2.3vh;
+	color: #aac0da;
+}
+
+input[type=checkbox]{
+ -webkit-appearance:none;
+}
+input[type=checkbox]:after{
+	content: "Disabled";
+	text-transform: uppercase;
+}
+input[type="checkbox"]:checked {
+}
+input[type="checkbox"]:checked:after {
+	content: "Enabled";
+	text-transform: uppercase;
+}
+input[type=range]:focus {
+  outline: none;
+}
+
+.VotingType, .VetoType{
+    display:none;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #dddddd22;
+	border-radius: 5%;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #dddddd55;
+}
+
+select::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+}
+
+select::-webkit-scrollbar-thumb:hover {
+  background: darkgrey;
+}
+
+div#buttonContainer > span {
+	margin-bottom: 0.5vh;
+	margin-top: 0.5vh;
+}
+
+#overlay {
+	z-index: -999;
+	background: rgba(0,0,0,0.5);
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	top: 0px;
+	bottom: 0px;
+	margin: 0;
+	padding: 0;
+	opacity: 0;
+	pointer-events: none;
+}
+
+body[gpu] #overlay {
+    backdrop-filter: blur(7px);
+}
+
+#sPass {
+    padding-right: 7vh;
+}
+
+#showPasswordBtn {
+    position: absolute;
+    top: 3%;
+    right: 4vh;
+    text-align: center;
+    float: right;
+    width: 7vh;
+}

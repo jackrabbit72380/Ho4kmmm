@@ -1,0 +1,311 @@
+﻿<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript" src="dew://lib/dew.js"></script>
+    <script type="text/javascript" src="dew://lib/jquery-2.2.1.min.js"></script>
+    <script type="text/javascript" src="settings.js"></script>
+    <link rel="stylesheet" href="settings.css">
+</head>
+<body>
+    <div id="overlay"></div>
+    <div id="settingsWindow">
+        <h1 class="header">Host Settings</h1>
+        <div id="page1">
+            <div id="buttonContainer">
+                <span>
+                    <h3 class="subHeader">General</h3>
+                </span>
+                <span>
+                    <label for="sNetworkMode">Network Mode</label>
+                    <select id="sNetworkMode" class="setting">
+                        <option value="3">Online</option>
+                        <option value="4">Offline</option>
+                    </select>
+                </span>
+                <span>
+                    <label for="sTagMod">Server Default Mod</label>
+                    <select id="sTagMod" class="setting">
+                        <option value="">None</option>
+                    </select>
+                </span>
+                <span>
+                    <label for="sName">Server Name</label>
+                    <input class="setting textInput" type="text" id="sName" placeholder="...">
+                </span>
+                <span>
+                    <label for="sPass">Password</label>
+                    <input class="setting textInput" type="password" id="sPass" placeholder="...">
+                    <label class="show-password-btn" id="showPasswordBtn">Show</label>
+                </span>
+                <span>
+                    <label for="sMessage">Join Message (\n for new line)</label>
+                    <textarea class="setting textInput" type="text" id="sMessage" placeholder="..."></textarea>
+                </span>
+                <span>
+                    <label for="sShouldAnnounce">Display Server in Browser</label>
+                    <input class="setting" type="checkbox" id="sShouldAnnounce">
+                </span>
+                <span>
+                    <label for="sShouldSubmitStats">Submit Match Stats</label>
+                    <input class="setting" type="checkbox" id="sShouldSubmitStats">
+                </span>
+                <span>
+                    <label for="sUPNP">Universal Plug and Play (UPnP)</label>
+                    <input class="setting" type="checkbox" id="sUPNP">
+                </span>
+                <span id="firefightHeader">
+                    <h3 class="subHeader">Firefight</h3>
+                </span>    
+                <span class="FirefightType">
+                    <label for="sFirefightSprint">Sprint</label>
+                    <input class="setting" type="checkbox" id="sFirefightSprint">
+                </span>
+                <span class="FirefightType">
+                    <label for="sFirefightRepresentation">Player Representation</label>
+                    <select id="sFirefightRepresentation" class="setting">
+                        <option value="1">Campaign</option>
+                        <option value="0">Multiplayer</option>
+                    </select>
+                </span>
+                <span id="campaignHeader">
+                    <h3 class="subHeader">Campaign</h3>
+                </span>    
+                <span class="CampaignType">
+                    <label for="sCampaignSprint">Sprint</label>
+                    <input class="setting" type="checkbox" id="sCampaignSprint">
+                </span>
+                <span class="CampaignType">
+                    <label for="sCampaignScoring">Scoring</label>
+                    <select id="sCampaignScoring" class="setting">
+                        <option value="off">Off</option>
+                        <option value="team">Team</option>
+                        <option value="ffa">Free for All</option>
+                    </select>
+                </span>
+                <span class="CampaignType">
+                    <label for="sCampaignRepresentation">Player Representation</label>
+                    <select id="sCampaignRepresentation" class="setting">
+                        <option value="1">Campaign</option>
+                        <option value="0">Multiplayer</option>
+                    </select>
+                </span>
+                <span class="CampaignType">
+                    <label for="sCampaignRallyPoint">Rally Point</label>
+                    <select id="sCampaignRallyPoint" class="setting">
+                    </select>
+                </span>
+                <span>
+                    <h3 class="subHeader">Gameplay</h3>
+                </span>
+                <span>
+                    <label for="sMaxPlayers">Max Players</label>
+                    <div class="rangeSetting">
+                        <input type="range" class="setting hasTiny" min="1" max="16" id="sMaxPlayers">
+                        <input type="text" class="tinySetting" id="sMaxPlayersText">
+                    </div>
+                </span>
+                <span id="NumberTeamsOption">
+                    <label for="sNumberTeams">Number of teams</label>
+                    <div class="rangeSetting">
+                        <input type="range" class="setting hasTiny" min="1" max="8" id="sNumberTeams">
+                        <input type="text" class="tinySetting" id="sNumberTeamsText">
+                    </div>
+                </span>
+                <span id="TeamShuffleOption">
+                    <label for="sTeamShufflingEnabled">Team Shuffle</label>
+                    <input class="setting voting veto" type="checkbox" id="sTeamShufflingEnabled">
+                </span>
+                <span>
+                    <label for="sCountdown">Match Start Countdown</label>
+                    <div class="rangeSetting">
+                        <input type="text" class="tinySetting" id="sMatchCountdownText">
+                        <input type="range" class="setting hasTiny" min="0" max="20" id="sMatchCountdown">
+                    </div>
+                </span>
+                <span id="RoundStartOption">
+                    <label for="sCountdown">Round Start Countdown</label>
+                    <div class="rangeSetting">
+                        <input type="text" class="tinySetting" id="sCountdownText">
+                        <input type="range" class="setting hasTiny" min="0" max="20" id="sCountdown">
+                    </div>
+                </span>
+                <span id="DualWieldOption">
+                    <label for="sDualWieldEnabled">Dual Wielding</label>
+                    <input class="setting" type="checkbox" id="sDualWieldEnabled">
+                </span>
+                <span id="AssassinationsOption">
+                    <label for="sAssassinationEnabled">Assassinations</label>
+                    <input class="setting" type="checkbox" id="sAssassinationEnabled">
+                </span>
+                <span id="HitmarkersOption">
+                    <label for="sHitmarkersEnabled">Hitmarkers</label>
+                    <input class="setting" type="checkbox" id="sHitmarkersEnabled">
+                </span>
+                <span id="PodiumOption">
+                    <label for="sPodiumEnabled">Podium</label>
+                    <select id="sPodiumEnabled" class="setting">
+                        <option value="0">Disabled</option>
+                        <option value="1">Enabled</option>
+                        <option value="2">Forged maps Only</option>
+                    </select>		
+                </span>
+                <span>
+                    <label for="sWaypointType">Waypoint Style</label>
+                    <select id="sWaypointType" class="setting">
+                        <option value="0">Halo Online</option>
+                        <option value="1">Halo 3</option>
+                    </select>			
+                </span>
+                <span id="EmotesOption">
+                    <label for="sEmotesEnabled">Player Emotes</label>
+                    <input class="setting" type="checkbox" id="sEmotesEnabled">
+                </span>
+                <span id="KillCommandOption">
+                    <label for="sKillCommandEnabled">Kill Command</label>
+                    <input class="setting" type="checkbox" id="sKillCommandEnabled">
+                </span>
+                <span id="EndgameOption">
+                    <label for="sEndGameCommandEnabled">End Game Command</label>
+                    <input class="setting" type="checkbox" id="sEndGameCommandEnabled">
+                </span>
+                <span id="EndRoundOption">
+                    <label for="sEndRoundCommandEnabled">End Round Command</label>
+                    <input class="setting" type="checkbox" id="sEndRoundCommandEnabled">
+                </span>
+                <span class="MultiplayerType">
+                    <label for="sSprint">Sprint State</label>
+                    <select id="sSprint" class="setting">
+                        <option value="0">Disabled</option>
+                        <option value="1">Enabled</option>
+                        <option value="2">Inherited</option>
+                    </select>
+                </span>
+                <span class="MultiplayerType">
+                    <label for="sSprintUnlimited">Unlimited Sprint</label>
+                    <input class="setting" type="checkbox" id="sSprintUnlimited">
+                </span>
+                <span id="DisconnectedPlayersOption">
+                    <label for="sDisconnectedPlayers">Show Disconnected Players on Scoreboard</label>
+                    <input class="setting" type="checkbox" id="sDisconnectedPlayers">
+                </span>				
+				<span id="votingHeader">
+                    <h3 class="subHeader">Voting</h3>
+                </span>
+				<span id="votingMode">
+                    <label for="sVotingStyle">Voting Mode</label>
+                    <select id="sVotingStyle" class="setting">
+                        <option value="0">No Voting</option>
+                        <option value="2">Veto</option>
+                        <option value="1">Vote</option>
+                    </select>
+                </span>
+                <span class="VetoType">
+                    <h3 class="subHeader veto">Map Veto Options</h3>
+                </span>
+                <span class="VetoType">
+                    <label for="sNumOfVetoes">Max Vetos Per Round</label>
+                    <div class="rangeSetting">
+                        <input type="text" class="tinySetting" id="sNumOfVetoesText">
+                        <input type="range" class="setting hasTiny" min="0" max="100" id="sNumOfVetoes">
+                    </div>
+                </span>
+                <span class="VetoType">
+                    <label for="sVetoVoteTime">Veto Countdown</label>
+                    <div class="rangeSetting">
+                        <input type="text" class="tinySetting" id="sVetoVoteTimeText">
+                        <input type="range" class="setting hasTiny" min="1" max="100" id="sVetoVoteTime">
+                    </div>
+                </span>
+                <span class="VetoType">
+                    <label for="sVetoWinningShowTime">Winning Vote Display Time</label>
+                    <div class="rangeSetting">
+                        <input type="text" class="tinySetting" id="sVetoWinningShowTimeText">
+                        <input type="range" class="setting hasTiny" min="1" max="100" id="sVetoWinningShowTime">
+                    </div>
+                </span>
+                <span class="VetoType">
+                    <label for="sVetoPassPercentage">Veto Pass Percentage</label>
+                    <div class="rangeSetting">
+                        <input type="text" class="tinySetting" id="sVetoPassPercentageText">
+                        <input type="range" class="setting hasTiny" min="1" max="100" id="sVetoPassPercentage">
+                    </div>
+                </span>
+                <span class="VetoType">
+                    <label for="sVetoSystemSelectionType">Veto System Selection Type</label>
+                    <select id="sVetoSystemSelectionType" class="setting">
+                        <option value="0">Random</option>
+                        <option value="1">Ordered</option>
+                    </select>
+                </span>
+                <span class="VoteType">
+                    <h3 class="subHeader voting">Map Voting Options</h3>
+                </span>
+                <span class="VoteType">
+                    <label for="sMapVotingTime">Voting Countdown</label>
+                    <div class="rangeSetting">
+                        <input type="text" class="tinySetting" id="sMapVotingTimeText">
+                        <input type="range" class="setting hasTiny" min="1" max="100" id="sMapVotingTime">
+                    </div>
+                </span>
+                <span class="VoteType">
+                    <label for="sNumOfRevotes">Revotes</label>
+                    <div class="rangeSetting">
+                        <input type="text" class="tinySetting" id="sNumOfRevotesText">
+                        <input type="range" class="setting hasTiny" min="0" max="100" id="sNumOfRevotes">
+                    </div>
+                </span>
+                <span class="VoteType">
+                    <label for="sNumOfRematches">Rematches</label>
+                    <div class="rangeSetting">
+                        <input type="text" class="tinySetting" id="sNumOfRematchesText">
+                        <input type="range" class="setting hasTiny" min="0" max="100" id="sNumOfRematches">
+                    </div>
+                </span>
+                <span class="VoteType">
+                    <label for="sNumberOfVotingOptions">Voting Options</label>
+                    <div class="rangeSetting">
+                        <input type="text" class="tinySetting" id="sNumberOfVotingOptionsText">
+                        <input type="range" class="setting hasTiny" min="1" max="4" id="sNumberOfVotingOptions">
+                    </div>
+                </span>
+                <span class="VoteType">
+                    <label for="sVotingDuplicationLevel">Voting Duplication</label>
+                    <select id="sVotingDuplicationLevel" class="setting voting">
+                        <option value="0">Everything Unique</option>
+                        <option value="1">Gametype or Map Can Repeat</option>
+                        <option value="2">Anything Can Repeat</option>
+                    </select>
+                </span>
+                <span class="VoteType">
+                    <label for="sTimeBetweenVoteEndAndGameStart">Winner/Start Time</label>
+                    <div class="rangeSetting">
+                        <input type="text" class="tinySetting" id="sTimeBetweenVoteEndAndGameStartText">
+                        <input type="range" class="setting hasTiny" min="4" max="100" id="sTimeBetweenVoteEndAndGameStart">
+                    </div>
+                </span>
+
+            </div>
+            <div id="backgroundFill"></div>
+        </div>
+        <div class="bottomBar">
+            <button id="closeButton"><img class="button">Close</button>
+        </div>
+    </div>
+    <script src="dew://lib/input.js"></script>
+</body>
+</html>
+
+<!--        Template for other control methods
+            <label for="sBlah">Spinner</label>
+            <input type="number" class="setting" id="sBlah" min="5" max="30" step="5">
+            </span><span>
+
+            <label for="yText">Text</label>
+            <input class="setting textInput" type="text" id="yText">
+            </span><span>
+
+            <label for="yTextArea">Text Area</label>
+            <textarea class="setting" type="text" id="yTextArea"></textarea>
+            </span><span>
+-->
