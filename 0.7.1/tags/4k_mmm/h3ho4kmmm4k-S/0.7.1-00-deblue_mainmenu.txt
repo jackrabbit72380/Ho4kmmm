@@ -1,0 +1,5 @@
+edittag levels\ui\mainmenu\sky\ui.area_screen_effect
+setfield ScreenEffects[0].Desaturation 0
+Setfield ScreenEffects[0].ColorFilter 0.541173 0.584314 0.964706
+savetagchanges
+exit
