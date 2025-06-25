@@ -22,26 +22,24 @@ Installation: Port the Halo 3 campaign using NoShotz's script, then install the 
 "00.install_campaign_&_theater_options.txt" is only for unported Halo Online Eldewrito Version 0.6.1.0.
 I just uploaded a tutorial legend so you can fix anything. It lists all the 4k mod settings, just not in script format. It's what I'm using to create the script. ho4kmmm is the result of much time & Reserch. develpment is curently work in progress & currently in testing! any updates or completed status will be posted here,
 
-Stardate Log 5-29-24
+Star date Log 5-29-24
 
 Made seprate directorys for halo online 0.6.1 & 0.7.1 fixed orgnized and renamed most map preview pictures for 0.7.1 exept for halo and most odst.
 more soon stay tuned.
 
-Stardate Log 5-30-24
+Star date Log 5-30-24
 
 Converted 00 01 01 & 19 from 0.6.1 to 0.7.1 More Testing and Patching will be needed in the future. for 0.1.7 to work.
 
-Stardate Log 6-25-25
+```Star date Log 6-25-25
 
-0.1.7 was halted due to complication at the end of development TBH i only needed a little bit more code to finnish it but i got stuck. and have yet to find a fix. i will still try to finnish it one day. But because the advancments have been made for some time & left unfinnished I have desided that for now i have to relese much of the mods & poring scripts for the project for use with making .pak files. for other users mods.
+0.1.7 was halted due to complication at the end of development TBH i only needed a little bit more code to finish it but i got stuck. and have yet to find a fix. i will still try to finish it one day. But because the advancements have been made for some time & left unfinnished I have desided that for now i have to release much of the mods & poring scripts for the project for use with making .pak files. for other users mods.
 
-How to use this you might ask?
-Download the Tags folder to your ElDewrito Directory. Find a mod you want to apply to your .pak file. Open the script and change the name of the .pak file to your's. make sure the directory for your .dds files is correctly refrencing the .dds image that it's for. Then run the scipt. and it will install the mod to your .pak file. Please note that the porting scripts work diffrently they make new .pak files. and requre maps.
+How to use this you might ask? Download the Tags folder to your ElDewrito Directory. Find a mod you want to apply to your .pak file. Open the script and change the name of the .pak file to your's. make sure the directory for your .dds files is correctly referencing the .dds image that it's for. Then run the script. and it will install the mod to your .pak file. Please note that the porting scripts work differently they make new .pak files. and require maps.
 
-also Please note that the 4k_mmm ...main menu mod is still being worked on and improved apon. 
-More mod scripts and bitmaps can be added. This tags directory is being built with my own personal mod projects folder. Once downloded you can start to make your own versions as needed and just use or make new scripts as needed. buy refrenceing mine.
+also Please note that the 4k_mmm ...main menu mod is still being worked on and improved upon. More mod scripts and bitmaps can be added. This tags directory is being built with my own personal mod projects folder. Once downloaded you can start to make your own versions as needed and just use or make new scripts as needed. buy referencing mine.
 
-it is verry easy to replace the bitmaps with your own and rerun the mod scripts for adding a truly custom user interface for your own mods.
-Enjoy!
-
+Question.. Where's the Skulls?
+Answer..
+it is verry easy to replace the bitmaps with your own and rerun the mod scripts for adding a truly custom user interface for your own mods. Enjoy! one question i keep getting is where are the skulls at so here's the answer. there are 3 sets to choose from at the moment Default, Pixel flare, and H2anv. the bitmaps are in ElDewrito\tags\4k_bitmaps\ui\halox\campaign and the CEF menu sculls are in the 4k_menu_skins. & then the scripts to install them are in the 4k_mmm folder.  make sure to check the description.txt and that your installing the correct scripts for your version of halo```
 __________________________________________________________________________________________________________________________
