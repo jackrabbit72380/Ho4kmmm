@@ -30,4 +30,9 @@ more soon stay tuned.
 Stardate Log 5-30-24
 
 Converted 00 01 01 & 19 from 0.6.1 to 0.7.1 More Testing and Patching will be needed in the future. for 0.1.7 to work.
+
+Stardate Log 6-25-25
+
+0.1.7 was halted due to complication at the end of development TBH i only needed a little bit more code to finnish it but i got stuck. and have yet to find a fix. i will still try to finnish it one day. But because the advancments have been made for some time and left unfinnished I have desided that for now i have to relese much of the mods & poring scripts for the project for use with making .pak files. for ther users mods. How to use this you might ask? Download the Tags folder to your ElDewrito Directory. Find a mod you want to apply to your .pak file. Open the script and change the name of the .pak file to your's. make sure the directory for your .dds files is correctly refrencing the .dds image that it's for. then run the scipt. and it will install the mod to your .pak file.
+
 __________________________________________________________________________________________________________________________
