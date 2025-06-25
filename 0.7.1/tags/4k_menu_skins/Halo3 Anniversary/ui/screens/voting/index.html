@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Voting</title>
+        <link rel="stylesheet" type="text/css" href="voting.css" />
+        <script src="dew://lib/dew.js"></script>
+        <script src="dew://lib/jquery-2.2.1.min.js"></script>
+        <script src="voting.js"></script>
+            <!-- Window Resize-->
+    <script src="dew://lib/window-resize.js"></script>
+    <link rel="stylesheet" type="text/css" href="dew://lib/window-resize.css"/>
+    </head>
+    <body>
+        <div id="container">
+        <div class="page_content">
+            <div class="window-compact">
+                <div class="left">
+                    <button id="showButton"><img class="button" src="dew://assets/buttons/360_Y.png">Show</button>
+                </div>
+                <div class="compact-timer" id="timerCompact"></div>
+            </div>
+            <div id="window" style="display:none">
+                <div class="top">
+                    <div id="votingDesc">Voting round ends in: <span id="timer"></span></div>
+                    <div id="votingOptions">
+                        <div class="vetoBox">
+                            <a id="vetoBox" class="veto-flash" onclick="veto()">
+                                <img class='vetoBoxBtn button'><img id="vetoedX" class="button" src="vetoed.png"/>
+                                <span id="vetoText">Veto Map and Game</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="vetoCountBox">
+						<div id="vetoCountDown">VETO COUNTDOWN: <span id="vetoTimer"></span></div>
+						<div id="vetoCount">Vetoes: <span id="voteCount"></span></div>
+                    </div>
+                    <div id="vetoStatus"></div>
+                    <div id="vetoMapInfo"></div>
+                </div>
+                <div class="bottomBar">
+                    <button id="scoreboardButton" style="display: none;"><img class="button">Prior Game Stats</button>
+                    <button id="vetoButton"><img class="button">Veto</button>
+                    <button id="closeButton"><img class="button">Close</button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>
