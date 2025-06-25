@@ -1,0 +1,63 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Mod Browser</title>
+    <link href="mod_browse.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="overlay"></div>
+    <div id="container">
+        <div id="screen_widget" class="screen_widget_select_map">
+            <div class="screen_widget_header">
+                <div class="screen_widget_title">SELECT MOD</div>
+                <div id="mod_filter" class="screen_filter_selector kbm">
+                    <img class="button_left" onclick="rotateModFilter(-1)" />
+                    <div id="screen_widget_mod_type"></div>
+                    <img class="button_right" onclick="rotateModFilter(1)" />
+                </div>
+            </div>
+            <div class="screen_widget_body">
+                <div class="screen_widget_row">
+                    <div class="col1">
+                        <input type="search" id="searchbox" name="searchbox" onkeyup="setSearchFilter()" spellcheck="false" placeholder="SEARCH...">
+                        <ul class="mod_selection_list" id="mod_selection_list">
+                    </ul>
+                </div>
+                    <div class="mod_details">
+                        <div class="mod_details_body_desc">
+                            <img id="mod_preview_img" src="dew://assets/maps/small/placeholder.jpg" />
+                            <h3 class="mod_details_title" id="mod_name"></h3>
+                        </div>
+                        <div class="mod_details_body">
+                            <p class="mod_details_body_desc faded-text" id="mod_description">
+                            </p>
+                        </div>
+                        <div class="mod_details_footer">
+                            <div class="mod_details_author"><span class="mod_details_attr_label">AUTHOR:</span><span class="mod_details_attr_value" id="mod_author"></span></div>
+                            <div class="mod_details_size"><span class="mod_details_attr_label">VERSION:</span><span class="mod_details_attr_value" id="mod_version">0.0.0</span></div>
+                            <div class="mod_details_size"><span class="mod_details_attr_label">SIZE:</span><span class="mod_details_attr_value" id="mod_filesize">0.00 GB</span></div>
+                            <div class="mod_details_size"><span class="mod_details_attr_label">DOWNLOADED:</span><span class="mod_details_attr_value" id="mod_dowloaddate">01/01/1970</span></div>
+                            <div class="mod_details_size"><span class="mod_details_attr_label">LAST USED:</span><span class="mod_details_attr_value" id="mod_lastuseddate">Never</span></div>
+                            <div class="mod_details_size"><span class="mod_details_attr_label">SOURCE:</span><span class="mod_details_attr_value mod_source" id="mod_source">Halo Online Server</span></div>
+                            <div class="mod_details_size"><span class="mod_details_attr_label">WEBSITE:</span><span class="mod_details_attr_value"><a href="#" id="mod_website">http://www.YourDomain.com</a></span></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="screen_widget_footer">
+                <div class="button_key">
+                    <span class="button_key_button" onclick="handleSelect(-1);" id="button_key_select"><i class="button_icon_select"></i>Select</span>
+                    <span class="button_key_button" onclick="handleBack();"><i class="button_icon_back"></i>Back</span>
+                    <span class="button_key_button" onclick="handleOptions(listController.getSelectedIndex());"><i class="button_icon_options"></i>Options</span>
+                    <span class="button_key_button" onclick="rotateDisplayFilter(1)"><i class="button_icon_display_filter"></i><span id="current_display_filter"/></span>
+                </div>
+            </div>
+        </div>
+    <script src="dew://lib/jquery-2.2.1.min.js"></script>
+    <script src="dew://lib/dew.js"></script>
+    <script src="dew://lib/input.js"></script>
+    <script src="list_controller.js"></script>
+    <script src="mod_browse.js"></script>
+    </div>
+</body>
+</html>
