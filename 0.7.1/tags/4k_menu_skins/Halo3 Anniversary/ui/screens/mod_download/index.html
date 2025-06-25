@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Mod Downloader</title>
+    <script src="dew://lib/dew.js"></script>
+    <script src="dew://lib/jquery-2.2.1.min.js"></script>
+    <script src="mod_download.js"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+</head>
+
+<body>
+	<div class="dialog_container">
+		<div class="backdrop"></div>
+		<div id="dialog" class="show" style="height: 33.33vh; top: 33.1935vh">
+			<div class="dialog-header">
+				<div id="dialog-title" class="dialog-title slide-right"></div>
+			</div>
+			<div class="dialog-body" style="height:25.972vh;">
+				<div class="dialog-content slide-left">
+					<div id="screen_awaiting_confirmation" class="screen">
+						<div id="description">You will need <span id="total_size"></span> of additional content to join this server</div>
+						<div class="security_description">
+							ElDewrito assumes no responsibility or liability for experiences while playing the game.<br>
+							All content and services are provided at the discretion of server hosts.
+						</div>
+						<pre class="collapsed" id="detail"></pre>
+					</div>
+					
+					<div id="screen_downloading" class="screen">
+						<div class="mod_information" id="download_name">Mod: </div>
+						<div class="mod_information" id="download_desc">Version: </div>
+						<div class="mod_information" id="download_website">Website: <a id="mod_website" href=""></a></div>
+						<div class="progress_info" id="download_count"></div>
+						<div class="progress_info" id="download_status">preparing to download...</div>
+						<div class="progress_bar"><div id="progress" class="progress"></div></div>
+					</div>
+					
+					<div id="screen_download_failed" class="screen">
+						<div class="progress_description">There was a problem while downloading one of the files. <span id="download_error_reason"></span><br /><br /></div>
+					</div>
+					
+					<div id="screen_download_cancelling" class="screen">
+						<div class="progress_description">One moment...<br /><br /></div>
+						<div class="alertButtonContainerBottom">
+						</div>
+					</div>
+					<div id="screen_download_finalizing" class="screen">
+						<div>Preparing files... This may take a minute<br /><br /></div>
+					</div>
+					<div id="screen_download_finished" class="screen">
+						<div class="security_description">
+							ElDewrito assumes no responsibility or liability for experiences while playing the game.<br>
+							All content and services are provided at the discretion of server hosts.
+						</div>
+						<div id="finished_description">Ready to Join<br /><br /></div>
+					</div>
+				</div>
+			</div>
+			<div class="dialog-footer">
+				<div class="button-key slide-right">
+					<div id="confirm_dialog" class="alertButtonContainerBottom">
+						<span data-btn="a_button" onclick="confirmDownload()" id="ok" class="button">
+							<span class="button-label">Download</span>
+						</span>
+						<span data-btn="b_button" onclick="rejectDownload()" id="cancel" class="button">
+							<span class="button-label">Cancel</span>
+						</span>
+						<span data-btn="y_button" onclick="detail()" id="details" class="button">
+							<span class="button-label">Details</span>
+						</span>
+					</div>
+					<div id="download_progress" style="display:none;" class="alertButtonContainerBottom">
+						<span data-btn="b_button" onclick="cancelDownload()" id="cancel" class="button">
+							<span class="button-label">Cancel</span>
+						</span>
+						<!-- <span data-btn="y_button" onclick="minimize()" id="minimize" class="button">
+							<span class="button-label">Minimize</span>
+						</span> -->
+					</div>
+					<div id="download_finished" style="display:none;" class="alertButtonContainerBottom">
+						<span data-btn="a_button" onclick="confirmJoin()" id="join" class="button">
+							<span class="button-label">Join Server</span>
+						</span>
+						<span data-btn="b_button" onclick="cancelDownload()" id="cancel" class="button">
+							<span class="button-label">Cancel</span>
+						</span>
+						<!-- <span data-btn="y_button" onclick="minimize()" id="minimize" class="button">
+							<span class="button-label">Minimize</span>
+						</span> -->
+					</div>
+					<div id="download_failed" style="display:none;" class="alertButtonContainerBottom">
+						<span data-btn="a_button" onclick="retryDownload()" id="retry" class="button">
+							<span class="button-label">Retry</span>
+						</span>
+						<span data-btn="b_button" onclick="cancelDownload()" id="cancel" class="button">
+							<span class="button-label">Cancel</span>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="window-compact" onclick="maximize()" style="display: none;">
+		<div class="right">
+			<div class="compact_mod_information" id="compact_download_name"></div>
+			<div class="compact_progress_info" id="compact_download_count"></div>
+			<div class="compact_progress_bar"><div id="compact_progress" class="compact_progress"></div></div>
+			<button id="maximize"><img class="button"src=""></button>
+		</div>
+	</div>
+</body>
+</html>
