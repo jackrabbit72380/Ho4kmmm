@@ -1,0 +1,849 @@
+﻿<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript" src="dew://lib/dew.js"></script>
+    <script type="text/javascript" src="dew://lib/jquery-2.2.1.min.js"></script>
+    <script type="text/javascript" src="settings.js"></script>
+    <link rel="stylesheet" href="settings.css">
+
+</head>
+<body>
+    <div id="overlay"></div>
+    <div id="settingsWindow">
+        <h1 class="header">Settings</h1>
+        <ul class="tabs">
+            <img class="button"></img>
+            <li><a href="#page1">Game</a></li>
+            <li><a href="#page2">Controls</a></li>
+            <li><a href="#page3">Video</a></li>
+            <li><a href="#page10">Sound</a></li>
+            <img class="button"></img>
+        </ul>
+
+        <div id="page1"> <!-- Game -->
+            <div id="buttonContainer">
+
+				<span>
+                    <h3 class="subHeader">Default Mod Packs</h3>
+                </span>
+
+				<span>
+                <label for="sMainmenuMod">Main Menu Mod</label>
+                <select id="sMainmenuMod" class="setting">
+                    <option value="">None</option>
+                </select>
+				</span>
+
+				<span>
+				<label for="sMultiplayerMod">Multiplayer Mod</label>
+                <select id="sMultiplayerMod" class="setting">
+                    <option value="">None</option>
+                </select>
+				</span>
+
+				<span>
+                <label for="sCampaignMod">Campaign Mod</label>
+                <select id="sCampaignMod" class="setting">
+                    <option value="">None</option>
+                </select>
+				</span>
+
+				<span>
+				<label for="sFirefightMod">Firefight Mod</label>
+                <select id="sFirefightMod" class="setting">
+                    <option value="">None</option>
+                </select>
+                </span>
+
+                <span>
+                    <h3 class="subHeader">First Person</h3>
+                </span>
+                <span>
+                    <label for="wOffsetConfig">Viewmodel Config</label>
+                    <button class="tinySetting" onclick="showWeaponOffsets()">EDIT</button>
+                    <select id="wOffsetConfig" class="setting hasEdit wheelable"></select>
+                </span>
+                <span>
+                    <label for="sHoFpAnimations">Jump & Land Animations</label>
+                    <input class="setting" type="checkbox" id="sHoFpAnimations">
+                </span>
+
+                <span>
+                    <h3 class="subHeader">HUD</h3>
+                </span>
+
+                <span>
+                    <label for="cCenteredCrosshairFirst">Centered Crosshair (First Person)</label>
+                    <input class="setting" type="checkbox" id="cCenteredCrosshairFirst">
+                </span>
+                <span>
+                    <label for="cCenteredCrosshairThird">Centered Crosshair (Third Person)</label>
+                    <input class="setting" type="checkbox" id="cCenteredCrosshairThird">
+                </span>
+                <span>
+                    <label for="sHudShake">Hud Shake</label>
+                    <input class="setting" type="checkbox" id="sHudShake">
+                </span>
+
+				<span>
+                    <label for="cHideHUD">Show HUD</label>
+                    <input class="setting inverted-checkbox" type="checkbox" id="cHideHUD">
+                </span>
+
+				<span>
+                    <label for="sPlayerMarkerColors">Player Marker Colors</label>
+                    <select id="sPlayerMarkerColors" class="setting">
+                        <option value="default">Default</option>
+                        <option value="blue">Ally Blue</option>
+                        <option value="armor">Armor Colors</option>
+                    </select>
+                </span>
+
+				<span>
+                    <label for="tDisableHitmarkers">Hitmarkers</label>
+                    <input class="setting inverted-checkbox" type="checkbox" id="tDisableHitmarkers">
+                </span>
+
+				<span>
+                    <label for="tDisableWeapOutline">Item Outlines</label>
+                    <input class="setting inverted-checkbox" type="checkbox" id="tDisableWeapOutline">
+                </span>
+
+				<span>
+                    <label for="sCenteredHudScaling">Centered HUD Scaling</label>
+                    <input class="setting checkbox" type="checkbox" id="sCenteredHudScaling">
+                </span>
+
+				<span>
+                    <h3 class="subHeader">Interface</h3>
+                </span>
+                
+				<span>
+                    <label for="gExpandScoreboard">Always Expand Scoreboard</label>
+                    <input class="setting" type="checkbox" id="gExpandScoreboard">
+                </span>
+
+				<span>
+                    <label for="gHideChat">Show Chat</label>
+                    <input class="setting inverted-checkbox" type="checkbox" id="gHideChat">
+                </span>
+				
+				<span>
+                    <label for="sChatMessageLimit">Chat message history limit</label>
+                    <div class="rangeSetting">
+                        <input type="text" class="tinySetting" id="sChatMessageLimitText">
+                        <input type="range" class="setting hasTiny" min="1" max="1000" id="sChatMessageLimit">
+                    </div>
+                </span>
+
+				<span>
+                    <label for="sSkipTitleSplash">Show Title Splash Screen</label>
+                    <input class="setting inverted-checkbox" type="checkbox" id="sSkipTitleSplash">
+                </span>
+
+				<span>
+                    <h3 class="subHeader">Discord</h3>
+                </span>
+
+				<span>
+                    <label for="gdEnabled">Discord Rich Presence</label>
+                    <input class="setting checkbox" type="checkbox" id="gdEnabled">
+                </span>
+
+				<span>
+                    <label for="gdAutoAccept">Auto Accept Join Requests</label>
+                    <input class="setting checkbox" type="checkbox" id="gdAutoAccept">
+                </span>
+            </div>
+            <div id="backgroundFill"></div>
+        </div>
+
+        <div id="page2"> <!-- Controls-->
+            <div id="buttonContainer">
+
+				<span>
+                    <h3 class="subHeader">Input</h3>
+                </span>
+
+                <span>
+                    <label for="sControlsMethod">Control Method</label>
+                    <button class="tinySetting" onclick="editControls($('#sControlsMethod').val())">EDIT</button>
+                    <select id="sControlsMethod" class="setting hasEdit wheelable">
+                        <option value="0">Keyboard</option>
+                        <option value="1">Gamepad</option>
+                    </select>
+                </span>
+
+				<span>
+                    <label for="sToggleCrouch">Toggle Crouch</label>
+                    <input class="setting" type="checkbox" id="sToggleCrouch">
+                </span>
+				
+				<span>
+                    <label for="iDisableSprint">Toggle Sprint</label>
+                    <input class="setting" type="checkbox" id="iDisableSprint">
+                </span>
+
+				<span>
+                    <h3 class="subHeader">Keyboard & Mouse</h3>
+                </span>
+
+				<span>
+                    <label for="sInfantryMouseSensV">Look Vertical Mouse Sensitivity</label>
+                        <div class="rangeSetting">
+                            <input type="text" class="tinySetting" id="sInfantryMouseSensVText">
+                            <input type="range" class="setting hasTiny" min="0" max="100" id="sInfantryMouseSensV">
+                        </div>
+                </span>
+
+				<span>
+                    <label for="sInfantryMouseSensH">Look Horizontal Mouse Sensitivity</label>
+                    <div class="rangeSetting">
+                        <input type="text" class="tinySetting" id="sInfantryMouseSensHText">
+                        <input type="range" class="setting hasTiny" min="0" max="100" id="sInfantryMouseSensH">
+                    </div>
+                </span>
+
+				<span>
+                    <label for="sVehicleMouseSensV">Vehicle Look Vertical Mouse Sensitivity</label>
+                    <div class="rangeSetting">
+                        <input type="text" class="tinySetting" id="sVehicleMouseSensVText">
+                        <input type="range" class="setting hasTiny" min="0" max="100" id="sVehicleMouseSensV">
+                    </div>
+                </span>
+
+				<span>
+                    <label for="sVehicleMouseSensH">Vehicle Look Horizontal Mouse Sensitivity</label>
+                    <div class="rangeSetting">
+                        <input type="text" class="tinySetting" id="sVehicleMouseSensHText">
+                        <input type="range" class="setting hasTiny" min="0" max="100" id="sVehicleMouseSensH">
+                    </div>
+                </span>
+
+				<span>
+                    <label for="iSpectateSens">Spectator Camera Sensitivity</label>
+                    <div class="rangeSetting">
+                        <input type="text" class="tinySetting" id="iSpectateSensText">
+                        <input type="range" class="setting hasTiny" min="0" max="2" step="0.1" id="iSpectateSens">
+                    </div>
+                </span>
+
+				<span>
+                    <label for="sInvertMouse">Invert Mouse</label>
+                    <input class="setting" type="checkbox" id="sInvertMouse">
+                </span>
+
+				<span>
+                    <label for="inputRaw">Raw Input</label>
+                    <input class="setting" type="checkbox" id="inputRaw">
+                </span>
+
+				<span>
+                    <label for="sMouseFilter">Mouse Filter</label>
+                    <input class="setting" type="checkbox" id="sMouseFilter">
+                </span>
+
+				<span>
+                    <label for="sMouseAcceleration">Mouse Acceleration</label>
+                    <div class="rangeSetting">
+                        <input type="text" class="tinySetting" id="sMouseAccelerationText">
+                        <input type="range" class="setting hasTiny" min="0" max="100" id="sMouseAcceleration">
+                    </div>
+                </span>
+            </div>
+            <div id="backgroundFill"></div>
+        </div>
+
+        <div id="page5">
+            <div id="buttonContainer">
+                <table id="bindBox">
+                <thead>
+                    <tr><th>Action</th><th>Primary Bind</th><th>Secondary Bind</th></tr>
+                </thead>
+                <tbody class="Infantry"></tbody>
+                <tbody class="Vehicle"></tbody>
+                <tbody class="UI"></tbody>
+                </table>
+            </div>
+            <div id="backgroundFill"></div>
+        </div>
+
+        <div id="page3"> <!-- Video -->
+            <div id="buttonContainer">
+				<span>
+                    <h3 class="subHeader">Video</h3>
+                </span>
+
+				<span>
+                    <label for="sFullscreen">Windowed Mode</label>
+                    <input class="setting inverted-checkbox" type="checkbox" id="sFullscreen">
+                </span>
+
+				<span>
+                    <label for="sScreenResolution">Screen Resolution</label>
+                    <select id="sScreenResolution" class="setting">
+                    </select>
+                </span>
+
+				<span>
+                    <label for="sCameraFOV">Field of View</label>
+                    <div class="rangeSetting">
+                        <input type="text" class="tinySetting" id="sCameraFOVText">
+                        <input type="range" class="setting hasTiny" min="55" max="120" id="sCameraFOV">
+                    </div>
+                </span>
+
+				<span>
+                    <label for="sBrightness">Brightness</label>
+                    <div class="rangeSetting">
+                        <input type="text" class="tinySetting" id="sBrightnessText">
+                        <input type="range" class="setting hasTiny" min="1" max="100" id="sBrightness">
+                    </div>
+                </span>
+
+				<span>
+                    <label for="sContrast">Contrast</label>
+                    <div class="rangeSetting">
+                        <input type="text" class="tinySetting" id="sContrastText">
+                        <input type="range" class="setting hasTiny" min="1" max="100" id="sContrast">
+                    </div>
+                </span>
+
+				<span>
+                    <label for="sGamma">Gamma</label>
+                    <div class="rangeSetting">
+                        <input type="text" class="tinySetting" id="sGammaText">
+                        <input type="range" class="setting hasTiny" min="0" max="5" id="sGamma" step="0.1">
+                    </div>
+                </span>
+
+				<span>
+                    <h3 class="subHeader">Advanced Video</h3>
+                </span>
+
+				<span>
+                    <label for="sQualityPreset">Graphics Quality</label>
+                    <button class="tinySetting" onclick="switchPage('#page4')">EDIT</button>
+                    <select id="sQualityPreset" class="setting hasEdit wheelable">
+                        <option value="low">Low</option>
+                        <option value="medium">Medium</option>
+                        <option value="high">High</option>
+                        <option value="custom">Custom</option>
+                    </select>
+                </span>
+
+				<span>
+                    <label for="sAntiAliasing">Anti-Aliasing</label>
+                    <select id="sAntiAliasing" class="setting wheelable">
+                        <option value="0">disabled</option>
+                        <option value="1">FXAA</option>
+                        <!-- option value="2">SMAA</option -->
+                    </select>
+                </span>
+                
+                <span>
+                    <label for="sAnisotropicFiltering">Anisotropic Filtering</label>
+                    <div class="rangeSetting">
+                        <input type="text" class="tinySetting" id="sAnisotropicFilteringText">
+                        <input type="range" class="setting hasTiny" min="0" max="16" id="sAnisotropicFiltering">
+                    </div>
+                </span>
+
+				<span>
+                    <label for="sVsync">VSync</label>
+                    <input class="setting" type="checkbox" id="sVsync">
+                </span>
+                
+                <span>
+                    <label for="tExposureCpu">CPU Exposure (Bloom Patch)</label>
+                    <input class="setting" type="checkbox" id="tExposureCpu">
+                </span>
+				
+				<span>
+                    <h3 class="subHeader">Advanced CEF Options</h3>
+                </span>
+
+				<span>
+                    <label for="sCefGpuAccel">CEF Gpu Acceleration</label>
+                    <input class="setting" type="checkbox" id="sCefGpuAccel">
+                </span>
+				
+            </div>
+            <div id="backgroundFill"></div>
+        </div>
+
+        <div id="page4">
+            <div id="buttonContainer">
+                <span>
+                    <h3 class="subHeader">Advanced Video</h3>
+                </span>
+
+				<span>
+                    <label for="sTextureResolution">Texture Resolution</label>
+                    <select id="sTextureResolution" class="setting video">
+                        <option value="low">Low</option>
+                        <option value="medium">Medium</option>
+                        <option value="high">High</option>
+                    </select>
+                </span>
+
+				<span>
+                    <label for="sTextureFiltering">Texture Filtering</label>
+                    <select id="sTextureFiltering" class="setting video">
+                        <option value="low">Low</option>
+                        <option value="medium">Medium</option>
+                        <option value="high">High</option>
+                    </select>
+                </span>
+
+				<span>
+                    <label for="sLightningQuality">Lighting Quality</label>
+                    <select id="sLightningQuality" class="setting video">
+                        <option value="low">Low</option>
+                        <option value="medium">Medium</option>
+                        <option value="high">High</option>
+                    </select>
+                </span>
+
+				<span>
+                    <label for="sEffectsQuality">Effects Quality</label>
+                    <select id="sEffectsQuality" class="setting video">
+                        <option value="low">Low</option>
+                        <option value="medium">Medium</option>
+                        <option value="high">High</option>
+                    </select>
+                </span>
+
+                <span>
+                    <label for="sShadowResolution">Shadow Resolution</label>
+                    <select id="sShadowResolution" class="setting video">
+                        <option value="512">512</option>
+                        <option value="1024">1024</option>
+                        <option value="2048">2048</option>
+                        <option value="4096">4096</option>
+                        <option value="8192">8192</option>
+                        <option value="16384">16384</option>
+                    </select>
+                </span>
+
+                <span>
+                    <label for="sShadowQuality">Shadow Count</label>
+                    <select id="sShadowQuality" class="setting video">
+                        <option value="low">Low</option>
+                        <option value="medium">Medium</option>
+                        <option value="high">High</option>
+                    </select>
+                </span>
+
+				<span>
+                    <label for="sDetailsLevel">Details Level</label>
+                    <select id="sDetailsLevel" class="setting video">
+                        <option value="low">Low</option>
+                        <option value="medium">Medium</option>
+                        <option value="high">High</option>
+                    </select>
+                </span>
+
+				<span>
+                    <label for="sPostprocessing">Postprocessing</label>
+                    <select id="sPostprocessing" class="setting video">
+                        <option value="low">Low</option>
+                        <option value="medium">Medium</option>
+                        <option value="high">High</option>
+                    </select>
+                </span>
+
+				<span>
+                    <label for="sReflections">Reflections</label>
+                    <input class="setting video" type="checkbox" id="sReflections">
+                </span>
+
+				<span>
+                    <label for="sMotionBlur">Motion Blur</label>
+                    <input class="setting video" type="checkbox" id="sMotionBlur">
+                </span>
+
+				<span>
+                    <label for="sMotionBlurStrength">Motion Blur Strength</label>
+                    <div class="rangeSetting">
+                        <input type="text" class="tinySetting" id="sMotionBlurStrengthText">
+                        <input type="range" class="setting hasTiny" min="0" max="1" id="sMotionBlurStrength" step="0.025">
+                    </div>
+                </span>
+
+				<span>
+                    <label for="sMotionBlurAlways">Motion Blur Always</label>
+					<input class="setting video" type="checkbox" id="sMotionBlurAlways">
+                </span>
+				
+				<span>
+                    <label for="sSSAOEnabled">SSAO</label>
+					<input class="setting video" type="checkbox" id="sSSAOEnabled">
+                </span>
+				
+				<span>
+                    <label for="sDecoratorDistance">Decorator Visibility Radius</label>
+                    <div class="rangeSetting">
+                        <input type="text" class="tinySetting" id="sDecoratorDistanceText">
+                        <input type="range" class="setting hasTiny" min="0" max="5" id="sDecoratorDistance" step="1">
+                    </div>
+                </span>
+				
+				<span>
+                    <label for="sLODDistance">LOD Distance</label>
+                    <div class="rangeSetting">
+                        <input type="text" class="tinySetting" id="sLODDistanceText">
+                        <input type="range" class="setting hasTiny" min="1" max="10" id="sLODDistance" step="0.5">
+                    </div>
+                </span>
+            </div>
+            <div id="backgroundFill"></div>
+        </div>
+
+        <div id="page8">
+            <div id="buttonContainer">
+                <span>
+                    <label for="presetMenu">Button Layout</label>
+                    <button class="tinySetting" onclick="switchPage('#page9')">EDIT</button>
+                    <select id="presetMenu" class="setting hasEdit wheelable"></select>
+                </span>
+
+				<span>
+                    <label for="stickLayout">Stick Layout</label>
+                    <select id="stickLayout" class="setting">
+                        <option value="0">Default</option>
+                        <option value="1">Southpaw</option>
+                        <option value="2">Legacy</option>
+                        <option value="3">Legacy Southpaw</option>
+                    </select>
+                </span>
+
+				<span class="looksensitivity">
+                    <label for="lookSensitivity">Look Sensitivity</label>
+                    <button class="tinySetting" onclick="switchPage('#page11')">EDIT</button>
+                    <div class="rangeSetting">
+                        <input type="text" class="tinySetting" id="lookSensitivityText" class="setting">
+                        <input type="range" min="1" max="15" id="lookSensitivity" class="setting hasTiny hasEdit">
+                    </div>
+                </span>
+
+				<span>
+                    <label for="invertLook">Invert Look</label>
+                    <input class="setting" type="checkbox" id="invertLook">
+                </span>
+
+				<span>
+                    <label for="controllerPort">Port Number (Default is 0)</label>
+                    <select id="controllerPort" class="setting">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </span>
+
+				<span>
+                    <label for="controllerVibration">Controller Vibration (Default is 1)</label>
+                    <div class="rangeSetting">
+                        <input type="text" class="tinySetting" id="controllerVibrationText" class="setting">
+                        <input type="range" min="0" max="1" step="0.05" id="controllerVibration" class="setting hasTiny">
+                    </div>
+                </span>
+            </div>
+            <div id="controllerGraphic">
+                <img id="controllerPic" src="dew://assets/settings/controller.png">
+                <div id="A"></div>
+                <div id="B"></div>
+                <div id="X"></div>
+                <div id="Y"></div>
+                <div id="RB"></div>
+                <div id="LB"></div>
+                <div id="LT"></div>
+                <div id="RT"></div>
+                <div id="Start"></div>
+                <div id="Back"></div>
+                <div id="LS"></div>
+                <div id="RS"></div>
+                <div id="Left"></div>
+                <div id="Right"></div>
+                <div id="Up"></div>
+                <div id="Down"></div>
+            </div>
+            <div id="backgroundFill"></div>
+        </div>
+
+        <div id="page11">
+            <div id="buttonContainer">
+                <span>
+                    <h3 class="subHeader">Advanced Controller Sensitivity</h3>
+                </span>
+
+				<span>
+                    <label for="xSens">X Axis</label>
+                    <div class="rangeSetting">
+                        <input type="text" step="any" class="tinySetting" id="xSensText">
+                        <input type="range" class="setting hasTiny" min="0" max="300" step="1" id="xSens">
+                    </div>
+                </span>
+
+				<span>
+                    <label for="ySens">Y Axis</label>
+                    <div class="rangeSetting">
+                        <input type="text" step="any" class="tinySetting" id="ySensText">
+                        <input type="range" class="setting hasTiny" min="0" max="300" step="1" id="ySens">
+                    </div>
+                </span>
+            </div>
+            <div id="backgroundFill"></div>
+				</div>
+
+        <div id="page9">
+            <div id="buttonContainer">
+                <span>
+                    <label for="Jump">Jump</label>
+                    <select class="bind setting" id="Jump"></select>
+                </span><span>
+                    <label for="Melee">Melee</label>
+                    <select class="bind setting" id="Melee"></select>
+                </span><span>
+                    <label for="Reload">Reload</label>
+                    <select class="bind setting" id="Reload"></select>
+                </span><span>
+                    <label for="Use">Use</label>
+                    <select class="bind setting" id="Use"></select>
+                </span><span>
+                    <label for="SwitchWeapons">Switch Weapons</label>
+                    <select class="bind setting" id="SwitchWeapons"></select>
+                </span><span>
+                    <label for="Crouch">Crouch</label>
+                    <select class="bind setting" id="Crouch"></select>
+                </span><span>
+                    <label for="Zoom">Zoom</label>
+                    <select class="bind setting" id="Zoom"></select>
+                </span><span>
+                    <label for="Fire">Fire</label>
+                    <select class="bind setting" id="Fire"></select>
+                </span><span>
+                    <label for="Grenade">Grenade</label>
+                    <select class="bind setting" id="Grenade"></select>
+                </span><span>
+                    <label for="SwitchGrenades">Switch Grenades</label>
+                    <select class="bind setting" id="SwitchGrenades"></select>
+                </span><span>
+                    <label for="Sprint">Sprint</label>
+                    <select class="bind setting" id="Sprint"></select>
+                </span><span>
+                    <label for="DualWield">Dual Wield</label>
+                    <select class="bind setting" id="DualWield"></select>
+                </span><span>
+                    <label for="FireLeft">Fire Dual</label>
+                    <select class="bind setting" id="FireLeft"></select>
+                </span><span>
+                    <label for="ReloadLeft">Reload Dual</label>
+                    <select class="bind setting" id="ReloadLeft"></select>
+                </span><span>
+                    <label for="UseEquipment">Use Equipment</label>
+                    <select class="bind setting" id="UseEquipment"></select>
+                </span><span>
+                    <label for="VehicleAccelerate">Vehicle Accelerate</label>
+                    <select class="bind setting" id="VehicleAccelerate"></select>
+                </span><span>
+                    <label for="VehicleBrake">Vehicle Brake</label>
+                    <select class="bind setting" id="VehicleBrake"></select>
+                </span><span>
+                    <label for="VehicleBoost">Vehicle Boost</label>
+                    <select class="bind setting" id="VehicleBoost"></select>
+                </span><span>
+                    <label for="VehicleRaise">Vehicle Raise</label>
+                    <select class="bind setting" id="VehicleRaise"></select>
+                </span><span>
+                    <label for="VehicleDive">Vehicle Dive</label>
+                    <select class="bind setting" id="VehicleDive"></select>
+                </span><span>
+                    <label for="VehicleFire">Vehicle Fire</label>
+                    <select class="bind setting" id="VehicleFire"></select>
+                </span><span>
+                    <label for="VehicleAltFire">Vehicle Alt Fire</label>
+                    <select class="bind setting" id="VehicleAltFire"></select>
+                </span><span>
+                    <label for="BansheeBomb">Banshee Bomb</label>
+                    <select class="bind setting" id="BansheeBomb"></select>
+                </span><span>
+                    <label for="Chat">Chat</label>
+                    <select class="bind setting" id="Chat"></select>
+                </span><span>
+                    <label for="TeamChat">Team Chat</label>
+                    <select class="bind setting" id="TeamChat"></select>
+                </span><span>
+                    <label for="Menu">Menu</label>
+                    <select class="bind setting" id="Menu"></select>
+                </span><span>
+                    <label for="Scoreboard">Scoreboard</label>
+                    <select class="bind setting" id="Scoreboard"></select>
+                </span><span>
+                    <label for="VoiceChat">Voice Chat</label>
+                    <select class="bind setting" id="VoiceChat"></select>
+                </span><span>
+                    <label for="Flashlight">Flashlight</label>
+                    <select class="bind setting" id="Flashlight"></select>
+                </span>
+                <span>
+                    <label for="Emote">Emote</label>
+                    <select class="bind setting" id="Emote"></select>
+                </span>
+
+            </div>
+            <div id="backgroundFill"></div>
+        </div>
+
+        <div id="page10"> <!-- Sound -->
+            <div id="buttonContainer">
+				<span>
+                    <h3 class="subHeader">Volume</h3>
+                </span>
+				<span>
+                    <label for="sAudioDevice">Audio Device</label>
+                    <select id="sAudioDevice"class="setting"></select>
+                </span>
+
+				<span>
+                    <label for="sMasterVolume">Master Volume</label>
+                    <div class="rangeSetting">
+                        <input type="text" class="tinySetting" id="sMasterVolumeText">
+                        <input type="range" class="setting hasTiny" min="0" max="100" id="sMasterVolume">
+                    </div>
+                </span>
+
+				<span>
+                    <label for="sSFXVolume">SFX Volume</label>
+                    <div class="rangeSetting">
+                        <input type="text" class="tinySetting" id="sSFXVolumeText">
+                        <input type="range" class="setting hasTiny" min="0" max="100" id="sSFXVolume">
+                    </div>
+                </span>
+
+				<span>
+                    <label for="sMusicVolume">Game Music Volume</label>
+                    <div class="rangeSetting">
+                        <input type="text" class="tinySetting" id="sMusicVolumeText">
+                        <input type="range" class="setting hasTiny" min="0" max="100" id="sMusicVolume">
+                    </div>
+                </span>
+				
+				<span>
+                    <label for="sMainMenuMusicVolume">Main Menu Music Volume</label>
+                    <div class="rangeSetting">
+                        <input type="text" class="tinySetting" id="sMainMenuMusicVolumeText">
+                        <input type="range" class="setting hasTiny" min="0" max="100" id="sMainMenuMusicVolume">
+                    </div>
+                </span>
+				
+                <span>
+                    <h3 class="subHeader">SUBTITLES</h3>
+                </span>
+				
+                <span>
+                    <label for="sSubtitlesDisplay">Subtitles</label>
+                    <select id="sSubtitlesDisplay" class="setting">
+                        <option value="0">AUTOMATIC</option>
+                        <option value="1">ENABLED</option>
+                        <option value="2">DISABLED</option>
+                    </select>
+                </span>
+
+				<span>
+                    <h3 class="subHeader">VOIP</h3>
+                </span>
+
+				<span>
+                    <label for="vEnabled">Voice Chat</label>
+                    <input class="setting voip" type="checkbox" id="vEnabled">
+                </span>
+
+				<span>
+                    <label for="vPTTEnable">Push To Talk</label>
+                    <input class="setting voip" type="checkbox" id="vPTTEnable">
+                </span>
+
+                <span>
+                    <label for="vPTTSound">Push To Talk UI Sounds</label>
+                    <input class="setting voip" type="checkbox" id="vPTTSound">
+                </span>
+
+				<span>
+                    <label for="vMicrophoneID">Microphone Device</label>
+                    <select id="vMicrophoneID"class="setting voip"></select>
+                </span>
+
+				<span>
+                    <label for="vEchoCancelation">Echo Cancelation</label>
+                    <input class="setting voip" type="checkbox" id="vEchoCancelation">
+                </span>
+
+				<span>
+                    <label for="vAGC">Automatic Gain Control</label>
+                    <input class="setting voip" type="checkbox" id="vAGC">
+                </span>
+
+				<span>
+                    <label for="vNoiseSupress">Noise Suppression</label>
+                    <input class="setting voip" type="checkbox" id="vNoiseSupress">
+                </span>
+
+                <span>
+                    <label for="vIncomingVolume">Voice Chat Volume</label>
+                    <div class="rangeSetting">
+                        <input type="text" class="tinySetting" id="vIncomingVolumeText">
+                        <input type="range" class="setting hasTiny" min="0" max="2" step="0.05" id="vIncomingVolume">
+                    </div>
+                </span>
+                
+                <span>
+                    <label for="vOutgoingVolume">Input Voice Volume</label>
+                    <div class="rangeSetting">
+                        <input type="text" class="tinySetting" id="vOutgoingVolumeText">
+                        <input type="range" class="setting hasTiny" min="0" max="2" step="0.05" id="vOutgoingVolume">
+                    </div>
+                </span>
+                
+                <span>
+                    <label for="vListenToMicrophone">Listen To Microphone</label>
+                    <input class="setting voip" type="checkbox" id="vListenToMicrophone">
+                </span>
+
+                <span>
+                    <label for="vMaximumBitrate">VoIP Bitrate</label>
+                    <div class="rangeSetting">
+                        <input type="text" class="tinySetting" id="vMaximumBitrateText" style="z-index: 1000;">
+                        <input type="range" class="setting hasTiny" min="9000" max="64000" step="1000" id="vMaximumBitrate">
+                    </div>
+                </span>
+            </div>
+            <div id="backgroundFill"></div>
+        </div>
+        <div class="bottomBar">
+            <button id="applyButton"><img class="button"><span id="applyButtonText">Apply</span></button>
+            <button id="resetButton"><img class="button"><span id="resetButtonText">Reset</span></button>
+            <button id="cancelButton"><img class="button"><span id="cancelButtonText">Close</span></button>
+        </div>
+    </div>
+    <script src="dew://lib/input.js"></script>
+</body>
+</html>
+
+
+
+<!--        Template for other control methods
+            <label for="sBlah">Spinner</label>
+            <input type="number" class="setting" id="sBlah" min="5" max="30" step="5">
+            </span><span>
+
+            <label for="yText">Text</label>
+            <input class="setting textInput" type="text" id="yText">
+            </span><span>
+
+            <label for="yTextArea">Text Area</label>
+            <textarea class="setting" type="text" id="yTextArea"></textarea>
+            </span><span>
+-->
