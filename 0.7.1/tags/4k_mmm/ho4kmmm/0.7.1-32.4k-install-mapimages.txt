@@ -1,0 +1,283 @@
+echo fyi org 0.1.7 bitmap size 928x304
+echo fyi org 4k bitmap size 2816x880
+echo cef dir F:\Halo\ElDewrito\ui\assets\maps\small
+echo cef size he3 pix 1152x378 odst pics are 1152x423
+
+echo-ui\halox\pregame_lobby\map_images\unknown_film_ui
+echo-ui\halox\pregame_lobby\nightmap_background_ui
+echo-ui\halox\pregame_lobby\selection\films_ui
+echo-ui\halox\start_menu\panes\game_editor\controller_ui
+echo-ui\halox\campaign\difficulty_ui
+echo-ui\halox\campaign\difficulty_slots_ui
+echo-ui\halox\campaign\locked_ui
+
+openmodpackage "ho4kmmm.pak"
+
+edittag ui\eldewrito\common\map_bitmaps\005_intro.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\005_intro.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\010_jungle.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\010_jungle.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\020_base.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\020_base.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\030_outskirts.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\030_outskirts.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\040_voi.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\040_voi.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\050_floodvoi.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\050_floodvoi.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\070_waste.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\070_waste.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\100_citadel.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\100_citadel.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\110_hc.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\110_hc.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\120_halo.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\120_halo.dds
+savetagchanges
+exit
+
+echo-
+echo-edittag ui\eldewrito\common\map_bitmaps\130_epilogue.bitmap
+echo-importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\130_epilogue.dds
+echo-savetagchanges
+echo-exit
+
+edittag ui\eldewrito\common\map_bitmaps\armory.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\armory.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\bunkerworld.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\bunkerworld.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\c100.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\c100.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\c200.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\c200.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\chill.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\chill.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\chillout.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\chillout.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\construct.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\construct.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\cyberdyne.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\cyberdyne.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\deadlock.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\deadlock.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\descent.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\descent.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\docks.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\docks.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\fortress.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\fortress.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\ghosttown.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\ghosttown.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\guardian.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\guardian.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\h100.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\h100.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\isolation.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\isolation.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\l200.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\l200.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\l300.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\l300.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\lockout.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\lockout.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\midship.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\midship.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\placeholder.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\placeholder.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\riverworld.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\riverworld.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\s3d_avalanche.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\s3d_avalanche.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\s3d_edge.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\s3d_edge.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\s3d_reactor.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\s3d_reactor.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\s3d_turf.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\s3d_turf.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\salvation.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\salvation.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\sandbox.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\sandbox.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\sc100.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\sc100.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\sc110.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\sc110.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\sc120.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\sc120.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\sc130.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\sc130.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\sc140.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\sc140.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\sc150.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\sc150.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\shrine.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\shrine.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\sidewinder.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\sidewinder.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\snowbound.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\snowbound.dds
+savetagchanges
+exit
+
+echo-edittag ui\eldewrito\common\map_bitmaps\spacecamp.bitmap
+echo-importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\spacecamp.dds
+echo-savetagchanges
+echo-exit
+
+edittag ui\eldewrito\common\map_bitmaps\warehouse.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\warehouse.dds
+savetagchanges
+exit
+
+edittag ui\eldewrito\common\map_bitmaps\zanzibar.bitmap
+importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\zanzibar.dds
+savetagchanges
+exit
+
+echo-edittag ui\eldewrito\common\map_bitmaps\matchmaking.bitmap
+echo-importbitmap 0 "F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\matchmaking.dds
+echo-savetagchanges
+echo-exit
+
+
+echo edittag levels\gamecheat13\mp_ai_playground\bitmaps\gfxt.bitmap
+echo importbitmap 0 F:\Halo\ElDewrito\tags\4k_bitmaps\ui\eldewrito\common\map_bitmaps\mp_ai_playground.dds
+echo savetagchanges
+echo exitto tags
+
+savemodpackage

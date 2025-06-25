@@ -1,0 +1,25 @@
+edittag ui\halox\pregame_lobby\channel_campaign_ui.bitmap
+setfield Images[0].Width 640
+setfield Images[0].Height 1
+
+edittag ui\halox\pregame_lobby\channel_campaign_ui_custom.bitmap
+setfield Images[0].Width 640
+setfield Images[0].Height 1
+
+edittag ui\halox\pregame_lobby\pregame_lobby_template.gui_group_widget_definition
+setfield BitmapWidgets[0].Definition.GuiRenderBlock.Bounds720p -670 -1185 1210 448
+setfield BitmapWidgets[0].Definition.GuiRenderBlock.Bounds480i 285 40 450 216
+setfield BitmapWidgets[1].Definition.GuiRenderBlock.Bounds720p -1 -1 641 1300
+setfield BitmapWidgets[2].Definition.GuiRenderBlock.Bounds720p -670 -1185 1210 448
+setfield BitmapWidgets[2].Definition.GuiRenderBlock.Bounds480i 285 40 450 216
+setfield BitmapWidgets[3].Definition.GuiRenderBlock.Bounds720p -9000 -9000 9000 9000
+setfield TextWidgets[0].Definition.GuiRenderBlock.Bounds720p -470 -1175 1259 -100
+setfield TextWidgets[0].Definition.GuiRenderBlock.Bounds480i 285 40 450 216
+setfield TextWidgets[1].Definition.GuiRenderBlock.Bounds720p -470 1346 73 2000
+setfield TextWidgets[1].Definition.GuiRenderBlock.Bounds480i 23 444 53 640
+setfield TextWidgets[2].Definition.GuiRenderBlock.Bounds720p 1000 -1185 1042 420
+setfield TextWidgets[2].Definition.GuiRenderBlock.Bounds480i 421 0 451 580
+setfield TextWidgets[3].Definition.GuiRenderBlock.Bounds720p 551 88 579 537
+setfield TextWidgets[4].Definition.GuiRenderBlock.Bounds720p 227 88 377 537
+setfield TextWidgets[5].Definition.GuiRenderBlock.Bounds720p 195 88 225 537
+savetagchanges

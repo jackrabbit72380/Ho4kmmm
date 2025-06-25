@@ -1,0 +1,16 @@
+echo - you can use the addmodfiles assets or deletemodfiles assets command to add a preview.png for your mod pak file.
+
+openmodpackage "h3-campaign-4km.pak"
+addmodfiles "F:\Halo\ElDewrito\maps\assets\h3-campaign-4km-preview\assets"
+savemodpackage
+exitmodpackage
+
+openmodpackage "odst-firefight-4km.pak"
+addmodfiles "F:\Halo\ElDewrito\maps\assets\odst-firefight-4km-preview\assets"
+savemodpackage
+exitmodpackage
+
+openmodpackage "h3-mythic-4km.pak"
+addmodfiles "F:\Halo\ElDewrito\maps\assets\h3-mythic-4km-preview\assets"
+savemodpackage
+exitmodpackage
