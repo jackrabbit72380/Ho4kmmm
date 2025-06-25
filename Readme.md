@@ -38,8 +38,9 @@ Star date Log 6-25-25
 How to use this you might ask? Download the Tags folder to your ElDewrito Directory. Find a mod you want to apply to your .pak file. Open the script and change the name of the .pak file to your's. make sure the directory for your .dds files is correctly referencing the .dds image that it's for. Then run the script. and it will install the mod to your .pak file. Please note that the porting scripts work differently they make new .pak files. and require maps.
 
 also Please note that the 4k_mmm ...main menu mod is still being worked on and improved upon. More mod scripts and bitmaps can be added. This tags directory is being built with my own personal mod projects folder. Once downloaded you can start to make your own versions as needed and just use or make new scripts as needed. buy referencing mine.
+it is verry easy to replace the bitmaps with your own and rerun the mod scripts for adding a truly custom user interface for your own mods. Enjoy!
 
 Question.. Where's the Skulls?
 Answer..
-it is verry easy to replace the bitmaps with your own and rerun the mod scripts for adding a truly custom user interface for your own mods. Enjoy! one question i keep getting is where are the skulls at so here's the answer. there are 3 sets to choose from at the moment Default, Pixel flare, and H2anv. the bitmaps are in ElDewrito\tags\4k_bitmaps\ui\halox\campaign and the CEF menu sculls are in the 4k_menu_skins. & then the scripts to install them are in the 4k_mmm folder.  make sure to check the description.txt and that your installing the correct scripts for your version of halo.
+ one question i keep getting is where are the skulls at so here's the answer. there are 3 sets to choose from at the moment Default, Pixel flare, and H2anv. the bitmaps are in ElDewrito\tags\4k_bitmaps\ui\halox\campaign and the CEF menu sculls are in the 4k_menu_skins. & then the scripts to install them are in the 4k_mmm folder.  make sure to check the description.txt and that your installing the correct scripts for your version of halo.
 __________________________________________________________________________________________________________________________
