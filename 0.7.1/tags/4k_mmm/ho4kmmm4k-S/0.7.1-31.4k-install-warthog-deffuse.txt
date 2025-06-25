@@ -1,0 +1,9 @@
+openmodpackage "ho4kmmm.pak"
+edittag objects\vehicles\warthog\bitmaps\warthog_diffuse_upscaled.bitmap
+importbitmap 0 F:\Halo\ElDewrito\tags\bitmaps\warthog_diffuse_upscaled.dds
+setfield Images[0].Width 2048
+setfield Images[0].Height 2049
+savetagchanges
+exit
+savemodpackage
+exitmodpackage
