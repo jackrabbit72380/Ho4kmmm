@@ -1,0 +1,251 @@
+@font-face{font-family:"Conduit ITC";src:url(dew://lib/Conduit-ITC.woff);}
+
+html {
+	cursor: default;    
+	overflow: hidden;
+}
+
+body {
+	margin: 0;
+	font-family: "Conduit ITC", sans-serif;
+}
+
+.background {
+	position: absolute;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.eldorito {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 20%;
+}
+.teamlogo {
+	position: absolute;
+	margin: 0;
+	bottom: 3%;
+	right: 3%;
+    width: 30vh;
+	opacity: 0.9;
+}
+.instructionText {
+	position: absolute;
+	bottom: 24%;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: 3vh;
+	z-index: 2;
+	opacity: 0.8;
+	line-height: 3vh;
+}
+
+.instructionText img{
+	position: relative;
+	top: 1.4vh;
+	height: 5vh;
+}
+
+.title {
+	position: absolute;
+	bottom: 3%;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: 2vh;
+	z-index: 2;
+	opacity: 0.5;
+	text-align: inherit;
+	padding-left: 3%;
+}
+
+.legend {
+	position: absolute;
+	width: 32vmin;
+	height: 14vmin;
+	top: 3%;
+	left: 1%;
+	/* border: 2px solid white; */
+	/* background: rgba(0, 0, 0, 0.5); */
+	opacity: 0.75;
+}
+
+.legend img{
+	height: 4vh;
+}
+
+#navigate {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	text-align: left;
+	font-size: 3vmin;
+	color: white;
+	padding-left: 8%;
+}
+
+#up{
+	position: absolute;
+	left: 20%;
+	top: 28.5%;
+}
+
+#down{
+	position: absolute;
+	left: 20%;
+	top: 55%;  
+}
+
+#left{
+	position: absolute;
+	left: 8%;
+	top: 55%;  
+}
+
+#right{
+	position: absolute;
+	left: 32%;
+	top: 55%;  
+}
+
+#enter {
+	position: absolute;
+	left: 50%;
+	top: 40%;
+}
+
+#mouse {
+	position: absolute;
+	left: 90%;
+	top: 33%;
+	height: 5.5vh;
+}
+
+#esc {
+	position: absolute;
+	left: 70%;
+	top: 40%;
+}
+
+#dpad {
+	display: none;
+	position: absolute;
+	left: 20%;
+	top: 35%;
+	height: 5vh;
+}
+
+#announcementBG{
+	display: none;
+	position: absolute;
+	top:0;left:0;right: 0;bottom: 0;
+	width: 100%;
+	height: 100%;
+	background:rgba(0, 0, 0, 0.7);
+	z-index: 9;
+}
+
+#announcementBox{
+	z-index: 10;
+	display: none; 
+	position: absolute;
+	top: 20%;
+	left:0%;
+	right: 0%;
+	width: 100%;
+	height:55vh;
+	background:rgba(0, 0, 0, 0);
+}
+
+#announcementBox a{
+	color: #95bde1; 
+}
+
+.announcement{
+	border-top:1px solid rgba(98, 111, 121, 0.25);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 55vh;
+	background-color: #14234a;
+	background-image: url(dew://assets/announcements/welcome_01.jpg);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	padding-left: 16.66667vh;
+	box-sizing: border-box;
+	padding-right: 58%;
+}
+
+.announcement p{
+	text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.16);
+	color: #94A4B7;
+	font-size: 1.94444vh;
+	opacity: 0.75;
+}
+
+.announcement p.announceTitle {
+	color: #F0F0F0;
+	font-size: 7.5vh;
+	opacity: 1;
+}
+
+.announcement p.announcesubTitle {
+	color: #F0F0F0;
+	font-size: 4.44444vh;
+}
+
+img#closeAnnounceButton {
+	width: 3.33333vh;
+	margin-top: 0.41667vh;
+}
+
+#announcementBox #buttonNav{
+	position: absolute;
+	top: 55vh;
+	bottom: initial;
+	left: 0;
+	height: 4.44444vh;
+	width: 100%;
+	background-color: black;
+	color: white;
+	box-sizing: border-box;
+	padding-left: 16.66667vh;
+}
+
+#buttonNav{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 10%;
+	width: 100%;
+	background-color: rgba(6, 9, 12, 0.75);
+	color: white;
+	border-top:1px solid rgba(98, 111, 121, 0.25);
+	border-bottom:1px solid rgba(98, 111, 121, 0.25);
+}
+#buttonNav a {
+    line-height: 3.88889vh;
+    font-size: 2.8vh;
+    vertical-align: text-bottom;
+    color: #F0F0F0;
+    padding-left: 0.3vh;
+}
+
+#blackLayer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background-color: black;
+	z-index: 10;
+}
+
+a:hover {
+	text-decoration: underline;
+}
