@@ -17,7 +17,7 @@ You may use this with the stipulation that you give credit to.
  
  Masters1337
 
-to my knowlage over 15 people contributed to this project.  I dont have all of t here names.
+to my knowlage over 15 people contributed to this project.  I dont have all of there names.
 buy all means if your name belongs in the credits please let me know.
 
 Known Bug:issue with Helmet color.
