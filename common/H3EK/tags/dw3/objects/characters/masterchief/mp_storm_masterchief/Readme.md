@@ -1,4 +1,9 @@
 ## mp_storm_masterchief
+
+Screenshots
+![Screenshot](https://github.com/jackrabbit72380/ho4kmmm/blob/master/common/H3EK/tags/dw3/objects/characters/masterchief/mp_storm_masterchief/mp_storm_masterchief_preview.jpg)
+
+
 You may use this with the stipulation that you give credit to.
 
  Chunkierbean
@@ -21,6 +26,3 @@ to my knowlage over 15 people contributed to this project.  I dont have all of t
 buy all means if your name belongs in the credits please let me know.
 
 Known Bug:  Issue with Helmet color.
-
-Screenshots
-![Screenshot](https://github.com/jackrabbit72380/ho4kmmm/blob/master/common/H3EK/tags/dw3/objects/characters/masterchief/mp_storm_masterchief/mp_storm_masterchief_preview.jpg)
