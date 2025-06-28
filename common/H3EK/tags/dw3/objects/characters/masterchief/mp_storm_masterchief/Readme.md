@@ -1,4 +1,4 @@
-mp_storm_masterchief
+#mp_storm_masterchief
 you may use this with the stipulation that you give credit to.
 
 chunkierbean
