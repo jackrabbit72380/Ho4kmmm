@@ -17,6 +17,5 @@ Known Bug:issue with Helmet color.
 
 Screenshots
 
-!\[Screenshot]([[https://github.com/jackrabbit72380/Ho4kmmm/blob/master/common/H3EK/tags/dw3/objects/characters/masterchief/mp_storm_masterchief/Preview.jpg])
 
-
+![Screenshot](https://github.com/jackrabbit72380/ho4kmmm/blob/master/Ho4kmmm/blob/master/common/H3EK/tags/dw3/objects/characters/masterchief/mp_storm_masterchief/Preview.jpg])
