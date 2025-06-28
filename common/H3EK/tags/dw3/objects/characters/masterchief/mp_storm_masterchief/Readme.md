@@ -1,12 +1,23 @@
-H4 Forge Island as H3 Forge Object resizable with collision. did the rocks at the bottom separately to for using as cliffs.
+mp_storm_masterchief
+you may use this with the stipulation that you give credit to.
 
-The normal maps and specular maps are in there if you guys want to tweak the shaders
+chunkierbean
+jackrabbit72380
+lordzedd
+noshots
+gravemind
+Kornman00
+Dennis
+Masters1337
 
-I'm sure you can make crate tags your self if need be.
+to my knolage over 15 people contributed to this project.  I dont have all of t here names.
+buy all means if your name belongs in the credits please let me know.
+
+Known Bug:issue with Helmet color.
 
 Screenshots
 
-!\[Screenshot](https://github.com/jackrabbit72380/ho4kmmm/blob/master/common/H3EK/tags/levels/multi/h4\_forge\_island/scenary/h4\_forge\_island/h4\_forge\_island\_preview.jpg)
+!\[Screenshot](https://github.com/jackrabbit72380/ho4kmmm/blob/master/common/H3EK/tags/dw3/objects/characters/masterchief/mp_storm_masterchief/Preview.jpg
 
 
 
