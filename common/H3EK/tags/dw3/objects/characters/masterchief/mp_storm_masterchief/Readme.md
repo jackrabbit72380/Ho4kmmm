@@ -1,15 +1,15 @@
 ## mp_storm_masterchief
 You may use this with the stipulation that you give credit to.
 
- chunkierbean
+ Chunkierbean
  
- jackrabbit72380
+ Jackrabbit72380
  
- lordzedd
+ Lordzedd
  
- noshots
+ Noshots
  
- gravemind
+ Gravemind
  
  Kornman00
  
