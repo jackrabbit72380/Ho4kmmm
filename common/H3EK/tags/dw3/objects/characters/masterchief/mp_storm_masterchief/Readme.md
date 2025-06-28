@@ -1,14 +1,21 @@
 ## mp_storm_masterchief
 You may use this with the stipulation that you give credit to.
 
-# chunkierbean
-# jackrabbit72380
-# lordzedd
-# noshots
-# gravemind
-# Kornman00
-# Dennis
-# Masters1337
+ chunkierbean
+ 
+ jackrabbit72380
+ 
+ lordzedd
+ 
+ noshots
+ 
+ gravemind
+ 
+ Kornman00
+ 
+ Dennis
+ 
+ Masters1337
 
 to my knowlage over 15 people contributed to this project.  I dont have all of t here names.
 buy all means if your name belongs in the credits please let me know.
