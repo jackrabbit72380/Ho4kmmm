@@ -25,4 +25,4 @@ Screenshots
  
  fix powerups
  
- fix dark void in the sky
+ fix lighting
