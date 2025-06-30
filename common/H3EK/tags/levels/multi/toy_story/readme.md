@@ -37,9 +37,9 @@ change name to andys bedroom
 + fix lights
 + fix closet
 
-Credits
-disney,
-pixar,
-microsoft,
-jackrabbit72380,
+Credits 
+disney, 
+pixar, 
+microsoft, 
+jackrabbit72380, 
 deleted14443789
