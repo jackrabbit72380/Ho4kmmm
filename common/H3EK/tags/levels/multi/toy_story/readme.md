@@ -37,7 +37,7 @@ change name to andys bedroom
 + fix lights
 + fix closet
 
-credits
+Credits
 disney,
 pixar,
 microsoft,
