@@ -12,6 +12,10 @@ Screenshots
 
 ![Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/common/H3EK/tags/levels/multi/toy_story/previews/preview5.jpg)
 
+credits 
+jackrabbit72380
+deleted14443789
+
 You can download Buzz Here
 https://www.nexusmods.com/halothemasterchiefcollection/mods/2001
 You can download woodie Here
