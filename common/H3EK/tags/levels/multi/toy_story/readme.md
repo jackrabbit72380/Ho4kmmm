@@ -20,7 +20,7 @@ https://www.nexusmods.com/halothemasterchiefcollection/mods/2001
 You can download woodie Here
 https://www.nexusmods.com/halothemasterchiefcollection/mods/1891
 
-## todo
+## Todo
 
 change name to andys bedroom
 
@@ -56,7 +56,7 @@ fix lights,
 
 fix closet,
 
-Credits 
+## Credits 
 
 disney, 
 
