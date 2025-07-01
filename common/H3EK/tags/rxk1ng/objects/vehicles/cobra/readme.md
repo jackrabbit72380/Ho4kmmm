@@ -11,5 +11,5 @@ rxk1ng
 jackrabbit72380
 
 todo
-
+shaders and bitmaps need some tweeks.
 it needs some fixing.
