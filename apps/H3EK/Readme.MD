@@ -21,7 +21,11 @@ V1 - Koko-8 would be default Font size 8.
 V2 - Koko-11 would have 3x font size increase.
 Choose your secondary weapon!
 
-Koko i have compiled 2 new versions of guerilla aka KOKO with only font upgrades the upgrades are 1. Koko-8. Koko-8 use convection ui from xbox so you can see more of your tag information on screen with crip clean clear type font with no real size change! this is huge improvement over the original guerilla. 2.Koko-11  Koko 11 is the same but with a 3x font increase for even better readability. bad news is koko does not contain dark mode to change your theme internaly like Troglidiyte but the good news is that its not even needed now sense we can now control themes through any windows 11 night mode theme. to get a dark mode you will need to use any Windows 11 Night Theme.
+Koko i have compiled 2 new versions of guerilla aka KOKO with only font upgrades the upgrades are 1. Koko-8. Koko-8 use convection ui from xbox so you can see more of your tag information on screen with crip clean clear type font with no real size change! this is huge improvement over the original guerilla. 2.Koko-11  Koko 11 is the same but with a 3x font increase for even better readability. bad news is koko does not contain dark mode to change your theme internaly like Troglidiyte but the good news is that its not even needed now sense we can now control themes through any windows 11 night mode theme. to get a night mode you will need to use any Windows 11 Night Theme. These themes are diffrent that your typical dark and light theme's
+you may have a hard time finding some online allthoug you can make them your self.
+i have uploaded a small collection of themes here
+https://github.com/jackrabbit72380/Windows-11-themes
+
 As Before Be sure to enable HIGH DPI Scaling override \ system enhanced in your propertys tab for best results!
 if your looking for a night theme you can check out my windows 11 theme repository here. https://github.com/jackrabbit72380/Windows-11-themes
 
