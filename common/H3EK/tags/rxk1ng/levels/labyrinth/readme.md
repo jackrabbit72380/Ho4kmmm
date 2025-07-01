@@ -1,4 +1,4 @@
-egypt by labyrinth
+labyrinth by rxk1ng
 
 fixed up & uploaded buy Jackrabbit72380
 
