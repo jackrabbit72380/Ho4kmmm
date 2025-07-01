@@ -22,16 +22,16 @@ Installation: Port the Halo 3 campaign using NoShotz's script, then install the 
 "00.install_campaign_&_theater_options.txt" is only for unported Halo Online Eldewrito Version 0.6.1.0.
 I just uploaded a tutorial legend so you can fix anything. It lists all the 4k mod settings, just not in script format. It's what I'm using to create the script. ho4kmmm is the result of much time & Reserch. develpment is curently work in progress & currently in testing! any updates or completed status will be posted here,
 
-```Star date Log 5-29-24```
+```Stardate Log 5-29-24```
 
 Made seprate directorys for halo online 0.6.1 & 0.7.1 fixed orgnized and renamed most map preview pictures for 0.7.1 exept for halo and most odst.
 more soon stay tuned.
 
-```Star date Log 5-30-24```
+```Stardate Log 5-30-24```
 
 Converted 00 01 01 & 19 from 0.6.1 to 0.7.1 More Testing and Patching will be needed in the future. for 0.1.7 to work.
 
-```Star date Log 6-25-25```
+```Stardate Log 6-25-25```
 
 0.1.7 was halted due to complication at the end of development TBH i only needed a little bit more code to finish it but i got stuck. and have yet to find a fix. i will still try to finish it one day. But because the advancements have been made for some time & left unfinnished I have desided that for now i have to release much of the mods & poring scripts for the project for use with making .pak files. for other users mods.
 
