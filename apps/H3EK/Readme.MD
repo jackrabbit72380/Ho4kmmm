@@ -29,8 +29,7 @@ i have uploaded a small collection of themes here hower keep in mind not all of 
 But there are night themes included with this collection.
 https://github.com/jackrabbit72380/Windows-11-themes
 
-As Before Be sure to enable HIGH DPI Scaling override \ system enhanced in your propertys tab for best results!
-if your looking for a night theme you can check out my windows 11 theme repository here. https://github.com/jackrabbit72380/Windows-11-themes
+As Before Be sure to enable HIGH DPI Scaling override \ system enhanced in your propertys tab to have a clear type font.
 
 installation - Place Koko-**.exe in C:\Program Files (x86)\Steam\steamapps\common\H3EK
 
