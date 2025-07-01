@@ -3,6 +3,7 @@
 A Halo 3 Editing Kit Mod That Enables Dark mode in H3EK Sapien.
 
 V1 - Troglodyte-8 would be default Font size 8.
+
 V2 - Troglodyte-11 would have 3x font size increase.
 Choose your weapon!
 
