@@ -5,6 +5,7 @@ A Halo 3 Editing Kit Mod That Enables Dark mode in H3EK Sapien.
 V1 - Troglodyte-8 would be default Font size 8.
 
 V2 - Troglodyte-11 would have 3x font size increase.
+
 Choose your weapon!
 
 Troglidite uses dark grey static in the background so you can have a dark mode with out the need to mess with any system themes.
@@ -19,6 +20,7 @@ A Halo 3 Editing Kit Mod That enables xbox font convection ui in H3EK Guerilla.
 V1 - Koko-8 would be default Font size 8.
 
 V2 - Koko-11 would have 3x font size increase.
+
 Choose your secondary weapon!
 
 Koko i have compiled 2 new versions of guerilla aka KOKO with only font upgrades the upgrades are 1. Koko-8. Koko-8 use convection ui from xbox so you can see more of your tag information on screen with crip clean clear type font with no real size change! this is huge improvement over the original guerilla. 2.Koko-11  Koko 11 is the same but with a 3x font increase for even better readability. bad news is koko does not contain dark mode to change your theme internaly like Troglidiyte but the good news is that its not even needed now sense we can now control themes through any windows 11 night mode theme. to get a night mode you will need to use any Windows 11 Night Theme. These themes are diffrent that your typical dark and light theme's
