@@ -1,4 +1,4 @@
-## 🟡 4K_MMM ++ for Halo Online ElDewrito 0.7.1
+## 🔵 4K_MMM ++ for Halo Online ElDewrito 0.7.1
 
 Welcome to the 4K_MMM ++ mod! 🚀 
 
@@ -7,7 +7,7 @@ Transform your Halo Online ElDewrito 0.7.1 experience with upscaled 4K menu text
 in this tutorial you will be running tool. Porting maps. Applying mod scripts and creating mod .pak fles. 
 Let’s get started! 😎
 
-## 🔵 Installation
+##  🟢Installation
 
 Follow these steps to install your 4K_MMM mod:
 
@@ -56,13 +56,13 @@ Mix and match or layer additional mods (e.g., custom skins or logos) to personal
 Pro Tip 😇: Enable High DPI Scaling Override (System Enhanced) in your ElDewrito executable’s properties for crisp 4K visuals!
 
 
-## 🟢 Mod Descriptions
+## 🟡 Mod Descriptions
 
 Choose from four epic mod versions to suit your Halo vibe! 👽
 
-## 🟢 Halo Online Main Menu Vibes
+## 🟡 Halo Online Main Menu Vibes
 
-## 🔵 Ho4kmmm 🌟Upscaled textuers only
+## 🟢 Ho4kmmm 🌟Upscaled textuers only
 
 Ports all Halo 3 campaign maps to ElDewrito 0.7.1, keeping the Halo Online main menu.
 
@@ -70,12 +70,12 @@ Includes 4K menu textures.
 
 Name your mod: Ho4kmmm.pak
 
-## 🔵 Ho4kmmm4k-S 🚀 Upscaled textuers +  Main Menu Mod Scaling Enabled
+## 🟢 Ho4kmmm4k-S 🚀 Upscaled textuers +  Main Menu Mod Scaling Enabled
 
 
-## 🟢 Halo 3 Main Menu Vibes
+## 🟡 Halo 3 Main Menu Vibes
 
-## 🔵 H3ho4kmmm 🎮 Upscaled textuers only
+## 🟢 H3ho4kmmm 🎮 Upscaled textuers only
 
 Ports all Halo 3 main menu and campaign maps to ElDewrito 0.7.1.
 
@@ -83,7 +83,7 @@ Includes 4K menu textures for a stunning look.
 
 Name your mod: H3ho4kmmm.pak
 
-## 🔵 H3ho4kmmm4k-S 🛡️ Upscaled textuers +  Main Menu Mod Scaling Enabled
+## 🟢 H3ho4kmmm4k-S 🛡️ Upscaled textuers +  Main Menu Mod Scaling Enabled
 
 Same as above, but with mod scaling enabled for extra polish. (This rescales the Main menu to be true 4k)
 
