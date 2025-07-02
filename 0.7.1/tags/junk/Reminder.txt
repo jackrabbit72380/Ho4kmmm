@@ -1,3 +1,7 @@
 how to fix custom lobby title bitmaps
 
- in the ui\halox\pregame_lobby\pregame_lobby_campaign.gui_screen_widget_definition my script somehow override the sculls shadow with the title and my bitmap it old version of el the sculls where not there. last time my datablock was like 2 this time it needs to be like 16 or 17 because all the mini sculls are in this block now. the block i added was actuly blank so i moved the title data to block 17 and replaced the 2 block with the lobbysculls data that was supposed to be there.
+ in the ui\halox\pregame_lobby\pregame_lobby_campaign.gui_screen_widget_definition
+
+my script somehow override the skulls shadow with the title and my bitmap. in the old version of eldweto the sculls where not there.
+last time my datablock was like 2 this time it needs to be like 16 or 17 because all the mini sculls are in this block now.
+the block i added was actuly blank so i moved the title data to block 17 and replaced the 2 block with the lobbyskulls data that was supposed to be there.
