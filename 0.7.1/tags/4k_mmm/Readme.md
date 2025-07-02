@@ -50,11 +50,11 @@ Mix and match or layer additional mods (e.g., custom skins or logos) to personal
 
 Pro Tip 😇: Enable High DPI Scaling Override (System Enhanced) in your ElDewrito executable’s properties for crisp 4K visuals!
 
-🟢 Mod Descriptions
+## 🟢 Mod Descriptions
 
 Choose from four epic mod versions to suit your Halo vibe! 👽
 
-🟡 Halo 3 Main Menu Vibes
+## 🟡 Halo 3 Main Menu Vibes
 
 H3ho4kmmm 🎮
 
@@ -70,7 +70,7 @@ Same as above, but with mod scaling enabled for extra polish.
 
 Name your mod: H3ho4kmmm4k-S.pak
 
-🟡 Halo Online Main Menu Vibes
+## 🟡 Halo Online Main Menu Vibes
 
 Ho4kmmm 🌟
 
