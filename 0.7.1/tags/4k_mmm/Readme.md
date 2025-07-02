@@ -26,25 +26,23 @@ I would not call this tutorial beginer friendly! there wont be anyone to help yo
 
 Here i have 4 versions of the mod to choose from.
 
-## If you want halo 3 main menu use these!
+## If you want halo 3 main menu use these! 1 or 2
 
-## ![If you want halo 3 main menu use these!](https://img.shields.io/badge/If you want halo 3 main menu use these!-yellow)
-
-## H3ho4kmmm
+## 1. H3ho4kmmm
 This mod is for Halo Online Eldewrito 0.7.1 with all H3 mainmenu & H3 campaign maps ported.-with 4k menu textures
 after porting is completed you should name the mod H3ho4kmmm.pak
 
-## H3ho4kmmm4k-S
+## 2. H3ho4kmmm4k-S
 This mod is for Halo Online Eldewrito 0.7.1 with all H3 mainmenu & H3 campaign maps ported.-with 4k menu textures & mod scaling enabled
 after porting is completed you should name the mod H3ho4kmmm4k-S.pak
 
-## If you want halo online main menu use these!
+## If you want halo online main menu use 3 or 4
 
-## Ho4kmmm
+## 3. Ho4kmmm
 This mod is for Halo Online Eldewrito 0.7.1 with all H3 campaign maps ported.-with 4k menu textures
 after porting is completed you should name the mod Ho4kmmm.pak
 
-## Ho4kmmm4k-S
+## 4. Ho4kmmm4k-S
 This mod is for Halo Online Eldewrito 0.7.1 with all H3 campaign maps ported.-with 4k menu textures & mod scaling enabled
 after porting is completed you should name the mod Ho4kmmm4k-S.pak
 
