@@ -34,7 +34,7 @@ This mod is for Halo Online Eldewrito 0.7.1 with all H3 campaign maps ported.-wi
 ## Ho4kmmm4k-S
 This mod is for Halo Online Eldewrito 0.7.1 with all H3 campaign maps ported.-with 4k menu textures & mod scaling enabled
 
-after you have a any Ho4kmmm.pak created you may want to procede to customize your mod futher buy installing new main menu mods from
+after you have any Ho4kmmm.pak created you may want to procede to customize your mod futher buy installing new main menu mods from
 4k_difficulty_style
 4k_fronts
 4k_lobby_style
