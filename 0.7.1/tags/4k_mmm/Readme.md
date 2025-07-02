@@ -10,11 +10,11 @@ For example if you want to  have the halo 3 version of Halo Online Eldewrito 0.7
 
 First you would create a mod useing my porting scripts. from the main directory. "0.7.1-Port Halo3 Campain.txt" for example.
 
-then you would apply the scripts from H3ho4kmmm4k-S in order to the mod.
+then you would apply the scripts from H3ho4kmmm4k-S in order to the mod.pak you created.
 
 It is possible to apply scripts to your own mods as well. mix and match or even apply more mods on top of these mods. like adding skins or changing logo's for example.
 
-however some knowlage of how to use tool and scripting for eldweto modding is required.
+however some knowlage of how to use tool and scripting for eldewrito modding is required.
 
 I would not call this tutorial beginer friendly! there wont be anyone to help you if you run the scripts out of order and break your mod.
 
