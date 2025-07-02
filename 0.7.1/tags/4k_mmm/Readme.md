@@ -24,17 +24,21 @@ I would not call this tutorial beginer friendly! there wont be anyone to help yo
 
 ## H3ho4kmmm
 This mod is for Halo Online Eldewrito 0.7.1 with all H3 mainmenu & H3 campaign maps ported.-with 4k menu textures
+after porting is completed you should name the mod H3ho4kmmm.pak
 
 ## H3ho4kmmm4k-S
 This mod is for Halo Online Eldewrito 0.7.1 with all H3 mainmenu & H3 campaign maps ported.-with 4k menu textures & mod scaling enabled
+after porting is completed you should name the mod H3ho4kmmm4k-S.pak
 
 ## Ho4kmmm
 This mod is for Halo Online Eldewrito 0.7.1 with all H3 campaign maps ported.-with 4k menu textures
+after porting is completed you should name the mod Ho4kmmm.pak
 
 ## Ho4kmmm4k-S
 This mod is for Halo Online Eldewrito 0.7.1 with all H3 campaign maps ported.-with 4k menu textures & mod scaling enabled
+after porting is completed you should name the mod Ho4kmmm4k-S.pak
 
-after you have any Ho4kmmm.pak created you may want to procede to customize your mod futher buy installing new main menu mods from
+after you have any your pak created you may want to procede to customize your mod futher buy installing new main menu mods from
 4k_difficulty_style
 4k_fronts
 4k_lobby_style
