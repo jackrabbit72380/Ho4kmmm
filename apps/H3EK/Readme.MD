@@ -34,7 +34,7 @@ The bad news is that Koko does not include a dark mode to change themes internal
 
 As Before For optimal results, ensure you enable High DPI Scaling Override (System Enhanced) in the properties tab. This will make the text crisper and easier to read.
 
-```## Heres a small tutorial to get the themes working
+## Heres a small tutorial to get the themes working
 
 1. Download my version of theme tool & the collection of themes. put the themes in C:\Windows\Resources\Themes.
 
@@ -48,7 +48,7 @@ As Before For optimal results, ensure you enable High DPI Scaling Override (Syst
 
 6. if you want to create or test themes out without applying them to your system there is a test mode you can use in the msstyleEditor.exe
 
-7. If you create a new theme and want to add it to the collection send me a message!```
+7. If you create a new theme and want to add it to the collection send me a message!
 
 ## Theme tool preview
 ![Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/apps/H3EK/themetool_preview.jpg)
