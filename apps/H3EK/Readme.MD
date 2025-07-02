@@ -44,9 +44,13 @@ As Before For optimal results, ensure you enable High DPI Scaling Override (Syst
 
 4. Now you can select custom themes in your system setttings menu in the themes section.
 
-5. things to know. You don't need to patch a theme unless its custom. and Troglodyte & Koko are not needed to get the themes working.
+5. things to know. This only works on windows 11. You don't need to patch a theme unless its custom. Troglodyte & Koko are not needed to get the themes working. dont mess with the themes in your Themes - AppData folder this is managed buy windows
 
-## theme tool preview
+6. if you want to create or test themes out without applying them to your system there is a test mode you can use in the msstyleEditor.exe
+
+7.if you create a new theme and want to add it to the collection send me a message!
+
+## Theme tool preview
 ![Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/apps/H3EK/themetool_preview.jpg)
 
 # Troglodyte Preview
