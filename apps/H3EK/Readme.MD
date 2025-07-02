@@ -36,7 +36,7 @@ Heres a small tutorial to get the themes working
 2.open up theme tool as admin and check rename default colors, Hook Login, & Hook System Settings. Dont check explorer sence this is updated alot and not part of your system. Next just click install. 
 3.Reboot your computer. 
 ![Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/apps/H3EK/themetool_preview.jpg)
-4.Now you can selct custom themes in your system setttings now.
+4.Now you can selct custom themes in your system setttings menu in the themes section.
 
 installation - Place Koko-**.exe in C:\Program Files (x86)\Steam\steamapps\common\H3EK
 
