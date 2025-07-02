@@ -80,7 +80,8 @@ This mod is for Halo Online Eldewrito 0.7.1 with all H3 mainmenu & H3 campaign m
 
 This is for Ports with all Halo 3 campaign maps to ElDewrito 0.7.1, keeping the Halo Online main menu.
 This mod is for Halo Online Eldewrito 0.7.1 with all H3 campaign maps ported.-with 4k menu textures
-Includes 4K menu textures.
+
+Includes 4K menu textures for a stunning look!
 
 ## 🟢 Ho4kmmm4k-Se 🚀 Upscaled textuers +  Main Menu Mod Scaling Enabled
 
