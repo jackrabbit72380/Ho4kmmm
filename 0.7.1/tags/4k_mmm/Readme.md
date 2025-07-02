@@ -83,8 +83,6 @@ Includes 4K menu textures for a stunning look.
 
 Same as above, but with mod scaling enabled for extra polish. (This rescales the Main menu to be true 4k)
 
-Same as above, but with mod scaling enabled for extra polish. (This rescales the Main menu to be true 4k)
-
 🟡 ❓ Need Help?
 
 This mod isn’t super beginner-friendly, so some modding knowledge helps! If you get stuck or have questions, shoot me a message! 📩
