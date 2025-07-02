@@ -58,7 +58,7 @@ Pro Tip 😇: Enable High DPI Scaling Override (System Enhanced) in your ElDewri
 
 ## 🔵 Mod Descriptions
 
-Choose from four epic mod versions to suit your Halo vibe! 👽
+Choose from four epic mod versions to suit your Halo vibe! 👽 Se is for Scaling Enabled!
 
 
 ## 🔵 Halo Online Main Menu Mods
@@ -69,7 +69,7 @@ This is for Ports with all Halo 3 campaign maps to ElDewrito 0.7.1, keeping the 
 
 Includes 4K menu textures.
 
-## 🟢 Ho4kmmm4k-S 🚀 Upscaled textuers +  Main Menu Mod Scaling Enabled
+## 🟢 Ho4kmmm4k-Se 🚀 Upscaled textuers +  Main Menu Mod Scaling Enabled
 
 Same as above, but with mod scaling enabled for extra polish. (This rescales the Main Menu to be true 4k)
 
@@ -82,7 +82,7 @@ This is for Ports all Halo 3 main menu and campaign maps to ElDewrito 0.7.1.
 
 Includes 4K menu textures for a stunning look.
 
-## 🟢 H3ho4kmmm4k-S 🛡️ Upscaled textuers +  Main Menu Mod Scaling Enabled
+## 🟢 H3ho4kmmm4k-Se 🛡️ Upscaled textuers +  Main Menu Mod Scaling Enabled
 
 Same as above, but with mod scaling enabled for extra polish. (This rescales the Main Menu to be true 4k)
 
