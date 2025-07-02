@@ -38,9 +38,7 @@ The bad news is that Koko does not include a dark mode to change themes internal
 
 1. Download my version of theme tool & the collection of themes. put the themes in C:\Windows\Resources\Themes.
 
-2. open up theme tool as admin and check rename default colors, Hook Login, & Hook System Settings. Dont check explorer sence this is updated alot and not part of your system. Next just click install.
-
-3. Reboot your computer.
+2. open up theme tool as admin and check Rename Default colors, Hook Login, & Hook System Settings. Dont check explorer. Next Click install. Then Reboot!
 
 4. Now you can select custom themes in your system setttings menu in the themes section.
 
