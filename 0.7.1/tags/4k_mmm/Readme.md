@@ -1,5 +1,5 @@
 
-Discriptions!
+## Discriptions!
 
 each directory contains a step number of scripts to run for different version of halo online.
 first determine your version of halo online and then run the scripts set that you need in order!
