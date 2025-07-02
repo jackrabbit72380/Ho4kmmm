@@ -31,6 +31,26 @@ give your .pak file a name & Name Your Mod 📛 Thats it your done and now you c
 
 ⚠️ Warning: Running scripts out of order may break your mod! Some knowledge of ElDewrito modding tools is required.
 
+Q&A 
+
+Qustion: Do you have to port huge chunks of content & entire campaigns to use this mod?
+
+Answer: No! You simply need to determin what version of Halo Online ElDewrito 0.7.1 Yor mod is useing & run the proper 4k_mmm script set. or custom script set for what you want to mod.
+
+I recomend starting with ho4kmmm you can just install the scripts that you want to your pak file. but some scripts need to be installed before others.
+
+for example.  for lobby titles. oviously you would need to install the block elemets first. before you could install the lobby titles.
+
+btw clear lobby titles removes the old ones. not the new ones. anyhow then you could install the lobby titles. or
+
+if for instance you where working on a h1 mod you might want to use the lobby_titles_h1 in the 4k_lobby_titles directory for a custom version of that part of the menu.
+
+so you could just run that script insted. & then mix and match the scripts that you want in your mod. 
+
+if you install scripts from the same catagory with the same number they are just going to override eachother. for instance if you instaled a mod you did'nt like you could just over ride it with anohter. without haveing your mod break or having to start over.
+
+this is a simple fix. hope this was helpful.
+
 now you can Add extra flair with main menu mods from these folders (one per category):
 
 4k_difficulty_style
