@@ -24,11 +24,7 @@ Create Your Mod 🛠️
 
 Use the provided porting scripts (e.g., 0.7.1-Port Halo3 Campaign.txt) from the main directory to create a base mod .pak file.
 
-Example: For the Halo 3 main menu with 4K textures, run the scripts from H3ho4kmmm.
-
-Apply Scripts 🔧
-
-Apply the scripts from your chosen mod version (e.g., H3ho4kmmm4k-S) in order to your new .pak file. 
+After that Apply the scripts 🔧 from your chosen mod version (e.g., H3ho4kmmm4k-S) in order to your new .pak file. 
 
 give your .pak file a name & Name Your Mod 📛 Thats it your done and now you can Customize Further ✨ to your harts content!
 
