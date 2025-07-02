@@ -48,10 +48,10 @@ As Before For optimal results, ensure you enable High DPI Scaling Override (Syst
 
 6. if you want to create or test themes out without applying them to your system there is a test mode you can use in the msstyleEditor.exe
 
-7. If you create a new theme and want to add it to the collection send me a message!
+7. If you create a new theme and want to add it to the collection send me a message!```
 
 ## Theme tool preview
-![Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/apps/H3EK/themetool_preview.jpg)```
+![Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/apps/H3EK/themetool_preview.jpg)
 
 # Troglodyte Preview
 ![Screenshot](https://github.com/jackrabbit72380/ho4kmmm/blob/master/Troglodyte_Preview.jpg)
