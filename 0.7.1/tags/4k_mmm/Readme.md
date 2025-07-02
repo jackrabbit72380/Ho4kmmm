@@ -4,7 +4,7 @@ First Download the tags folder to your ElDewrito directory.
 
 Each 4k_mmm directory contains a set of scripts to run for different version's of Halo Online Eldewrito 0.7.1.
 
-First You need to determine what version of Halo Online Eldewrito 0.7.1 you want to use & then run the scripts set that you need in order!
+Next You need to determine what version of Halo Online Eldewrito 0.7.1 you want to use & then run the scripts set that you need in order!
 
 To use the scripts set's you must first have a mod to apply them to.
 
