@@ -32,6 +32,7 @@ To get a night mode themes you will need to use SecureUXTheme ThemeTool.exe & A 
 however you may have a hard time finding some online. & Allthoug you can make them your self.
 i have uploaded a small collection of themes & the SecureUXTheme ThemeTool.exe for you keep in mind not all of them will enable night mode in sapien.
 But there are night themes included with this collection. https://github.com/jackrabbit72380/Windows-11-themes
+
 As Before Be sure to enable HIGH DPI Scaling override \ system enhanced in your propertys tab to have a clear type font.
 
 ## Heres a small tutorial to get the themes working
