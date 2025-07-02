@@ -12,6 +12,12 @@ First you would create a mod useing my porting scripts. from the main directory.
 
 then you would apply the scripts from H3ho4kmmm4k-S in order to the mod.
 
+It is possible to apply scripts to your own mods as well. mix and match or even apply more mods on top of these mods. like adding skins or changing logo's for example.
+
+however some knowlage of how to use tool and scripting for eldweto modding is required.
+
+I would not call this tutorial beginer friendly! there wont be anyone to help you if you run the scripts out of order and break your mod.
+
 
 ## Discriptions!
 
