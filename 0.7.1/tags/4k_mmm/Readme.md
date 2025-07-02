@@ -59,7 +59,7 @@ Pro Tip 😇: Enable High DPI Scaling Override (System Enhanced) in your ElDewri
 
 Choose from four epic mod versions to suit your Halo vibe! 👽
 
-## 🟡 Halo Online Main Menu Vibes
+## 🟡 Halo Online Main Menu Mods
 
 ## 🟢 Ho4kmmm 🌟Upscaled textuers only
 
@@ -70,7 +70,7 @@ Includes 4K menu textures.
 ## 🟢 Ho4kmmm4k-S 🚀 Upscaled textuers +  Main Menu Mod Scaling Enabled
 
 
-## 🟡 Halo 3 Main Menu Vibes
+## 🟡 Halo 3 Main Menu Mods
 
 ## 🟢 H3ho4kmmm 🎮 Upscaled textuers only
 
