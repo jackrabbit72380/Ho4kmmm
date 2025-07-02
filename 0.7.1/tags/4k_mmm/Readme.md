@@ -61,7 +61,7 @@ Choose from four epic mod versions to suit your Halo vibe! 👽
 
 ## 🟢 Halo Online Main Menu Vibes
 
-🔵 Ho4kmmm 🌟Upscaled textuers only
+## 🔵 Ho4kmmm 🌟Upscaled textuers only
 
 Ports all Halo 3 campaign maps to ElDewrito 0.7.1, keeping the Halo Online main menu.
 
@@ -69,12 +69,12 @@ Includes 4K menu textures.
 
 Name your mod: Ho4kmmm.pak
 
-🔵 Ho4kmmm4k-S 🚀 Upscaled textuers +  Main menu mod
+## 🔵 Ho4kmmm4k-S 🚀 Upscaled textuers +  Main menu mod
 
 
 ## 🟢 Halo 3 Main Menu Vibes
 
-🔵 H3ho4kmmm 🎮 Upscaled textuers only
+## 🔵 H3ho4kmmm 🎮 Upscaled textuers only
 
 Ports all Halo 3 main menu and campaign maps to ElDewrito 0.7.1.
 
@@ -82,7 +82,7 @@ Includes 4K menu textures for a stunning look.
 
 Name your mod: H3ho4kmmm.pak
 
-🔵 H3ho4kmmm4k-S 🛡️ Upscaled textuers +  Main menu mod Scaling Enabled
+## 🔵 H3ho4kmmm4k-S 🛡️ Upscaled textuers +  Main menu mod Scaling Enabled
 
 Same as above, but with mod scaling enabled for extra polish. (This rescales the Main menu to be true 4k)
 
