@@ -20,7 +20,7 @@ however some knowlage of how to use tool and scripting for eldewrito modding is 
 
 I would not call this tutorial beginer friendly! there wont be anyone to help you if you run the scripts out of order and break your mod.
 
-## ![Discriptions](https://img.shields.io/badge/Discriptions-yellow)
+## Mod ![Discriptions](https://img.shields.io/badge/Discriptions-yellow)
 
 Here i have 4 versions of the mod to choose from.
 
