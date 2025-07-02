@@ -48,7 +48,7 @@ The bad news is that Koko does not include a dark mode to change themes internal
 
 7. If you create a new theme and want to add it to the collection send me a message!
 
-## Theme tool preview
+## SecureUX ThemeTool Preview
 ![Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/apps/H3EK/themetool_preview.jpg)
 
 # Troglodyte Preview
