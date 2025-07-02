@@ -1,4 +1,4 @@
-## Instalation
+## Installation
 
 Each directory contains a set of scripts to run for different version's of Halo Online Eldewrito 0.7.1.
 
