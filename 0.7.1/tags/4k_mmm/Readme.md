@@ -1,4 +1,4 @@
-## Installation
+<span style="color: blue;">## Installation</span>
 
 First Download the tags folder to your ElDewrito directory.
 
