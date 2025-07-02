@@ -55,6 +55,7 @@ Mix and match or layer additional mods (e.g., custom skins or logos) to personal
 
 Pro Tip 😇: Enable High DPI Scaling Override (System Enhanced) in your ElDewrito executable’s properties for crisp 4K visuals!
 
+
 ## 🔵 Mod Descriptions
 
 Choose from four epic mod versions to suit your Halo vibe! 👽
@@ -63,13 +64,14 @@ Choose from four epic mod versions to suit your Halo vibe! 👽
 
 ## 🟡 Ho4kmmm 🌟Upscaled textuers only
 
-Ports all Halo 3 campaign maps to ElDewrito 0.7.1, keeping the Halo Online main menu.
+This is for Ports will all Halo 3 campaign maps to ElDewrito 0.7.1, keeping the Halo Online main menu.
 
 Includes 4K menu textures.
 
 ## 🟢 Ho4kmmm4k-S 🚀 Upscaled textuers +  Main Menu Mod Scaling Enabled
 
 Same as above, but with mod scaling enabled for extra polish. (This rescales the Main menu to be true 4k)
+
 
 ## 🔵 Halo 3 Main Menu Mods
 
@@ -82,6 +84,7 @@ Includes 4K menu textures for a stunning look.
 ## 🟢 H3ho4kmmm4k-S 🛡️ Upscaled textuers +  Main Menu Mod Scaling Enabled
 
 Same as above, but with mod scaling enabled for extra polish. (This rescales the Main menu to be true 4k)
+
 
 🟡 ❓ Need Help?
 
