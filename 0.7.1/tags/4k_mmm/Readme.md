@@ -1,6 +1,4 @@
-
 ## ![Installation](https://img.shields.io/badge/Installation-blue)
-
 
 First Download the tags folder to your ElDewrito directory.
 
