@@ -34,7 +34,7 @@ i have uploaded a small collection of themes & the SecureUXTheme ThemeTool.exe f
 But there are night themes included with this collection. https://github.com/jackrabbit72380/Windows-11-themes
 As Before Be sure to enable HIGH DPI Scaling override \ system enhanced in your propertys tab to have a clear type font.
 
-Heres a small tutorial to get the themes working
+## Heres a small tutorial to get the themes working
 
 1.download my version of theme tool & the collection of themes. put the themes in C:\Windows\Resources\Themes.
 2.open up theme tool as admin and check rename default colors, Hook Login, & Hook System Settings. Dont check explorer sence this is updated alot and not part of your system. Next just click install. 
