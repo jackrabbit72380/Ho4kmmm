@@ -36,7 +36,7 @@ As Before Be sure to enable HIGH DPI Scaling override \ system enhanced in your 
 
 ## Heres a small tutorial to get the themes working
 
-1. download my version of theme tool & the collection of themes. put the themes in C:\Windows\Resources\Themes.
+1. Download my version of theme tool & the collection of themes. put the themes in C:\Windows\Resources\Themes.
 
 2. open up theme tool as admin and check rename default colors, Hook Login, & Hook System Settings. Dont check explorer sence this is updated alot and not part of your system. Next just click install.
 
