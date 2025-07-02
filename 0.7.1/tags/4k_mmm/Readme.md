@@ -69,7 +69,7 @@ Includes 4K menu textures.
 
 Name your mod: Ho4kmmm.pak
 
-## 🔵 Ho4kmmm4k-S 🚀 Upscaled textuers +  Main menu mod
+## 🔵 Ho4kmmm4k-S 🚀 Upscaled textuers +  Main Menu Mod Scaling Enabled
 
 
 ## 🟢 Halo 3 Main Menu Vibes
@@ -82,7 +82,7 @@ Includes 4K menu textures for a stunning look.
 
 Name your mod: H3ho4kmmm.pak
 
-## 🔵 H3ho4kmmm4k-S 🛡️ Upscaled textuers +  Main menu mod Scaling Enabled
+## 🔵 H3ho4kmmm4k-S 🛡️ Upscaled textuers +  Main Menu Mod Scaling Enabled
 
 Same as above, but with mod scaling enabled for extra polish. (This rescales the Main menu to be true 4k)
 
