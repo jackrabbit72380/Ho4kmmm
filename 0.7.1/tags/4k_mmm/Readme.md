@@ -22,6 +22,10 @@ I would not call this tutorial beginer friendly! there wont be anyone to help yo
 
 ## Discriptions!
 
+Here i have 4 versions of the mod to choose from.
+
+##If you want a version that has the halo 3 main menu use these!
+
 ## H3ho4kmmm
 This mod is for Halo Online Eldewrito 0.7.1 with all H3 mainmenu & H3 campaign maps ported.-with 4k menu textures
 after porting is completed you should name the mod H3ho4kmmm.pak
@@ -29,6 +33,8 @@ after porting is completed you should name the mod H3ho4kmmm.pak
 ## H3ho4kmmm4k-S
 This mod is for Halo Online Eldewrito 0.7.1 with all H3 mainmenu & H3 campaign maps ported.-with 4k menu textures & mod scaling enabled
 after porting is completed you should name the mod H3ho4kmmm4k-S.pak
+
+## And if you want a version of the mod that uses the halo online main menu use these!
 
 ## Ho4kmmm
 This mod is for Halo Online Eldewrito 0.7.1 with all H3 campaign maps ported.-with 4k menu textures
