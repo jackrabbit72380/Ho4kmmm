@@ -1,14 +1,8 @@
-whats this?
 
-h3ho4kmmm
-h3ho4kmmm4k-S
-ho4kmmm
-ho4kmmm4k-S
+Discriptions!
 
 each directory contains a step number of scripts to run for different version of halo online.
 first determine your version of halo online and then run the scripts set that you need in order!
-
-Discriptions!
 
 ## h3ho4kmmm
 This mod is for halo online with all mainmenu & campaign maps ported.-with 4k menu textures
