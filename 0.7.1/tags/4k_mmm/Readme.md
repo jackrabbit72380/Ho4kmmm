@@ -20,7 +20,6 @@ however some knowlage of how to use tool and scripting for eldewrito modding is 
 
 I would not call this tutorial beginer friendly! there wont be anyone to help you if you run the scripts out of order and break your mod.
 
-
 ## Discriptions!
 
 ## H3ho4kmmm
@@ -34,3 +33,13 @@ This mod is for Halo Online Eldewrito 0.7.1 with all H3 campaign maps ported.-wi
 
 ## Ho4kmmm4k-S
 This mod is for Halo Online Eldewrito 0.7.1 with all H3 campaign maps ported.-with 4k menu textures & mod scaling enabled
+
+after you have a any Ho4kmmm.pak created you may want to procede to customize your mod futher buy installing new main menu mods from
+4k_difficulty_style
+4k_fronts
+4k_lobby_style
+4k_lobby_titles
+4k_menu_skins (still under construction)
+
+keep in mind you may only install one version per catagory for the main menu. 
+if you need more help or have any questions please shoot me a message.
