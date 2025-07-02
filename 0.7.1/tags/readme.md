@@ -10,6 +10,7 @@ in this tutorial you will be running tool. Porting maps. Applying mod scripts an
 
 Let’s get started! 😎
 
+
 ##  🟢Installation
 
 Follow these steps to install your 4K_MMM mod:
@@ -47,9 +48,11 @@ Mix and match or layer additional mods (e.g., custom skins or logos) to personal
 Pro Tip 😇: Enable High DPI Scaling Override (System Enhanced) in your ElDewrito executable’s properties for crisp 4K visuals!
 
 
+
 ## 🔵 Mod Descriptions
 
 Choose from four epic mod versions to suit your Halo vibe! 👽 Se is for Scaling Enabled!
+
 
 ## 🔵 Halo 3 🔵 Main Menu + Mods
 
