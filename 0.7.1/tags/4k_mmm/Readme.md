@@ -22,7 +22,7 @@ Each version includes a set of scripts to run in order.
 
 Create Your Mod 🛠️
 
-Use the provided porting scripts (e.g., 0.7.1-Port Halo3 Campaign.txt) from the main directory to create a base mod .pak file.
+Use the provided porting scripts (e.g., 0.7.1-Port Halo3 Campaign.txt) from the main directory to create a base mod .pak file. useing tool.
 
 After that Apply the scripts 🔧 from your chosen mod version (e.g., H3ho4kmmm4k-S) in order to your new .pak file. 
 
