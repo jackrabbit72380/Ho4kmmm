@@ -1,5 +1,7 @@
 <span style="color: blue;">## Installation</span>
-<span style="color: #FF0000;">This text is red!</span>
+
+<span style="color: blue;">This text is blue!</span>
+<div style="color: #FF0000;">This text is red!</div>
 
 First Download the tags folder to your ElDewrito directory.
 
