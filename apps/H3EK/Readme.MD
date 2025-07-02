@@ -23,6 +23,8 @@ V2 - Koko-11 would have 3x font size increase.
 
 Choose your secondary weapon!
 
+installation - Place Koko-**.exe in C:\Program Files (x86)\Steam\steamapps\common\H3EK
+
 Koko I have compiled 2 new versions of guerilla aka KOKO with only font upgrades. The upgrades are 1. Koko-8. Koko-8 use convection ui from xbox so you can see more of your tag information on screen with crisp clean clear type font with no real size change! This is huge improvement over the original guerilla. 2.Koko-11  Koko 11 is the same but with a 3x font increase for even better readability.
 
 bad news is koko does not contain dark mode to change your theme internaly like Troglidiyte but the good news is that its not even needed now sense we can now control themes through any windows 11 night mode theme.
@@ -39,8 +41,6 @@ Heres a small tutorial to get the themes working
 3.Reboot your computer. 
 ![Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/apps/H3EK/themetool_preview.jpg)
 4.Now you can selct custom themes in your system setttings menu in the themes section.
-
-installation - Place Koko-**.exe in C:\Program Files (x86)\Steam\steamapps\common\H3EK
 
 # Troglodyte Preview
 ![Screenshot](https://github.com/jackrabbit72380/ho4kmmm/blob/master/Troglodyte_Preview.jpg)
