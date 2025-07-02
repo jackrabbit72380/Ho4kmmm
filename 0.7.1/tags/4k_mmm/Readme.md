@@ -61,7 +61,7 @@ Choose from four epic mod versions to suit your Halo vibe! 👽
 
 ## 🔵 Halo Online Main Menu Mods
 
-## 🟢 Ho4kmmm 🌟Upscaled textuers only
+## 🟡 Ho4kmmm 🌟Upscaled textuers only
 
 Ports all Halo 3 campaign maps to ElDewrito 0.7.1, keeping the Halo Online main menu.
 
@@ -72,7 +72,7 @@ Includes 4K menu textures.
 
 ## 🔵 Halo 3 Main Menu Mods
 
-## 🟢 H3ho4kmmm 🎮 Upscaled textuers only
+## 🟡 H3ho4kmmm 🎮 Upscaled textuers only
 
 Ports all Halo 3 main menu and campaign maps to ElDewrito 0.7.1.
 
