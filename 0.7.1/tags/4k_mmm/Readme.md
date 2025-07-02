@@ -66,7 +66,7 @@ Choose from four epic mod versions to suit your Halo vibe! 👽 Se is for Scalin
 
 This mod is for Halo Online Eldewrito 0.7.1 with all H3 mainmenu & H3 campaign maps ported.-with 4k menu textures
 
-Includes 4K menu textures for a stunning look.
+Includes 4K menu textures for a stunning look!
 
 ## 🟢 H3ho4kmmm4k-Se 🚀 Upscaled textuers +  Main Menu Mod Scaling Enabled
 
