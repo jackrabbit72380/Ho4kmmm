@@ -62,32 +62,30 @@ Choose from four epic mod versions to suit your Halo vibe! 👽 Se is for Scalin
 
 ## 🔵 Halo 3 Main Menu Mods
 
-## 🟡 H3ho4kmmm 🎮 Upscaled textuers only
+## 🟡 H3ho4kmmm 🟡 Upscaled textuers only
 
-This is for Ports all Halo 3 main menu and campaign maps to ElDewrito 0.7.1.
+This mod is for Halo Online Eldewrito 0.7.1 with all H3 mainmenu & H3 campaign maps ported.-with 4k menu textures
 
 Includes 4K menu textures for a stunning look.
 
-## 🟢 H3ho4kmmm4k-Se 🛡️ Upscaled textuers +  Main Menu Mod Scaling Enabled
+## 🟢 H3ho4kmmm4k-Se 🚀 Upscaled textuers +  Main Menu Mod Scaling Enabled
 
 Same as above, but with mod scaling enabled for extra polish. (This rescales the Main Menu to be true 4k)
+This mod is for Halo Online Eldewrito 0.7.1 with all H3 mainmenu & H3 campaign maps ported.-with 4k menu textures & mod scaling enabled
 
 
 ## 🔵 Halo Online Main Menu Mods
 
-## 🟡 Ho4kmmm 🌟Upscaled textuers only
+## 🟡 Ho4kmmm 🟡 Upscaled textuers only
 
 This is for Ports with all Halo 3 campaign maps to ElDewrito 0.7.1, keeping the Halo Online main menu.
-
+This mod is for Halo Online Eldewrito 0.7.1 with all H3 campaign maps ported.-with 4k menu textures
 Includes 4K menu textures.
 
 ## 🟢 Ho4kmmm4k-Se 🚀 Upscaled textuers +  Main Menu Mod Scaling Enabled
 
 Same as above, but with mod scaling enabled for extra polish. (This rescales the Main Menu to be true 4k)
-
-
-
-
+This mod is for Halo Online Eldewrito 0.7.1 with all H3 campaign maps ported.-with 4k menu textures & mod scaling enabled
 
 🟡 ❓ Need Help?
 
