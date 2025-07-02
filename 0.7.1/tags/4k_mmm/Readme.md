@@ -78,7 +78,7 @@ Same as above, but with mod scaling enabled for extra polish. (This rescales the
 
 ## 🟡 H3ho4kmmm 🎮 Upscaled textuers only
 
-Ports all Halo 3 main menu and campaign maps to ElDewrito 0.7.1.
+This is for Ports all Halo 3 main menu and campaign maps to ElDewrito 0.7.1.
 
 Includes 4K menu textures for a stunning look.
 
