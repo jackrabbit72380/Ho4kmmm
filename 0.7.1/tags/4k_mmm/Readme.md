@@ -36,7 +36,7 @@ after porting is completed you should name the mod H3ho4kmmm.pak
 This mod is for Halo Online Eldewrito 0.7.1 with all H3 mainmenu & H3 campaign maps ported.-with 4k menu textures & mod scaling enabled
 after porting is completed you should name the mod H3ho4kmmm4k-S.pak
 
-## If you want halo online main menu use 3 or 4
+## :black_circle: If you want halo online main menu use 3 or 4
 
 ## 3. Ho4kmmm
 This mod is for Halo Online Eldewrito 0.7.1 with all H3 campaign maps ported.-with 4k menu textures
