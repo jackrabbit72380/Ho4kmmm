@@ -28,8 +28,15 @@ Choose your secondary weapon!
 however you may have a hard time finding some online. & Allthoug you can make them your self.
 i have uploaded a small collection of themes & the SecureUXTheme ThemeTool.exe here keep in mind not all of them will enable night mode in sapien.
 But there are night themes included with this collection. https://github.com/jackrabbit72380/Windows-11-themes
-
 As Before Be sure to enable HIGH DPI Scaling override \ system enhanced in your propertys tab to have a clear type font.
+
+Heres a small tutorial to get the themes working
+
+1.download my version of theme tool & the collection of themes. put the themes in C:\Windows\Resources\Themes.
+2.open up theme tool as admin and check rename default colors, Hook Login, & Hook System Settings. Dont check explorer sence this is updated alot and not part of your system. Next just click install. 
+3.Reboot your computer. 
+https://github.com/jackrabbit72380/Ho4kmmm/blob/master/apps/H3EK/themetool_preview.jpg
+4.Now you can selct custom themes in your system setttings now.
 
 installation - Place Koko-**.exe in C:\Program Files (x86)\Steam\steamapps\common\H3EK
 
