@@ -26,13 +26,13 @@ Choose your secondary weapon!
 
 installation - Place Koko-**.exe in C:\Program Files (x86)\Steam\steamapps\common\H3EK
 
-Koko I have compiled 2 new versions of guerilla aka KOKO with only font upgrades. The upgrades are 1. Koko-8. Koko-8 use convection ui from xbox so you can see more of your tag information on screen with crisp clean clear type font with no real size change! This is huge improvement over the original guerilla. 2.Koko-11  Koko 11 is the same but with a 3x font increase for even better readability.
+I have compiled two new versions of Guerrilla, also known as KOKO, with font upgrades. The upgrades are as follows:
 
-bad news is koko does not contain dark mode to change your theme internaly like Troglidiyte but the good news is that its not even needed now sense we can now control themes through any windows 11 night mode theme.
-To get a night mode themes you will need to use SecureUXTheme ThemeTool.exe & A Windows 11 Custom Night Theme. These themes are diffrent that your typical dark & light theme's
-however you may have a hard time finding some online. & Allthoug you can make them your self.
-i have uploaded a small collection of themes & the SecureUXTheme ThemeTool.exe for you keep in mind not all of them will enable night mode in sapien.
-But there are night themes included with this collection. https://github.com/jackrabbit72380/Windows-11-themes
+V1 Koko-8: Koko-8 uses the Convection UI font from Xbox, allowing you to see more tag information on the screen with a crisp, clean, ClearType font without a significant size change. This is a huge improvement over the original Guerrilla.
+
+V2 Koko-11: Koko-11 is similar but features a 3x font size increase for even better readability.
+
+The bad news is that Koko does not include a dark mode to change themes internally, like Troglodyte. However, the good news is that it's not needed, as we can now control themes through any Windows 11 night mode theme. To apply a night mode theme, you will need to use SecureUXTheme's ThemeTool.exe and a Windows 11 custom night theme. These themes are different from typical dark and light themes, and you may have difficulty finding them online. Although you can create them yourself, I have uploaded a small collection of themes and the SecureUXTheme ThemeTool.exe for you. Keep in mind that not all of them will enable night mode in Sapien. However, night themes are included in this collection: https://github.com/jackrabbit72380/Windows-11-themes.
 
 As Before Be sure to enable HIGH DPI Scaling override \ system enhanced in your propertys tab to have a clear type font.
 
