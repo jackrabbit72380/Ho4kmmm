@@ -1,4 +1,4 @@
-## 🎮 4K_MMM ++ for Halo Online ElDewrito 0.7.1
+## 🟡 4K_MMM ++ for Halo Online ElDewrito 0.7.1
 
 Welcome to the 4K_MMM ++ mod! 🚀 
 
@@ -55,6 +55,7 @@ Mix and match or layer additional mods (e.g., custom skins or logos) to personal
 
 Pro Tip 😇: Enable High DPI Scaling Override (System Enhanced) in your ElDewrito executable’s properties for crisp 4K visuals!
 
+
 ## 🟢 Mod Descriptions
 
 Choose from four epic mod versions to suit your Halo vibe! 👽
@@ -88,8 +89,8 @@ Same as above, but with mod scaling enabled for extra polish. (This rescales the
 
 Name your mod: H3ho4kmmm4k-S.pak
 
-
 Same as above, but with mod scaling enabled for extra polish. (This rescales the Main menu to be true 4k)
+
 Name your mod: Ho4kmmm4k-S.pak
 
 🟡 ❓ Need Help?
