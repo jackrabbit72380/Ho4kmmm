@@ -1,7 +1,7 @@
 
 ## Discriptions!
 
-Each directory contains a step number of scripts to run for different version of halo online.
+Each directory contains a set of scripts to run for different version's of Halo Online Eldewrito 0.7.1.
 
 first You need to determine your version of halo online 0.7.1 you want to use & then run the scripts set that you need in order!
 
