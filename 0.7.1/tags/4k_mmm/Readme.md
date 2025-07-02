@@ -69,6 +69,7 @@ Includes 4K menu textures.
 
 ## 🟢 Ho4kmmm4k-S 🚀 Upscaled textuers +  Main Menu Mod Scaling Enabled
 
+Same as above, but with mod scaling enabled for extra polish. (This rescales the Main menu to be true 4k)
 
 ## 🔵 Halo 3 Main Menu Mods
 
