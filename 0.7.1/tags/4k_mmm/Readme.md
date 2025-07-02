@@ -12,13 +12,9 @@ Let’s get started! 😎
 
 Follow these steps to install your 4K_MMM mod:
 
-Download the Tags Folder 📂
+Download the Tags Folder 📂 and place it in your ElDewrito directory.
 
-Grab the tags folder from this repository and place it in your ElDewrito directory.
-
-Choose Your Mod Version 🎯
-
-Pick one of the four mod versions below (details in the Mod Descriptions section).
+Choose Your Mod Version 🎯 below (details in the Mod Descriptions section).
 
 Each version includes a set of scripts to run in order.
 
@@ -30,17 +26,13 @@ Example: For the Halo 3 main menu with 4K textures, run the scripts from H3ho4km
 
 Apply Scripts 🔧
 
-Apply the scripts from your chosen mod version (e.g., H3ho4kmmm4k-S) in order to your .pak file.
+Apply the scripts from your chosen mod version (e.g., H3ho4kmmm4k-S) in order to your new .pak file. 
+
+give your .pak file a name & Name Your Mod 📛 Thats it your done and now you can Customize Further ✨ to your harts content!
 
 ⚠️ Warning: Running scripts out of order may break your mod! Some knowledge of ElDewrito modding tools is required.
 
-Name Your Mod 📛
-
-After porting, rename your .pak file as specified in the Mod Descriptions below.
-
-Customize Further ✨
-
-Add extra flair with main menu mods from these folders (one per category):
+now you can Add extra flair with main menu mods from these folders (one per category):
 
 4k_difficulty_style
 
