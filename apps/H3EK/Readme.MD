@@ -24,9 +24,12 @@ V2 - Koko-11 would have 3x font size increase.
 Choose your secondary weapon!
 
 ## Koko
- I have compiled 2 new versions of guerilla aka KOKO with only font upgrades. The upgrades are 1. Koko-8. Koko-8 use convection ui from xbox so you can see more of your tag information on screen with crip clean clear type font with no real size change! This is huge improvement over the original guerilla. 2.Koko-11  Koko 11 is the same but with a 3x font increase for even better readability. bad news is koko does not contain dark mode to change your theme internaly like Troglidiyte but the good news is that its not even needed now sense we can now control themes through any windows 11 night mode theme. to get a night mode themes you will need to use SecureUXTheme ThemeTool.exe & A Windows 11 Night Theme. These themes are diffrent that your typical dark and light theme's
+ I have compiled 2 new versions of guerilla aka KOKO with only font upgrades. The upgrades are 1. Koko-8. Koko-8 use convection ui from xbox so you can see more of your tag information on screen with crisp clean clear type font with no real size change! This is huge improvement over the original guerilla. 2.Koko-11  Koko 11 is the same but with a 3x font increase for even better readability.
+
+bad news is koko does not contain dark mode to change your theme internaly like Troglidiyte but the good news is that its not even needed now sense we can now control themes through any windows 11 night mode theme.
+To get a night mode themes you will need to use SecureUXTheme ThemeTool.exe & A Windows 11 Custom Night Theme. These themes are diffrent that your typical dark & light theme's
 however you may have a hard time finding some online. & Allthoug you can make them your self.
-i have uploaded a small collection of themes & the SecureUXTheme ThemeTool.exe here keep in mind not all of them will enable night mode in sapien.
+i have uploaded a small collection of themes & the SecureUXTheme ThemeTool.exe for you keep in mind not all of them will enable night mode in sapien.
 But there are night themes included with this collection. https://github.com/jackrabbit72380/Windows-11-themes
 As Before Be sure to enable HIGH DPI Scaling override \ system enhanced in your propertys tab to have a clear type font.
 
