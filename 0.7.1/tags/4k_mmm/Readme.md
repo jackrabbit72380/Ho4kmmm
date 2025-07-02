@@ -2,9 +2,10 @@
 
 Welcome to the 4K_MMM ++ mod! 🚀 
 
-Transform your Halo Online ElDewrito 0.7.1 experience with upscaled 4K menu textures, + update with A Native 4k Main Menu layout. + add extra mods and customizations!
+Transform your Halo Online ElDewrito 0.7.1 experience with upscaled 4K menu textures, And a Native 4k Main Menu Mod layout. + add extra mods and customizations!
 
 in this tutorial you will be running tool. Porting maps. Applying mod scripts and creating mod .pak fles. 
+
 Let’s get started! 😎
 
 ##  🟢Installation
