@@ -11,13 +11,13 @@ first determine your version of halo online and then run the scripts set that yo
 Discriptions!
 
 ## h3ho4kmmm
-This mod is for halo onlone with all mainmenu & campaign maps ported.-with 4k menu textures
+This mod is for halo online with all mainmenu & campaign maps ported.-with 4k menu textures
 
 ## h3ho4kmmm4k-S
-This mod is for halo onlone with all mainmenu & campaign maps ported.-with 4k menu texture & mod scaling enabled
+This mod is for halo online with all mainmenu & campaign maps ported.-with 4k menu texture & mod scaling enabled
 
 ## ho4kmmm
-This mod is for halo onlone with all campaign maps ported.-with 4k menu textures
+This mod is for halo online with all campaign maps ported.-with 4k menu textures
 
 ## ho4kmmm4k-S
-This mod is for halo onlone with all campaign maps ported.-with 4k menu textures & mod scaling enabled
+This mod is for halo online with all campaign maps ported.-with 4k menu textures & mod scaling enabled
