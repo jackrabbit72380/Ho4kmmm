@@ -1,60 +1,195 @@
-## 4k_mmm ![Installation](https://img.shields.io/badge/Installation-blue)
+🎮 4K_MMM for Halo Online ElDewrito 0.7.1
 
-First Download the tags folder to your ElDewrito directory.
+Welcome to the 4K_MMM mod! 🚀 Transform your Halo Online ElDewrito 0.7.1 experience with 4K menu textures, ported Halo 3 campaign maps, and optional mod scaling. Let’s get started! 😎
 
-Each 4k_mmm directory contains a set of scripts to run for different version's of Halo Online Eldewrito 0.7.1.
+🔵 Installation
 
-Next You need to determine what version of Halo Online Eldewrito 0.7.1 you want to use & then run the scripts set that you need in order!
 
-To use the scripts set's you must first have a mod to apply them to.
 
-For example if you want to have the halo 3 version of Halo Online Eldewrito 0.7.1. with all mainmenu & campaign maps ported.-with 4k menu textures & mod scaling enabled
+Follow these steps to install your 4K_MMM mod:
 
-First you would create a mod useing my porting scripts. from the main directory. "0.7.1-Port Halo3 Campain.txt" for example.
 
-then you would apply the scripts from H3ho4kmmm4k-S in order to the mod.pak you created.
 
-It is possible to apply scripts to your own mods as well. mix and match or even apply more mods on top of these mods. like adding skins or changing logo's for example.
 
-however some knowlage of how to use tool and scripting for eldewrito modding is required.
 
-I would not call this tutorial beginer friendly! there wont be anyone to help you if you run the scripts out of order and break your mod.
+Download the Tags Folder 📂
 
-## Mod ![Discriptions](https://img.shields.io/badge/Discriptions-yellow)
 
-Here i have 4 versions of the mod to choose from.
 
-## :yellow_circle: If you want The Halo 3 main menu use 1 or 2
 
-## 1. H3ho4kmmm
-This mod is for Halo Online Eldewrito 0.7.1 with all H3 mainmenu & H3 campaign maps ported.-with 4k menu textures
-after porting is completed you should name the mod H3ho4kmmm.pak
 
-## 2. H3ho4kmmm4k-S
-This mod is for Halo Online Eldewrito 0.7.1 with all H3 mainmenu & H3 campaign maps ported.-with 4k menu textures & mod scaling enabled
-after porting is completed you should name the mod H3ho4kmmm4k-S.pak
+Grab the tags folder from this repository and place it in your ElDewrito directory.
 
-## :yellow_circle: If you want The Halo online main menu use 3 or 4
 
-## 3. Ho4kmmm
-This mod is for Halo Online Eldewrito 0.7.1 with all H3 campaign maps ported.-with 4k menu textures
-after porting is completed you should name the mod Ho4kmmm.pak
 
-## 4. Ho4kmmm4k-S
-This mod is for Halo Online Eldewrito 0.7.1 with all H3 campaign maps ported.-with 4k menu textures & mod scaling enabled
-after porting is completed you should name the mod Ho4kmmm4k-S.pak
+Choose Your Mod Version 🎯
 
-after you have any your pak created you may want to procede to customize your mod futher buy installing new main menu mods from
+
+
+
+
+Pick one of the four mod versions below (details in the Mod Descriptions section).
+
+
+
+Each version includes a set of scripts to run in order.
+
+
+
+Create Your Mod 🛠️
+
+
+
+
+
+Use the provided porting scripts (e.g., 0.7.1-Port Halo3 Campaign.txt) from the main directory to create a base mod .pak file.
+
+
+
+Example: For the Halo 3 main menu with 4K textures, run the scripts from H3ho4kmmm.
+
+
+
+Apply Scripts 🔧
+
+
+
+
+
+Apply the scripts from your chosen mod version (e.g., H3ho4kmmm4k-S) in order to your .pak file.
+
+
+
+⚠️ Warning: Running scripts out of order may break your mod! Some knowledge of ElDewrito modding tools is required.
+
+
+
+Name Your Mod 📛
+
+
+
+
+
+After porting, rename your .pak file as specified in the Mod Descriptions below.
+
+
+
+Customize Further ✨
+
+
+
+
+
+Add extra flair with main menu mods from these folders (one per category):
+
+
+
+
 
 4k_difficulty_style
 
+
+
 4k_fronts
+
+
 
 4k_lobby_style
 
+
+
 4k_lobby_titles
 
-4k_menu_skins (still under construction)
 
-keep in mind you may only install one version per catagory for the main menu. 
-if you need more help or have any questions please shoot me a message.
+
+4k_menu_skins (🚧 under construction)
+
+
+
+Mix and match or layer additional mods (e.g., custom skins or logos) to personalize your experience!
+
+
+
+Pro Tip 😇: Enable High DPI Scaling Override (System Enhanced) in your ElDewrito executable’s properties for crisp 4K visuals!
+
+🟢 Mod Descriptions
+
+
+
+Choose from four epic mod versions to suit your Halo vibe! 👽
+
+🟡 Halo 3 Main Menu Vibes
+
+
+
+
+
+H3ho4kmmm 🎮
+
+
+
+
+
+Ports all Halo 3 main menu and campaign maps to ElDewrito 0.7.1.
+
+
+
+Includes 4K menu textures for a stunning look.
+
+
+
+Name your mod: H3ho4kmmm.pak
+
+
+
+H3ho4kmmm4k-S 🛡️
+
+
+
+
+
+Same as above, but with mod scaling enabled for extra polish.
+
+
+
+Name your mod: H3ho4kmmm4k-S.pak
+
+🟡 Halo Online Main Menu Vibes
+
+
+
+
+
+Ho4kmmm 🌟
+
+
+
+
+
+Ports all Halo 3 campaign maps to ElDewrito 0.7.1, keeping the Halo Online main menu.
+
+
+
+Includes 4K menu textures.
+
+
+
+Name your mod: Ho4kmmm.pak
+
+
+
+Ho4kmmm4k-S 🚀
+
+
+
+
+
+Same as above, but with mod scaling enabled.
+
+
+
+Name your mod: Ho4kmmm4k-S.pak
+
+❓ Need Help?
+
+This mod isn’t super beginner-friendly, so some modding knowledge helps! If you get stuck or have questions, shoot me a message! 📩
