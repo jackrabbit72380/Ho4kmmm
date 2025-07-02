@@ -42,10 +42,11 @@ As Before Be sure to enable HIGH DPI Scaling override \ system enhanced in your 
 
 3.Reboot your computer.
 
-![Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/apps/H3EK/themetool_preview.jpg)
 4.Now you can selct custom themes in your system setttings menu in the themes section.
 
 5.things to know. you dont need to patch a theme unless its custom. and Troglodyte & Koko are not needed to get the themes working.
+
+![Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/apps/H3EK/themetool_preview.jpg)
 
 # Troglodyte Preview
 ![Screenshot](https://github.com/jackrabbit72380/ho4kmmm/blob/master/Troglodyte_Preview.jpg)
