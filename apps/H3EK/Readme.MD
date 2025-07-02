@@ -46,6 +46,7 @@ As Before For optimal results, ensure you enable High DPI Scaling Override (Syst
 
 5. things to know. You don't need to patch a theme unless its custom. and Troglodyte & Koko are not needed to get the themes working.
 
+## theme tool preview
 ![Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/apps/H3EK/themetool_preview.jpg)
 
 # Troglodyte Preview
