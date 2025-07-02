@@ -26,7 +26,7 @@ I would not call this tutorial beginer friendly! there wont be anyone to help yo
 
 Here i have 4 versions of the mod to choose from.
 
-## If you want halo 3 main menu use 1 or 2
+## :black_circle: If you want halo 3 main menu use 1 or 2
 
 ## 1. H3ho4kmmm
 This mod is for Halo Online Eldewrito 0.7.1 with all H3 mainmenu & H3 campaign maps ported.-with 4k menu textures
