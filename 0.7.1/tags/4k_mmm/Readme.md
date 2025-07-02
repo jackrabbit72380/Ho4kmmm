@@ -2,7 +2,7 @@
 
 Welcome to the 4K_MMM mod! 🚀 Transform your Halo Online ElDewrito 0.7.1 experience with 4K menu textures, ported Halo 3 campaign maps, and optional mod scaling. Let’s get started! 😎
 
-🔵 Installation
+## 🔵 Installation
 
 Follow these steps to install your 4K_MMM mod:
 
