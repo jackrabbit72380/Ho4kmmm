@@ -3,7 +3,7 @@
 
 Each directory contains a set of scripts to run for different version's of Halo Online Eldewrito 0.7.1.
 
-First You need to determine your version of halo online 0.7.1 you want to use & then run the scripts set that you need in order!
+First You need to determine what version of Halo Online Eldewrito 0.7.1 you want to use & then run the scripts set that you need in order!
 
 ## H3ho4kmmm
 This mod is for Halo Online Eldewrito 0.7.1 with all mainmenu & campaign maps ported.-with 4k menu textures
