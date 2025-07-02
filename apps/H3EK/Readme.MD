@@ -8,10 +8,8 @@ V2 - Troglodyte-11 would have 3x font size increase.
 
 Choose your weapon!
 
-Troglidite uses dark grey static in the background so you can have a dark mode with out the need to mess with any system themes.
-this mod also changes the font to convection ui xbox font.
-
-Be sure to enable HIGH DPI Scaling override \ system enhanced in your propertys tab for best results! This will make the Text  more crisp and easy to read.
+Troglodyte features a dark grey static background, providing a dark mode without the need to modify system themes. This mod also adopts the Convection UI Xbox font.
+For optimal results, ensure you enable High DPI Scaling Override (System Enhanced) in the properties tab. This will make the text crisper and easier to read.
 
 installation - Place Troglidyte-**.exe in C:\Program Files (x86)\Steam\steamapps\common\H3EK
 
@@ -34,7 +32,7 @@ V2 Koko-11: Koko-11 is similar but features a 3x font size increase for even bet
 
 The bad news is that Koko does not include a dark mode to change themes internally, like Troglodyte. However, the good news is that it's not needed, as we can now control themes through any Windows 11 night mode theme. To apply a night mode theme, you will need to use SecureUXTheme's ThemeTool.exe and a Windows 11 custom night theme. These themes are different from typical dark and light themes, and you may have difficulty finding them online. Although you can create them yourself, I have uploaded a small collection of themes and the SecureUXTheme ThemeTool.exe for you. Keep in mind that not all of them will enable night mode in Sapien. However, night themes are included in this collection: https://github.com/jackrabbit72380/Windows-11-themes.
 
-As Before Be sure to enable HIGH DPI Scaling override \ system enhanced in your propertys tab to have a clear type font.
+As Before For optimal results, ensure you enable High DPI Scaling Override (System Enhanced) in the properties tab. This will make the text crisper and easier to read.
 
 ## Heres a small tutorial to get the themes working
 
