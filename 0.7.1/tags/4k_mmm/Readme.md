@@ -55,11 +55,11 @@ Mix and match or layer additional mods (e.g., custom skins or logos) to personal
 
 Pro Tip 😇: Enable High DPI Scaling Override (System Enhanced) in your ElDewrito executable’s properties for crisp 4K visuals!
 
-## 🟡 Mod Descriptions
+## 🔵 Mod Descriptions
 
 Choose from four epic mod versions to suit your Halo vibe! 👽
 
-## 🟡 Halo Online Main Menu Mods
+## 🔵 Halo Online Main Menu Mods
 
 ## 🟢 Ho4kmmm 🌟Upscaled textuers only
 
@@ -70,7 +70,7 @@ Includes 4K menu textures.
 ## 🟢 Ho4kmmm4k-S 🚀 Upscaled textuers +  Main Menu Mod Scaling Enabled
 
 
-## 🟡 Halo 3 Main Menu Mods
+## 🔵 Halo 3 Main Menu Mods
 
 ## 🟢 H3ho4kmmm 🎮 Upscaled textuers only
 
