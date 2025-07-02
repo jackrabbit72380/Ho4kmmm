@@ -1,5 +1,5 @@
 <span style="color: blue;">## Installation</span>
-
+![Installation](https://img.shields.io/badge/Installation-blue)
 <span style="color: blue;">This text is blue!</span>
 <div style="color: #FF0000;">This text is red!</div>
 
