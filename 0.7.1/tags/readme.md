@@ -51,9 +51,15 @@ if you install scripts from the same catagory with the same number they are just
 
 for instance if you instaled a mod you did'nt like you could just over ride it with anohter. of the same type. without haveing your mod break or having to start over.
 
-for anyone who just wants to mod without porting anyhting i have prepaired some vanilla mod packs. that you can grab from here!
+people keep asking me to just relese mod paks. but they dont seem to get the point. 
+
+for one my own personal mod packs are still under scontruction. but I put this together for other people to use in there mod's.
+
+however for anyone who just wants to mod without porting anyhting i have prepaired some vanilla mod packs. that you can grab from here!
 
 these will be just vanilla mod packs made with the porting scripts. that you can practice with untill you feal confidont enough to make your own mod.pak's
+
+but i do recomned you make your own wich is the whole point.
 
 media fire link coming soon!
 
