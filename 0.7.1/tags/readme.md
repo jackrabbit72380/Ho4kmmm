@@ -65,7 +65,7 @@ but i do recomned you make your own wich is the whole point! media fire Links he
 
 [odst-firefight-4km.pak](https://www.mediafire.com/file/mnz1xuz3qpvsnjm/odst-firefight-4km.pak/file)
 
-now you can Add extra flair with main menu mods from these folders one per category!
+Now you can add extra flair with main menu mods from these folders one per category!
 
 4k_difficulty_style
 
