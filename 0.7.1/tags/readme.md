@@ -53,6 +53,8 @@ for instance if you instaled a mod you did'nt like you could just over ride it w
 
 for anyone who just wants to mod without porting anyhting i have prepaired some vanilla mod packs. that you can grab from here!
 
+these will be just vanilla mod packs made with the porting scripts. that you can practice with untill you feal confidont enough to make your own mod.pak's
+
 media fire link coming soon!
 
 now you can Add extra flair with main menu mods from these folders one per category!
