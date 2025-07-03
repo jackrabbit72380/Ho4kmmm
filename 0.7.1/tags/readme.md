@@ -49,7 +49,9 @@ so you could just run that script insted. & then mix and match the scripts that 
 
 if you install scripts from the same catagory with the same number they are just going to override eachother. for instance if you instaled a mod you did'nt like you could just over ride it with anohter. without haveing your mod break or having to start over.
 
-this is a simple fix. hope this was helpful.
+for anyone who just wants to mod without porting anyhting i have prepaired some vanilla mod packs. that you can grab from here!
+
+media fire link coming soon!
 
 now you can Add extra flair with main menu mods from these folders one per category!
 
