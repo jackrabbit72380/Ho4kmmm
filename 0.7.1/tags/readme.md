@@ -63,7 +63,7 @@ now you can Add extra flair with main menu mods from these folders (one per cate
 
 4k_menu_skins (🚧 under construction)
 
-Mix and match or layer additional mods (e.g., custom skins or logos) to personalize your experience!
+Mix and match or layer additional mods (e.g., custom skins or logos) to personalize your mods main menu!
 
 Pro Tip 😇: Enable High DPI Scaling Override (System Enhanced) in your ElDewrito executable’s properties for crisp 4K visuals!
 
