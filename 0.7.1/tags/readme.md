@@ -47,7 +47,9 @@ if for instance you where working on a h1 mod you might want to use the lobby_ti
 
 so you could just run that script insted. & then mix and match the scripts that you want in your mod. 
 
-if you install scripts from the same catagory with the same number they are just going to override eachother. for instance if you instaled a mod you did'nt like you could just over ride it with anohter. without haveing your mod break or having to start over.
+if you install scripts from the same catagory with the same number they are just going to override eachother. 
+
+for instance if you instaled a mod you did'nt like you could just over ride it with anohter. of the same type. without haveing your mod break or having to start over.
 
 for anyone who just wants to mod without porting anyhting i have prepaired some vanilla mod packs. that you can grab from here!
 
