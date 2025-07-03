@@ -25,7 +25,7 @@ Create Your Mod 🛠️
 
 Use the provided porting scripts (e.g., 0.7.1-Port Halo3 Campaign.txt) from the Porting_scripts directory to create a base mod .pak file. useing tool.
 
-After that Apply the scripts set 🔧 of your chosen mod version from the 4k_mmm Directory (e.g., H3ho4kmmm4k-S) in order to your new .pak file. also useing tool.
+After that Apply the scripts set 🔧 of your chosen mod version from the 4k_mmm Directory (e.g., ho4kmmm) in order to your new .pak file. also useing tool.
 
 give your .pak file a name & Name Your Mod 📛 Thats it your done and now you can Customize Further ✨ to your harts :heart: content!
 
