@@ -35,21 +35,19 @@ give your .pak file a name & Name Your Mod 📛 Thats it your done and now you c
 
 Qustion: Do you have to port huge chunks of content & entire campaigns to use this mod?
 
-Answer: No! You simply need to determin what version of Halo Online ElDewrito 0.7.1 Yor mod is useing & run the proper 4k_mmm script set. or custom script set for what you want to mod.
+Answer: No! You simply need to know what version of Halo Online ElDewrito 0.7.1 Yor mod is useing & run the proper 4k_mmm script set. or custom script set for what you want to mod.
 
-I recomend starting with ho4kmmm you can just install the scripts that you want to your pak file. but some scripts need to be installed before others.
+I recomend starting with ho4kmmm. You can just install the scripts that you want to your pak file. but some scripts need to be installed before others.
 
-for example.  for lobby titles. oviously you would need to install the block elemets first. before you could install the lobby titles.
+for example. For lobby titles. oviously you would need to install the block elemets first. before you could install the lobby titles. Then you could install the lobby titles. or
 
-btw clear lobby titles removes the old ones. not the new ones. anyhow then you could install the lobby titles. or
+if you where working on a h1 mod you might want to use the lobby_titles_h1 in the 4k_lobby_titles directory for a custom version of that part of the menu.
 
-if for instance you where working on a h1 mod you might want to use the lobby_titles_h1 in the 4k_lobby_titles directory for a custom version of that part of the menu.
-
-so you could just run that script insted. & then mix and match the scripts that you want in your mod. 
+so you could just run that script. & then mix & match the scripts that you want in your mod. 
 
 if you install scripts from the same catagory with the same number they are just going to override eachother. 
 
-for instance if you instaled a mod you did'nt like you could just over ride it with anohter. of the same type. without haveing your mod break or having to start over.
+so if you instaled a mod you did'nt like you could just override it with anohter of the same type without haveing your mod break or having to start over.
 
 people keep asking me to just relese mod paks. but they dont seem to get the point. 
 
@@ -57,9 +55,9 @@ for one my own personal mod packs are still under scontruction. but I put this t
 
 however for anyone who just wants to mod without porting anyhting i have prepaired some vanilla mod packs. that you can grab from here!
 
-these will be just vanilla mod packs made with the porting scripts. that you can practice with untill you feal confidont enough to make your own mod.pak's
+these will be just vanilla mod packs made with the porting scripts. that you can practice with untill you feal confidont enough to make your own mod.pak's 
 
-but i do recomned you make your own wich is the whole point. media fire Links here.
+but i do recomned you make your own wich is the whole point! media fire Links here.
 
 [h3-campaign-4km.pak](https://www.mediafire.com/file/c0ebp7pqzply0z6/h3-campaign-4km.pak/file)
 
