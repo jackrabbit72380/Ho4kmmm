@@ -61,7 +61,7 @@ these will be just vanilla mod packs made with the porting scripts. that you can
 
 but i do recomned you make your own wich is the whole point.
 
-media fire link coming soon!
+media fire [link!](https://www.mediafire.com/folder/3ov4q5vc5c0c6/4kmpaks)
 
 now you can Add extra flair with main menu mods from these folders one per category!
 
