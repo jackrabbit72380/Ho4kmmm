@@ -51,7 +51,7 @@ if you install scripts from the same catagory with the same number they are just
 
 this is a simple fix. hope this was helpful.
 
-now you can Add extra flair with main menu mods from these folders (one per category):
+now you can Add extra flair with main menu mods from these folders one per category!
 
 4k_difficulty_style
 
