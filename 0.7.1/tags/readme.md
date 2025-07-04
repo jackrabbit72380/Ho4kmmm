@@ -59,11 +59,11 @@ these will be just vanilla mod packs made with the porting scripts. that you can
 
 but i do recomned you make your own wich is the whole point! media fire Links here.
 
-[h3-campaign-4km.pak](https://www.mediafire.com/file/c0ebp7pqzply0z6/h3-campaign-4km.pak/file)
+[h3-campaign-4km.pak](https://www.mediafire.com/file/75lgn4suhc8tdcg/h3-campaign-4km.pak/file)
 
-[H3-mythic-4km.pak](https://www.mediafire.com/file/vs6g9bqshjuhptm/H3-mythic-4km.pak/file)
+[H3-mythic-4km.pak](https://www.mediafire.com/file/u6a6w1xvnlc2uyw/H3-mythic-4km.pak/file)
 
-[odst-firefight-4km.pak](https://www.mediafire.com/file/mnz1xuz3qpvsnjm/odst-firefight-4km.pak/file)
+[odst-firefight-4km.pak](https://www.mediafire.com/file/gf9cwiufgofd8kc/odst-firefight-4km.pak/file)
 
 Keep in mind These are just default ports no scripts have been applyed! 
 
