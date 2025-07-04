@@ -1,6 +1,6 @@
-## 🔵 4K_MMM ++ for Halo Online ElDewrito 0.7.1
+## 🔵 4K_mmm ++ for Halo Online ElDewrito 0.7.1
 
-Welcome to the 4K_MMM ++ mod! 🚀
+Welcome to the 4K_mmm ++ mod! 🚀
 
 Transform your Halo Online ElDewrito 0.7.1 experience with upscaled 4K menu textures, and a native 4k Main Menu mod layout!
 
@@ -51,11 +51,9 @@ so if you instaled a mod you did'nt like you could just override it with anohter
 
 people keep asking me to just relese mod paks. but they dont seem to get the point. 
 
-for one my own personal mod packs are still under scontruction. but I put this together for other people to use in there mod's.
+my own personal mod packs are still under scontruction. but I put this together for other people to use in there own mod's for anyone who just wants to mod without porting anyhting.
 
-however for anyone who just wants to mod without porting anyhting i have prepaired some vanilla mod packs. that you can grab from here!
-
-these will be just vanilla mod packs made with the porting scripts. that you can practice with untill you feal confidont enough to make your own mod.pak's 
+I have prepared some vanilla mod packs made with the porting scripts that you can practice Modding with until you feal confidant enough to make your own mod.pak's 
 
 but i do recomned you make your own wich is the whole point! media fire Links here.
 
@@ -65,7 +63,11 @@ but i do recomned you make your own wich is the whole point! media fire Links he
 
 [odst-firefight-4km.pak](https://www.mediafire.com/file/gf9cwiufgofd8kc/odst-firefight-4km.pak/file)
 
-Keep in mind These are just default ports no scripts have been applyed! 
+Keep in mind These are just default ports no scripts have been applied! 
+
+These mod's are a part of The Ho4kmmm Mod witch is a mod currently in development. This mod aims to upscale the main menu natively  add upscaled texture mods. and other customizations to the Halo online
+
+user interface, They serve as a starting point for Modder's  to learn how to mod the main menu. 
 
 Now you can mod with ho4kmmm and or add extra flair with main menu mods from these folders one per category!
 
