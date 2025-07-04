@@ -51,7 +51,7 @@ so if you instaled a mod you did'nt like you could just override it with anohter
 
 people keep asking me to just relese mod paks. but they dont seem to get the point. 
 
-my own personal mod packs are still under scontruction. but I put this together for other people to use in there own mod's for anyone who just wants to mod without porting anyhting.
+my own personal mod packs are still under contruction. but I put this together for other people to use in there own mod's for anyone who just wants to mod without porting anyhting.
 
 I have prepared some vanilla mod packs made with the porting scripts that you can practice Modding with until you feal confidant enough to make your own mod.pak's 
 
