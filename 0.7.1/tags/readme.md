@@ -65,9 +65,9 @@ but i do recomned you make your own wich is the whole point! media fire Links he
 
 Keep in mind These are just default ports no scripts have been applied! 
 
-These mod's are a part of The Ho4kmmm Mod witch is a mod currently in development. This mod aims to upscale the main menu natively  add upscaled texture mods. and other customizations to the Halo online
+These mod's are a part of The Ho4kmmm Mod witch is a mod currently in development. This mod aims to upscale the main menu natively, add upscaled texture mods and other customizations to the Halo online user interface.
 
-user interface, They serve as a starting point for Modder's  to learn how to mod the main menu. 
+They serve as a starting point for Modder's to learn how to mod the main menu. 
 
 Now you can mod with ho4kmmm and or add extra flair with main menu mods from these folders one per category!
 
