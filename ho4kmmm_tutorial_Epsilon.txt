@@ -34,7 +34,7 @@ ________________________________________________________________________________
 (20.) Where to edit garnet background in map selection list under map description.
 (21.) where to change blue bar shadow under BUILT IN in map select sub menu
 (22.) where to edit map name in map select sub menu on top of built in.
-(23.)where to edit orange selection bar (for map selection submenu)
+(23.) where to edit orange selection bar (for map selection submenu)
 (24.) where to edit selected map preview image & description in map slection screen submenu.
 (25.) where to edit "MULTIPLAYER" text. 
 (26.) where to edit "SELECT MAP" Text on map selection screen. "scn3 - gui_screen_widget_definition" 
