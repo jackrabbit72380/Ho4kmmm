@@ -17,7 +17,7 @@ Follow these steps to install your 4K_mmm ++ mod:
 
 Download the Tags Folder 📂 and place it in your ElDewrito directory.
 
-Choose Your 4K_MMM Mod Version 🎯 below (details in the Mod Descriptions section).
+Choose Your 4K_mmm ++ Mod Version 🎯 below (details in the Mod Descriptions section).
 
 Each version includes a set of scripts to run in order.
 
