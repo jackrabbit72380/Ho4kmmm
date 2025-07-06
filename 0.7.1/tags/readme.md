@@ -13,7 +13,7 @@ Let’s get started! 😎
 
 ##  🟢Installation
 
-Follow these steps to install your 4K_MMM mod:
+Follow these steps to install your 4K_mmm ++ mod:
 
 Download the Tags Folder 📂 and place it in your ElDewrito directory.
 
