@@ -124,5 +124,5 @@ This mod is for Halo Online Eldewrito 0.7.1 with all H3 campaign maps ported.-wi
 
 ❓ Need Help?
 
-This mod isn’t super beginner-friendly, so some modding knowledge helps! If you get stuck or have questions, shoot me a message! 📩 over on discord https://github.com/jackrabbit72380
+This mod isn’t super beginner-friendly, so some modding knowledge helps! If you get stuck or have questions, shoot me a message! 📩 over on discord My user name is Jackrabbit72380
 
