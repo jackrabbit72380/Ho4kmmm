@@ -1,6 +1,15 @@
 ## Cryotech
 by jackrabbit72380
 
+Im releseing a beta version of this project as it has been in development over 20+ years.
+the first version was made for halo ce but i wanted to bring my project into halo 3 and finaly found some time to get much of it working.
+there well be manny updates to the project in the future. 
+
+Discription
+Cryotech City is a Versitile Elite training ground Capable of hosting big team battle simulations with up to 16 players & large veachales 
+
+much of the map layout and assets are unfinished. but more assets will be added in due time. 
+
 Screenshots
 
 ![Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/common/H3EK/tags/levels/multi/cryotech/preview.jpg)
