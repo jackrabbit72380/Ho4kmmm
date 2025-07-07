@@ -2,7 +2,7 @@
 
 by Jackrabbit72380
 
-Discription : HALO 1: Pillar of Autumn's Hanger as Multiplayer Halo 3 Map.
+Description : HALO 1: Pillar of Autumn's Hanger as Multiplayer Halo 3 Map.
 
 Status: Beta Stages
 
