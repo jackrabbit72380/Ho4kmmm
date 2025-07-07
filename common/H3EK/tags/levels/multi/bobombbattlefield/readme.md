@@ -1,4 +1,4 @@
-## bobombbattlefield
+## Bob-omb Battlefield
 by Jackrabbit72380
 
 Screenshots
