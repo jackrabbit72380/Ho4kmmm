@@ -6,7 +6,7 @@
 
 ![Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/previews/Preview0.png)
 
-![Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/previews/Preview1.png)
+![Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/previews/Preview1.jpg)
 
 _________________________________________________________________________________________________________________________
 
