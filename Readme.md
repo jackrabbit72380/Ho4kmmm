@@ -1,4 +1,4 @@
-# (Ho4kmmm) Halo Online 4k Main Menu Mod
+# Ho4kmmm -  Halo Online 4k Main Menu Mod
 
 ## Screenshots
 
@@ -10,7 +10,7 @@
 
 _________________________________________________________________________________________________________________________
 
-(Ho4kmmm) Halo Online 4k Main Menu Mod
+Ho4kmmm Halo Online 4k Main Menu Mod
 
 This mod is currently only for the Halo 3 Campaign ported version of Halo Online Eldewrito Version 0.6.1.0. The 0.1.7 Version of The mod is still in development as I only have so much free time to dedicate to this project. I will be working to complete the project and bring it up to date for the latest version of Halo Online. 0.1.7 bare with me.
 Until then, you can follow the step-by-step tutorial to do individual modifications to your main menu, but your results may vary as the game has evolved and been updated since the project began around the time of the 0.5 release.
