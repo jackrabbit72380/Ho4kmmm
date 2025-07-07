@@ -11,7 +11,7 @@ Discription:
 
 Cryotech City is a Versitile Elite training ground Capable of hosting big team battle simulations with up to 16 players & large veachales
 
-eaach team gets there own beach.
+each team gets there own beach.
 
 It also fetures a lake with a cental battle bunker area for hosting smaller battles.
 
