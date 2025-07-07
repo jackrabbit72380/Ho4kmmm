@@ -2,9 +2,11 @@
 
 ## Screenshots
 
-![Screenshot](https://github.com/jackrabbit72380/ho4kmmm/blob/master/Preview.jpg)
+![Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/previews/Preview.png)
 
-![Screenshot](https://github.com/jackrabbit72380/ho4kmmm/blob/master/Preview2.jpg)
+![Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/previews/Preview0.png)
+
+![Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/previews/Preview1.png)
 
 _________________________________________________________________________________________________________________________
 
