@@ -2,7 +2,7 @@
 
 Discription 
 HALO 1: Pillar of Autumn's Hanger
-as mp Halo 3 Map.
+as Multiplayer Halo 3 Map.
 
 by Jackrabbit72380
 
@@ -12,7 +12,7 @@ Screenshots
 
 ![Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/common/H3EK/tags/levels/multi/thehanger/preview.jpg)
 
-to do.
+## to do.
 fix lighting
 add vechals
 fix gametypes
