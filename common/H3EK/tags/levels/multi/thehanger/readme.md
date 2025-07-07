@@ -14,7 +14,7 @@ Screenshots
 
 fix lighting
 
-add vechals
+add peli's
 
 fix gametypes
 
