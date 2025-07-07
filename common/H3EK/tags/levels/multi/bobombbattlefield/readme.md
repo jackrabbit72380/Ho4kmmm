@@ -23,3 +23,5 @@ Screenshots
  fix powerups
  
  fix dark void in the sky
+
+ fix Elevator
