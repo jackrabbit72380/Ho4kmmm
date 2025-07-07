@@ -8,9 +8,9 @@ Status: Beta Stages
 
 Screenshots
 
-![Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/common/H3EK/tags/levels/multi/thehanger/preview0.jpg)
+![Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/common/H3EK/tags/levels/multi/thehanger/previews/preview0.jpg)
 
-![Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/common/H3EK/tags/levels/multi/thehanger/preview.jpg)
+![Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/common/H3EK/tags/levels/multi/thehanger/previews/preview.jpg)
 
 ## to do.
 
