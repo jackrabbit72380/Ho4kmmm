@@ -9,7 +9,13 @@ there well be manny updates to the project in the future.
 
 Discription
 
-Cryotech City is a Versitile Elite training ground Capable of hosting big team battle simulations with up to 16 players & large veachales 
+Cryotech City is a Versitile Elite training ground Capable of hosting big team battle simulations with up to 16 players & large veachales
+
+eaach team gets there own beach.
+
+It also fetures a lake with a cental battle bunker area for hosting smaller battles.
+
+the outerbanks are sepirated buy a mote perfect for the race gametype. 
 
 much of the map layout and assets are unfinished. but more assets will be added in due time. 
 
