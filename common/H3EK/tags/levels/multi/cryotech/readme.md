@@ -1,7 +1,7 @@
 ## Cryotech
 by Jackrabbit72380
 
-Im releseing a beta version of this project as it has been in development over 20+ years.
+Im releseing a beta version of this project as it has been in development over 23+ years now.
 
 The first version was made for halo ce but then never relesed. i wanted to bring my project into halo 3 and finaly found some time to get much of it working.
 
