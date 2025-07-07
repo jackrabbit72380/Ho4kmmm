@@ -58,7 +58,7 @@ Keep in mind that not all of them will enable night mode in Sapien. However, nig
 ![Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/apps/H3EK/themetool_preview.jpg)
 
 # Troglodyte Preview
-![Screenshot](https://github.com/jackrabbit72380/ho4kmmm/blob/master/Troglodyte_Preview.jpg)
+![Screenshot](https://github.com/jackrabbit72380/ho4kmmm/blob/master//apps/H3EK/Troglodyte_Preview.jpg)
 #
 # Koko Preview
 ![Screenshot](https://github.com/jackrabbit72380/ho4kmmm/blob/master/koko11_preview.jpg)
