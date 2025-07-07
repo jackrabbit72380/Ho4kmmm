@@ -9,4 +9,4 @@ game files mady by Jackrabbit72380
 
 Screenshots
 
-![Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/common/H3EK/tags/levels/multi/assasin/previews/preview0.jpg)
+![Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/0.7.1/tags/4k_Skulls/PXF-Skulls/preview.jpg)
