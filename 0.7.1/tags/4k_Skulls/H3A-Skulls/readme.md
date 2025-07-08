@@ -1,3 +1,5 @@
-this project is not completed.
-however you can checkout some png images i amde
+This project is not completed.
+
+However you can checkout some png images i made
+
 1080p and 8k versions
