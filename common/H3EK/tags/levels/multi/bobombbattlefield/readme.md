@@ -28,7 +28,7 @@ Screenshots
 
  fix Elevator
 
- Credits
+ ## Credits
  
  Bean
  
