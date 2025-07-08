@@ -8,7 +8,7 @@ This can serve as a starting point for Modder's  to learn how to mod the main me
 
 
 ## Screenshots
-H3Ho4kmmmm Textures +Upscale main menu mod. Campaign Munu
+H3Ho4kmmmm Textures +Upscale main menu mod. Campaign Menu
 ![Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/previews/Preview.png)
 
 H3Ho4kmmmm Textures +Upscale main menu mod. Custom Gmes Lobby
