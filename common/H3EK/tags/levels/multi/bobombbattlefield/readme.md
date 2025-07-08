@@ -27,3 +27,15 @@ Screenshots
  fix dark void in the sky
 
  fix Elevator
+
+ Credits
+ 
+ Bean
+ 
+ Nintendo
+ 
+ Microsoft
+ 
+ Bungie
+ 
+ 343
