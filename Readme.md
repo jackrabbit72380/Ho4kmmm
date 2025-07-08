@@ -7,11 +7,11 @@ This mod aims to upscale the main menu natively add upscaled texture mods & othe
 This can serve as a starting point for Modder's  to learn how to mod the main menu. and make other customizations.
 
 ## Screenshots
-
+H3Hoforkmmmm Textures +Upscale main menu mod. Campaign Munu
 ![Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/previews/Preview.png)
-
+H3Hoforkmmmm Textures +Upscale main menu mod. Custom Gmes Lobby
 ![Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/previews/Preview0.png)
-
+Upscaled Map Preview Pictures For every Orignal Map + Orignal DLC 
 ![Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/previews/Preview1.jpg)
 
 _________________________________________________________________________________________________________________________
