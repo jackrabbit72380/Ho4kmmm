@@ -95,6 +95,16 @@ Choose from four epic mod versions to suit your Halo vibe! 👽 Se is for Scalin
 
 ## 🔵 Halo 3 🔵 Main Menu + Mods
 
+This Mod can run with or without the 4k menu scaling turned on.
+
+ halo online main menu version
+Refer to ho4kmmm for the halo online main menu version
+refer to ho4kmmm4kse for the 4k scaled main menu version
+
+ Halo 3 main menu version for halo online
+Refer to h3ho4kmmm for the halo online main menu version
+refer to h3ho4kmmm4kse for the 4k scaled main menu version
+
 ## 🟡 H3ho4kmmm 🟡 Upscaled textuers only
 
 This mod is for Halo Online Eldewrito 0.7.1 with all H3 mainmenu & H3 campaign maps ported.-with 4k menu textures only
