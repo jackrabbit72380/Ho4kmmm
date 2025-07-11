@@ -25,3 +25,11 @@ Bungie
 Microsoft
 
 Gearbox
+
+**to do
+
+weapon setup 
+
+spawn points setup
+
+online testing is needed.
