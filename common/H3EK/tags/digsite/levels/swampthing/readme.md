@@ -32,4 +32,4 @@ weapon setup
 
 spawn points setup
 
-online testing is needed.
+more h3 sapien work & online testing is needed.
