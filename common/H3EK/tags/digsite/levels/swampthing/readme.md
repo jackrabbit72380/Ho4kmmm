@@ -6,7 +6,7 @@ by Jackrabbit72380
 
 Status: beta test senario relese
 
-## credits
+## Credits
   
 Digsite for the Orignal Halo 1 Version
 
@@ -26,7 +26,7 @@ Microsoft
 
 Gearbox
 
-**to do
+## To do
 
 weapon setup 
 
