@@ -1,10 +1,6 @@
 mombasa by rxk1ng
 
-
-
-fixed up \& uploaded buy Jackrabbit72380
-
-
+fixed up & uploaded buy Jackrabbit72380
 
 Screenshots
 
