@@ -99,13 +99,13 @@ Refer to ho4kmmm for the halo online main menu version
 
 Refer to ho4kmmm4kse for the 4k scaled main menu version
 
-
  Halo 3 main menu version for halo online
  
-Refer to h3ho4kmmm for the halo online main menu version
+Refer to h3ho4kmmm for the Halo 3 online main menu version for halo online 
 
-Refer to h3ho4kmmm4kse for the 4k scaled main menu version
+Refer to h3ho4kmmm4kse for the 4k scaled Halo 3 main menu version for halo online 
 
+I know your confused so im going to go over that again in diffrent context here so you are clear.
 
 ## 🔵 Halo 3 🔵 Main Menu + Mods
 
@@ -128,6 +128,7 @@ This mod is for Halo Online Eldewrito 0.7.1 with all H3 mainmenu & H3 campaign m
 ## 🟡 Ho4kmmm 🟡 Upscaled textuers only
 
 This is for Ports with all Halo 3 campaign maps to ElDewrito 0.7.1, keeping the Halo Online main menu.
+
 This mod is for Halo Online Eldewrito 0.7.1 with all H3 campaign maps ported.-with 4k menu textures only
 
 Includes 4K menu textures for a stunning look!
@@ -135,6 +136,7 @@ Includes 4K menu textures for a stunning look!
 ## 🟢 Ho4kmmm4k-Se 🟢 Upscaled textuers +  Main Menu Mod Scaling Enabled
 
 Same as above, but with mod scaling enabled for extra polish. (This rescales the Main Menu to be true 4k)
+
 This mod is for Halo Online Eldewrito 0.7.1 with all H3 campaign maps ported.-with 4k menu textures & mod scaling enabled
 
 ❓ Need Help?
