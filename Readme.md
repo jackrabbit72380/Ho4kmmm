@@ -8,10 +8,10 @@ This can serve as a starting point for Modder's  to learn how to mod the main me
 
 
 ## Screenshots
-H3Ho4kmmmm Textures +Upscale main menu mod. Campaign Lobby
+H3Ho4kmmm Textures +Upscale main menu mod. Campaign Lobby
 ![Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/previews/Preview.png)
 
-H3Ho4kmmmm Textures +Upscale main menu mod. Custom Games Lobby
+H3Ho4kmmm Textures +Upscale main menu mod. Custom Games Lobby
 ![Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/previews/Preview0.png)
 
 Upscaled Map Select Screen For every Orignal Map + Orignal DLC 
