@@ -13,6 +13,8 @@ Digsite for the Orignal Halo 1 Version
 
 Noshots - For answering Verious technical questions.
 
+MtnDewit - For answering Verious technical questions.
+
 RxK1ng - For Ninja.
 
 Bean - For H4mc
