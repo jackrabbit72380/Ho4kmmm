@@ -140,6 +140,7 @@ Same as above, but with mod scaling enabled for extra polish. (This rescales the
 This mod is for Halo Online Eldewrito 0.7.1 with all H3 campaign maps ported.-with 4k menu textures & mod scaling enabled
 
 ❓ Need Help?
+these mod types are static not dynamic.
 
 This mod isn’t super beginner-friendly, so some modding knowledge helps! If you get stuck or have questions, shoot me a message! 📩 over on discord My user name is Jackrabbit72380
 
