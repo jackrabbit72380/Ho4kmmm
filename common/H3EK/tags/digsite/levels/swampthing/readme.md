@@ -11,9 +11,9 @@ Status: beta test senario relese
   
 Digsite for the Orignal Halo 1 Version
 
-Noshots - For answering Verious technical questions.
+Noshots - For answering Various technical questions.
 
-MtnDewit - For answering Verious technical questions.
+MtnDewit - For answering Various technical questions.
 
 RxK1ng - For Ninja.
 
