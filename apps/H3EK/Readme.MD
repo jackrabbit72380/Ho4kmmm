@@ -4,9 +4,6 @@
     <img width="25%" src="https://github.com/jackrabbit72380/Ho4kmmm/blob/master/apps/H3EK/previews/Troglidyte.png"> 
 </p>
 
-![Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/apps/H3EK/previews/Troglidyte.png)
-
-
 A Halo 3 Editing Kit Mod That Enables Dark mode in H3EK Sapien.
 
 V1 - Troglodyte-8 would be default Font size 8.
@@ -22,7 +19,9 @@ installation - Place Troglidyte-**.exe in C:\Program Files (x86)\Steam\steamapps
 
 # Koko
 
-![Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/apps/H3EK/previews/Koko.png)
+<p align="center" width="100%">
+    <img width="25%" src="https://github.com/jackrabbit72380/Ho4kmmm/blob/master/apps/H3EK/previews/Koko.png"> 
+</p>
 
 A Halo 3 Editing Kit Mod That enables xbox font convection ui in H3EK Guerilla.
 
