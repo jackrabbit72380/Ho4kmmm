@@ -3,3 +3,5 @@ Not much in here this is a placeholder for future projects.
 added some HCEEK Dark Icons
 
 https://github.com/jackrabbit72380/Ho4kmmm/blob/master/apps/HCEEK/HCEEK%20Dark%20Icons/HCEEK_koko.png
+
+https://github.com/jackrabbit72380/Ho4kmmm/blob/master/apps/HCEEK/HCEEK%20Dark%20Icons/HCEEK_Troglodyte.png
