@@ -9,7 +9,7 @@ Status: beta test senario release
 
 ## Credits
   
-Digsite for the Orignal Halo 1 Version
+Killzone64 for Porting the Mac World build to Digsite for the Orignal Halo 1 Version
 
 Noshots - For answering Various technical questions.
 
