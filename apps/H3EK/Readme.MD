@@ -1,6 +1,5 @@
 # Troglodyte
 
-**Align center:**
 <p align="center" width="100%">
     <img width="33%" src="https://github.com/jackrabbit72380/Ho4kmmm/blob/master/apps/H3EK/previews/Troglidyte.png"> 
 </p>
