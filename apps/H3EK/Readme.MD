@@ -1,5 +1,7 @@
 
 # Troglodyte
+
+
 A Halo 3 Editing Kit Mod That Enables Dark mode in H3EK Sapien.
 
 V1 - Troglodyte-8 would be default Font size 8.
@@ -14,6 +16,9 @@ For optimal results, ensure you enable High DPI Scaling Override (System Enhance
 installation - Place Troglidyte-**.exe in C:\Program Files (x86)\Steam\steamapps\common\H3EK
 
 # Koko
+
+https://github.com/jackrabbit72380/Ho4kmmm/blob/master/apps/H3EK/previews/Koko.png
+
 A Halo 3 Editing Kit Mod That enables xbox font convection ui in H3EK Guerilla.
 
 V1 - Koko-8 would be default Font size 8.
