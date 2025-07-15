@@ -19,7 +19,7 @@ RxK1ng - For Ninja.
 
 Bean - For H4mc
 
-Glitch - for Halo Infinate Assault rifle Model
+Glitch5970 - For The Halo Infinate Assault Rifle Model 
 
 343
 
