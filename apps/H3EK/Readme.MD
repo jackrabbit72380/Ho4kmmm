@@ -29,6 +29,12 @@ V1 - Koko-8 would be default Font size 8.
 
 V2 - Koko-11 would have 3x font size increase.
 
+Screeenshot of Gurilla vs Koko 11
+
+<p align="center" width="100%">
+    <img width="25%" src="https://github.com/jackrabbit72380/Ho4kmmm/blob/master/apps/H3EK/previews/guerilla_vs_koko11.jpg"> 
+</p>
+
 Choose your secondary weapon!
 
 installation - Place Koko-**.exe in C:\Program Files (x86)\Steam\steamapps\common\H3EK
