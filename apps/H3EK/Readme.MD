@@ -39,7 +39,7 @@ Choose your secondary weapon!
 
 installation - Place Koko-**.exe in C:\Program Files (x86)\Steam\steamapps\common\H3EK
 
-I have compiled two new versions of Guerrilla, also known as KOKO, with font upgrades. The upgrades are as follows:
+I have relesed two new versions of Guerrilla, also known as KOKO, with font upgrades. The upgrades are as follows:
 
 V1 Koko-8: Koko-8 uses the Convection UI font from Xbox, allowing you to see more tag information on the screen with a crisp, clean, ClearType font without a significant size change. This is a huge improvement over the original Guerrilla.
 
