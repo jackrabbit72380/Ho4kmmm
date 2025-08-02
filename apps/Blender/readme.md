@@ -1,4 +1,4 @@
-Blender Themes inspired buy Halo & The Halo editing kits.
+## Blender Themes inspired buy Halo & The Halo editing kits.
 
 Installation: Place the xml file in the proper directory for your os
 
@@ -13,4 +13,5 @@ Example: /Users/JohnDoe/Library/Application Support/Blender/4.5/scripts/presets/
 
 Linux: $HOME/.config/blender/<Version>/scripts/presets/interface_theme/
 Example: /home/johndoe/.config/blender/4.5/scripts/presets/interface_theme/
+
 
