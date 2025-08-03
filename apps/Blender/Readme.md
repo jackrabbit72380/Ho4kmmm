@@ -77,6 +77,9 @@ Linux: $HOME/.config/blender//scripts/presets/interface_theme/ Example: /home/jo
   </tr>
 </table>
 
+All credit go's to Luna for the orignal Forerunner theme!
+
+
 
 
 
