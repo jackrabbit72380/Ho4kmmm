@@ -45,7 +45,7 @@ Linux: $HOME/.config/blender//scripts/presets/interface_theme/ Example: /home/jo
       <img width="200" src="https://raw.githubusercontent.com/jackrabbit72380/Ho4kmmm/master/apps/Blender/Theme%20Previews/HREK%20Theme%20Preview.jpg" alt="HREK Theme Preview">
     </td>
     <td style="text-align: center; width: 250px;">
-      <p style="margin: 0 0 10px 0; font-weight: bold;">Halo Infinite Theme.jpg</p>
+      <p style="margin: 0 0 10px 0; font-weight: bold;">Halo Infinite Theme</p>
       <img width="200" src="https://raw.githubusercontent.com/jackrabbit72380/Ho4kmmm/master/apps/Blender/Theme%20Previews/Halo%20Infinite%20Theme.jpg" alt="Halo Infinite Theme Preview">
     </td>
     <td style="text-align: center; width: 250px;">
@@ -54,6 +54,7 @@ Linux: $HOME/.config/blender//scripts/presets/interface_theme/ Example: /home/jo
     </td>
   </tr>
 </table>
+
 
 
 
