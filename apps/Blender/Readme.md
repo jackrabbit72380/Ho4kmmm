@@ -10,3 +10,8 @@ Example: C:\Users\JohnDoe\AppData\Roaming\Blender Foundation\Blender\4.5\scripts
 MacOS: /Users//Library/Application Support/Blender//scripts/presets/interface_theme/ Example: /Users/JohnDoe/Library/Application Support/Blender/4.5/scripts/presets/interface_theme/
 
 Linux: $HOME/.config/blender//scripts/presets/interface_theme/ Example: /home/johndoe/.config/blender/4.5/scripts/presets/interface_theme/
+
+
+<p align="center" width="100%">
+    <img width="25%" src="https://github.com/jackrabbit72380/Ho4kmmm/blob/master/apps/Blender/Theme previews/guerilla_vs_koko11.jpg"> 
+</p>
