@@ -43,7 +43,7 @@
   </tr>
 </table>
 
-<table style="width: 800px; margin: 0 auto; border-collapse: separate; border-spacing: 15px 0;">
+<table style="width: 800px; margin: 0 auto 20px auto; border-collapse: separate; border-spacing: 15px 0;">
   <tr>
     <td style="text-align: center; width: 170px;">
       <p style="margin: 0 0 10px 0; font-weight: bold;">ODST Midnight Theme</p>
@@ -55,7 +55,7 @@
     </td>
     <td style="text-align: center; width: 170px;">
       <p style="margin: 0 0 10px 0; font-weight: bold;">Halo 4 Haven Theme</p>
-      <img width="120" src="https://raw.githubusercontent.com/jackrabbit72380/Ho4kmmm/master/apps/Blender/Theme%20Previews/Halo%204%20Haven%20Theme%20Preview.jpg" alt="ODSTEK Theme Preview">
+      <img width="120" src="https://raw.githubusercontent.com/jackrabbit72380/Ho4kmmm/master/apps/Blender/Theme%20Previews/Halo%204%20Haven%20Theme%20Preview.jpg" alt="Halo 4 Haven Theme Preview">
     </td>
     <td style="text-align: center; width: 170px;">
       <p style="margin: 0 0 10px 0; font-weight: bold;">Covenant Theme</p>
@@ -64,7 +64,29 @@
   </tr>
 </table>
 
+<table style="width: 800px; margin: 0 auto 20px auto; border-collapse: separate; border-spacing: 15px 0;">
+  <tr>
+    <td style="text-align: center; width: 170px;">
+      <p style="margin: 0 0 10px 0; font-weight: bold;">C20 Theme</p>
+      <img width="120" src="https://raw.githubusercontent.com/jackrabbit72380/Ho4kmmm/master/apps/Blender/Theme%20Previews/C20%20Theme%20Preview.jpg" alt="C20 Theme Preview">
+    </td>
+    <td style="text-align: center; width: 170px;">
+      <p style="margin: 0 0 10px 0; font-weight: bold;">Halo 5 Theme</p>
+      <img width="120" src="https://raw.githubusercontent.com/jackrabbit72380/Ho4kmmm/master/apps/Blender/Theme%20Previews/Halo%205%20Theme%20Preview.jpg" alt="Halo 5 Theme Preview">
+    </td>
+    <td style="text-align: center; width: 170px;">
+      <p style="margin: 0 0 10px 0; font-weight: bold;">Halo Mods Theme</p>
+      <img width="120" src="https://raw.githubusercontent.com/jackrabbit72380/Ho4kmmm/master/apps/Blender/Theme%20Previews/Halo%20Mods%20Theme%20Preview.jpg" alt="Halo Mods Theme Preview">
+    </td>
+    <td style="text-align: center; width: 170px;">
+      <p style="margin: 0 0 10px 0; font-weight: bold;">Halo Online Theme</p>
+      <img width="120" src="https://raw.githubusercontent.com/jackrabbit72380/Ho4kmmm/master/apps/Blender/Theme%20Previews/Halo%20Online%20Theme%20Preview.jpg" alt="Halo Online Theme Preview">
+    </td>
+  </tr>
+</table>
+
 All credit go's to Luna for the orignal Forerunner theme!
+
 
 
 
