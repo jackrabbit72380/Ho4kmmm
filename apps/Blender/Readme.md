@@ -13,17 +13,22 @@ Linux: $HOME/.config/blender//scripts/presets/interface_theme/ Example: /home/jo
 
 # Theme Previews
 
-<div style="text-align: center;">
-  <div style="display: flex; justify-content: space-around; margin-bottom: 10px;">
-    <span>The Forerunner Theme          </span>
-    <span>The H2EK Theme</span>
-    <span>The H3EK Theme</span>
+<div style="display: flex; justify-content: center; gap: 20px; text-align: center;">
+  <div>
+    <p>The Forerunner Theme</p>
+    <img width="200" src="https://raw.githubusercontent.com/jackrabbit72380/Ho4kmmm/master/apps/Blender/Theme%20Previews/Forerunner%20Theme%20Preview.jpg" alt="Forerunner Theme Preview">
   </div>
-  <div style="display: flex; justify-content: space-around;">
-    <img width="25%" src="https://raw.githubusercontent.com/jackrabbit72380/Ho4kmmm/master/apps/Blender/Theme%20Previews/Forerunner%20Theme%20Preview.jpg" alt="Forerunner Theme Preview">
-    <img width="25%" src="https://raw.githubusercontent.com/jackrabbit72380/Ho4kmmm/master/apps/Blender/Theme%20Previews/H2EK%20Theme%20Preview.jpg" alt="H2EK Theme Preview">
-    <img width="25%" src="https://raw.githubusercontent.com/jackrabbit72380/Ho4kmmm/master/apps/Blender/Theme%20Previews/H3EK%20Theme%20Preview.jpg" alt="H3EK Theme Preview">
+  <div>
+    <p>The H2EK Theme</p>
+    <img width="200" src="https://raw.githubusercontent.com/jackrabbit72380/Ho4kmmm/master/apps/Blender/Theme%20Previews/H2EK%20Theme%20Preview.jpg" alt="H2EK Theme Preview">
   </div>
+  <div>
+    <p>The H3EK Theme</p>
+    <img width="200" src="https://raw.githubusercontent.com/jackrabbit72380/Ho4kmmm/master/apps/Blender/Theme%20Previews/H3EK%20Theme%20Preview.jpg" alt="H3EK Theme Preview">
+  </div>
+</div>
+
+
 
 
 
