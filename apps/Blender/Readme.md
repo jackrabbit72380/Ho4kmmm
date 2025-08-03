@@ -11,13 +11,14 @@ MacOS: /Users//Library/Application Support/Blender//scripts/presets/interface_th
 
 Linux: $HOME/.config/blender//scripts/presets/interface_theme/ Example: /home/johndoe/.config/blender/4.5/scripts/presets/interface_theme/
 
-<p align="center">
+<p align="left">
 // The Forrunner Theme //
 </p>
 
-<p align="center" width="100%">
+<p align="left" width="100%">
     <img width="25%" src="https://github.com/jackrabbit72380/Ho4kmmm/blob/master/apps/Blender/Theme%20Previews/Forerunner%20Theme%20Preview.jpg">  
 </p>
+
 
 
 
