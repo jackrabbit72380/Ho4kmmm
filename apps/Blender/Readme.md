@@ -13,9 +13,13 @@ Linux: $HOME/.config/blender//scripts/presets/interface_theme/ Example: /home/jo
 
 
 <p align="center" width="100%">
-    <img width="25%" src="https://github.com/jackrabbit72380/Ho4kmmm/blob/master/apps/Blender/Theme%20Previews/Forerunner%20Theme%20Preview.jpg"> 
-      <txt width="25%" src="The Forrunner Theme"> 
+    <img width="25%" src="https://github.com/jackrabbit72380/Ho4kmmm/blob/master/apps/Blender/Theme%20Previews/Forerunner%20Theme%20Preview.jpg">  
 </p>
+<p align="center">
+// The Forrunner Theme
+</p>
+
+
 
 
 
