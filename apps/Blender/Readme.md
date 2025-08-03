@@ -71,10 +71,11 @@ Linux: $HOME/.config/blender//scripts/presets/interface_theme/ Example: /home/jo
     </td>
     <td style="text-align: center; width: 170px;">
       <p style="margin: 0 0 10px 0; font-weight: bold;">Covenant Theme</p>
-      <img width="120" src="https://raw.githubusercontent.com/jackrabbit72380/Ho4kmmm/master/apps/Blender/Theme%20Previews/Covenant%20Theme%20Preview.jpg" alt="Covenant Theme Preview">
+      <img width="120" src="https://raw.githubusercontent.com/jackrabbit72380/Ho4kmmm/master/apps/Blender/Theme%20Previews/Covenant%20Theme%20%20Preview.jpg" alt="Covenant Theme Preview">
     </td>
   </tr>
 </table>
+
 
 
 
