@@ -13,7 +13,7 @@ Linux: $HOME/.config/blender//scripts/presets/interface_theme/ Example: /home/jo
 
 # Theme Previews
 
-<table style="width: 900px; margin: 0 auto; border-collapse: separate; border-spacing: 25px 0;">
+<table style="width: 1100px; margin: 0 auto 20px auto; border-collapse: separate; border-spacing: 25px 0;">
   <tr>
     <td style="text-align: center; width: 250px;">
       <p style="margin: 0 0 10px 0; font-weight: bold;">The Forerunner Theme</p>
@@ -26,6 +26,31 @@ Linux: $HOME/.config/blender//scripts/presets/interface_theme/ Example: /home/jo
     <td style="text-align: center; width: 250px;">
       <p style="margin: 0 0 10px 0; font-weight: bold;">The H3EK Theme</p>
       <img width="200" src="https://raw.githubusercontent.com/jackrabbit72380/Ho4kmmm/master/apps/Blender/Theme%20Previews/H3EK%20Theme%20Preview.jpg" alt="H3EK Theme Preview">
+    </td>
+    <td style="text-align: center; width: 250px;">
+      <p style="margin: 0 0 10px 0; font-weight: bold;">The H4EK Theme</p>
+      <img width="200" src="https://raw.githubusercontent.com/jackrabbit72380/Ho4kmmm/master/apps/Blender/Theme%20Previews/H4EK%20Theme%20Preview.jpg" alt="H4EK Theme Preview">
+    </td>
+  </tr>
+</table>
+
+<table style="width: 1100px; margin: 0 auto; border-collapse: separate; border-spacing: 25px 0;">
+  <tr>
+    <td style="text-align: center; width: 250px;">
+      <p style="margin: 0 0 10px 0; font-weight: bold;">HCEEK Theme</p>
+      <img width="200" src="https://raw.githubusercontent.com/jackrabbit72380/Ho4kmmm/master/apps/Blender/Theme%20Previews/HCEEK%20Theme%20Preview.jpg" alt="HCEEK Theme Preview">
+    </td>
+    <td style="text-align: center; width: 250px;">
+      <p style="margin: 0 0 10px 0; font-weight: bold;">HREK Theme</p>
+      <img width="200" src="https://raw.githubusercontent.com/jackrabbit72380/Ho4kmmm/master/apps/Blender/Theme%20Previews/HREK%20Theme%20Preview.jpg" alt="HREK Theme Preview">
+    </td>
+    <td style="text-align: center; width: 250px;">
+      <p style="margin: 0 0 10px 0; font-weight: bold;">Halo Infinite Theme</p>
+      <img width="200" src="https://raw.githubusercontent.com/jackrabbit72380/Ho4kmmm/master/apps/Blender/Theme%20Previews/Halo%20Infinite%20Theme.jpg" alt="Halo Infinite Theme Preview">
+    </td>
+    <td style="text-align: center; width: 250px;">
+      <p style="margin: 0 0 10px 0; font-weight: bold;">ODSTEK Theme</p>
+      <img width="200" src="https://raw.githubusercontent.com/jackrabbit72380/Ho4kmmm/master/apps/Blender/Theme%20Previews/ODSTEK%20Theme%20Preview.jpg" alt="ODSTEK Theme Preview">
     </td>
   </tr>
 </table>
