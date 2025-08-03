@@ -12,21 +12,29 @@ MacOS: /Users//Library/Application Support/Blender//scripts/presets/interface_th
 Linux: $HOME/.config/blender//scripts/presets/interface_theme/ Example: /home/johndoe/.config/blender/4.5/scripts/presets/interface_theme/
 
 # Theme Previews
-
-<div style="display: flex; justify-content: center; gap: 20px; text-align: center;">
-  <div>
+<div style="display: flex; flex-wrap: nowrap; justify-content: center; gap: 20px; text-align: center; width: 100%;">
+  <div style="flex: 1;">
     <p>The Forerunner Theme</p>
+  </div>
+  <div style="flex: 1;">
+    <p>The H2EK Theme</p>
+  </div>
+  <div style="flex: 1;">
+    <p>The H3EK Theme</p>
+  </div>
+</div>
+<div style="display: flex; flex-wrap: nowrap; justify-content: center; gap: 20px; text-align: center; width: 100%;">
+  <div style="flex: 1;">
     <img width="200" src="https://raw.githubusercontent.com/jackrabbit72380/Ho4kmmm/master/apps/Blender/Theme%20Previews/Forerunner%20Theme%20Preview.jpg" alt="Forerunner Theme Preview">
   </div>
-  <div>
-    <p>The H2EK Theme</p>
+  <div style="flex: 1;">
     <img width="200" src="https://raw.githubusercontent.com/jackrabbit72380/Ho4kmmm/master/apps/Blender/Theme%20Previews/H2EK%20Theme%20Preview.jpg" alt="H2EK Theme Preview">
   </div>
-  <div>
-    <p>The H3EK Theme</p>
+  <div style="flex: 1;">
     <img width="200" src="https://raw.githubusercontent.com/jackrabbit72380/Ho4kmmm/master/apps/Blender/Theme%20Previews/H3EK%20Theme%20Preview.jpg" alt="H3EK Theme Preview">
   </div>
 </div>
+
 
 
 
