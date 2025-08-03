@@ -1,4 +1,4 @@
-# :grinning: Hey Guys I made some new Blender Themes inspired buy The Halo Games & The Halo editing kits! & started a little collection here!  Enjoy! & Happy Modding! 
+# Hey Guys I made some new Blender Themes inspired buy The Halo Games & The Halo editing kits! & started a little collection here!  
 # Theme Previews
 <table style="width: 800px; margin: 0 auto 20px auto; border-collapse: separate; border-spacing: 15px 0;">
   <tr>
@@ -84,7 +84,10 @@
   </tr>
 </table>
 
+Included noob frendly Installation.txt
 All credit go's to Luna for the orignal Forerunner theme!
+Enjoy! & Happy Modding! :grinning:
+
 
 
 
