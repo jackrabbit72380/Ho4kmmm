@@ -13,18 +13,22 @@ Linux: $HOME/.config/blender//scripts/presets/interface_theme/ Example: /home/jo
 
 # Theme Previews
 
-<div style="width: 900px; margin: 0 auto; text-align: center; white-space: nowrap;">
-  <div style="display: inline-block; width: 250px; margin: 0 25px; vertical-align: top;">
-    <p style="margin: 0 0 10px 0; font-weight: bold;">The Forerunner Theme</p>
-    <img width="200" src="https://raw.githubusercontent.com/jackrabbit72380/Ho4kmmm/master/apps/Blender/Theme%20Previews/Forerunner%20Theme%20Preview.jpg" alt="Forerunner Theme Preview">
-  </div><div style="display: inline-block; width: 250px; margin: 0 25px; vertical-align: top;">
-    <p style="margin: 0 0 10px 0; font-weight: bold;">The H2EK Theme</p>
-    <img width="200" src="https://raw.githubusercontent.com/jackrabbit72380/Ho4kmmm/master/apps/Blender/Theme%20Previews/H2EK%20Theme%20Preview.jpg" alt="H2EK Theme Preview">
-  </div><div style="display: inline-block; width: 250px; margin: 0 25px; vertical-align: top;">
-    <p style="margin: 0 0 10px 0; font-weight: bold;">The H3EK Theme</p>
-    <img width="200" src="https://raw.githubusercontent.com/jackrabbit72380/Ho4kmmm/master/apps/Blender/Theme%20Previews/H3EK%20Theme%20Preview.jpg" alt="H3EK Theme Preview">
-  </div>
-</div>
+<table style="width: 900px; margin: 0 auto; border-collapse: separate; border-spacing: 25px 0;">
+  <tr>
+    <td style="text-align: center; width: 250px;">
+      <p style="margin: 0 0 10px 0; font-weight: bold;">The Forerunner Theme</p>
+      <img width="200" src="https://raw.githubusercontent.com/jackrabbit72380/Ho4kmmm/master/apps/Blender/Theme%20Previews/Forerunner%20Theme%20Preview.jpg" alt="Forerunner Theme Preview">
+    </td>
+    <td style="text-align: center; width: 250px;">
+      <p style="margin: 0 0 10px 0; font-weight: bold;">The H2EK Theme</p>
+      <img width="200" src="https://raw.githubusercontent.com/jackrabbit72380/Ho4kmmm/master/apps/Blender/Theme%20Previews/H2EK%20Theme%20Preview.jpg" alt="H2EK Theme Preview">
+    </td>
+    <td style="text-align: center; width: 250px;">
+      <p style="margin: 0 0 10px 0; font-weight: bold;">The H3EK Theme</p>
+      <img width="200" src="https://raw.githubusercontent.com/jackrabbit72380/Ho4kmmm/master/apps/Blender/Theme%20Previews/H3EK%20Theme%20Preview.jpg" alt="H3EK Theme Preview">
+    </td>
+  </tr>
+</table>
 
 
 
