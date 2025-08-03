@@ -15,7 +15,7 @@ Linux: $HOME/.config/blender//scripts/presets/interface_theme/ Example: /home/jo
 
 <div style="text-align: center;">
   <div style="display: flex; justify-content: space-around; margin-bottom: 10px;">
-    <span>The Forerunner Theme</span>
+    <span>The Forerunner Theme          </span>
     <span>The H2EK Theme</span>
     <span>The H3EK Theme</span>
   </div>
@@ -24,6 +24,7 @@ Linux: $HOME/.config/blender//scripts/presets/interface_theme/ Example: /home/jo
     <img width="25%" src="https://raw.githubusercontent.com/jackrabbit72380/Ho4kmmm/master/apps/Blender/Theme%20Previews/H2EK%20Theme%20Preview.jpg" alt="H2EK Theme Preview">
     <img width="25%" src="https://raw.githubusercontent.com/jackrabbit72380/Ho4kmmm/master/apps/Blender/Theme%20Previews/H3EK%20Theme%20Preview.jpg" alt="H3EK Theme Preview">
   </div>
+
 
 
 
