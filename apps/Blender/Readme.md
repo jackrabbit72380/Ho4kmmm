@@ -1,7 +1,4 @@
 Here you will find some Blender Themes inspired buy Halo & The Halo editing kits.
-
-Just Check Installation.txt if you need help!
-
 # Theme Previews
 
 <table style="width: 800px; margin: 0 auto 20px auto; border-collapse: separate; border-spacing: 15px 0;">
@@ -68,6 +65,7 @@ Just Check Installation.txt if you need help!
 </table>
 
 All credit go's to Luna for the orignal Forerunner theme!
+
 
 
 
