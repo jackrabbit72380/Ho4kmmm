@@ -13,17 +13,17 @@ Linux: $HOME/.config/blender//scripts/presets/interface_theme/ Example: /home/jo
 
 # Theme Previews
 
-<div style="display: flex; justify-content: space-between; gap: 20px; text-align: center; max-width: 1000px; margin: 0 auto;">
-  <div style="flex: 1;">
-    <p style="margin-bottom: 10px;">The Forerunner Theme</p>
+<div style="display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-between; gap: 20px; text-align: center; max-width: 1000px; margin: 0 auto; min-width: 600px;">
+  <div style="flex: 1; display: flex; flex-direction: column; align-items: center;">
+    <p style="margin: 0 0 10px 0; font-weight: bold;">The Forerunner Theme</p>
     <img width="200" src="https://raw.githubusercontent.com/jackrabbit72380/Ho4kmmm/master/apps/Blender/Theme%20Previews/Forerunner%20Theme%20Preview.jpg" alt="Forerunner Theme Preview">
   </div>
-  <div style="flex: 1;">
-    <p style="margin-bottom: 10px;">The H2EK Theme</p>
+  <div style="flex: 1; display: flex; flex-direction: column; align-items: center;">
+    <p style="margin: 0 0 10px 0; font-weight: bold;">The H2EK Theme</p>
     <img width="200" src="https://raw.githubusercontent.com/jackrabbit72380/Ho4kmmm/master/apps/Blender/Theme%20Previews/H2EK%20Theme%20Preview.jpg" alt="H2EK Theme Preview">
   </div>
-  <div style="flex: 1;">
-    <p style="margin-bottom: 10px;">The H3EK Theme</p>
+  <div style="flex: 1; display: flex; flex-direction: column; align-items: center;">
+    <p style="margin: 0 0 10px 0; font-weight: bold;">The H3EK Theme</p>
     <img width="200" src="https://raw.githubusercontent.com/jackrabbit72380/Ho4kmmm/master/apps/Blender/Theme%20Previews/H3EK%20Theme%20Preview.jpg" alt="H3EK Theme Preview">
   </div>
 </div>
