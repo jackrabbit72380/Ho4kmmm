@@ -11,8 +11,9 @@ to get accsess to all these enviomental textures.
 Envorments Preview Screenshots
 ![Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/common/H3EK/data/sm6040/levels/envorments_preview.jpg)
 
-bob-omb battlefield envioment catagory example
+Bob-omb battlefield envioment catagory example
 ![Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/common/H3EK/data/sm6040/levels/bob-omb%20battlefield%20envioment%20catagory%20example.jpg)
+
 
 
 
