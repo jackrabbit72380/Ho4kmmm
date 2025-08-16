@@ -12,6 +12,11 @@ Envorments Preview Screenshots
 Instalation is simple! Just drop the sm6040 folder in your H3EK/Data Directory.
 to get accsess to all these enviomental textures.
 
+bob-omb battlefield envioment catagory example
+![Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/common/H3EK/data/sm6040/levels/envorments_preview.jpg)
+
+
+
 
 
 
