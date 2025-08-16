@@ -14,6 +14,9 @@ Envorments Preview Screenshots
 Bob-omb battlefield envioment catagory example
 ![Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/common/H3EK/data/sm6040/levels/bob-omb%20battlefield%20envioment%20catagory%20example.jpg)
 
+if you wish to add any content or need help with this project please viset https://github.com/jackrabbit72380/Ho4kmmm/discussions
+
+
 
 
 
