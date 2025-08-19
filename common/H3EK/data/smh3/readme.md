@@ -1,4 +1,4 @@
-\## smh3
+![Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/common/H3EK/data/smh3/previews/welcometosmh3.jpg)
 
 
 
@@ -28,6 +28,7 @@ Bob-omb battlefield envioment catagory example
 
 
 if you wish to add any content or need help with this project please viset https://github.com/jackrabbit72380/Ho4kmmm/discussions
+
 
 
 
