@@ -1,0 +1,40 @@
+\## smh3
+
+
+
+by Jackrabbit72380
+
+
+
+I’ve put a lot of work into creating a fully categorized HD texture pack for Halo 3 based on Super Mario 64 HD Texture mods from all corners of the internet, Mod makers, Other Users \& my self. These environments \& actors Textures, are specifically tailored for Halo 3, But it’s much more than just another SM64 texture pack for Halo 3! With The first level. Bob-omb Battlefield’s textures \& shaders completed, and another user porting over the mushroom castle i figured why not just port everything. so i did but then i wanted more, so I now have plans to add specular, detail, \& normal maps for other environments as well. These custom textures, based on the original SM64 assets \& properly named, are incredibly versatile for creating new maps \& custom environments, such as a unique Custom Rainbow Ride, Custom Haunted Mansion or maybe A Custom Bowsers Castle level. Well now you can. This pack enables modders to create new worlds or port existing SM64 mods into Halo 3. All you need to do is import your level geometry \& select an environment to work with. The custom shaders work seamlessly, utilizing the new specular details \& normal maps for each texture used in your map.
+
+The ability to create new maps with these HD textures is exciting! Since I’ve categorized everything (environments \& actors), modders \& level designers can now easily use this pack to build custom SM64-style levels for Halo 3 or other rendering pipelines. These environmental textures are far more than a simple HD texture pack for Super Mario 64. Thats not what this is. That’s just where it all started, but smh3 keeps it going by adding more custom textures \& building on them to bring even more custom levels \& fun! Each environment contains fine-tuned HD textures based on the original Hd texture packs from there orignal moders over the past 2 decateds Moders like render96 and the sm64 community for example have put together sevral sm64 hd texture packs. in the past and smh3 blends them all together giving you everything and this one pack combines them all wile adding even more, but smh3 goes further by creating additional custom variations of textures from the original environments while adding specular details, normal maps \& matching shaders for all the textures. New textures can be added to existing environments \& entirely new environments can now be created! \& it never has to stop being buit! =) Now you can be creative \& build what ever new world you like! based on envioments from sm64. This added texture pack serves as a foundation for anyone wanting to work on platformer-style environments, whether building an SM64-style level in Halo 3, creating something totaly custom or porting an existing SM64 mod to Halo 3. Adding specular \& normal maps will elevate the visual fidelity to the next level, especially for modern rendering pipelines.
+
+
+
+Instalation is simple! Just drop the smh3 folder in your H3EK/Data Directory.
+
+to get accsess to all these enviomental textures.
+
+
+
+Envorments Preview Screenshots
+
+!\[Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/common/H3EK/data/smh3/levels/envorments\_preview.jpg)
+
+
+
+Bob-omb battlefield envioment catagory example
+
+!\[Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/common/H3EK/data/smh3/levels/envioment%20example.jpg)
+
+
+
+if you wish to add any content or need help with this project please viset https://github.com/jackrabbit72380/Ho4kmmm/discussions
+
+
+
+
+
+
+
