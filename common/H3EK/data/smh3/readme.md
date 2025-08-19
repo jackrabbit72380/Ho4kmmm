@@ -20,16 +20,19 @@ to get accsess to all these enviomental textures.
 
 Envorments Preview Screenshots
 
-!\[Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/common/H3EK/data/smh3/previews/envorments_preview.jpg)
+!\[Screenshot]
+(https://github.com/jackrabbit72380/Ho4kmmm/blob/master/common/H3EK/data/smh3/previews/envorments_preview.jpg)
 
 
 Bob-omb battlefield envioment catagory example
 
-!\[Screenshot](https://github.com/jackrabbit72380/Ho4kmmm/blob/master/common/H3EK/data/smh3/previews/envioment%20example.jpg)
+!\[Screenshot]
+(https://github.com/jackrabbit72380/Ho4kmmm/blob/master/common/H3EK/data/smh3/previews/envioment%20example.jpg)
 
 
 
 if you wish to add any content or need help with this project please viset https://github.com/jackrabbit72380/Ho4kmmm/discussions
+
 
 
 
