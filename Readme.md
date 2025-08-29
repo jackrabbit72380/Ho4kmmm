@@ -1,6 +1,10 @@
 Hey guys! & Welocme to my repository for all my Halo projects! I started a new discord server & it would mean alot to me if You Join up! it's called HALO LAND 
 & here we can talk about any & all of my halo projects on this repository! As well as engage in creating more halo content for everyone to enjoy! 
-https://discord.gg/CbKhAPyBfM
+https://discord.gg/CbKhAPyBfM Hope to see you there!
+
+for mcc content go here!
+
+for eldrito content keep reading!
 
 ## Ho4kmmm -  Halo Online 4k Main Menu Mod
 
