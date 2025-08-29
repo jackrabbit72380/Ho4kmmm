@@ -10,7 +10,7 @@ for mcc content go here!
 
 https://github.com/jackrabbit72380/Ho4kmmm/tree/master/common
 
-for eldrito content keep reading!
+for eldwrito content keep reading!
 
 
 ## Ho4kmmm -  Halo Online 4k Main Menu Mod
