@@ -4,16 +4,19 @@ https://discord.gg/CbKhAPyBfM Hope to see you there!
 
 for mcc content go here!
 
+https://github.com/jackrabbit72380/Ho4kmmm/tree/master/common
+
 for eldrito content keep reading!
 
+
 ## Ho4kmmm -  Halo Online 4k Main Menu Mod
+
 
 Weclome to the Ho4kmmm Mod Project Repository
 
 This repository is a mod currently in development.
 This mod aims to upscale the main menu natively add upscaled texture mods & other customizations to the Halo Online user interface,
 This can serve as a starting point for Modder's  to learn how to mod the main menu. and make other customizations.
-
 
 ## Screenshots
 H3Ho4kmmm Textures +Upscale main menu mod. Campaign Lobby
