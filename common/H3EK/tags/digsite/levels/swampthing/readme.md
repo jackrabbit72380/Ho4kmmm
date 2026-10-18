@@ -19,6 +19,10 @@ RxK1ng - For Ninja.
 
 Bean - For H4mc
 
+Thrashed -for fixing a whole on the bsp stoping pathfinding from woking
+
+070F/0Xff90 -For Finaly getting the pathfinding working.
+
 Glitch5970 - For The Halo Infinate Assault Rifle Model 
 
 343
@@ -36,3 +40,4 @@ weapon setup
 spawn points setup
 
 more h3 sapien work & online testing is needed.
+
